@@ -1,0 +1,61 @@
+{
+  "name": "shakhmatka-web",
+  "version": "1.0.0",
+  "description": "Шахматка — сайт на Payload CMS + Next.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "cross-env NODE_OPTIONS=\"--no-deprecation --max-old-space-size=8000\" next build",
+    "dev": "cross-env NODE_OPTIONS=--no-deprecation next dev",
+    "devsafe": "rm -rf .next && cross-env NODE_OPTIONS=--no-deprecation next dev",
+    "generate:importmap": "cross-env NODE_OPTIONS=--no-deprecation payload generate:importmap",
+    "generate:types": "cross-env NODE_OPTIONS=--no-deprecation payload generate:types",
+    "lint": "cross-env NODE_OPTIONS=--no-deprecation eslint .",
+    "payload": "cross-env NODE_OPTIONS=--no-deprecation payload",
+    "start": "cross-env NODE_OPTIONS=--no-deprecation next start",
+    "seed": "cross-env NODE_OPTIONS=--no-deprecation payload run src/seed/import-articles.ts",
+    "seed:places": "cross-env NODE_OPTIONS=--no-deprecation payload run src/seed/places.ts",
+    "seed:facts": "cross-env NODE_OPTIONS=--no-deprecation payload run src/seed/object-facts.ts",
+    "seed:terms": "cross-env NODE_OPTIONS=--no-deprecation payload run src/seed/terms.ts",
+    "brand": "node scripts/brand-assets.mjs",
+    "check:links": "cross-env NODE_OPTIONS=--no-deprecation payload run src/seed/check-links.ts",
+    "seed:all": "npm run seed && npm run seed:places && npm run seed:facts && npm run seed:dossiers && npm run seed:terms && npm run check:links",
+    "seed:dossiers": "cross-env NODE_OPTIONS=--no-deprecation payload run src/seed/object-dossiers.ts"
+  },
+  "dependencies": {
+    "@fontsource/onest": "^5.1.0",
+    "@fontsource/unbounded": "^5.1.0",
+    "@payloadcms/db-postgres": "3.90.2",
+    "@payloadcms/db-sqlite": "3.90.2",
+    "@payloadcms/next": "3.90.2",
+    "@payloadcms/richtext-lexical": "3.90.2",
+    "@payloadcms/storage-s3": "3.90.2",
+    "@payloadcms/ui": "3.90.2",
+    "cross-env": "^7.0.3",
+    "dotenv": "16.4.7",
+    "graphql": "^16.8.1",
+    "gray-matter": "4.0.3",
+    "marked": "15.0.12",
+    "next": "16.3.3",
+    "payload": "3.90.2",
+    "react": "19.2.6",
+    "react-dom": "19.2.6",
+    "sharp": "0.35.4"
+  },
+  "devDependencies": {
+    "@types/node": "22.19.9",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "eslint": "^9.16.0",
+    "eslint-config-next": "16.3.3",
+    "opentype.js": "1.3.4",
+    "prettier": "^3.4.2",
+    "tsx": "4.22.4",
+    "typescript": "5.7.3",
+    "vite-tsconfig-paths": "6.0.5"
+  },
+  "engines": {
+    "node": "^18.20.2 || >=20.9.0",
+    "pnpm": "^9 || ^10 || ^11"
+  }
+}

@@ -1,0 +1,12 @@
+# Шахматка — корень репозитория. Правила сайта — в web/.gitignore
+.DS_Store
+.trash/
+_to_delete/
+# исходные заметки канала и их разбор — не публикуем
+data/
+notes.tgz
+*.tgz
+.env
+.env.*
+!.env.example
+*.db

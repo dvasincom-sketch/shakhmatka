@@ -1,0 +1,10 @@
+{
+  "_readme": "Проверенные параметры объектов для каталога. Источник — статьи из content/articles (протокол фактчекинга). Пустое поле = не подтверждено, не заполняем.",
+  "objects": {
+    "danilovskiy-ot-granel": { "priceFrom": 17.6, "priceAsOf": "13.10.2026", "priceSource": "сайт ГК «Гранель», статья 35877", "completion": "I кв. 2030" },
+    "silika": { "class": "premium", "priceFrom": 22.7, "priceAsOf": "13.10.2026", "priceSource": "сайт Sezar Group, статья 35413", "completion": "I кв. 2030" },
+    "status-na-zaozernoy": { "class": "business", "priceFrom": 6.1, "priceAsOf": "13.10.2026", "priceSource": "Яндекс Недвижимость, статья 34530", "completion": "IV кв. 2028" },
+    "bolshaya-ordynka-25": { "class": "premium", "priceM2From": 3200, "priceAsOf": "презентация «Эталона», октябрь 2025", "priceSource": "etalongroup.com, статья 33421" },
+    "severnyy-port": { "priceFrom": 15.4, "priceAsOf": "старт продаж лота 6, март 2026", "priceSource": "LEGENDA, статья 33334", "completion": "IV кв. 2030 (лот 6)" }
+  }
+}

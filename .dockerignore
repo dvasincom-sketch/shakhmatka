@@ -1,0 +1,17 @@
+**/node_modules
+**/.next
+**/.DS_Store
+**/.env
+**/.env.*
+!**/.env.example
+**/*.db
+**/*.db-*
+web/media
+web/tsconfig.tsbuildinfo
+_to_delete
+.trash
+data
+site
+notes.tgz
+*.tgz
+.git

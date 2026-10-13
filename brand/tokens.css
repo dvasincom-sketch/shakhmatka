@@ -1,0 +1,32 @@
+/* Шахматка — токены фирменного стиля v3 (на основе стиля Lendora). Светлая тема основная. */
+@import url("https://fonts.googleapis.com/css2?family=Unbounded:wght@300;400;500;600&family=Onest:wght@400;500;600&display=swap");
+:root {
+  --bg: #FBFAF6;        /* Полотно */
+  --panel: #FFFFFF;     /* карточки */
+  --soft: #F3F1EB;      /* мягкие панели */
+  --ink: #1B1B1D;       /* Графит */
+  --grey: #ABA79F;      /* второй тон заголовков и дробей */
+  --muted: #6F6B64;
+  --line: #EAE7DF;
+  --sun: #FFD54A;       /* Солнце: текущее, «старт продаж» */
+  --sun-soft: #FFF2BF;
+  --orange: #FF8A3D;    /* Апельсин: линии графиков */
+  --coral: #F0644F;     /* Коралл: риск, «ушёл из портфеля» */
+  --lilac: #DDE1F8;     /* Лаванда: холодная часть градиента */
+  --grad: linear-gradient(165deg, #E3E5F8 0%, #EEE8E2 34%, #FFDF95 70%, #FFB86A 100%);
+  --grad-soft: linear-gradient(165deg, #ECEEFB 0%, #F6F0E6 50%, #FFEBC2 100%);
+  --shadow: 0 1px 2px rgba(27,27,29,.04), 0 8px 24px rgba(27,27,29,.06);
+  --f-display: "Unbounded", "Segoe UI", sans-serif; /* Light 300: заголовки и цифры; Medium 500: знак */
+  --f-text: "Onest", "Segoe UI", Roboto, Arial, sans-serif;
+  --s-2: 11.5px; --s-1: 12.5px; --s0: 15px; --s1: 17px; --s2: 20px; --s3: 24px; --s4: 30px; --s5: 44px;
+  --r: 22px; --r-m: 16px; --r-s: 12px;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #111111; --panel: #1A1A1B; --soft: #202021; --ink: #F3F1EC; --grey: #6F6C66; --muted: #A29E96; --line: #2B2A28;
+    --sun-soft: #3A3115; --orange: #FF9550; --coral: #F37A67; --lilac: #2A2D44;
+    --grad: linear-gradient(165deg, #2B2E45 0%, #3A3330 40%, #8A6522 78%, #A8622A 100%);
+    --grad-soft: linear-gradient(165deg, #23253A 0%, #2A2622 55%, #3A3016 100%);
+    --shadow: 0 1px 2px rgba(0,0,0,.3), 0 8px 24px rgba(0,0,0,.35);
+  }
+}

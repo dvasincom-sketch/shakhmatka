@@ -1,0 +1,842 @@
+<title>Шахматка</title>
+<meta name="description" content="Шахматка — независимое медиа о новостройках Москвы и России">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@300;400;500;600&family=Onest:wght@400;500;600&display=swap">
+<style>
+/* Layout: тёплое светлое полотно, мягкие панели без рамок, крупные лёгкие цифры, градиент «лаванда → персик» для акцентных карточек, плавающая панель навигации снизу */
+:root {
+  --bg: #FBFAF6;          /* полотно */
+  --panel: #FFFFFF;       /* белые карточки */
+  --soft: #F3F1EB;        /* мягкие панели */
+  --ink: #1B1B1D;         /* графит */
+  --grey: #ABA79F;        /* светлый второй тон заголовков и дробей */
+  --muted: #6F6B64;       /* подписи */
+  --line: #EAE7DF;
+  --sun: #FFD54A;         /* жёлтый: текущее, «в работе» */
+  --sun-soft: #FFF2BF;
+  --orange: #FF8A3D;      /* линия графика, акцент */
+  --coral: #F0644F;       /* «ушёл», риск */
+  --coral-soft: #FCE0DA;
+  --lilac: #DDE1F8;       /* холодная часть градиента */
+  --grad: linear-gradient(165deg, #E3E5F8 0%, #EEE8E2 34%, #FFDF95 70%, #FFB86A 100%);
+  --grad-soft: linear-gradient(165deg, #ECEEFB 0%, #F6F0E6 50%, #FFEBC2 100%);
+  --shadow: 0 1px 2px rgba(27, 27, 29, .04), 0 8px 24px rgba(27, 27, 29, .06);
+  --on-dark: #FFFFFF;
+  --f-display: "Unbounded", "Segoe UI", sans-serif;
+  --f-text: "Onest", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --s-2: 11.5px; --s-1: 12.5px; --s0: 15px; --s1: 17px; --s2: 20px; --s3: 24px; --s4: 30px; --s5: 44px;
+  --r: 22px; --r-m: 16px; --r-s: 12px;
+  --gutter: 16px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #111111; --panel: #1A1A1B; --soft: #202021; --ink: #F3F1EC; --grey: #6F6C66; --muted: #A29E96; --line: #2B2A28;
+    --sun: #FFD54A; --sun-soft: #3A3115; --orange: #FF9550; --coral: #F37A67; --coral-soft: #3B1F1A; --lilac: #2A2D44;
+    --grad: linear-gradient(165deg, #2B2E45 0%, #3A3330 40%, #8A6522 78%, #A8622A 100%);
+    --grad-soft: linear-gradient(165deg, #23253A 0%, #2A2622 55%, #3A3016 100%);
+    --shadow: 0 1px 2px rgba(0, 0, 0, .3), 0 8px 24px rgba(0, 0, 0, .35); --on-dark: #111111;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #111111; --panel: #1A1A1B; --soft: #202021; --ink: #F3F1EC; --grey: #6F6C66; --muted: #A29E96; --line: #2B2A28;
+  --sun: #FFD54A; --sun-soft: #3A3115; --orange: #FF9550; --coral: #F37A67; --coral-soft: #3B1F1A; --lilac: #2A2D44;
+  --grad: linear-gradient(165deg, #2B2E45 0%, #3A3330 40%, #8A6522 78%, #A8622A 100%);
+  --grad-soft: linear-gradient(165deg, #23253A 0%, #2A2622 55%, #3A3016 100%);
+  --shadow: 0 1px 2px rgba(0, 0, 0, .3), 0 8px 24px rgba(0, 0, 0, .35); --on-dark: #111111;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--f-text); font-size: var(--s0); line-height: 1.5; font-variant-numeric: tabular-nums; }
+a { color: inherit; }
+button { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--orange); outline-offset: 2px; border-radius: 6px; }
+img { max-width: 100%; display: block; }
+h1, h2, h3 { text-wrap: balance; margin: 0; font-weight: 400; }
+p { margin: 0; }
+
+/* двухтонный заголовок: первая строка графит, вторая светло-серая */
+.tt { font-family: var(--f-display); font-weight: 300; letter-spacing: -0.03em; line-height: 1.12; }
+.tt span { display: block; color: var(--grey); }
+/* крупные лёгкие числа с серой дробной частью */
+.num { font-family: var(--f-display); font-weight: 300; letter-spacing: -0.04em; line-height: 1; white-space: nowrap; }
+.num .fr { color: var(--grey); }
+.num sup { font-family: var(--f-text); font-weight: 500; font-size: 0.32em; letter-spacing: 0; vertical-align: 0.9em; margin-right: 0.12em; color: var(--muted); }
+.num .u { font-family: var(--f-text); font-weight: 500; font-size: 0.3em; letter-spacing: 0; color: var(--muted); margin-left: 0.25em; }
+
+/* ---------- логотип ---------- */
+.wm { display: inline-flex; align-items: baseline; text-decoration: none; font-family: var(--f-display); font-weight: 500; letter-spacing: -0.035em; line-height: 1; color: var(--ink); }
+.wm svg { height: 0.57em; width: auto; margin-left: 0.06em; margin-right: 0.06em; overflow: visible; }
+.cell-f { fill: var(--ink); }
+.cell-e { fill: none; stroke: var(--grey); }
+.cell-a { fill: url(#sunGrad); }
+
+/* ---------- шапка ---------- */
+.top { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20; background: color-mix(in srgb, var(--bg) 86%, transparent); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); }
+.top-in { max-width: 720px; margin: 0 auto; padding-inline: var(--gutter); height: 60px; display: flex; align-items: center; gap: 8px; }
+.top .wm { font-size: 21px; }
+.top .sp { flex: 1; }
+.round { width: 42px; height: 42px; display: grid; place-items: center; border-radius: 50%; background: var(--panel); box-shadow: var(--shadow); text-decoration: none; border: 0; cursor: pointer; }
+.round svg { width: 19px; height: 19px; stroke: currentColor; fill: none; stroke-width: 1.7; }
+.demo { max-width: 720px; margin: 0 auto; padding: 2px var(--gutter) 0; }
+.demo span { display: inline-flex; gap: 8px; align-items: center; padding: 6px 12px; border-radius: 999px; background: var(--sun-soft); font-size: var(--s-2); color: var(--ink); }
+.demo i { width: 6px; height: 6px; border-radius: 50%; background: var(--orange); flex: none; }
+
+main { max-width: 720px; margin: 0 auto; padding-inline: var(--gutter); padding-block: 6px 120px; }
+
+/* ---------- плавающая панель ---------- */
+.dock { position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(14px + env(safe-area-inset-bottom, 0px)); z-index: 30; display: flex; gap: 4px; padding: 6px; border-radius: 999px; background: color-mix(in srgb, var(--panel) 92%, transparent); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); box-shadow: var(--shadow), 0 0 0 1px var(--line); }
+.dock a { display: flex; align-items: center; gap: 7px; height: 46px; padding: 0 13px; border-radius: 999px; text-decoration: none; color: var(--muted); font-size: var(--s-1); font-weight: 500; }
+.dock a svg { width: 20px; height: 20px; stroke: currentColor; fill: none; stroke-width: 1.7; flex: none; }
+.dock a span { display: none; }
+.dock a[aria-current="page"] { background: var(--ink); color: var(--bg); }
+.dock a[aria-current="page"] span { display: inline; }
+
+/* ---------- общие ---------- */
+.card { background: var(--panel); border-radius: var(--r); box-shadow: var(--shadow); }
+.soft { background: var(--soft); border-radius: var(--r); }
+.sec { margin-top: 34px; }
+.sec-h { display: flex; align-items: end; justify-content: space-between; gap: 12px; margin-bottom: 14px; }
+.sec-h h2 { font-size: var(--s2); }
+.sec-h a { font-size: var(--s-1); font-weight: 500; text-decoration: none; padding: 7px 12px; border-radius: 999px; background: var(--panel); box-shadow: var(--shadow); white-space: nowrap; }
+.note { color: var(--muted); font-size: var(--s-1); }
+.pill { display: inline-flex; align-items: center; gap: 6px; padding: 5px 11px; border-radius: 999px; background: var(--panel); font-size: var(--s-1); font-weight: 500; text-decoration: none; white-space: nowrap; box-shadow: 0 0 0 1px var(--line); }
+a.pill:hover { box-shadow: 0 0 0 1px var(--ink); }
+.pill.sun { background: var(--sun); box-shadow: none; color: #1B1B1D; }
+.pill.coral { background: var(--coral); box-shadow: none; color: #fff; }
+.pill.dark { background: var(--ink); color: var(--bg); box-shadow: none; }
+.pill .dot { width: 6px; height: 6px; border-radius: 50%; background: currentColor; }
+.zu { display: inline-flex; align-items: center; gap: 6px; padding: 5px 11px 5px 6px; border-radius: 999px; background: var(--panel); box-shadow: 0 0 0 1px var(--line); font-size: var(--s-1); font-weight: 500; }
+.zu b { font-family: var(--f-display); font-weight: 500; font-size: 9px; letter-spacing: 0; padding: 3px 6px; border-radius: 999px; background: var(--soft); color: var(--muted); }
+.page-h { margin-top: 18px; font-size: var(--s4); }
+.arrow { width: 44px; height: 44px; flex: none; border-radius: 50%; display: grid; place-items: center; box-shadow: 0 0 0 1px currentColor; }
+.arrow svg { width: 18px; height: 18px; stroke: currentColor; fill: none; stroke-width: 1.8; }
+
+/* стадия: 6 сегментов-клеток */
+.strip { display: inline-grid; grid-auto-flow: column; gap: 3px; vertical-align: middle; }
+.strip i { width: 10px; height: 10px; border-radius: 3px; background: var(--line); }
+.strip i.done { background: var(--ink); }
+.strip i.now { background: var(--sun); box-shadow: 0 0 0 2.5px color-mix(in srgb, var(--sun) 35%, transparent); }
+.strip.out i.done, .strip.out i.now { background: var(--coral); box-shadow: none; opacity: .55; }
+/* стадия: шкала с маркером, как бегунок */
+.track { position: relative; margin-top: 18px; }
+.track .bar { height: 8px; border-radius: 999px; background: var(--line); overflow: hidden; }
+.track .bar i { display: block; height: 100%; border-radius: 999px; background: linear-gradient(90deg, var(--sun-soft), var(--sun) 60%, var(--orange)); }
+.track .mk { position: absolute; top: 12px; width: 0; height: 0; border-left: 6px solid transparent; border-right: 6px solid transparent; border-bottom: 9px solid var(--ink); transform: translateX(-6px); }
+.track .ends { display: flex; justify-content: space-between; margin-top: 24px; font-size: var(--s-2); color: var(--grey); }
+
+/* ---------- главная ---------- */
+.hello { margin-top: 18px; font-size: var(--s4); }
+.kpi { margin-top: 18px; padding: 18px 16px 12px; }
+.kpi-h { display: flex; justify-content: space-between; align-items: start; gap: 10px; }
+.kpi-h h2 { font-size: var(--s0); font-weight: 600; font-family: var(--f-text); }
+.kpi-h p { font-size: var(--s-2); color: var(--grey); margin-top: 2px; }
+.kpi-row { display: grid; grid-template-columns: repeat(3, auto); justify-content: space-between; gap: 10px; margin-top: 18px; }
+.kpi-row .num { font-size: 31px; }
+.kpi-row small { display: block; font-size: var(--s-2); color: var(--muted); margin-top: 6px; }
+.legend { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 16px; }
+.chart svg { width: 100%; height: auto; display: block; margin-top: 4px; overflow: visible; }
+
+.slides { display: flex; gap: 12px; overflow-x: auto; scroll-snap-type: x mandatory; margin-inline: calc(var(--gutter) * -1); padding: 4px var(--gutter) 12px; scrollbar-width: none; }
+.slides::-webkit-scrollbar { display: none; }
+.story { scroll-snap-align: start; flex: 0 0 86%; max-width: 420px; text-decoration: none; padding: 8px; display: flex; flex-direction: column; }
+.story .ph { position: relative; aspect-ratio: 4 / 3; max-width: 100%; border-radius: var(--r-m); overflow: hidden; background: var(--soft); }
+.story .ph img { width: 100%; height: 100%; object-fit: cover; }
+.story .pager { position: absolute; top: 10px; right: 10px; display: flex; gap: 4px; }
+.story .pager i { width: 26px; height: 26px; border-radius: 50%; display: grid; place-items: center; font-style: normal; font-size: 11px; font-weight: 600; background: color-mix(in srgb, var(--panel) 70%, transparent); color: var(--ink); backdrop-filter: blur(6px); }
+.story .pager i.on { background: var(--sun); color: #1B1B1D; }
+.story .tags { position: absolute; left: 10px; bottom: 10px; display: flex; gap: 5px; flex-wrap: wrap; }
+.story .tags span { padding: 4px 10px; border-radius: 999px; font-size: var(--s-2); font-weight: 500; color: #fff; background: rgba(20, 20, 20, .38); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); }
+.story .tx { padding: 14px 8px 8px; display: grid; gap: 8px; }
+.story h3 { font-family: var(--f-display); font-weight: 400; font-size: var(--s1); letter-spacing: -0.025em; line-height: 1.25; }
+.story time { font-size: var(--s-2); color: var(--grey); }
+.story:hover h3 { text-decoration: underline; text-underline-offset: 4px; }
+
+.rows { list-style: none; margin: 0; padding: 6px 16px; }
+.rows li + li { border-top: 1px solid var(--line); }
+.rows a, .rows .nl { display: grid; grid-template-columns: 1fr auto; gap: 6px 12px; padding: 14px 0; text-decoration: none; align-items: center; }
+.rows .t { font-weight: 500; line-height: 1.35; min-width: 0; }
+.rows .s { grid-column: 1 / -1; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; font-size: var(--s-1); color: var(--muted); }
+.rows .s b { color: var(--ink); font-weight: 600; }
+.rows a:hover .t { text-decoration: underline; text-underline-offset: 3px; }
+.rows .nl .t { color: var(--muted); }
+
+.pro { margin-top: 34px; padding: 22px 20px 20px; border-radius: var(--r); background: var(--grad); display: grid; gap: 18px; overflow: hidden; color: #1B1B1D; }
+.pro .top-r { display: flex; justify-content: space-between; align-items: center; }
+.pro .top-r p { font-size: var(--s-1); color: rgba(27, 27, 29, .6); }
+.pro h2 { font-family: var(--f-display); font-weight: 300; font-size: 28px; line-height: 1.12; letter-spacing: -0.035em; }
+.pro h2 span { display: block; font-weight: 400; }
+.pro ul { margin: 0; padding: 0; list-style: none; display: grid; gap: 7px; font-size: var(--s-1); }
+.pro li { display: flex; gap: 8px; align-items: baseline; }
+.pro li::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: #1B1B1D; flex: none; transform: translateY(-1px); }
+.pro .act { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+.pro .btn { background: #1B1B1D; color: #fff; }
+.pro .arrow { color: #1B1B1D; }
+.pro .msg { font-size: var(--s-1); }
+:root[data-theme="dark"] .pro, :root[data-theme="dark"] .pro .arrow { color: #F3F1EC; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .pro, :root:not([data-theme="light"]) .pro .arrow { color: #F3F1EC; } :root:not([data-theme="light"]) .pro .top-r p { color: rgba(243, 241, 236, .7); } :root:not([data-theme="light"]) .pro li::before { background: #F3F1EC; } }
+.btn { display: inline-flex; justify-content: center; align-items: center; min-height: 48px; padding: 0 22px; border-radius: 999px; border: 0; background: var(--ink); color: var(--bg); font-weight: 500; font-size: var(--s0); cursor: pointer; text-decoration: none; }
+.btn:hover { opacity: .9; }
+
+.devs { display: flex; gap: 10px; overflow-x: auto; scroll-snap-type: x mandatory; margin-inline: calc(var(--gutter) * -1); padding: 4px var(--gutter) 12px; scrollbar-width: none; }
+.devs::-webkit-scrollbar { display: none; }
+.dev-card { scroll-snap-align: start; flex: 0 0 auto; width: 148px; padding: 16px; text-decoration: none; display: grid; gap: 22px; }
+.dev-card .mono { width: 40px; height: 40px; border-radius: 50%; background: var(--soft); display: grid; place-items: center; font-family: var(--f-display); font-weight: 500; font-size: 11px; letter-spacing: -0.02em; }
+.dev-card .num { font-size: 26px; }
+.dev-card b { display: block; font-weight: 600; font-size: var(--s0); margin-top: 4px; }
+.dev-card small { color: var(--muted); font-size: var(--s-2); }
+
+footer.foot { margin-top: 40px; padding: 22px 4px 0; display: grid; gap: 10px; font-size: var(--s-1); color: var(--muted); border-top: 1px solid var(--line); }
+footer.foot .wm { font-size: 18px; }
+footer.foot a { color: var(--ink); }
+
+/* ---------- списки ---------- */
+.search { position: relative; margin-top: 16px; }
+.search input { width: 100%; height: 52px; padding: 0 18px 0 46px; border-radius: 999px; border: 0; background: var(--panel); box-shadow: var(--shadow); color: var(--ink); font: inherit; }
+.search input:focus { outline: none; box-shadow: var(--shadow), 0 0 0 2px var(--sun); }
+.search svg { position: absolute; left: 17px; top: 16px; width: 20px; height: 20px; stroke: var(--muted); fill: none; stroke-width: 1.8; }
+.filters { display: flex; gap: 6px; overflow-x: auto; margin: 12px calc(var(--gutter) * -1) 0; padding: 2px var(--gutter) 6px; scrollbar-width: none; }
+.filters::-webkit-scrollbar { display: none; }
+.filters button { flex: none; border: 0; background: var(--panel); box-shadow: 0 0 0 1px var(--line); border-radius: 999px; padding: 8px 14px; font-size: var(--s-1); font-weight: 500; cursor: pointer; }
+.filters button[aria-pressed="true"] { background: var(--ink); color: var(--bg); box-shadow: none; }
+.empty { padding: 22px 0; color: var(--muted); }
+
+/* ---------- объект ---------- */
+.crumbs { margin-top: 12px; display: flex; gap: 6px; align-items: center; flex-wrap: wrap; font-size: var(--s-1); color: var(--grey); }
+.crumbs a { text-decoration: none; color: var(--muted); font-weight: 500; }
+.crumbs a:hover { color: var(--ink); }
+.hero { position: relative; margin-top: 14px; aspect-ratio: 4 / 4.2; max-width: 100%; border-radius: var(--r); overflow: hidden; background: var(--soft); }
+.hero img { width: 100%; height: 100%; object-fit: cover; }
+.hero .tags { position: absolute; left: 12px; bottom: 12px; right: 12px; display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
+.hero .tags span { padding: 6px 12px; border-radius: 999px; font-size: var(--s-1); font-weight: 500; color: #fff; background: rgba(20, 20, 20, .38); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); }
+.hero .tags .logo-chip { width: 32px; height: 32px; padding: 0; display: grid; place-items: center; background: #fff; }
+.hero .tags .logo-chip svg { width: 18px; }
+.credit { font-size: var(--s-2); color: var(--grey); margin-top: 8px; padding-left: 4px; }
+.obj-h1 { margin-top: 18px; font-size: var(--s4); }
+.zus { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 14px; }
+.stage { margin-top: 18px; padding: 18px 16px 16px; }
+.stage .row { display: flex; justify-content: space-between; align-items: end; gap: 12px; }
+.stage .num { font-size: 46px; }
+.stage .lbl { font-size: var(--s-1); color: var(--muted); text-align: right; }
+.stage .lbl b { display: block; color: var(--ink); font-size: var(--s0); font-weight: 600; }
+.tiles { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 10px; }
+.tile { padding: 16px; min-width: 0; display: grid; gap: 6px; align-content: start; }
+.tile dt { font-size: var(--s-1); color: var(--muted); }
+.tile dd { margin: 0; }
+.tile .num { font-size: 30px; }
+.tile .txt { font-family: var(--f-display); font-weight: 400; font-size: var(--s1); letter-spacing: -0.025em; line-height: 1.2; }
+.tile small { font-size: var(--s-2); color: var(--grey); }
+.tile.wide { grid-column: 1 / -1; }
+
+.tl { list-style: none; margin: 0; padding: 8px 16px; }
+.tl li { display: grid; grid-template-columns: 1fr auto; gap: 4px 12px; padding: 14px 0; align-items: start; }
+.tl li + li { border-top: 1px solid var(--line); }
+.tl time { font-size: var(--s-2); color: var(--grey); grid-column: 1 / -1; }
+.tl p { font-weight: 500; line-height: 1.4; }
+
+.locked { position: relative; padding: 20px; border-radius: var(--r); background: var(--grad-soft); overflow: hidden; display: grid; gap: 14px; }
+.locked .ghost { display: flex; gap: 18px; filter: blur(6px); user-select: none; pointer-events: none; }
+.locked .ghost .num { font-size: 40px; }
+.locked b { font-family: var(--f-display); font-weight: 400; font-size: var(--s1); letter-spacing: -0.025em; }
+.locked p { font-size: var(--s-1); color: var(--muted); }
+
+.courts { padding: 18px 16px; border-radius: var(--r); border: 1.5px dashed var(--line); display: grid; gap: 8px; }
+.courts b { font-weight: 600; }
+.courts ul { margin: 0; padding-left: 18px; color: var(--muted); font-size: var(--s-1); display: grid; gap: 3px; }
+
+/* ---------- застройщик ---------- */
+.dev-h { display: flex; gap: 14px; align-items: center; margin-top: 18px; }
+.dev-mono { width: 64px; height: 64px; flex: none; border-radius: 50%; background: var(--grad); display: grid; place-items: center; font-family: var(--f-display); font-weight: 500; font-size: 15px; color: #1B1B1D; }
+.dev-h h1 { font-size: var(--s4); }
+.dev-h h1 span { font-size: var(--s2); margin-top: 4px; }
+
+/* ---------- статья ---------- */
+.art-meta { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; margin-top: 14px; }
+.art-meta time, .art-meta .rd { font-size: var(--s-1); color: var(--grey); margin-left: 4px; }
+.art h1 { font-family: var(--f-display); font-weight: 300; font-size: 27px; line-height: 1.16; letter-spacing: -0.035em; margin-top: 14px; }
+.art .lead { font-size: var(--s2); line-height: 1.45; margin-top: 14px; color: var(--muted); }
+.art .fig { margin: 18px 0 0; }
+.art .fig .ph { aspect-ratio: 16 / 10; max-width: 100%; border-radius: var(--r); overflow: hidden; background: var(--soft); }
+.art .fig .ph img { width: 100%; height: 100%; object-fit: cover; }
+.art figcaption { font-size: var(--s-2); color: var(--grey); margin-top: 8px; padding-left: 4px; }
+.short { margin-top: 18px; padding: 18px 16px; }
+.short h2 { font-size: var(--s-1); color: var(--muted); font-weight: 500; margin-bottom: 10px; font-family: var(--f-text); }
+.short ul { margin: 0; padding: 0; list-style: none; display: grid; gap: 10px; }
+.short li { display: grid; grid-template-columns: 12px 1fr; gap: 10px; align-items: baseline; font-weight: 500; }
+.short li i { width: 7px; height: 7px; border-radius: 50%; background: var(--orange); transform: translateY(-2px); }
+.body { font-size: var(--s1); line-height: 1.68; max-width: 64ch; }
+.body h2 { font-family: var(--f-display); font-weight: 400; font-size: var(--s2); letter-spacing: -0.03em; line-height: 1.25; margin: 34px 0 10px; }
+.body p { margin-top: 12px; }
+.body .abbr { border-bottom: 1px dotted var(--muted); cursor: help; }
+.tbl { margin-top: 16px; padding: 6px 4px; overflow-x: auto; }
+table.price { width: 100%; border-collapse: collapse; font-size: var(--s-1); min-width: 300px; }
+table.price th, table.price td { padding: 11px 12px; text-align: right; white-space: nowrap; }
+table.price th:first-child, table.price td:first-child { text-align: left; }
+table.price th { color: var(--grey); font-weight: 500; }
+table.price tbody tr + tr td { border-top: 1px solid var(--line); }
+table.price td b { font-weight: 600; }
+.objcard { margin-top: 28px; padding: 18px 16px 8px; }
+.objcard .h { display: flex; justify-content: space-between; align-items: center; gap: 10px; }
+.objcard .h a { font-family: var(--f-display); font-weight: 400; font-size: var(--s1); letter-spacing: -0.025em; text-decoration: none; }
+.objcard dl { margin: 12px 0 0; display: grid; grid-template-columns: auto 1fr; }
+.objcard dt, .objcard dd { padding: 10px 0; margin: 0; font-size: var(--s-1); border-top: 1px solid var(--line); }
+.objcard dt { color: var(--muted); }
+.objcard dd { font-weight: 600; text-align: right; }
+.check { margin-top: 30px; }
+.check ul { list-style: none; margin: 12px 0 0; padding: 0; display: grid; gap: 8px; }
+.check li { display: grid; grid-template-columns: auto 1fr; gap: 10px; align-items: start; font-size: var(--s-1); padding: 12px 14px; }
+
+/* ---------- бренд ---------- */
+.brand-hero { margin-top: 18px; padding: 26px 18px 18px; border-radius: var(--r); background: var(--grad); display: grid; gap: 40px; color: #1B1B1D; }
+.brand-hero .wm { font-size: clamp(42px, 12.5vw, 74px); color: #1B1B1D; }
+.brand-hero .wm .cell-f { fill: #1B1B1D; }
+.brand-hero .url { justify-self: start; display: inline-flex; align-items: center; gap: 8px; padding: 6px 14px 6px 6px; border-radius: 999px; background: #fff; font-size: var(--s-1); font-weight: 500; color: #1B1B1D; }
+.brand-hero .url i { width: 28px; height: 28px; border-radius: 50%; background: var(--grad); display: grid; place-items: center; }
+.brand-hero .url svg { width: 16px; }
+.construct { position: relative; padding: 34px 16px; display: grid; place-items: center; background-image: linear-gradient(var(--line) 1px, transparent 1px), linear-gradient(90deg, var(--line) 1px, transparent 1px); background-size: 28px 28px; background-position: center; }
+.construct .disc { width: 150px; height: 150px; border-radius: 50%; background: var(--panel); display: grid; place-items: center; box-shadow: var(--shadow); }
+.construct svg { width: 86px; }
+.legend-list { margin: 0; padding: 4px 16px; list-style: none; }
+.legend-list li { display: grid; grid-template-columns: 16px 1fr; gap: 10px; align-items: center; padding: 10px 0; font-size: var(--s-1); }
+.legend-list li + li { border-top: 1px solid var(--line); }
+.legend-list i { width: 14px; height: 14px; border-radius: 4px; }
+.icons { display: flex; gap: 14px; align-items: end; flex-wrap: wrap; padding: 18px 16px; }
+.icons .m { display: grid; gap: 8px; justify-items: center; font-size: var(--s-2); color: var(--muted); }
+.icons .ic { display: grid; place-items: center; border-radius: 26%; background: var(--panel); box-shadow: var(--shadow); }
+.icons .ic.g { background: var(--grad); }
+.palette { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px 10px; padding: 18px 16px; }
+.palette div { display: grid; gap: 6px; justify-items: start; }
+.palette i { width: 52px; height: 52px; border-radius: 50%; box-shadow: inset 0 0 0 1px var(--line); }
+.palette b { font-weight: 600; font-size: var(--s-1); }
+.palette span { font-size: var(--s-2); color: var(--grey); }
+.type { padding: 20px 16px; display: grid; gap: 14px; }
+.type .big { display: flex; justify-content: space-between; align-items: end; gap: 10px; flex-wrap: wrap; min-width: 0; }
+.type .big b { font-family: var(--f-display); font-weight: 300; font-size: clamp(26px, 8vw, 40px); letter-spacing: -0.04em; line-height: 1; background: linear-gradient(90deg, var(--orange), var(--sun)); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.type .big span { font-family: var(--f-display); font-weight: 400; font-size: clamp(36px, 11vw, 56px); letter-spacing: -0.04em; line-height: .9; }
+.type .w { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: var(--s-1); color: var(--muted); }
+.type .num { font-size: 44px; }
+.voice { list-style: none; margin: 0; padding: 4px 16px; }
+.voice li { padding: 14px 0; display: grid; gap: 4px; }
+.voice li + li { border-top: 1px solid var(--line); }
+.voice b { font-weight: 600; }
+.voice span { font-size: var(--s-1); color: var(--muted); }
+.voice q { font-family: var(--f-display); font-weight: 300; letter-spacing: -0.025em; quotes: "«" "»"; margin-top: 4px; }
+
+@media (min-width: 720px) {
+  :root { --gutter: 24px; }
+  .story { flex-basis: 48%; }
+  .tiles { grid-template-columns: repeat(3, 1fr); }
+  .tile.wide { grid-column: span 3; }
+  .dock a span { display: inline; }
+  .palette { grid-template-columns: repeat(6, 1fr); }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .view { animation: in .25s ease-out; }
+  @keyframes in { from { opacity: .3; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+  .chart .line { stroke-dasharray: 900; stroke-dashoffset: 900; animation: draw 1.1s .1s ease-out forwards; }
+  @keyframes draw { to { stroke-dashoffset: 0; } }
+}
+@media (prefers-reduced-motion: reduce) { .chart .line { stroke-dasharray: none; } }
+</style>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs><linearGradient id="sunGrad" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFD54A"/><stop offset="1" stop-color="#FF8A3D"/></linearGradient></defs></svg>
+
+<header class="top">
+  <div class="top-in">
+    <a class="wm" href="#home" aria-label="Шахматка, на главную"><svg viewBox="0 0 51.0 28" aria-hidden="true"><rect class="cell-f" x="0.0" y="0" width="8.6" height="8" rx="1.8"/><rect class="cell-e" x="11.299999999999999" y="0.7" width="7.2" height="6.6" rx="1.3" stroke-width="1.4"/><rect class="cell-f" x="21.2" y="0" width="8.6" height="8" rx="1.8"/><rect class="cell-e" x="32.5" y="0.7" width="7.2" height="6.6" rx="1.3" stroke-width="1.4"/><rect class="cell-a" x="42.4" y="0" width="8.6" height="8" rx="1.8"/><rect class="cell-f" x="0.0" y="10" width="8.6" height="8" rx="1.8"/><rect class="cell-e" x="11.299999999999999" y="10.7" width="7.2" height="6.6" rx="1.3" stroke-width="1.4"/><rect class="cell-f" x="21.2" y="10" width="8.6" height="8" rx="1.8"/><rect class="cell-e" x="32.5" y="10.7" width="7.2" height="6.6" rx="1.3" stroke-width="1.4"/><rect class="cell-f" x="42.4" y="10" width="8.6" height="8" rx="1.8"/><rect class="cell-f" x="0.0" y="20" width="8.6" height="8" rx="1.8"/><rect class="cell-f" x="10.6" y="20" width="8.6" height="8" rx="1.8"/><rect class="cell-f" x="21.2" y="20" width="8.6" height="8" rx="1.8"/><rect class="cell-f" x="31.8" y="20" width="8.6" height="8" rx="1.8"/><rect class="cell-f" x="42.4" y="20" width="8.6" height="8" rx="1.8"/></svg>ахматка</a>
+    <span class="sp"></span>
+    <a class="round" href="#objects" aria-label="Поиск объектов"><svg viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 21 21"/></svg></a>
+    <a class="round" href="#brand" aria-label="Фирменный стиль"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 3.5a8.5 8.5 0 0 0 0 17c1.4 0 1.6-1.2.9-2-.8-.9-.3-2.3 1-2.3h2a4.6 4.6 0 0 0 4.6-4.6"/><circle cx="8" cy="10" r="1"/><circle cx="12" cy="7.5" r="1"/><circle cx="16" cy="10" r="1"/></svg></a>
+  </div>
+</header>
+<div class="demo"><span><i></i>Прототип: данные из архива редакции, до фактчекинга</span></div>
+
+<main id="app"></main>
+
+<nav class="dock" aria-label="Разделы">
+  <a href="#home" data-tab="home"><svg viewBox="0 0 24 24"><path d="M4 11 12 4l8 7v8.5a.5.5 0 0 1-.5.5H15v-6H9v6H4.5a.5.5 0 0 1-.5-.5z"/></svg><span>Лента</span></a>
+  <a href="#objects" data-tab="objects"><svg viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="7" height="7" rx="2"/><rect x="13.5" y="3.5" width="7" height="7" rx="2"/><rect x="3.5" y="13.5" width="7" height="7" rx="2"/><rect x="13.5" y="13.5" width="7" height="7" rx="2"/></svg><span>Объекты</span></a>
+  <a href="#developers" data-tab="developers"><svg viewBox="0 0 24 24"><path d="M4 20V8l6-4v16M10 20V10l10 3v7M3 20h18M14 16h2M14 13.5h2M6.5 10h1M6.5 13h1M6.5 16h1"/></svg><span>Застройщики</span></a>
+  <a href="#pro" data-tab="pro"><svg viewBox="0 0 24 24"><path d="M12 3.5 14.4 9l5.6.5-4.3 3.7 1.3 5.5L12 15.8 7 18.7l1.3-5.5L4 9.5 9.6 9z"/></svg><span>Про</span></a>
+</nav>
+
+<script>
+/* ===================== ДАННЫЕ (демо из архива редакции) ===================== */
+const MARK = `<svg viewBox="0 0 51.0 28" aria-hidden="true"><rect class="cell-f" x="0.0" y="0" width="8.6" height="8" rx="1.8"/><rect class="cell-e" x="11.299999999999999" y="0.7" width="7.2" height="6.6" rx="1.3" stroke-width="1.4"/><rect class="cell-f" x="21.2" y="0" width="8.6" height="8" rx="1.8"/><rect class="cell-e" x="32.5" y="0.7" width="7.2" height="6.6" rx="1.3" stroke-width="1.4"/><rect class="cell-a" x="42.4" y="0" width="8.6" height="8" rx="1.8"/><rect class="cell-f" x="0.0" y="10" width="8.6" height="8" rx="1.8"/><rect class="cell-e" x="11.299999999999999" y="10.7" width="7.2" height="6.6" rx="1.3" stroke-width="1.4"/><rect class="cell-f" x="21.2" y="10" width="8.6" height="8" rx="1.8"/><rect class="cell-e" x="32.5" y="10.7" width="7.2" height="6.6" rx="1.3" stroke-width="1.4"/><rect class="cell-f" x="42.4" y="10" width="8.6" height="8" rx="1.8"/><rect class="cell-f" x="0.0" y="20" width="8.6" height="8" rx="1.8"/><rect class="cell-f" x="10.6" y="20" width="8.6" height="8" rx="1.8"/><rect class="cell-f" x="21.2" y="20" width="8.6" height="8" rx="1.8"/><rect class="cell-f" x="31.8" y="20" width="8.6" height="8" rx="1.8"/><rect class="cell-f" x="42.4" y="20" width="8.6" height="8" rx="1.8"/></svg>`;
+const STAGES = ['Участок', 'Концепция', 'Архитектура', 'Разрешение', 'Старт продаж', 'Ввод'];
+
+const DEVS = {
+  pik: { name: 'ПИК', mono: 'ПИК', about: 'Федеральный застройщик. Бренды: ПИК, Forma.', mentions: 155,
+    facts: [
+      ['Бренды', 'ПИК, Forma', 'бренд «Среда» закрыт с 1 августа 2026'],
+      ['Биржа', 'Делистинг', 'выкуп акций по 551,4 ₽, сентябрь 2026'],
+    ],
+    events: [
+      ['2026-09-30', 'ПИК впервые прямо называет новый проект на Варшавском шоссе бизнес-классом'],
+      ['2026-09-08', 'Совет директоров одобрил делистинг акций с Московской биржи'],
+      ['2026-07-09', 'Forma продаёт площадки: участок «Касаткина, 11» ушёл к Tekta'],
+      ['2026-07-03', 'ПИК отказался от бренда «Среда», проекты переходят в Forma с 1 августа 2026'],
+    ] },
+  sezar: { name: 'Sezar Group', mono: 'SG', about: 'Московский застройщик комплексных проектов.', mentions: 31, facts: [], events: [] },
+  granel: { name: 'Гранель', mono: 'ГР', about: 'Застройщик массового и бизнес-класса в Москве и области.', mentions: 42, facts: [], events: [] },
+  legenda: { name: 'Legenda', mono: 'LG', about: 'Застройщик из Петербурга, в Москве строит в «Северном порту».', mentions: 9, facts: [], events: [] },
+  tekta: { name: 'Tekta Group', mono: 'TG', about: 'Покупает и перезапускает готовые проекты.', mentions: 21, facts: [], events: [] },
+  etalon: { name: 'Эталон', mono: 'ЭТ', about: 'Федеральный застройщик, премиальный бренд AURIX.', mentions: 74, facts: [], events: [] },
+  mr: { name: 'MR Group', mono: 'MR', about: 'Мастер-девелопер Москвы.', mentions: 157, facts: [], events: [] },
+  otrada: { name: 'ГК «Отрада»', mono: 'ОТ', about: 'Девелопер, заходит в элитный сегмент Москвы.', mentions: 6, facts: [], events: [] },
+};
+
+const OBJS = [
+  { id: 'silika', name: 'Силика', dev: 'sezar', stage: 4, region: 'Москва', area: 'Хорошёво-Мнёвники',
+    zu: ['3-й Силикатный, 1', '3-й Силикатный, 1 к. 1'], aka: [], img: 'assets/silika.jpg', credit: 'визуализация: Sezar Group',
+    facts: [['Цена на старте', '≈650 тыс. ₽/м²', 'август 2026'], ['Ключи', 'осень 2030', 'по данным застройщика'], ['Состав', 'жильё, офисы, ТЦ', 'офисы до 20 тыс. м²', true]],
+    tl: [
+      ['2025-11-01', 1, 'Реклама «архитектурного проекта» и бронирование до получения документов'],
+      ['2026-02-04', 2, 'Показан массинг офисной части КРТ: до 20 тыс. м², до 20 этажей'],
+      ['2026-08-14', 4, 'Официальный старт продаж, цена около 650 тыс. ₽/м²'],
+    ] },
+  { id: 'danilovsky', name: 'Даниловский от Гранель', dev: 'granel', stage: 4, region: 'Москва', area: 'Даниловский',
+    zu: ['Автозаводская, 22'], aka: ['А22'], img: 'assets/danilovsky.jpg', credit: 'визуализация: Гранель',
+    facts: [['Средняя цена', '555 тыс. ₽/м²', 'по прайсу, сентябрь 2026'], ['Ввод', 'I кв. 2030', 'ключи — III кв. 2030'], ['Застройщик раньше', 'ГК «Консоль»', 'проект вышел на рынок весной 2025', true]],
+    tl: [
+      ['2025-04-01', 4, 'Первый выход на рынок под названием А22, застройщик ГК «Консоль»'],
+      ['2026-09-21', 4, 'Проект переходит к «Гранель», ввод сдвигается на I квартал 2030'],
+      ['2026-09-23', 4, 'Рестарт продаж: 37 квартир, скидка около 27,5% на все лоты'],
+    ], article: 'a22' },
+  { id: 'severny-port', name: 'Северный порт, лот 6', dev: 'legenda', stage: 4, region: 'Москва', area: 'Левобережный',
+    zu: ['Северный порт'], aka: [], img: 'assets/severny-port.jpg', credit: 'визуализация: Legenda',
+    facts: [['Новая очередь', '610 тыс. ₽/м²', 'март 2026'], ['Первая очередь', '≈560 тыс. ₽/м²', 'фактическая цена сделок'], ['Темп', '≈35 квартир в месяц', 'по проекту в целом', true]],
+    tl: [['2026-03-05', 4, 'Лот 6 выведен в продажу дороже первой очереди на 50 тыс. ₽/м²']] },
+  { id: 'leningradsky-45', name: 'Ленинградский, 45', dev: 'pik', stage: 1, region: 'Москва', area: 'Аэропорт',
+    zu: ['Ленинградский, 45'], aka: [],
+    facts: [['Объём', '404 тыс. м²', 'на согласовании'], ['Высота', 'до 177 м', '54 этажа']],
+    tl: [['2026-06-23', 1, 'ПИК согласовывает 404 тыс. м² напротив «Авиапарка»']] },
+  { id: 'yuzhnoportovaya', name: 'КРТ «Южнопортовая, 3-15»', dev: 'pik', stage: 1, region: 'Москва', area: 'Южнопортовый',
+    zu: ['Южнопортовая, 3-15'], aka: ['Среда на Южнопортовой'],
+    facts: [['Нежилое', '295 тыс. м²', 'по параметрам КРТ'], ['ППТ', '2023', 'согласовывал ПИК']],
+    tl: [['2026-04-28', 1, 'Опубликованы параметры КРТ: 295 тыс. м² нежилья вместо жилья']] },
+  { id: 'syromyatnicheskaya', name: 'КРТ «Верхняя Сыромятническая, 7»', dev: 'pik', stage: 1, region: 'Москва', area: 'Басманный',
+    zu: ['Верхняя Сыромятническая, 7'], aka: [],
+    facts: [['Застройщик', 'СЗ «КРТ „Курская“»', 'совместно с городской компанией «КРТ»', true]],
+    tl: [['2026-08-14', 1, 'ПИК и городская компания «КРТ» учредили совместное SPV']] },
+  { id: 'kasatkina-11', name: 'Касаткина, 11', dev: 'tekta', prev: 'pik', stage: 2, region: 'Москва', area: 'Алексеевский',
+    zu: ['Касаткина, 11'], aka: [],
+    facts: [['Застройщик раньше', 'Forma (ПИК)', 'до июля 2026', true]],
+    tl: [['2025-06-24', 2, 'Forma показывает концепцию проекта'], ['2026-07-09', 2, 'Участок выходит из портфеля Forma, новый девелопер — Tekta']] },
+  { id: 'bolshaya-ordynka-25', name: 'Большая Ордынка, 25', dev: 'etalon', stage: 2, region: 'Москва', area: 'Замоскворечье',
+    zu: ['Большая Ордынка, 25, стр. 1'], aka: [],
+    facts: [['Бренд', 'AURIX', 'премиальная линейка «Эталона»'], ['ГЗК', 'концепция согласована', 'март 2026']],
+    tl: [['2025-12-01', 0, '«Эталон» покупает АО «Бизнес-Недвижимость» у АФК «Система»'], ['2026-03-11', 2, 'ГЗК согласовала концепцию']] },
+  { id: 'demidov-26', name: 'Демидов, 26', dev: 'otrada', prev: 'mr', stage: 2, region: 'Москва', area: 'Басманный',
+    zu: ['Новая Басманная, 26'], aka: [],
+    facts: [['Застройщик раньше', 'MR Group', 'до июля 2026', true]],
+    tl: [['2025-07-16', 2, 'MR показывает план благоустройства усадьбы Демидова'], ['2026-07-09', 2, 'Проект переходит к ГК «Отрада»']] },
+];
+
+const ARTS = {
+  a22: { title: '«Гранель» перезапустила А22 на Автозаводской: метр по 555 тыс. ₽ и скидка на всё',
+    date: '2026-09-23', obj: 'danilovsky', read: '4 мин' },
+  silika: { title: 'Sezar открыл продажи «Силики»: 650 тыс. ₽ за метр и ключи осенью 2030', date: '2026-08-14', obj: 'silika', read: '3 мин' },
+  pikdelist: { title: 'ПИК уходит с биржи: акции выкупят по 551,4 ₽', date: '2026-09-08', dev: 'pik', read: '3 мин' },
+  sreda: { title: 'ПИК закрывает бренд «Среда»: проекты переходят в Forma', date: '2026-07-03', dev: 'pik', read: '2 мин' },
+  rate: { title: 'Ставка снизилась девятый раз подряд: что это меняет для покупателя новостройки', date: '2026-06-19', read: '5 мин' },
+};
+
+const RATE = [
+  ['2025-06-06', 20], ['2025-07-25', 18], ['2025-09-12', 17], ['2025-10-24', 16.5], ['2025-12-19', 16],
+  ['2026-02-13', 15.5], ['2026-03-20', 15], ['2026-04-24', 14.5], ['2026-06-19', 14.25],
+];
+
+
+const PRICE = { msk: 563, mo: 220, period: 'январь–август 2026', ratio: '2,56' };
+
+/* ===================== ПОМОЩНИКИ ===================== */
+const $ = (s, el = document) => el.querySelector(s);
+const MONTHS = ['января', 'февраля', 'марта', 'апреля', 'мая', 'июня', 'июля', 'августа', 'сентября', 'октября', 'ноября', 'декабря'];
+const d = s => { const [y, m, dd] = s.split('-').map(Number); return `${dd} ${MONTHS[m - 1]} ${y}`; };
+const dm = s => { const [, m, dd] = s.split('-').map(Number); return `${dd} ${MONTHS[m - 1]}`; };
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]))
+  .replace(/(\d) (тыс|млн|₽|м²|кв\.|этаж)/g, '$1 $2').replace(/(тыс\.|млн) (₽)/g, '$1 $2');
+const objById = id => OBJS.find(o => o.id === id);
+const plural = (n, a, b, c) => { const m10 = n % 10, m100 = n % 100; return m10 === 1 && m100 !== 11 ? a : m10 >= 2 && m10 <= 4 && (m100 < 12 || m100 > 14) ? b : c; };
+/* число: целая часть графитом, дробная серым */
+function num(v, { sup = '', unit = '' } = {}) {
+  const [i, f] = String(v).split(',');
+  return `<span class="num">${sup ? `<sup>${sup}</sup>` : ''}${i}${f !== undefined ? `<span class="fr">,${f}</span>` : ''}${unit ? `<span class="u">${unit}</span>` : ''}</span>`;
+}
+function strip(stage, out = false) {
+  let h = '';
+  for (let i = 0; i < 6; i++) h += `<i class="${i < stage ? 'done' : i === stage ? 'now' : ''}"></i>`;
+  return `<span class="strip${out ? ' out' : ''}" role="img" aria-label="Стадия: ${STAGES[stage]}, ${stage + 1} из 6">${h}</span>`;
+}
+function stagePill(o, out = false) {
+  return out ? `<span class="pill coral">Ушёл из портфеля</span>` : `<span class="pill ${o.stage === 4 ? 'sun' : ''}">${STAGES[o.stage]}</span>`;
+}
+function track(stage) {
+  const pct = (stage + 0.5) / 6 * 100;
+  return `<div class="track" role="img" aria-label="Стадия ${stage + 1} из 6: ${STAGES[stage]}"><div class="bar"><i style="width:${pct}%"></i></div><span class="mk" style="left:${pct}%"></span>
+    <div class="ends" aria-hidden="true"><span>${STAGES[0]}</span><span>${STAGES[5]}</span></div></div>`;
+}
+function objRow(o, out = false) {
+  const dv = DEVS[o.dev];
+  return `<li><a href="#${o.id}"><span class="t">${esc(o.name)}</span>${stagePill(o, out)}
+    <span class="s">${strip(o.stage, out)}<span>${esc(dv.name)}${o.prev ? ', ранее ' + esc(DEVS[o.prev].name) : ''}</span>${o.zu.length ? `<span class="zu"><b>ЗУ</b>${esc(o.zu[0])}</span>` : ''}</span></a></li>`;
+}
+function readItem(k, a) {
+  return k === 'a22'
+    ? `<li><a href="#a22"><span class="t">${esc(a.title)}</span><span></span><span class="s">${d(a.date)}</span></a></li>`
+    : `<li><div class="nl"><span class="t">${esc(a.title)}</span><span></span><span class="s">${d(a.date)}, в прототипе не свёрстана</span></div></li>`;
+}
+function signals() {
+  const all = [];
+  OBJS.forEach(o => o.tl.forEach(t => all.push({ date: t[0], text: t[2], o })));
+  return all.sort((a, b) => b.date.localeCompare(a.date)).slice(0, 6);
+}
+const ARROW = `<svg viewBox="0 0 24 24"><path d="M7 17 17 7M9 7h8v8"/></svg>`;
+
+/* график ставки: ступени решений ЦБ, оранжевая линия с мягкой заливкой */
+function rateChart() {
+  const W = 340, H = 168, L = 6, R = 6, T = 30, B = 26;
+  const t = s => Date.parse(s), t0 = t(RATE[0][0]), t1 = t('2026-10-13');
+  const X = s => L + (t(s) - t0) / (t1 - t0) * (W - L - R);
+  const lo = 13, hi = 21, Y = v => T + (hi - v) / (hi - lo) * (H - T - B);
+  let p = `M${X(RATE[0][0]).toFixed(1)} ${Y(RATE[0][1]).toFixed(1)}`;
+  for (let i = 1; i < RATE.length; i++) { const x = X(RATE[i][0]); p += `H${(x - 4).toFixed(1)}Q${x.toFixed(1)} ${Y(RATE[i - 1][1]).toFixed(1)} ${x.toFixed(1)} ${((Y(RATE[i - 1][1]) + Y(RATE[i][1])) / 2).toFixed(1)}Q${x.toFixed(1)} ${Y(RATE[i][1]).toFixed(1)} ${(x + 4).toFixed(1)} ${Y(RATE[i][1]).toFixed(1)}`; }
+  p += `H${X('2026-10-13').toFixed(1)}`;
+  const area = p + `V${H - B}H${L}Z`;
+  const grid = [14, 17, 20].map(v => `<line x1="${L}" x2="${W - R}" y1="${Y(v)}" y2="${Y(v)}" stroke="var(--line)" stroke-dasharray="2 4"/><text x="${W - R}" y="${Y(v) - 5}" text-anchor="end" font-size="10" fill="var(--grey)">${v}%</text>`).join('');
+  const ticks = [['2025-07-01', 'июль'], ['2026-01-01', 'январь'], ['2026-07-01', 'июль']].map(([s, l]) => `<text x="${X(s)}" y="${H - 6}" text-anchor="middle" font-size="10" fill="var(--grey)">${l}</text>`).join('');
+  const last = RATE[RATE.length - 1], first = RATE[0];
+  const lx = X(last[0]), ly = Y(last[1]), fx = X(first[0]), fy = Y(first[1]);
+  const pts = RATE.map(([s, v]) => `<circle cx="${X(s)}" cy="${Y(v)}" r="9" fill="transparent"><title>${d(s)}: ${String(v).replace('.', ',')}%</title></circle>`).join('');
+  return `<div class="chart"><svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Ключевая ставка снизилась с 20 до 14,25 процента за год">
+    <defs><linearGradient id="rateFill" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="var(--orange)" stop-opacity=".22"/><stop offset="1" stop-color="var(--orange)" stop-opacity="0"/></linearGradient>
+      <linearGradient id="rateLine" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="var(--sun)"/><stop offset="1" stop-color="var(--orange)"/></linearGradient></defs>
+    ${grid}${ticks}
+    <path d="${area}" fill="url(#rateFill)"/>
+    <path class="line" d="${p}" fill="none" stroke="url(#rateLine)" stroke-width="2.4" stroke-linecap="round"/>
+    <circle cx="${fx}" cy="${fy}" r="3.5" fill="var(--panel)" stroke="var(--sun)" stroke-width="2"/>
+    <g transform="translate(${fx + 8} ${fy - 24})"><rect width="44" height="20" rx="10" fill="var(--panel)" stroke="var(--line)"/><text x="22" y="14" text-anchor="middle" font-size="10.5" font-weight="600" fill="var(--ink)">20%</text></g>
+    <circle cx="${lx}" cy="${ly}" r="5" fill="var(--orange)" stroke="var(--panel)" stroke-width="2.5"/>
+    <g transform="translate(${lx - 30} ${ly - 30})"><rect width="60" height="20" rx="10" fill="var(--ink)"/><text x="30" y="14" text-anchor="middle" font-size="10.5" font-weight="600" fill="var(--bg)">14,25%</text></g>
+    ${pts}
+  </svg></div>`;
+}
+
+/* ===================== ЭКРАНЫ ===================== */
+function home() {
+  const stories = [['a22', 'danilovsky'], ['silika', 'silika'], [null, 'severny-port']].map(([ak, oid], i, arr) => {
+    const o = objById(oid), a = ak ? ARTS[ak] : { title: 'Legenda вывела лот 6 «Северного порта» на 50 тыс. ₽ за метр дороже первой очереди', date: '2026-03-05' };
+    const href = ak === 'a22' ? '#a22' : '#' + oid;
+    const pager = arr.map((_, j) => `<i class="${j === i ? 'on' : ''}">${j + 1}</i>`).join('');
+    return `<a class="story card" href="${href}"><div class="ph"><img src="${o.img}" alt="Визуализация проекта ${esc(o.name)}"><div class="pager" aria-hidden="true">${pager}</div><div class="tags"><span>${esc(DEVS[o.dev].name)}</span><span>${STAGES[o.stage]}</span></div></div>
+      <div class="tx"><time datetime="${a.date}">${d(a.date)}</time><h3>${esc(a.title)}</h3></div></a>`;
+  }).join('');
+  const sig = signals().map(s => `<li><a href="#${s.o.id}"><span class="t">${esc(s.text)}</span>${stagePill(s.o)}<span class="s"><b>${esc(s.o.name)}</b><span>${dm(s.date)}</span></span></a></li>`).join('');
+  const devs = ['pik', 'mr', 'etalon', 'granel', 'sezar', 'tekta'].map(k => `<a class="dev-card card" href="#dev-${k}"><span class="mono">${esc(DEVS[k].mono)}</span><span>${num(DEVS[k].mentions)}<b>${esc(DEVS[k].name)}</b><small>${plural(DEVS[k].mentions, 'материал', 'материала', 'материалов')} в архиве</small></span></a>`).join('');
+  return `
+  <h1 class="hello tt">Рынок новостроек<span>13 октября 2026</span></h1>
+
+  <section class="kpi card" aria-labelledby="h-kpi">
+    <div class="kpi-h"><div><h2 id="h-kpi">Цены и ставка</h2><p>Цена сделок в тыс. ₽ за м², ${PRICE.period}</p></div><span class="pill"><span class="dot" style="color:var(--orange)"></span>Банк России</span></div>
+    <div class="kpi-row">
+      <div>${num('14,25', { sup: '%' })}<small>Ставка ЦБ</small></div>
+      <div>${num(PRICE.msk, { sup: '₽' })}<small>Москва</small></div>
+      <div>${num(PRICE.mo, { sup: '₽' })}<small>Область</small></div>
+    </div>
+    ${rateChart()}
+    <p class="note" style="margin-top:6px">Ставка снизилась с 20% до 14,25% за год, девять решений подряд. Москва дороже области в ${PRICE.ratio} раза.</p>
+  </section>
+
+  <section class="sec" aria-labelledby="h-st">
+    <div class="sec-h"><h2 id="h-st" class="tt">Главное<span>за неделю</span></h2></div>
+    <div class="slides">${stories}</div>
+  </section>
+
+  <section class="sec" aria-labelledby="h-sig">
+    <div class="sec-h"><h2 id="h-sig" class="tt">Сигналы<span>по объектам</span></h2><a href="#objects">Все объекты</a></div>
+    <ul class="rows card">${sig}</ul>
+  </section>
+
+  ${proBlock()}
+
+  <section class="sec" aria-labelledby="h-dev">
+    <div class="sec-h"><h2 id="h-dev" class="tt">Застройщики<span>в архиве</span></h2><a href="#developers">Все</a></div>
+    <div class="devs">${devs}</div>
+  </section>
+  ${foot()}`;
+}
+
+function proBlock() {
+  return `<section class="pro" aria-labelledby="h-pro">
+    <div class="top-r"><span class="pill dark">Шахматка Про</span><p>по подписке</p></div>
+    <h2 id="h-pro">Узнавайте о проектах<span>раньше рекламы</span></h2>
+    <ul>
+      <li>Оценка перспективы объекта и сравнение с соседями</li>
+      <li>История цен по очередям и форматам квартир</li>
+      <li>Ранние сигналы: новые участки, ГЗК, смена собственника</li>
+      <li>Судебные риски: Мосгорсуд, арбитраж, ФССП</li>
+    </ul>
+    <div class="act"><button class="btn" type="button" data-sub>Оформить подписку</button><a class="arrow" href="#pro" aria-label="Подробнее о подписке">${ARROW}</a></div>
+    <p class="msg" hidden>Подписка откроется после запуска сайта. Это прототип.</p>
+  </section>`;
+}
+
+function foot() {
+  return `<footer class="foot">
+    <a class="wm" href="#home" aria-label="Шахматка">${MARK}ахматка</a>
+    <p>шахматка.москва — независимое медиа о новостройках. В фокусе Москва, в охвате вся Россия.</p>
+    <p>Не публикуем партнёрские материалы. Каждая цифра проверена по официальному источнику, ссылки — в конце материала.</p>
+    <p><a href="#brand">Фирменный стиль</a></p>
+  </footer>`;
+}
+
+function objects(q = '', st = -1) {
+  const filt = ['Все', ...STAGES].map((s, i) => `<button type="button" data-st="${i - 1}" aria-pressed="${i - 1 === st}">${s}</button>`).join('');
+  return `<h1 class="page-h tt">Объекты<span>по адресу участка</span></h1>
+  <div class="search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 21 21"/></svg><label for="q" hidden>Поиск</label><input id="q" type="search" placeholder="Автозаводская, Силика или ПИК" value="${esc(q)}" autocomplete="off"></div>
+  <div class="filters" role="group" aria-label="Стадия">${filt}</div>
+  <ul class="rows card" id="olist" style="margin-top:8px"></ul>
+  ${foot()}`;
+}
+function fillObjects(q, st) {
+  const n = q.trim().toLowerCase();
+  const list = OBJS.filter(o => (st < 0 || o.stage === st) && (!n || [o.name, ...o.zu, ...o.aka, DEVS[o.dev].name, o.prev ? DEVS[o.prev].name : '', o.area].join(' ').toLowerCase().includes(n)));
+  $('#olist').innerHTML = list.length ? list.map(o => objRow(o)).join('') : `<li class="empty">Ничего не нашли. Попробуйте адрес участка: в базе объект часто записан по нему, а не по названию ЖК.</li>`;
+}
+
+function factTile(f) {
+  const m = String(f[1]).match(/^≈?(\d+(?:,\d+)?)\s*(тыс\. ₽\/м²|м²|тыс\. м²)?$/);
+  const val = m ? num(m[1], { unit: m[2] ? esc(m[2]) : '' }) : `<span class="txt">${esc(f[1])}</span>`;
+  return `<div class="tile card${f[3] ? ' wide' : ''}"><dt>${f[0]}</dt><dd>${val}</dd><small>${esc(f[2])}</small></div>`;
+}
+
+function object(o) {
+  const dv = DEVS[o.dev];
+  const tl = [...o.tl].reverse().map(t => `<li><time datetime="${t[0]}">${d(t[0])}</time><p>${esc(t[2])}</p><span class="pill">${STAGES[t[1]]}</span></li>`).join('');
+  const arts = Object.entries(ARTS).filter(([, a]) => a.obj === o.id);
+  return `<nav class="crumbs" aria-label="Путь"><a href="#objects">Объекты</a><span>/</span><span>${esc(o.region)}, ${esc(o.area)}</span></nav>
+  ${o.img ? `<div class="hero"><img src="${o.img}" alt="Визуализация проекта ${esc(o.name)}"><div class="tags"><span class="logo-chip" aria-hidden="true">${MARK}</span><span>${esc(o.region)}</span><span>${esc(o.area)}</span></div></div><p class="credit">${esc(o.credit)}</p>` : ''}
+  <h1 class="obj-h1 tt">${esc(o.name)}<span>${esc(dv.name)}</span></h1>
+  <div class="zus">${o.zu.map(z => `<span class="zu"><b>ЗУ</b>${esc(z)}</span>`).join('')}${o.aka.map(a => `<span class="pill">${esc(a)}</span>`).join('')}<a class="pill" href="#dev-${o.dev}">${esc(dv.name)}</a>${o.prev ? `<a class="pill" href="#dev-${o.prev}">ранее ${esc(DEVS[o.prev].name)}</a>` : ''}</div>
+
+  <section class="stage card" aria-labelledby="h-stg">
+    <div class="row"><div>${num(String(o.stage + 1), {})}<span class="num"><span class="fr">/6</span></span></div><p class="lbl" id="h-stg">Стадия<b>${STAGES[o.stage]}</b></p></div>
+    ${track(o.stage)}
+  </section>
+  <dl class="tiles" style="margin:10px 0 0">${o.facts.map(factTile).join('')}</dl>
+
+  <section class="sec" aria-labelledby="h-tl"><div class="sec-h"><h2 id="h-tl" class="tt">Хронология<span>из архива</span></h2></div><ol class="tl card">${tl}</ol></section>
+
+  <section class="sec" aria-labelledby="h-an"><div class="sec-h"><h2 id="h-an" class="tt">Перспектива<span>объекта</span></h2></div>
+    <div class="locked"><div class="ghost" aria-hidden="true"><span class="num">—<span class="fr">,—</span></span><span class="num">——</span></div>
+      <b>Доступно в Шахматке Про</b><p>Сравнение с соседними проектами, история цен по очередям, риски по срокам и согласованиям.</p>
+      <div><a class="btn" href="#pro">Подробнее о подписке</a></div></div>
+  </section>
+
+  <section class="sec" aria-labelledby="h-ct"><div class="sec-h"><h2 id="h-ct" class="tt">Суды<span>и исполнительные производства</span></h2></div>
+    <div class="courts"><b>Данные появятся после подключения источников</b>
+      <ul><li>Мосгорсуд и районные суды Москвы (mos-gorsud.ru): иски дольщиков</li><li>Арбитраж (kad.arbitr.ru): споры с подрядчиками, банкротства</li><li>ФССП: исполнительные производства</li><li>Федресурс: существенные факты</li></ul></div>
+  </section>
+
+  ${arts.length ? `<section class="sec"><div class="sec-h"><h2 class="tt">Материалы<span>об объекте</span></h2></div><ul class="rows card">${arts.map(([k, a]) => readItem(k, a)).join('')}</ul></section>` : ''}
+  ${foot()}`;
+}
+
+function developers() {
+  const rows = Object.entries(DEVS).sort((a, b) => b[1].mentions - a[1].mentions).map(([k, v]) => {
+    const n = OBJS.filter(o => o.dev === k).length;
+    return `<li><a href="#dev-${k}"><span class="t">${esc(v.name)}</span><span class="pill">${v.mentions}</span><span class="s">${esc(v.about)}${n ? ' ' + n + ' ' + plural(n, 'объект', 'объекта', 'объектов') + ' в базе.' : ''}</span></a></li>`;
+  }).join('');
+  return `<h1 class="page-h tt">Застройщики<span>по числу материалов</span></h1>
+  <ul class="rows card" style="margin-top:16px">${rows}</ul>${foot()}`;
+}
+
+function developer(k) {
+  const v = DEVS[k];
+  const objs = OBJS.filter(o => o.dev === k), gone = OBJS.filter(o => o.prev === k);
+  const ev = v.events.map(e => `<li><time datetime="${e[0]}">${d(e[0])}</time><p>${esc(e[1])}</p></li>`).join('');
+  const arts = Object.entries(ARTS).filter(([, a]) => a.dev === k || (a.obj && objById(a.obj).dev === k));
+  return `<nav class="crumbs" aria-label="Путь"><a href="#developers">Застройщики</a></nav>
+  <div class="dev-h"><span class="dev-mono" aria-hidden="true">${esc(v.mono)}</span><h1 class="tt">${esc(v.name)}<span>${v.mentions} ${plural(v.mentions, 'материал', 'материала', 'материалов')}</span></h1></div>
+  <p class="note" style="margin-top:12px">${esc(v.about)}</p>
+  ${v.facts.length ? `<dl class="tiles" style="margin:14px 0 0">${v.facts.map(f => factTile([f[0], f[1], f[2], false])).join('')}</dl>` : ''}
+  <section class="sec" aria-labelledby="h-o"><div class="sec-h"><h2 id="h-o" class="tt">Объекты<span>${objs.length} в базе</span></h2></div>
+    ${objs.length ? `<ul class="rows card">${objs.map(o => objRow(o)).join('')}</ul>` : '<p class="empty">Объекты появятся после разбора архива.</p>'}
+    ${gone.length ? `<p class="note" style="margin:16px 4px 8px">Ушли из портфеля</p><ul class="rows card">${gone.map(o => objRow(o, true)).join('')}</ul>` : ''}
+  </section>
+  ${ev ? `<section class="sec" aria-labelledby="h-e"><div class="sec-h"><h2 id="h-e" class="tt">События<span>компании</span></h2></div><ol class="tl card">${ev}</ol></section>` : ''}
+  <section class="sec" aria-labelledby="h-ct"><div class="sec-h"><h2 id="h-ct" class="tt">Судебные риски<span>застройщика</span></h2></div>
+    <div class="courts"><b>Проверка по официальным источникам появится после запуска</b>
+      <ul><li>Иски дольщиков в Мосгорсуде и районных судах</li><li>Арбитражные дела застройщика и его проектных компаний</li><li>Исполнительные производства ФССП</li></ul></div>
+  </section>
+  ${arts.length ? `<section class="sec"><div class="sec-h"><h2 class="tt">Материалы<span>о компании</span></h2></div><ul class="rows card">${arts.map(([kk, a]) => readItem(kk, a)).join('')}</ul></section>` : ''}
+  ${foot()}`;
+}
+
+function article() {
+  const a = ARTS.a22, o = objById(a.obj);
+  const rows = [['Студия', 28.7, 18.59], ['1-комнатная', 38.5, 20.68], ['2-комнатная', 53.3, 27.78], ['3-комнатная', 84.4, 43.53]];
+  const fmt = (v, p = 2) => v.toLocaleString('ru-RU', { minimumFractionDigits: p, maximumFractionDigits: p });
+  const tr = rows.map(r => `<tr><td>${r[0]}</td><td>${fmt(r[1], 1)}</td><td><b>${fmt(r[2])}</b></td><td>${Math.round(r[2] / r[1] * 1000)}</td></tr>`).join('');
+  return `<article class="art">
+  <nav class="crumbs" aria-label="Путь"><a href="#home">Лента</a><span>/</span><a href="#danilovsky">${esc(o.name)}</a></nav>
+  <div class="art-meta"><a class="pill" href="#dev-granel">Гранель</a><span class="pill sun">Старт продаж</span><time datetime="${a.date}">${d(a.date)}</time><span class="rd">${a.read}</span></div>
+  <h1>${esc(a.title)}</h1>
+  <p class="lead">Проект на Автозаводской, 22 вернулся в продажу с новым застройщиком и под новым названием. Средняя цена по прайсу — около 555&nbsp;тыс.&nbsp;₽ за квадратный метр.</p>
+  <figure class="fig"><div class="ph"><img src="${o.img}" alt="Визуализация башен проекта на Автозаводской"></div><figcaption>${esc(o.credit)}</figcaption></figure>
+
+  <section class="short soft" aria-labelledby="h-sh"><h2 id="h-sh">Коротко</h2><ul>
+    <li><i></i><span>Бывший проект ГК «Консоль» А22 теперь называется «Даниловский от Гранель».</span></li>
+    <li><i></i><span>На старте 37 квартир: студии от 18,59&nbsp;млн&nbsp;₽, однокомнатные от 20,68&nbsp;млн&nbsp;₽.</span></li>
+    <li><i></i><span>Ввод — I квартал 2030 года, ключи — III квартал 2030 года.</span></li>
+    <li><i></i><span>У всех лотов одна и та же скидка около 27,5% от базовой цены.</span></li>
+  </ul></section>
+
+  <div class="body">
+    <h2>Что произошло</h2>
+    <p>23 сентября 2026 года «Гранель» опубликовала на сайте прайс проекта на <span class="abbr" title="Земельный участок">ЗУ</span> «Автозаводская, 22». Раньше его строила ГК «Консоль» под названием А22, теперь проект называется «Даниловский от Гранель».</p>
+    <p>В первой выгрузке 37 квартир. Трёхкомнатная пока одна. Средневзвешенная цена по прайсу — 555&nbsp;тыс.&nbsp;₽ за&nbsp;м².</p>
+    <div class="tbl card"><table class="price">
+      <thead><tr><th>Формат</th><th>м²</th><th>млн&nbsp;₽</th><th>тыс.&nbsp;₽/м²</th></tr></thead>
+      <tbody>${tr}</tbody>
+    </table></div>
+    <p class="note" style="margin-top:8px">Минимальные цены на старте продаж, со скидкой. Цена за метр рассчитана по минимальному лоту.</p>
+    <p>Базовые цены без скидки выше примерно на 38%: студия — 25,66&nbsp;млн&nbsp;₽, трёхкомнатная — 60,09&nbsp;млн&nbsp;₽.</p>
+
+    <h2>Контекст</h2>
+    <p>А22 впервые вышел на рынок весной 2025 года. Тогда застройщиком была ГК «Консоль». Осенью 2026 года проект перешёл к «Гранель», и срок ввода сдвинулся на I квартал 2030 года.</p>
+    <p>На рендерах башни закрыты сложной белой ажурной оболочкой поверх стекла. Часть её проходит прямо перед окнами, поэтому вид из некоторых квартир будет через белую ферму.</p>
+
+    <h2>Что это значит для покупателя</h2>
+    <p>Базовый прайс здесь не ориентир. Скидка в 27,5% с первого дня означает, что настоящая цена — та, что после скидки. Сравнивайте с соседними проектами именно её и считайте в рублях за метр.</p>
+    <p>Метр в студии почти на четверть дороже, чем в трёхкомнатной: 648&nbsp;тыс.&nbsp;₽ против 516&nbsp;тыс.&nbsp;₽. Для инвестора это обычная плата за ликвидность маленького лота.</p>
+    <p>На наш взгляд, главный риск — фасад. Такую оболочку дорого делать и обслуживать. Если финансовая модель окажется тесной, её могут упростить уже по ходу стройки.</p>
+    <p>Что отслеживать дальше: регистрации ДДУ в первые месяцы, изменения проектной декларации на наш.дом.рф, судебные дела по проекту.</p>
+  </div>
+
+  <aside class="objcard card" aria-label="Карточка объекта">
+    <div class="h"><a href="#danilovsky">${esc(o.name)}</a>${strip(o.stage)}</div>
+    <dl>
+      <dt>Участок</dt><dd>ЗУ «Автозаводская, 22»</dd>
+      <dt>Другие названия</dt><dd>А22</dd>
+      <dt>Застройщик</dt><dd>Гранель</dd>
+      <dt>Ранее</dt><dd>ГК «Консоль»</dd>
+      <dt>Ввод / ключи</dt><dd>I кв. / III кв. 2030</dd>
+      <dt>Средняя цена</dt><dd>555&nbsp;тыс.&nbsp;₽/м²</dd>
+    </dl>
+  </aside>
+
+  <section class="check" aria-labelledby="h-ck">
+    <h2 id="h-ck" class="tt" style="font-size:var(--s2)">Как мы проверяли<span>протокол фактчекинга</span></h2>
+    <ul>
+      <li class="card"><span class="pill sun">проверить</span><span>Прайс и состав лотов — сайт застройщика, проектная декларация на наш.дом.рф</span></li>
+      <li class="card"><span class="pill sun">проверить</span><span>Срок ввода I кв. 2030 — проектная декларация и разрешение на строительство</span></li>
+      <li class="card"><span class="pill sun">проверить</span><span>Смена застройщика — ЕГРЮЛ: учредители проектной компании</span></li>
+      <li class="card"><span class="pill coral">убрано</span><span>Причина остановки проекта у «Консоли» — источник анонимный, подтверждения нет</span></li>
+      <li class="card"><span class="pill coral">убрано</span><span>Спор «Консоли» с проектировщиком — не вошёл в текст, пока не сверен по kad.arbitr.ru</span></li>
+    </ul>
+  </section>
+  </article>
+  ${foot()}`;
+}
+
+function pro() {
+  return `<h1 class="page-h tt">Подписка<span>Шахматка Про</span></h1>
+  ${proBlock()}
+  <section class="sec"><div class="sec-h"><h2 class="tt">Бесплатно<span>для всех</span></h2></div>
+    <ul class="rows card"><li><a href="#home"><span class="t">Лента новостей и разборы</span><span></span><span class="s">с источниками в каждом материале</span></a></li><li><a href="#objects"><span class="t">Карточки объектов и застройщиков</span><span></span><span class="s">стадия, хронология, базовые цифры</span></a></li></ul>
+  </section>${foot()}`;
+}
+
+function brand() {
+  const pal = [['--ink', 'Графит', 'текст, кнопки'], ['--bg', 'Полотно', 'фон'], ['--sun', 'Солнце', 'текущее'], ['--orange', 'Апельсин', 'графики'], ['--coral', 'Коралл', 'риск, ушёл'], ['--lilac', 'Лаванда', 'градиент']]
+    .map(p => `<div><i style="background:var(${p[0]})"></i><b>${p[1]}</b><span>${p[2]}</span></div>`).join('');
+  const ic = (sz, g) => `<span class="ic${g ? ' g' : ''}" style="width:${sz}px;height:${sz}px"><span style="display:block;width:${Math.round(sz * 0.58)}px">${MARK.replace('<svg ', '<svg style="width:100%;height:auto;display:block" ')}</span></span>`;
+  return `<h1 class="page-h tt">Фирменный стиль<span>шахматка.москва</span></h1>
+  <div class="brand-hero"><span class="wm" role="img" aria-label="шахматка">${MARK}ахматка</span><span class="url"><i>${MARK}</i>шахматка.москва</span></div>
+
+  <section class="sec"><div class="sec-h"><h2 class="tt">Знак<span>буква «ш» из шахматки</span></h2></div>
+    <div class="card" style="overflow:hidden">
+      <div class="construct"><span class="disc">${MARK.replace('<svg ', '<svg role="img" aria-label="Знак Шахматки" ')}</span></div>
+      <ul class="legend-list">
+        <li><i style="background:var(--ink)"></i><span>Проданные квартиры складываются в букву «ш»</span></li>
+        <li><i style="box-shadow:inset 0 0 0 1.5px var(--grey)"></i><span>Пустые клетки — свободные квартиры</span></li>
+        <li><i style="background:linear-gradient(135deg,var(--sun),var(--orange))"></i><span>Солнечная клетка — пентхаус, ради которого строят дом</span></li>
+      </ul>
+    </div>
+    <div class="icons card" style="margin-top:10px">
+      <div class="m">${ic(72, true)}приложение</div><div class="m">${ic(48, false)}48</div><div class="m">${ic(32, true)}32</div><div class="m">${ic(20, false)}фавикон</div>
+    </div>
+  </section>
+
+  <section class="sec"><div class="sec-h"><h2 class="tt">Цвет<span>тёплый и светлый</span></h2></div>
+    <div class="palette card">${pal}</div>
+    <div class="card" style="margin-top:10px;height:96px;background:var(--grad)" role="img" aria-label="Фирменный градиент от лаванды к персику"></div>
+  </section>
+
+  <section class="sec"><div class="sec-h"><h2 class="tt">Шрифты<span>Unbounded и Onest</span></h2></div>
+    <div class="type card">
+      <div class="big"><b>Unbounded</b><span>Аа</span></div>
+      <div class="w"><span>Light 300 — заголовки и цифры</span><span>Medium 500 — знак</span></div>
+      <div>${num('555', { sup: '₽', unit: 'тыс./м²' })}</div>
+      <p style="font-size:var(--s1);line-height:1.6">Onest — текст и интерфейс. Базовый прайс здесь не ориентир: настоящая цена — та, что после скидки.</p>
+    </div>
+  </section>
+
+  <section class="sec"><div class="sec-h"><h2 class="tt">Стадии<span>шесть клеток</span></h2></div>
+    <div class="card" style="padding:18px 16px;display:grid;gap:14px">
+      <div style="display:flex;gap:12px;align-items:center">${strip(0)}<span>Участок</span></div>
+      <div style="display:flex;gap:12px;align-items:center">${strip(2)}<span>Архитектура</span></div>
+      <div style="display:flex;gap:12px;align-items:center">${strip(4)}<span class="pill sun">Старт продаж</span></div>
+      <div style="display:flex;gap:12px;align-items:center">${strip(2, true)}<span class="pill coral">Ушёл из портфеля</span></div>
+      ${track(3)}
+    </div>
+  </section>
+
+  <section class="sec"><div class="sec-h"><h2 class="tt">Голос<span>как мы пишем</span></h2></div>
+    <ul class="voice card">
+      <li><b>Говорим как инсайдер</b><span>Прямо, с сухой иронией, без пиара и злости.</span><q>Элитный дом — это подставка для пентхауса.</q></li>
+      <li><b>Факт отдельно от мнения</b><span>Оценки подаём как «на наш взгляд».</span></li>
+      <li><b>Цифры с единицами и датами</b><span>«610 тыс. ₽/м² в марте 2026 года», а не «дорого и недавно».</span></li>
+      <li><b>Без рекламы и слухов</b><span>Партнёрские тексты и непроверенное не публикуем.</span></li>
+    </ul>
+  </section>
+  ${foot()}`;
+}
+
+/* ===================== РОУТЕР ===================== */
+const app = $('#app');
+let objState = { q: '', st: -1 };
+function route() {
+  const h = (location.hash || '#home').slice(1);
+  let html, tab = '';
+  if (h === 'home' || h === '') { html = home(); tab = 'home'; }
+  else if (h === 'objects') { html = objects(objState.q, objState.st); tab = 'objects'; }
+  else if (h === 'developers') { html = developers(); tab = 'developers'; }
+  else if (h === 'pro') { html = pro(); tab = 'pro'; }
+  else if (h === 'brand') { html = brand(); }
+  else if (h === 'a22') { html = article(); tab = 'home'; }
+  else if (h.startsWith('dev-') && DEVS[h.slice(4)]) { html = developer(h.slice(4)); tab = 'developers'; }
+  else if (objById(h)) { html = object(objById(h)); tab = 'objects'; }
+  else { html = `<p class="empty">Такой страницы нет. <a href="#home">Вернуться в ленту</a></p>`; }
+  app.innerHTML = `<div class="view">${html}</div>`;
+  document.querySelectorAll('.dock a').forEach(a => { if (a.dataset.tab === tab) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current'); });
+  if (h === 'objects') {
+    fillObjects(objState.q, objState.st);
+    $('#q').addEventListener('input', e => { objState.q = e.target.value; fillObjects(objState.q, objState.st); });
+    document.querySelectorAll('.filters button').forEach(b => b.addEventListener('click', () => {
+      objState.st = Number(b.dataset.st);
+      document.querySelectorAll('.filters button').forEach(x => x.setAttribute('aria-pressed', x === b));
+      fillObjects(objState.q, objState.st);
+    }));
+  }
+  app.querySelectorAll('[data-sub]').forEach(b => b.addEventListener('click', () => { b.closest('.pro').querySelector('.msg').hidden = false; }));
+  window.scrollTo(0, 0);
+}
+window.addEventListener('hashchange', route);
+route();
+</script>
