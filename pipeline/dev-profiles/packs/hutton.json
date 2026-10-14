@@ -1,0 +1,62 @@
+{
+ "slug": "hutton",
+ "name": "Hutton",
+ "objects": [
+  {
+   "name": "Lunar",
+   "stage_by_dossier": "сдан",
+   "where": null,
+   "zu": "Ленинский, 38"
+  },
+  {
+   "name": "Форум",
+   "stage_by_dossier": "проект",
+   "where": "Дорогомилово",
+   "zu": null
+  },
+  {
+   "name": "Lumin",
+   "stage_by_dossier": "сдан",
+   "where": null,
+   "zu": null
+  },
+  {
+   "name": "Геолог",
+   "stage_by_dossier": "сдан",
+   "where": "Обручевский",
+   "zu": null
+  },
+  {
+   "name": "Сетунь",
+   "stage_by_dossier": "проект",
+   "where": null,
+   "zu": "Толбухина, 10"
+  },
+  {
+   "name": "B'Aires",
+   "stage_by_dossier": "продажи",
+   "where": null,
+   "zu": "Большой Волоколамский, 23"
+  },
+  {
+   "name": "Милютинский, 5",
+   "stage_by_dossier": "проект",
+   "where": "Мещанский",
+   "zu": "Милютинский, 5"
+  },
+  {
+   "name": "Милютинский 18",
+   "stage_by_dossier": null,
+   "where": "Мещанский",
+   "zu": "Милютинский, 18А"
+  },
+  {
+   "name": "Салтыковская, 24",
+   "stage_by_dossier": "проект",
+   "where": null,
+   "zu": "Салтыковская, 24"
+  }
+ ],
+ "confirmed_deals": [],
+ "checked_articles": []
+}

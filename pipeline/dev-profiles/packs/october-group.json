@@ -1,0 +1,38 @@
+{
+ "slug": "october-group",
+ "name": "October Group",
+ "objects": [
+  {
+   "name": "KOBZON CITY",
+   "stage_by_dossier": "продажи",
+   "where": "Басманный",
+   "zu": "Бауманская, 11"
+  },
+  {
+   "name": "Fly Tower",
+   "stage_by_dossier": "проект",
+   "where": "Пресненский",
+   "zu": "Столярный, 3/6"
+  },
+  {
+   "name": "king & sons",
+   "stage_by_dossier": "продажи",
+   "where": "Раменки",
+   "zu": "Мосфильмовская, 31А"
+  },
+  {
+   "name": "Stories",
+   "stage_by_dossier": "продажи",
+   "where": "Раменки",
+   "zu": null
+  }
+ ],
+ "confirmed_deals": [],
+ "checked_articles": [
+  {
+   "title": "KOBZON CITY на Бауманской, 11: офисы от October Group, ввод в 2028 году",
+   "lead": "October Group в январе 2025 года вывела в продажу офисы в KOBZON CITY (K-CITY) — многофункциональном центре на 59,8 тыс. м² на Бауманской, 11 с арт-хабом имени Кобзона. К лету 2026 года проект вышел на стадию строительства, ввод первой очереди планируют в 2028 году.",
+   "date_modified": "2026-10-14"
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "slug": "psn",
+ "name": "ПСН",
+ "objects": [
+  {
+   "name": "Домашний",
+   "stage_by_dossier": "сдан",
+   "where": "Марьино",
+   "zu": null
+  },
+  {
+   "name": "5-й Донской, 21Б",
+   "stage_by_dossier": "проект",
+   "where": "Донской",
+   "zu": "5-й Донской, 21Б"
+  },
+  {
+   "name": "Правда",
+   "stage_by_dossier": "продажи",
+   "where": "Савёловский",
+   "zu": "Правда, 24"
+  },
+  {
+   "name": "Среда",
+   "stage_by_dossier": "проект",
+   "where": null,
+   "zu": null
+  },
+  {
+   "name": "Новоспасский",
+   "stage_by_dossier": "проект",
+   "where": "Даниловский",
+   "zu": "Дербеневская набережная, 7"
+  }
+ ],
+ "confirmed_deals": [],
+ "checked_articles": []
+}

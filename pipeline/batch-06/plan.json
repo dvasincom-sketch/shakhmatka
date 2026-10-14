@@ -1,0 +1,426 @@
+{
+ "batch": 6,
+ "units": [
+  {
+   "unit": 35933,
+   "notes": [
+    35933
+   ],
+   "dossier": "demidov-26",
+   "developer": "otrada",
+   "date": "2026-09-28",
+   "images": 0
+  },
+  {
+   "unit": 32492,
+   "notes": [
+    32492
+   ],
+   "dossier": "kombinat-gazety-pravda",
+   "developer": "tekhkomplekt",
+   "date": "2025-12-15",
+   "images": 10
+  },
+  {
+   "unit": 33500,
+   "notes": [
+    33500
+   ],
+   "dossier": "perovskiy-54",
+   "developer": "glorax",
+   "date": "2026-03-20",
+   "images": 3
+  },
+  {
+   "unit": 33062,
+   "notes": [
+    33062
+   ],
+   "dossier": "dom-soboleva",
+   "developer": "mr-group",
+   "date": "2026-02-11",
+   "images": 0
+  },
+  {
+   "unit": 32910,
+   "notes": [
+    32910
+   ],
+   "dossier": "tpu-suvorovskaya",
+   "developer": "mr-group",
+   "date": "2026-01-28",
+   "images": 7
+  },
+  {
+   "unit": 29557,
+   "notes": [
+    29557
+   ],
+   "dossier": "starovagankovskiy",
+   "developer": "mr-group",
+   "date": "2025-06-03",
+   "images": 4
+  },
+  {
+   "unit": 36014,
+   "notes": [
+    36014
+   ],
+   "dossier": "siti-2",
+   "developer": "strana",
+   "date": "2026-10-02",
+   "images": 0
+  },
+  {
+   "unit": 34125,
+   "notes": [
+    34125
+   ],
+   "dossier": "rozhdestvenka-8",
+   "developer": "sminex",
+   "date": "2026-04-30",
+   "images": 0
+  },
+  {
+   "unit": 34948,
+   "notes": [
+    34948
+   ],
+   "dossier": "akvilon-signal",
+   "developer": "akvilon",
+   "date": "2026-07-07",
+   "images": 1
+  },
+  {
+   "unit": 35201,
+   "notes": [
+    35201
+   ],
+   "dossier": "shkola-budushchego",
+   "developer": "pik",
+   "date": "2026-07-28",
+   "images": 2
+  },
+  {
+   "unit": 24266,
+   "notes": [
+    24266
+   ],
+   "dossier": "rodina-park",
+   "developer": "rodina",
+   "date": "2024-07-01",
+   "images": 10
+  },
+  {
+   "unit": 28316,
+   "notes": [
+    28316
+   ],
+   "dossier": "businovskiy-park",
+   "developer": "pik",
+   "date": "2025-03-07",
+   "images": 1
+  },
+  {
+   "unit": 29620,
+   "notes": [
+    29620
+   ],
+   "dossier": "losinoostrovskiy-park",
+   "developer": "pik",
+   "date": "2025-06-04",
+   "images": 1
+  },
+  {
+   "unit": 31277,
+   "notes": [
+    31277
+   ],
+   "dossier": "2-y-irtyshskiy",
+   "developer": "dogma",
+   "date": "2025-09-29",
+   "images": 5
+  },
+  {
+   "unit": 34163,
+   "notes": [
+    34163
+   ],
+   "dossier": "rizhskiy-gruzovoy-dvor",
+   "developer": "strana",
+   "date": "2026-05-06",
+   "images": 4
+  },
+  {
+   "unit": 28948,
+   "notes": [
+    28948
+   ],
+   "dossier": "symphony-38a",
+   "developer": "coldy",
+   "date": "2025-04-18",
+   "images": 3
+  },
+  {
+   "unit": 29027,
+   "notes": [
+    29027
+   ],
+   "dossier": "tpu-fili",
+   "developer": "nkk",
+   "date": "2025-04-22",
+   "images": 10
+  },
+  {
+   "unit": 30174,
+   "notes": [
+    30174
+   ],
+   "dossier": "kashirskoe-61-korp-4-str-1-9",
+   "developer": "transyuzhstroy",
+   "date": "2025-07-14",
+   "images": 4
+  },
+  {
+   "unit": 32142,
+   "notes": [
+    32142
+   ],
+   "dossier": "malyy-levshinskiy-7",
+   "developer": "coldy",
+   "date": "2025-11-25",
+   "images": 0
+  },
+  {
+   "unit": 32671,
+   "notes": [
+    32671
+   ],
+   "dossier": "pavlovskaya-18",
+   "developer": "sr-development",
+   "date": "2025-12-26",
+   "images": 7
+  },
+  {
+   "unit": 33255,
+   "notes": [
+    33255
+   ],
+   "dossier": "ogorodnyy-proezd",
+   "developer": "krost",
+   "date": "2026-02-24",
+   "images": 2
+  },
+  {
+   "unit": 33348,
+   "notes": [
+    33348
+   ],
+   "dossier": "milashenkova-2",
+   "developer": "av",
+   "date": "2026-03-06",
+   "images": 10
+  },
+  {
+   "unit": 34797,
+   "notes": [
+    34797
+   ],
+   "dossier": "profsoyuznaya-78",
+   "developer": "kortros",
+   "date": "2026-06-29",
+   "images": 9
+  },
+  {
+   "unit": 35552,
+   "notes": [
+    35552
+   ],
+   "dossier": "tsvetnoy-30-32-34-16866",
+   "developer": "sezar-group",
+   "date": "2026-08-27",
+   "images": 4
+  },
+  {
+   "unit": 22476,
+   "notes": [
+    22476
+   ],
+   "dossier": "krt-grayvoronovo",
+   "developer": "barkli",
+   "date": "2024-03-22",
+   "images": 9
+  },
+  {
+   "unit": 23346,
+   "notes": [
+    23346
+   ],
+   "dossier": "zvenigorodskaya",
+   "developer": "level-group",
+   "date": "2024-05-07",
+   "images": 9
+  },
+  {
+   "unit": 24772,
+   "notes": [
+    24772
+   ],
+   "dossier": "zhivopisnaya-27",
+   "developer": "struktura-development",
+   "date": "2024-07-29",
+   "images": 6
+  },
+  {
+   "unit": 28927,
+   "notes": [
+    28927
+   ],
+   "dossier": "paveletskaya-naberezhnaya-6",
+   "developer": "am-development",
+   "date": "2025-04-17",
+   "images": 7
+  },
+  {
+   "unit": 32158,
+   "notes": [
+    32158
+   ],
+   "dossier": "dd-oo-mm",
+   "developer": "dar",
+   "date": "2025-11-25",
+   "images": 6
+  },
+  {
+   "unit": 32287,
+   "notes": [
+    32287
+   ],
+   "dossier": "rubtsovskaya-3",
+   "developer": null,
+   "date": "2025-12-02",
+   "images": 4
+  },
+  {
+   "unit": 33184,
+   "notes": [
+    33184
+   ],
+   "dossier": "5-y-donskoy-21b",
+   "developer": "psn",
+   "date": "2026-02-19",
+   "images": 3
+  },
+  {
+   "unit": 33216,
+   "notes": [
+    33216
+   ],
+   "dossier": "rizhskiy-vokzal",
+   "developer": "rzhd",
+   "date": "2026-02-20",
+   "images": 5
+  },
+  {
+   "unit": 34911,
+   "notes": [
+    34911
+   ],
+   "dossier": "sreda",
+   "developer": "psn",
+   "date": "2026-07-03",
+   "images": 0
+  },
+  {
+   "unit": 35329,
+   "notes": [
+    35036,
+    35329
+   ],
+   "dossier": "aurus-rezidentsii",
+   "developer": "strana",
+   "date": "2026-07-13",
+   "images": 9
+  },
+  {
+   "unit": 35780,
+   "notes": [
+    35780
+   ],
+   "dossier": "eon",
+   "developer": "pld",
+   "date": "2026-09-17",
+   "images": 3
+  },
+  {
+   "unit": 25167,
+   "notes": [
+    25167
+   ],
+   "dossier": "akademika-skryabina-21",
+   "developer": "stroymir",
+   "date": "2024-08-21",
+   "images": 9
+  },
+  {
+   "unit": 21812,
+   "notes": [
+    21812
+   ],
+   "dossier": "dom-kuptsa-buloshnikova",
+   "developer": "r4s",
+   "date": "2024-02-14",
+   "images": 8
+  },
+  {
+   "unit": 21891,
+   "notes": [
+    21891
+   ],
+   "dossier": "vorontsovo-pole-10",
+   "developer": "aton",
+   "date": "2024-02-19",
+   "images": 4
+  },
+  {
+   "unit": 25121,
+   "notes": [
+    25121
+   ],
+   "dossier": "tpu-lianozovo",
+   "developer": null,
+   "date": "2024-08-15",
+   "images": 1
+  },
+  {
+   "unit": 28388,
+   "notes": [
+    28388
+   ],
+   "dossier": "festivalnaya-4a",
+   "developer": "capital-group",
+   "date": "2025-03-12",
+   "images": 0
+  },
+  {
+   "unit": 30503,
+   "notes": [
+    30503
+   ],
+   "dossier": "pave",
+   "developer": "forma",
+   "date": "2025-07-30",
+   "images": 1
+  },
+  {
+   "unit": 31245,
+   "notes": [
+    31245
+   ],
+   "dossier": "kuznechiki",
+   "developer": "dom-rf",
+   "date": "2025-09-24",
+   "images": 9
+  }
+ ]
+}

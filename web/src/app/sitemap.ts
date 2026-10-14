@@ -24,12 +24,15 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const last = arts.docs.map((a) => d(a.dateModified, a.datePublished)).filter(Boolean).sort((a, b) => +b! - +a!)[0]
   return [
     { url: `${ORIGIN}/`, lastModified: last, changeFrequency: 'hourly', priority: 1 },
+    { url: `${ORIGIN}/novosti/`, lastModified: last, changeFrequency: 'hourly', priority: 0.9 },
     { url: `${ORIGIN}/obekty/`, changeFrequency: 'daily', priority: 0.8 },
     { url: `${ORIGIN}/novostroyki/`, changeFrequency: 'daily', priority: 0.9 },
     ...land.map((l) => ({ url: `${ORIGIN}/novostroyki/${l.slug}/`, changeFrequency: 'daily' as const, priority: 0.8 })),
     { url: `${ORIGIN}/zastroyshchiki/`, changeFrequency: 'daily', priority: 0.8 },
     { url: `${ORIGIN}/pro/`, changeFrequency: 'monthly', priority: 0.4 },
     { url: `${ORIGIN}/o-proekte/`, changeFrequency: 'monthly', priority: 0.4 },
+    { url: `${ORIGIN}/ceny-na-starte/`, changeFrequency: 'weekly', priority: 0.8 },
+    { url: `${ORIGIN}/krt/`, changeFrequency: 'daily', priority: 0.8 },
     { url: `${ORIGIN}/signaly/`, changeFrequency: 'daily', priority: 0.7 },
     ...arts.docs.map((a) => ({ url: `${ORIGIN}/novosti/${a.slug}/`, lastModified: d(a.dateModified, a.datePublished, a.updatedAt), changeFrequency: 'weekly' as const, priority: 0.7 })),
     ...objs.docs.map((o) => ({ url: `${ORIGIN}/obekty/${o.slug}/`, lastModified: d(o.updatedAt), changeFrequency: 'weekly' as const, priority: 0.6 })),

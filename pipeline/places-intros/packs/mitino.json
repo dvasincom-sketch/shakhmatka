@@ -1,0 +1,18 @@
+{
+ "key": "mitino",
+ "name": "Митино",
+ "nameIn": "в Митине",
+ "okrug": "СЗАО",
+ "slug": "mitino",
+ "url": "/novostroyki/mitino/",
+ "objects": [
+  {
+   "name": "Митинский лес",
+   "url": "/obekty/mitinskiy-les/",
+   "developer": "ПИК (ПАО «ПИК-специализированный застройщик»)",
+   "summary": "«Митинский лес» — проект застройщика ПИК (район Митино). В досье 4 события с 2020 по 2025 год.",
+   "stage": "sales",
+   "articles": []
+  }
+ ]
+}

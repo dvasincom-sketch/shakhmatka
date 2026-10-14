@@ -1,0 +1,29 @@
+{
+ "key": "preobrazhenskoe",
+ "name": "Преображенское",
+ "nameIn": "в районе Преображенское",
+ "okrug": "ВАО",
+ "objects": [
+  {
+   "name": "Преображенская площадь",
+   "developer": null,
+   "stage_by_dossier": "продажи",
+   "zu": "Бухвостова, 12/11",
+   "events_in_dossier": 7
+  },
+  {
+   "name": "Зиккурат Преображенский",
+   "developer": "Эталон",
+   "stage_by_dossier": "проект",
+   "zu": "Большая Черкизовская, 4",
+   "events_in_dossier": 6
+  },
+  {
+   "name": "1-я Бухвостова, 3/1",
+   "developer": "Magnum Development",
+   "stage_by_dossier": "проект",
+   "zu": "1-я Бухвостова, 3/1",
+   "events_in_dossier": 4
+  }
+ ]
+}

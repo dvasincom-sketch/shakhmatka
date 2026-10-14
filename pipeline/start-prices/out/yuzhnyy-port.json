@@ -1,0 +1,30 @@
+{
+ "slug": "yuzhnyy-port",
+ "status": "ok",
+ "project": "Ultima City / УЛЬТИМА Сити (Кортрос, Южнопортовая, 21)",
+ "start": {
+  "date": "2025-05",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 11.3,
+  "lot_desc": "«цены начинаются от 11,3 млн рублей»; студии от 28,28 м² до 2-спальных 62,76 м²",
+  "source": {
+   "title": "Старты продаж, май 2025 (novostroy-m.ru)",
+   "url": "https://www.novostroy-m.ru/analitika/starty_prodaj_may_2025",
+   "date": "2025-06-02"
+  }
+ },
+ "now": {
+  "as_of": "2026-10-14",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 19.1,
+  "lot_desc": "1-комн. 28,34 м², 11 этаж (19 084 156 ₽); 1-я очередь, 2 корпуса",
+  "selling": true,
+  "source": {
+   "title": "ЖК УЛЬТИМА Сити, novostroy-m.ru",
+   "url": "https://www.novostroy-m.ru/baza/jk_yujnoportovaya_21"
+  }
+ },
+ "note": "Обзор не называет цену за м² (380 тыс. из архива не подтверждено). Страница проекта цену за м² не даёт. Сроки сдачи на странице расходятся (3 кв. 2028 и 2 кв. 2029)."
+}

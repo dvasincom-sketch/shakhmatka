@@ -1,7 +1,10 @@
 import { cache } from 'react'
 import { getPayload } from 'payload'
 import config from '@payload-config'
-import type { Object as Obj, Place } from '@/payload-types'
+import type { Media, Object as Obj, Place } from '@/payload-types'
+
+/** Объект для карточки: без хронологии и галереи, с готовой обложкой */
+export type CardObj = Obj & { cover?: Media }
 import { plural } from './geo'
 import { STATIC } from './landing-static'
 
@@ -11,6 +14,8 @@ import { STATIC } from './landing-static'
  */
 export type Landing = {
   slug: string
+  /** Ключ места (район/регион) — как в объектах; у классов и стадий нет */
+  key?: string
   group: 'district' | 'region' | 'class' | 'stage'
   label: string // коротко, для чипов: «Хорошёво-Мнёвники», «Премиум»
   subject: string
@@ -33,6 +38,7 @@ export async function getLandings(): Promise<Landing[]> {
   const places = (await payload.find({ collection: 'places', limit: 1000, pagination: false, sort: 'name' })).docs as Place[]
   const fromPlaces: Landing[] = places.map((p) => ({
     slug: p.slug,
+    key: p.key,
     group: p.kind === 'district' ? 'district' : 'region',
     label: p.name,
     subject: `новостройки ${p.nameIn}`,
@@ -54,7 +60,7 @@ export async function getLandings(): Promise<Landing[]> {
 /** Поля карточки объекта — без хронологии: в подборках и каталоге она не нужна, а весит больше всего */
 export const CARD_SELECT = {
   name: true, slug: true, zu: true, stage: true, region: true, district: true, class: true, priceFrom: true, priceM2From: true,
-  priceAsOf: true, completion: true, developer: true, lastEventAt: true, signalCount: true,
+  priceAsOf: true, completion: true, developer: true, lastEventAt: true, signalCount: true, gallery: true,
 } as const
 
 /** Объекты для карточек: без хронологии, застройщики подставляются одним запросом (depth 1 на сотнях объектов медленный) */
@@ -65,7 +71,18 @@ export async function findCards(where?: import('payload').Where) {
     payload.find({ collection: 'developers', limit: 10000, depth: 0, pagination: false, select: { name: true, slug: true } }),
   ])
   const byId = new Map(devs.docs.map((d) => [d.id, d]))
-  return objs.docs.map((o) => ({ ...o, developer: o.developer != null ? byId.get(o.developer as number) ?? o.developer : o.developer })) as Obj[]
+  // обложка карточки — первое фото галереи, уменьшенная копия (card); тоже одним запросом
+  const firstId = (o: { gallery?: unknown[] | null }) => { const g = o.gallery?.[0]; return typeof g === 'object' && g ? (g as { id: number }).id : (g as number | undefined) }
+  const coverIds = [...new Set(objs.docs.map(firstId).filter((x): x is number => x != null))]
+  const media = coverIds.length
+    ? (await payload.find({ collection: 'media', where: { id: { in: coverIds } }, limit: coverIds.length, depth: 0, pagination: false, select: { url: true, alt: true, sizes: true } })).docs
+    : []
+  const mById = new Map(media.map((m) => [m.id, m]))
+  return objs.docs.map((o) => {
+    const m = mById.get(firstId(o) as number) as (Media & { sizes?: { card?: { url?: string | null } } }) | undefined
+    const cover = m ? ({ ...m, url: m.sizes?.card?.url || m.url } as Media) : undefined
+    return { ...o, gallery: undefined, cover, developer: o.developer != null ? byId.get(o.developer as number) ?? o.developer : o.developer }
+  }) as CardObj[]
 }
 
 // Все карточки нужны каталогу, подборкам и указателю: держим в памяти процесса минуту, чтобы не собирать на каждый запрос

@@ -1,0 +1,30 @@
+{
+ "slug": "preobrazhenskaya-ploshchad",
+ "status": "ok",
+ "project": "ЖК Преображенская площадь (Regions Development)",
+ "start": {
+  "date": "2022-05",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 16,
+  "lot_desc": "1-комн. лоты 'стартуют от 16 млн рублей' (2-комн. от 23,3 млн; площади от 43,3 м2)",
+  "source": {
+   "title": "Преображенская площадь: цены, novostroy-m.ru",
+   "url": "https://www.novostroy-m.ru/novosti/jk_preobrajenskaya_ploschad_tseny",
+   "date": "2022-05-10"
+  }
+ },
+ "now": {
+  "as_of": "2026-10-09",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 19.509065,
+  "lot_desc": "студия 27,29 м²",
+  "selling": true,
+  "source": {
+   "title": "ЖК Преображенская площадь, novostroy-m.ru",
+   "url": "https://www.novostroy-m.ru/baza/jk_na_ulitse_buhvostova"
+  }
+ },
+ "note": "Архив 01.2022 (340 тыс./м2) - только ориентир. Цена за м2 в источниках не указана. Мин. лот 16 млн относится к 1-комн. (43,3 м2+), студий в 2022 не указано, поэтому с 19,5 млн за студию сравнение лотов некорректно. Год у 'от 9 октября' не указан, обновление 07.10.2026. Застройщик в карточке Regions Development."
+}

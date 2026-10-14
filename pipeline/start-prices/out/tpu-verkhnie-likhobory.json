@@ -1,0 +1,26 @@
+{
+ "status": "unverifiable",
+ "project": "МФК «Кинетик» (ТПУ Верхние Лихоборы, Дмитровское ш., вл. 75-77)",
+ "start": {
+  "date": null,
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": null,
+  "lot_desc": null,
+  "source": null
+ },
+ "now": {
+  "as_of": "2026-10-14",
+  "price_m2": 546.6,
+  "price_m2_kind": null,
+  "lot_from": 19.9,
+  "lot_desc": "студия 36,45 м² за 19 922 939 ₽ (546 583 ₽/м² по странице); минимум проекта не подтверждён",
+  "selling": true,
+  "source": {
+   "title": "novostroy-m.ru, лот в МФК Кинетик",
+   "url": "https://www.novostroy-m.ru/kvartiry/studiya-v-mfk-kinetik-dcad4ce1a43eeb1514b045da977f33"
+  }
+ },
+ "note": "Старта продаж в публикациях не найдено: РБК 05.02.2020 и 10.09.2021 цен и старта не называют. На странице лота это 2 очередь (секция 1), котлован, сдача IV кв. 2029; к первой очереди цена не относится. 150 тыс. из архива - прогноз 2019, не источник. Единственный лот, не минимум проекта.",
+ "slug": "tpu-verkhnie-likhobory"
+}

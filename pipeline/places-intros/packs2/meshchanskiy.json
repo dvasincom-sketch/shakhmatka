@@ -1,0 +1,99 @@
+{
+ "key": "meshchanskiy",
+ "name": "Мещанский",
+ "nameIn": "в Мещанском районе",
+ "okrug": "ЦАО",
+ "objects": [
+  {
+   "name": "ТПУ Суворовская",
+   "developer": "MR Group",
+   "stage_by_dossier": "проект",
+   "zu": null,
+   "events_in_dossier": 7
+  },
+  {
+   "name": "Сухаревка",
+   "developer": "Sense",
+   "stage_by_dossier": "проект",
+   "zu": "Малая Сухаревская, 6",
+   "events_in_dossier": 7
+  },
+  {
+   "name": "Рождественка, 8",
+   "developer": "Sminex",
+   "stage_by_dossier": "продажи",
+   "zu": "Рождественка, 8",
+   "events_in_dossier": 7,
+   "checked_articles": [
+    {
+     "title": "Рождественка, 8: проект Галса в Мещанском районе купил Sminex",
+     "lead": "Элитный проект «Рождественка 8» на углу Рождественки и Кузнецкого Моста в 2025 году выводил на рынок «Галс-Девелопмент», а в декабре 2025 года его купил Sminex. Архив 2024 года описывал проект Галса с акцентом на конкуренцию в элитном сегменте; на октябрь 2026 года проект ведёт уже другой владелец.",
+     "date_modified": "2026-10-14"
+    }
+   ]
+  },
+  {
+   "name": "Дом с бассейном",
+   "developer": "Главстрой",
+   "stage_by_dossier": "проект",
+   "zu": "Сретенка, 13/26",
+   "events_in_dossier": 5
+  },
+  {
+   "name": "Цветной, 30-32-34",
+   "developer": "Sezar Group",
+   "stage_by_dossier": "проект",
+   "zu": "Цветной, 30-32-34",
+   "events_in_dossier": 5
+  },
+  {
+   "name": "Нижний Кисельный, 7/21",
+   "developer": null,
+   "stage_by_dossier": "участок",
+   "zu": "Нижний Кисельный, 7/21",
+   "events_in_dossier": 4
+  },
+  {
+   "name": "Цветной, 30 32 34",
+   "developer": "Sezar Group",
+   "stage_by_dossier": null,
+   "zu": "Цветной, 30 32 34",
+   "events_in_dossier": 4,
+   "checked_articles": [
+    {
+     "title": "Цветной, 30 32 34: Sezar Group купила недострой Быстрицкой",
+     "lead": "В феврале 2024 года участок с недостроенным женским центром Элины Быстрицкой на Цветном бульваре купила структура Sezar Group — за 1,413 млрд ₽. К весне 2026 года здание снесли, а в августе 2026 года стало известно о концепции жилого комплекса на этом месте.",
+     "date_modified": "2026-10-14"
+    }
+   ]
+  },
+  {
+   "name": "Милютинский, 5",
+   "developer": "Hutton",
+   "stage_by_dossier": "проект",
+   "zu": "Милютинский, 5",
+   "events_in_dossier": 3
+  },
+  {
+   "name": "Милютинский 18",
+   "developer": "Hutton",
+   "stage_by_dossier": null,
+   "zu": "Милютинский, 18А",
+   "events_in_dossier": 3
+  },
+  {
+   "name": "Дом Франка",
+   "developer": "Доходный Дом",
+   "stage_by_dossier": "разрешение на строительство",
+   "zu": "Большой Кисельный переулок, 11",
+   "events_in_dossier": 3
+  },
+  {
+   "name": "Капельский, 7А, стр 1",
+   "developer": "Капиталисты",
+   "stage_by_dossier": "проект",
+   "zu": "Капельский, 7А, стр 1",
+   "events_in_dossier": 3
+  }
+ ]
+}

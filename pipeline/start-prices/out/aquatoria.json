@@ -1,0 +1,19 @@
+{
+ "slug": "aquatoria",
+ "status": "unverifiable",
+ "project": "AQUATORIA",
+ "start": null,
+ "now": {
+  "as_of": "2026-10-14",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": null,
+  "lot_desc": null,
+  "selling": false,
+  "source": {
+   "title": "novostroy-m.ru, карточка ЖК Aquatoria: «Все квартиры реализованы», нет в продаже от застройщика",
+   "url": "https://www.novostroy-m.ru/baza/jk_aquatoria"
+  }
+ },
+ "note": "Старт башни B3 (дек. 2020, по архиву) не подтверждён: новость novostroy-m от 2020-10-21 (v_jk_aquatoria_v) про последние лоты/пентхаусы без цены и без обозначения B3; новость от 2021-01-27 (v_jk_aquatoria_nachato) про стройку 5-го корпуса на 204 квартиры без цен. Цена в архиве (265 тыс.) источником не подтверждена. Для первой очереди (B1/B2) есть несвязанные находки, в зачёт не брал и дату старта проекта не проверял: novostroy-m.ru/novosti/vyshli_v_prodaju_vidovye от 2019-03-11 — 18 панорамных квартир, «минимальная стоимость на старте продаж составит 14,7 млн рублей за квартиру площадью 65,79 кв. метров» (лимитированная коллекция, не общий старт); realty.rbc.ru/news/5f0880679a7947ab3e8c3cb0 от 2020-07-12 — «от 33 кв. м, от 9 млн руб.» (обзор, не старт). Возможный источник старта проекта, не открыт (бюджет): novostroy.ru/news/market/dan-start-prodazh-v-mfk-aquatoria-na-beregu-khimkinskogo-vodokhranilishcha/. Сейчас: всё продано, цены нет."
+}

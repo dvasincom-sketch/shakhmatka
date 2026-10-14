@@ -1,0 +1,30 @@
+{
+ "slug": "sreda-na-kutuzovskom",
+ "status": "partial",
+ "project": "Кутузовский квартал / Среда на Кутузовском (ПИК)",
+ "start": {
+  "date": "2023-10",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 10.1,
+  "lot_desc": "минимальная цена по обзору месяца",
+  "source": {
+   "title": "Обзор стартов продаж октября 2023, novostroy-m.ru",
+   "url": "https://www.novostroy-m.ru/analitika/starty_prodaj_oktyabr_2023",
+   "date": "2023-10-31"
+  }
+ },
+ "now": {
+  "as_of": "2026-10-14",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": null,
+  "lot_desc": "минимум не установлен; студия 25,28 м2 17,37 млн (687,2 тыс/м2), но карточка помечена неактуальной на 14.10.2026",
+  "selling": null,
+  "source": {
+   "title": "Студия в ЖК Среда на Кутузовском (novostroy-m.ru)",
+   "url": "https://www.novostroy-m.ru/kvartiry/studiya-v-zhk-sreda-na-kutuzovskom-18b8350da8c1ea741268d3a92d14f3"
+  }
+ },
+ "note": "Расхождение: архив - студии от 9 млн, обзор месяца - от 10,1 млн (взято как первоисточник). Не уверен, что Кутузовский квартал 2023 и Среда на Кутузовском (прелонч июль 2024) - один и тот же проект/очередь."
+}

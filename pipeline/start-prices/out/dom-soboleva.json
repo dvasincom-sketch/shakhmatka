@@ -1,0 +1,19 @@
+{
+ "slug": "dom-soboleva",
+ "status": "unverifiable",
+ "project": "Дом Соболева",
+ "start": null,
+ "now": {
+  "as_of": "2026-10-14",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 157.437,
+  "lot_desc": "1-комн. 83,3 м², 2/8 этаж",
+  "selling": true,
+  "source": {
+   "title": "ЖК Дом Соболева, novostroy-m.ru",
+   "url": "https://www.novostroy-m.ru/baza/jk_dom_soboleva"
+  }
+ },
+ "note": "Старт не подтверждён: обзоры стартов июнь, авг, сен, окт, ноя 2025 проекта не содержат; эксперт novostroy-m 16.07.2025: квартиры в продажу не поступили (vopros-otvet). Архив '1,7 млн/м2' - прогноз. На карточке год у 'цены от 14 октября' не указан; в динамике цен дата 12.10.2026. Заголовок карточки 'от 157 млн'."
+}

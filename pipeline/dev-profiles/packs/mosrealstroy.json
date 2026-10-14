@@ -1,0 +1,26 @@
+{
+ "slug": "mosrealstroy",
+ "name": "Мосреалстрой",
+ "objects": [
+  {
+   "name": "Инноватор",
+   "stage_by_dossier": "сдан",
+   "where": "Раменки",
+   "zu": null
+  },
+  {
+   "name": "ТПУ Авиамоторная",
+   "stage_by_dossier": "участок",
+   "where": "Лефортово",
+   "zu": "Авиамоторная, 39"
+  },
+  {
+   "name": "Энтузиаст",
+   "stage_by_dossier": "концепция",
+   "where": "Лефортово",
+   "zu": null
+  }
+ ],
+ "confirmed_deals": [],
+ "checked_articles": []
+}

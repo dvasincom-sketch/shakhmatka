@@ -1,0 +1,29 @@
+{
+ "key": "gagarinskiy",
+ "name": "Гагаринский",
+ "nameIn": "в Гагаринском районе",
+ "okrug": "ЮЗАО",
+ "objects": [
+  {
+   "name": "Omega Residence",
+   "developer": "Эталон",
+   "stage_by_dossier": "продажи",
+   "zu": "Фотиевой, 5",
+   "events_in_dossier": 11,
+   "checked_articles": [
+    {
+     "title": "Omega Residence на Фотиевой, 5: клубный дом Эталона, цены и сроки",
+     "lead": "Эталон вывел на рынок клубный дом Omega Residence («Резиденция Омега») на Фотиевой, 5, под премиальным брендом AURIX: 59 квартир, 9 этажей. К 13 октября 2026 года продажи идут, а на лоты в продаже цены начинаются от 158 млн ₽.",
+     "date_modified": "2026-10-13"
+    }
+   ]
+  },
+  {
+   "name": "Stone Ленинский",
+   "developer": "Stone",
+   "stage_by_dossier": "продажи",
+   "zu": "Вавилова, 11",
+   "events_in_dossier": 4
+  }
+ ]
+}

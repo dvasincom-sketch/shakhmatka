@@ -1,0 +1,92 @@
+{
+ "key": "arbat",
+ "name": "Арбат",
+ "nameIn": "на Арбате",
+ "okrug": "ЦАО",
+ "objects": [
+  {
+   "name": "Дом Белый",
+   "developer": "Sense",
+   "stage_by_dossier": "продажи",
+   "zu": "Нижний Кисловский, 7",
+   "events_in_dossier": 7
+  },
+  {
+   "name": "Luce",
+   "developer": "MR Group",
+   "stage_by_dossier": "проект",
+   "zu": "Крестовоздвиженский, 4",
+   "events_in_dossier": 6
+  },
+  {
+   "name": "Воздвиженка, 7/6, стр. 6",
+   "developer": "ЛСР",
+   "stage_by_dossier": "проект",
+   "zu": "Воздвиженка, 7/6, стр. 6",
+   "events_in_dossier": 6
+  },
+  {
+   "name": ".Sense",
+   "developer": "Пионер",
+   "stage_by_dossier": "проект",
+   "zu": "Мерзляковский, 22/3",
+   "events_in_dossier": 5
+  },
+  {
+   "name": "R4S",
+   "developer": "R4S",
+   "stage_by_dossier": "продажи",
+   "zu": "Никитский, 6/20",
+   "events_in_dossier": 5
+  },
+  {
+   "name": "здание СЭВ",
+   "developer": "Киевская площадь",
+   "stage_by_dossier": "проект",
+   "zu": "Новый Арбат, 36",
+   "events_in_dossier": 5
+  },
+  {
+   "name": "Староваганьковский",
+   "developer": "MR Group",
+   "stage_by_dossier": "продажи",
+   "zu": "Староваганьковский, 17",
+   "events_in_dossier": 5
+  },
+  {
+   "name": "Новый Арбат, 2",
+   "developer": "Бизнес-Недвижимость",
+   "stage_by_dossier": "проект",
+   "zu": "Новый Арбат, 2",
+   "events_in_dossier": 4
+  },
+  {
+   "name": "Калошин, 6",
+   "developer": "БЭЛ",
+   "stage_by_dossier": "проект",
+   "zu": "Калошин, 6",
+   "events_in_dossier": 3
+  },
+  {
+   "name": "Проезд Шломина, 8",
+   "developer": "СЗ Проезд Шломина",
+   "stage_by_dossier": "проект",
+   "zu": "Проезд Шломина, 8",
+   "events_in_dossier": 3
+  },
+  {
+   "name": "Большой Афанасьевский, 7 стр. 2, 3",
+   "developer": "Трансстройинвест",
+   "stage_by_dossier": "проект",
+   "zu": "Большой Афанасьевский, 7 стр. 2, 3",
+   "events_in_dossier": 3
+  },
+  {
+   "name": "Сивцев Вражек, 36/18",
+   "developer": "R4S Group",
+   "stage_by_dossier": "проект",
+   "zu": "Сивцев Вражек, 36/18",
+   "events_in_dossier": 3
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "slug": "st-michael",
+ "name": "St Michael",
+ "objects": [
+  {
+   "name": "Дача Толбухина",
+   "stage_by_dossier": "продажи",
+   "where": null,
+   "zu": "Толбухина, 3"
+  },
+  {
+   "name": "Квартал Серебряный бор",
+   "stage_by_dossier": "продажи",
+   "where": null,
+   "zu": "Берзарина, 37"
+  },
+  {
+   "name": "Рублевское шоссе, 68",
+   "stage_by_dossier": "участок",
+   "where": null,
+   "zu": "Рублевское шоссе, 68"
+  }
+ ],
+ "confirmed_deals": [],
+ "checked_articles": []
+}

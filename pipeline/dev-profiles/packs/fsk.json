@@ -1,0 +1,62 @@
+{
+ "slug": "fsk",
+ "name": "ФСК",
+ "objects": [
+  {
+   "name": "Сидней Сити",
+   "stage_by_dossier": "продажи",
+   "where": "Хорошёвский",
+   "zu": "Шеногина, 2"
+  },
+  {
+   "name": "1-й Донской",
+   "stage_by_dossier": "сдан",
+   "where": "moskovskaya-oblast",
+   "zu": "Духовской, 17"
+  },
+  {
+   "name": "Южная Битца",
+   "stage_by_dossier": "сдан",
+   "where": null,
+   "zu": null
+  },
+  {
+   "name": "Первый Лермонтовский",
+   "stage_by_dossier": "продажи",
+   "where": "moskovskaya-oblast",
+   "zu": null
+  },
+  {
+   "name": "1-й Шереметьевский",
+   "stage_by_dossier": "сдан",
+   "where": "moskovskaya-oblast",
+   "zu": null
+  },
+  {
+   "name": "Движение Тушино",
+   "stage_by_dossier": "проект",
+   "where": "Покровское-Стрешнево",
+   "zu": null
+  },
+  {
+   "name": "Архитектор",
+   "stage_by_dossier": "продажи",
+   "where": "Обручевский",
+   "zu": null
+  },
+  {
+   "name": "Sidney City",
+   "stage_by_dossier": "продажи",
+   "where": "Пресненский",
+   "zu": null
+  }
+ ],
+ "confirmed_deals": [],
+ "checked_articles": [
+  {
+   "title": "Офисные девелоперы Москвы по версии РБК: Stone первый, ФСК лидер продаж",
+   "lead": "РБК опубликовал исследование крупнейших девелоперов офисов: четвёртый год подряд по портфелю лидирует Stone (748 тыс. м²), а по продажам 2025 года первой оказалась ФСК за счёт крупных лотов, включая БЦ «Сидней Сити».",
+   "date_modified": "2026-10-13"
+  }
+ ]
+}

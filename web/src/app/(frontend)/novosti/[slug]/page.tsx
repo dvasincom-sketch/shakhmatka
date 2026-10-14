@@ -58,6 +58,13 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
   const more = related.length < 3 ? (await payload.find({ collection: 'articles', depth: 1, limit: 4 - related.length, sort: '-datePublished', where: pub({ id: { not_in: [a.id, ...related.map((r) => r.id)] } }) })).docs : []
   const reads = [...related, ...more].slice(0, 4)
 
+  // История проекта: окно хронологии досье вокруг события статьи — что было до и что случилось после
+  const tl = [...(main?.timeline || [])].sort((x, y) => +new Date(x.date) - +new Date(y.date))
+  const at = tl.findIndex((t) => t.sourceNote && t.sourceNote === a.sourceNoteId)
+  const pivot = at >= 0 ? at : tl.findIndex((t) => a.datePublished && t.date >= a.datePublished)
+  const from = pivot >= 0 ? Math.max(0, pivot - 3) : Math.max(0, tl.length - 6)
+  const story = tl.slice(from, from + 7)
+
   const crumbsLd = {
     '@context': 'https://schema.org', '@type': 'BreadcrumbList',
     itemListElement: [
@@ -95,6 +102,25 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
       <div className="art-grid">
         <div className="art-main">
           <div className="body" dangerouslySetInnerHTML={{ __html: html }} />
+          {main && story.length >= 2 ? (
+            <section className="story" aria-labelledby="h-story">
+              <h2 id="h-story" className="tt">История проекта<span>{main.name}</span></h2>
+              <p className="note story-note">По данным редакции на дату события. <span className="tl-sig">Сигнал</span> — о событии говорили до официальных новостей.</p>
+              <ol className="story-list">
+                {story.map((t) => {
+                  const here = at >= 0 && t.id === tl[at].id
+                  const after = at >= 0 && +new Date(t.date) > +new Date(tl[at].date)
+                  return (
+                    <li key={t.id} className={`${here ? 'here' : ''}${after ? ' after' : ''}${t.certainty === 'signal' ? ' sig' : ''}`}>
+                      <time dateTime={t.date.slice(0, 10)}>{t.dateLabel || ruDate(t.date)}</time>
+                      <p>{typo(t.title)}{here ? <b className="story-here">этот материал</b> : null}{t.certainty === 'signal' ? <span className="tl-sig">Сигнал</span> : null}</p>
+                    </li>
+                  )
+                })}
+              </ol>
+              <Link className="more" href={`/obekty/${main.slug}/`}>Вся хронология — в досье «{main.name}» →</Link>
+            </section>
+          ) : null}
           <section className="check card" aria-labelledby="h-ck">
             <h2 id="h-ck" className="tt">Как мы проверяли<span>протокол фактчекинга</span></h2>
             <p className="note">Проверено утверждений: {fc.length}. Подтверждено — {count('confirmed')}, изменилось — {count('changed')}, опровергнуто — {count('refuted')}. Не вошло в текст как неподтверждённое — {count('unverified') + (a.removed?.length || 0)}. Дата проверки: {ruDate(a.dateModified)}.</p>

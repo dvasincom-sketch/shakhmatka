@@ -10,3 +10,8 @@ notes.tgz
 .env.*
 !.env.example
 *.db
+
+# конвейер статей: пакеты и фото собираются заново из архива
+pipeline/batch-*/packs/
+pipeline/batch-*/media/
+pipeline/notes-text.json

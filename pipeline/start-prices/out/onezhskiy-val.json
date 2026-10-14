@@ -1,0 +1,19 @@
+{
+ "slug": "onezhskiy-val",
+ "status": "partial",
+ "project": "Онежский вал",
+ "start": {
+  "date": "2025-10",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 11.9,
+  "lot_desc": "от 11,9 млн рублей",
+  "source": {
+   "title": "Старты продаж, октябрь 2025 (novostroy-m.ru)",
+   "url": "https://www.novostroy-m.ru/analitika/starty_prodaj_oktyabr_2025",
+   "date": "2025-11-01"
+  }
+ },
+ "now": null,
+ "note": "В обзоре августа 2025 проекта нет; в обзоре октября 2025 - старт в октябре. Цена за м2 370 из архива не подтверждена. Цена сейчас не найдена - лимит поиска."
+}

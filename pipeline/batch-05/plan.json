@@ -1,0 +1,376 @@
+{
+ "batch": 5,
+ "units": [
+  {
+   "unit": 35452,
+   "notes": [
+    35452
+   ],
+   "dossier": "demidov-26",
+   "developer": "otrada",
+   "date": "2026-08-21",
+   "images": 10
+  },
+  {
+   "unit": 34415,
+   "notes": [
+    34415
+   ],
+   "dossier": "kristall",
+   "developer": "asterus",
+   "date": "2026-05-30",
+   "images": 4
+  },
+  {
+   "unit": 32506,
+   "notes": [
+    32506
+   ],
+   "dossier": "mira",
+   "developer": "mr-group",
+   "date": "2025-12-16",
+   "images": 0
+  },
+  {
+   "unit": 30006,
+   "notes": [
+    30006
+   ],
+   "dossier": "kombinat-gazety-pravda",
+   "developer": "dars",
+   "date": "2025-07-02",
+   "images": 10
+  },
+  {
+   "unit": 30886,
+   "notes": [
+    30886
+   ],
+   "dossier": "dom-soboleva",
+   "developer": "mr-group",
+   "date": "2025-08-27",
+   "images": 0
+  },
+  {
+   "unit": 32894,
+   "notes": [
+    32894
+   ],
+   "dossier": "kotlyakovskaya-4",
+   "developer": "dogma",
+   "date": "2026-01-27",
+   "images": 1
+  },
+  {
+   "unit": 33433,
+   "notes": [
+    33433
+   ],
+   "dossier": "tatum",
+   "developer": "forma",
+   "date": "2026-03-13",
+   "images": 9
+  },
+  {
+   "unit": 34632,
+   "notes": [
+    34632
+   ],
+   "dossier": "mnevniki-8",
+   "developer": "r4s",
+   "date": "2026-06-17",
+   "images": 6
+  },
+  {
+   "unit": 35164,
+   "notes": [
+    35164
+   ],
+   "dossier": "slobodskoy-6",
+   "developer": "mr-group",
+   "date": "2026-07-23",
+   "images": 5
+  },
+  {
+   "unit": 32404,
+   "notes": [
+    32404
+   ],
+   "dossier": "perovskiy-54",
+   "developer": "glorax",
+   "date": "2025-12-09",
+   "images": 5
+  },
+  {
+   "unit": 32727,
+   "notes": [
+    32727
+   ],
+   "dossier": "siti-2",
+   "developer": "strana",
+   "date": "2025-12-30",
+   "images": 7
+  },
+  {
+   "unit": 29716,
+   "notes": [
+    29716
+   ],
+   "dossier": "veshnikh-vod-8",
+   "developer": "kapitalisty",
+   "date": "2025-06-11",
+   "images": 8
+  },
+  {
+   "unit": 32895,
+   "notes": [
+    32895
+   ],
+   "dossier": "novoe-ochakovo",
+   "developer": "pik",
+   "date": "2026-01-27",
+   "images": 1
+  },
+  {
+   "unit": 30836,
+   "notes": [
+    30836
+   ],
+   "dossier": "kvartal-gertsena",
+   "developer": "brusnika",
+   "date": "2025-08-25",
+   "images": 6
+  },
+  {
+   "unit": 28256,
+   "notes": [
+    28256
+   ],
+   "dossier": "vtoroy-nagatinskiy",
+   "developer": "pik",
+   "date": "2025-03-05",
+   "images": 3
+  },
+  {
+   "unit": 32480,
+   "notes": [
+    32480
+   ],
+   "dossier": "rozhdestvenka-8",
+   "developer": "sminex",
+   "date": "2025-12-15",
+   "images": 0
+  },
+  {
+   "unit": 32648,
+   "notes": [
+    32648
+   ],
+   "dossier": "michurinskiy-park",
+   "developer": "pik",
+   "date": "2025-12-25",
+   "images": 4
+  },
+  {
+   "unit": 33487,
+   "notes": [
+    33487
+   ],
+   "dossier": "dom-sporta",
+   "developer": "capital-group",
+   "date": "2026-03-17",
+   "images": 3
+  },
+  {
+   "unit": 35762,
+   "notes": [
+    35762
+   ],
+   "dossier": "orient-ekspress",
+   "developer": "rg",
+   "date": "2026-09-15",
+   "images": 2
+  },
+  {
+   "unit": 22038,
+   "notes": [
+    22038
+   ],
+   "dossier": "tsvetnoy-30-32-34",
+   "developer": "sezar-group",
+   "date": "2024-02-27",
+   "images": 4
+  },
+  {
+   "unit": 24159,
+   "notes": [
+    24159
+   ],
+   "dossier": "tpu-aviamotornaya",
+   "developer": "mosrealstroy",
+   "date": "2024-06-23",
+   "images": 0
+  },
+  {
+   "unit": 21444,
+   "notes": [
+    21444
+   ],
+   "dossier": "1-ya-yamskogo-polya-17",
+   "developer": "vpered-dvl",
+   "date": "2024-01-18",
+   "images": 1
+  },
+  {
+   "unit": 21607,
+   "notes": [
+    21607
+   ],
+   "dossier": "rodina-park",
+   "developer": "rodina",
+   "date": "2024-01-29",
+   "images": 3
+  },
+  {
+   "unit": 25545,
+   "notes": [
+    25545
+   ],
+   "dossier": "zavod-kazakova",
+   "developer": "glavstroy",
+   "date": "2024-09-16",
+   "images": 3
+  },
+  {
+   "unit": 25797,
+   "notes": [
+    25797
+   ],
+   "dossier": "2-y-irtyshskiy",
+   "developer": "dogma",
+   "date": "2024-09-27",
+   "images": 3
+  },
+  {
+   "unit": 25905,
+   "notes": [
+    25905
+   ],
+   "dossier": "zatsepa-21",
+   "developer": "transstroyinvest",
+   "date": "2024-10-04",
+   "images": 7
+  },
+  {
+   "unit": 32397,
+   "notes": [
+    31838,
+    32397
+   ],
+   "dossier": "akvilon-signal",
+   "developer": "akvilon",
+   "date": "2025-11-10",
+   "images": 2
+  },
+  {
+   "unit": 32630,
+   "notes": [
+    32630
+   ],
+   "dossier": "fly-tower",
+   "developer": "october-group",
+   "date": "2025-12-25",
+   "images": 10
+  },
+  {
+   "unit": 33345,
+   "notes": [
+    33345
+   ],
+   "dossier": "nagornyy-proezd-3-str-4",
+   "developer": "akvilon",
+   "date": "2026-03-05",
+   "images": 3
+  },
+  {
+   "unit": 35238,
+   "notes": [
+    35238
+   ],
+   "dossier": "aviamotornaya-24",
+   "developer": "aaa-inzhiniring",
+   "date": "2026-08-03",
+   "images": 0
+  },
+  {
+   "unit": 36196,
+   "notes": [
+    36196
+   ],
+   "dossier": "geliymash",
+   "developer": "sminex",
+   "date": "2026-10-13",
+   "images": 6
+  },
+  {
+   "unit": 27039,
+   "notes": [
+    27039
+   ],
+   "dossier": "vysotka-na-zhukova",
+   "developer": "krost",
+   "date": "2024-12-06",
+   "images": 9
+  },
+  {
+   "unit": 28881,
+   "notes": [
+    28881
+   ],
+   "dossier": "rizhskiy-gruzovoy-dvor",
+   "developer": "strana",
+   "date": "2025-04-16",
+   "images": 7
+  },
+  {
+   "unit": 25005,
+   "notes": [
+    25005
+   ],
+   "dossier": "pavlovskaya-18",
+   "developer": "sr-development",
+   "date": "2024-08-08",
+   "images": 3
+  },
+  {
+   "unit": 25879,
+   "notes": [
+    25879
+   ],
+   "dossier": "marilnn-park",
+   "developer": "etalon",
+   "date": "2024-10-02",
+   "images": 3
+  },
+  {
+   "unit": 26477,
+   "notes": [
+    26477
+   ],
+   "dossier": "starosyrovo",
+   "developer": "ingrad",
+   "date": "2024-11-02",
+   "images": 10
+  },
+  {
+   "unit": 27958,
+   "notes": [
+    27958
+   ],
+   "dossier": "setun-tolbukhina-10",
+   "developer": "hutton",
+   "date": "2025-02-17",
+   "images": 0
+  }
+ ]
+}

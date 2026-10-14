@@ -1,0 +1,26 @@
+{
+ "slug": "tsentr-invest",
+ "name": "Центр Инвест",
+ "objects": [
+  {
+   "name": "Титул",
+   "stage_by_dossier": "продажи",
+   "where": "Якиманка",
+   "zu": "Докучаев, 10"
+  },
+  {
+   "name": "Настоящее",
+   "stage_by_dossier": "сдан",
+   "where": "Раменки",
+   "zu": "Винницкая, 8"
+  },
+  {
+   "name": "Новый Титул",
+   "stage_by_dossier": "разрешение",
+   "where": "Хамовники",
+   "zu": "Тимура Фрунзе, 10"
+  }
+ ],
+ "confirmed_deals": [],
+ "checked_articles": []
+}

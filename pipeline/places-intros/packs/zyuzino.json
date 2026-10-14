@@ -1,0 +1,26 @@
+{
+ "key": "zyuzino",
+ "name": "Зюзино",
+ "nameIn": "в Зюзине",
+ "okrug": "ЮЗАО",
+ "slug": "zyuzino",
+ "url": "/novostroyki/zyuzino/",
+ "objects": [
+  {
+   "name": "Нахимовский, 21",
+   "url": "/obekty/nakhimovskiy-21/",
+   "developer": "МД Групп",
+   "summary": "«Нахимовский, 21» — проект застройщика МД Групп (район Зюзино). В досье 4 события с 2020 по 2026 год.",
+   "stage": "architecture",
+   "zu": "Нахимовский, 21",
+   "articles": []
+  },
+  {
+   "name": "КРТ Зюзино",
+   "url": "/obekty/krt-zyuzino/",
+   "developer": "RD Development",
+   "summary": "«КРТ Зюзино» — проект застройщика RD Development (район Зюзино). В досье 3 события 2023 года, из них 2 — сигнала до официальных новостей.",
+   "articles": []
+  }
+ ]
+}

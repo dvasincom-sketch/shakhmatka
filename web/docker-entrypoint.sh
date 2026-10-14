@@ -7,11 +7,12 @@ echo "→ миграции базы"
 npx payload migrate
 
 if [ "$SEED_ON_START" = "1" ]; then
+  # порядок: районы → досье → статьи → факты → досье ещё раз (хронология объектам, созданным статьями) → словарь
   # импорт идёт в фоне, сайт отвечает сразу; повторный запуск безопасен (обновляет по slug)
   (
     sleep 5
     echo "→ импорт контента"
-    npm run seed && npm run seed:places && npm run seed:facts && npm run seed:dossiers && npm run seed:terms \
+    npm run seed:places && npm run seed:dossiers && npm run seed && npm run seed:facts && npm run seed:dossiers && npm run seed:photos && npm run seed:developers && npm run seed:terms \
       && echo "✓ импорт контента завершён" || echo "✗ импорт контента завершился с ошибкой"
   ) &
 fi

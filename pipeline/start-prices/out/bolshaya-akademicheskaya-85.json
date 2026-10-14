@@ -1,0 +1,30 @@
+{
+ "slug": "bolshaya-akademicheskaya-85",
+ "status": "ok",
+ "project": "Большая Академическая 85",
+ "start": {
+  "date": "2020-08",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 5.47,
+  "lot_desc": "минимальная цена предложения (площадь лота не указана)",
+  "source": {
+   "title": "Купить жильё на старте (novostroy-m.ru), обзор новинок августа 2020",
+   "url": "https://www.novostroy-m.ru/analitika/kupit_jile_na_starte",
+   "date": "2020-08-31"
+  }
+ },
+ "now": {
+  "as_of": "2026-10-14",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 30.03,
+  "lot_desc": "3-комн. 85,9 м², 4 этаж (остаток)",
+  "selling": true,
+  "source": {
+   "title": "ЖК Большая Академическая 85, карточка novostroy-m.ru",
+   "url": "https://www.novostroy-m.ru/baza/jiloy_kvartal_bolshaya_akademicheskaya"
+  }
+ },
+ "note": "Цена за м2 на старте в источнике не найдена (205 тыс. из архива не подтверждено). Сейчас все 11 корпусов сданы, в продаже 4 лота (3-комн., 30,0-35,9 млн) - остаток, не сопоставим со стартовым студийным минимумом. Цены карточки на 12 окт 2026, застройщик на странице прямо не указан, но название/адрес (3-й Нижнелихоборский, вл. 1) совпадают."
+}

@@ -1,0 +1,29 @@
+{
+ "key": "sokolinaya-gora",
+ "name": "Соколиная Гора",
+ "nameIn": "в районе Соколиная Гора",
+ "okrug": "ВАО",
+ "objects": [
+  {
+   "name": "UNO",
+   "developer": "Основа",
+   "stage_by_dossier": "продажи",
+   "zu": "8-я Соколиной Горы, 26А",
+   "events_in_dossier": 7
+  },
+  {
+   "name": "Кирпичные улицы",
+   "developer": "Мангазея",
+   "stage_by_dossier": "участок",
+   "zu": null,
+   "events_in_dossier": 4
+  },
+  {
+   "name": "Кирпичная, 41",
+   "developer": "ДОМ.РФ",
+   "stage_by_dossier": "участок",
+   "zu": "Кирпичная, 41",
+   "events_in_dossier": 3
+  }
+ ]
+}

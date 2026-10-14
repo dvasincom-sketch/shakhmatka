@@ -1,0 +1,26 @@
+{
+ "status": "unverifiable",
+ "project": "ЖК «Новые Академики» (Кржижановского, 31), Главстрой",
+ "start": {
+  "date": "2024-03",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": null,
+  "lot_desc": null,
+  "source": null
+ },
+ "now": {
+  "as_of": "2026-10-14",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": null,
+  "lot_desc": null,
+  "selling": null,
+  "source": {
+   "title": "novostroy-m.ru, карточка проекта",
+   "url": "https://www.novostroy-m.ru/baza/jk_krjijanovskogo_31"
+  }
+ },
+ "note": "Старт март 2024 подтверждён (РБК-Недвижимость 26.03.2024 realty.rbc.ru/news/65e6f82b9a7947896bfa79b5; обзор novostroy-m за март 2024 пишет цену н/д), но цены в публикациях старта нет. novostroy.ru/buildings/krzhizhanovskogo-31: экспертный анализ фев-апр 2024 - самый дешёвый вариант 1-к около 40 м² 'чуть дешевле 21 млн'; цену за м² страница не даёт, дата анализа неточная, в источник старта не беру. Карточка novostroy-m: 'цена по запросу', в статье сентября 2024 'от 17,7 млн' (больше 3 мес. после старта). Актуальной цены на октябрь 2026 не найдено (данные novostroy.ru на 01.02.2025).",
+ "slug": "k31"
+}

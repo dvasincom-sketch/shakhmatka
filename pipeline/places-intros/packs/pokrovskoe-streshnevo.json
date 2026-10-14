@@ -1,0 +1,36 @@
+{
+ "key": "pokrovskoe-streshnevo",
+ "name": "Покровское-Стрешнево",
+ "nameIn": "в районе Покровское-Стрешнево",
+ "okrug": "СЗАО",
+ "slug": "pokrovskoe-streshnevo",
+ "url": "/novostroyki/pokrovskoe-streshnevo/",
+ "objects": [
+  {
+   "name": "Сити Бэй",
+   "url": "/obekty/siti-bey/",
+   "developer": "MR Group",
+   "summary": "«Сити Бэй» — проект застройщика MR Group на участке «Волоколамское шоссе, 93-97» (район Покровское-Стрешнево). В досье 3 события с 2020 по 2026 год.",
+   "stage": "sales",
+   "zu": "Волоколамское шоссе, 93-97",
+   "articles": []
+  },
+  {
+   "name": "Cityzen",
+   "url": "/obekty/cityzen/",
+   "developer": "MR Group",
+   "summary": "«Cityzen» — проект застройщика MR Group (район Покровское-Стрешнево). В досье 6 событий с 2025 по 2026 год.",
+   "stage": "sales",
+   "articles": []
+  },
+  {
+   "name": "Level Стрешнево",
+   "url": "/obekty/level-streshnevo/",
+   "developer": "Level Group",
+   "summary": "«Level Стрешнево» — проект застройщика Level Group на участке «Волоколамское шоссе, 81» (район Покровское-Стрешнево). В досье 3 события с 2019 по 2020 год, из них 1 — сигнал до официальных новостей.",
+   "stage": "sales",
+   "zu": "Волоколамское шоссе, 81",
+   "articles": []
+  }
+ ]
+}

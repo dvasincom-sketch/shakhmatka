@@ -1,0 +1,365 @@
+{
+ "batch": 7,
+ "units": [
+  {
+   "unit": 35850,
+   "notes": [
+    35850
+   ],
+   "dossier": "kombinat-gazety-pravda",
+   "developer": "tekhkomplekt",
+   "date": "2026-09-23",
+   "images": 4
+  },
+  {
+   "unit": 32332,
+   "notes": [
+    32332
+   ],
+   "dossier": "s5",
+   "developer": "mr-group",
+   "date": "2025-12-03",
+   "images": 1
+  },
+  {
+   "unit": 28009,
+   "notes": [
+    28009
+   ],
+   "dossier": "city-bay",
+   "developer": "mr-group",
+   "date": "2025-02-19",
+   "images": 4
+  },
+  {
+   "unit": 22982,
+   "notes": [
+    22982
+   ],
+   "dossier": "one-tower",
+   "developer": "mr-group",
+   "date": "2024-04-17",
+   "images": 5
+  },
+  {
+   "unit": 30250,
+   "notes": [
+    30250
+   ],
+   "dossier": "amurskiy-park",
+   "developer": "pik",
+   "date": "2025-07-18",
+   "images": 4
+  },
+  {
+   "unit": 36068,
+   "notes": [
+    36068
+   ],
+   "dossier": "krestovskiy",
+   "developer": "pik",
+   "date": "2026-10-07",
+   "images": 9
+  },
+  {
+   "unit": 27623,
+   "notes": [
+    27623
+   ],
+   "dossier": "otkrytyy-park",
+   "developer": "pik",
+   "date": "2025-01-30",
+   "images": 6
+  },
+  {
+   "unit": 33510,
+   "notes": [
+    33510
+   ],
+   "dossier": "malyy-levshinskiy-7",
+   "developer": "coldy",
+   "date": "2026-03-20",
+   "images": 3
+  },
+  {
+   "unit": 27156,
+   "notes": [
+    27156
+   ],
+   "dossier": "zvenigorodskaya",
+   "developer": "level-group",
+   "date": "2024-12-19",
+   "images": 4
+  },
+  {
+   "unit": 36077,
+   "notes": [
+    36077
+   ],
+   "dossier": "rizhskiy-vokzal",
+   "developer": "rzhd",
+   "date": "2026-10-07",
+   "images": 1
+  },
+  {
+   "unit": 33531,
+   "notes": [
+    33531
+   ],
+   "dossier": "akademika-skryabina-21",
+   "developer": "stroymir",
+   "date": "2026-03-24",
+   "images": 7
+  },
+  {
+   "unit": 24882,
+   "notes": [
+    24882
+   ],
+   "dossier": "vorontsovo-pole-10",
+   "developer": "aton",
+   "date": "2024-07-31",
+   "images": 4
+  },
+  {
+   "unit": 32227,
+   "notes": [
+    32227
+   ],
+   "dossier": "2-ya-magistralnaya-18",
+   "developer": "gk-nps",
+   "date": "2025-11-27",
+   "images": 8
+  },
+  {
+   "unit": 32796,
+   "notes": [
+    32796
+   ],
+   "dossier": "4-ya-tverskaya-yamskaya-10-i-12-str-1",
+   "developer": "capital-group",
+   "date": "2026-01-14",
+   "images": 3
+  },
+  {
+   "unit": 34343,
+   "notes": [
+    34343
+   ],
+   "dossier": "dom-na-dzhalilya",
+   "developer": "a101",
+   "date": "2026-05-25",
+   "images": 3
+  },
+  {
+   "unit": 35805,
+   "notes": [
+    35805
+   ],
+   "dossier": "kuznechiki",
+   "developer": "dom-rf",
+   "date": "2026-09-18",
+   "images": 4
+  },
+  {
+   "unit": 35835,
+   "notes": [
+    35835
+   ],
+   "dossier": "arkhitektora-vlasova-59",
+   "developer": "kbk-nedvizhimost",
+   "date": "2026-09-23",
+   "images": 3
+  },
+  {
+   "unit": 33482,
+   "notes": [
+    33482
+   ],
+   "dossier": "literaturnyy-kvartal",
+   "developer": "samolet",
+   "date": "2026-03-17",
+   "images": 5
+  },
+  {
+   "unit": 23650,
+   "notes": [
+    23650
+   ],
+   "dossier": "3-ya-mytishchinskaya-16-str-51-52-60-61",
+   "developer": "dom-rf",
+   "date": "2024-05-28",
+   "images": 2
+  },
+  {
+   "unit": 27633,
+   "notes": [
+    27633
+   ],
+   "dossier": "kirpichnye-ulitsy",
+   "developer": "mangazeya",
+   "date": "2025-01-30",
+   "images": 8
+  },
+  {
+   "unit": 29546,
+   "notes": [
+    29546
+   ],
+   "dossier": "dom-na-aristarkhovskom",
+   "developer": "gk-razvitie",
+   "date": "2025-06-02",
+   "images": 10
+  },
+  {
+   "unit": 29767,
+   "notes": [
+    29767
+   ],
+   "dossier": "mangazeya-na-rechnom",
+   "developer": "mangazeya",
+   "date": "2025-06-17",
+   "images": 5
+  },
+  {
+   "unit": 31146,
+   "notes": [
+    31146
+   ],
+   "dossier": "bolshaya-ordynka-25",
+   "developer": "etalon",
+   "date": "2025-09-17",
+   "images": 6
+  },
+  {
+   "unit": 32176,
+   "notes": [
+    32176
+   ],
+   "dossier": "bts-12",
+   "developer": "gruppa-ten",
+   "date": "2025-11-26",
+   "images": 0
+  },
+  {
+   "unit": 32251,
+   "notes": [
+    32251
+   ],
+   "dossier": "sbersiti",
+   "developer": "sber",
+   "date": "2025-11-28",
+   "images": 3
+  },
+  {
+   "unit": 32362,
+   "notes": [
+    32362
+   ],
+   "dossier": "kutuzovskaya-sloboda",
+   "developer": "upside",
+   "date": "2025-12-04",
+   "images": 7
+  },
+  {
+   "unit": 32426,
+   "notes": [
+    32426
+   ],
+   "dossier": "kod-sokolniki",
+   "developer": "novaya-era",
+   "date": "2025-12-10",
+   "images": 3
+  },
+  {
+   "unit": 33036,
+   "notes": [
+    33036
+   ],
+   "dossier": "kombinat-pitaniya-kosmos",
+   "developer": "grad",
+   "date": "2026-02-10",
+   "images": 0
+  },
+  {
+   "unit": 35882,
+   "notes": [
+    35882
+   ],
+   "dossier": "desnareche",
+   "developer": "a101",
+   "date": "2026-09-24",
+   "images": 9
+  },
+  {
+   "unit": 32805,
+   "notes": [
+    32805
+   ],
+   "dossier": "golubinskaya-22",
+   "developer": "capital-group",
+   "date": "2026-01-15",
+   "images": 3
+  },
+  {
+   "unit": 21272,
+   "notes": [
+    21272
+   ],
+   "dossier": "stremlenie-k-svetu",
+   "developer": "seven-sans",
+   "date": "2024-01-03",
+   "images": 7
+  },
+  {
+   "unit": 23633,
+   "notes": [
+    23633
+   ],
+   "dossier": "zaozernaya-15a",
+   "developer": "telekom-montazh-yug",
+   "date": "2024-05-27",
+   "images": 3
+  },
+  {
+   "unit": 24731,
+   "notes": [
+    24731
+   ],
+   "dossier": "molodogvardeyskaya-64",
+   "developer": "rt",
+   "date": "2024-07-24",
+   "images": 3
+  },
+  {
+   "unit": 25092,
+   "notes": [
+    25092
+   ],
+   "dossier": "1-y-krasnokursantskiy-3-5",
+   "developer": "dom-rf",
+   "date": "2024-08-13",
+   "images": 4
+  },
+  {
+   "unit": 25676,
+   "notes": [
+    25676
+   ],
+   "dossier": "1-ya-karacharovskaya-8",
+   "developer": "osnova",
+   "date": "2024-09-23",
+   "images": 9
+  },
+  {
+   "unit": 27349,
+   "notes": [
+    27349
+   ],
+   "dossier": "stadion-torpedo",
+   "developer": "ingrad",
+   "date": "2025-01-09",
+   "images": 7
+  }
+ ]
+}

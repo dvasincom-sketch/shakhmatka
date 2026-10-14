@@ -1,0 +1,15 @@
+{
+ "key": "severnoe-tushino",
+ "name": "Северное Тушино",
+ "nameIn": "в районе Северное Тушино",
+ "okrug": "СЗАО",
+ "objects": [
+  {
+   "name": "Досфлота, 10",
+   "developer": "Galaxy Group",
+   "stage_by_dossier": "продажи",
+   "zu": "Досфлота, 10",
+   "events_in_dossier": 12
+  }
+ ]
+}

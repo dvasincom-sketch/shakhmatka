@@ -1,0 +1,1374 @@
+{
+ "_readme": "Цена на старте продаж и сейчас — минимальная цена квартиры по источникам (pipeline/start-prices). Генерирует content/archive/build-start-prices.py.",
+ "checkedOn": "2026-10-14",
+ "rows": [
+  {
+   "slug": "life-varshavskaya",
+   "name": "«LIFE-Варшавская»",
+   "dossier": "LIFE Варшавская",
+   "project": "ЖК «LIFE-Варшавская»",
+   "district": "moskvoreche-saburovo",
+   "districtName": "Москворечье-Сабурово",
+   "okrug": "ЮАО",
+   "developer": "Пионер",
+   "start": {
+    "date": "2018-07",
+    "lot_from": 4.5,
+    "lot_desc": null,
+    "price_m2": 100,
+    "price_m2_kind": "from",
+    "source": {
+     "title": "В ЖК «LIFE-Варшавская» началась продажа квартир от 4,5 млн рублей, novostroy-m.ru",
+     "url": "https://www.novostroy-m.ru/novosti/v_jk_lifevarshavskaya_nachalas",
+     "date": "2018-07-05"
+    }
+   },
+   "now": {
+    "as_of": "2026-10-02",
+    "lot_from": 21.67,
+    "lot_desc": "студия 35,5 м²",
+    "price_m2": null,
+    "price_m2_kind": null,
+    "selling": true,
+    "source": {
+     "title": "ЖК LIFE Варшавская, карточка novostroy-m.ru",
+     "url": "https://www.novostroy-m.ru/baza/jk_lifevarshavskaya"
+    }
+   },
+   "changePct": 381.6,
+   "years": 8.2,
+   "perYearPct": 21.1,
+   "note": "Расхождение с архивом: архив датирует старт 2019-09 (урбан-блоки, от 159 тыс. руб./м2 без отделки), но публикация novostroy-m от 05.07.2018 говорит о начале продаж квартир от 100 тыс. руб./м2 и 4,5 млн (очереди и корпуса в тексте не названы). Старт первой очереди взят по 2018 г.; архивные 159/168 тыс. относятся к урбан-блокам 2019 г. и не подтверждены источником. Дата новости в выдаче странная (на странице соседние новости 2026 г.). Сейчас: лоты в корпусах К6, строятся (сдача 4 кв. 2026), остальные корпуса сданы; цена за м2 на странице не указана."
+  },
+  {
+   "slug": "salarevo-park",
+   "name": "«Саларьево парк»",
+   "dossier": "Саларьево парк",
+   "project": "Саларьево парк",
+   "district": "moskovskiy",
+   "districtName": "Московский",
+   "okrug": "НАО",
+   "developer": "ПИК",
+   "start": {
+    "date": "2019-06",
+    "lot_from": 3.6,
+    "lot_desc": null,
+    "price_m2": null,
+    "price_m2_kind": null,
+    "source": {
+     "title": "В ЖК «Саларьево парк» открыты продажи квартир от 3,6 млн рублей",
+     "url": "https://www.novostroy-m.ru/novosti/v_jk_salarevo_park",
+     "date": "2019-06-18"
+    }
+   },
+   "now": {
+    "as_of": "2026-10-14",
+    "lot_from": 13.3,
+    "lot_desc": "студия 21,2 м² — от 13,4 млн ₽",
+    "price_m2": null,
+    "price_m2_kind": null,
+    "selling": true,
+    "source": {
+     "title": "Саларьево парк, novostroy-m.ru",
+     "url": "https://www.novostroy-m.ru/baza/jk_salarevo_park"
+    }
+   },
+   "changePct": 269.4,
+   "years": 7.3,
+   "perYearPct": 19.5,
+   "note": "Запись архива от 2024-09 (средняя 334 тыс./м²) относится к новому корпусу, не к старту проекта; реальный старт проекта 2019 (ПИК, корпус 40 серии ПИК3 по архиву 2019-06-13). Корпус-подтверждение 2024 не найден в обзоре сентября 2024. Цена за м² на старте и сейчас на страницах не указана. В карточке застройщик указан как Тирон и ПИК. Сравнивать лот-к-лоту осторожно: состав корпусов и метраж различаются."
+  },
+  {
+   "slug": "losinoostrovskiy-park",
+   "name": "«Лосиноостровский парк»",
+   "dossier": "Лосиноостровский парк",
+   "project": "Лосиноостровский парк",
+   "district": null,
+   "districtName": null,
+   "okrug": null,
+   "developer": "ПИК",
+   "start": {
+    "date": "2021-09",
+    "lot_from": 5.4,
+    "lot_desc": "квартиры от 20 м²",
+    "price_m2": null,
+    "price_m2_kind": null,
+    "source": {
+     "title": "ЖК «Лосиноостровский парк»: минимальная (novostroy-m.ru)",
+     "url": "https://www.novostroy-m.ru/novosti/jk_losinoostrovskiy_park_minimalnaya",
+     "date": "2021-09-15"
+    }
+   },
+   "now": {
+    "as_of": "2026-10-14",
+    "lot_from": 15.56,
+    "lot_desc": "студия 28,1 м²",
+    "price_m2": null,
+    "price_m2_kind": null,
+    "selling": true,
+    "source": {
+     "title": "ЖК Лосиноостровский парк, карточка novostroy-m.ru (/baza/jk_na_otkrytom_shosse)",
+     "url": "https://www.novostroy-m.ru/baza/jk_na_otkrytom_shosse"
+    }
+   },
+   "changePct": 188.1,
+   "years": 5.1,
+   "perYearPct": 23.2,
+   "note": "Цены за м² в источниках нет. Карточка: «Цены за квартиры от 14 октября» (год не указан), последняя запись динамики цен 02.10.2026. Лоты разные по площади (старт: минимум в диапазоне 20-86 м²; сейчас студия 28,1 м²), сравнение по лоту приблизительное."
+  },
+  {
+   "slug": "arkhitektor",
+   "name": "«Архитектор»",
+   "dossier": "Архитектор",
+   "project": "ЖК «Архитектор» (ФСК)",
+   "district": "obruchevskiy",
+   "districtName": "Обручевский",
+   "okrug": "ЮЗАО",
+   "developer": "ФСК",
+   "start": {
+    "date": "2020-09",
+    "lot_from": 8.9,
+    "lot_desc": null,
+    "price_m2": null,
+    "price_m2_kind": null,
+    "source": {
+     "title": "novostroy-m.ru: новость о продажах нового проекта ГК ФСК, ЖК Архитектор",
+     "url": "https://www.novostroy-m.ru/novosti/prodaji_novogo_proekta_gk",
+     "date": "2020-09-12"
+    }
+   },
+   "now": {
+    "as_of": "2026-10-14",
+    "lot_from": 24.8,
+    "lot_desc": "2-комнатная 43,3 м² — студий в продаже нет",
+    "price_m2": null,
+    "price_m2_kind": null,
+    "selling": true,
+    "source": {
+     "title": "novostroy-m.ru, карточка ЖК Архитектор (цены «от 11 октября» по официальному сайту)",
+     "url": "https://www.novostroy-m.ru/baza/jk_arhitektor"
+    }
+   },
+   "changePct": 178.7,
+   "years": 6.1,
+   "perYearPct": 18.4,
+   "note": "Цена за м² в обоих источниках не указана, не считалась. На старте источник даёт только мин. лот 8,9 млн (архивные 255 тыс./м² не подтверждены). На карточке расхождение: в экспертном комментарии «от 23,56 млн» за ту же 2-комн. 43,3 м², в блоке цен 24,8 млн; взят блок цен. Год на карточке явно не указан, но история цен доходит до 2026-10-01. Все три корпуса «выдача ключей + заселение»; число квартир в продаже на странице противоречиво (26 и 32)."
+  },
+  {
+   "slug": "amurskiy-park",
+   "name": "«Амурский парк»",
+   "dossier": "Амурский парк",
+   "project": "Амурский парк (ПИК)",
+   "district": "golyanovo",
+   "districtName": "Гольяново",
+   "okrug": "ВАО",
+   "developer": "ПИК",
+   "start": {
+    "date": "2020-07",
+    "lot_from": 4.9,
+    "lot_desc": null,
+    "price_m2": null,
+    "price_m2_kind": null,
+    "source": {
+     "title": "Новострой-М: «Начались продажи в ЖК Амурский парк»",
+     "url": "https://www.novostroy-m.ru/novosti/kvartiry_ot_49_mln",
+     "date": "2020-07-03"
+    }
+   },
+   "now": {
+    "as_of": "2026-10-08",
+    "lot_from": 13.6,
+    "lot_desc": null,
+    "price_m2": null,
+    "price_m2_kind": null,
+    "selling": true,
+    "source": {
+     "title": "ЖК Амурский парк, карточка novostroy-m.ru",
+     "url": "https://www.novostroy-m.ru/baza/jk_amurskiy_park"
+    }
+   },
+   "changePct": 177.6,
+   "years": 6.2,
+   "perYearPct": 17.8,
+   "note": "Цена за м² на источниках не указана (архив: 171 тыс. с отделкой — не подтверждено). Цены на карточке «от 8 октября». На странице есть листинг студии 18,4 м² за 12,8 млн, ниже заявленного минимума — расхождение внутри карточки. Карточка относится к текущим очередям; вопрос, сопоставима ли минимальная цена с лотом 2020 года (другой тип лотов), оставлен скрипту."
+  },
+  {
+   "slug": "prioriti-basmannyy",
+   "name": "MYPRIORITY Basmanny",
+   "dossier": "Приорити Басманный",
+   "project": "MYPRIORITY Basmanny (Басманный от Гранель), Малая Почтовая, 12",
+   "district": "basmannyy",
+   "districtName": "Басманный",
+   "okrug": "ЦАО",
+   "developer": "Гранель",
+   "start": {
+    "date": "2021-07",
+    "lot_from": 12.0,
+    "lot_desc": null,
+    "price_m2": null,
+    "price_m2_kind": null,
+    "source": {
+     "title": "Начались продажи нового проекта ГК «Гранель» — ЖК MYPRIORITY Basmanny (novostroy-m)",
+     "url": "https://www.novostroy-m.ru/novosti/gk_granel_vyvela_na",
+     "date": "2021-08-03"
+    }
+   },
+   "now": {
+    "as_of": "2026-10-14",
+    "lot_from": 31.9,
+    "lot_desc": "2-комнатная от 59,3 м² — студий в продаже нет",
+    "price_m2": null,
+    "price_m2_kind": null,
+    "selling": true,
+    "source": {
+     "title": "Басманный от Гранель (novostroy-m, цены от 23 сентября)",
+     "url": "https://www.novostroy-m.ru/baza/jk_na_maloy_pochtovoy"
+    }
+   },
+   "changePct": 165.8,
+   "years": 5.2,
+   "perYearPct": 20.5,
+   "note": "Старт: «Минимальная стоимость квартиры на старте продаж — 12 млн рублей», лоты 28,9-112,2 м², цена за м² не названа. РБК (https://realty.rbc.ru/news/61163e369a79474a73b1c012, 2021-08-13): студия 28,7 м² за 12,9 млн, продажи открылись в июле. Архивные 397,2 тыс./м² не подтверждены. Сейчас на карточке «от 31.9 млн», год в дате 'от 23 сентября' не указан, поле «В продаже» — «звоните», корпус 1 сдан. Минимальный лот сейчас 2-комн. (дешёвых студий на карточке нет), сравнение по лоту некорректно."
+  },
+  {
+   "slug": "narvin",
+   "name": "«Нарвин» (бывш. «Кронштадтский, 14»)",
+   "dossier": "Нарвин",
+   "project": "Нарвин (ранее Кронштадтский, 14), ПИК",
+   "district": "golovinskiy",
+   "districtName": "Головинский",
+   "okrug": "САО",
+   "developer": "ПИК",
+   "start": {
+    "date": "2020-12",
+    "lot_from": 5.8,
+    "lot_desc": "квартиры от 20 м²",
+    "price_m2": null,
+    "price_m2_kind": null,
+    "source": {
+     "title": "Новострой-М: ПИК вывел на рынок ЖК «Кронштадтский, 14»",
+     "url": "https://www.novostroy-m.ru/novosti/kvartira_v_jk_kronshtadtskiy",
+     "date": "2021-01-03"
+    }
+   },
+   "now": {
+    "as_of": "2026-10-07",
+    "lot_from": 15.3,
+    "lot_desc": null,
+    "price_m2": null,
+    "price_m2_kind": null,
+    "selling": true,
+    "source": {
+     "title": "ЖК Нарвин, карточка novostroy-m.ru",
+     "url": "https://www.novostroy-m.ru/baza/narvin"
+    }
+   },
+   "changePct": 163.8,
+   "years": 5.8,
+   "perYearPct": 18.2,
+   "note": "Старт: эксперт novostroy-m в Q&A 30.12.2020 — «Продажи открылись сегодня, от 5,8 млн» (https://www.novostroy-m.ru/baza/jiloy_rayon_kronshtadtskiy_14/vopros-otvet). Цена за м² в источниках не указана (архив: 220 тыс.). Цена сейчас относится к «Нарвину» — продолжению проекта на Кронштадтском, 14 (архив: новая очередь стартовала в июне 2025 по 375 тыс./м²); старая карточка Кронштадтский 14 квартир уже не продаёт. Нарвин как отдельную очередь отдельный старт-источник не искался. Цены «от 7 октября»."
+  },
+  {
+   "slug": "injoy",
+   "name": "Injoy",
+   "dossier": "INJOY",
+   "project": "ЖК INJOY (Яркий квартал Инджой)",
+   "district": "voykovskiy",
+   "districtName": "Войковский",
+   "okrug": "САО",
+   "developer": "Талан",
+   "start": {
+    "date": "2023-08",
+    "lot_from": 8.3,
+    "lot_desc": "1-комнатная",
+    "price_m2": null,
+    "price_m2_kind": null,
+    "source": {
+     "title": "Началась реализация ЖК Injoy, цены стартуют от 8,3 млн рублей, novostroy-m.ru",
+     "url": "https://www.novostroy-m.ru/novosti/jk_injoy_tseny_startuyut",
+     "date": "2023-08-25"
+    }
+   },
+   "now": {
+    "as_of": "2026-10-08",
+    "lot_from": 18.9,
+    "lot_desc": null,
+    "price_m2": null,
+    "price_m2_kind": null,
+    "selling": true,
+    "source": {
+     "title": "ЖК Инджой, карточка novostroy-m.ru",
+     "url": "https://www.novostroy-m.ru/baza/jk_injoy"
+    }
+   },
+   "changePct": 127.7,
+   "years": 3.1,
+   "perYearPct": 29.9,
+   "note": "Цена за м2 ни на старте, ни сейчас на страницах не указана (352 тыс. - только архив). Застройщик по карточке Талан, на старте новость называет Инград; в архиве Инград. Стадия 'строится', ключи 4 кв. 2027. Количество лотов на странице 316/318."
+  },
+  {
+   "slug": "perets",
+   "name": "«Перец» (апартаменты)",
+   "dossier": "Перец",
+   "project": "Перец (сейчас карточка называется «Пятницкое 58»)",
+   "district": "mitino",
+   "districtName": "Митино",
+   "okrug": "СЗАО",
+   "developer": "МИЦ",
+   "start": {
+    "date": "2021-04",
+    "lot_from": 3.4,
+    "lot_desc": "апартаменты",
+    "price_m2": null,
+    "price_m2_kind": null,
+    "source": {
+     "title": "Новострой-М: МИЦ вывел на рынок «Перец»",
+     "url": "https://www.novostroy-m.ru/novosti/mits_vyvel_na_rynok",
+     "date": "2021-05-04"
+    }
+   },
+   "now": {
+    "as_of": "2026-10-14",
+    "lot_from": 7.0,
+    "lot_desc": "апартаменты",
+    "price_m2": null,
+    "price_m2_kind": null,
+    "selling": true,
+    "source": {
+     "title": "ЖК Пятницкое 58 (ранее Перец), карточка novostroy-m.ru",
+     "url": "https://www.novostroy-m.ru/baza/jk_perec"
+    }
+   },
+   "changePct": 105.9,
+   "years": 5.5,
+   "perYearPct": 14.0,
+   "note": "Цена за м² в источниках не названа (198 957 руб./м² из архива не подтверждено). Карточка jk_perec теперь под названием «Пятницкое 58», переименование на странице не пояснено; в вопросах 2021 года проект назван «Перец». Цены «от 14 октября» (год не указан). Ранее (мета в другом запросе) встречалось «от 6 966 527 руб.»; взято округлённое 7,0."
+  },
+  {
+   "slug": "wave",
+   "name": "Wave",
+   "dossier": "Wave",
+   "project": "ЖК Wave / «Вейв» (ЛСР, Борисовские пруды, 1)",
+   "district": "moskvoreche-saburovo",
+   "districtName": "Москворечье-Сабурово",
+   "okrug": "ЮАО",
+   "developer": "ЛСР",
+   "start": {
+    "date": "2021-12",
+    "lot_from": 8.5,
+    "lot_desc": null,
+    "price_m2": null,
+    "price_m2_kind": null,
+    "source": {
+     "title": "Группа ЛСР начала продажи (novostroy-m.ru)",
+     "url": "https://www.novostroy-m.ru/novosti/gruppa_lsr_nachala_prodaji",
+     "date": "2021-12-21"
+    }
+   },
+   "now": {
+    "as_of": "2026-10-14",
+    "lot_from": 16.6,
+    "lot_desc": "студия 22,1 м²",
+    "price_m2": null,
+    "price_m2_kind": null,
+    "selling": true,
+    "source": {
+     "title": "ЖК Вейв, novostroy-m.ru",
+     "url": "https://www.novostroy-m.ru/baza/jk_borisovskie_prudy_1"
+    }
+   },
+   "changePct": 95.3,
+   "years": 4.8,
+   "perYearPct": 14.9,
+   "note": "Цены за м² на старте в публикации нет (383 тыс. из архива не подтверждено). Позже: 8 млн за студию 23,6 м² по спецпредложению (08.02.2023). Сейчас: 1-я очередь сдана, 2-я - 4 кв. 2026; цена за м² не указана на странице. Яндекс.Недвижимость (смешанная выдача, включает вторичку) показывает от 12,69 млн за студию 24 м² (корпус Azure) - расхождение с novostroy-m, взят novostroy-m. Бюджет WebFetch превышен."
+  },
+  {
+   "slug": "pik",
+   "name": "«Плеханова, 11» (ПИК+)",
+   "dossier": "ПИК+",
+   "project": "ЖК «Плеханова 11» (ПИК+)",
+   "district": "perovo",
+   "districtName": "Перово",
+   "okrug": "ВАО",
+   "developer": "ПИК",
+   "start": {
+    "date": "2023-12",
+    "lot_from": 8.2,
+    "lot_desc": "квартиры с отделкой от 20,2 м²",
+    "price_m2": null,
+    "price_m2_kind": null,
+    "source": {
+     "title": "novostroy-m.ru, обзор стартов продаж декабря 2023 (статья от 2024-01-01)",
+     "url": "https://www.novostroy-m.ru/analitika/starty_prodaj_dekabr_2023",
+     "date": "2024-01-01"
+    }
+   },
+   "now": {
+    "as_of": "2026-10-14",
+    "lot_from": 15.2,
+    "lot_desc": "студия 19,4 м²",
+    "price_m2": null,
+    "price_m2_kind": null,
+    "selling": true,
+    "source": {
+     "title": "novostroy-m.ru, карточка Плеханова 11",
+     "url": "https://www.novostroy-m.ru/baza/jk_plehanova_11"
+    }
+   },
+   "changePct": 85.4,
+   "years": 2.8,
+   "perYearPct": 24.4,
+   "note": "Цена за м² на старте источник не называет (средние 315 тыс. из архива не подтверждены). На карточке расхождение: шапка 'от 17,5 до 30,6 млн', в списке самая дешёвая студия 15,19 млн; взят список. Цены от 6 окт 2026, акция до 15 окт. Дом строится, сдача IV кв. 2026. Застройщик в карточке: СЗ «Ясеневый парк»."
+  },
+  {
+   "slug": "moskvoreche",
+   "name": "«Москворечье»",
+   "dossier": "Москворечье",
+   "project": "Москворечье",
+   "district": "moskvoreche-saburovo",
+   "districtName": "Москворечье-Сабурово",
+   "okrug": "ЮАО",
+   "developer": "ПИК",
+   "start": {
+    "date": "2024-07",
+    "lot_from": 8.0,
+    "lot_desc": null,
+    "price_m2": null,
+    "price_m2_kind": null,
+    "source": {
+     "title": "Старты продаж в июле 2024 (Новострой-М)",
+     "url": "https://www.novostroy-m.ru/analitika/starty_prodaj_moskva_iyul",
+     "date": "2024-08-01"
+    }
+   },
+   "now": {
+    "as_of": "2026-10-14",
+    "lot_from": 14.6,
+    "lot_desc": "студия 19,1 м²",
+    "price_m2": null,
+    "price_m2_kind": null,
+    "selling": true,
+    "source": {
+     "title": "ЖК Москворечье, Новострой-М (цены от 7 октября)",
+     "url": "https://www.novostroy-m.ru/baza/arhitekturnyy_proekt_v_moskvorechesaburovo"
+    }
+   },
+   "changePct": 82.5,
+   "years": 2.2,
+   "perYearPct": 30.7,
+   "note": "Цена за м² в карточке проекта и обзоре не указана (на одной карточке лота корпус 2.1: 513 900 ₽/м² - не минимум). Карточка общая: корпуса 1.1-1.4 и 2.1/2.3, очередь не выделена. Архив: ср. 307 тыс./м² на старте, 380-391 тыс. в 2025 - не проверено."
+  },
+  {
+   "slug": "chistye-prudy",
+   "name": "«Чистые пруды»",
+   "dossier": "Чистые пруды",
+   "project": "Клубный дом «Чистые Пруды» / Дом на Чистых прудах «Фон Дессин» (Sminex)",
+   "district": "basmannyy",
+   "districtName": "Басманный",
+   "okrug": "ЦАО",
+   "developer": "Sminex",
+   "start": {
+    "date": "2022-01",
+    "lot_from": 89.7,
+    "lot_desc": null,
+    "price_m2": null,
+    "price_m2_kind": null,
+    "source": {
+     "title": "novostroy-m.ru: обзор стартов продаж, январь 2022",
+     "url": "https://www.novostroy-m.ru/analitika/starty_prodaj_yanvar22",
+     "date": "2022-01-31"
+    }
+   },
+   "now": {
+    "as_of": "2026-10-14",
+    "lot_from": 161.8,
+    "lot_desc": "2-комнатная 113,5 м²",
+    "price_m2": null,
+    "price_m2_kind": null,
+    "selling": true,
+    "source": {
+     "title": "novostroy-m.ru, карточка Дома на Чистых прудах «Фон Дессин» (цены «от 14 октября»)",
+     "url": "https://www.novostroy-m.ru/baza/klubnyy_dom_chistye_prudy"
+    }
+   },
+   "changePct": 80.4,
+   "years": 4.7,
+   "perYearPct": 13.2,
+   "note": "Цена за м² на странице не указана, не считалась. В обзоре января 2022 цены за м² нет, в Потаповский переулок обзор не привязан (только «Чистые Пруды», Басманный, Sminex). Архивные 1,2 млн/м² источником не подтверждены. Дом сдан (выдача ключей + заселение), у лотов статус «Сдан», «Квартиры в продаже»; дата в динамике цен 2026-10-01, в блоке цен «от 14 октября». Сайт Sminex и ЦИАН не открывались."
+  },
+  {
+   "slug": "petrovskiy-park",
+   "name": "«Петровский парк II»",
+   "dossier": "Петровский парк",
+   "project": "Петровский парк II (РГ-Девелопмент)",
+   "district": null,
+   "districtName": null,
+   "okrug": null,
+   "developer": "РГ",
+   "start": {
+    "date": "2022-11",
+    "lot_from": 10.5,
+    "lot_desc": "студии от 23,9 м²",
+    "price_m2": null,
+    "price_m2_kind": null,
+    "source": {
+     "title": "Новострой-М: старты ноября 2022",
+     "url": "https://www.novostroy-m.ru/analitika/starty_noyabr_2022",
+     "date": "2022-11-30"
+    }
+   },
+   "now": {
+    "as_of": "2026-10-11",
+    "lot_from": 18.86,
+    "lot_desc": "студия 24,4 м²",
+    "price_m2": null,
+    "price_m2_kind": null,
+    "selling": true,
+    "source": {
+     "title": "Новострой-М: ЖК Петровский парк II",
+     "url": "https://www.novostroy-m.ru/baza/jk_petrovskiy_park_ii"
+    }
+   },
+   "changePct": 79.6,
+   "years": 3.9,
+   "perYearPct": 16.2,
+   "note": "Старт: в обзоре «цены стартуют от 10,5 млн рублей», цена за м2 не указана (358 тыс./м2 из архива не подтверждена). Сейчас: цена за м2 на карточке не указана, цены от 11 октября (год не указан, динамика цен до 10.09.2026)."
+  },
+  {
+   "slug": "tate",
+   "name": "Tate",
+   "dossier": "TATE",
+   "project": "TATE (Тейт), ЖК на ул. Веткина, Кортрос",
+   "district": null,
+   "districtName": null,
+   "okrug": null,
+   "developer": "Кортрос",
+   "start": {
+    "date": "2024-01",
+    "lot_from": 11.8,
+    "lot_desc": "лоты от 28,8 м²",
+    "price_m2": null,
+    "price_m2_kind": null,
+    "source": {
+     "title": "Старты продаж января 2024, novostroy-m.ru",
+     "url": "https://www.novostroy-m.ru/analitika/starty_prodaj_yanvar_2024",
+     "date": "2024-01-31"
+    }
+   },
+   "now": {
+    "as_of": "2026-10-14",
+    "lot_from": 21.1,
+    "lot_desc": "студия 30,3 м²",
+    "price_m2": null,
+    "price_m2_kind": null,
+    "selling": true,
+    "source": {
+     "title": "ЖК TATE, карточка novostroy-m.ru",
+     "url": "https://www.novostroy-m.ru/baza/jk_na_ul_vetkina"
+    }
+   },
+   "changePct": 78.8,
+   "years": 2.7,
+   "perYearPct": 23.6,
+   "note": "Цена за м2 на старте в обзоре не указана (380 тыс. и студия 29 м2 за 12 млн из архива не подтверждены; обзор даёт 11,8 млн и мин. площадь 28,75 м2, цену за м2 из них не считаю). Карточка: 'цены от 12 октября' (год не назван), 275 квартир в продаже, сдача 2 кв. 2027; корпус/очередь не указаны. Лот-страница novostroy-m на 14.10.2026 отмечена неактуальной и не использовалась."
+  },
+  {
+   "slug": "era",
+   "name": "ERA",
+   "dossier": "ERA",
+   "project": "ERA / Эра (Дербеневская, 20; ПИК, затем Tekta)",
+   "district": "danilovskiy",
+   "districtName": "Даниловский",
+   "okrug": "ЮАО",
+   "developer": "ПИК",
+   "start": {
+    "date": "2021-06",
+    "lot_from": 12.2,
+    "lot_desc": null,
+    "price_m2": null,
+    "price_m2_kind": null,
+    "source": {
+     "title": "Новостройки Москвы на старте (novostroy-m.ru)",
+     "url": "https://www.novostroy-m.ru/analitika/novostroyki_moskvy_na_starte",
+     "date": "2021-06-30"
+    }
+   },
+   "now": {
+    "as_of": "2026-10-14",
+    "lot_from": 21.8,
+    "lot_desc": "вторая очередь — сдача во II кв. 2029",
+    "price_m2": null,
+    "price_m2_kind": null,
+    "selling": true,
+    "source": {
+     "title": "ЖК ЭРА, novostroy-m.ru",
+     "url": "https://www.novostroy-m.ru/baza/jk_era_era"
+    }
+   },
+   "changePct": 78.7,
+   "years": 5.3,
+   "perYearPct": 11.5,
+   "note": "Два старта: ПИК, июнь 2021 (в обзоре от 30.06.2021 проект назван «Дербеневская 20», ERA на странице не упомянута; в ноябре 2021 ПИК, по архиву, снял проект с продаж), и повторный старт Tekta в апреле 2023: РБК-Недвижимость 2023-04-06 (https://realty.rbc.ru/news/642d6e5d9a7947d6cd25dc84) - «Стоимость на старте продаж начинается от 12,3 млн руб.», 28-160 м². Для сравнения взят первый старт 2021 (лот 12,2 млн); цена за м² в обеих публикациях не названа (395 тыс. из архива не подтверждено). Решение, какой старт брать, - за редакцией. Бюджет WebFetch превышен."
+  },
+  {
+   "slug": "vishnevaya-7",
+   "name": "Cityzen",
+   "dossier": "Вишневая, 7",
+   "project": "Cityzen (Вишневая, 7)",
+   "district": null,
+   "districtName": null,
+   "okrug": null,
+   "developer": "MR Group",
+   "start": {
+    "date": "2024-02",
+    "lot_from": 9.4,
+    "lot_desc": null,
+    "price_m2": null,
+    "price_m2_kind": null,
+    "source": {
+     "title": "Старты продаж в феврале 2024 (Новострой-М)",
+     "url": "https://www.novostroy-m.ru/analitika/starty_prodaj_fevral_2024",
+     "date": "2024-02-29"
+    }
+   },
+   "now": {
+    "as_of": "2026-10-14",
+    "lot_from": 15.9,
+    "lot_desc": "студия 20,8 м²",
+    "price_m2": null,
+    "price_m2_kind": null,
+    "selling": true,
+    "source": {
+     "title": "ЖК Cityzen, Новострой-М (цены от 13 октября)",
+     "url": "https://www.novostroy-m.ru/baza/jk_vishnevaya_7"
+    }
+   },
+   "changePct": 69.1,
+   "years": 2.7,
+   "perYearPct": 21.8,
+   "note": "Цена за м² в обзоре не указана. В архиве редакции 360 тыс./м² при открытых продажах 19.02.2024 - не проверено первоисточником. Сейчас: общая карточка проекта (все очереди, 369 лотов)."
+  },
+  {
+   "slug": "yuzhnyy-port",
+   "name": "Ultima City",
+   "dossier": "Южный порт",
+   "project": "Ultima City / УЛЬТИМА Сити (Кортрос, Южнопортовая, 21)",
+   "district": "pechatniki",
+   "districtName": "Печатники",
+   "okrug": "ЮВАО",
+   "developer": "Кортрос",
+   "start": {
+    "date": "2025-05",
+    "lot_from": 11.3,
+    "lot_desc": "студии от 28,3 м²",
+    "price_m2": null,
+    "price_m2_kind": null,
+    "source": {
+     "title": "Старты продаж, май 2025 (novostroy-m.ru)",
+     "url": "https://www.novostroy-m.ru/analitika/starty_prodaj_may_2025",
+     "date": "2025-06-02"
+    }
+   },
+   "now": {
+    "as_of": "2026-10-14",
+    "lot_from": 19.1,
+    "lot_desc": "1-комнатная 28,3 м²",
+    "price_m2": null,
+    "price_m2_kind": null,
+    "selling": true,
+    "source": {
+     "title": "ЖК УЛЬТИМА Сити, novostroy-m.ru",
+     "url": "https://www.novostroy-m.ru/baza/jk_yujnoportovaya_21"
+    }
+   },
+   "changePct": 69.0,
+   "years": 1.4,
+   "perYearPct": 44.9,
+   "note": "Обзор не называет цену за м² (380 тыс. из архива не подтверждено). Страница проекта цену за м² не даёт. Сроки сдачи на странице расходятся (3 кв. 2028 и 2 кв. 2029)."
+  },
+  {
+   "slug": "buninskaya-naberezhnaya",
+   "name": "«Бунинская набережная»",
+   "dossier": "Бунинская набережная",
+   "project": "Бунинская набережная",
+   "district": "sosenskoe",
+   "districtName": "Сосенское",
+   "okrug": "НАО",
+   "developer": "ПИК",
+   "start": {
+    "date": "2025-04",
+    "lot_from": 7.2,
+    "lot_desc": null,
+    "price_m2": null,
+    "price_m2_kind": null,
+    "source": {
+     "title": "Старты продаж, апрель 2025 (novostroy-m.ru)",
+     "url": "https://www.novostroy-m.ru/analitika/starty_prodaj_aprel_2025",
+     "date": "2025-04-30"
+    }
+   },
+   "now": {
+    "as_of": "2026-10-14",
+    "lot_from": 12.08,
+    "lot_desc": null,
+    "price_m2": null,
+    "price_m2_kind": null,
+    "selling": true,
+    "source": {
+     "title": "Бунинская набережная, карточка novostroy-m.ru",
+     "url": "https://www.novostroy-m.ru/baza/buninskaya_naberejnaya"
+    }
+   },
+   "changePct": 67.8,
+   "years": 1.5,
+   "perYearPct": 41.3,
+   "note": "Цена за м2 в обзоре и карточке не указана; 297 тыс. из архива не подтверждена. Лот на старте 7,2 и сейчас 12,1 - разные лоты, возможно не сопоставимы (мин. лот сейчас - студия 19 м2)."
+  },
+  {
+   "slug": "irtyshskiy-park",
+   "name": "«2-й Иртышский»",
+   "dossier": "Иртышский парк",
+   "project": "2-й Иртышский (ранее Иртышский парк / Иртышский квартал), ПИК",
+   "district": null,
+   "districtName": null,
+   "okrug": null,
+   "developer": "ПИК",
+   "start": {
+    "date": "2024-04",
+    "lot_from": 8.3,
+    "lot_desc": null,
+    "price_m2": null,
+    "price_m2_kind": null,
+    "source": {
+     "title": "Обзор стартов продаж апреля 2024, novostroy-m.ru",
+     "url": "https://www.novostroy-m.ru/analitika/starty_prodaj_aprel_2024",
+     "date": "2024-05-02"
+    }
+   },
+   "now": {
+    "as_of": "2026-10-14",
+    "lot_from": 13.5,
+    "lot_desc": null,
+    "price_m2": null,
+    "price_m2_kind": null,
+    "selling": true,
+    "source": {
+     "title": "2-й Иртышский, карточка novostroy-m.ru",
+     "url": "https://www.novostroy-m.ru/baza/2y_irtyshskiy"
+    }
+   },
+   "changePct": 62.7,
+   "years": 2.5,
+   "perYearPct": 21.5,
+   "note": "Обзор называет проект «2-й Иртышский» (ПИК+, Гольяново), что не совпадает с районом по архиву - совпадение по названию и застройщику, старт апрель 2024 согласуется с архивом (09-10.04.2024). Цена за м2 не указана (330 тыс./м2 только из архива). Внутри карточки есть лот-студия 19,2 м2 за 11 639 040 руб., ниже заявленного минимума 13,5 млн; взят заявленный минимум карточки."
+  },
+  {
+   "slug": "novaya-11",
+   "name": "«Новая, 11»",
+   "dossier": "Новая, 11",
+   "project": "Новая, 11 (клубный дом, Новая дорога, 11Б)",
+   "district": "basmannyy",
+   "districtName": "Басманный",
+   "okrug": "ЦАО",
+   "developer": "Element Development",
+   "start": {
+    "date": "2025-12",
+    "lot_from": 19.8,
+    "lot_desc": "лоты от 28 м²",
+    "price_m2": null,
+    "price_m2_kind": null,
+    "source": {
+     "title": "Старт продаж проекта «Новая» (novostroy-m.ru)",
+     "url": "https://www.novostroy-m.ru/novosti/start_prodaj_proekta_novaya",
+     "date": "2025-12-13"
+    }
+   },
+   "now": {
+    "as_of": "2026-10-14",
+    "lot_from": 31.99,
+    "lot_desc": null,
+    "price_m2": null,
+    "price_m2_kind": null,
+    "selling": true,
+    "source": {
+     "title": "Клубный дом «Новая, 11» (novostroy-m.ru), «Цены за квартиры от 6 октября»",
+     "url": "https://www.novostroy-m.ru/baza/novaya_11"
+    }
+   },
+   "changePct": 61.6,
+   "years": 0.8,
+   "perYearPct": 78.3,
+   "note": "Цена за м² на страницах не указана. Дата цен на карточке без года («от 6 октября»), год принят как 2026. Старт: «от 19,8 млн» из обзора 13.12.2025, лот не расшифрован. Запись архива от 3.12.2025 называет 668 тыс. за м² (в рассрочку 785), но это не первоисточник. Алиас «Бауман Хаус» ошибочный: карточка Bauman House (Кортрос) — другой, уже сданный проект, не использована."
+  },
+  {
+   "slug": "strana-zarechnaya",
+   "name": "«Страна.Заречная»",
+   "dossier": "Страна.Заречная",
+   "project": "Страна.Заречная",
+   "district": "marino",
+   "districtName": "Марьино",
+   "okrug": "ЮВАО",
+   "developer": "Страна",
+   "start": {
+    "date": "2024-10",
+    "lot_from": 8.5,
+    "lot_desc": null,
+    "price_m2": null,
+    "price_m2_kind": null,
+    "source": {
+     "title": "Старты продаж в новостройках Москвы в октябре 2024, novostroy-m.ru",
+     "url": "https://www.novostroy-m.ru/analitika/starty_prodaj_oktyabr_2024",
+     "date": "2024-10-31"
+    }
+   },
+   "now": {
+    "as_of": "2026-10-14",
+    "lot_from": 13.5,
+    "lot_desc": "по карточке проекта",
+    "price_m2": null,
+    "price_m2_kind": null,
+    "selling": true,
+    "source": {
+     "title": "Страна. Заречная, novostroy-m.ru",
+     "url": "https://www.novostroy-m.ru/baza/arhitekturnyy_proekt_ilovayskaya_3"
+    }
+   },
+   "changePct": 58.8,
+   "years": 2.0,
+   "perYearPct": 26.1,
+   "note": "Цена за м² в источниках не указана. Архив: 310 тыс./м² на старте (не подтверждено обзором); бронирование с 2024-10-11 по архиву: студии от 7 млн. Старт и сейчас - минимальные цены по проекту, площади минимальных лотов могут различаться."
+  },
+  {
+   "slug": "1-y-nagatinskiy",
+   "name": "«1-й Нагатинский»",
+   "dossier": "1-й Нагатинский",
+   "project": "1-й Нагатинский / Первый Нагатинский",
+   "district": null,
+   "districtName": null,
+   "okrug": null,
+   "developer": "Prime Life Development",
+   "start": {
+    "date": "2022-05",
+    "lot_from": 11.3,
+    "lot_desc": "студия 30,3 м²",
+    "price_m2": null,
+    "price_m2_kind": null,
+    "source": {
+     "title": "ЖК 1-й Нагатинский: квартиры от 11,2 млн, novostroy-m.ru",
+     "url": "https://www.novostroy-m.ru/novosti/kvartiry_ot_112_mln",
+     "date": "2022-05-28"
+    }
+   },
+   "now": {
+    "as_of": "2026-10-14",
+    "lot_from": 17.8,
+    "lot_desc": null,
+    "price_m2": null,
+    "price_m2_kind": null,
+    "selling": true,
+    "source": {
+     "title": "Первый Нагатинский (vopros-otvet), novostroy-m.ru",
+     "url": "https://www.novostroy-m.ru/baza/kompleks_apartamentov_na_1m/vopros-otvet"
+    }
+   },
+   "changePct": 57.5,
+   "years": 4.4,
+   "perYearPct": 10.8,
+   "note": "Старт: в заголовке '11,2 млн', в тексте 'от 11,3 млн' за студию 30,3 м2 (взято из текста). Цена за м2 не указана (346 тыс. из архива не подтверждена). Сейчас: главная карточка (цены на 29 сентября, год не указан) показывала от 18,6 млн (студия 18,2 м2, 18 554 651 руб.); взято значение страницы с датой 'от 14 октября' - расхождение. Корпуса 1.1-1.3 сданы, 2.1-2.2 строятся."
+  },
+  {
+   "slug": "nagatino-i-land",
+   "name": "Nagatino i-Land",
+   "dossier": "Нагатино i-Land",
+   "project": "Nagatino i-Land (бывш. Central Park), жилой остров «Нагатино Ай-Лэнд»",
+   "district": null,
+   "districtName": null,
+   "okrug": null,
+   "developer": "Эталон",
+   "start": {
+    "date": "2019-11",
+    "lot_from": 12.4,
+    "lot_desc": "первая очередь",
+    "price_m2": null,
+    "price_m2_kind": null,
+    "source": {
+     "title": "В Nagatino i-Land открыты продажи квартир от 12,4 млн рублей (novostroy-m.ru)",
+     "url": "https://www.novostroy-m.ru/novosti/v_nagatino_iland_otkryty",
+     "date": "2019-11-28"
+    }
+   },
+   "now": {
+    "as_of": "2026-10-14",
+    "lot_from": 19.3,
+    "lot_desc": null,
+    "price_m2": null,
+    "price_m2_kind": null,
+    "selling": true,
+    "source": {
+     "title": "Жилой остров «Нагатино Ай-Лэнд» (novostroy-m.ru), «Цены за квартиры от 13 октября»",
+     "url": "https://www.novostroy-m.ru/baza/jk_central_park_tsentral"
+    }
+   },
+   "changePct": 55.6,
+   "years": 6.9,
+   "perYearPct": 6.6,
+   "note": "Расхождение: статья-экспертиза novostroy-m (28.03.2023) пишет, что на старте в ноябре 2019 минимальная цена 1-комнатной была 9,7 млн; взята новость от 28.11.2019 (12,4 млн). Цена сейчас относится к более поздним очередям (в продаже корпуса со статусом «Строится»). Цена за м² не указана; ЦИАН даёт 568,3 тыс./м² (страница без даты, не использована)."
+  },
+  {
+   "slug": "zareche",
+   "name": "«Графика на воде»",
+   "dossier": "Заречье",
+   "project": "Графика на воде / Квартал на воде (Шоссейная, 90)",
+   "district": "pechatniki",
+   "districtName": "Печатники",
+   "okrug": "ЮВАО",
+   "developer": "МИЦ",
+   "start": {
+    "date": "2023-04",
+    "lot_from": 9.5,
+    "lot_desc": "1-комнатная 32,7 м²",
+    "price_m2": 284.4,
+    "price_m2_kind": "from",
+    "source": {
+     "title": "Объявлен старт продаж нового ЖК «Графика на воде», цены — от 9,5 млн рублей",
+     "url": "https://www.novostroy-m.ru/novosti/start_jk_grafika_na",
+     "date": "2023-04-13"
+    }
+   },
+   "now": {
+    "as_of": "2026-10-14",
+    "lot_from": 14.6,
+    "lot_desc": "1-комнатная 29,5 м²",
+    "price_m2": null,
+    "price_m2_kind": null,
+    "selling": true,
+    "source": {
+     "title": "ЖК «Квартал на воде» (novostroy-m, цены от 10 октября)",
+     "url": "https://www.novostroy-m.ru/baza/jk_shosseynaya_90"
+    }
+   },
+   "changePct": 53.7,
+   "years": 3.5,
+   "perYearPct": 13.1,
+   "note": "Старт: «Стоимость 1 кв. м без отделки — от 284,4 тыс. рублей», дословно. Сейчас на карточке «от 14,6 до 35,4 млн», цены за м² для проекта на карточке нет (у отдельного лота 52,97 м² — 435 632 ₽/м², это не минимум). 91 квартира в продаже, корпуса 1-3 сданы, корпус 5 в котловане; к какой очереди относится минимальный лот, источник не говорит. Сравнивать лучше по лоту: 9,5 млн (32,7 м²) vs 14,6 млн (29,47 м²) — площади разные. Архивная запись о 'до 250 тыс.' и о 445 тыс. (Самолёт, 2025) не подтверждалась."
+  },
+  {
+   "slug": "hideout",
+   "name": "hideOUT",
+   "dossier": "hideOUT",
+   "project": "hideOUT (ХайдАУТ)",
+   "district": null,
+   "districtName": null,
+   "okrug": null,
+   "developer": "Dominanta",
+   "start": {
+    "date": "2024-06",
+    "lot_from": 23.2,
+    "lot_desc": "1 спальня, 38,6 м²",
+    "price_m2": null,
+    "price_m2_kind": null,
+    "source": {
+     "title": "Старты продаж июнь 2024, novostroy-m.ru",
+     "url": "https://www.novostroy-m.ru/analitika/starty_prodaj_iyun2024",
+     "date": "2024-07-01"
+    }
+   },
+   "now": {
+    "as_of": "2026-10-13",
+    "lot_from": 34.449485,
+    "lot_desc": "1-комнатная 36,2 м²",
+    "price_m2": null,
+    "price_m2_kind": null,
+    "selling": true,
+    "source": {
+     "title": "ЖК ХАЙДАУТ, novostroy-m.ru",
+     "url": "https://www.novostroy-m.ru/baza/jk_hideout_haydaut"
+    }
+   },
+   "changePct": 48.5,
+   "years": 2.3,
+   "perYearPct": 18.5,
+   "note": "Цена за м2 в источниках не указана (600 тыс. из архива не подтверждена источником). Год в плашке 'от 13 октября' не указан, но цена изменена 06.10.2026. Не путать с ЖК hide (jk_na_1om_setunskom)."
+  },
+  {
+   "slug": "ogorodnyy-20",
+   "name": "Квартал «Монс»",
+   "dossier": "Огородный, 20",
+   "project": "Квартал «Монс»",
+   "district": "ostankinskiy",
+   "districtName": "Останкинский",
+   "okrug": "СВАО",
+   "developer": "Брусника",
+   "start": {
+    "date": "2024-04",
+    "lot_from": 13.7,
+    "lot_desc": "студия 27,6 м²",
+    "price_m2": null,
+    "price_m2_kind": null,
+    "source": {
+     "title": "Старты продаж в новостройках Москвы в апреле 2024, novostroy-m.ru",
+     "url": "https://www.novostroy-m.ru/analitika/starty_prodaj_aprel_2024",
+     "date": "2024-05-02"
+    }
+   },
+   "now": {
+    "as_of": "2026-10-14",
+    "lot_from": 20.2,
+    "lot_desc": "та же студия 27,6 м²",
+    "price_m2": null,
+    "price_m2_kind": null,
+    "selling": true,
+    "source": {
+     "title": "Квартал «Монс», novostroy-m.ru",
+     "url": "https://novostroy-m.ru/baza/jk_v_ogorodnom_prde"
+    }
+   },
+   "changePct": 47.4,
+   "years": 2.5,
+   "perYearPct": 16.8,
+   "note": "Обзор месяца цену за м² не называет. Архив называл 379,9 тыс./м² (не подтверждено источником). Один и тот же лот (студия 27,6 м²): 13,7 млн на старте и 20,23 млн сейчас."
+  },
+  {
+   "slug": "shlyuzovaya-2",
+   "name": "«Монблан»",
+   "dossier": "Шлюзовая, 2",
+   "project": "Монблан (Шлюзовая набережная, 2; Галс)",
+   "district": "zamoskvorechye",
+   "districtName": "Замоскворечье",
+   "okrug": "ЦАО",
+   "developer": "Галс",
+   "start": {
+    "date": "2024-04",
+    "lot_from": 36.1,
+    "lot_desc": "лоты от 48 м²",
+    "price_m2": null,
+    "price_m2_kind": null,
+    "source": {
+     "title": "Новострой-М: старты продаж в апреле 2024",
+     "url": "https://www.novostroy-m.ru/analitika/starty_prodaj_aprel_2024",
+     "date": "2024-05-02"
+    }
+   },
+   "now": {
+    "as_of": "2026-10-13",
+    "lot_from": 52.2,
+    "lot_desc": "1-комнатная от 48 м²",
+    "price_m2": null,
+    "price_m2_kind": null,
+    "selling": true,
+    "source": {
+     "title": "Новострой-М: ЖК на Шлюзовой набережной (Монблан)",
+     "url": "https://www.novostroy-m.ru/baza/jk_na_shlyuzovoy_naberejnoy"
+    }
+   },
+   "changePct": 44.6,
+   "years": 2.5,
+   "perYearPct": 15.9,
+   "note": "Старт: «цены - от 36,1 млн рублей», «площадь лотов - от 48 кв. м»; то же в новости novostroy-m.ru/novosti/start_prodaj_jk_monblan от 20.04.2024. Цена за м2 не указана (775 тыс. из архива не подтверждена). Сейчас: цена за м2 не указана; мин. площадь лота на странице не подтверждена (первый в списке - 47,40 м²), лоты не вполне сопоставимы."
+  },
+  {
+   "slug": "svet",
+   "name": "«Свет»",
+   "dossier": "Свет",
+   "project": "ЖК Свет (Dominanta, Дмитровское шоссе, 83А)",
+   "district": "zapadnoe-degunino",
+   "districtName": "Западное Дегунино",
+   "okrug": "САО",
+   "developer": "Dominanta",
+   "start": {
+    "date": "2025-03",
+    "lot_from": 13.6,
+    "lot_desc": null,
+    "price_m2": null,
+    "price_m2_kind": null,
+    "source": {
+     "title": "Обзор стартов продаж, март 2025 (Новострой-М)",
+     "url": "https://www.novostroy-m.ru/analitika/novoe_predlojenie__na",
+     "date": "2025-03-31"
+    }
+   },
+   "now": {
+    "as_of": "2026-10-14",
+    "lot_from": 19.0,
+    "lot_desc": "студия 30,9 м²",
+    "price_m2": null,
+    "price_m2_kind": null,
+    "selling": true,
+    "source": {
+     "title": "ЖК Свет, Новострой-М (цены от 8 октября)",
+     "url": "https://www.novostroy-m.ru/baza/arhitekturnyy_proekt_na_dmitrovskom"
+    }
+   },
+   "changePct": 39.7,
+   "years": 1.6,
+   "perYearPct": 23.5,
+   "note": "Цена за м² в источниках не указана (архив: 450 тыс. на старте, 480 с октября 2025 - не проверено). Минимальный лот на старте 13,6 млн и сейчас 19,0 млн - лоты разной площади, не сопоставимы напрямую."
+  },
+  {
+   "slug": "mayprioriti-paveletskaya",
+   "name": "MYPRIORITY Paveletskaya",
+   "dossier": "Майприорити Павелецкая",
+   "project": "Майприорити Павелецкая (ныне Павелецкая от Гранель)",
+   "district": "zamoskvorechye",
+   "districtName": "Замоскворечье",
+   "okrug": "ЦАО",
+   "developer": "Гранель",
+   "start": {
+    "date": "2023-09",
+    "lot_from": 17.0,
+    "lot_desc": "студии от 30 м²",
+    "price_m2": null,
+    "price_m2_kind": null,
+    "source": {
+     "title": "Старты продаж, сентябрь 2023 (novostroy-m.ru)",
+     "url": "https://www.novostroy-m.ru/analitika/starty_prodaj_sentyabr_23",
+     "date": "2023-10-02"
+    }
+   },
+   "now": {
+    "as_of": "2026-10-14",
+    "lot_from": 21.97,
+    "lot_desc": "студия 26,5 м²",
+    "price_m2": null,
+    "price_m2_kind": null,
+    "selling": true,
+    "source": {
+     "title": "ЖК Павелецкая от Гранель, карточка novostroy-m.ru",
+     "url": "https://www.novostroy-m.ru/baza/jk_mypriority_paveletskaya_may"
+    }
+   },
+   "changePct": 29.2,
+   "years": 3.1,
+   "perYearPct": 8.7,
+   "note": "Старт = первая очередь (2 корпуса, 8 и 28 этажей, 377 квартир); обзор: 'от 17 млн'. Сегодня на странице оба корпуса (1 - сдача 4 кв. 2026, 2 - 3 кв. 2028); минимум по проекту, не по очереди. Шапка 'от 22 млн', лот 21 965 311 руб., цены на 13 окт. Цена за м2 в источниках не указана; 620 тыс./м2 из архива не подтверждено. Прелонч 14 млн (архив) не подтвержден."
+  },
+  {
+   "slug": "staropetrovskiy-atrium",
+   "name": "Level Войковская",
+   "dossier": "Старопетровский атриум",
+   "project": "Level Войковская (Старопетровский проезд, 11)",
+   "district": "voykovskiy",
+   "districtName": "Войковский",
+   "okrug": "САО",
+   "developer": "Level Group",
+   "start": {
+    "date": "2025-08",
+    "lot_from": 14.6,
+    "lot_desc": "лоты от 28,9 м²",
+    "price_m2": null,
+    "price_m2_kind": null,
+    "source": {
+     "title": "Обзор стартов продаж за август 2025, novostroy-m.ru",
+     "url": "https://www.novostroy-m.ru/analitika/starty_prodaj_avgust_2025",
+     "date": "2025-09-01"
+    }
+   },
+   "now": {
+    "as_of": "2026-10-13",
+    "lot_from": 18.3,
+    "lot_desc": "студия 29,9 м²",
+    "price_m2": null,
+    "price_m2_kind": null,
+    "selling": true,
+    "source": {
+     "title": "Level Войковская, карточка novostroy-m.ru",
+     "url": "https://www.novostroy-m.ru/baza/jk_na_proezde_staropetrovskom"
+    }
+   },
+   "changePct": 25.3,
+   "years": 1.2,
+   "perYearPct": 21.5,
+   "note": "В обзоре проект назван 'Level Войковская', соответствие адресу выведено по ссылке в таблице. На карточке расхождение: заголовок 'от 18,3 млн', а студия 29,9 м2 - 18,02 млн; взят заголовок. Цена за м2 нигде не указана (405/455 тыс. из архива не подтверждены). Количество лотов на странице указано по-разному (66-539)."
+  },
+  {
+   "slug": "shift",
+   "name": "Shift",
+   "dossier": "Шифт",
+   "project": "ЖК SHIFT (Шифт), Пионер, Донской",
+   "district": "donskoy",
+   "districtName": "Донской",
+   "okrug": "ЮАО",
+   "developer": "Пионер",
+   "start": {
+    "date": "2024-02",
+    "lot_from": 37.0,
+    "lot_desc": null,
+    "price_m2": null,
+    "price_m2_kind": null,
+    "source": {
+     "title": "novostroy-m.ru, обзор стартов продаж февраля 2024",
+     "url": "https://www.novostroy-m.ru/analitika/starty_prodaj_fevral_2024",
+     "date": "2024-02-29"
+    }
+   },
+   "now": {
+    "as_of": "2026-10-14",
+    "lot_from": 45.9,
+    "lot_desc": "2-комнатная 46,5 м²",
+    "price_m2": null,
+    "price_m2_kind": null,
+    "selling": true,
+    "source": {
+     "title": "novostroy-m.ru, карточка ЖК Shift (цены от 14 октября)",
+     "url": "https://www.novostroy-m.ru/baza/jk_shift"
+    }
+   },
+   "changePct": 24.1,
+   "years": 2.7,
+   "perYearPct": 8.4,
+   "note": "Цена за м² в источниках не названа (933 тыс. из архива не подтверждены). Корпуса 1-5, сдача I кв. 2028; к какой очереди относится минимальный лот, не сказано (в 2025 открылись башни 1, 4, 5)."
+  },
+  {
+   "slug": "marilnn-park",
+   "name": "Mariinn Park",
+   "dossier": "Marilnn Park",
+   "project": "Мариин парк (Mariinn Park / Marilnn Park)",
+   "district": "marina-roshcha",
+   "districtName": "Марьина Роща",
+   "okrug": "СВАО",
+   "developer": "Эталон",
+   "start": {
+    "date": "2024-10",
+    "lot_from": 25.8,
+    "lot_desc": "1-комнатная 43,5 м²",
+    "price_m2": null,
+    "price_m2_kind": null,
+    "source": {
+     "title": "ЖК Mariinn Park — новости novostroy-m.ru",
+     "url": "https://www.novostroy-m.ru/novosti/jk_mariinn_park_i",
+     "date": "2024-12-26"
+    }
+   },
+   "now": {
+    "as_of": "2026-10-14",
+    "lot_from": 30.5,
+    "lot_desc": "та же 1-комнатная 43,5 м²",
+    "price_m2": null,
+    "price_m2_kind": null,
+    "selling": true,
+    "source": {
+     "title": "Мариин парк — карточка novostroy-m.ru",
+     "url": "https://www.novostroy-m.ru/baza/arhitekturnyy_proekt_na_ul_oktyabrskaya_103"
+    }
+   },
+   "changePct": 18.2,
+   "years": 2.0,
+   "perYearPct": 8.7,
+   "note": "Публикация о старте от 26.12.2024 (в пределах 3 мес. от старта в окт. 2024); цен за м2 в ней нет. Обзор стартов окт. 2024 проекта не содержит. Сейчас на карточке скидка 12% до 31 октября, 28 квартир; на странице лота цена 32 132 795 ₽ против 30 541 744 ₽ в мета-описании, цена карточки проекта 30,5 млн. Лот старта и лот сейчас сопоставимы (1-комн. ~43,5 м²)."
+  },
+  {
+   "slug": "sokolinn-park",
+   "name": "Sokolinn Park",
+   "dossier": "Sokolinn Park",
+   "project": "Sokolinn Park (Соколин парк)",
+   "district": "bogorodskoe",
+   "districtName": "Богородское",
+   "okrug": "ВАО",
+   "developer": "Эталон",
+   "start": {
+    "date": "2025-02",
+    "lot_from": 19.3,
+    "lot_desc": "студия 29 м²",
+    "price_m2": null,
+    "price_m2_kind": null,
+    "source": {
+     "title": "Старты продаж февраль 2025 (novostroy-m.ru)",
+     "url": "https://www.novostroy-m.ru/analitika/starty_prodaj_fevral_2025",
+     "date": "2025-02-28"
+    }
+   },
+   "now": {
+    "as_of": "2026-10-14",
+    "lot_from": 22.6,
+    "lot_desc": "1-комнатная 28,1 м²",
+    "price_m2": null,
+    "price_m2_kind": null,
+    "selling": true,
+    "source": {
+     "title": "ЖК Соколин парк, карточка novostroy-m.ru",
+     "url": "https://www.novostroy-m.ru/baza/jk_3ya_grajdanskaya_vl"
+    }
+   },
+   "changePct": 17.1,
+   "years": 1.7,
+   "perYearPct": 10.0,
+   "note": "Цены в обзоре и карточке: только лоты, цена за м2 на страницах не указана. Цены карточки на 10-12 окт 2026. Расхождение: страница отдельного лота (28,1 м², 2 этаж) показывала 21 479 331 руб. на 12 окт против 22 609 810 руб. в шапке карточки; взята шапка. Цифра 534 тыс./м2 из архива в источниках не подтверждена."
+  },
+  {
+   "slug": "dd-oo-mm",
+   "name": "DD OO MM",
+   "dossier": "ДД:ОО:ММ",
+   "project": "DD:OO:MM. Дом на Часовой (ЖК «Дом на Часовой»), DAR",
+   "district": "aeroport",
+   "districtName": "Аэропорт",
+   "okrug": "САО",
+   "developer": "DAR",
+   "start": {
+    "date": "2025-12",
+    "lot_from": 20.3,
+    "lot_desc": "студия 28,5 м²",
+    "price_m2": null,
+    "price_m2_kind": null,
+    "source": {
+     "title": "novostroy-m.ru: обзор стартов продаж (URL starty_prodaj_dekabr_2026, дата публикации на странице 31 декабря 2025)",
+     "url": "https://www.novostroy-m.ru/analitika/starty_prodaj_dekabr_2026",
+     "date": "2025-12-31"
+    }
+   },
+   "now": {
+    "as_of": "2026-10-14",
+    "lot_from": 21.8,
+    "lot_desc": "студия 30 м²",
+    "price_m2": 599,
+    "price_m2_kind": "from",
+    "selling": true,
+    "source": {
+     "title": "Яндекс Недвижимость, ЖК «Дом на Часовой» (51 квартира в продаже, объявления до 12 октября 2026)",
+     "url": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/kvartira/zhk-dom-na-chasovoj-4209791/s-panoramnymi-oknami/"
+    }
+   },
+   "changePct": 7.4,
+   "years": 0.8,
+   "perYearPct": 9.0,
+   "note": "price_m2 сейчас: нижняя граница диапазона 598 971 ₽ округлена до 599 тыс. По архиву бронирование началось 2025-11-26 (средняя 710 тыс./м², 625 тыс. при 100% оплате) — источником не подтверждено; обзор novostroy-m за ноябрь 2025 проекта не содержит, он есть в обзоре с датой 2025-12-31, поэтому дата старта указана как 2025-12 (возможно, раньше в формате бронирования). Адрес обзора содержит «2026» при дате публикации 31.12.2025 — странность URL. Страница лота novostroy-m: 656 292 ₽/м² (лот 2-комн. 61,3 м², 40,23 млн), срок сдачи 2 кв. 2028. Расхождение мин. лота на старте 20,3 и сейчас 21,8 может быть из-за разных лотов (28,5 м² и 30 м²)."
+  },
+  {
+   "slug": "mnevniki",
+   "name": "MYPRIORITY Mnevniki",
+   "dossier": "Mnevniki",
+   "project": "MYPRIORITY Mnevniki (Мнёвники от Гранель), Народного ополчения, 34",
+   "district": "shchukino",
+   "districtName": "Щукино",
+   "okrug": "СЗАО",
+   "developer": "Гранель",
+   "start": {
+    "date": "2024-10",
+    "lot_from": 16.8,
+    "lot_desc": "лот 28,2 м²",
+    "price_m2": null,
+    "price_m2_kind": null,
+    "source": {
+     "title": "Обзор новостроек на старте продаж: квартиры в Московском регионе от 4 млн рублей (novostroy-m)",
+     "url": "https://www.novostroy-m.ru/analitika/starty_prodaj_oktyabr_2024",
+     "date": "2024-10-31"
+    }
+   },
+   "now": {
+    "as_of": "2026-10-12",
+    "lot_from": 16.2,
+    "lot_desc": null,
+    "price_m2": null,
+    "price_m2_kind": null,
+    "selling": true,
+    "source": {
+     "title": "ЖК «Мнёвники от Гранель» (novostroy-m, цены от 12 октября)",
+     "url": "https://www.novostroy-m.ru/baza/jk_narodnogo_opolcheniya_34"
+    }
+   },
+   "changePct": -3.6,
+   "years": 2.0,
+   "perYearPct": -1.8,
+   "note": "Старт: «Минимальная площадь квартиры — 28,2 кв. м, цены на старте — от 16,8 млн рублей»; цены за м² в обзоре нет. Архивные 528 тыс./м² (прайс 2024-10-11) в источнике не подтверждены. Сейчас на карточке «от 16.2 до 75.1 млн», цены за м² нет; площадь минимального лота не указана. Отдельный студийный лот 29,76 м² на 19 эт.: 17 669 802 ₽ (самый дешёвый из показанных в объявлениях) — но это не минимум проекта по карточке."
+  }
+ ]
+}

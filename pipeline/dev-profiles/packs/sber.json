@@ -1,0 +1,26 @@
+{
+ "slug": "sber",
+ "name": "Сбер",
+ "objects": [
+  {
+   "name": "Рублево-Архангельское",
+   "stage_by_dossier": "проект",
+   "where": null,
+   "zu": null
+  },
+  {
+   "name": "СберСити",
+   "stage_by_dossier": "сдан",
+   "where": "Крылатское",
+   "zu": null
+  },
+  {
+   "name": "Сбер Сити",
+   "stage_by_dossier": "продажи",
+   "where": null,
+   "zu": null
+  }
+ ],
+ "confirmed_deals": [],
+ "checked_articles": []
+}

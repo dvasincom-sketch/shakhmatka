@@ -1,0 +1,15 @@
+{
+ "key": "izmaylovo",
+ "name": "Измайлово",
+ "nameIn": "в районе Измайлово",
+ "okrug": "ВАО",
+ "objects": [
+  {
+   "name": "Большая Черкизовская, 32Б",
+   "developer": null,
+   "stage_by_dossier": "проект",
+   "zu": "Большая Черкизовская, 32Б",
+   "events_in_dossier": 3
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "slug": "very",
+ "status": "partial",
+ "project": "VERY на Ботанической (МФК)",
+ "start": {
+  "date": "2021-10",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 10.9,
+  "lot_desc": "предчистовая отделка, 'цены от 10,9 млн рублей'",
+  "source": {
+   "title": "Старты продаж, октябрь 2021, novostroy-m.ru",
+   "url": "https://www.novostroy-m.ru/analitika/starty_prodaj_msk_oktyabr",
+   "date": "2021-11-01"
+  }
+ },
+ "now": null,
+ "note": "Расхождение с архивом (старт 04.2021, 325 тыс./м2): обзор октября 2021 включает Very как старт месяца, подтверждения апреля 2021 не найдено - дата старта под вопросом (возможно, раньше). Цену сейчас не получили: карточки novostroy-m и novostroy.ru не открылись. Проект завершён."
+}

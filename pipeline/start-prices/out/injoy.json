@@ -1,0 +1,30 @@
+{
+ "slug": "injoy",
+ "status": "ok",
+ "project": "ЖК INJOY (Яркий квартал Инджой)",
+ "start": {
+  "date": "2023-08",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 8.3,
+  "lot_desc": "1-комн. квартира",
+  "source": {
+   "title": "Началась реализация ЖК Injoy, цены стартуют от 8,3 млн рублей, novostroy-m.ru",
+   "url": "https://www.novostroy-m.ru/novosti/jk_injoy_tseny_startuyut",
+   "date": "2023-08-25"
+  }
+ },
+ "now": {
+  "as_of": "2026-10-08",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 18.9,
+  "lot_desc": "от 18 903 798 руб.; 316 квартир в продаже",
+  "selling": true,
+  "source": {
+   "title": "ЖК Инджой, карточка novostroy-m.ru",
+   "url": "https://www.novostroy-m.ru/baza/jk_injoy"
+  }
+ },
+ "note": "Цена за м2 ни на старте, ни сейчас на страницах не указана (352 тыс. - только архив). Застройщик по карточке Талан, на старте новость называет Инград; в архиве Инград. Стадия 'строится', ключи 4 кв. 2027. Количество лотов на странице 316/318."
+}

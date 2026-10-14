@@ -1,0 +1,19 @@
+{
+ "key": "kurkino",
+ "name": "Куркино",
+ "nameIn": "в районе Куркино",
+ "okrug": "СЗАО",
+ "slug": "kurkino",
+ "url": "/novostroyki/kurkino/",
+ "objects": [
+  {
+   "name": "Куркинское, 15",
+   "url": "/obekty/kurkinskoe-15/",
+   "developer": "GloraX (ПАО «ГЛОРАКС»)",
+   "summary": "«Куркинское, 15» — проект застройщика Glorax (район Куркино). В досье 3 события с 2020 по 2023 год, из них 1 — сигнал до официальных новостей.",
+   "stage": "architecture",
+   "zu": "Куркинское, 15",
+   "articles": []
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "slug": "rusich-kantemirovskiy",
+ "status": "partial",
+ "project": "РУСИЧ-Кантемировский (ПИК), Кавказский бульвар, 51",
+ "start": null,
+ "now": {
+  "as_of": "2026-10-14",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": null,
+  "lot_desc": "минимум не установлен; студия 25 м2 за 14,10 млн (564,1 тыс/м2, цена изм. 01.10.2026)",
+  "selling": true,
+  "source": {
+   "title": "Студия в ЖК Русич-Кантемировский (novostroy-m.ru)",
+   "url": "https://www.novostroy-m.ru/kvartiry/studiya-v-zhk-rusich-kantemirovskii-bcf5d77fd9d83dab5a49c8853b575b"
+  }
+ },
+ "note": "Неоднозначность проекта: в архиве \"Кавказский бульвар 51\" (старт ПИК дек 2021) и \"Русич-Кантемировский\" (выход фев 2023) смешаны. novostroy-m.ru (29.12.2021): старт продаж нового проекта ПИК, цены от 5,9 млн, 19,8-85,4 м2 - привязку именно к Русичу не подтвердил (https://www.novostroy-m.ru/novosti/jk_kavkazskiy_bulvar_51), поэтому старт не записан. Карточка ЖК Кавказский бульвар 51: от 15,0 млн (15 016 080), на 01.10.2026 (https://www.novostroy-m.ru/baza/jk_na_kavkazskom_bulvare); там же эксперт: Русич-Кантемировский студия 20 м2 от 10,32 млн (дата не указана)."
+}

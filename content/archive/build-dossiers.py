@@ -39,8 +39,8 @@ OKRUGS = {
     'ЗАО': 'Внуково Дорогомилово Крылатское Кунцево Можайский Ново-Переделкино Очаково-Матвеевское Проспект_Вернадского Раменки Солнцево Тропарёво-Никулино Филёвский_Парк Фили-Давыдково',
     'СЗАО': 'Куркино Митино Покровское-Стрешнево Северное_Тушино Строгино Хорошёво-Мнёвники Щукино Южное_Тушино',
     'ЗелАО': 'Матушкино Савёлки Старое_Крюково Силино Крюково',
-    'НАО': 'Сосенское Московский Щербинка Внуковское Десёновское Филимонковское Воскресенское',
-    'ТАО': 'Троицк',
+    'НАО': 'Сосенское Московский Щербинка Внуковское Десёновское Филимонковское Воскресенское Мосрентген Рязановское Кокошкино Марушкинское',
+    'ТАО': 'Троицк Киевский Новофёдоровское Первомайское Вороновское Краснопахорское Михайлово-Ярцевское Щаповское Кленовское Роговское',
 }
 KEEP_KEYS = {'Замоскворечье': 'zamoskvorechye'}  # ключи, уже живущие в базе
 DIST = {}
@@ -76,7 +76,7 @@ def name_in(n):
 DEV_ALIAS = {
     'Капитал Групп': 'Capital Group', '.SENSE': 'Sense', 'Домарф': 'ДОМ.РФ', 'Легенда': 'LEGENDA', 'Страна Девелопмент': 'Страна',
     'St. Michael': 'St Michael', 'Севен Санс': 'Seven Suns Development', 'GRAVION': 'Gravion', 'ВМС Девелопмент': 'BMS Development',
-    'Сити-XXI век': 'Сити-XXI век', 'Самолет': 'Самолёт', 'Forma': 'Forma', 'ФОРМА': 'Forma', 'Level': 'Level Group', 'Левел': 'Level Group',
+    'Сити-XXI век': 'Сити-XXI век', 'Upside Development': 'Upside', 'Град': 'Град', 'Самолет': 'Самолёт', 'Forma': 'Forma', 'ФОРМА': 'Forma', 'Level': 'Level Group', 'Левел': 'Level Group',
     'МР Груп': 'MR Group', 'MR': 'MR Group', 'Донстрой': 'Донстрой',
 }
 DEV_SLUG = {'ПИК': 'pik', 'Гранель': 'granel', 'Sezar Group': 'sezar-group', 'Эталон': 'etalon', 'Glorax': 'glorax', 'LEGENDA': 'legenda', 'АФК Система': 'afk-sistema'}
@@ -209,6 +209,24 @@ for root, ks in fused.items():
         merged2 += 1
 print('слито записей по написанию и адресу', merged2)
 
+# ручное разделение склеенных проектов: события по regex уходят в отдельные досье (corrections.json → split)
+CORR = json.load(open(os.path.join(HERE, '..', 'objects', 'corrections.json')))
+FORCE = {}  # ключ реестра → {slug, name, zu, developer}
+for src_slug, c in CORR.items():
+    if not isinstance(c, dict) or not c.get('split'): continue
+    src_key = next((k for k, o in R.items() if o['names'] and dnorm(o['names'][0][0]) == dnorm(c['matchName'])), None)
+    if not src_key: print('split: не найден', src_slug); continue
+    src = R[src_key]; FORCE[src_key] = {'slug': src_slug, 'name': c.get('name'), 'zu': c.get('zu'), 'aliases': c.get('aliases')}
+    for part in c['split']:
+        rx = re.compile(part['match'], re.I)
+        moved = [e for e in src['events'] if rx.search(e['title'])]
+        src['events'] = [e for e in src['events'] if not rx.search(e['title'])]
+        nk = 'split:' + part['slug']
+        R[nk] = {'key': None, 'byname': True, 'notes': sorted({e['note'] for e in moved}), 'events': moved,
+                 'names': [[part['name'], 9]], 'aliases': [[a, 1] for a in part.get('aliases', [])], 'devs': [], 'districts': src['districts'],
+                 'cities': src['cities'], 'main': len(moved)}
+        FORCE[nk] = {'slug': part['slug'], 'name': part['name'], 'zu': part.get('zu'), 'aliases': part.get('aliases')}
+
 objects, devs, places, used_slugs = [], {}, {}, set()
 skipped = collections.Counter()
 for key, o in R.items():
@@ -249,7 +267,10 @@ for key, o in R.items():
     if len(tl) < MIN_EVENTS: skipped['мало после чистки'] += 1; continue
 
     manual = MANUAL.get(key)
-    slug = manual or slugify(name)
+    if key in FORCE:
+        f = FORCE[key]; name = f.get('name') or name; addr = f.get('zu') or addr
+        if f.get('aliases') is not None: aliases = f['aliases']
+    slug = manual or (FORCE[key]['slug'] if key in FORCE else slugify(name))
     if not manual and (slug in used_slugs or slug in MANUAL.values()):
         slug = slugify(f'{name} {addr}') if addr and addr != name else f'{slug}-{tl[0]["sourceNote"]}'
     if slug in used_slugs: slug = f'{slug}-{tl[0]["sourceNote"]}'
@@ -270,6 +291,66 @@ for key, o in R.items():
         places.setdefault(k, {'key': k, 'slug': k, 'kind': 'district', 'name': dname, 'nameIn': name_in(dname), 'okrug': ok})
     if manual: rec = {'slug': manual, 'manual': True, 'timeline': tl, 'notes': rec['notes']}
     objects.append(rec)
+
+# ручные поправки по итогам фактчекинга статей
+DIST_BY_KEY = {k: n for n, (k, ok) in DIST.items()}
+def make_summary(rec):
+    tl = rec['timeline']; y0, y1 = tl[0]['date'][:4], tl[-1]['date'][:4]
+    nsig = sum(1 for t in tl if t['certainty'] == 'signal')
+    dn = DIST_BY_KEY.get(rec.get('district') or '')
+    where = f'район {dn}' if dn else ('Москва' if rec['region'] == 'moscow' else 'Московская область')
+    dev = devs.get(rec.get('developer') or '')
+    addr = rec.get('zu')
+    head = f"«{rec['name']}»" + (f' — проект застройщика {dev}' if dev else '') + (f' на участке «{addr}»' if addr and addr != rec['name'] else '') + f' ({where}).'
+    tail = f'В досье {len(tl)} {plural(len(tl), "событие", "события", "событий")} ' + (f'с {y0} по {y1} год' if y0 != y1 else f'{y0} года') + (f', из них {nsig} — {plural(nsig, "сигнал", "сигнала", "сигналов")} до официальных новостей' if nsig else '') + '.'
+    return head + ' ' + tail
+
+DIST_BY_KEY = {k: n for n, (k, ok) in DIST.items()}
+CORR_ALL = {k: v for k, v in CORR.items() if isinstance(v, dict)}
+for c in list(CORR_ALL.values()):
+    for part in c.get('split', []): CORR_ALL[part['slug']] = part
+for rec in objects:
+    c = CORR_ALL.get(rec['slug'])
+    if not c: continue
+    if c.get('owners'):
+        # история собственников: [{developer, since, until, how, source}] — застройщики создаются при импорте
+        rec['owners'] = c['owners']
+        for ow in c['owners']: devs.setdefault(ow['developer'], ow.get('name') or ow['developer'])
+    if rec.get('manual'): continue
+    if c.get('developer'):
+        rec['developer'] = c['developer']; devs.setdefault(c['developer'], c.get('developerName') or c['developer'])
+    if c.get('previousDevelopers'): rec['previousDevelopers'] = c['previousDevelopers']
+    if c.get('district'):
+        rec['district'] = c['district']; n = DIST_BY_KEY.get(c['district'])
+        if n: places.setdefault(c['district'], {'key': c['district'], 'slug': c['district'], 'kind': 'district', 'name': n, 'nameIn': name_in(n), 'okrug': DIST[n][1]})
+    if c.get('region'): rec['region'] = c['region']  # объект не в Москве (ошибка разметки)
+    if c.get('stage'): rec['stage'] = c['stage']  # стадия по проверке (наш.дом.рф и т. п.)
+    if c.get('zu') and not rec.get('zu'): rec['zu'] = c['zu']
+    rec['summary'] = make_summary(rec)
+
+# не подтвердилось: заметки, статьи по которым отклонены фактчекингом (skip: unverifiable). Событие остаётся в хронологии
+# как мнение рынка на ту дату — с пометкой, что к дате проверки подтверждения нет.
+import glob as _glob
+UNCONF = {}
+for f in _glob.glob(os.path.join(HERE, '..', 'articles', '*.md')):
+    head = open(f, encoding='utf-8').read().split('\n---', 1)[0]
+    m = re.match(r'(\d+)-', os.path.basename(f))
+    if m and re.search(r'^status:\s*skip', head, re.M) and re.search(r'^skip_reason:\s*unverifiable', head, re.M):
+        d = re.search(r'^date_modified:\s*[\'"]?(\d{4}-\d{2}-\d{2})', head, re.M)
+        UNCONF[int(m.group(1))] = d.group(1) if d else '2026-10-13'
+# статья пишется по кластеру заметок: пометка — всем заметкам кластера (pipeline/batch-*/plan.json)
+for pf in _glob.glob(os.path.join(HERE, '..', '..', 'pipeline', 'batch-*', 'plan.json')):
+    for u in json.load(open(pf))['units']:
+        if u['unit'] in UNCONF:
+            for nid in u['notes']: UNCONF.setdefault(nid, UNCONF[u['unit']])
+for nid in CORR.get('_unconfirmed', []): UNCONF.setdefault(int(nid), '2026-10-13')
+REFUTED = {int(x) for x in CORR.get('_refuted', [])}  # не просто не подтвердилось, а опровергнуто источником
+n_unc = 0
+for rec in objects:
+    for t in rec['timeline']:
+        if t['sourceNote'] in UNCONF and not t.get('confirmedOn'):
+            t['certainty'] = 'signal'; t['outcome'] = 'refuted' if t['sourceNote'] in REFUTED else 'unconfirmed'; t['checkedOn'] = UNCONF[t['sourceNote']]; n_unc += 1
+print('не подтвердилось (пометка в хронологии):', n_unc)
 
 out = {
     '_readme': 'Сгенерировано content/archive/build-dossiers.py из разметки архива. Не править руками: правки — в админке (досье с auto=false не перезаписываются) или в ручных файлах dossiers/*.json.',

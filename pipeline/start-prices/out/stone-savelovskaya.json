@@ -1,0 +1,30 @@
+{
+ "status": "ok",
+ "project": "STONE Савеловская (БЦ класса А, Двинцев, 3)",
+ "start": {
+  "date": "2021-07",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 6.0,
+  "lot_desc": "торговые помещения (ритейл), 'от 6 млн руб.'; офисы от 12 млн, башня 1 от 50 м²",
+  "source": {
+   "title": "РБК-Недвижимость: начало продаж в БЦ STONE Савеловская",
+   "url": "https://realty.rbc.ru/news/60ee98689a79471ef92d53c0",
+   "date": "2021-07-14"
+  }
+ },
+ "now": {
+  "as_of": "2026-10-14",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 443.3,
+  "lot_desc": "9 помещений от 848,5 до 1825 м², 'от 443 341 250 ₽' (прямые продажи)",
+  "selling": true,
+  "source": {
+   "title": "novostroy-m.ru, коммерция, STONE Савеловская, продажа",
+   "url": "https://www.novostroy-m.ru/commerce/novostroyka/biznestsentr_stone_savelovskaya_stoun/sale"
+  }
+ },
+ "note": "Коммерческая недвижимость, не жильё. Старт - ритейл от 6 млн, а сейчас в продаже крупные блоки 848-1825 м² (443 млн), типы лотов несопоставимы. Цен за м² в источниках нет. Дата актуальности на странице не указана.",
+ "slug": "stone-savelovskaya"
+}

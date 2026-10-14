@@ -1,0 +1,30 @@
+{
+ "slug": "clementine",
+ "status": "ok",
+ "project": "Clementine (Клементин)",
+ "start": {
+  "date": "2022-05",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 4.4,
+  "lot_desc": "студия 19 м²",
+  "source": {
+   "title": "Старты продаж мая 2022 (novostroy-m.ru)",
+   "url": "https://www.novostroy-m.ru/analitika/starty_prodaj_may_2022",
+   "date": "2022-05-31"
+  }
+ },
+ "now": {
+  "as_of": "2026-10-14",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": null,
+  "lot_desc": null,
+  "selling": false,
+  "source": {
+   "title": "ЖК Clementine, карточка novostroy-m.ru",
+   "url": "https://www.novostroy-m.ru/baza/apartkompleks_clementine_klementayn"
+  }
+ },
+ "note": "Цены за м² в источнике нет. Карточка: «Все лоты реализованы», нет предложений от застройщика (экспертные данные на конец декабря 2024, последняя дата на странице 07.05.2025). Цена в архиве редакции 220 тыс./м² не подтверждена."
+}

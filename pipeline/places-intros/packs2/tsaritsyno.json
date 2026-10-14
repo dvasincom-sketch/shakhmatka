@@ -1,0 +1,15 @@
+{
+ "key": "tsaritsyno",
+ "name": "Царицыно",
+ "nameIn": "в районе Царицыно",
+ "okrug": "ЮАО",
+ "objects": [
+  {
+   "name": "РУСИЧ-Кантемировский",
+   "developer": "ПИК",
+   "stage_by_dossier": "продажи",
+   "zu": "Кавказский бульвар, 51",
+   "events_in_dossier": 11
+  }
+ ]
+}

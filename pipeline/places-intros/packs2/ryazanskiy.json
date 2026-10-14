@@ -1,0 +1,22 @@
+{
+ "key": "ryazanskiy",
+ "name": "Рязанский",
+ "nameIn": "в Рязанском районе",
+ "okrug": "ЮВАО",
+ "objects": [
+  {
+   "name": "Стахановская",
+   "developer": null,
+   "stage_by_dossier": "проект",
+   "zu": "Стахановская, 18",
+   "events_in_dossier": 7
+  },
+  {
+   "name": "21/19",
+   "developer": "ВекторСтройФинанс",
+   "stage_by_dossier": "сдан",
+   "zu": null,
+   "events_in_dossier": 5
+  }
+ ]
+}

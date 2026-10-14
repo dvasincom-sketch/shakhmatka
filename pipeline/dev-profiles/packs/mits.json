@@ -1,0 +1,56 @@
+{
+ "slug": "mits",
+ "name": "МИЦ",
+ "objects": [
+  {
+   "name": "Заречье",
+   "stage_by_dossier": "продажи",
+   "where": "Печатники",
+   "zu": "Шоссейная, 90"
+  },
+  {
+   "name": "Перец",
+   "stage_by_dossier": "продажи",
+   "where": "Митино",
+   "zu": "Пятницкое шоссе, 3"
+  },
+  {
+   "name": "MirrorЗдание",
+   "stage_by_dossier": "продажи",
+   "where": "Марьина Роща",
+   "zu": "Октябрьская, 98"
+  },
+  {
+   "name": "Амарант",
+   "stage_by_dossier": "продажи",
+   "where": "Хорошёво-Мнёвники",
+   "zu": "3-я Хорошевская, 19"
+  },
+  {
+   "name": "Мята",
+   "stage_by_dossier": "продажи",
+   "where": "Хорошёво-Мнёвники",
+   "zu": "1-я Магистральная, 25"
+  },
+  {
+   "name": "ТПУ Боровское шоссе",
+   "stage_by_dossier": "проект",
+   "where": null,
+   "zu": null
+  },
+  {
+   "name": "Вереск",
+   "stage_by_dossier": "продажи",
+   "where": null,
+   "zu": null
+  },
+  {
+   "name": "Измалково",
+   "stage_by_dossier": "проект",
+   "where": "moskovskaya-oblast",
+   "zu": null
+  }
+ ],
+ "confirmed_deals": [],
+ "checked_articles": []
+}

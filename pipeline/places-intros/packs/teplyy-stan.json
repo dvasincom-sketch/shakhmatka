@@ -1,0 +1,18 @@
+{
+ "key": "teplyy-stan",
+ "name": "Тёплый Стан",
+ "nameIn": "в районе Тёплый Стан",
+ "okrug": "ЮЗАО",
+ "slug": "teplyy-stan",
+ "url": "/novostroyki/teplyy-stan/",
+ "objects": [
+  {
+   "name": "Теплый стан",
+   "url": "/obekty/teplyy-stan/",
+   "developer": "Аквилон",
+   "summary": "«Теплый стан» — проект застройщика Аквилон (район Тёплый Стан). В досье 4 события с 2021 по 2022 год, из них 2 — сигнала до официальных новостей.",
+   "stage": "land",
+   "articles": []
+  }
+ ]
+}

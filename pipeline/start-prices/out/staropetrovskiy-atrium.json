@@ -1,0 +1,30 @@
+{
+ "slug": "staropetrovskiy-atrium",
+ "status": "ok",
+ "project": "Level Войковская (Старопетровский проезд, 11)",
+ "start": {
+  "date": "2025-08",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 14.6,
+  "lot_desc": "лоты от 28,9 до 119,5 м2",
+  "source": {
+   "title": "Обзор стартов продаж за август 2025, novostroy-m.ru",
+   "url": "https://www.novostroy-m.ru/analitika/starty_prodaj_avgust_2025",
+   "date": "2025-09-01"
+  }
+ },
+ "now": {
+  "as_of": "2026-10-13",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 18.3,
+  "lot_desc": "по заголовку карточки 'от 18,3 млн'; студия 29,9 м2 - 18 023 132 руб.",
+  "selling": true,
+  "source": {
+   "title": "Level Войковская, карточка novostroy-m.ru",
+   "url": "https://www.novostroy-m.ru/baza/jk_na_proezde_staropetrovskom"
+  }
+ },
+ "note": "В обзоре проект назван 'Level Войковская', соответствие адресу выведено по ссылке в таблице. На карточке расхождение: заголовок 'от 18,3 млн', а студия 29,9 м2 - 18,02 млн; взят заголовок. Цена за м2 нигде не указана (405/455 тыс. из архива не подтверждены). Количество лотов на странице указано по-разному (66-539)."
+}

@@ -1,0 +1,19 @@
+{
+ "slug": "beregovoy",
+ "status": "partial",
+ "project": "Береговой 2",
+ "start": null,
+ "now": {
+  "as_of": "2026-10-14",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 29.7,
+  "lot_desc": "«Минимальная стоимость 29.7 млн рублей»; 1-комн. от 29 664 625 ₽",
+  "selling": true,
+  "source": {
+   "title": "ЖК Береговой 2, novostroy-m.ru",
+   "url": "https://www.novostroy-m.ru/kvartiry/novostroyka/jk_beregovo2"
+  }
+ },
+ "note": "Старт второй очереди не подтверждён (страница проекта не содержит новостей о старте, карточка novostroy.ru не открылась). Дата актуальности цены на странице не указана; очередь не указана; цена за м² не указана."
+}

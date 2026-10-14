@@ -1,0 +1,19 @@
+{
+ "slug": "kutuzov-siti",
+ "status": "partial",
+ "project": "Кутузов Сити",
+ "start": null,
+ "now": {
+  "as_of": "2026-10-13",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 24.055,
+  "lot_desc": "студия 28,30 м², 3 этаж из 28",
+  "selling": true,
+  "source": {
+   "title": "Кутузов Сити, карточка novostroy-m.ru",
+   "url": "https://www.novostroy-m.ru/baza/arhitekturnyy_proekt_kutuzov_siti"
+  }
+ },
+ "note": "Цена за м² на карточке не указана. Заголовок карточки: от 24,1 до 141 млн. На странице компании-застройщика (kompanii/ooo_sz_grodnenskaya_18) в списке была студия от 28 305 000 ₽ (31,8 м²), но берём карточку. Старт (март 2025) не подтверждён: обзор марта 2025 не открылся, поиск исчерпан. Архив: 631 тыс./м² средневзв., не источник."
+}

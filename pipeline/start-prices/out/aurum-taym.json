@@ -1,0 +1,19 @@
+{
+ "slug": "aurum-taym",
+ "status": "unverifiable",
+ "project": "Аурум Тайм",
+ "start": null,
+ "now": {
+  "as_of": "2026-10-14",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": null,
+  "lot_desc": null,
+  "selling": false,
+  "source": {
+   "title": "Аурум Тайм, карточка novostroy-m.ru",
+   "url": "https://www.novostroy-m.ru/baza/jk_aurum_taym"
+  }
+ },
+ "note": "Подтверждения старта не найдено: в обзоре стартов ноября 2025 (опубл. 01.12.2025, starty_prodaj_noyabr_2025) проекта нет. Карточка: статус «Скоро старт», «Цены за квартиры от 30 сентября по данным официального сайта недоступны», самая поздняя дата на странице 28.11.2025. Данные карточки могли устареть, сайт застройщика не проверялся."
+}

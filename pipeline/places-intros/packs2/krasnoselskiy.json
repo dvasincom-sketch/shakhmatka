@@ -1,0 +1,22 @@
+{
+ "key": "krasnoselskiy",
+ "name": "Красносельский",
+ "nameIn": "в Красносельском районе",
+ "okrug": "ЦАО",
+ "objects": [
+  {
+   "name": "RED7",
+   "developer": "Основа",
+   "stage_by_dossier": "сдан",
+   "zu": null,
+   "events_in_dossier": 5
+  },
+  {
+   "name": "ORO",
+   "developer": "Стена",
+   "stage_by_dossier": "проект",
+   "zu": "1-й Красносельский, 15/17",
+   "events_in_dossier": 3
+  }
+ ]
+}

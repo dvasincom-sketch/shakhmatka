@@ -1,0 +1,30 @@
+{
+ "slug": "vishnevaya-7",
+ "status": "ok",
+ "project": "Cityzen (Вишневая, 7)",
+ "start": {
+  "date": "2024-02",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 9.4,
+  "lot_desc": "минимальная цена старта по обзору месяца (Cityzen, MR Group)",
+  "source": {
+   "title": "Старты продаж в феврале 2024 (Новострой-М)",
+   "url": "https://www.novostroy-m.ru/analitika/starty_prodaj_fevral_2024",
+   "date": "2024-02-29"
+  }
+ },
+ "now": {
+  "as_of": "2026-10-14",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 15.9,
+  "lot_desc": "студия 20,8 м² за 15 906 800 ₽ (в карточке: от 15.9 млн руб.)",
+  "selling": true,
+  "source": {
+   "title": "ЖК Cityzen, Новострой-М (цены от 13 октября)",
+   "url": "https://www.novostroy-m.ru/baza/jk_vishnevaya_7"
+  }
+ },
+ "note": "Цена за м² в обзоре не указана. В архиве редакции 360 тыс./м² при открытых продажах 19.02.2024 - не проверено первоисточником. Сейчас: общая карточка проекта (все очереди, 369 лотов)."
+}

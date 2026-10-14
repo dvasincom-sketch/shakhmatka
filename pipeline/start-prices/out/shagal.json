@@ -1,0 +1,19 @@
+{
+ "slug": "shagal",
+ "status": "partial",
+ "project": "Жилой квартал Шагал (Эталон, ЗИЛ-ЮГ)",
+ "start": null,
+ "now": {
+  "as_of": "2026-10-14",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 17.5,
+  "lot_desc": "студия 24,9 м² (17 459 835 ₽); страница: «от 17.5 до 122 млн₽», 391 квартира, очереди 1-4",
+  "selling": true,
+  "source": {
+   "title": "ЖК Шагал, novostroy-m.ru",
+   "url": "https://www.novostroy-m.ru/baza/mfk_zilyug"
+  }
+ },
+ "note": "Первый старт продаж не найден. Найдены только: novostroy-m.ru/novosti/etalon_nachal_prodaji_kvartir (2022-03-22): продажи в новых корпусах, «Цены на старте продаж - от 13,5 млн рублей», 40-115 м² - это не первая очередь; novostroy-m.ru/novosti/jk_shagal_minimalnaya_stoimost (2023-06-10): 2-я очередь от 15,5 млн. Стартом корпуса из архива (2025-07) не является. Цена за м² на странице проекта не указана; даты цен на странице расходятся (14 и 9 октября)."
+}

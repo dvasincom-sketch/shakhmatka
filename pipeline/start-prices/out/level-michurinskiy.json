@@ -1,0 +1,19 @@
+{
+ "status": "partial",
+ "project": "Левел Мичуринский (Level Group)",
+ "start": null,
+ "now": {
+  "as_of": "2026-10-13",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 15.8,
+  "lot_desc": "студия 18,5 м² за 15 841 370 ₽ (карточка «от 15.8 до 151 млн₽»), 163 квартиры",
+  "selling": true,
+  "source": {
+   "title": "Левел Мичуринский, карточка novostroy-m.ru",
+   "url": "https://www.novostroy-m.ru/baza/jk_level_michurinskiy_level"
+  }
+ },
+ "note": "Старт 2021 года (архив: «от 300 тыс./м²», это был прогноз) в публикациях не подтверждён; Q&A на карточке без годов. Цены «от 13 октября по данным официального сайта». Цена за м² не указана; очередь не указана.",
+ "slug": "level-michurinskiy"
+}

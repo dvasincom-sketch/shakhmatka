@@ -1,0 +1,26 @@
+{
+ "key": "vnukovo",
+ "name": "Внуково",
+ "nameIn": "в районе Внуково",
+ "okrug": "ЗАО",
+ "slug": "vnukovo",
+ "url": "/novostroyki/vnukovo/",
+ "objects": [
+  {
+   "name": "Sky City Business Park",
+   "url": "/obekty/sky-city-business-park/",
+   "developer": null,
+   "summary": "«Sky City Business Park» (район Внуково). В досье 4 события с 2023 по 2025 год, из них 1 — сигнал до официальных новостей.",
+   "stage": "land",
+   "articles": []
+  },
+  {
+   "name": "Новое Внуково",
+   "url": "/obekty/novoe-vnukovo/",
+   "developer": "Самолёт",
+   "summary": "«Новое Внуково» — проект застройщика Самолёт (район Внуково). В досье 10 событий с 2020 по 2024 год, из них 1 — сигнал до официальных новостей.",
+   "stage": "sales",
+   "articles": []
+  }
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "key": "koptevo",
+ "name": "Коптево",
+ "nameIn": "в районе Коптево",
+ "okrug": "САО",
+ "objects": [
+  {
+   "name": "Михалковская, 50",
+   "developer": "Основа",
+   "stage_by_dossier": "проект",
+   "zu": "Михалковская, 50",
+   "events_in_dossier": 4
+  },
+  {
+   "name": "Михалковская, 48",
+   "developer": "РГ",
+   "stage_by_dossier": null,
+   "zu": "Михалковская, 48",
+   "events_in_dossier": 3
+  }
+ ]
+}

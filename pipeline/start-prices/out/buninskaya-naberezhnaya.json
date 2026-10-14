@@ -1,0 +1,30 @@
+{
+ "slug": "buninskaya-naberezhnaya",
+ "status": "ok",
+ "project": "Бунинская набережная",
+ "start": {
+  "date": "2025-04",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 7.2,
+  "lot_desc": "цены на старте начинаются от 7,2 млн рублей",
+  "source": {
+   "title": "Старты продаж, апрель 2025 (novostroy-m.ru)",
+   "url": "https://www.novostroy-m.ru/analitika/starty_prodaj_aprel_2025",
+   "date": "2025-04-30"
+  }
+ },
+ "now": {
+  "as_of": "2026-10-14",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 12.08,
+  "lot_desc": "карточка: от 12.1 до 35.7 млн ₽; в meta от 12 079 600 руб.; цены от 5 октября",
+  "selling": true,
+  "source": {
+   "title": "Бунинская набережная, карточка novostroy-m.ru",
+   "url": "https://www.novostroy-m.ru/baza/buninskaya_naberejnaya"
+  }
+ },
+ "note": "Цена за м2 в обзоре и карточке не указана; 297 тыс. из архива не подтверждена. Лот на старте 7,2 и сейчас 12,1 - разные лоты, возможно не сопоставимы (мин. лот сейчас - студия 19 м2)."
+}

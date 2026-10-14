@@ -1,0 +1,19 @@
+{
+ "key": "sokolinaya-gora",
+ "name": "Соколиная Гора",
+ "nameIn": "в районе Соколиная Гора",
+ "okrug": "ВАО",
+ "slug": "sokolinaya-gora",
+ "url": "/novostroyki/sokolinaya-gora/",
+ "objects": [
+  {
+   "name": "UNO",
+   "url": "/obekty/uno/",
+   "developer": "Основа",
+   "summary": "«UNO» — проект застройщика Основа на участке «8-я Соколиной Горы, 26А» (район Соколиная Гора). В досье 7 событий с 2023 по 2025 год, из них 1 — сигнал до официальных новостей.",
+   "stage": "sales",
+   "zu": "8-я Соколиной Горы, 26А",
+   "articles": []
+  }
+ ]
+}

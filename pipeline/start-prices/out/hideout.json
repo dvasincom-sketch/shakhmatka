@@ -1,0 +1,30 @@
+{
+ "slug": "hideout",
+ "status": "ok",
+ "project": "hideOUT (ХайдАУТ)",
+ "start": {
+  "date": "2024-06",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 23.2,
+  "lot_desc": "квартира с одной спальней и кухней-гостиной 38,6 м²",
+  "source": {
+   "title": "Старты продаж июнь 2024, novostroy-m.ru",
+   "url": "https://www.novostroy-m.ru/analitika/starty_prodaj_iyun2024",
+   "date": "2024-07-01"
+  }
+ },
+ "now": {
+  "as_of": "2026-10-13",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 34.449485,
+  "lot_desc": "1-комн. 36,2 м², 20 этаж",
+  "selling": true,
+  "source": {
+   "title": "ЖК ХАЙДАУТ, novostroy-m.ru",
+   "url": "https://www.novostroy-m.ru/baza/jk_hideout_haydaut"
+  }
+ },
+ "note": "Цена за м2 в источниках не указана (600 тыс. из архива не подтверждена источником). Год в плашке 'от 13 октября' не указан, но цена изменена 06.10.2026. Не путать с ЖК hide (jk_na_1om_setunskom)."
+}

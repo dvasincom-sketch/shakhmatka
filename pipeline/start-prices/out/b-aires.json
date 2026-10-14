@@ -1,0 +1,19 @@
+{
+ "slug": "b-aires",
+ "status": "unverifiable",
+ "project": "B'Aires",
+ "start": null,
+ "now": {
+  "as_of": "2026-10-14",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": null,
+  "lot_desc": null,
+  "selling": false,
+  "source": {
+   "title": "ЦИАН, страница комплекса апартаментов B'Aires: объявлений от застройщика нет, только вторичка",
+   "url": "https://www.cian.ru/kupit-kvartiru-vtorichka-zhiloy-kompleks-kompleks-apartamentov-baires-2430892/"
+  }
+ },
+ "note": "Старт (ноябрь 2020, ~190 тыс./м² по архиву) подтверждения не нашёл: обзоры novostroy-m за ноябрь 2020 по угаданным адресам не открылись, поиск их не выдал. Сейчас: на ЦИАН (даты объявлений ~7 окт.) только вторичные перепродажи, от застройщика не продаётся (архив: распроданы в окт. 2021); цену вторички не брал."
+}

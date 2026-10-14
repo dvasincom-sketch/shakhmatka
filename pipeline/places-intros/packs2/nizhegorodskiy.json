@@ -1,0 +1,78 @@
+{
+ "key": "nizhegorodskiy",
+ "name": "Нижегородский",
+ "nameIn": "в Нижегородском районе",
+ "okrug": "ЮВАО",
+ "objects": [
+  {
+   "name": "Найс Лофт",
+   "developer": "Coldy",
+   "stage_by_dossier": "сдан",
+   "zu": "Автомобильный, 4",
+   "events_in_dossier": 15,
+   "checked_articles": [
+    {
+     "title": "N'ICE LOFT от Coldy: дом сдан, апартаменты 43,5 м² — 15 млн ₽",
+     "lead": "Апарт-комплекс N'ICE LOFT от Coldy на Автомобильном проезде, 4, который в январе 2025 года ещё строился, к 13 октября 2026 года сдан. Апартаменты 43,5 м² продаются за 15 млн ₽, это около 345 тыс. ₽/м².",
+     "date_modified": "2026-10-13"
+    }
+   ]
+  },
+  {
+   "name": "MYPRIORITY Нижегородская",
+   "developer": "Гранель",
+   "stage_by_dossier": "продажи",
+   "zu": "Рязанский, 4А",
+   "events_in_dossier": 6
+  },
+  {
+   "name": "Н74",
+   "developer": "Glorax",
+   "stage_by_dossier": "продажи",
+   "zu": "Нижегородская, 74",
+   "events_in_dossier": 5
+  },
+  {
+   "name": "1-я Фрезерная, 2/1",
+   "developer": "Гранель",
+   "stage_by_dossier": null,
+   "zu": "1-я Фрезерная, 2/1",
+   "events_in_dossier": 4
+  },
+  {
+   "name": "Новохохловская, 15",
+   "developer": "ПИК",
+   "stage_by_dossier": "продажи",
+   "zu": "Новохохловская, 15",
+   "events_in_dossier": 3
+  },
+  {
+   "name": "N'ICE TOWER",
+   "developer": "Coldy",
+   "stage_by_dossier": "продажи",
+   "zu": "Скотопрогонная, 31А",
+   "events_in_dossier": 3
+  },
+  {
+   "name": "1-я Карачаровская, 8",
+   "developer": "Основа",
+   "stage_by_dossier": "участок",
+   "zu": "1-я Карачаровская, 8",
+   "events_in_dossier": 3
+  },
+  {
+   "name": "Work Нижегородская",
+   "developer": "Level Group",
+   "stage_by_dossier": "продажи",
+   "zu": null,
+   "events_in_dossier": 3
+  },
+  {
+   "name": "Level Нижегородская",
+   "developer": "Level Group",
+   "stage_by_dossier": "продажи",
+   "zu": null,
+   "events_in_dossier": 3
+  }
+ ]
+}

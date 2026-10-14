@@ -1,0 +1,29 @@
+{
+ "key": "nagatino-sadovniki",
+ "name": "Нагатино-Садовники",
+ "nameIn": "в районе Нагатино-Садовники",
+ "okrug": "ЮАО",
+ "objects": [
+  {
+   "name": "Нагатинская, 5",
+   "developer": "АФИ",
+   "stage_by_dossier": "проект",
+   "zu": "Нагатинская, 5",
+   "events_in_dossier": 3
+  },
+  {
+   "name": "Андропова, 22",
+   "developer": "Капиталист",
+   "stage_by_dossier": "проект",
+   "zu": "Андропова, 22",
+   "events_in_dossier": 3
+  },
+  {
+   "name": "Варшавское, 37",
+   "developer": "Prime Life Development",
+   "stage_by_dossier": "участок",
+   "zu": "Варшавское, 37",
+   "events_in_dossier": 3
+  }
+ ]
+}

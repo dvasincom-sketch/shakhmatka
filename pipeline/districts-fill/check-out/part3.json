@@ -1,0 +1,639 @@
+[
+ {
+  "slug": "ahead",
+  "district": "fili-davydkovo",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Василисы Кожиной, 25/1 у МЦД Кутузовская/Фили → Фили-Давыдково"
+ },
+ {
+  "slug": "shlyuzovaya-2",
+  "district": "zamoskvorechye",
+  "region": null,
+  "confidence": "high",
+  "evidence": "Шлюзовая наб., 2 у Павелецкой → Замоскворечье"
+ },
+ {
+  "slug": "tushinskiy-mashinostroitelnyy-zavod",
+  "district": "yuzhnoe-tushino",
+  "region": null,
+  "confidence": "high",
+  "evidence": "Заметка: «Южное Тушино (Свободы, 35)»"
+ },
+ {
+  "slug": "dmitrovskiy-proezd-1g",
+  "district": "savelovskiy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Дмитровский пр., 1г рядом с D1, метро Дмитровская и МЦД → Савёловский"
+ },
+ {
+  "slug": "stadion-torpedo",
+  "district": "danilovskiy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Стадион Торпедо, Восточная ул. (Автозаводская) → Даниловский"
+ },
+ {
+  "slug": "veshnikh-vod-8",
+  "district": "yaroslavskiy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Вешних вод, 8 рядом с Ярославским ш., Хибинским и МГСУ (Ярославское, 26) → Ярославский"
+ },
+ {
+  "slug": "chasovaya-6",
+  "district": "aeroport",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Часовая ул. (Часовая, 28 и т.д.) → Аэропорт"
+ },
+ {
+  "slug": "pave",
+  "district": "danilovskiy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "2-й Павелецкий пр., Хлебозавод №7 у Павелецкой → Даниловский"
+ },
+ {
+  "slug": "krasnyy-bogatyr-vitebskaya-9",
+  "district": null,
+  "region": null,
+  "confidence": "low",
+  "evidence": "Витебская, 9, завод Искож; район не уверен (догадка: Кунцево/Можайский)"
+ },
+ {
+  "slug": "krt-kurskaya",
+  "district": "basmannyy",
+  "region": null,
+  "confidence": "high",
+  "evidence": "Верхняя Сыромятническая, 7 у Курского вокзала → Басманный"
+ },
+ {
+  "slug": "kirpichnye-ulitsy",
+  "district": "sokolinaya-gora",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "ул. Вольная и Кирпичная, промзона рядом с 8-й ул. Соколиной Горы → Соколиная Гора"
+ },
+ {
+  "slug": "level-seligerskaya",
+  "district": "zapadnoe-degunino",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Ильинский пр., 12 у метро Селигерская → Западное Дегунино"
+ },
+ {
+  "slug": "taller",
+  "district": null,
+  "region": null,
+  "confidence": "low",
+  "evidence": "Дубининская, 39-41 — Замоскворечье или Даниловский, не уверен"
+ },
+ {
+  "slug": "kremenchugskaya-42",
+  "district": null,
+  "region": null,
+  "confidence": "low",
+  "evidence": "Кременчугская, 42 у долины Сетуни; Можайский или Фили-Давыдково, не уверен"
+ },
+ {
+  "slug": "moskvoreche",
+  "district": "moskvoreche-saburovo",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "1-й Варшавский пр., 1А, проект «Москворечье» → Москворечье-Сабурово"
+ },
+ {
+  "slug": "prichalnyy-6",
+  "district": "presnenskiy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Причальный пр. у Сердца столицы и ТПУ Пресня → Пресненский"
+ },
+ {
+  "slug": "dokukina-10",
+  "district": "yaroslavskiy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Докукина ул. у ВДНХ/проспекта Мира → Ярославский"
+ },
+ {
+  "slug": "kaloshin-6",
+  "district": "arbat",
+  "region": null,
+  "confidence": "high",
+  "evidence": "Калошин пер., «переулки Арбата» → Арбат"
+ },
+ {
+  "slug": "strana-ozernaya",
+  "district": "ochakovo-matveevskoe",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Озёрная ул., часть Мичуринского парка → Очаково-Матвеевское"
+ },
+ {
+  "slug": "dm-tower",
+  "district": "danilovskiy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Даниловская мануфактура → Даниловский"
+ },
+ {
+  "slug": "kombinat-gazety-pravda",
+  "district": "begovoy",
+  "region": null,
+  "confidence": "high",
+  "evidence": "ул. Правды, 24 → Беговой"
+ },
+ {
+  "slug": "kirpichnaya-41",
+  "district": "sokolinaya-gora",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Кирпичная, 41 рядом с КРТ «Кирпичные улицы» и 8-й Соколиной Горы → Соколиная Гора"
+ },
+ {
+  "slug": "soul-yuzhnoportovaya-42",
+  "district": "yuzhnoportovyy",
+  "region": null,
+  "confidence": "high",
+  "evidence": "Южнопортовая ул., 42, Южный порт → Южнопортовый"
+ },
+ {
+  "slug": "level-zvenigorodskaya",
+  "district": "presnenskiy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "3-й Силикатный пр. у ТПУ Пресня → Пресненский"
+ },
+ {
+  "slug": "borets",
+  "district": "marina-roshcha",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "завод Борец, ЖК Шереметьевский (Шереметьевская ул.) → Марьина Роща"
+ },
+ {
+  "slug": "upside-towers",
+  "district": "butyrskiy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Огородный пр., 2-4 → Бутырский"
+ },
+ {
+  "slug": "5-ya-magistralnaya-15",
+  "district": "khoroshevskiy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "5-я Магистральная ул. → Хорошёвский"
+ },
+ {
+  "slug": "aurum-taym",
+  "district": "bogorodskoe",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "4-й пр. Подбельского у метро Бульвар Рокоссовского → Богородское"
+ },
+ {
+  "slug": "novaya-ipatovka-23a",
+  "district": "timiryazevskiy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Новая Ипатовка, 23а, примыкает к парку МСХА Тимирязева → Тимирязевский"
+ },
+ {
+  "slug": "tpu-molodezhnaya",
+  "district": "kuntsevo",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Ярцевская, 21 у метро Молодёжная → Кунцево"
+ },
+ {
+  "slug": "elektrolitnyy-10",
+  "district": "nagornyy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Электролитный пр. → Нагорный"
+ },
+ {
+  "slug": "leningradskiy-36",
+  "district": "begovoy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Ленинградский пр., 36 к13 → Беговой"
+ },
+ {
+  "slug": "1-ya-brestskaya-64",
+  "district": "tverskoy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "1-я Брестская, у Белорусской → Тверской"
+ },
+ {
+  "slug": "tverskaya-10",
+  "district": "tverskoy",
+  "region": null,
+  "confidence": "high",
+  "evidence": "Тверская ул., 10 → Тверской"
+ },
+ {
+  "slug": "telegraf",
+  "district": "tverskoy",
+  "region": null,
+  "confidence": "high",
+  "evidence": "Тверская, 7 (Центральный телеграф) → Тверской"
+ },
+ {
+  "slug": "tsvetnoy-30-32-34",
+  "district": "meshchanskiy",
+  "region": null,
+  "confidence": "high",
+  "evidence": "Цветной бульвар, 30-34 → Мещанский"
+ },
+ {
+  "slug": "tpu-kaluzhskaya",
+  "district": null,
+  "region": null,
+  "confidence": "low",
+  "evidence": "ТПУ Калужская; район не уверен (догадка: Обручевский/Коньково)"
+ },
+ {
+  "slug": "rumyantsevo-park",
+  "district": "moskovskiy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Румянцево — территория поселения Московский"
+ },
+ {
+  "slug": "portland",
+  "district": "yuzhnoportovyy",
+  "region": null,
+  "confidence": "high",
+  "evidence": "Южнопортовая, 42, Южный порт → Южнопортовый"
+ },
+ {
+  "slug": "dubninskaya-79",
+  "district": "zapadnoe-degunino",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Дубнинская ул., промзона Вагоноремонт → Западное Дегунино"
+ },
+ {
+  "slug": "ofisnaya-bashnya-stone",
+  "district": "danilovskiy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Новоданиловка у Новоданиловской наб. → Даниловский"
+ },
+ {
+  "slug": "stories",
+  "district": "ramenki",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "ул. Генерала Дорохова / Мичуринский пр. → Раменки"
+ },
+ {
+  "slug": "ofisnaya-bashnya-gals-v-siti",
+  "district": "presnenskiy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Москва-Сити, 400-м офисная башня → Пресненский"
+ },
+ {
+  "slug": "nagornyy-proezd-3-str-4",
+  "district": "nagornyy",
+  "region": null,
+  "confidence": "high",
+  "evidence": "Нагорный пр., 3 → Нагорный"
+ },
+ {
+  "slug": "mishina-56",
+  "district": "begovoy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Мишина ул., «в районе Динамо» → Беговой"
+ },
+ {
+  "slug": "krt-vagonoremont",
+  "district": "zapadnoe-degunino",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Дубнинская ул., промзона Вагоноремонт → Западное Дегунино"
+ },
+ {
+  "slug": "zdanie-naprotiv-bashni-imperiya",
+  "district": "presnenskiy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Сити, напротив башни «Империя» → Пресненский"
+ },
+ {
+  "slug": "tpu-mamyri",
+  "district": "moskovskiy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "ТПУ Мамыри, пос. Мамыри → поселение Московский"
+ },
+ {
+  "slug": "dom-franka",
+  "district": "meshchanskiy",
+  "region": null,
+  "confidence": "high",
+  "evidence": "Большой Кисельный пер., 11 у Трубной → Мещанский"
+ },
+ {
+  "slug": "sense",
+  "district": "arbat",
+  "region": null,
+  "confidence": "high",
+  "evidence": "Мерзляковский пер., 22/3 у Никитского бульвара → Арбат"
+ },
+ {
+  "slug": "univer",
+  "district": null,
+  "region": null,
+  "confidence": "low",
+  "evidence": "Миклухо-Маклая, 16/10; Ясенево/Коньково/Обручевский, не уверен"
+ },
+ {
+  "slug": "rakurs",
+  "district": "shchukino",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "ул. Маршала Бирюзова → Щукино"
+ },
+ {
+  "slug": "vozdvizhenka-7-6-str-6",
+  "district": "arbat",
+  "region": null,
+  "confidence": "high",
+  "evidence": "Воздвиженка → Арбат"
+ },
+ {
+  "slug": "zorge-25",
+  "district": "khoroshevskiy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "ул. Зорге → Хорошёвский"
+ },
+ {
+  "slug": "noon",
+  "district": "kuzminki",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Окская ул. у Рязанского пр-та → Кузьминки"
+ },
+ {
+  "slug": "r4s",
+  "district": "arbat",
+  "region": null,
+  "confidence": "high",
+  "evidence": "Никитский бул. 6/20, начало Нового Арбата → Арбат"
+ },
+ {
+  "slug": "tpu-minskaya",
+  "district": null,
+  "region": null,
+  "confidence": "low",
+  "evidence": "ТПУ Минская, Староволынская ул.; Раменки или Очаково-Матвеевское, не уверен"
+ },
+ {
+  "slug": "sadovnicheskaya-69",
+  "district": "zamoskvorechye",
+  "region": null,
+  "confidence": "high",
+  "evidence": "Садовническая наб., Балчуг → Замоскворечье"
+ },
+ {
+  "slug": "the-lot",
+  "district": "zamoskvorechye",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Жуков пр., 21 у Павелецкой → Замоскворечье"
+ },
+ {
+  "slug": "2-y-paveletskiy-4-6",
+  "district": "danilovskiy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "2-й Павелецкий пр., Хлебозавод №7 → Даниловский"
+ },
+ {
+  "slug": "mfk-okolo-aviaparka",
+  "district": "khoroshevskiy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Ходынка, Авиапарк → Хорошёвский"
+ },
+ {
+  "slug": "sadovnicheskaya-76-71",
+  "district": "zamoskvorechye",
+  "region": null,
+  "confidence": "high",
+  "evidence": "Садовническая ул., Балчуг → Замоскворечье"
+ },
+ {
+  "slug": "kapelskiy-7a-str-1",
+  "district": "meshchanskiy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Капельский пер. у Олимпийского → Мещанский"
+ },
+ {
+  "slug": "shabolovka-26s10",
+  "district": "donskoy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Шаболовка, 26с10 → Донской"
+ },
+ {
+  "slug": "ermakova-roshcha-7as1",
+  "district": "presnenskiy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Ермакова Роща у Сити → Пресненский"
+ },
+ {
+  "slug": "bolshaya-filevskaya-1",
+  "district": "fili-davydkovo",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Большая Филёвская, 1, «Фили» у набережной → Фили-Давыдково"
+ },
+ {
+  "slug": "romanov-7",
+  "district": "arbat",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Романов пер. у Кремля → Арбат"
+ },
+ {
+  "slug": "uno-gorbunova",
+  "district": "kuntsevo",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "ул. Горбунова → Кунцево"
+ },
+ {
+  "slug": "novoe-letovo",
+  "district": "sosenskoe",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Новое Летово в Новой Москве → Сосенское"
+ },
+ {
+  "slug": "safonovskaya-13",
+  "district": "mozhayskiy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Сафоновская ул. у Можайского ш. → Можайский"
+ },
+ {
+  "slug": "nagatinskaya-5",
+  "district": "nagatino-sadovniki",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Нагатинская ул., КРТ → Нагатино-Садовники"
+ },
+ {
+  "slug": "proektiruemyy-4062-y-8",
+  "district": null,
+  "region": null,
+  "confidence": "low",
+  "evidence": "Проектируемый 4062-й, ЗИЛ/Nagatino i-Land; Даниловский или Нагатино-Садовники, не уверен"
+ },
+ {
+  "slug": "nicole",
+  "district": "tverskoy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Никольская ул. → Тверской"
+ },
+ {
+  "slug": "krt-yuzhnyy-port-territoriya-4",
+  "district": "yuzhnoportovyy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Остаповский пр., Южный порт → Южнопортовый"
+ },
+ {
+  "slug": "kremenchugskaya-19",
+  "district": null,
+  "region": null,
+  "confidence": "low",
+  "evidence": "Кременчугская, 19 у долины Сетуни; Можайский или Фили-Давыдково, не уверен"
+ },
+ {
+  "slug": "gavrikova-11",
+  "district": null,
+  "region": null,
+  "confidence": "low",
+  "evidence": "ул. Гаврикова у ТТК; Басманный или Красносельский, не уверен"
+ },
+ {
+  "slug": "kirpichnye-vyemki-2s1",
+  "district": null,
+  "region": null,
+  "confidence": "low",
+  "evidence": "Кирпичные Выемки, 2С1; район не определён"
+ },
+ {
+  "slug": "krestovskiy",
+  "district": null,
+  "region": null,
+  "confidence": "low",
+  "evidence": "Проспект Мира, 82-92 у м. Рижская; Алексеевский или Мещанский, не уверен"
+ },
+ {
+  "slug": "geolog",
+  "district": "obruchevskiy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "ул. Обручева → Обручевский"
+ },
+ {
+  "slug": "uspenskiy-5",
+  "district": "tverskoy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Успенский пер. → Тверской"
+ },
+ {
+  "slug": "mig",
+  "district": "begovoy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "1-й Боткинский пр. → Беговой"
+ },
+ {
+  "slug": "sbersiti",
+  "district": "krylatskoe",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Рублёво-Архангельское → Крылатское"
+ },
+ {
+  "slug": "prozhektor",
+  "district": "perovo",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "промзона Прожектор, Перовская/Плеханова → Перово"
+ },
+ {
+  "slug": "butlerova-12",
+  "district": null,
+  "region": null,
+  "confidence": "low",
+  "evidence": "Бутлерова, 12, Беляево; Обручевский или Коньково, не уверен"
+ },
+ {
+  "slug": "desnareche",
+  "district": "desenovskoe",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Деснаречье у Новых Ватутинок → Десёновское"
+ },
+ {
+  "slug": "1-ya-yamskogo-polya-17",
+  "district": "begovoy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "1-я Ямского Поля → Беговой"
+ },
+ {
+  "slug": "neverovskogo-10",
+  "district": "dorogomilovo",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Неверовского ул. у Кутузовского → Дорогомилово"
+ },
+ {
+  "slug": "zdanie-sev",
+  "district": "arbat",
+  "region": null,
+  "confidence": "high",
+  "evidence": "Новый Арбат, 36 → Арбат"
+ },
+ {
+  "slug": "evopark-sokolniki",
+  "district": "sokolniki",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Потешная ул. → Сокольники"
+ },
+ {
+  "slug": "ryabinovaya-44-1",
+  "district": "ochakovo-matveevskoe",
+  "region": null,
+  "confidence": "high",
+  "evidence": "Заметка: «Очаково-Матвеевское (Рябиновая)»"
+ },
+ {
+  "slug": "stakhanovskaya",
+  "district": "ryazanskiy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Стахановская ул., Грайвороново → Рязанский"
+ }
+]

@@ -1,0 +1,22 @@
+{
+ "key": "nekrasovka",
+ "name": "Некрасовка",
+ "nameIn": "в районе Некрасовка",
+ "okrug": "ЮВАО",
+ "objects": [
+  {
+   "name": "Некрасовка",
+   "developer": "Лидер Групп",
+   "stage_by_dossier": "концепция",
+   "zu": null,
+   "events_in_dossier": 9
+  },
+  {
+   "name": "ТПУ Лухмановская",
+   "developer": "Level Group",
+   "stage_by_dossier": "проект",
+   "zu": "Лухмановская, 2",
+   "events_in_dossier": 3
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "slug": "luzhnetskaya-10a",
+ "status": "unverifiable",
+ "project": "Лужнецкая набережная, 10А (Sminex)",
+ "start": null,
+ "now": {
+  "as_of": "2026-10-14",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": null,
+  "lot_desc": null,
+  "selling": false,
+  "source": {
+   "title": "ЖК «на Лужнецкой набережной, 10А» (novostroy.ru)",
+   "url": "https://www.novostroy.ru/buildings/na-luzhnetskoy-naberezhnoy-10"
+  }
+ },
+ "note": "Продажи не начаты: «Нет в продаже квартир от застройщика», «Объект находится на стадии проектирования», цен нет, застройщик Ingrad (5 корпусов). Архив ожидает старт в 2027 (не источник). Сравнивать нечего."
+}

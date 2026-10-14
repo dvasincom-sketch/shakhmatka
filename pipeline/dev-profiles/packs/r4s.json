@@ -1,0 +1,38 @@
+{
+ "slug": "r4s",
+ "name": "R4S",
+ "objects": [
+  {
+   "name": "Мневники, 8",
+   "stage_by_dossier": "концепция",
+   "where": "Хорошёво-Мнёвники",
+   "zu": "Мневники, 8"
+  },
+  {
+   "name": "R4S",
+   "stage_by_dossier": "продажи",
+   "where": "Арбат",
+   "zu": "Никитский, 6/20"
+  },
+  {
+   "name": "Романов, 7",
+   "stage_by_dossier": null,
+   "where": null,
+   "zu": "Романов, 7"
+  },
+  {
+   "name": "Дом купца Булошникова",
+   "stage_by_dossier": "продажи",
+   "where": null,
+   "zu": "Большая Никитская, 17"
+  },
+  {
+   "name": "Пресненский вал, 14с1",
+   "stage_by_dossier": "участок",
+   "where": "Пресненский",
+   "zu": "Пресненский вал, 14с1"
+  }
+ ],
+ "confirmed_deals": [],
+ "checked_articles": []
+}

@@ -2,7 +2,7 @@ import Link from 'next/link'
 import { getPayload } from 'payload'
 import config from '@payload-config'
 import { ruDate, typo } from '@/lib/markdown'
-import { ArticleCard, Mark, StageStrip, TYPES, devName, stageLabel } from '@/lib/ui'
+import { ArticleCard, Mark, StageStrip, TYPES, devName, stageLabel, cardImg } from '@/lib/ui'
 import type { Developer, Media } from '@/payload-types'
 import { pub } from '@/lib/public'
 
@@ -62,7 +62,7 @@ export default async function Home() {
           <div className="sec-h"><h2 id="h-obj" className="tt">Объекты<span>под наблюдением</span></h2><Link className="more" href="/obekty/">Все объекты</Link></div>
           <div className="obj-grid">
             {objects.map((o) => {
-              const img = objImg(o.id), dev = o.developer as Developer | undefined
+              const img = cardImg(o.gallery?.[0]) || objImg(o.id), dev = o.developer as Developer | undefined
               return (
                 <Link key={o.id} className="ocard card" href={`/obekty/${o.slug}/`}>
                   <div className="ph">{img?.url ? <img src={img.url} alt={img.alt} loading="lazy" /> : <Mark className="ph-mark" />}</div>
@@ -79,7 +79,7 @@ export default async function Home() {
       ) : null}
 
       <section className="sec" id="materialy" aria-labelledby="h-mat">
-        <div className="sec-h"><h2 id="h-mat" className="tt">Материалы<span>с проверкой фактов</span></h2></div>
+        <div className="sec-h"><h2 id="h-mat" className="tt">Материалы<span>с проверкой фактов</span></h2><Link className="more" href="/novosti/">Все материалы</Link></div>
         <div className="a-grid">{(grid.length ? grid : rest).map((a) => <ArticleCard key={a.id} a={a} />)}</div>
       </section>
 

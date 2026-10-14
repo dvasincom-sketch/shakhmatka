@@ -94,7 +94,7 @@ export function Footer() {
         </div>
         <div>
           <b>Разделы</b>
-          <Link href="/">Лента</Link><Link href="/obekty/">Объекты</Link><Link href="/signaly/">Сигналы</Link><Link href="/novostroyki/">Новостройки по районам</Link><Link href="/zastroyshchiki/">Застройщики</Link><Link href="/pro/">Шахматка Про</Link><Link href="/o-proekte/">О проекте</Link>
+          <Link href="/">Лента</Link><Link href="/obekty/">Объекты</Link><Link href="/signaly/">Сигналы</Link><Link href="/novostroyki/">Новостройки по районам</Link><Link href="/krt/">Трекер КРТ</Link><Link href="/ceny-na-starte/">Цены на старте и сейчас</Link><Link href="/zastroyshchiki/">Застройщики</Link><Link href="/pro/">Шахматка Про</Link><Link href="/o-proekte/">О проекте</Link><Link href="/kabinet/">Вход для редакции</Link>
         </div>
         <div>
           <b>Принципы</b>
@@ -126,7 +126,12 @@ export function ArticleCard({ a, size = 'm' }: { a: Article; size?: 'l' | 'm' | 
 /** Карточка объекта для каталога и подборок */
 const MONTHS_SHORT = ['янв.', 'февр.', 'март', 'апр.', 'май', 'июнь', 'июль', 'авг.', 'сент.', 'окт.', 'нояб.', 'дек.']
 /** Карточка объекта. Без фото — компактная текстовая: стена одинаковых заглушек в каталоге хуже, чем её отсутствие */
-export function ObjectCard({ o, im }: { o: Obj; im?: Media }) {
+/** Уменьшенная копия для карточек и превью (если её ещё нет — исходник) */
+export const cardImg = (m?: Media | number | null): Media | undefined =>
+  m && typeof m === 'object' && m.url ? { ...m, url: m.sizes?.card?.url || m.url } : undefined
+
+export function ObjectCard({ o, im: fallback }: { o: Obj & { cover?: Media }; im?: Media }) {
+  const im = o.cover?.url ? o.cover : fallback
   const dev = o.developer as Developer | undefined
   const price = priceText(o)
   const where = o.region === 'moscow' ? (o.district ? districtName(o.district) : 'Москва') : regionName(o.region)

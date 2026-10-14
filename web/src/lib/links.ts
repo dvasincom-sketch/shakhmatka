@@ -9,7 +9,7 @@ import { ONLY_READY } from './public'
  */
 export type LinkIndex = { pages: Set<string> }
 
-const STATIC_PAGES = ['/', '/obekty/', '/zastroyshchiki/', '/novostroyki/', '/slovar/', '/temy/', '/o-proekte/', '/pro/', '/poisk/']
+const STATIC_PAGES = ['/', '/novosti/', '/krt/', '/ceny-na-starte/', '/obekty/', '/zastroyshchiki/', '/novostroyki/', '/slovar/', '/temy/', '/o-proekte/', '/pro/', '/poisk/']
 
 /** Старые схемы адресов из промта v1.x → актуальные */
 const LEGACY: [RegExp, string][] = [

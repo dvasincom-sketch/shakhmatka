@@ -1,0 +1,18 @@
+{
+ "key": "troitsk",
+ "name": "Троицк",
+ "nameIn": "в Троицке",
+ "okrug": "ТАО",
+ "slug": "troitsk",
+ "url": "/novostroyki/troitsk/",
+ "objects": [
+  {
+   "name": "Russian Design District",
+   "url": "/obekty/russian-design-district/",
+   "developer": "Родина",
+   "summary": "«Russian Design District» — проект застройщика Родина (район Троицк). В досье 5 событий с 2020 по 2022 год.",
+   "stage": "sales",
+   "articles": []
+  }
+ ]
+}

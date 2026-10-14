@@ -1,0 +1,15 @@
+{
+ "key": "troitsk",
+ "name": "Троицк",
+ "nameIn": "в Троицке",
+ "okrug": "ТАО",
+ "objects": [
+  {
+   "name": "Russian Design District",
+   "developer": "Родина",
+   "stage_by_dossier": "продажи",
+   "zu": null,
+   "events_in_dossier": 5
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "slug": "absolyut",
+ "name": "Абсолют",
+ "objects": [
+  {
+   "name": "Luzhniki Collection",
+   "stage_by_dossier": "продажи",
+   "where": "Хамовники",
+   "zu": "Лужнецкая набережная, 2/4"
+  },
+  {
+   "name": "oda gallery",
+   "stage_by_dossier": "разрешение",
+   "where": "Дорогомилово",
+   "zu": null
+  },
+  {
+   "name": "Вернадского, 6В",
+   "stage_by_dossier": "проект",
+   "where": "Раменки",
+   "zu": "Вернадского, 6В"
+  }
+ ],
+ "confirmed_deals": [],
+ "checked_articles": []
+}

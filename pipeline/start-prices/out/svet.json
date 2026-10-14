@@ -1,0 +1,30 @@
+{
+ "slug": "svet",
+ "status": "ok",
+ "project": "ЖК Свет (Dominanta, Дмитровское шоссе, 83А)",
+ "start": {
+  "date": "2025-03",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 13.6,
+  "lot_desc": "'Цены в проекте начинаются от 13,6 млн руб.'",
+  "source": {
+   "title": "Обзор стартов продаж, март 2025 (Новострой-М)",
+   "url": "https://www.novostroy-m.ru/analitika/novoe_predlojenie__na",
+   "date": "2025-03-31"
+  }
+ },
+ "now": {
+  "as_of": "2026-10-14",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 19.0,
+  "lot_desc": "студия 30,9 м² за 19 000 781 ₽ (шапка 'от 19 до 36.4 млн')",
+  "selling": true,
+  "source": {
+   "title": "ЖК Свет, Новострой-М (цены от 8 октября)",
+   "url": "https://www.novostroy-m.ru/baza/arhitekturnyy_proekt_na_dmitrovskom"
+  }
+ },
+ "note": "Цена за м² в источниках не указана (архив: 450 тыс. на старте, 480 с октября 2025 - не проверено). Минимальный лот на старте 13,6 млн и сейчас 19,0 млн - лоты разной площади, не сопоставимы напрямую."
+}

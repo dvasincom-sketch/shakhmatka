@@ -1,0 +1,19 @@
+{
+ "key": "nagatino-sadovniki",
+ "name": "Нагатино-Садовники",
+ "nameIn": "в районе Нагатино-Садовники",
+ "okrug": "ЮАО",
+ "slug": "nagatino-sadovniki",
+ "url": "/novostroyki/nagatino-sadovniki/",
+ "objects": [
+  {
+   "name": "Варшавское, 37",
+   "url": "/obekty/varshavskoe-37/",
+   "developer": "Prime Life Development",
+   "summary": "«Варшавское, 37» — проект застройщика Prime Life Development (район Нагатино-Садовники). В досье 3 события 2026 года.",
+   "stage": "land",
+   "zu": "Варшавское, 37",
+   "articles": []
+  }
+ ]
+}

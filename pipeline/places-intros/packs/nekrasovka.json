@@ -1,0 +1,18 @@
+{
+ "key": "nekrasovka",
+ "name": "Некрасовка",
+ "nameIn": "в районе Некрасовка",
+ "okrug": "ЮВАО",
+ "slug": "nekrasovka",
+ "url": "/novostroyki/nekrasovka/",
+ "objects": [
+  {
+   "name": "Некрасовка",
+   "url": "/obekty/nekrasovka/",
+   "developer": "Лидер Групп",
+   "summary": "«Некрасовка» — проект застройщика Лидер Групп (район Некрасовка). В досье 9 событий с 2021 по 2026 год, из них 5 — сигналов до официальных новостей.",
+   "stage": "concept",
+   "articles": []
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "slug": "forst",
+ "status": "partial",
+ "project": "ЖК Forst (Форст), Forma",
+ "start": {
+  "date": "2021-11",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 10.83,
+  "lot_desc": "цены стартуют от 10,83 млн рублей",
+  "source": {
+   "title": "Старты продаж ноября 2021 (novostroy-m.ru)",
+   "url": "https://www.novostroy-m.ru/analitika/starty_prodaj_noyabr_2021",
+   "date": "2021-12-01"
+  }
+ },
+ "now": {
+  "as_of": "2026-10-14",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": null,
+  "lot_desc": null,
+  "selling": false,
+  "source": {
+   "title": "ЖК Forst (Форст), карточка novostroy-m.ru",
+   "url": "https://www.novostroy-m.ru/baza/jk_forst"
+  }
+ },
+ "note": "В обзоре проект назван «Først», Даниловский район, Симоновская наб.; соответствие Forst выведено по застройщику Forma/ПИК и району, в тексте не подтверждено дословно. Карточка: «Нет в продаже», «Квартиры от застройщика реализованы» (последняя датированная запись на странице 22.12.2025). Цены за м² в источниках нет, 391 тыс./м² из архива не подтверждена."
+}

@@ -1,0 +1,19 @@
+{
+ "slug": "kvartal-mit",
+ "status": "partial",
+ "project": "Квартал Мит",
+ "start": {
+  "date": "2025-08",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 8.45,
+  "lot_desc": "с отделкой, корпуса 3.2 и 3.4: от 8,45 млн рублей",
+  "source": {
+   "title": "Старты продаж, август 2025 (novostroy-m.ru)",
+   "url": "https://www.novostroy-m.ru/analitika/starty_prodaj_avgust_2025",
+   "date": "2025-09-01"
+  }
+ },
+ "now": null,
+ "note": "Цена за м2 не указана (283 из архива не подтверждена). Карточка проекта не найдена - лимит поиска."
+}

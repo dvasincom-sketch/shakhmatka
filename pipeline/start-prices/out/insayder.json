@@ -1,0 +1,19 @@
+{
+ "slug": "insayder",
+ "status": "partial",
+ "project": "Апарт-комплекс Инсайдер (РКС), Автозаводская, 24",
+ "start": null,
+ "now": {
+  "as_of": "2026-10-14",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": null,
+  "lot_desc": "минимум не установлен; отдельный лот: 2-к 60,52 м2 за 30,98 млн (511,9 тыс/м2, обновление 14.10.2026)",
+  "selling": true,
+  "source": {
+   "title": "Апартаменты в Инсайдер (novostroy-m.ru)",
+   "url": "https://www.novostroy-m.ru/kvartiry/apartamenti-v-insider-insaider-6bf94bb921f71829ebea33494af674"
+  }
+ },
+ "note": "Независимой публикации о старте не найдено (архив: сигнал авг 2022, 450 тыс/м2 в окт 2022 - не источник). Цена сейчас - один лот, не минимум."
+}

@@ -1,0 +1,30 @@
+{
+ "slug": "marilnn-park",
+ "status": "ok",
+ "project": "Мариин парк (Mariinn Park / Marilnn Park)",
+ "start": {
+  "date": "2024-10",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 25.8,
+  "lot_desc": "1-комн. 43,5 м²",
+  "source": {
+   "title": "ЖК Mariinn Park — новости novostroy-m.ru",
+   "url": "https://www.novostroy-m.ru/novosti/jk_mariinn_park_i",
+   "date": "2024-12-26"
+  }
+ },
+ "now": {
+  "as_of": "2026-10-14",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 30.5,
+  "lot_desc": "1-комн. 43,50 м², 2/17 этаж (30 541 744 ₽)",
+  "selling": true,
+  "source": {
+   "title": "Мариин парк — карточка novostroy-m.ru",
+   "url": "https://www.novostroy-m.ru/baza/arhitekturnyy_proekt_na_ul_oktyabrskaya_103"
+  }
+ },
+ "note": "Публикация о старте от 26.12.2024 (в пределах 3 мес. от старта в окт. 2024); цен за м2 в ней нет. Обзор стартов окт. 2024 проекта не содержит. Сейчас на карточке скидка 12% до 31 октября, 28 квартир; на странице лота цена 32 132 795 ₽ против 30 541 744 ₽ в мета-описании, цена карточки проекта 30,5 млн. Лот старта и лот сейчас сопоставимы (1-комн. ~43,5 м²)."
+}

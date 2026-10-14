@@ -1,0 +1,19 @@
+{
+ "key": "severnoe-butovo",
+ "name": "Северное Бутово",
+ "nameIn": "в районе Северное Бутово",
+ "okrug": "ЮЗАО",
+ "slug": "severnoe-butovo",
+ "url": "/novostroyki/severnoe-butovo/",
+ "objects": [
+  {
+   "name": "Дмитрия Донского, 17",
+   "url": "/obekty/dmitriya-donskogo-17/",
+   "developer": "S.Holding",
+   "summary": "«Дмитрия Донского, 17» — проект застройщика S.Holding (район Северное Бутово). В досье 4 события с 2023 по 2025 год, из них 1 — сигнал до официальных новостей.",
+   "stage": "architecture",
+   "zu": "Дмитрия Донского, 17",
+   "articles": []
+  }
+ ]
+}

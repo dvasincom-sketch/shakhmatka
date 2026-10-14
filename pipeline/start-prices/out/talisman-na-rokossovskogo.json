@@ -1,0 +1,19 @@
+{
+ "slug": "talisman-na-rokossovskogo",
+ "status": "unverifiable",
+ "project": "Талисман на Рокоссовского",
+ "start": null,
+ "now": {
+  "as_of": "2026-10-14",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": null,
+  "lot_desc": null,
+  "selling": false,
+  "source": {
+   "title": "ЖК Талисман на Рокоссовского, novostroy-m.ru",
+   "url": "https://www.novostroy-m.ru/baza/jk_talisman_na_rokossovskogo"
+  }
+ },
+ "note": "Старт (по архиву шахматка 10.2020) источником не подтвердён; обзор стартов за 2020 не найден. Сейчас: 'Все лоты распроданы', нет квартир от застройщика, дом сдан; на карточке нет даты актуальности."
+}

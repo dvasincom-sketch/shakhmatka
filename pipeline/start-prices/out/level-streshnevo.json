@@ -1,0 +1,30 @@
+{
+ "slug": "level-streshnevo",
+ "status": "partial",
+ "project": "Level Стрешнево",
+ "start": {
+  "date": "2019-12",
+  "price_m2": 140,
+  "price_m2_kind": "from",
+  "lot_from": 4.0,
+  "lot_desc": "минимальная цена апартаментов по данным девелопера",
+  "source": {
+   "title": "РБК-Недвижимость: Level Group начала продажи апартаментов в Level Стрешнево",
+   "url": "https://realty.rbc.ru/news/5e16a93a9a7947f55a0472bc",
+   "date": "2020-01-14"
+  }
+ },
+ "now": {
+  "as_of": "2026-10-14",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": null,
+  "lot_desc": null,
+  "selling": false,
+  "source": {
+   "title": "novostroy-m: Level Стрешнево",
+   "url": "https://novostroy-m.ru/baza/jk_level_streshnevo_level"
+  }
+ },
+ "note": "РБК: продажи стартовали в декабре 2019 (в архиве 2019-11-08 - расхождение; bizon.ru от 15 ноября: предстарт «от 139,6 тыс. руб./кв. м»). novostroy-m 27.12.2019 (https://www.novostroy-m.ru/novosti/zdaniya_rasschitany_na_747): студия 23,3 м2 от 4,1 млн. Сейчас: карточка novostroy-m (данные примерно середины 2024): «Все лоты от застройщика реализованы», дом сдан - продаж от застройщика нет."
+}

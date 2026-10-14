@@ -1,0 +1,19 @@
+{
+  "slug": "soymonovskiy",
+  "status": "unverifiable",
+  "project": "Архитектурный проект «Соймоновский 7» (Главстрой)",
+  "start": null,
+  "now": {
+    "as_of": "2026-10-14",
+    "price_m2": null,
+    "price_m2_kind": null,
+    "lot_from": null,
+    "lot_desc": null,
+    "selling": false,
+    "source": {
+      "title": "Соймоновский 7 (novostroy-m.ru)",
+      "url": "https://www.novostroy-m.ru/baza/jk_soymonovskiy_7"
+    }
+  },
+  "note": "Карточка: статус 'Скоро старт', цены недоступны. Старт продаж не состоялся/не найден."
+}

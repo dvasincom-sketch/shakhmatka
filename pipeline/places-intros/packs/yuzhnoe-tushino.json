@@ -1,0 +1,18 @@
+{
+ "key": "yuzhnoe-tushino",
+ "name": "Южное Тушино",
+ "nameIn": "в районе Южное Тушино",
+ "okrug": "СЗАО",
+ "slug": "yuzhnoe-tushino",
+ "url": "/novostroyki/yuzhnoe-tushino/",
+ "objects": [
+  {
+   "name": "СитиДзен",
+   "url": "/obekty/sitidzen/",
+   "developer": "MR Group",
+   "summary": "«СитиДзен» — проект застройщика MR Group (район Южное Тушино). В досье 4 события 2026 года.",
+   "stage": "sales",
+   "articles": []
+  }
+ ]
+}

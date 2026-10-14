@@ -1,0 +1,428 @@
+{
+ "batch": 3,
+ "units": [
+  {
+   "unit": 32398,
+   "notes": [
+    31839,
+    32398
+   ],
+   "dossier": "shagal",
+   "developer": "etalon",
+   "date": "2025-11-10",
+   "images": 2
+  },
+  {
+   "unit": 32871,
+   "notes": [
+    32871
+   ],
+   "dossier": "demidov-26",
+   "developer": "otrada",
+   "date": "2026-01-23",
+   "images": 4
+  },
+  {
+   "unit": 35393,
+   "notes": [
+    35393
+   ],
+   "dossier": "luzhnetskaya-10a",
+   "developer": "sminex",
+   "date": "2026-08-14",
+   "images": 4
+  },
+  {
+   "unit": 28457,
+   "notes": [
+    28457
+   ],
+   "dossier": "danilovskiy-ot-granel",
+   "developer": "granel",
+   "date": "2025-03-19",
+   "images": 4
+  },
+  {
+   "unit": 34737,
+   "notes": [
+    34737
+   ],
+   "dossier": "elektrozavod",
+   "developer": "etalon",
+   "date": "2026-06-23",
+   "images": 0
+  },
+  {
+   "unit": 34641,
+   "notes": [
+    34641
+   ],
+   "dossier": "kompleks-obshchezhitiy-krasnoy-professury",
+   "developer": "capital-group",
+   "date": "2026-06-17",
+   "images": 5
+  },
+  {
+   "unit": 33181,
+   "notes": [
+    33181
+   ],
+   "dossier": "tankovyy-4",
+   "developer": "inteko",
+   "date": "2026-02-18",
+   "images": 2
+  },
+  {
+   "unit": 26967,
+   "notes": [
+    26967
+   ],
+   "dossier": "nizhegorodskaya",
+   "developer": "level-group",
+   "date": "2024-12-04",
+   "images": 10
+  },
+  {
+   "unit": 30906,
+   "notes": [
+    30906
+   ],
+   "dossier": "adts-kommunarka",
+   "developer": "samolet",
+   "date": "2025-08-28",
+   "images": 10
+  },
+  {
+   "unit": 35908,
+   "notes": [
+    35908
+   ],
+   "dossier": "vern",
+   "developer": "capital-group",
+   "date": "2026-09-25",
+   "images": 9
+  },
+  {
+   "unit": 28806,
+   "notes": [
+    28806
+   ],
+   "dossier": "2-ya-zvenigorodskaya-13",
+   "developer": "ultima-development",
+   "date": "2025-04-11",
+   "images": 6
+  },
+  {
+   "unit": 27890,
+   "notes": [
+    27890
+   ],
+   "dossier": "ogorodnyy-20",
+   "developer": "brusnika",
+   "date": "2025-02-14",
+   "images": 5
+  },
+  {
+   "unit": 31608,
+   "notes": [
+    31608
+   ],
+   "dossier": "tushinskiy-mashinostroitelnyy-zavod",
+   "developer": "level-group",
+   "date": "2025-10-22",
+   "images": 7
+  },
+  {
+   "unit": 22824,
+   "notes": [
+    22824
+   ],
+   "dossier": "icity",
+   "developer": "mr-group",
+   "date": "2024-04-09",
+   "images": 0
+  },
+  {
+   "unit": 24729,
+   "notes": [
+    24729
+   ],
+   "dossier": "hide",
+   "developer": "mr-group",
+   "date": "2024-07-24",
+   "images": 1
+  },
+  {
+   "unit": 34373,
+   "notes": [
+    34373
+   ],
+   "dossier": "staropetrovskiy-atrium",
+   "developer": "level-group",
+   "date": "2026-05-27",
+   "images": 5
+  },
+  {
+   "unit": 32821,
+   "notes": [
+    32821
+   ],
+   "dossier": "uzory",
+   "developer": "capital-alliance",
+   "date": "2026-01-15",
+   "images": 0
+  },
+  {
+   "unit": 33480,
+   "notes": [
+    33480
+   ],
+   "dossier": "palashevskiy-11",
+   "developer": "sminex",
+   "date": "2026-03-17",
+   "images": 0
+  },
+  {
+   "unit": 34081,
+   "notes": [
+    34081
+   ],
+   "dossier": "26-parkvyu",
+   "developer": "mr-group",
+   "date": "2026-04-29",
+   "images": 6
+  },
+  {
+   "unit": 33033,
+   "notes": [
+    33033
+   ],
+   "dossier": "luchi",
+   "developer": "lsr",
+   "date": "2026-02-09",
+   "images": 1
+  },
+  {
+   "unit": 35964,
+   "notes": [
+    35964
+   ],
+   "dossier": "sreda-na-kutuzovskom",
+   "developer": "forma",
+   "date": "2026-09-30",
+   "images": 1
+  },
+  {
+   "unit": 28828,
+   "notes": [
+    28828
+   ],
+   "dossier": "kristall",
+   "developer": "asterus",
+   "date": "2025-04-14",
+   "images": 6
+  },
+  {
+   "unit": 22145,
+   "notes": [
+    22145
+   ],
+   "dossier": "nexus",
+   "developer": "akvilon",
+   "date": "2024-03-04",
+   "images": 4
+  },
+  {
+   "unit": 27432,
+   "notes": [
+    27432
+   ],
+   "dossier": "salarevo-park",
+   "developer": "pik",
+   "date": "2025-01-16",
+   "images": 8
+  },
+  {
+   "unit": 27999,
+   "notes": [
+    27999
+   ],
+   "dossier": "kashirskiy-dvor-2",
+   "developer": "granel",
+   "date": "2025-02-18",
+   "images": 2
+  },
+  {
+   "unit": 31337,
+   "notes": [
+    31337
+   ],
+   "dossier": "rustaveli-14",
+   "developer": "pik",
+   "date": "2025-10-02",
+   "images": 1
+  },
+  {
+   "unit": 32143,
+   "notes": [
+    32143,
+    32333
+   ],
+   "dossier": "novaya-11",
+   "developer": "element-development",
+   "date": "2025-11-25",
+   "images": 5
+  },
+  {
+   "unit": 34576,
+   "notes": [
+    34544,
+    34576
+   ],
+   "dossier": "fenomen-goroda",
+   "developer": "bms-development",
+   "date": "2026-06-09",
+   "images": 0
+  },
+  {
+   "unit": 24831,
+   "notes": [
+    24831
+   ],
+   "dossier": "champine",
+   "developer": "udevelopment",
+   "date": "2024-07-30",
+   "images": 4
+  },
+  {
+   "unit": 32190,
+   "notes": [
+    32190
+   ],
+   "dossier": "dmitrovskoe-nebo",
+   "developer": "lsr",
+   "date": "2025-11-26",
+   "images": 3
+  },
+  {
+   "unit": 32194,
+   "notes": [
+    32194
+   ],
+   "dossier": "soul",
+   "developer": "pik",
+   "date": "2025-11-26",
+   "images": 7
+  },
+  {
+   "unit": 21900,
+   "notes": [
+    21900
+   ],
+   "dossier": "radio-16s4",
+   "developer": "komanda-byvshikh-top-menedzherov-ingrada",
+   "date": "2024-02-20",
+   "images": 9
+  },
+  {
+   "unit": 27070,
+   "notes": [
+    27070
+   ],
+   "dossier": "rodina-peredelkino",
+   "developer": "rodina",
+   "date": "2024-12-10",
+   "images": 2
+  },
+  {
+   "unit": 24312,
+   "notes": [
+    24312
+   ],
+   "dossier": "bolshaya-tulskaya-10",
+   "developer": "mangazeya",
+   "date": "2024-07-02",
+   "images": 7
+  },
+  {
+   "unit": 26395,
+   "notes": [
+    26395
+   ],
+   "dossier": "strana-zarechnaya",
+   "developer": "strana",
+   "date": "2024-10-29",
+   "images": 10
+  },
+  {
+   "unit": 27581,
+   "notes": [
+    27581
+   ],
+   "dossier": "annabel-s",
+   "developer": "palladio",
+   "date": "2025-01-27",
+   "images": 6
+  },
+  {
+   "unit": 32167,
+   "notes": [
+    32167
+   ],
+   "dossier": "masters",
+   "developer": "capital-group",
+   "date": "2025-11-26",
+   "images": 4
+  },
+  {
+   "unit": 33385,
+   "notes": [
+    33385
+   ],
+   "dossier": "l67",
+   "developer": "unikey",
+   "date": "2026-03-10",
+   "images": 7
+  },
+  {
+   "unit": 34068,
+   "notes": [
+    34068
+   ],
+   "dossier": "sidney-siti",
+   "developer": "fsk",
+   "date": "2026-04-28",
+   "images": 0
+  },
+  {
+   "unit": 35439,
+   "notes": [
+    35439
+   ],
+   "dossier": "om-botanicheskiy",
+   "developer": "om-development",
+   "date": "2026-08-19",
+   "images": 6
+  },
+  {
+   "unit": 35239,
+   "notes": [
+    35239
+   ],
+   "dossier": "dubininskaya-17-27-29",
+   "developer": "granel",
+   "date": "2026-08-03",
+   "images": 4
+  },
+  {
+   "unit": 23632,
+   "notes": [
+    23632
+   ],
+   "dossier": "tpu-minskaya",
+   "developer": "bms-development",
+   "date": "2024-05-27",
+   "images": 1
+  }
+ ]
+}

@@ -229,6 +229,16 @@ export interface Media {
   height?: number | null;
   focalX?: number | null;
   focalY?: number | null;
+  sizes?: {
+    card?: {
+      url?: string | null;
+      width?: number | null;
+      height?: number | null;
+      mimeType?: string | null;
+      filesize?: number | null;
+      filename?: string | null;
+    };
+  };
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
@@ -319,6 +329,11 @@ export interface Object {
          */
         confirmedOn?: string | null;
         /**
+         * Для сигнала, который проверили и не нашли подтверждения
+         */
+        outcome?: ('unconfirmed' | 'refuted') | null;
+        checkedOn?: string | null;
+        /**
          * Номер заметки — для редакции, на сайте не показывается
          */
         sourceNote?: number | null;
@@ -350,6 +365,22 @@ export interface Object {
    */
   auto?: boolean | null;
   previousDevelopers?: (number | Developer)[] | null;
+  /**
+   * Кто владел проектом и когда: от первого к текущему. Каждая смена — со ссылкой на источник
+   */
+  owners?:
+    | {
+        developer?: (number | null) | Developer;
+        /**
+         * «8 июля 2026», «январь 2022»
+         */
+        since?: string | null;
+        until?: string | null;
+        how?: string | null;
+        source?: string | null;
+        id?: string | null;
+      }[]
+    | null;
   updatedAt: string;
   createdAt: string;
 }
@@ -457,6 +488,8 @@ export interface Term {
  */
 export interface User {
   id: number;
+  name?: string | null;
+  role?: ('admin' | 'editor') | null;
   updatedAt: string;
   createdAt: string;
   email: string;
@@ -672,6 +705,8 @@ export interface ObjectsSelect<T extends boolean = true> {
         image?: T;
         certainty?: T;
         confirmedOn?: T;
+        outcome?: T;
+        checkedOn?: T;
         sourceNote?: T;
         verified?: T;
         id?: T;
@@ -691,6 +726,16 @@ export interface ObjectsSelect<T extends boolean = true> {
   signalCount?: T;
   auto?: T;
   previousDevelopers?: T;
+  owners?:
+    | T
+    | {
+        developer?: T;
+        since?: T;
+        until?: T;
+        how?: T;
+        source?: T;
+        id?: T;
+      };
   updatedAt?: T;
   createdAt?: T;
 }
@@ -769,12 +814,28 @@ export interface MediaSelect<T extends boolean = true> {
   height?: T;
   focalX?: T;
   focalY?: T;
+  sizes?:
+    | T
+    | {
+        card?:
+          | T
+          | {
+              url?: T;
+              width?: T;
+              height?: T;
+              mimeType?: T;
+              filesize?: T;
+              filename?: T;
+            };
+      };
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "users_select".
  */
 export interface UsersSelect<T extends boolean = true> {
+  name?: T;
+  role?: T;
   updatedAt?: T;
   createdAt?: T;
   email?: T;

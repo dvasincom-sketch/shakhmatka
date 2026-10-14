@@ -1,0 +1,36 @@
+{
+ "key": "chertanovo-yuzhnoe",
+ "name": "Чертаново Южное",
+ "nameIn": "в районе Чертаново Южное",
+ "okrug": "ЮАО",
+ "objects": [
+  {
+   "name": "Кировоградская, 9к4",
+   "developer": "Основа",
+   "stage_by_dossier": "проект",
+   "zu": "Кировоградская, 9к4",
+   "events_in_dossier": 7
+  },
+  {
+   "name": "Parkside",
+   "developer": "ЛСР",
+   "stage_by_dossier": "продажи",
+   "zu": "Красного Маяка, 26",
+   "events_in_dossier": 6
+  },
+  {
+   "name": "ТЦ Южный",
+   "developer": "Основа",
+   "stage_by_dossier": "проект",
+   "zu": "Кировоградская, 9",
+   "events_in_dossier": 3
+  },
+  {
+   "name": "Красный строитель",
+   "developer": "А101",
+   "stage_by_dossier": "участок",
+   "zu": null,
+   "events_in_dossier": 3
+  }
+ ]
+}

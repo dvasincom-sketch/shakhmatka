@@ -1,0 +1,19 @@
+{
+ "slug": "tushinskiy-mashinostroitelnyy-zavod",
+ "status": "unverifiable",
+ "project": "Свободы (Level Group), Свободы, 35",
+ "start": null,
+ "now": {
+  "as_of": "2026-10-14",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": null,
+  "lot_desc": "жилая часть в продаже не найдена",
+  "selling": false,
+  "source": {
+   "title": "Level work Свободы (novostroy-m.ru)",
+   "url": "https://www.novostroy-m.ru/baza/biznestsentr_level_work_svobody"
+  }
+ },
+ "note": "Старта продаж жилья не найдено (архив: только лист ожидания, окт 2025). На Свободы, 35 найден лишь коммерческий индустриальный комплекс Level work (от 54,5 до 219 млн за помещение, 38 помещений 275-1144 м², котлован) - не жильё, в сравнение не брать."
+}

@@ -1,0 +1,26 @@
+{
+ "key": "moskovskiy",
+ "name": "Московский",
+ "nameIn": "в поселении Московский",
+ "okrug": "НАО",
+ "slug": "moskovskiy",
+ "url": "/novostroyki/moskovskiy/",
+ "objects": [
+  {
+   "name": "Саларьево парк",
+   "url": "/obekty/salarevo-park/",
+   "developer": "ПИК (ПАО «ПИК-специализированный застройщик»)",
+   "summary": "«Саларьево парк» — проект застройщика ПИК (район Московский). В досье 10 событий с 2019 по 2025 год, из них 2 — сигнала до официальных новостей.",
+   "stage": "sales",
+   "articles": []
+  },
+  {
+   "name": "Homecity",
+   "url": "/obekty/homecity/",
+   "developer": "PPF Real Estate Russia",
+   "summary": "«Homecity» — проект застройщика PPF Real Estate Russia (район Московский). В досье 6 событий с 2019 по 2022 год, из них 1 — сигнал до официальных новостей.",
+   "stage": "completed",
+   "articles": []
+  }
+ ]
+}

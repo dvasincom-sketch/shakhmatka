@@ -1,0 +1,30 @@
+{
+ "slug": "level-nagatinskaya",
+ "status": "ok",
+ "project": "Level Нагатинская",
+ "start": {
+  "date": "2021-09",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 7.4,
+  "lot_desc": "студия 20,8 м²",
+  "source": {
+   "title": "Старты продаж московских новостроек, сентябрь 2021 (novostroy-m.ru)",
+   "url": "https://www.novostroy-m.ru/analitika/starty_prodaj_msk_sentyabr",
+   "date": "2021-09-30"
+  }
+ },
+ "now": {
+  "as_of": "2026-10-14",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": null,
+  "lot_desc": null,
+  "selling": false,
+  "source": {
+   "title": "ЖК Level Нагатинская, карточка novostroy-m.ru",
+   "url": "https://www.novostroy-m.ru/kvartiry/novostroyka/jk_level_nagatinskaya"
+  }
+ },
+ "note": "Карточка на 14 октября: 'предложений от застройщиков не найдено' (год на странице не указан). Цена за м2 на старте в обзоре не указана (358 тыс. из архива не подтверждено)."
+}

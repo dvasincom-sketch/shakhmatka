@@ -1,0 +1,590 @@
+[
+ {
+  "slug": "21-19",
+  "district": "ryazanskiy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Заметка: ТЦ у метро Стахановская заменили жилым корпусом; Стахановская на Рязанском пр. → Рязанский"
+ },
+ {
+  "slug": "dom-s-atlantami",
+  "district": "basmannyy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Заметки: старые дворы Хитровки, рядом Китай-город → Хитровка относится к Басманному"
+ },
+ {
+  "slug": "lumin",
+  "district": null,
+  "region": null,
+  "confidence": "low",
+  "evidence": "Заметка: проект на Славянской площади (Китай-город); район Славянской пл. не уверен (Тверской или Басманный) Предположение: tverskoy"
+ },
+ {
+  "slug": "ilmenskiy-17",
+  "district": null,
+  "region": null,
+  "confidence": "low",
+  "evidence": "Ильменский проезд, САО, рядом Верхние Лихоборы/Селигерская; Дмитровский или Западное Дегунино — не уверен Предположение: dmitrovskiy"
+ },
+ {
+  "slug": "mfk-na-1-oy-ulitse-yamskogo-polya-vl-30",
+  "district": "begovoy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "1-я Ямского Поля, 30, кластер Белорусская-Савёловская → Беговой"
+ },
+ {
+  "slug": "dvizhenie-tushino",
+  "district": "pokrovskoe-streshnevo",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Заметки: проект на Тушинском аэродроме (рядом ПИК Покровское) → Покровское-Стрешнево"
+ },
+ {
+  "slug": "bauman-khaus",
+  "district": null,
+  "region": null,
+  "confidence": "low",
+  "evidence": "Рядом Новая Дорога, 11Б, «через Яузу»; район не уверен (Лефортово или Басманный) Предположение: lefortovo"
+ },
+ {
+  "slug": "meshcherskiy-les",
+  "district": null,
+  "region": null,
+  "confidence": "low",
+  "evidence": "Адреса нет; ПИК Мещерский лес, метро за МКАД — район не ясен Предположение: novo-peredelkino"
+ },
+ {
+  "slug": "vesterdam",
+  "district": null,
+  "region": null,
+  "confidence": "low",
+  "evidence": "Адреса в заметках нет; Интеко Вестердам, район не установлен Предположение: novo-peredelkino"
+ },
+ {
+  "slug": "filatov-lug",
+  "district": "vnukovskoe",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Заметки: Филатов Луг, пос. Картмазово, рядом Внуково, метро Коммунарка → Новая Москва, Внуковское"
+ },
+ {
+  "slug": "will-towers",
+  "district": null,
+  "region": null,
+  "confidence": "low",
+  "evidence": "Адреса нет; Will Towers на Минской ул. (Дорогомилово/Раменки?), не уверен Предположение: dorogomilovo"
+ },
+ {
+  "slug": "zil-yug",
+  "district": "danilovskiy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "ЗИЛ-ЮГ на территории ЗИЛа у Нагатинской поймы → Даниловский"
+ },
+ {
+  "slug": "ostrov-mechty",
+  "district": "nagatinskiy-zaton",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Остров Мечты в Нагатинской пойме → Нагатинский Затон"
+ },
+ {
+  "slug": "varshavskoe-shosse-170e",
+  "district": "yuzhnoe-butovo",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Варшавское ш., 170е у МКАД рядом с ЖК Лесопарковый → Южное Бутово"
+ },
+ {
+  "slug": "bolshoy-tolmachevskiy-5",
+  "district": "zamoskvorechye",
+  "region": null,
+  "confidence": "high",
+  "evidence": "Большой Толмачёвский пер., 5 (Лаврушинский) → Замоскворечье"
+ },
+ {
+  "slug": "mainstreet",
+  "district": null,
+  "region": null,
+  "confidence": "low",
+  "evidence": "Апартаменты MainStreet на Кутузовском пр. (запад Москвы); дом не указан, район не ясен Предположение: dorogomilovo"
+ },
+ {
+  "slug": "now-kvartal-na-naberezhnoy",
+  "district": "nagatinskiy-zaton",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Проект Tekta в Нагатинской пойме → Нагатинский Затон"
+ },
+ {
+  "slug": "teatralnyy-kvartal",
+  "district": null,
+  "region": null,
+  "confidence": "low",
+  "evidence": "Адреса в заметках нет, Театральный квартал (Крост), район не установлен Предположение: tverskoy"
+ },
+ {
+  "slug": "1-y-dubrovskiy-78-14",
+  "district": "yuzhnoportovyy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "1-й Дубровский пр. → Южнопортовый"
+ },
+ {
+  "slug": "serdtse-stolitsy",
+  "district": "khoroshevskiy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Сердце столицы Донстроя на Хорошёвском шоссе, набережная → Хорошёвский"
+ },
+ {
+  "slug": "nametkina-10d",
+  "district": null,
+  "region": null,
+  "confidence": "low",
+  "evidence": "Наметкина, 10Д — Академический/Черёмушки/Обручевский, не уверен Предположение: akademicheskiy"
+ },
+ {
+  "slug": "dolgorukovskaya-25",
+  "district": "tverskoy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Долгоруковская ул., 25 → Тверской"
+ },
+ {
+  "slug": "tpu-verkhnie-likhobory",
+  "district": null,
+  "region": null,
+  "confidence": "low",
+  "evidence": "ТПУ у метро Верхние Лихоборы; район на границе Дмитровского/Западного Дегунино, не уверен Предположение: zapadnoe-degunino"
+ },
+ {
+  "slug": "alia",
+  "district": "pokrovskoe-streshnevo",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Заметки: Alia — соседи Primavera на Тушинском поле → Покровское-Стрешнево"
+ },
+ {
+  "slug": "ever",
+  "district": "obruchevskiy",
+  "region": null,
+  "confidence": "high",
+  "evidence": "Обручева, 23 → Обручевский"
+ },
+ {
+  "slug": "alkhimovo",
+  "district": "shchapovskoe",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Самолёт Алхимово за Остафьево, Бирюлёвская ветка → Щаповское (ТАО)"
+ },
+ {
+  "slug": "ostafevo",
+  "district": "shchapovskoe",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Самолёт Остафьево, ТАО → Щаповское"
+ },
+ {
+  "slug": "tpu-shelepikha",
+  "district": "presnenskiy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Шмитовский пр., 40, станция Шелепиха → Пресненский"
+ },
+ {
+  "slug": "simvol",
+  "district": "lefortovo",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Символ на территории Серп и Молот, Золоторожский Вал → Лефортово"
+ },
+ {
+  "slug": "zilart",
+  "district": "danilovskiy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "ЗИЛАРТ на территории ЗИЛа → Даниловский"
+ },
+ {
+  "slug": "din-haus",
+  "district": null,
+  "region": null,
+  "confidence": "low",
+  "evidence": "Заметки: рядом с ТТК, кинотеатр «Прага»; адреса нет, район не ясен Предположение: basmannyy"
+ },
+ {
+  "slug": "salarevo",
+  "district": "moskovskiy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Саларьево (Самолёт/ПИК) — Новая Москва, поселение Московский"
+ },
+ {
+  "slug": "izmaylovskiy-les",
+  "district": null,
+  "region": null,
+  "confidence": "low",
+  "evidence": "Адреса нет; ПИК Измайловский лес, район не установлен Предположение: vostochnoe-izmaylovo"
+ },
+ {
+  "slug": "pravda",
+  "district": "savelovskiy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "ул. Правды, 24 у Савёловского вокзала → Савёловский"
+ },
+ {
+  "slug": "eleven",
+  "district": null,
+  "region": null,
+  "confidence": "low",
+  "evidence": "Адреса нет; Eleven РосСтройИнвест, район не установлен Предположение: presnenskiy"
+ },
+ {
+  "slug": "tushino-2018",
+  "district": "pokrovskoe-streshnevo",
+  "region": null,
+  "confidence": "high",
+  "evidence": "Заметка: ПЗЗ по Тушино — функциональные зоны района Покровское-Стрешнево"
+ },
+ {
+  "slug": "fantastic-house",
+  "district": null,
+  "region": null,
+  "confidence": "low",
+  "evidence": "Адреса нет; возможно Малая Грузинская (Пресненский), не уверен Предположение: presnenskiy"
+ },
+ {
+  "slug": "tipografiya-levensona",
+  "district": "presnenskiy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Трёхпрудный пер. (заметка) → Пресненский"
+ },
+ {
+  "slug": "obrucheva-30",
+  "district": "obruchevskiy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Обручева, 30 → Обручевский"
+ },
+ {
+  "slug": "lesoparkovyy",
+  "district": "yuzhnoe-butovo",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "ЖК Лесопарковый на Варшавском шоссе у МКАД → Южное Бутово"
+ },
+ {
+  "slug": "red7",
+  "district": "krasnoselskiy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Заметка: RED7 на пересечении Садового и Сахарова → Красносельский"
+ },
+ {
+  "slug": "nagatino-i-land",
+  "district": null,
+  "region": null,
+  "confidence": "low",
+  "evidence": "Нагатино i-Land в Нагатинской пойме; Нагатинский Затон или Нагатино-Садовники Предположение: nagatinskiy-zaton"
+ },
+ {
+  "slug": "coin-house",
+  "district": null,
+  "region": null,
+  "confidence": "low",
+  "evidence": "Подольское ш., 3; район не уверен Предположение: chertanovo-severnoe"
+ },
+ {
+  "slug": "tpu-elektrozavodskaya",
+  "district": null,
+  "region": null,
+  "confidence": "low",
+  "evidence": "ТПУ у метро Электрозаводская, адреса нет Предположение: basmannyy"
+ },
+ {
+  "slug": "varshavskoe-9-1",
+  "district": null,
+  "region": null,
+  "confidence": "low",
+  "evidence": "Варшавское ш., 9/1; Донской или Даниловский, не уверен Предположение: donskoy"
+ },
+ {
+  "slug": "amurskaya-1",
+  "district": null,
+  "region": null,
+  "confidence": "low",
+  "evidence": "Амурская ул., 1; район не уверен (Гольяново/Богородское) Предположение: golyanovo"
+ },
+ {
+  "slug": "irtyshskiy-park",
+  "district": null,
+  "region": null,
+  "confidence": "low",
+  "evidence": "2-й Иртышский пр., 8; район не уверен Предположение: bogorodskoe"
+ },
+ {
+  "slug": "krasnokazarmennaya-15",
+  "district": "lefortovo",
+  "region": null,
+  "confidence": "high",
+  "evidence": "Красноказарменная ул., 15 (Хлебозавод №12) → Лефортово"
+ },
+ {
+  "slug": "soul",
+  "district": "aeroport",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Часовая ул., 28 (Всекохудожник) → Аэропорт"
+ },
+ {
+  "slug": "paveletskaya-siti",
+  "district": "zamoskvorechye",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Дубининская ул., 59 у Павелецкой → Замоскворечье"
+ },
+ {
+  "slug": "varshavskoe-14",
+  "district": null,
+  "region": null,
+  "confidence": "low",
+  "evidence": "Варшавское ш., 14; район не уверен Предположение: donskoy"
+ },
+ {
+  "slug": "cherry-city",
+  "district": "akademicheskiy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Большая Черёмушкинская, 25 → Академический"
+ },
+ {
+  "slug": "symphony-34",
+  "district": "savelovskiy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "2-я Хуторская, 34 → Савёловский"
+ },
+ {
+  "slug": "city-bay",
+  "district": "pokrovskoe-streshnevo",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Волоколамское ш., 95-97 у Химкинского водохранилища → Покровское-Стрешнево"
+ },
+ {
+  "slug": "setun",
+  "district": "ochakovo-matveevskoe",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Братьев Фонченко, 19 → Очаково-Матвеевское"
+ },
+ {
+  "slug": "cameo",
+  "district": null,
+  "region": null,
+  "confidence": "low",
+  "evidence": "Клубный дом Cameo, адреса нет Предположение: tverskoy"
+ },
+ {
+  "slug": "sputnik",
+  "district": "moskovskiy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Спутник Самолёта на западной границе Москвы, новая станция метро → Новая Москва, Московский"
+ },
+ {
+  "slug": "forum",
+  "district": "dorogomilovo",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Редевелопмент кинотеатра Форум, участок на Кутузовском → Дорогомилово"
+ },
+ {
+  "slug": "volgogradskiy-32",
+  "district": "tekstilshchiki",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Волгоградский пр., 32 → Текстильщики"
+ },
+ {
+  "slug": "butyrskaya-1-2",
+  "district": "savelovskiy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Бутырская, 1/2, ТПУ Савёловская → Савёловский"
+ },
+ {
+  "slug": "stremlenie-k-svetu",
+  "district": "lianozovo",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Илимская, 3 → Лианозово"
+ },
+ {
+  "slug": "skazochnyy-les",
+  "district": "marino",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Заметка: участок у ул. Нижние Поля, дублёр Люблинской → Марьино"
+ },
+ {
+  "slug": "nizhnyaya-maslovka-17",
+  "district": "savelovskiy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Нижняя Масловка, 17 → Савёловский"
+ },
+ {
+  "slug": "veresk",
+  "district": null,
+  "region": null,
+  "confidence": "low",
+  "evidence": "Автомобильный проезд, 4 (заметка); район не уверен Предположение: yuzhnoportovyy"
+ },
+ {
+  "slug": "now",
+  "district": "nagatinskiy-zaton",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "NOW от Tekta в Нагатинской пойме → Нагатинский Затон"
+ },
+ {
+  "slug": "era",
+  "district": "danilovskiy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Дербеневская, 20 → Даниловский"
+ },
+ {
+  "slug": "novodanilovskaya-8",
+  "district": "danilovskiy",
+  "region": null,
+  "confidence": "high",
+  "evidence": "Новоданиловская наб., 8 → Даниловский"
+ },
+ {
+  "slug": "holland-park",
+  "district": "pokrovskoe-streshnevo",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Holland Park = ПИК Покровское на Тушинском поле → Покровское-Стрешнево"
+ },
+ {
+  "slug": "novyy-arbat-2",
+  "district": "arbat",
+  "region": null,
+  "confidence": "high",
+  "evidence": "Новый Арбат, 2 → Арбат"
+ },
+ {
+  "slug": "district-39",
+  "district": "kuntsevo",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Стадион Комета, между ул. Толбухина и Кубинки → Кунцево"
+ },
+ {
+  "slug": "yuzhnaya-bittsa",
+  "district": null,
+  "region": null,
+  "confidence": "low",
+  "evidence": "Южная Битца (ФСК) в Новой Москве рядом с Бирюлёвской веткой; поселение не уверен Предположение: shcherbinka"
+ },
+ {
+  "slug": "palashevskiy-11",
+  "district": "tverskoy",
+  "region": null,
+  "confidence": "high",
+  "evidence": "Большой Палашёвский пер., 11-13 → Тверской"
+ },
+ {
+  "slug": "novokhokhlovskaya-15",
+  "district": "nizhegorodskiy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Новохохловская ул., 15 → Нижегородский"
+ },
+ {
+  "slug": "volokolamskoe-shosse-24",
+  "district": "pokrovskoe-streshnevo",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Волоколамское ш., 24, 1-й Красногорский пр. → Покровское-Стрешнево"
+ },
+ {
+  "slug": "perets",
+  "district": "mitino",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Пятницкое шоссе, 3 → Митино"
+ },
+ {
+  "slug": "soho-noho",
+  "district": "savelovskiy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Soho+Noho — проект на ул. Правды у Савёловского вокзала → Савёловский"
+ },
+ {
+  "slug": "bolshaya-akademicheskaya-85",
+  "district": "timiryazevskiy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "3-й Нижнелихоборский пр., 1 / Большая Академическая → Тимирязевский"
+ },
+ {
+  "slug": "tophills",
+  "district": null,
+  "region": null,
+  "confidence": "low",
+  "evidence": "Горки → Tophills; адрес не указан, расположение не установлено"
+ },
+ {
+  "slug": "serednevskiy-les",
+  "district": "vnukovskoe",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Заметка: Середнево, Новая Москва, рядом Внуково → Внуковское"
+ },
+ {
+  "slug": "dubininskaya-17-27-29",
+  "district": "zamoskvorechye",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Дубининская ул., 17, 27-29 у Павелецкой → Замоскворечье"
+ },
+ {
+  "slug": "k31",
+  "district": "akademicheskiy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Кржижановского, 31 → Академический"
+ },
+ {
+  "slug": "tsnii-delfin",
+  "district": "ochakovo-matveevskoe",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Озёрная ул., 42-44 → Очаково-Матвеевское"
+ },
+ {
+  "slug": "poklonnaya-7",
+  "district": "dorogomilovo",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Поклонная ул., 7 → Дорогомилово"
+ },
+ {
+  "slug": "prichalnyy",
+  "district": null,
+  "region": null,
+  "confidence": "low",
+  "evidence": "Причальный проезд, 8, рядом Москва-Сити; район не уверен Предположение: khoroshevo-mnevniki"
+ }
+]

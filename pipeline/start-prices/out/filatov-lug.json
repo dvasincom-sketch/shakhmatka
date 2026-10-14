@@ -1,0 +1,26 @@
+{
+ "status": "partial",
+ "project": "ЖК «Филатов Луг» (Инград)",
+ "start": {
+  "date": null,
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": null,
+  "lot_desc": null,
+  "source": null
+ },
+ "now": {
+  "as_of": "2026-10-14",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 11.5,
+  "lot_desc": "студия 24,6 м² за 11 489 000 ₽, диапазон 'от 11.5 до 32.7 млн', 248 квартир",
+  "selling": true,
+  "source": {
+   "title": "novostroy-m.ru, карточка Филатов Луг (цены от 10 октября)",
+   "url": "https://www.novostroy-m.ru/baza/jk_filatov_lug"
+  }
+ },
+ "note": "Подтверждения первого старта продаж не найдено (поиски вернули только карточки лотов). Архив: рестарт янв 2022 по 234 тыс. и 'старт с 82 тыс.' - не источники. Корпуса 1-4 сданы, 5-6 - IV кв. 2026, 9 - II кв. 2028. Цена за м² на странице не указана.",
+ "slug": "filatov-lug"
+}

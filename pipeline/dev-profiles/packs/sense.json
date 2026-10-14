@@ -1,0 +1,26 @@
+{
+ "slug": "sense",
+ "name": "Sense",
+ "objects": [
+  {
+   "name": "Сухаревка",
+   "stage_by_dossier": "проект",
+   "where": "Мещанский",
+   "zu": "Малая Сухаревская, 6"
+  },
+  {
+   "name": "Дом Белый",
+   "stage_by_dossier": "продажи",
+   "where": "Арбат",
+   "zu": "Нижний Кисловский, 7"
+  },
+  {
+   "name": "Coin House",
+   "stage_by_dossier": "разрешение",
+   "where": null,
+   "zu": "Подольское шоссе, 3"
+  }
+ ],
+ "confirmed_deals": [],
+ "checked_articles": []
+}

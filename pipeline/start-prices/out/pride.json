@@ -1,0 +1,26 @@
+{
+ "status": "unverifiable",
+ "project": "ЖК PRIDE (Полковая, 1), Пионер",
+ "start": {
+  "date": "2022-06",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": null,
+  "lot_desc": null,
+  "source": null
+ },
+ "now": {
+  "as_of": "2026-10-14",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 21.16,
+  "lot_desc": "единственный найденный лот: 1-к 29,8 м² за 21 158 149 ₽ (710 005 ₽/м² по странице; не подтверждённый минимум проекта)",
+  "selling": true,
+  "source": {
+   "title": "novostroy-m.ru, лот в ЖК Pride",
+   "url": "https://www.novostroy-m.ru/kvartiry/odnokomnatnaya-kvartira-v-zhiloi-kvartal-pride-praid-0ec47de956217900352f13adfa1a0e"
+  }
+ },
+ "note": "Подтверждения цены старта в публикации не найдено (поиск вернул мусор, обзор июня 2022 и карточка не открылись; РБК 26.12.2022 цен не содержит). 'От 320 тыс.' из архива - не источник. Дом сдан, лоты продаются; цена на странице лота актуальна на 14 окт 2026 (зачёркнутая 24 891 940).",
+ "slug": "pride"
+}

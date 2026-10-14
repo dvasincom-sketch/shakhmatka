@@ -1,0 +1,118 @@
+{
+ "key": "tverskoy",
+ "name": "Тверской",
+ "nameIn": "в Тверском районе",
+ "okrug": "ЦАО",
+ "objects": [
+  {
+   "name": "Слава",
+   "developer": "MR Group",
+   "stage_by_dossier": "продажи",
+   "zu": "Ленинградский проспект, 8",
+   "events_in_dossier": 25,
+   "checked_articles": [
+    {
+     "title": "SLAVA у Белорусской: Банк России купил три офисных здания",
+     "lead": "Слух января 2024 года о продаже офисной части проекта SLAVA под Банк России подтвердился с поправкой: покупателем стал регулятор, но продавцом назван ВЭБ.РФ, а не девелопер. Сделку объявили 19 июля 2024 года, консультанты оценили её в 50–55 млрд ₽.",
+     "date_modified": "2026-10-13"
+    }
+   ]
+  },
+  {
+   "name": "Палашёвский 11",
+   "developer": "Sminex",
+   "stage_by_dossier": "продажи",
+   "zu": "Большой Палашевский, 11-13",
+   "events_in_dossier": 8,
+   "checked_articles": [
+    {
+     "title": "Pentagram на Большом Козихинском, 31: клубный дом Palladio Group",
+     "lead": "Для клубного дома Pentagram в Большом Козихинском переулке, 31 в декабре 2025 года появилась проектная декларация. Дом на четыре резиденции от Palladio Group — один из самых маленьких новых проектов Патриарших.",
+     "date_modified": "2026-10-13"
+    },
+    {
+     "title": "Sminex на Берниковской, 12: новый участок на Таганке и «Палашёвский 11»",
+     "lead": "Sminex сообщил о приобретении площадки на Берниковской набережной, 12, стр. 1 на Таганке на месте закрытой школы: два клубных дома от 7 до 13 этажей. Параллельно компания продаёт «Палашёвский 11» у Патриарших, и закрытый прайс из марта к октябрю превратился в публичные цены.",
+     "date_modified": "2026-10-13"
+    }
+   ]
+  },
+  {
+   "name": "Телеграф",
+   "developer": "Vos'hod",
+   "stage_by_dossier": "продажи",
+   "zu": "Тверская, 7",
+   "events_in_dossier": 8
+  },
+  {
+   "name": "Ильинка",
+   "developer": "Интеко",
+   "stage_by_dossier": "продажи",
+   "zu": null,
+   "events_in_dossier": 6
+  },
+  {
+   "name": "Гашека, 12/2",
+   "developer": "MR Group",
+   "stage_by_dossier": "проект",
+   "zu": "Гашека, 12/2",
+   "events_in_dossier": 6
+  },
+  {
+   "name": "Nicole",
+   "developer": "MR Group",
+   "stage_by_dossier": "разрешение на строительство",
+   "zu": null,
+   "events_in_dossier": 4
+  },
+  {
+   "name": "Успенский, 5",
+   "developer": "Level Group",
+   "stage_by_dossier": "проект",
+   "zu": "Успенский, 5",
+   "events_in_dossier": 4
+  },
+  {
+   "name": "Долгоруковская, 25",
+   "developer": "БЭЛ Девелопмент",
+   "stage_by_dossier": "продажи",
+   "zu": "Долгоруковская, 25",
+   "events_in_dossier": 3
+  },
+  {
+   "name": "Moz art",
+   "developer": "Glincom",
+   "stage_by_dossier": null,
+   "zu": "Малая Дмитровка, 23/15",
+   "events_in_dossier": 3
+  },
+  {
+   "name": "1-я Брестская, 64",
+   "developer": null,
+   "stage_by_dossier": "проект",
+   "zu": "1-я Брестская, 64",
+   "events_in_dossier": 3
+  },
+  {
+   "name": "Тверская, 10",
+   "developer": "Lux Pro",
+   "stage_by_dossier": "проект",
+   "zu": "Тверская, 10",
+   "events_in_dossier": 3
+  },
+  {
+   "name": "4-я Тверская-Ямская, 10 и 12, стр 1",
+   "developer": "Capital Group",
+   "stage_by_dossier": "концепция",
+   "zu": "4-я Тверская-Ямская, 10 и 12, стр 1",
+   "events_in_dossier": 3
+  },
+  {
+   "name": "Тверская, 30/2",
+   "developer": "MR Group",
+   "stage_by_dossier": "проект",
+   "zu": "Тверская, 30/2",
+   "events_in_dossier": 3
+  }
+ ]
+}

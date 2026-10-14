@@ -1,0 +1,590 @@
+[
+ {
+  "slug": "zvenigorodskaya",
+  "district": "presnenskiy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Звенигородская у границы ЦАО, Большой Сити (Звенигородское шоссе) -> Пресненский"
+ },
+ {
+  "slug": "2-y-tushinskiy-12",
+  "district": null,
+  "region": null,
+  "confidence": "low",
+  "evidence": "2-й Тушинский проезд, 12; предположение: Покровское-Стрешнево, номер дома не позволяет уверенно"
+ },
+ {
+  "slug": "4-ya-tverskaya-yamskaya-10-i-12-str-1",
+  "district": "tverskoy",
+  "region": null,
+  "confidence": "high",
+  "evidence": "4-я Тверская-Ямская, 10 и 12 у Маяковской (заметка: ЦАО) -> Тверской"
+ },
+ {
+  "slug": "profsoyuznaya-4-12",
+  "district": "akademicheskiy",
+  "region": null,
+  "confidence": "high",
+  "evidence": "Профсоюзная 4-12, заметка: долгострой у метро Академическая -> Академический"
+ },
+ {
+  "slug": "zaozernaya-15a",
+  "district": null,
+  "region": null,
+  "confidence": "low",
+  "evidence": "Заозерная, 15а, бывший стадион Локомотив на востоке Москвы; район не установлен"
+ },
+ {
+  "slug": "chernyy-kub",
+  "district": "presnenskiy",
+  "region": null,
+  "confidence": "high",
+  "evidence": "Участок 4 Москва-Сити, Чёрный куб -> Пресненский"
+ },
+ {
+  "slug": "krt-ogorodnyy-proezd-proekt-2",
+  "district": "butyrskiy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Складочная, 1 (Савёловский сити у Савёловского вокзала, Огородный проезд) -> Бутырский"
+ },
+ {
+  "slug": "dmitrovskoe-62",
+  "district": null,
+  "region": null,
+  "confidence": "low",
+  "evidence": "Дмитровское шоссе, 62 к2 (Метромолл-2); предположение: Бескудниковский/Западное Дегунино, сомнительно"
+ },
+ {
+  "slug": "paveletskaya-8",
+  "district": "zamoskvorechye",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Павелецкая ул., 8 у Павелецкого вокзала (Резиденции Композиторов) -> Замоскворечье"
+ },
+ {
+  "slug": "zavod-fereyn",
+  "district": null,
+  "region": null,
+  "confidence": "low",
+  "evidence": "Нагатинская, 1, завод Ферейн; предположение: Даниловский, но граница с Нагорным неясна"
+ },
+ {
+  "slug": "26-parkvyu",
+  "district": "timiryazevskiy",
+  "region": null,
+  "confidence": "high",
+  "evidence": "Тимирязевская ул., 26 (Дом Гиппиуса, общежитие Тимирязевской академии) -> Тимирязевский"
+ },
+ {
+  "slug": "zil-vostok",
+  "district": "danilovskiy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "ЗИЛ Восток, бывшая ТЭЦ ЗИЛ, 2-й Кожуховский/Автозаводская -> территория ЗИЛа, Даниловский"
+ },
+ {
+  "slug": "krt-poklonnaya",
+  "district": "dorogomilovo",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Улица Поклонная рядом с Неверовского, 8 и Кутузовским -> Дорогомилово"
+ },
+ {
+  "slug": "level-donskoy",
+  "district": "donskoy",
+  "region": null,
+  "confidence": "high",
+  "evidence": "4-й Верхний Михайловский пер., Level Донской -> Донской"
+ },
+ {
+  "slug": "tpu-nikolaevskaya",
+  "district": "zapadnoe-degunino",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Черепановых, 64 у МЦК/МЦД Лихоборы -> Западное Дегунино"
+ },
+ {
+  "slug": "stoun-park-pobedy",
+  "district": "dorogomilovo",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Неверовского, 8 у Кутузовского проспекта -> Дорогомилово"
+ },
+ {
+  "slug": "arkhitektora-vlasova-59",
+  "district": "obruchevskiy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Архитектора Власова, 59 рядом с Воронцовским парком и Обручева, 27 -> Обручевский"
+ },
+ {
+  "slug": "pavlovskaya-18",
+  "district": null,
+  "region": null,
+  "confidence": "low",
+  "evidence": "Павловская, 18 (завод Искра); предположение: Замоскворечье/Даниловский, не уверен"
+ },
+ {
+  "slug": "light-city",
+  "district": "khoroshevskiy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "2-я Магистральная, 3 (рядом с Большим Сити) -> Хорошёвский"
+ },
+ {
+  "slug": "kutuzov-siti",
+  "district": null,
+  "region": null,
+  "confidence": "low",
+  "evidence": "Гродненская, 18 (Кутузов Сити); предположение: Кунцево/Фили-Давыдково, не уверен"
+ },
+ {
+  "slug": "akademika-oparina-2",
+  "district": "teplyy-stan",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Академика Опарина, 2 -> Тёплый Стан"
+ },
+ {
+  "slug": "tatum",
+  "district": "obruchevskiy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Обручева, 27 к2 -> Обручевский"
+ },
+ {
+  "slug": "tpu-timiryazevskaya",
+  "district": "timiryazevskiy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "ТПУ Тимирязевская, Яблочкова, 9 -> Тимирязевский"
+ },
+ {
+  "slug": "leningradskoe-63a-3",
+  "district": "levoberezhnyy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Ленинградское, 63А/3, Северный порт у Северного речного вокзала -> Левобережный"
+ },
+ {
+  "slug": "1-ya-karacharovskaya-8",
+  "district": "nizhegorodskiy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "1-я Карачаровская, 8, треугольник Перовского шоссе (Карачарово) -> Нижегородский"
+ },
+ {
+  "slug": "rublevskaya-rivera",
+  "district": "kuntsevo",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "3-я Черепковская, 15/А, Рублёво -> Кунцево"
+ },
+ {
+  "slug": "2-y-irtyshskiy",
+  "district": null,
+  "region": null,
+  "confidence": "low",
+  "evidence": "2-й Иртышский проезд; предположение: Метрогородок/Богородское, не уверен"
+ },
+ {
+  "slug": "ofisnyy-proekt-stone-na-khodynke",
+  "district": "khoroshevskiy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Ходынка (Ходынское поле), офисный проект Stone -> Хорошёвский"
+ },
+ {
+  "slug": "zatsepa-21",
+  "district": "zamoskvorechye",
+  "region": null,
+  "confidence": "high",
+  "evidence": "Зацепа, 21 -> Замоскворечье"
+ },
+ {
+  "slug": "eon",
+  "district": "nagornyy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Варшавское шоссе, 36 у Нагатинской -> Нагорный"
+ },
+ {
+  "slug": "novoostapovskaya-12",
+  "district": "yuzhnoportovyy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Новоостаповская, 12 (хлебозавод Пролетарец) -> Южнопортовый"
+ },
+ {
+  "slug": "kashirskoe-14",
+  "district": null,
+  "region": null,
+  "confidence": "low",
+  "evidence": "Каширское шоссе, 14 (ГудЗон); предположение: Нагатино-Садовники"
+ },
+ {
+  "slug": "kosmonavta-volkova-2-4",
+  "district": "voykovskiy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Космонавта Волкова, 2-4 -> Войковский"
+ },
+ {
+  "slug": "simonovskiy-val-9-k2",
+  "district": "danilovskiy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Симоновский Вал, 9 к2 -> Даниловский"
+ },
+ {
+  "slug": "gate-one",
+  "district": null,
+  "region": null,
+  "confidence": "low",
+  "evidence": "60-летия Октября, 5А; предположение: Академический, не уверен"
+ },
+ {
+  "slug": "avtozavodskaya-23",
+  "district": "danilovskiy",
+  "region": null,
+  "confidence": "high",
+  "evidence": "Автозаводская, 23 (ЗИЛ) -> Даниловский"
+ },
+ {
+  "slug": "khavskaya-9-1",
+  "district": null,
+  "region": null,
+  "confidence": "low",
+  "evidence": "Хавская, 9/1; предположение: Донской"
+ },
+ {
+  "slug": "saltykovskaya-24",
+  "district": null,
+  "region": null,
+  "confidence": "low",
+  "evidence": "Салтыковская, 24 (окраина, промзона); предположение: Новокосино/Косино-Ухтомский"
+ },
+ {
+  "slug": "leningradskoe-71a",
+  "district": "golovinskiy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Ленинградское шоссе, 71А/Б у Водного стадиона -> Головинский"
+ },
+ {
+  "slug": "festivalnaya-4a",
+  "district": "levoberezhnyy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Фестивальная, 4А и Лавочкина, 19 -> Левобережный"
+ },
+ {
+  "slug": "1-y-volokolamskiy-10",
+  "district": null,
+  "region": null,
+  "confidence": "low",
+  "evidence": "1-й Волоколамский, 10, МЦД по границе участка; предположение: Покровское-Стрешнево"
+ },
+ {
+  "slug": "krasnyy-oktyabr",
+  "district": "yakimanka",
+  "region": null,
+  "confidence": "high",
+  "evidence": "Берсеневская, 6, Красный Октябрь -> Якиманка"
+ },
+ {
+  "slug": "malyy-levshinskiy-7",
+  "district": "khamovniki",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Малый Левшинский пер., 7 -> Хамовники"
+ },
+ {
+  "slug": "petroverigskiy-6-8-10-str-1a-7",
+  "district": "basmannyy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Петроверигский пер., 6-8-10 (Китай-город) -> Басманный"
+ },
+ {
+  "slug": "bolshoy-moskovskiy-tsirk-na-prospekte-vernadskogo",
+  "district": null,
+  "region": null,
+  "confidence": "low",
+  "evidence": "Цирк на пр. Вернадского; предположение: Раменки/Ломоносовский, без адреса"
+ },
+ {
+  "slug": "bolshoy-kharitonevskiy-13a-s10",
+  "district": null,
+  "region": null,
+  "confidence": "low",
+  "evidence": "Большой Харитоньевский, 13А с10 (Чистые пруды); предположение: Красносельский или Басманный"
+ },
+ {
+  "slug": "mnevniki-8",
+  "district": "khoroshevo-mnevniki",
+  "region": null,
+  "confidence": "high",
+  "evidence": "Мневники, 8 -> Хорошёво-Мнёвники"
+ },
+ {
+  "slug": "3-ya-khoroshevskaya-18-2",
+  "district": "khoroshevskiy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "3-я Хорошёвская, 18/2 (ТПУ Зорге) -> Хорошёвский"
+ },
+ {
+  "slug": "gerasima-kurina-10-str-1-str-2",
+  "district": "fili-davydkovo",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Герасима Курина, 10 (у Кутузовского, Маршала Жукова) -> Фили-Давыдково"
+ },
+ {
+  "slug": "neverovskogo-9",
+  "district": "dorogomilovo",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Неверовского, 9 -> Дорогомилово"
+ },
+ {
+  "slug": "kolskaya-18",
+  "district": "sviblovo",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Кольская, 18 рядом с КРТ Свиблово -> Свиблово"
+ },
+ {
+  "slug": "symphony-38a",
+  "district": null,
+  "region": null,
+  "confidence": "low",
+  "evidence": "2-я Хуторская, 38А; предположение: Бутырский/Савёловский"
+ },
+ {
+  "slug": "bolshoy-kozikhinskiy-22-str-1-2",
+  "district": "presnenskiy",
+  "region": null,
+  "confidence": "high",
+  "evidence": "Большой Козихинский, 22; заметка: пределы Пресни, Патриаршие -> Пресненский"
+ },
+ {
+  "slug": "icity",
+  "district": "presnenskiy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Шелепихинский тупик, 17 рядом с ТПУ Сити-2 -> Пресненский"
+ },
+ {
+  "slug": "letchika-babushkina-30-str-1",
+  "district": "babushkinskiy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Лётчика Бабушкина, 30 -> Бабушкинский"
+ },
+ {
+  "slug": "paveletskaya-naberezhnaya-6",
+  "district": "zamoskvorechye",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Павелецкая наб., 6 (бывшая ГКБ 56), Павелецкая -> Замоскворечье"
+ },
+ {
+  "slug": "buninskaya-naberezhnaya",
+  "district": "sosenskoe",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Бунинские луга (Бунинская набережная) - Новая Москва, Сосенское"
+ },
+ {
+  "slug": "loran",
+  "district": null,
+  "region": null,
+  "confidence": "low",
+  "evidence": "Ленинский, 11/4/1; предположение: Якиманка или Донской"
+ },
+ {
+  "slug": "vetkina-2v",
+  "district": null,
+  "region": null,
+  "confidence": "low",
+  "evidence": "Веткина, 2В; предположение: Бутырский/Савёловский"
+ },
+ {
+  "slug": "mangazeya-na-rechnom",
+  "district": "levoberezhnyy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Северный порт (Мангазея на Речном) -> Левобережный"
+ },
+ {
+  "slug": "molodogvardeyskaya-64-9",
+  "district": null,
+  "region": null,
+  "confidence": "low",
+  "evidence": "Молодогвардейская, 64/9; предположение: Кунцево"
+ },
+ {
+  "slug": "kashirskoe-61-korp-4-str-1-9",
+  "district": null,
+  "region": null,
+  "confidence": "low",
+  "evidence": "Каширское, 61 к4 (Лиггетт-Дукат); предположение: Москворечье-Сабурово"
+ },
+ {
+  "slug": "one",
+  "district": null,
+  "region": null,
+  "confidence": "low",
+  "evidence": "Небоскреб One рядом с Сити, адреса нет; предположение: Пресненский"
+ },
+ {
+  "slug": "kvartal-mit",
+  "district": "mitino",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Митинский лес -> Митино"
+ },
+ {
+  "slug": "enigmiya",
+  "district": "tverskoy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Новослободская, 19 -> Тверской"
+ },
+ {
+  "slug": "onezhskiy-val",
+  "district": "zapadnoe-degunino",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Онежский вал, КРТ Дегунино-Лихоборы -> Западное Дегунино"
+ },
+ {
+  "slug": "triniti",
+  "district": null,
+  "region": null,
+  "confidence": "low",
+  "evidence": "Дмитровское, 75 (Тринити); предположение: Западное Дегунино/Бескудниковский"
+ },
+ {
+  "slug": "sber-siti",
+  "district": null,
+  "region": "moskovskaya-oblast",
+  "confidence": "low",
+  "evidence": "Сбер Сити - заМКАДный проект, адреса нет; предположение: Московская область"
+ },
+ {
+  "slug": "krt-avtomotornaya",
+  "district": null,
+  "region": null,
+  "confidence": "low",
+  "evidence": "Войкова, 6 / Автомоторная; район не установлен"
+ },
+ {
+  "slug": "michurinskiy-park",
+  "district": "ochakovo-matveevskoe",
+  "region": null,
+  "confidence": "high",
+  "evidence": "Озёрная, 42-46 -> Очаково-Матвеевское"
+ },
+ {
+  "slug": "work-nizhegorodskaya",
+  "district": "nizhegorodskiy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Work Нижегородская, рядом КРТ Карачарово -> Нижегородский"
+ },
+ {
+  "slug": "level-nizhegorodskaya",
+  "district": "nizhegorodskiy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Level Нижегородская, Нижегородская ул. -> Нижегородский"
+ },
+ {
+  "slug": "krt-na-ulitse-krzhizhanovskogo",
+  "district": "akademicheskiy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "ул. Кржижановского -> Академический"
+ },
+ {
+  "slug": "planetnaya-3",
+  "district": null,
+  "region": null,
+  "confidence": "low",
+  "evidence": "Планетная, 3 (бывш. академия Жуковского) напротив Серегина; предположение: Беговой/Хорошёвский"
+ },
+ {
+  "slug": "2-ya-magistralnaya-18",
+  "district": "khoroshevskiy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "2-я Магистральная, 18 -> Хорошёвский"
+ },
+ {
+  "slug": "nizhnie-mnevniki-20",
+  "district": "khoroshevo-mnevniki",
+  "region": null,
+  "confidence": "high",
+  "evidence": "Нижние Мневники, 20 -> Хорошёво-Мнёвники"
+ },
+ {
+  "slug": "kutuzovskaya-sloboda",
+  "district": null,
+  "region": null,
+  "confidence": "low",
+  "evidence": "Логистический комплекс в Матушкино, Зеленоград; участок не привязан (Зеленоград)"
+ },
+ {
+  "slug": "blik",
+  "district": "danilovskiy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Новоданиловская, 12 -> Даниловский"
+ },
+ {
+  "slug": "lomonosov",
+  "district": null,
+  "region": null,
+  "confidence": "low",
+  "evidence": "Ломоносов у МГУ, Долина МГУ; предположение: Ломоносовский/Раменки"
+ },
+ {
+  "slug": "rizhskiy-vokzal",
+  "district": "alekseevskiy",
+  "region": null,
+  "confidence": "medium",
+  "evidence": "Рижский вокзал, Рижская площадь -> Алексеевский"
+ },
+ {
+  "slug": "om-botanicheskiy",
+  "district": null,
+  "region": null,
+  "confidence": "low",
+  "evidence": "Сельскохозяйственная, 42 (у Ботанического сада); предположение: Ростокино"
+ },
+ {
+  "slug": "sreda-na-varshavskom",
+  "district": null,
+  "region": null,
+  "confidence": "low",
+  "evidence": "Котляковская ул. и 1-й Варшавский пр.; предположение: Нагорный"
+ },
+ {
+  "slug": "fenomen-goroda",
+  "district": null,
+  "region": null,
+  "confidence": "low",
+  "evidence": "ТПУ Минская; предположение: Раменки/Дорогомилово"
+ },
+ {
+  "slug": "aurus-rezidentsii",
+  "district": null,
+  "region": null,
+  "confidence": "low",
+  "evidence": "Аурус Резиденции (Страна), адреса нет"
+ }
+]

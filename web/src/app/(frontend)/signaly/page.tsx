@@ -23,7 +23,7 @@ const dm = (iso: string) => { const d = new Date(iso); return `${d.getUTCDate()}
 const my = (iso: string) => { const d = new Date(iso); return `${MONTHS_N[d.getUTCMonth()]} ${d.getUTCFullYear()}` }
 const months = (a: string, b: string) => Math.max(0, Math.round((+new Date(b) - +new Date(a)) / (30.44 * 864e5)))
 
-type Sig = { id: string; date: string; title: string; confirmedOn?: string | null; o: Pick<Obj, 'name' | 'slug' | 'region' | 'district'> }
+type Sig = { id: string; date: string; title: string; confirmedOn?: string | null; outcome?: string | null; o: Pick<Obj, 'name' | 'slug' | 'region' | 'district'> }
 
 export default async function Signals() {
   const payload = await getPayload({ config })
@@ -31,7 +31,7 @@ export default async function Signals() {
     collection: 'objects', where: { signalCount: { greater_than: 0 } }, limit: 10000, pagination: false, depth: 0,
     select: { name: true, slug: true, region: true, district: true, timeline: true },
   })).docs as Obj[]
-  const all: Sig[] = objs.flatMap((o) => (o.timeline || []).filter((t) => t.certainty === 'signal').map((t) => ({ id: t.id!, date: t.date, title: t.title, confirmedOn: t.confirmedOn, o })))
+  const all: Sig[] = objs.flatMap((o) => (o.timeline || []).filter((t) => t.certainty === 'signal').map((t) => ({ id: t.id!, date: t.date, title: t.title, confirmedOn: t.confirmedOn, outcome: t.outcome, o })))
   const confirmed = all.filter((s) => s.confirmedOn).sort((a, b) => +new Date(b.confirmedOn!) - +new Date(a.confirmedOn!))
   const fresh = [...all].sort((a, b) => +new Date(b.date) - +new Date(a.date)).slice(0, 40)
   const leads = confirmed.map((s) => months(s.date, s.confirmedOn!)).sort((a, b) => a - b)
@@ -52,11 +52,12 @@ export default async function Signals() {
       <JsonLd data={ld} />
       <nav className="crumbs" aria-label="Путь"><Link href="/">Лента</Link><span>/</span><span>Сигналы</span></nav>
       <h1 className="page-h tt">Сигналы<span>раньше официальных новостей</span></h1>
-      <p className="hello-sub">Сигнал — то, о чём на рынке говорят до пресс-релизов: участок присматривают, проект готовят к продажам, меняется девелопер. Мы отмечаем такие пункты в досье объектов и следим, сбываются ли они.</p>
+      <p className="hello-sub">Сигнал — то, о чём на рынке говорят до пресс-релизов: участок присматривают, проект готовят к продажам, меняется девелопер. Мы отмечаем такие пункты в досье объектов, проверяем и честно показываем, что сбылось, а что нет.</p>
 
       <dl className="land-stats sig-stats">
         <div className="card"><dt>Сигналов в досье</dt><dd>{all.length}</dd><small>по {objs.length} {plural(objs.length, 'объекту', 'объектам', 'объектам')}</small></div>
         <div className="card"><dt>Уже подтвердились</dt><dd>{confirmed.length}</dd><small>официально или по документам</small></div>
+        <div className="card"><dt>Не подтвердились</dt><dd>{all.filter((x) => x.outcome).length}</dd><small>проверили — подтверждения нет</small></div>
         {leads.length ? <div className="card"><dt>Опережение</dt><dd>{median} {plural(median, 'месяц', 'месяца', 'месяцев')}</dd><small>медиана: от сигнала до подтверждения</small></div> : null}
       </dl>
 
@@ -90,7 +91,7 @@ export default async function Signals() {
               <ol>
                 {list.map((s) => (
                   <li key={s.id} className="tl-item is-sig">
-                    <div className="tl-meta"><time dateTime={s.date.slice(0, 10)}>{dm(s.date).replace(/ \d{4}$/, '')}</time>{s.confirmedOn ? <span className="tl-conf">подтвердилось</span> : null}</div>
+                    <div className="tl-meta"><time dateTime={s.date.slice(0, 10)}>{dm(s.date).replace(/ \d{4}$/, '')}</time>{s.confirmedOn ? <span className="tl-conf">подтвердилось</span> : null}{s.outcome ? <span className="tl-unc">не подтвердилось</span> : null}</div>
                     <div className="tl-body">
                       <p className="tl-t">{typo(s.title)}</p>
                       <p className="tl-x"><Link href={`/obekty/${s.o.slug}/`}>{s.o.name}</Link> · {where(s.o)}</p>

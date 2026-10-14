@@ -1,0 +1,51 @@
+{
+ "key": "zapadnoe-degunino",
+ "name": "Западное Дегунино",
+ "nameIn": "в районе Западное Дегунино",
+ "okrug": "САО",
+ "objects": [
+  {
+   "name": "Бусиновский парк",
+   "developer": "ПИК",
+   "stage_by_dossier": "продажи",
+   "zu": "Ижорская, 6",
+   "events_in_dossier": 8
+  },
+  {
+   "name": "Свет",
+   "developer": "Dominanta",
+   "stage_by_dossier": "продажи",
+   "zu": "Дмитровское, 83А",
+   "events_in_dossier": 6,
+   "start_vs_now": "старт 2025-03: от 13.6 млн ₽ → 2026-10-14: от 19.0 млн ₽ (проверено)",
+   "checked_articles": [
+    {
+     "title": "ЖК «Свет» от Dominanta на Дмитровском шоссе: небоскрёб 180 м, цены и сроки",
+     "lead": "Dominanta строит ЖК «Свет» на Дмитровском шоссе, вл. 83а: башню высотой около 180 м на 662 квартиры, но всего с 99 машино-местами. По данным на октябрь 2026 года квартиры продаются от 19 млн ₽, срок сдачи в декларации — 1 квартал 2028 года.",
+     "date_modified": "2026-10-14"
+    }
+   ]
+  },
+  {
+   "name": "Дубнинская, 79",
+   "developer": "ЛСР",
+   "stage_by_dossier": "проект",
+   "zu": "Дубнинская, 79",
+   "events_in_dossier": 4
+  },
+  {
+   "name": "КРТ Вагоноремонт",
+   "developer": null,
+   "stage_by_dossier": "участок",
+   "zu": null,
+   "events_in_dossier": 3
+  },
+  {
+   "name": "Онежский вал",
+   "developer": "ПИК",
+   "stage_by_dossier": "продажи",
+   "zu": null,
+   "events_in_dossier": 3
+  }
+ ]
+}

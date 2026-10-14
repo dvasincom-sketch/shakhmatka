@@ -45,7 +45,7 @@ async function run() {
 await run()
 
 type Payload = Awaited<ReturnType<typeof initPayload>>
-type ArchObj = { slug: string; manual?: boolean; name?: string; zu?: string | null; aliases?: string[]; region?: string; district?: string; stage?: string | null; developer?: string; summary?: string; timeline: Record<string, unknown>[] }
+type ArchObj = { slug: string; manual?: boolean; name?: string; zu?: string | null; aliases?: string[]; region?: string; district?: string; stage?: string | null; developer?: string; previousDevelopers?: string[]; owners?: { developer: string; since?: string; until?: string; how?: string; source?: string }[]; summary?: string; timeline: Record<string, unknown>[] }
 
 async function archive(payload: Payload) {
   const file = path.join(BASE, 'archive-dossiers.json')
@@ -70,12 +70,15 @@ async function archive(payload: Payload) {
     const timeline = o.timeline.map((t) => ({ ...t, verified: false }))
     const ex = existing.get(o.slug)
     if (o.manual || (ex && !ex.auto)) {
+      if (ex && o.owners?.length) await payload.update({ collection: 'objects', id: ex.id, data: { owners: o.owners.map((w) => ({ ...w, developer: devId.get(w.developer) })) } as never })
       if (ex && !ex.tl) { await payload.update({ collection: 'objects', id: ex.id, data: { timeline } as never }); filled++ } else kept++
       continue
     }
     const data = {
       name: o.name, slug: o.slug, zu: o.zu || undefined, region: o.region, district: o.district || null, stage: o.stage || null,
       developer: o.developer ? devId.get(o.developer) : null, summary: o.summary, auto: true,
+      previousDevelopers: (o.previousDevelopers || []).map((s) => devId.get(s)).filter(Boolean),
+      owners: (o.owners || []).map((w) => ({ ...w, developer: devId.get(w.developer) })),
       aliases: (o.aliases || []).map((value) => ({ value })), timeline,
     }
     if (ex) { await payload.update({ collection: 'objects', id: ex.id, data: data as never }); updated++ }

@@ -1,0 +1,22 @@
+{
+ "key": "zyuzino",
+ "name": "Зюзино",
+ "nameIn": "в Зюзине",
+ "okrug": "ЮЗАО",
+ "objects": [
+  {
+   "name": "Нахимовский, 21",
+   "developer": "МД Групп",
+   "stage_by_dossier": "проект",
+   "zu": "Нахимовский, 21",
+   "events_in_dossier": 4
+  },
+  {
+   "name": "КРТ Зюзино",
+   "developer": "RD Development",
+   "stage_by_dossier": null,
+   "zu": null,
+   "events_in_dossier": 3
+  }
+ ]
+}

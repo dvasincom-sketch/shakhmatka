@@ -1,0 +1,30 @@
+{
+ "slug": "mayprioriti-paveletskaya",
+ "status": "ok",
+ "project": "Майприорити Павелецкая (ныне Павелецкая от Гранель)",
+ "start": {
+  "date": "2023-09",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 17.0,
+  "lot_desc": "студии от 30 м²",
+  "source": {
+   "title": "Старты продаж, сентябрь 2023 (novostroy-m.ru)",
+   "url": "https://www.novostroy-m.ru/analitika/starty_prodaj_sentyabr_23",
+   "date": "2023-10-02"
+  }
+ },
+ "now": {
+  "as_of": "2026-10-14",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 21.97,
+  "lot_desc": "студия 26,49 м², 1 этаж",
+  "selling": true,
+  "source": {
+   "title": "ЖК Павелецкая от Гранель, карточка novostroy-m.ru",
+   "url": "https://www.novostroy-m.ru/baza/jk_mypriority_paveletskaya_may"
+  }
+ },
+ "note": "Старт = первая очередь (2 корпуса, 8 и 28 этажей, 377 квартир); обзор: 'от 17 млн'. Сегодня на странице оба корпуса (1 - сдача 4 кв. 2026, 2 - 3 кв. 2028); минимум по проекту, не по очереди. Шапка 'от 22 млн', лот 21 965 311 руб., цены на 13 окт. Цена за м2 в источниках не указана; 620 тыс./м2 из архива не подтверждено. Прелонч 14 млн (архив) не подтвержден."
+}

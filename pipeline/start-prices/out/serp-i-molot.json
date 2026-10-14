@@ -1,0 +1,30 @@
+{
+ "slug": "serp-i-molot",
+ "status": "unverifiable",
+ "project": "СТОУН Райз / Stone Rise (Золоторожский вал, 11)",
+ "start": {
+  "date": "2025-07",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": null,
+  "lot_desc": null,
+  "source": {
+   "title": "Рядом с Таганкой построят STONE Rise (РБК Недвижимость)",
+   "url": "https://realty.rbc.ru/amp/news/687a17b29a7947d10e4ded7c",
+   "date": "2025-07-21"
+  }
+ },
+ "now": {
+  "as_of": "2026-10-08",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 20.5,
+  "lot_desc": "мин. цена на карточке, от 20 547 778 ₽",
+  "selling": true,
+  "source": {
+   "title": "ЖК «Стоун Райз» (novostroy-m, цены от 8 октября)",
+   "url": "https://www.novostroy-m.ru/baza/arhitekturnyy_proekt_rise"
+  }
+ },
+ "note": "Факт старта: РБК 2025-07-21 «на днях стартовали продажи квартир», но ни цены за м², ни лота в статье нет; обзор июля 2025 novostroy-m не открылся. Стартовых цен нет. Сейчас: карточка «от 20.5 до 75.8 млн ₽», цены за м² нет. На странице лота помечено 'предложение на 08.10.2026 неактуально' (лот 40,7 м² за 25,5 млн, 626 810 ₽/м² — не минимум). Архивные 450-470 тыс. — ожидание, не факт. Название в архиве 'Серп и Молот / Rise', в источниках 'Stone Rise'."
+}

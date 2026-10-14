@@ -1,0 +1,15 @@
+{
+ "key": "molzhaninovskiy",
+ "name": "Молжаниновский",
+ "nameIn": "в Молжаниновском районе",
+ "okrug": "САО",
+ "objects": [
+  {
+   "name": "Молжаниново",
+   "developer": "Самолёт",
+   "stage_by_dossier": "продажи",
+   "zu": null,
+   "events_in_dossier": 8
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "key": "orekhovo-borisovo-yuzhnoe",
+ "name": "Орехово-Борисово Южное",
+ "nameIn": "в районе Орехово-Борисово Южное",
+ "okrug": "ЮАО",
+ "objects": [
+  {
+   "name": "Шипиловский, 55",
+   "developer": "Айди Партнер",
+   "stage_by_dossier": "участок",
+   "zu": "Шипиловский, 55",
+   "events_in_dossier": 3
+  }
+ ]
+}

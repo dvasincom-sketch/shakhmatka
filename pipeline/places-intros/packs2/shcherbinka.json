@@ -1,0 +1,15 @@
+{
+ "key": "shcherbinka",
+ "name": "Щербинка",
+ "nameIn": "в Щербинке",
+ "okrug": "НАО",
+ "objects": [
+  {
+   "name": "Никольские луга",
+   "developer": "ПИК",
+   "stage_by_dossier": "продажи",
+   "zu": null,
+   "events_in_dossier": 6
+  }
+ ]
+}

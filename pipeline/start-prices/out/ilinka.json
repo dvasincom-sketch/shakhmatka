@@ -1,0 +1,30 @@
+{
+ "status": "ok",
+ "project": "Клубные особняки «Ильинка 3/8»",
+ "start": {
+  "date": "2022-06",
+  "price_m2": 2000,
+  "price_m2_kind": "from",
+  "lot_from": null,
+  "lot_desc": null,
+  "source": {
+   "title": "Новострой-М, обзор стартов продаж июня 2022: Ильинка 3/8 (Интеко) — «Стоимость 1 кв. м начинается от 2 млн рублей»",
+   "url": "https://www.novostroy-m.ru/analitika/starty_prodaj_msk_iyun22",
+   "date": "2022-06-30"
+  }
+ },
+ "now": {
+  "as_of": "2026-10-13",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 92.1,
+  "lot_desc": "студия 40,4 м² за 92 100 000 ₽ (карточка «от 92.1 млн до 1 млрд₽»)",
+  "selling": true,
+  "source": {
+   "title": "Клубные особняки «Ильинка 3/8», карточка novostroy-m.ru",
+   "url": "https://www.novostroy-m.ru/baza/apartamenty_na_ul_ilinka"
+  }
+ },
+ "note": "Расхождение со архивом: там «около 1,8 млн/м²», обзор месяца даёт «от 2 млн»; взят обзор, в таблице обзора минимальная цена лота «н/д». Застройщик теперь Sminex (ранее Интеко). Цена за м² сейчас на карточке не указана.",
+ "slug": "ilinka"
+}

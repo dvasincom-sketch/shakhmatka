@@ -1,0 +1,30 @@
+{
+ "slug": "moskvoreche",
+ "status": "ok",
+ "project": "Москворечье",
+ "start": {
+  "date": "2024-07",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 8.0,
+  "lot_desc": "'Цены - от 8 млн рублей' (таблица: 8 млн)",
+  "source": {
+   "title": "Старты продаж в июле 2024 (Новострой-М)",
+   "url": "https://www.novostroy-m.ru/analitika/starty_prodaj_moskva_iyul",
+   "date": "2024-08-01"
+  }
+ },
+ "now": {
+  "as_of": "2026-10-14",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 14.6,
+  "lot_desc": "студия 19,1 м² за 14 626 780 ₽ (в карточке 'от 14.6 млн руб')",
+  "selling": true,
+  "source": {
+   "title": "ЖК Москворечье, Новострой-М (цены от 7 октября)",
+   "url": "https://www.novostroy-m.ru/baza/arhitekturnyy_proekt_v_moskvorechesaburovo"
+  }
+ },
+ "note": "Цена за м² в карточке проекта и обзоре не указана (на одной карточке лота корпус 2.1: 513 900 ₽/м² - не минимум). Карточка общая: корпуса 1.1-1.4 и 2.1/2.3, очередь не выделена. Архив: ср. 307 тыс./м² на старте, 380-391 тыс. в 2025 - не проверено."
+}

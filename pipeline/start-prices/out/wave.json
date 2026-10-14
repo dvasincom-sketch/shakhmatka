@@ -1,0 +1,30 @@
+{
+ "slug": "wave",
+ "status": "ok",
+ "project": "ЖК Wave / «Вейв» (ЛСР, Борисовские пруды, 1)",
+ "start": {
+  "date": "2021-12",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 8.5,
+  "lot_desc": "«Начальная цена предложения - 8,5 млн рублей» (площадь не указана)",
+  "source": {
+   "title": "Группа ЛСР начала продажи (novostroy-m.ru)",
+   "url": "https://www.novostroy-m.ru/novosti/gruppa_lsr_nachala_prodaji",
+   "date": "2021-12-21"
+  }
+ },
+ "now": {
+  "as_of": "2026-10-14",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 16.6,
+  "lot_desc": "студия 22,1 м², 3 этаж (16 638 625 ₽); страница: «от 16.6 до 80.2 млн₽»",
+  "selling": true,
+  "source": {
+   "title": "ЖК Вейв, novostroy-m.ru",
+   "url": "https://www.novostroy-m.ru/baza/jk_borisovskie_prudy_1"
+  }
+ },
+ "note": "Цены за м² на старте в публикации нет (383 тыс. из архива не подтверждено). Позже: 8 млн за студию 23,6 м² по спецпредложению (08.02.2023). Сейчас: 1-я очередь сдана, 2-я - 4 кв. 2026; цена за м² не указана на странице. Яндекс.Недвижимость (смешанная выдача, включает вторичку) показывает от 12,69 млн за студию 24 м² (корпус Azure) - расхождение с novostroy-m, взят novostroy-m. Бюджет WebFetch превышен."
+}

@@ -1,0 +1,44 @@
+{
+ "slug": "tekta",
+ "name": "Tekta",
+ "objects": [
+  {
+   "name": "Ever",
+   "stage_by_dossier": "продажи",
+   "where": "Обручевский",
+   "zu": "Обручева, 23"
+  },
+  {
+   "name": "Kami",
+   "stage_by_dossier": "продажи",
+   "where": "Замоскворечье",
+   "zu": "Пыжевский, 5"
+  },
+  {
+   "name": "Twelve",
+   "stage_by_dossier": "продажи",
+   "where": "Нагорный",
+   "zu": "Электролитный, 12Б"
+  },
+  {
+   "name": "Now. Квартал на набережной",
+   "stage_by_dossier": "продажи",
+   "where": null,
+   "zu": null
+  },
+  {
+   "name": "NOW",
+   "stage_by_dossier": "продажи",
+   "where": null,
+   "zu": null
+  },
+  {
+   "name": "Рублевская Ривьера",
+   "stage_by_dossier": "проект",
+   "where": null,
+   "zu": "3-я Черепковская, 15/А"
+  }
+ ],
+ "confirmed_deals": [],
+ "checked_articles": []
+}

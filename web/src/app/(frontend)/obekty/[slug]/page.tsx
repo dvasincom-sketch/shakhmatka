@@ -1,3 +1,4 @@
+import { monthGen } from '@/lib/months'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
@@ -7,8 +8,11 @@ import { ArticleCard, SITE, STAGES, StageTrack, devName } from '@/lib/ui'
 import type { Developer, Media, Object as Obj } from '@/payload-types'
 import { pub } from '@/lib/public'
 import { CLASS_LABELS, districtName, priceText, regionName } from '@/lib/geo'
+import { START_PRICES } from '@/lib/start-prices'
 import { typo } from '@/lib/markdown'
 import { JsonLd } from '@/lib/jsonld'
+import { getUser } from '@/lib/auth'
+import { GalleryEditor } from '@/lib/staff'
 
 // Страницы собираются на запрос: в Docker-сборке нет доступа к базе, а данные должны быть свежими
 export const dynamic = 'force-dynamic'
@@ -54,17 +58,20 @@ export default async function ObjectPage({ params }: { params: Promise<{ slug: s
   const d = await load((await params).slug)
   if (!d) notFound()
   const { o, arts, place } = d
+  const user = await getUser()
   const dev = o.developer as Developer | undefined
   const prev = (o.previousDevelopers || []) as Developer[]
   const i = STAGES.findIndex((s) => s.value === o.stage)
   const gallery = ((o.gallery || []) as Media[]).filter((m) => m?.url)
   const hero = gallery[0] || (arts.find((a) => a.heroImage)?.heroImage as Media | undefined)
   const price = priceText(o)
+  const sp = START_PRICES.find((r) => r.slug === o.slug)
   const where = place?.name || (o.region === 'moscow' ? districtName(o.district) || 'Москва' : regionName(o.region))
   const timeline = [...(o.timeline || [])].sort((a, b) => +new Date(a.date) - +new Date(b.date))
   const years = [...new Set(timeline.map((t) => (t.dateLabel && /до/.test(t.dateLabel) ? t.dateLabel : String(year(t.date)))))]
   const firstSale = timeline.find((t) => t.kind === 'sales' && /старт/i.test(t.title))
   const neighbors = o.neighbors || []
+  const owners = o.owners || []
   const signals = timeline.filter((t) => t.certainty === 'signal')
   const confirmed = signals.filter((t) => t.confirmedOn).length
 
@@ -103,6 +110,7 @@ export default async function ObjectPage({ params }: { params: Promise<{ slug: s
           <dl className="ofacts card">
             {price ? <div><dt>Цена</dt><dd>{price}</dd>{o.priceAsOf ? <small>{o.priceAsOf}</small> : null}</div> : null}
             {!price && firstSale ? <div><dt>В продаже</dt><dd>с {MONTHS[new Date(firstSale.date).getUTCMonth()]} {year(firstSale.date)}</dd><small>старт продаж</small></div> : null}
+            {sp ? <div><dt>На старте → сейчас</dt><dd><Link href="/ceny-na-starte/">{sp.changePct > 0 ? '+' : ''}{Math.round(sp.changePct)}%</Link></dd><small>от {sp.start.lot_from.toLocaleString('ru-RU')} → от {sp.now.lot_from.toLocaleString('ru-RU')} млн ₽ с {sp.start.date.slice(0, 4)} года</small></div> : null}
             {o.completion ? <div><dt>Ввод</dt><dd>{o.completion}</dd></div> : null}
             {o.class ? <div><dt>Класс</dt><dd>{CLASS_LABELS[o.class] || o.class}</dd></div> : null}
             <div><dt>Где</dt><dd>{place ? <Link href={`/novostroyki/${place.slug}/`}>{where}</Link> : where}</dd>{o.region === 'moscow' && o.district ? <small>{place?.okrug ? `${place.okrug}, ` : ''}Москва</small> : null}</div>
@@ -115,12 +123,32 @@ export default async function ObjectPage({ params }: { params: Promise<{ slug: s
             <figure className="fig obj-fig"><img src={hero.url} alt={hero.alt} width={hero.width || undefined} height={hero.height || undefined} />{hero.caption ? <figcaption>{hero.caption}</figcaption> : null}</figure>
             {gallery.length > 1 ? (
               <div className="thumbs" aria-label="Фото проекта">
-                {gallery.slice(1, 6).map((m) => <a key={m.id} href={m.url!} target="_blank" rel="noopener"><img src={m.url!} alt={m.alt} loading="lazy" /></a>)}
+                {gallery.slice(1, 6).map((m) => <a key={m.id} href={m.url!} target="_blank" rel="noopener"><img src={m.sizes?.card?.url || m.url!} alt={m.alt} loading="lazy" /></a>)}
               </div>
             ) : null}
           </div>
         ) : null}
       </div>
+
+      {owners.length ? (
+        <section className="sec" aria-labelledby="h-own">
+          <div className="sec-h"><h2 id="h-own" className="tt">Собственники<span>как менялся застройщик</span></h2></div>
+          <ol className="owners">
+            {owners.map((w, k) => {
+              const d = w.developer as Developer | undefined
+              const now = k === owners.length - 1 && !w.until
+              return (
+                <li key={w.id} className={`card${now ? ' now' : ''}`}>
+                  <p className="ow-when">{[w.since && `с ${monthGen(w.since)}`, w.until && `по ${w.until}`].filter(Boolean).join(' ') || (now ? 'сейчас' : '')}{now ? <span className="pill sun">сейчас</span> : null}</p>
+                  <p className="ow-who">{d?.slug ? <Link href={`/zastroyshchiki/${d.slug}/`}>{devName(d.name)}</Link> : devName(d?.name)}</p>
+                  {w.how ? <p className="ow-how">{typo(w.how)}</p> : null}
+                  {w.source?.startsWith('http') ? <a className="ow-src" href={w.source} target="_blank" rel="noopener">источник</a> : null}
+                </li>
+              )
+            })}
+          </ol>
+        </section>
+      ) : null}
 
       {timeline.length ? (
         <section className="sec" aria-labelledby="h-tl">
@@ -140,10 +168,11 @@ export default async function ObjectPage({ params }: { params: Promise<{ slug: s
                           <span className="tl-kind">{KIND[t.kind || 'other']}</span>
                           {t.certainty === 'signal' ? <span className="tl-sig">Сигнал</span> : null}
                           {t.confirmedOn ? <span className="tl-conf">подтвердилось: {monthYear(t.confirmedOn)}</span> : null}
+                          {t.outcome ? <span className="tl-unc">{t.outcome === 'refuted' ? 'опровергнуто' : 'не подтвердилось'}{t.checkedOn ? ` на ${monthYear(t.checkedOn).replace(/^\S+/, (m) => m)}` : ''}</span> : null}
                           {t.verified ? <span className="tl-ok">сверено</span> : null}
                         </div>
                         <div className="tl-body">
-                          <p className="tl-t">{typo(t.title)}</p>
+                          <p className="tl-t">{t.outcome ? <span className="tl-said">Участники рынка говорили: </span> : null}{typo(t.title)}</p>
                           {t.text ? <p className="tl-x">{typo(t.text)}</p> : null}
                           {im?.url ? <figure className="tl-fig"><img src={im.url} alt={im.alt} loading="lazy" />{im.caption ? <figcaption>{im.caption}</figcaption> : null}</figure> : null}
                         </div>
@@ -185,6 +214,11 @@ export default async function ObjectPage({ params }: { params: Promise<{ slug: s
           <div className="sec-h"><h2 className="tt">Материалы<span>об объекте</span></h2></div>
           <div className="a-grid">{arts.map((a) => <ArticleCard key={a.id} a={a} />)}</div>
         </section>
+      ) : null}
+      {user ? (
+        <div className="sec" id="foto">
+          <GalleryEditor objectId={o.id} objectName={o.name} items={gallery.map((m) => ({ id: m.id, url: m.url!, alt: m.alt, caption: m.caption }))} />
+        </div>
       ) : null}
       <section className="sec">
         <div className="sec-h"><h2 className="tt">Суды<span>и исполнительные производства</span></h2></div>

@@ -1,0 +1,32 @@
+{
+ "slug": "kr-properties",
+ "name": "KR Properties",
+ "objects": [
+  {
+   "name": "DM Tower",
+   "stage_by_dossier": "сдан",
+   "where": "Даниловский",
+   "zu": null
+  },
+  {
+   "name": "Мюр и Мерилиз",
+   "stage_by_dossier": "продажи",
+   "where": "Пресненский",
+   "zu": "Столярный, 3к6"
+  },
+  {
+   "name": "Рассвет",
+   "stage_by_dossier": "продажи",
+   "where": "Пресненский",
+   "zu": "Столярный, 3 корп. 12"
+  },
+  {
+   "name": "Королев",
+   "stage_by_dossier": "продажи",
+   "where": "Пресненский",
+   "zu": null
+  }
+ ],
+ "confirmed_deals": [],
+ "checked_articles": []
+}

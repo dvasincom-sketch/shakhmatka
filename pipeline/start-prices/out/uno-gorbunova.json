@@ -1,0 +1,19 @@
+{
+ "slug": "uno-gorbunova",
+ "status": "partial",
+ "project": "UNO.Горбунова",
+ "start": null,
+ "now": {
+  "as_of": "2026-10-14",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 14.5,
+  "lot_desc": "1-комн. 28,49 м² за 14 472 920 ₽ ('от 14.5 млн')",
+  "selling": true,
+  "source": {
+   "title": "ЖК UNO.Горбунова, Новострой-М (цены от 13 октября)",
+   "url": "https://www.novostroy-m.ru/baza/arhitekturnyy_proekt_uno_v"
+  }
+ },
+ "note": "Старт не подтверждён: в обзорах стартов novostroy-m за март, апрель, май, июнь, июль, август 2025 проекта нет; других публикаций о старте не найдено. Цена за м² в карточке не указана."
+}

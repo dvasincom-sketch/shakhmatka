@@ -1,0 +1,36 @@
+{
+ "key": "khoroshevskiy",
+ "name": "Хорошёвский",
+ "nameIn": "в Хорошёвском районе",
+ "okrug": "САО",
+ "slug": "khoroshevskiy",
+ "url": "/novostroyki/khoroshevskiy/",
+ "objects": [
+  {
+   "name": "Красная Пресня",
+   "url": "/obekty/krasnaya-presnya/",
+   "developer": "Sezar Group",
+   "summary": "«Красная Пресня» — проект застройщика Sezar Group на участке «2-й Хорошевский, 7» (район Хорошёвский). В досье 10 событий с 2021 по 2025 год, из них 3 — сигнала до официальных новостей.",
+   "stage": "sales",
+   "zu": "2-й Хорошевский, 7",
+   "articles": []
+  },
+  {
+   "name": "Хорошевское, 39",
+   "url": "/obekty/khoroshevskoe-39/",
+   "developer": "RDI",
+   "summary": "«Хорошевское, 39» — проект застройщика RDI (район Хорошёвский). В досье 8 событий с 2022 по 2024 год, из них 2 — сигнала до официальных новостей.",
+   "stage": "architecture",
+   "zu": "Хорошевское, 39",
+   "articles": []
+  },
+  {
+   "name": "Ходынка",
+   "url": "/obekty/khodynka/",
+   "developer": "Stone",
+   "summary": "«Ходынка» — проект застройщика Stone (район Хорошёвский). В досье 10 событий с 2023 по 2024 год, из них 3 — сигнала до официальных новостей.",
+   "stage": "sales",
+   "articles": []
+  }
+ ]
+}

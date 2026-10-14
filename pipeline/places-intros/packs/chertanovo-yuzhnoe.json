@@ -1,0 +1,18 @@
+{
+ "key": "chertanovo-yuzhnoe",
+ "name": "Чертаново Южное",
+ "nameIn": "в районе Чертаново Южное",
+ "okrug": "ЮАО",
+ "slug": "chertanovo-yuzhnoe",
+ "url": "/novostroyki/chertanovo-yuzhnoe/",
+ "objects": [
+  {
+   "name": "Красный строитель",
+   "url": "/obekty/krasnyy-stroitel/",
+   "developer": "А101",
+   "summary": "«Красный строитель» — проект застройщика А101 (район Чертаново Южное). В досье 3 события с 2022 по 2023 год.",
+   "stage": "land",
+   "articles": []
+  }
+ ]
+}

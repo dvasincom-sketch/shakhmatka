@@ -1,0 +1,30 @@
+{
+ "slug": "sokolinn-park",
+ "status": "ok",
+ "project": "Sokolinn Park (Соколин парк)",
+ "start": {
+  "date": "2025-02",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 19.3,
+  "lot_desc": "студия 29 м²",
+  "source": {
+   "title": "Старты продаж февраль 2025 (novostroy-m.ru)",
+   "url": "https://www.novostroy-m.ru/analitika/starty_prodaj_fevral_2025",
+   "date": "2025-02-28"
+  }
+ },
+ "now": {
+  "as_of": "2026-10-14",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 22.6,
+  "lot_desc": "1-комн. 28,1 м², 2 этаж",
+  "selling": true,
+  "source": {
+   "title": "ЖК Соколин парк, карточка novostroy-m.ru",
+   "url": "https://www.novostroy-m.ru/baza/jk_3ya_grajdanskaya_vl"
+  }
+ },
+ "note": "Цены в обзоре и карточке: только лоты, цена за м2 на страницах не указана. Цены карточки на 10-12 окт 2026. Расхождение: страница отдельного лота (28,1 м², 2 этаж) показывала 21 479 331 руб. на 12 окт против 22 609 810 руб. в шапке карточки; взята шапка. Цифра 534 тыс./м2 из архива в источниках не подтверждена."
+}

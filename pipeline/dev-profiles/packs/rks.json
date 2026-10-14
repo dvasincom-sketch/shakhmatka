@@ -1,0 +1,32 @@
+{
+ "slug": "rks",
+ "name": "РКС",
+ "objects": [
+  {
+   "name": "Инсайдер",
+   "stage_by_dossier": "продажи",
+   "where": "Даниловский",
+   "zu": "Автозаводская, 24"
+  },
+  {
+   "name": "Бауманская, 53",
+   "stage_by_dossier": "участок",
+   "where": "Басманный",
+   "zu": "Бауманская, 53"
+  },
+  {
+   "name": "Нахабино",
+   "stage_by_dossier": "проект",
+   "where": "moskovskaya-oblast",
+   "zu": null
+  },
+  {
+   "name": "Булатниково",
+   "stage_by_dossier": "проект",
+   "where": "moskovskaya-oblast",
+   "zu": null
+  }
+ ],
+ "confirmed_deals": [],
+ "checked_articles": []
+}

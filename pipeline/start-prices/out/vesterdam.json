@@ -1,0 +1,30 @@
+{
+ "slug": "vesterdam",
+ "status": "ok",
+ "project": "Вестердам",
+ "start": {
+  "date": "2019-06",
+  "price_m2": 145,
+  "price_m2_kind": "from",
+  "lot_from": 5.8,
+  "lot_desc": "от 5,8 млн руб. за лот; стартовал корпус 6",
+  "source": {
+   "title": "РБК Недвижимость, новости компаний, 19 июн 2019",
+   "url": "https://realty.rbc.ru/news/5d08e9919a7947c87e7553ed",
+   "date": "2019-06-19"
+  }
+ },
+ "now": {
+  "as_of": "2026-10-14",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": null,
+  "lot_desc": null,
+  "selling": false,
+  "source": {
+   "title": "ЖК Вестердам, novostroy-m.ru",
+   "url": "https://novostroy-m.ru/baza/jk_vesterdam"
+  }
+ },
+ "note": "Комплекс сдан (корпуса 1-6), 'Нет в продаже квартир от застройщика'; в продаже только машиноместа. Архив называл 155 тыс. - РБК: 'цена 1 кв. м стартует с 145 тыс.'. Дата на странице карточки не указана."
+}

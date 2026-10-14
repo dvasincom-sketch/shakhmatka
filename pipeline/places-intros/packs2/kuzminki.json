@@ -1,0 +1,36 @@
+{
+ "key": "kuzminki",
+ "name": "Кузьминки",
+ "nameIn": "в Кузьминках",
+ "okrug": "ЮВАО",
+ "objects": [
+  {
+   "name": "Академика Скрябина, 21",
+   "developer": "СтройМир",
+   "stage_by_dossier": "проект",
+   "zu": "Академика Скрябина, 21",
+   "events_in_dossier": 5
+  },
+  {
+   "name": "Волгоградский, 130",
+   "developer": "ПИК",
+   "stage_by_dossier": "участок",
+   "zu": "Волгоградский, 130",
+   "events_in_dossier": 4
+  },
+  {
+   "name": "Пушкарев, 12",
+   "developer": "Foresight development",
+   "stage_by_dossier": "продажи",
+   "zu": "Пушкарев, 12",
+   "events_in_dossier": 4
+  },
+  {
+   "name": "NOON",
+   "developer": "Dominanta",
+   "stage_by_dossier": "проект",
+   "zu": "Окская, 9",
+   "events_in_dossier": 3
+  }
+ ]
+}

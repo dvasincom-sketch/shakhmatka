@@ -1,0 +1,28 @@
+{
+ "key": "nagornyy",
+ "name": "Нагорный",
+ "nameIn": "в Нагорном районе",
+ "okrug": "ЮАО",
+ "slug": "nagornyy",
+ "url": "/novostroyki/nagornyy/",
+ "objects": [
+  {
+   "name": "Электролитный, 7А",
+   "url": "/obekty/elektrolitnyy-7a/",
+   "developer": "AVA",
+   "summary": "«Электролитный, 7А» — проект застройщика AVA (район Нагорный). В досье 4 события с 2019 по 2023 год, из них 1 — сигнал до официальных новостей.",
+   "stage": "architecture",
+   "zu": "Электролитный, 7А",
+   "articles": []
+  },
+  {
+   "name": "Twelve",
+   "url": "/obekty/twelve/",
+   "developer": "Tekta",
+   "summary": "«Twelve» — проект застройщика Tekta на участке «Электролитный, 12Б» (район Нагорный). В досье 5 событий с 2018 по 2023 год.",
+   "stage": "sales",
+   "zu": "Электролитный, 12Б",
+   "articles": []
+  }
+ ]
+}

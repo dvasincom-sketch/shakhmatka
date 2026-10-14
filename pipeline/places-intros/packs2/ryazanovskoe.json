@@ -1,0 +1,15 @@
+{
+ "key": "ryazanovskoe",
+ "name": "Рязановское",
+ "nameIn": "в районе Рязановское",
+ "okrug": "НАО",
+ "objects": [
+  {
+   "name": "Рязановское",
+   "developer": "Самолёт",
+   "stage_by_dossier": "проект",
+   "zu": null,
+   "events_in_dossier": 4
+  }
+ ]
+}

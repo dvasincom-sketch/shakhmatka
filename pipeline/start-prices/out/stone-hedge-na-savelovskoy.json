@@ -1,0 +1,19 @@
+{
+  "slug": "stone-hedge-na-savelovskoy",
+  "status": "unverifiable",
+  "project": "Бизнес-центр STONE Савеловская (STONE HEDGE)",
+  "start": null,
+  "now": {
+    "as_of": "2026-10-14",
+    "price_m2": null,
+    "price_m2_kind": null,
+    "lot_from": 443.34125,
+    "lot_desc": "офис, 9 помещений от 848,5 до 1825 м² в продаже",
+    "selling": true,
+    "source": {
+      "title": "Бизнес-центр Stone Савеловская, продажа (novostroy-m.ru)",
+      "url": "https://www.novostroy-m.ru/commerce/novostroyka/biznestsentr_stone_savelovskaya_stoun/sale"
+    }
+  },
+  "note": "Проект - офисный БЦ класса А, не жилой. РБК 28.12.2021: вывод на рынок в 1 полугодии 2021, продажи открыты, цен нет. Цены старта не найдено. Мин. лот 443,3 млн - лот, видимо, 848,5 м2; цена за м2 не указана. Страница без явной даты."
+}

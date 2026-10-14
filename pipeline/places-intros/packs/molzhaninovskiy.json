@@ -1,0 +1,18 @@
+{
+ "key": "molzhaninovskiy",
+ "name": "Молжаниновский",
+ "nameIn": "в Молжаниновском районе",
+ "okrug": "САО",
+ "slug": "molzhaninovskiy",
+ "url": "/novostroyki/molzhaninovskiy/",
+ "objects": [
+  {
+   "name": "Молжаниново",
+   "url": "/obekty/molzhaninovo/",
+   "developer": "Самолёт",
+   "summary": "«Молжаниново» — проект застройщика Самолёт (район Молжаниновский). В досье 8 событий с 2020 по 2026 год, из них 1 — сигнал до официальных новостей.",
+   "stage": "sales",
+   "articles": []
+  }
+ ]
+}

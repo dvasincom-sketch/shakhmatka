@@ -1,0 +1,425 @@
+{
+ "batch": 4,
+ "units": [
+  {
+   "unit": 34958,
+   "notes": [
+    34958
+   ],
+   "dossier": "demidov-26",
+   "developer": "otrada",
+   "date": "2026-07-09",
+   "images": 0
+  },
+  {
+   "unit": 35891,
+   "notes": [
+    35891
+   ],
+   "dossier": "kompleks-obshchezhitiy-krasnoy-professury",
+   "developer": "capital-group",
+   "date": "2026-09-24",
+   "images": 7
+  },
+  {
+   "unit": 31469,
+   "notes": [
+    31469
+   ],
+   "dossier": "2-ya-zvenigorodskaya-13",
+   "developer": "ultima-development",
+   "date": "2025-10-10",
+   "images": 7
+  },
+  {
+   "unit": 34297,
+   "notes": [
+    34297
+   ],
+   "dossier": "icity",
+   "developer": "mr-group",
+   "date": "2026-05-18",
+   "images": 3
+  },
+  {
+   "unit": 31678,
+   "notes": [
+    31678
+   ],
+   "dossier": "salarevo-park",
+   "developer": "pik",
+   "date": "2025-10-28",
+   "images": 6
+  },
+  {
+   "unit": 33112,
+   "notes": [
+    33112
+   ],
+   "dossier": "kristall",
+   "developer": "asterus",
+   "date": "2026-02-16",
+   "images": 3
+  },
+  {
+   "unit": 35213,
+   "notes": [
+    35213
+   ],
+   "dossier": "26-parkvyu",
+   "developer": "mr-group",
+   "date": "2026-07-29",
+   "images": 0
+  },
+  {
+   "unit": 26394,
+   "notes": [
+    26394
+   ],
+   "dossier": "mira",
+   "developer": "mr-group",
+   "date": "2024-10-29",
+   "images": 0
+  },
+  {
+   "unit": 34233,
+   "notes": [
+    34233
+   ],
+   "dossier": "lyublinskiy-park",
+   "developer": "pik",
+   "date": "2026-05-12",
+   "images": 1
+  },
+  {
+   "unit": 32855,
+   "notes": [
+    32855
+   ],
+   "dossier": "tpu-minskaya",
+   "developer": "bms-development",
+   "date": "2026-01-21",
+   "images": 3
+  },
+  {
+   "unit": 32553,
+   "notes": [
+    32553
+   ],
+   "dossier": "vorontsov",
+   "developer": "sun-development",
+   "date": "2025-12-20",
+   "images": 4
+  },
+  {
+   "unit": 21704,
+   "notes": [
+    21704
+   ],
+   "dossier": "shift",
+   "developer": "pioner",
+   "date": "2024-02-05",
+   "images": 0
+  },
+  {
+   "unit": 22995,
+   "notes": [
+    22995
+   ],
+   "dossier": "siti-2",
+   "developer": "strana",
+   "date": "2024-04-18",
+   "images": 1
+  },
+  {
+   "unit": 24101,
+   "notes": [
+    24101
+   ],
+   "dossier": "perovskiy-54",
+   "developer": "glorax",
+   "date": "2024-06-18",
+   "images": 4
+  },
+  {
+   "unit": 25514,
+   "notes": [
+    25514
+   ],
+   "dossier": "tpu-michurinskiy-prospekt",
+   "developer": "level-group",
+   "date": "2024-09-13",
+   "images": 10
+  },
+  {
+   "unit": 28448,
+   "notes": [
+    28448
+   ],
+   "dossier": "kombinat-gazety-pravda",
+   "developer": "dars",
+   "date": "2025-03-19",
+   "images": 9
+  },
+  {
+   "unit": 34647,
+   "notes": [
+    34647
+   ],
+   "dossier": "sense",
+   "developer": "pioner",
+   "date": "2026-06-18",
+   "images": 8
+  },
+  {
+   "unit": 27553,
+   "notes": [
+    27553
+   ],
+   "dossier": "zil-vostok",
+   "developer": "lsr",
+   "date": "2025-01-23",
+   "images": 8
+  },
+  {
+   "unit": 26600,
+   "notes": [
+    26600
+   ],
+   "dossier": "veshnikh-vod-8",
+   "developer": "kapitalisty",
+   "date": "2024-11-11",
+   "images": 8
+  },
+  {
+   "unit": 28938,
+   "notes": [
+    28938
+   ],
+   "dossier": "vagonoremont",
+   "developer": "osnova",
+   "date": "2025-04-18",
+   "images": 5
+  },
+  {
+   "unit": 21517,
+   "notes": [
+    21517
+   ],
+   "dossier": "dom-7-danilovskiy",
+   "developer": "coldy",
+   "date": "2024-01-23",
+   "images": 5
+  },
+  {
+   "unit": 22952,
+   "notes": [
+    22952
+   ],
+   "dossier": "shlyuzovaya-2",
+   "developer": "gals",
+   "date": "2024-04-17",
+   "images": 8
+  },
+  {
+   "unit": 23930,
+   "notes": [
+    23930
+   ],
+   "dossier": "kotlyakovskaya-4",
+   "developer": "dogma",
+   "date": "2024-06-11",
+   "images": 10
+  },
+  {
+   "unit": 27598,
+   "notes": [
+    27598
+   ],
+   "dossier": "kobzon-city",
+   "developer": "october-group",
+   "date": "2025-01-28",
+   "images": 4
+  },
+  {
+   "unit": 28291,
+   "notes": [
+    28291
+   ],
+   "dossier": "tatum",
+   "developer": "forma",
+   "date": "2025-03-06",
+   "images": 4
+  },
+  {
+   "unit": 28622,
+   "notes": [
+    28622
+   ],
+   "dossier": "svet",
+   "developer": "dominanta",
+   "date": "2025-03-31",
+   "images": 8
+  },
+  {
+   "unit": 28634,
+   "notes": [
+    28634
+   ],
+   "dossier": "uno-gorbunova",
+   "developer": "osnova",
+   "date": "2025-04-01",
+   "images": 8
+  },
+  {
+   "unit": 29336,
+   "notes": [
+    29336
+   ],
+   "dossier": "hideout",
+   "developer": "dominanta",
+   "date": "2025-05-15",
+   "images": 0
+  },
+  {
+   "unit": 31463,
+   "notes": [
+    31463
+   ],
+   "dossier": "kuskovskaya-12",
+   "developer": "pik",
+   "date": "2025-10-10",
+   "images": 6
+  },
+  {
+   "unit": 32526,
+   "notes": [
+    32526
+   ],
+   "dossier": "enigmiya",
+   "developer": "upside",
+   "date": "2025-12-17",
+   "images": 7
+  },
+  {
+   "unit": 34143,
+   "notes": [
+    34143
+   ],
+   "dossier": "mnevniki-8",
+   "developer": "r4s",
+   "date": "2026-05-04",
+   "images": 0
+  },
+  {
+   "unit": 28259,
+   "notes": [
+    28259
+   ],
+   "dossier": "volgogradskiy-32",
+   "developer": "granel",
+   "date": "2025-03-05",
+   "images": 7
+  },
+  {
+   "unit": 27382,
+   "notes": [
+    27382
+   ],
+   "dossier": "kvartal-gertsena",
+   "developer": "brusnika",
+   "date": "2025-01-10",
+   "images": 7
+  },
+  {
+   "unit": 22556,
+   "notes": [
+    22556
+   ],
+   "dossier": "rozhdestvenka-8",
+   "developer": "gals",
+   "date": "2024-03-25",
+   "images": 3
+  },
+  {
+   "unit": 23789,
+   "notes": [
+    23789
+   ],
+   "dossier": "krt-ogorodnyy-proezd-proekt-2",
+   "developer": "granel",
+   "date": "2024-06-04",
+   "images": 10
+  },
+  {
+   "unit": 25712,
+   "notes": [
+    25712
+   ],
+   "dossier": "stantsiya-l",
+   "developer": "seven-suns-development",
+   "date": "2024-09-24",
+   "images": 2
+  },
+  {
+   "unit": 27511,
+   "notes": [
+    27511
+   ],
+   "dossier": "meteor",
+   "developer": "capital-group",
+   "date": "2025-01-22",
+   "images": 6
+  },
+  {
+   "unit": 27698,
+   "notes": [
+    27698
+   ],
+   "dossier": "proektiruemyy-4062-y-8",
+   "developer": "uez",
+   "date": "2025-01-31",
+   "images": 10
+  },
+  {
+   "unit": 27856,
+   "notes": [
+    27856
+   ],
+   "dossier": "sokolinn-park",
+   "developer": "etalon",
+   "date": "2025-02-12",
+   "images": 0
+  },
+  {
+   "unit": 31044,
+   "notes": [
+    31044
+   ],
+   "dossier": "soul-yuzhnoportovaya-42",
+   "developer": "forma",
+   "date": "2025-09-10",
+   "images": 6
+  },
+  {
+   "unit": 31140,
+   "notes": [
+    31140
+   ],
+   "dossier": "your-majesty",
+   "developer": "transstroyinvest",
+   "date": "2025-09-17",
+   "images": 5
+  },
+  {
+   "unit": 32976,
+   "notes": [
+    32976
+   ],
+   "dossier": "torzhok",
+   "developer": "brusnika",
+   "date": "2026-02-03",
+   "images": 3
+  }
+ ]
+}

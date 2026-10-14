@@ -1,0 +1,36 @@
+{
+ "key": "yuzhnoe-butovo",
+ "name": "Южное Бутово",
+ "nameIn": "в районе Южное Бутово",
+ "okrug": "ЮЗАО",
+ "objects": [
+  {
+   "name": "Краснолиманская, 19А",
+   "developer": "ДОМ.РФ",
+   "stage_by_dossier": "участок",
+   "zu": "Краснолиманская, 19А",
+   "events_in_dossier": 8
+  },
+  {
+   "name": "Лесопарковый",
+   "developer": "Инград",
+   "stage_by_dossier": "продажи",
+   "zu": null,
+   "events_in_dossier": 4
+  },
+  {
+   "name": "Варшавское шоссе, 170е",
+   "developer": "РГ",
+   "stage_by_dossier": null,
+   "zu": "Варшавское шоссе, 170е",
+   "events_in_dossier": 3
+  },
+  {
+   "name": "Бутовский комбинат",
+   "developer": null,
+   "stage_by_dossier": "проект",
+   "zu": "2-я Мелитопольская, 4-А",
+   "events_in_dossier": 3
+  }
+ ]
+}

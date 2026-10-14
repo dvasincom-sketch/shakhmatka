@@ -1,0 +1,22 @@
+{
+ "key": "yuzhnoe-medvedkovo",
+ "name": "Южное Медведково",
+ "nameIn": "в районе Южное Медведково",
+ "okrug": "СВАО",
+ "objects": [
+  {
+   "name": "Полар",
+   "developer": "ПИК",
+   "stage_by_dossier": "продажи",
+   "zu": "Полярная, 39",
+   "events_in_dossier": 9
+  },
+  {
+   "name": "Вилюйская, 3",
+   "developer": "MR Group",
+   "stage_by_dossier": "участок",
+   "zu": "Вилюйская, 3",
+   "events_in_dossier": 4
+  }
+ ]
+}

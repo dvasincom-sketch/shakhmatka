@@ -1,0 +1,19 @@
+{
+ "key": "bibirevo",
+ "name": "Бибирево",
+ "nameIn": "в районе Бибирево",
+ "okrug": "СВАО",
+ "slug": "bibirevo",
+ "url": "/novostroyki/bibirevo/",
+ "objects": [
+  {
+   "name": "Clementine",
+   "url": "/obekty/clementine/",
+   "developer": "СМУ-6",
+   "summary": "«Clementine» — проект застройщика СМУ-6 на участке «Корнейчука, 27» (район Бибирево). В досье 4 события с 2020 по 2022 год, из них 1 — сигнал до официальных новостей.",
+   "stage": "sales",
+   "zu": "Корнейчука, 27",
+   "articles": []
+  }
+ ]
+}

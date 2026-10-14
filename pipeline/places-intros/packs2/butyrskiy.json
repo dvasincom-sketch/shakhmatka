@@ -1,0 +1,29 @@
+{
+ "key": "butyrskiy",
+ "name": "Бутырский",
+ "nameIn": "в Бутырском районе",
+ "okrug": "СВАО",
+ "objects": [
+  {
+   "name": "Upside Towers",
+   "developer": "СМУ-6",
+   "stage_by_dossier": "продажи",
+   "zu": "Огородный, 2-4",
+   "events_in_dossier": 7
+  },
+  {
+   "name": "КРТ Огородный проезд (проект 2)",
+   "developer": "Гранель",
+   "stage_by_dossier": "проект",
+   "zu": "Складочная, 1",
+   "events_in_dossier": 5
+  },
+  {
+   "name": "Огородный проезд",
+   "developer": "Крост",
+   "stage_by_dossier": "участок",
+   "zu": null,
+   "events_in_dossier": 3
+  }
+ ]
+}

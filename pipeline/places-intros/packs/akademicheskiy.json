@@ -1,0 +1,19 @@
+{
+ "key": "akademicheskiy",
+ "name": "Академический",
+ "nameIn": "в Академическом районе",
+ "okrug": "ЮЗАО",
+ "slug": "akademicheskiy",
+ "url": "/novostroyki/akademicheskiy/",
+ "objects": [
+  {
+   "name": "Академическая",
+   "url": "/obekty/akademicheskaya/",
+   "developer": "Level Group",
+   "summary": "«Академическая» — проект застройщика Level Group на участке «Профсоюзная, 2/22» (район Академический). В досье 14 событий с 2020 по 2023 год, из них 4 — сигнала до официальных новостей.",
+   "stage": "sales",
+   "zu": "Профсоюзная, 2/22",
+   "articles": []
+  }
+ ]
+}

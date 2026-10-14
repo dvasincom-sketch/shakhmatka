@@ -1,0 +1,26 @@
+{
+ "slug": "uez",
+ "name": "УЭЗ",
+ "objects": [
+  {
+   "name": "Проектируемый 4062-й, 8",
+   "stage_by_dossier": "концепция",
+   "where": null,
+   "zu": "Проектируемый 4062-й, 8"
+  },
+  {
+   "name": "Will Towers",
+   "stage_by_dossier": "проект",
+   "where": null,
+   "zu": null
+  },
+  {
+   "name": "Кременчугская, 19",
+   "stage_by_dossier": "участок",
+   "where": null,
+   "zu": "Кременчугская, 19"
+  }
+ ],
+ "confirmed_deals": [],
+ "checked_articles": []
+}

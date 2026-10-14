@@ -1,0 +1,38 @@
+{
+ "slug": "vesper",
+ "name": "Vesper",
+ "objects": [
+  {
+   "name": "Lucky",
+   "stage_by_dossier": "сдан",
+   "where": "Донской",
+   "zu": "Шаболовка, 31"
+  },
+  {
+   "name": "Vesper",
+   "stage_by_dossier": "проект",
+   "where": "Хамовники",
+   "zu": "Бережковская, 20"
+  },
+  {
+   "name": "Погодинская, 24",
+   "stage_by_dossier": "продажи",
+   "where": "Хамовники",
+   "zu": "Погодинская, 24"
+  },
+  {
+   "name": "Brodsky",
+   "stage_by_dossier": "продажи",
+   "where": "Хамовники",
+   "zu": null
+  },
+  {
+   "name": "Левенсона",
+   "stage_by_dossier": "продажи",
+   "where": "Пресненский",
+   "zu": null
+  }
+ ],
+ "confirmed_deals": [],
+ "checked_articles": []
+}

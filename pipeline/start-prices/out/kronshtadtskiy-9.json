@@ -1,0 +1,19 @@
+{
+ "slug": "kronshtadtskiy-9",
+ "status": "partial",
+ "project": "Кронштадтский 9",
+ "start": null,
+ "now": {
+  "as_of": "2026-10-14",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 16.62,
+  "lot_desc": "студия 25,00 м²",
+  "selling": true,
+  "source": {
+   "title": "ЖК Кронштадтский 9, novostroy-m",
+   "url": "https://www.novostroy-m.ru/baza/jk_kronshtadtskiy_9"
+  }
+ },
+ "note": "Старт октября 2020 не подтверждён (обзор novostroy-m за октябрь 2020 не открылся, в выдаче источников старта нет). Сейчас: 110 квартир, цены от 11 октября; заголовок карточки 'от 18 до 40,2 млн', но в списке студия 25 м² за 16 622 500 руб. - взят лот из списка. Цены за м² на карточке нет."
+}

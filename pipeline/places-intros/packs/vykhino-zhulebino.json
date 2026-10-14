@@ -1,0 +1,19 @@
+{
+ "key": "vykhino-zhulebino",
+ "name": "Выхино-Жулебино",
+ "nameIn": "в районе Выхино-Жулебино",
+ "okrug": "ЮВАО",
+ "slug": "vykhino-zhulebino",
+ "url": "/novostroyki/vykhino-zhulebino/",
+ "objects": [
+  {
+   "name": "КРТ Выхино",
+   "url": "/obekty/krt-vykhino/",
+   "developer": "Аквилон",
+   "summary": "«КРТ Выхино» — проект застройщика Аквилон на участке «Ферганская, 8» (район Выхино-Жулебино). В досье 4 события с 2023 по 2026 год.",
+   "stage": "architecture",
+   "zu": "Ферганская, 8",
+   "articles": []
+  }
+ ]
+}

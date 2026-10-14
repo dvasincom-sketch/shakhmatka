@@ -1,0 +1,15 @@
+{
+ "key": "cheremushki",
+ "name": "Черёмушки",
+ "nameIn": "в районе Черёмушки",
+ "okrug": "ЮЗАО",
+ "objects": [
+  {
+   "name": "Вавилова, 64/1",
+   "developer": "Сити-21",
+   "stage_by_dossier": "разрешение на строительство",
+   "zu": "Вавилова, 64/1",
+   "events_in_dossier": 5
+  }
+ ]
+}

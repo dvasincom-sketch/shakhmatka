@@ -1,0 +1,19 @@
+{
+ "slug": "zvenigorodskaya",
+ "status": "partial",
+ "project": "Level Звенигородская",
+ "start": {
+  "date": "2024-05",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 9.8,
+  "lot_desc": "площади лотов 17,3–90,9 м², привязки цены к лоту нет",
+  "source": {
+   "title": "Старты продаж мая 2024 (novostroy-m.ru)",
+   "url": "https://www.novostroy-m.ru/analitika/starty_prodaj_may_2024",
+   "date": "2024-05-31"
+  }
+ },
+ "now": null,
+ "note": "Обзор: «Цены стартуют от 9,8 млн рублей», цены за м² нет (402 тыс./м² из архива не подтверждено). Цена сейчас не найдена: карточку не удалось открыть, поиск исчерпан."
+}

@@ -1,0 +1,309 @@
+{
+ "batch": 1,
+ "units": [
+  {
+   "unit": 27570,
+   "notes": [
+    27570
+   ],
+   "dossier": "repablik",
+   "developer": "forma",
+   "date": "2025-01-24",
+   "images": 4
+  },
+  {
+   "unit": 22758,
+   "notes": [
+    22758
+   ],
+   "dossier": "severnyy-port",
+   "developer": "legenda",
+   "date": "2024-04-04",
+   "images": 1
+  },
+  {
+   "unit": 23395,
+   "notes": [
+    23395
+   ],
+   "dossier": "badaevskiy",
+   "developer": "absolyut",
+   "date": "2024-05-13",
+   "images": 7
+  },
+  {
+   "unit": 24740,
+   "notes": [
+    24740
+   ],
+   "dossier": "soyuz",
+   "developer": "rodina",
+   "date": "2024-07-25",
+   "images": 6
+  },
+  {
+   "unit": 21482,
+   "notes": [
+    21482
+   ],
+   "dossier": "slava",
+   "developer": "mr-group",
+   "date": "2024-01-19",
+   "images": 0
+  },
+  {
+   "unit": 25240,
+   "notes": [
+    25240
+   ],
+   "dossier": "set",
+   "developer": "mr-group",
+   "date": "2024-08-27",
+   "images": 10
+  },
+  {
+   "unit": 21313,
+   "notes": [
+    21313
+   ],
+   "dossier": "wave",
+   "developer": "lsr",
+   "date": "2024-01-07",
+   "images": 4
+  },
+  {
+   "unit": 30130,
+   "notes": [
+    30130,
+    30674
+   ],
+   "dossier": "shagal",
+   "developer": "etalon",
+   "date": "2025-07-09",
+   "images": 8
+  },
+  {
+   "unit": 34126,
+   "notes": [
+    34126,
+    34199
+   ],
+   "dossier": "demidov-26",
+   "developer": "mr-group",
+   "date": "2026-04-30",
+   "images": 7
+  },
+  {
+   "unit": 29444,
+   "notes": [
+    29444
+   ],
+   "dossier": "yuzhnyy-port",
+   "developer": "kortros",
+   "date": "2025-05-23",
+   "images": 7
+  },
+  {
+   "unit": 25025,
+   "notes": [
+    25025
+   ],
+   "dossier": "frunzenskaya-30",
+   "developer": "inteko",
+   "date": "2024-08-12",
+   "images": 10
+  },
+  {
+   "unit": 35810,
+   "notes": [
+    35810,
+    35821
+   ],
+   "dossier": "mig",
+   "developer": "capital-group",
+   "date": "2026-09-19",
+   "images": 1
+  },
+  {
+   "unit": 23511,
+   "notes": [
+    23511
+   ],
+   "dossier": "luzhnetskaya-10a",
+   "developer": "ingrad",
+   "date": "2024-05-21",
+   "images": 5
+  },
+  {
+   "unit": 22073,
+   "notes": [
+    22073
+   ],
+   "dossier": "elektrozavod",
+   "developer": "etalon",
+   "date": "2024-02-29",
+   "images": 4
+  },
+  {
+   "unit": 35714,
+   "notes": [
+    35714,
+    35820
+   ],
+   "dossier": "danilovskiy-ot-granel",
+   "developer": "granel",
+   "date": "2026-09-08",
+   "images": 3
+  },
+  {
+   "unit": 30821,
+   "notes": [
+    30821
+   ],
+   "dossier": "ostrov",
+   "developer": "donstroy",
+   "date": "2025-08-22",
+   "images": 1
+  },
+  {
+   "unit": 23923,
+   "notes": [
+    23923
+   ],
+   "dossier": "dk-metrostroya",
+   "developer": "balchug-estate",
+   "date": "2024-06-10",
+   "images": 7
+  },
+  {
+   "unit": 29260,
+   "notes": [
+    29260
+   ],
+   "dossier": "kompleks-obshchezhitiy-krasnoy-professury",
+   "developer": "capital-group",
+   "date": "2025-05-07",
+   "images": 3
+  },
+  {
+   "unit": 34964,
+   "notes": [
+    34964
+   ],
+   "dossier": "krasnyy-oktyabr",
+   "developer": "guta",
+   "date": "2026-07-09",
+   "images": 5
+  },
+  {
+   "unit": 24323,
+   "notes": [
+    24323
+   ],
+   "dossier": "shabolovka-35",
+   "developer": "lsr",
+   "date": "2024-07-02",
+   "images": 7
+  },
+  {
+   "unit": 26095,
+   "notes": [
+    26095
+   ],
+   "dossier": "betskoy",
+   "developer": "vanke",
+   "date": "2024-10-14",
+   "images": 10
+  },
+  {
+   "unit": 21826,
+   "notes": [
+    21826
+   ],
+   "dossier": "nizhegorodskaya",
+   "developer": "level-group",
+   "date": "2024-02-15",
+   "images": 3
+  },
+  {
+   "unit": 27308,
+   "notes": [
+    27308
+   ],
+   "dossier": "mangazeya-v-bogorodskom",
+   "developer": "mangazeya",
+   "date": "2024-12-27",
+   "images": 3
+  },
+  {
+   "unit": 22942,
+   "notes": [
+    22942
+   ],
+   "dossier": "tankovyy-4",
+   "developer": "inteko",
+   "date": "2024-04-17",
+   "images": 10
+  },
+  {
+   "unit": 29921,
+   "notes": [
+    29921
+   ],
+   "dossier": "foriver",
+   "developer": "ingrad",
+   "date": "2025-06-26",
+   "images": 3
+  },
+  {
+   "unit": 33738,
+   "notes": [
+    33738
+   ],
+   "dossier": "mosfilmovskaya-74-78",
+   "developer": "samolet",
+   "date": "2026-04-01",
+   "images": 5
+  },
+  {
+   "unit": 27403,
+   "notes": [
+    27403
+   ],
+   "dossier": "nays-loft",
+   "developer": "coldy",
+   "date": "2025-01-13",
+   "images": 5
+  },
+  {
+   "unit": 24239,
+   "notes": [
+    24239
+   ],
+   "dossier": "adts-kommunarka",
+   "developer": "samolet",
+   "date": "2024-06-27",
+   "images": 0
+  },
+  {
+   "unit": 21762,
+   "notes": [
+    21762
+   ],
+   "dossier": "tushinskiy-mashinostroitelnyy-zavod",
+   "developer": "level-group",
+   "date": "2024-02-09",
+   "images": 4
+  },
+  {
+   "unit": 28467,
+   "notes": [
+    28467
+   ],
+   "dossier": "ice-tower",
+   "developer": "kapitalisty",
+   "date": "2025-03-19",
+   "images": 9
+  }
+ ]
+}

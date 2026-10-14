@@ -1,0 +1,5009 @@
+{
+ "_readme": "Фото для досье из архива редакции: отобраны визуализации и фото проектов (без пометок, скриншотов, схем), 14.10.2026. Файлы — content/objects/photos/. Импорт: npm run seed:photos — ставит галерею только объектам, у которых она пустая (фото, загруженные в кабинете, не трогаются).",
+ "photos": {
+  "21-19": {
+   "files": [
+    "5920_1.jpg",
+    "5920_3.jpg"
+   ],
+   "credit": "фото"
+  },
+  "dom-s-atlantami": {
+   "files": [
+    "21801_1.jpg",
+    "21801_3.jpg",
+    "21801_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "lumin": {
+   "files": [
+    "15778_2.jpg",
+    "15778_4.jpg"
+   ],
+   "credit": "фото"
+  },
+  "mfk-na-1-oy-ulitse-yamskogo-polya-vl-30": {
+   "files": [
+    "19270_1.jpg",
+    "19270_2.jpg",
+    "19270_6.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "dvizhenie-tushino": {
+   "files": [
+    "2866_3.jpg",
+    "2866_2.jpg",
+    "2866_6.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "prioriti-basmannyy": {
+   "files": [
+    "8702_1.jpg",
+    "8702_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "bauman-khaus": {
+   "files": [
+    "13836_1.jpg",
+    "13836_2.jpg",
+    "13429_4.jpg"
+   ],
+   "credit": "фото"
+  },
+  "luchi": {
+   "files": [
+    "23779_4.jpg",
+    "23779_6.jpg",
+    "18329_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "meshcherskiy-les": {
+   "files": [
+    "27496_2.jpg",
+    "27496_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "salarevo-park": {
+   "files": [
+    "31678_2.jpg",
+    "31515_1.jpg",
+    "31678_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "volzhskiy-park": {
+   "files": [
+    "3465_1.jpg",
+    "3465_2.jpg",
+    "3465_5.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "bolshaya-ochakovskaya-2": {
+   "files": [
+    "4793_1.jpg",
+    "4793_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "filatov-lug": {
+   "files": [
+    "10702_2.jpg",
+    "10702_3.jpg"
+   ],
+   "credit": "фото"
+  },
+  "amarant": {
+   "files": [
+    "5328_3.jpg",
+    "5328_2.jpg",
+    "5328_4.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "myata": {
+   "files": [
+    "3245_3.jpg",
+    "3245_1.jpg",
+    "3245_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "will-towers": {
+   "files": [
+    "4706_4.jpg",
+    "4706_5.jpg",
+    "4706_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "beregovoy": {
+   "files": [
+    "29926_1.jpg",
+    "29926_2.jpg",
+    "29926_7.jpg"
+   ],
+   "credit": "фото"
+  },
+  "zil-yug": {
+   "files": [
+    "4694_5.jpg",
+    "4694_3.jpg",
+    "4694_4.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "level-streshnevo": {
+   "files": [
+    "4475_4.jpg",
+    "4475_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "mainstreet": {
+   "files": [
+    "12883_1.jpg",
+    "12883_5.jpg",
+    "11505_3.jpg"
+   ],
+   "credit": "фото"
+  },
+  "teatralnyy-kvartal": {
+   "files": [
+    "25307_2.jpg",
+    "25307_3.jpg",
+    "25307_6.jpg"
+   ],
+   "credit": "фото"
+  },
+  "1-y-dubrovskiy-78-14": {
+   "files": [
+    "6268_4.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "rustaveli-14": {
+   "files": [
+    "33736_2.jpg",
+    "33736_1.jpg",
+    "31488_7.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "serdtse-stolitsy": {
+   "files": [
+    "11168_1.jpg"
+   ],
+   "credit": "фото"
+  },
+  "life-varshavskaya": {
+   "files": [
+    "19420_2.jpg",
+    "19420_1.jpg",
+    "19420_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "nametkina-10d": {
+   "files": [
+    "2402_1.jpg",
+    "2402_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "dolgorukovskaya-25": {
+   "files": [
+    "2406_1.jpg",
+    "2406_3.jpg",
+    "2406_4.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "repablik": {
+   "files": [
+    "24898_3.jpg",
+    "24898_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "dobrolyubova-3": {
+   "files": [
+    "33727_3.jpg",
+    "31004_2.jpg",
+    "33727_5.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "tpu-verkhnie-likhobory": {
+   "files": [
+    "9326_3.jpg",
+    "9326_4.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "domashniy": {
+   "files": [
+    "23826_1.jpg",
+    "23826_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "alia": {
+   "files": [
+    "32087_2.jpg",
+    "32087_3.jpg",
+    "13061_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "ever": {
+   "files": [
+    "16742_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "l-club": {
+   "files": [
+    "2512_2.jpg",
+    "2512_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "alkhimovo": {
+   "files": [
+    "4913_2.jpg",
+    "4913_1.jpg",
+    "19600_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "ostafevo": {
+   "files": [
+    "12874_1.jpg",
+    "12874_2.jpg",
+    "12874_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "tpu-shelepikha": {
+   "files": [
+    "2893_1.jpg",
+    "2893_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "molzhaninovo": {
+   "files": [
+    "11237_2.jpg",
+    "11237_1.jpg",
+    "4701_4.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "simvol": {
+   "files": [
+    "9649_1.jpg",
+    "9649_3.jpg",
+    "9649_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "zilart": {
+   "files": [
+    "31376_2.jpg",
+    "31372_2.jpg",
+    "33427_5.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "talisman-na-rokossovskogo": {
+   "files": [
+    "4773_1.jpg",
+    "4773_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "din-haus": {
+   "files": [
+    "13578_6.jpg",
+    "13578_3.jpg"
+   ],
+   "credit": "фото"
+  },
+  "lyublinskiy-park": {
+   "files": [
+    "8733_3.jpg",
+    "8733_1.jpg",
+    "8733_4.jpg"
+   ],
+   "credit": "фото"
+  },
+  "izmaylovskiy-les": {
+   "files": [
+    "14252_4.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "1-y-donskoy": {
+   "files": [
+    "2565_1.jpg",
+    "2565_2.jpg",
+    "35612_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "malevich": {
+   "files": [
+    "27422_2.jpg",
+    "27422_1.jpg",
+    "27422_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "homecity": {
+   "files": [
+    "15557_1.jpg",
+    "15557_3.jpg",
+    "2647_1.jpg"
+   ],
+   "credit": "фото"
+  },
+  "fantastic-house": {
+   "files": [
+    "2665_1.jpg",
+    "2665_2.jpg",
+    "15769_8.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "level-baumanskaya": {
+   "files": [
+    "14944_8.jpg",
+    "14944_6.jpg",
+    "14546_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "olsufev": {
+   "files": [
+    "36184_2.jpg",
+    "36184_3.jpg",
+    "36184_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "tipografiya-levensona": {
+   "files": [
+    "5910_3.jpg",
+    "5910_1.jpg",
+    "2794_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "level-yuzhnoportovaya": {
+   "files": [
+    "9641_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "slava": {
+   "files": [
+    "32785_2.jpg",
+    "32785_3.jpg",
+    "32785_4.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "lesoparkovyy": {
+   "files": [
+    "7607_1.jpg",
+    "7607_3.jpg",
+    "2843_1.jpg"
+   ],
+   "credit": "фото"
+  },
+  "luzhniki-collection": {
+   "files": [
+    "12786_1.jpg",
+    "18818_1.jpg",
+    "31757_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "red7": {
+   "files": [
+    "23095_1.jpg",
+    "23095_2.jpg",
+    "10877_3.jpg"
+   ],
+   "credit": "фото"
+  },
+  "nagatino-i-land": {
+   "files": [
+    "4509_3.jpg",
+    "4509_4.jpg",
+    "14248_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "coin-house": {
+   "files": [
+    "10880_5.jpg",
+    "10880_2.jpg",
+    "10880_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "dostizhenie": {
+   "files": [
+    "28149_3.jpg",
+    "28149_2.jpg",
+    "28149_4.jpg"
+   ],
+   "credit": "фото"
+  },
+  "tpu-elektrozavodskaya": {
+   "files": [
+    "3165_1.jpg",
+    "3165_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "varshavskoe-9-1": {
+   "files": [
+    "2928_1.jpg"
+   ],
+   "credit": "фото"
+  },
+  "amurskaya-1": {
+   "files": [
+    "5368_1.jpg",
+    "5368_3.jpg",
+    "5368_4.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "amurskiy-park": {
+   "files": [
+    "30250_1.jpg",
+    "30250_3.jpg",
+    "30250_4.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "irtyshskiy-park": {
+   "files": [
+    "22499_2.jpg",
+    "22499_3.jpg",
+    "22499_8.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "krasnokazarmennaya-15": {
+   "files": [
+    "4796_1.jpg",
+    "4796_4.jpg",
+    "4796_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "soul": {
+   "files": [
+    "16552_2.jpg",
+    "16552_3.jpg",
+    "16051_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "paveletskaya-siti": {
+   "files": [
+    "25097_5.jpg",
+    "25097_7.jpg",
+    "25097_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "kolskaya-8": {
+   "files": [
+    "7550_1.jpg",
+    "7550_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "varshavskoe-14": {
+   "files": [
+    "16324_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "cherry-city": {
+   "files": [
+    "4855_2.jpg",
+    "4855_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "brodsky": {
+   "files": [
+    "8902_2.jpg",
+    "8902_1.jpg",
+    "14033_1.jpg"
+   ],
+   "credit": "фото"
+  },
+  "symphony-34": {
+   "files": [
+    "9491_1.jpg",
+    "8483_2.jpg",
+    "6493_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "city-bay": {
+   "files": [
+    "28009_2.jpg",
+    "20180_1.jpg",
+    "17720_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "n74": {
+   "files": [
+    "4630_2.jpg",
+    "4630_1.jpg",
+    "4630_4.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "setun": {
+   "files": [
+    "19386_2.jpg",
+    "19386_1.jpg",
+    "19386_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "cameo": {
+   "files": [
+    "8793_2.jpg",
+    "8793_4.jpg",
+    "6439_4.jpg"
+   ],
+   "credit": "фото"
+  },
+  "sputnik": {
+   "files": [
+    "17293_1.jpg",
+    "17293_2.jpg",
+    "10688_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "severnyy-port": {
+   "files": [
+    "35252_1.jpg",
+    "35252_2.jpg",
+    "32561_4.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "presnya-siti": {
+   "files": [
+    "24973_3.jpg",
+    "24973_4.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "forum": {
+   "files": [
+    "16332_2.jpg",
+    "16332_4.jpg",
+    "3096_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "sokolinn-park": {
+   "files": [
+    "25654_1.jpg",
+    "25654_3.jpg",
+    "25654_5.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "ivovaya-8": {
+   "files": [
+    "26193_3.jpg",
+    "26193_1.jpg",
+    "26193_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "kepler-house": {
+   "files": [
+    "25502_3.jpg",
+    "25502_5.jpg",
+    "25502_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "sadovye-kvartaly": {
+   "files": [
+    "26329_3.jpg",
+    "26329_1.jpg",
+    "26329_2.jpg"
+   ],
+   "credit": "фото"
+  },
+  "butyrskaya-1-2": {
+   "files": [
+    "35024_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "stremlenie-k-svetu": {
+   "files": [
+    "21272_4.jpg",
+    "21272_3.jpg",
+    "21272_5.jpg"
+   ],
+   "credit": "фото"
+  },
+  "skazochnyy-les": {
+   "files": [
+    "14083_2.jpg",
+    "14083_7.jpg",
+    "14083_6.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "odingrad": {
+   "files": [
+    "14582_1.jpg",
+    "14582_2.jpg"
+   ],
+   "credit": "фото"
+  },
+  "nizhnyaya-maslovka-17": {
+   "files": [
+    "24010_2.jpg",
+    "24010_3.jpg",
+    "24010_4.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "sadovnicheskaya-62": {
+   "files": [
+    "21775_1.jpg",
+    "21775_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "veresk": {
+   "files": [
+    "3223_1.jpg",
+    "3223_2.jpg",
+    "3223_4.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "now": {
+   "files": [
+    "14769_1.jpg",
+    "14769_7.jpg",
+    "14769_3.jpg"
+   ],
+   "credit": "фото"
+  },
+  "era": {
+   "files": [
+    "17065_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "novodanilovskaya-8": {
+   "files": [
+    "3260_1.jpg",
+    "14203_3.jpg",
+    "3260_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "elektrolitnyy-7a": {
+   "files": [
+    "19025_2.jpg"
+   ],
+   "credit": "фото"
+  },
+  "novyy-arbat-2": {
+   "files": [
+    "3595_5.jpg",
+    "3595_2.jpg",
+    "3595_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "district-39": {
+   "files": [
+    "13245_3.jpg",
+    "9116_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "zareche": {
+   "files": [
+    "17179_1.jpg",
+    "17179_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "yuzhnaya-bittsa": {
+   "files": [
+    "4060_1.jpg",
+    "3472_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "kristall": {
+   "files": [
+    "34415_4.jpg",
+    "34415_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "palashevskiy-11": {
+   "files": [
+    "30881_1.jpg",
+    "30881_2.jpg",
+    "33754_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "pik": {
+   "files": [
+    "21149_7.jpg",
+    "21149_4.jpg",
+    "21149_6.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "novokhokhlovskaya-15": {
+   "files": [
+    "5829_1.jpg",
+    "5829_4.jpg",
+    "5829_5.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "volokolamskoe-shosse-24": {
+   "files": [
+    "3666_2.jpg",
+    "3666_4.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "perets": {
+   "files": [
+    "7563_1.jpg",
+    "7563_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "luzhnetskaya-10a": {
+   "files": [
+    "34379_2.jpg",
+    "34379_3.jpg",
+    "34379_5.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "bolshaya-akademicheskaya-85": {
+   "files": [
+    "17763_2.jpg",
+    "5264_1.jpg",
+    "17763_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "stantsiya-l": {
+   "files": [
+    "3617_2.jpg",
+    "3620_1.jpg",
+    "3617_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "nakhimovskiy-21": {
+   "files": [
+    "33631_2.jpg",
+    "33631_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "russian-design-district": {
+   "files": [
+    "14470_5.jpg",
+    "14470_4.jpg",
+    "3857_1.jpg"
+   ],
+   "credit": "фото"
+  },
+  "wave": {
+   "files": [
+    "21486_3.jpg",
+    "21486_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "tophills": {
+   "files": [
+    "15755_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "serednevskiy-les": {
+   "files": [
+    "4318_2.jpg",
+    "4318_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "vesper": {
+   "files": [
+    "6403_7.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "injoy": {
+   "files": [
+    "33693_1.jpg",
+    "33693_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "dubininskaya-17-27-29": {
+   "files": [
+    "13499_1.jpg",
+    "35341_4.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "k31": {
+   "files": [
+    "19765_1.jpg",
+    "19765_2.jpg",
+    "22361_5.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "40-let-oktyabrya-7": {
+   "files": [
+    "4370_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "tsnii-delfin": {
+   "files": [
+    "12222_3.jpg",
+    "12222_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "poklonnaya-7": {
+   "files": [
+    "3986_1.jpg",
+    "12461_1.jpg",
+    "12461_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "prichalnyy": {
+   "files": [
+    "4989_2.jpg",
+    "4989_6.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "tpu-petrovsko-razumovskaya": {
+   "files": [
+    "35811_4.jpg",
+    "35811_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "kurkinskoe-15": {
+   "files": [
+    "20123_1.jpg",
+    "20123_2.jpg",
+    "20123_4.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "miklukho-maklaya-23": {
+   "files": [
+    "10395_1.jpg",
+    "6216_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "sidney-siti": {
+   "files": [
+    "6174_2.jpg",
+    "5590_1.jpg",
+    "5590_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "rodina-park": {
+   "files": [
+    "24266_1.jpg",
+    "24266_4.jpg",
+    "24266_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "dream-towers": {
+   "files": [
+    "6921_4.jpg",
+    "6921_5.jpg",
+    "6921_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "nastoyashchee": {
+   "files": [
+    "3293_1.jpg",
+    "3293_5.jpg",
+    "3293_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "vysotka-na-zhukova": {
+   "files": [
+    "27039_4.jpg",
+    "27039_3.jpg",
+    "27039_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "siti-bey": {
+   "files": [
+    "4396_2.jpg",
+    "4396_3.jpg",
+    "4396_5.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "hide": {
+   "files": [
+    "24729_1.jpg",
+    "4831_2.jpg",
+    "4831_3.jpg"
+   ],
+   "credit": "фото"
+  },
+  "betskoy": {
+   "files": [
+    "20101_4.jpg",
+    "20101_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "dom-narkomfina": {
+   "files": [
+    "4440_3.jpg",
+    "4440_1.jpg",
+    "4440_2.jpg"
+   ],
+   "credit": "фото"
+  },
+  "level-nagatinskaya": {
+   "files": [
+    "8596_1.jpg",
+    "7772_1.jpg",
+    "8596_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "prokshino": {
+   "files": [
+    "19419_1.jpg",
+    "15890_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "mitinskiy-les": {
+   "files": [
+    "32132_3.jpg",
+    "4664_4.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "very": {
+   "files": [
+    "24433_2.jpg",
+    "24433_1.jpg",
+    "24433_3.jpg"
+   ],
+   "credit": "фото"
+  },
+  "aviatika": {
+   "files": [
+    "4219_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "tpu-suvorovskaya": {
+   "files": [
+    "22559_1.jpg",
+    "32917_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "mypriority-dubrovka": {
+   "files": [
+    "36046_2.jpg",
+    "33524_4.jpg",
+    "36046_4.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "zhukov-8": {
+   "files": [
+    "8724_4.jpg",
+    "8724_1.jpg",
+    "4866_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "mnevnikovskaya-poyma": {
+   "files": [
+    "22079_4.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "sobytie": {
+   "files": [
+    "6704_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "intonatsiya": {
+   "files": [
+    "9228_1.jpg",
+    "9228_3.jpg",
+    "9228_6.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "vtoroy-nagatinskiy": {
+   "files": [
+    "5895_2.jpg",
+    "5895_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "pervyy-lermontovskiy": {
+   "files": [
+    "5355_7.jpg",
+    "5355_2.jpg",
+    "5355_6.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "ilinka": {
+   "files": [
+    "12401_2.jpg",
+    "12401_3.jpg",
+    "11801_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "d8": {
+   "files": [
+    "36103_4.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "1-y-truzhenikov-12": {
+   "files": [
+    "13555_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "krasnyy-bogatyr": {
+   "files": [
+    "20344_1.jpg",
+    "20344_5.jpg",
+    "14715_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "soymonovskiy": {
+   "files": [
+    "7860_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "petrovskiy-park": {
+   "files": [
+    "15359_1.jpg",
+    "15359_2.jpg",
+    "15359_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "filit": {
+   "files": [
+    "8423_2.jpg",
+    "8423_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "fili-siti": {
+   "files": [
+    "6067_2.jpg",
+    "6067_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "pole": {
+   "files": [
+    "32972_1.jpg",
+    "32542_1.jpg",
+    "32972_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "kronshtadtskiy-9": {
+   "files": [
+    "5757_1.jpg",
+    "5757_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "mikhalkovskaya-48": {
+   "files": [
+    "7833_2.jpg",
+    "7667_1.jpg",
+    "7667_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "mikhalkovskaya-50": {
+   "files": [
+    "5567_1.jpg",
+    "5567_4.jpg",
+    "5567_5.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "tpu-michurinskiy-prospekt": {
+   "files": [
+    "32588_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "river-park": {
+   "files": [
+    "13557_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "le-dome": {
+   "files": [
+    "10348_2.jpg",
+    "10348_3.jpg",
+    "10348_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "narvin": {
+   "files": [
+    "29685_2.jpg",
+    "29685_4.jpg",
+    "29685_8.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "lunar": {
+   "files": [
+    "15986_3.jpg",
+    "15986_2.jpg"
+   ],
+   "credit": "фото"
+  },
+  "profit": {
+   "files": [
+    "9208_2.jpg",
+    "9208_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "lavrushinskiy": {
+   "files": [
+    "28599_2.jpg",
+    "28599_4.jpg",
+    "36039_2.jpg"
+   ],
+   "credit": "фото"
+  },
+  "insayder": {
+   "files": [
+    "14026_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "innovator": {
+   "files": [
+    "5657_3.jpg",
+    "16730_5.jpg",
+    "16730_4.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "entuziast": {
+   "files": [
+    "5661_1.jpg",
+    "5661_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "zelenaya-vertikal": {
+   "files": [
+    "6094_1.jpg",
+    "6094_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "kutuzovskiy-29": {
+   "files": [
+    "25897_3.jpg",
+    "32557_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "soyuz": {
+   "files": [
+    "31331_2.jpg",
+    "31331_3.jpg",
+    "35917_1.jpg"
+   ],
+   "credit": "фото"
+  },
+  "vishnevyy-sad": {
+   "files": [
+    "15799_2.jpg",
+    "5933_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "b-aires": {
+   "files": [
+    "6058_1.jpg",
+    "6126_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "rusich-kantemirovskiy": {
+   "files": [
+    "27190_4.jpg",
+    "27190_3.jpg",
+    "27107_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "tankovyy-4": {
+   "files": [
+    "28357_7.jpg",
+    "28357_5.jpg",
+    "28357_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "lva-tolstogo-14-16": {
+   "files": [
+    "6120_1.jpg",
+    "14670_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "dom-s-basseynom": {
+   "files": [
+    "6707_2.jpg",
+    "27740_5.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "mnevniki": {
+   "files": [
+    "25380_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "ryabinovyy-park": {
+   "files": [
+    "10572_2.jpg",
+    "11541_1.jpg",
+    "11201_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "set": {
+   "files": [
+    "33046_4.jpg",
+    "33046_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "ryazanovskoe": {
+   "files": [
+    "6428_1.jpg",
+    "6428_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "perovskoe-2": {
+   "files": [
+    "6636_2.jpg",
+    "6636_3.jpg",
+    "6636_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "parkside": {
+   "files": [
+    "8979_3.jpg",
+    "8979_4.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "rumyantsevo": {
+   "files": [
+    "23303_1.jpg",
+    "23303_5.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "opus": {
+   "files": [
+    "18043_1.jpg",
+    "17504_1.jpg",
+    "27460_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "aquatoria": {
+   "files": [
+    "7818_5.jpg",
+    "7818_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "novoe-vnukovo": {
+   "files": [
+    "18318_2.jpg",
+    "18318_3.jpg",
+    "18318_1.jpg"
+   ],
+   "credit": "фото"
+  },
+  "elektrozavod": {
+   "files": [
+    "28751_1.jpg",
+    "28751_6.jpg",
+    "28751_7.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "rublevo-arkhangelskoe": {
+   "files": [
+    "13284_2.jpg",
+    "13284_1.jpg",
+    "13284_6.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "moskovskiy": {
+   "files": [
+    "7473_1.jpg",
+    "7473_4.jpg",
+    "7473_5.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "ozernaya": {
+   "files": [
+    "17728_2.jpg",
+    "17728_3.jpg",
+    "17728_5.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "derbenevskaya": {
+   "files": [
+    "33605_1.jpg",
+    "33794_7.jpg",
+    "33897_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "kasatkina-11": {
+   "files": [
+    "34750_4.jpg",
+    "30262_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "odintsovo-1": {
+   "files": [
+    "8315_2.jpg",
+    "8315_1.jpg",
+    "8315_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "dosflota-10": {
+   "files": [
+    "16094_3.jpg",
+    "16094_4.jpg"
+   ],
+   "credit": "фото"
+  },
+  "nays-loft": {
+   "files": [
+    "26294_1.jpg",
+    "26294_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "nametkin-tower": {
+   "files": [
+    "11407_3.jpg",
+    "11407_1.jpg",
+    "11407_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "savvinskaya-17": {
+   "files": [
+    "31884_4.jpg",
+    "31884_1.jpg",
+    "31884_2.jpg"
+   ],
+   "credit": "фото"
+  },
+  "pride": {
+   "files": [
+    "33105_1.jpg",
+    "33105_2.jpg",
+    "33105_4.jpg"
+   ],
+   "credit": "фото"
+  },
+  "level-michurinskiy": {
+   "files": [
+    "7622_1.jpg",
+    "7621_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "tpu-novopeschanaya": {
+   "files": [
+    "19136_1.jpg",
+    "19136_3.jpg",
+    "19136_4.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "tpu-rostokino": {
+   "files": [
+    "13128_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "levensona": {
+   "files": [
+    "24865_7.jpg",
+    "24865_1.jpg",
+    "24865_8.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "ogorodnyy-2": {
+   "files": [
+    "10959_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "tushinskiy-aerodrom": {
+   "files": [
+    "19001_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "dom-xxii": {
+   "files": [
+    "19804_6.jpg",
+    "19804_7.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "stone-hedge-na-savelovskoy": {
+   "files": [
+    "7103_1.jpg",
+    "7103_2.jpg",
+    "7103_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "malaya-tulskaya-2": {
+   "files": [
+    "7113_1.jpg",
+    "7113_3.jpg",
+    "7113_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "elektrozavodskaya-60": {
+   "files": [
+    "22451_3.jpg",
+    "22466_1.jpg",
+    "22466_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "stone-towers": {
+   "files": [
+    "29624_1.jpg",
+    "29624_8.jpg",
+    "29624_3.jpg"
+   ],
+   "credit": "фото"
+  },
+  "yuzhnye-sady": {
+   "files": [
+    "7905_1.jpg",
+    "7601_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "postnikovo": {
+   "files": [
+    "13948_1.jpg",
+    "13948_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "quartier-d-or": {
+   "files": [
+    "17803_4.jpg",
+    "26050_5.jpg",
+    "17803_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "novyy-titul": {
+   "files": [
+    "20440_1.jpg",
+    "20440_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "kampus": {
+   "files": [
+    "11344_3.jpg",
+    "11344_4.jpg",
+    "11344_5.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "zavod-kazakova": {
+   "files": [
+    "25545_2.jpg",
+    "25545_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "paveletskaya-naberezhnaya-2": {
+   "files": [
+    "7478_1.jpg",
+    "7478_4.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "saburovo": {
+   "files": [
+    "7491_4.jpg",
+    "7491_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "zorge-3": {
+   "files": [
+    "35046_4.jpg",
+    "35046_2.jpg",
+    "35046_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "frunzenskaya-30": {
+   "files": [
+    "25025_6.jpg",
+    "25025_2.jpg",
+    "36063_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "zikkurat-preobrazhenskiy": {
+   "files": [
+    "30544_2.jpg",
+    "30544_6.jpg",
+    "30544_4.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "omega-residence": {
+   "files": [
+    "31104_3.jpg",
+    "31104_1.jpg",
+    "31104_6.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "mirrorzdanie": {
+   "files": [
+    "14116_1.jpg",
+    "12451_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "varshavskie-vorota": {
+   "files": [
+    "15694_3.jpg",
+    "15694_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "vysokaya-zhizn": {
+   "files": [
+    "7730_1.jpg",
+    "7730_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "jois": {
+   "files": [
+    "19249_1.jpg",
+    "19249_5.jpg",
+    "18639_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "tate": {
+   "files": [
+    "19075_2.jpg",
+    "19075_4.jpg",
+    "19075_6.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "manufaktura-xix": {
+   "files": [
+    "35218_2.jpg",
+    "35218_3.jpg",
+    "33404_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "titul": {
+   "files": [
+    "35351_1.jpg",
+    "35351_2.jpg"
+   ],
+   "credit": "фото"
+  },
+  "dmitrovskoe-nebo": {
+   "files": [
+    "13650_2.jpg",
+    "13650_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "slobodskoy-6": {
+   "files": [
+    "35164_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "mikhalkovskiy": {
+   "files": [
+    "8866_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "river-park-kutuzovskiy": {
+   "files": [
+    "32478_1.jpg",
+    "8129_1.jpg",
+    "8129_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "rizhskiy-gruzovoy-dvor": {
+   "files": [
+    "34163_1.jpg",
+    "34163_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "tpu-presnya": {
+   "files": [
+    "23162_3.jpg",
+    "13399_1.jpg",
+    "13399_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "meteor": {
+   "files": [
+    "17427_1.jpg",
+    "17427_2.jpg",
+    "17427_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "titul-kostomarovskiy-15": {
+   "files": [
+    "11787_1.jpg",
+    "11787_2.jpg",
+    "11787_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "luce": {
+   "files": [
+    "15012_6.jpg",
+    "15012_1.jpg",
+    "15012_5.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "mod": {
+   "files": [
+    "8503_1.jpg",
+    "6626_1.jpg",
+    "12090_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "vernissage": {
+   "files": [
+    "11622_2.jpg",
+    "11622_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "oktyabrskoe-pole": {
+   "files": [
+    "34705_2.jpg",
+    "34705_3.jpg",
+    "8575_4.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "pribrezhnyy-park": {
+   "files": [
+    "8653_1.jpg",
+    "8653_2.jpg",
+    "8653_4.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "tessinskiy-v": {
+   "files": [
+    "33164_3.jpg",
+    "33164_7.jpg",
+    "32997_4.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "n-ice-river": {
+   "files": [
+    "8763_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "matveevskiy-park": {
+   "files": [
+    "25199_1.jpg",
+    "25199_2.jpg",
+    "20566_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "geliymash": {
+   "files": [
+    "36196_5.jpg",
+    "36196_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "gintsvetmet": {
+   "files": [
+    "8877_1.jpg"
+   ],
+   "credit": "фото"
+  },
+  "afialt": {
+   "files": [
+    "34678_2.jpg",
+    "34678_3.jpg",
+    "34678_8.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "nii-delta": {
+   "files": [
+    "10468_2.jpg",
+    "10468_4.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "clementine": {
+   "files": [
+    "12092_1.jpg",
+    "12092_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "m54": {
+   "files": [
+    "8908_2.jpg",
+    "8908_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "dacha-tolbukhina": {
+   "files": [
+    "30721_2.jpg",
+    "30721_5.jpg",
+    "30721_7.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "rzhd-siti": {
+   "files": [
+    "9728_1.jpg",
+    "9728_2.jpg",
+    "9728_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "shagal": {
+   "files": [
+    "30693_3.jpg",
+    "30693_6.jpg",
+    "30693_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "champine": {
+   "files": [
+    "10097_2.jpg",
+    "10097_1.jpg",
+    "10097_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "pogodinskaya-24": {
+   "files": [
+    "32322_2.jpg",
+    "32322_6.jpg",
+    "32322_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "mayprioriti-paveletskaya": {
+   "files": [
+    "19222_1.jpg",
+    "17314_1.jpg",
+    "17314_5.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "profsoyuznaya-78": {
+   "files": [
+    "34797_2.jpg",
+    "34797_1.jpg",
+    "34797_6.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "kvartal-serebryanyy-bor": {
+   "files": [
+    "22468_1.jpg",
+    "22468_3.jpg",
+    "21599_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "losinoostrovskiy-park": {
+   "files": [
+    "29620_1.jpg",
+    "32258_1.jpg",
+    "9342_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "dk-metrostroya": {
+   "files": [
+    "28902_1.jpg",
+    "26456_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "cult": {
+   "files": [
+    "9378_1.jpg",
+    "9378_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "forst": {
+   "files": [
+    "29601_1.jpg",
+    "29601_2.jpg",
+    "29601_4.jpg"
+   ],
+   "credit": "фото"
+  },
+  "torzhok": {
+   "files": [
+    "32976_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "staryy-petrovsko-razumovskiy-1-23": {
+   "files": [
+    "13219_3.jpg",
+    "13219_8.jpg",
+    "9476_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "vauxhall": {
+   "files": [
+    "34603_1.jpg",
+    "34603_2.jpg",
+    "34603_3.jpg"
+   ],
+   "credit": "фото"
+  },
+  "tts-yuzhnyy": {
+   "files": [
+    "17152_1.jpg",
+    "17152_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "twelve": {
+   "files": [
+    "17604_1.jpg",
+    "17604_2.jpg",
+    "17604_6.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "dom-sporta": {
+   "files": [
+    "33487_2.jpg",
+    "33487_3.jpg",
+    "28916_4.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "high-life": {
+   "files": [
+    "29680_1.jpg",
+    "29680_5.jpg",
+    "31773_1.jpg"
+   ],
+   "credit": "фото"
+  },
+  "mantulinskaya-5": {
+   "files": [
+    "23656_1.jpg",
+    "23656_2.jpg",
+    "23656_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "moskva-siti-2": {
+   "files": [
+    "9702_7.jpg",
+    "9702_9.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "seliger-siti": {
+   "files": [
+    "16209_1.jpg",
+    "16143_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "1-y-nagatinskiy": {
+   "files": [
+    "12365_3.jpg",
+    "12365_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "siti-2a": {
+   "files": [
+    "11170_1.jpg",
+    "17167_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "izmalkovo": {
+   "files": [
+    "13003_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "nikolskie-luga": {
+   "files": [
+    "9828_2.jpg",
+    "9828_1.jpg",
+    "9828_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "preobrazhenskaya-ploshchad": {
+   "files": [
+    "21829_3.jpg",
+    "21829_4.jpg",
+    "21829_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "emotion": {
+   "files": [
+    "19950_1.jpg",
+    "19950_2.jpg",
+    "19950_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "siti-2": {
+   "files": [
+    "29290_1.jpg",
+    "32727_4.jpg",
+    "32727_5.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "onest": {
+   "files": [
+    "11139_2.jpg",
+    "12053_3.jpg",
+    "12053_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "moz-art": {
+   "files": [
+    "9973_1.jpg"
+   ],
+   "credit": "фото"
+  },
+  "vorontsov": {
+   "files": [
+    "32553_3.jpg",
+    "32553_1.jpg",
+    "32553_4.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "5-y-donskoy-21b": {
+   "files": [
+    "17252_1.jpg",
+    "17252_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "tvardovskogo-18": {
+   "files": [
+    "36057_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "bolshaya-tulskaya-10": {
+   "files": [
+    "24312_3.jpg",
+    "24312_1.jpg",
+    "24312_5.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "zagorevskaya-4": {
+   "files": [
+    "19319_1.jpg",
+    "19319_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "solos": {
+   "files": [
+    "29212_2.jpg",
+    "29212_1.jpg",
+    "29212_5.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "tpu-siti-2": {
+   "files": [
+    "4332_5.jpg",
+    "4332_1.jpg",
+    "4332_4.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "woods": {
+   "files": [
+    "10206_6.jpg",
+    "10206_1.jpg",
+    "10206_8.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "ilinskie-luga": {
+   "files": [
+    "16061_1.jpg",
+    "16061_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "novaya-11": {
+   "files": [
+    "32333_1.jpg",
+    "32333_3.jpg",
+    "32317_5.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "tpu-park-pobedy": {
+   "files": [
+    "13801_2.jpg",
+    "13801_3.jpg",
+    "13801_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "tpu-lukhmanovskaya": {
+   "files": [
+    "31301_4.jpg",
+    "31301_3.jpg",
+    "31301_5.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "milyutinskiy-5": {
+   "files": [
+    "10320_1.jpg"
+   ],
+   "credit": "фото"
+  },
+  "ogorodnyy-proezd": {
+   "files": [
+    "33255_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "ogorodnyy-8": {
+   "files": [
+    "31482_2.jpg",
+    "31482_4.jpg",
+    "31482_6.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "ogorodnyy-20": {
+   "files": [
+    "23115_2.jpg",
+    "23115_1.jpg",
+    "23115_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "odingrad-lesnoy": {
+   "files": [
+    "10376_1.jpg"
+   ],
+   "credit": "фото"
+  },
+  "aura-belorusskaya": {
+   "files": [
+    "10377_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "milyutinskiy-18": {
+   "files": [
+    "10409_1.jpg",
+    "10409_2.jpg"
+   ],
+   "credit": "фото"
+  },
+  "nizhniy-kiselnyy-7-21": {
+   "files": [
+    "10425_1.jpg"
+   ],
+   "credit": "фото"
+  },
+  "akademiya-spartaka": {
+   "files": [
+    "34746_1.jpg",
+    "34746_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "nexus": {
+   "files": [
+    "31936_2.jpg",
+    "31936_4.jpg",
+    "22145_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "staroobryadcheskaya-28a": {
+   "files": [
+    "19697_4.jpg"
+   ],
+   "credit": "фото"
+  },
+  "start": {
+   "files": [
+    "13761_4.jpg",
+    "13761_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "stone-leninskiy": {
+   "files": [
+    "17020_1.jpg",
+    "17020_2.jpg",
+    "17020_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "stone-grain": {
+   "files": [
+    "28354_1.jpg",
+    "28354_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "novospasskiy": {
+   "files": [
+    "3383_1.jpg",
+    "10684_1.jpg",
+    "3383_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "polar": {
+   "files": [
+    "12097_1.jpg",
+    "12113_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "obruchev": {
+   "files": [
+    "16931_1.jpg",
+    "16931_3.jpg",
+    "16931_7.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "sportivnye-obekty-khrunicheva": {
+   "files": [
+    "10796_3.jpg",
+    "10796_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "ice-tower": {
+   "files": [
+    "28524_1.jpg",
+    "28524_3.jpg",
+    "28524_4.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "kirovogradskaya-9k4": {
+   "files": [
+    "34793_2.jpg",
+    "34697_2.jpg",
+    "34697_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "zhivopisnaya-27": {
+   "files": [
+    "35014_4.jpg",
+    "35014_1.jpg",
+    "35014_6.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "streshnevo": {
+   "files": [
+    "10915_1.jpg",
+    "10915_3.jpg",
+    "10915_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "dom-gorizontov": {
+   "files": [
+    "17026_2.jpg",
+    "17026_1.jpg",
+    "17026_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "sukharevka": {
+   "files": [
+    "22639_6.jpg",
+    "22639_7.jpg",
+    "22639_10.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "yuzhnyy-port": {
+   "files": [
+    "29444_1.jpg",
+    "29444_2.jpg",
+    "29444_4.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "radio-16s4": {
+   "files": [
+    "33327_5.jpg",
+    "33327_2.jpg",
+    "33327_4.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "akvilon-signal": {
+   "files": [
+    "20737_1.jpg",
+    "20737_2.jpg",
+    "20737_5.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "tpu-tekstilshchiki": {
+   "files": [
+    "33596_3.jpg",
+    "33596_1.jpg",
+    "33596_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "paveletskaya": {
+   "files": [
+    "31441_1.jpg",
+    "31441_3.jpg",
+    "31441_4.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "admiral": {
+   "files": [
+    "32172_1.jpg",
+    "32172_2.jpg",
+    "32172_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "metrovagonmash": {
+   "files": [
+    "15503_1.jpg"
+   ],
+   "credit": "фото"
+  },
+  "mypriority-nizhegorodskaya": {
+   "files": [
+    "35965_2.jpg",
+    "28597_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "pervyy-dubrovskiy": {
+   "files": [
+    "12670_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "otkrytyy-park": {
+   "files": [
+    "11199_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "pik-lermontovskiy-54": {
+   "files": [
+    "11221_3.jpg",
+    "11221_2.jpg",
+    "11221_6.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "serp-i-molot": {
+   "files": [
+    "27506_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "oro": {
+   "files": [
+    "11412_3.jpg",
+    "11412_2.jpg",
+    "11412_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "lucky": {
+   "files": [
+    "19551_1.jpg",
+    "19551_2.jpg",
+    "19551_4.jpg"
+   ],
+   "credit": "фото"
+  },
+  "krasnaya-presnya": {
+   "files": [
+    "26711_2.jpg",
+    "26711_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "springs": {
+   "files": [
+    "26081_1.jpg",
+    "25634_1.jpg",
+    "25634_5.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "ahead": {
+   "files": [
+    "11580_2.jpg",
+    "11580_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "yuzhnoportovaya-3-3a": {
+   "files": [
+    "18693_6.jpg",
+    "18693_9.jpg",
+    "18693_3.jpg"
+   ],
+   "credit": "фото"
+  },
+  "nakhabino": {
+   "files": [
+    "27440_1.jpg",
+    "27440_3.jpg",
+    "18821_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "vysokovoltnyy-1a": {
+   "files": [
+    "17714_5.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "dom56": {
+   "files": [
+    "17865_1.jpg",
+    "19455_1.jpg",
+    "19455_9.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "shlyuzovaya-2": {
+   "files": [
+    "22952_2.jpg",
+    "18743_1.jpg",
+    "22952_8.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "mangazeya-v-bogorodskom": {
+   "files": [
+    "29463_1.jpg",
+    "27308_2.jpg",
+    "22197_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "wow": {
+   "files": [
+    "11883_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "tishinskiy-bulvar": {
+   "files": [
+    "23052_1.jpg",
+    "23052_5.jpg",
+    "23052_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "tushinskiy-mashinostroitelnyy-zavod": {
+   "files": [
+    "31608_4.jpg",
+    "31608_2.jpg",
+    "31608_5.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "pobeda": {
+   "files": [
+    "13038_1.jpg",
+    "13038_2.jpg",
+    "13038_4.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "os-savelovskogo": {
+   "files": [
+    "15703_5.jpg",
+    "14598_3.jpg",
+    "15703_6.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "dmitrovskiy-proezd-1g": {
+   "files": [
+    "14456_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "stadion-torpedo": {
+   "files": [
+    "12086_1.jpg",
+    "12086_2.jpg",
+    "12086_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "khamovniki-xii": {
+   "files": [
+    "15276_5.jpg",
+    "15276_1.jpg",
+    "15276_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "bolshaya-cherkizovskaya-32b": {
+   "files": [
+    "31190_2.jpg",
+    "31190_3.jpg",
+    "31190_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "krasnyy-bogatyr-vitebskaya-9": {
+   "files": [
+    "35316_3.jpg",
+    "35316_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "neskuchnyy": {
+   "files": [
+    "20913_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "krt-kurskaya": {
+   "files": [
+    "35407_6.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "level-seligerskaya": {
+   "files": [
+    "12407_1.jpg",
+    "27717_1.jpg",
+    "27717_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "solo": {
+   "files": [
+    "31889_1.jpg",
+    "31889_2.jpg",
+    "31889_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "ivakino": {
+   "files": [
+    "14721_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "taller": {
+   "files": [
+    "35059_1.jpg",
+    "35059_4.jpg",
+    "19177_1.jpg"
+   ],
+   "credit": "фото"
+  },
+  "novoe-ochakovo": {
+   "files": [
+    "12579_1.jpg",
+    "32895_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "kremenchugskaya-42": {
+   "files": [
+    "12613_3.jpg",
+    "12613_7.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "moskvoreche": {
+   "files": [
+    "31448_2.jpg",
+    "31615_3.jpg",
+    "31615_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "rublevskoe-shosse-68": {
+   "files": [
+    "14802_1.jpg"
+   ],
+   "credit": "фото"
+  },
+  "fly-tower": {
+   "files": [
+    "32630_10.jpg",
+    "32630_9.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "kashirskiy-dvor-2": {
+   "files": [
+    "22290_3.jpg",
+    "22290_2.jpg",
+    "22290_4.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "1-y-krasnokursantskiy-3-5": {
+   "files": [
+    "13187_2.jpg",
+    "13187_3.jpg"
+   ],
+   "credit": "фото"
+  },
+  "tatarskaya-35": {
+   "files": [
+    "25746_1.jpg",
+    "25746_5.jpg",
+    "25746_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "kaloshin-6": {
+   "files": [
+    "21218_1.jpg",
+    "13238_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "obydenskiy-1": {
+   "files": [
+    "17411_1.jpg",
+    "16232_2.jpg",
+    "17411_4.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "kompleks-obshchezhitiy-krasnoy-professury": {
+   "files": [
+    "35891_3.jpg",
+    "35891_4.jpg",
+    "36152_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "strana-ozernaya": {
+   "files": [
+    "16548_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "dm-tower": {
+   "files": [
+    "17614_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "kombinat-gazety-pravda": {
+   "files": [
+    "32492_2.jpg",
+    "32492_7.jpg",
+    "32492_6.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "annabel-s": {
+   "files": [
+    "21683_2.jpg",
+    "21683_1.jpg",
+    "21683_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "khoroshevskoe-39": {
+   "files": [
+    "19324_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "bulatnikovo": {
+   "files": [
+    "18635_1.jpg",
+    "18635_2.jpg",
+    "18635_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "botanica": {
+   "files": [
+    "33228_1.jpg",
+    "22586_2.jpg",
+    "22586_4.jpg"
+   ],
+   "credit": "фото"
+  },
+  "nevskiy": {
+   "files": [
+    "20595_3.jpg",
+    "20595_5.jpg"
+   ],
+   "credit": "фото"
+  },
+  "soul-yuzhnoportovaya-42": {
+   "files": [
+    "13876_2.jpg",
+    "13876_4.jpg",
+    "13876_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "level-zvenigorodskaya": {
+   "files": [
+    "20242_1.jpg",
+    "20242_2.jpg",
+    "19967_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "borets": {
+   "files": [
+    "14106_4.jpg",
+    "18865_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "upside-towers": {
+   "files": [
+    "16017_1.jpg",
+    "16105_2.jpg",
+    "16105_5.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "5-ya-magistralnaya-15": {
+   "files": [
+    "35146_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "aurum-taym": {
+   "files": [
+    "31874_1.jpg",
+    "31874_9.jpg",
+    "31874_7.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "novaya-ipatovka-23a": {
+   "files": [
+    "26920_1.jpg",
+    "26920_7.jpg",
+    "26920_5.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "tpu-molodezhnaya": {
+   "files": [
+    "18912_1.jpg",
+    "18912_2.jpg",
+    "18912_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "ekotauer": {
+   "files": [
+    "22884_2.jpg",
+    "22884_3.jpg",
+    "22884_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "elektrolitnyy-10": {
+   "files": [
+    "24629_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "chalet": {
+   "files": [
+    "31691_2.jpg",
+    "31691_6.jpg",
+    "31691_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "proezd-shlomina-8": {
+   "files": [
+    "14642_8.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "pavla-andreeva-23": {
+   "files": [
+    "34620_1.jpg",
+    "23071_3.jpg",
+    "23071_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "dolina-yauzy": {
+   "files": [
+    "14864_1.jpg",
+    "14864_2.jpg",
+    "15177_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "ostankino-business-park": {
+   "files": [
+    "14801_1.jpg",
+    "16559_1.jpg"
+   ],
+   "credit": "фото"
+  },
+  "demidov-26": {
+   "files": [
+    "35452_2.jpg",
+    "35452_3.jpg",
+    "35452_4.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "leningradskiy-36": {
+   "files": [
+    "14636_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "1-ya-brestskaya-64": {
+   "files": [
+    "15757_2.jpg",
+    "15757_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "botanica-plaza": {
+   "files": [
+    "14952_1.jpg",
+    "15388_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "eyler": {
+   "files": [
+    "19143_3.jpg",
+    "19143_2.jpg"
+   ],
+   "credit": "фото"
+  },
+  "tverskaya-10": {
+   "files": [
+    "35426_2.jpg",
+    "15033_2.jpg",
+    "15033_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "telegraf": {
+   "files": [
+    "20362_2.jpg",
+    "15337_1.jpg",
+    "20362_5.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "tsvetnoy-30-32-34": {
+   "files": [
+    "15060_1.jpg",
+    "22038_4.jpg"
+   ],
+   "credit": "фото"
+  },
+  "portland": {
+   "files": [
+    "15342_2.jpg",
+    "15342_1.jpg",
+    "15342_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "myur-i-meriliz": {
+   "files": [
+    "16145_1.jpg",
+    "15474_2.jpg",
+    "15474_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "masters": {
+   "files": [
+    "32167_3.jpg",
+    "32885_1.jpg",
+    "32885_4.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "krivokolennyy-12": {
+   "files": [
+    "15586_4.jpg",
+    "15586_5.jpg",
+    "15586_7.jpg"
+   ],
+   "credit": "фото"
+  },
+  "hideout": {
+   "files": [
+    "24054_1.jpg",
+    "23525_3.jpg",
+    "20217_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "kalibr": {
+   "files": [
+    "27647_10.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "ofisnaya-bashnya-stone": {
+   "files": [
+    "15642_3.jpg",
+    "15642_2.jpg",
+    "15642_5.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "vern": {
+   "files": [
+    "36118_2.jpg",
+    "36118_4.jpg",
+    "36118_9.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "k7-11": {
+   "files": [
+    "31152_1.jpg",
+    "31152_3.jpg",
+    "31152_5.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "stories": {
+   "files": [
+    "15782_2.jpg",
+    "15782_1.jpg",
+    "15782_4.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "kuznechiki": {
+   "files": [
+    "35805_4.jpg",
+    "31245_7.jpg",
+    "31245_9.jpg"
+   ],
+   "credit": "фото"
+  },
+  "ofisnaya-bashnya-gals-v-siti": {
+   "files": [
+    "15822_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "ostrov": {
+   "files": [
+    "30970_1.jpg",
+    "25497_2.jpg",
+    "25497_4.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "nagornyy-proezd-3-str-4": {
+   "files": [
+    "33345_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "kashirskoe-78": {
+   "files": [
+    "21771_1.jpg",
+    "29972_4.jpg",
+    "21771_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "silika": {
+   "files": [
+    "35413_3.jpg",
+    "35413_2.jpg",
+    "27588_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "starosyrovo": {
+   "files": [
+    "32093_3.jpg",
+    "32093_4.jpg",
+    "28123_5.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "zdanie-naprotiv-bashni-imperiya": {
+   "files": [
+    "17034_2.jpg",
+    "17034_1.jpg",
+    "16131_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "strana-parkovaya": {
+   "files": [
+    "24225_2.jpg",
+    "24225_1.jpg",
+    "24225_4.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "five": {
+   "files": [
+    "20466_4.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "sreda-na-kutuzovskom": {
+   "files": [
+    "34623_1.jpg",
+    "34623_2.jpg",
+    "34623_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "aktsenty": {
+   "files": [
+    "30179_1.jpg",
+    "30179_6.jpg",
+    "30188_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "kvartal-zapadnyy": {
+   "files": [
+    "16279_1.jpg",
+    "16279_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "dom-franka": {
+   "files": [
+    "16286_2.jpg",
+    "16286_3.jpg",
+    "16292_6.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "sense": {
+   "files": [
+    "34647_6.jpg",
+    "34647_7.jpg",
+    "34647_8.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "univer": {
+   "files": [
+    "16485_2.jpg",
+    "16485_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "sky-city-business-park": {
+   "files": [
+    "31272_5.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "basmannyy-7": {
+   "files": [
+    "20110_1.jpg",
+    "20110_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "zemlyanoy-val-59": {
+   "files": [
+    "28723_3.jpg",
+    "27927_6.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "rakurs": {
+   "files": [
+    "19726_3.jpg",
+    "20327_5.jpg",
+    "19726_8.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "krasnoselskaya-32-29": {
+   "files": [
+    "29082_3.jpg",
+    "29082_1.jpg",
+    "29082_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "botanika": {
+   "files": [
+    "25469_2.jpg",
+    "29454_1.jpg",
+    "28441_3.jpg"
+   ],
+   "credit": "фото"
+  },
+  "vozdvizhenka-7-6-str-6": {
+   "files": [
+    "34563_3.jpg",
+    "34563_6.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "zorge-25": {
+   "files": [
+    "24664_2.jpg",
+    "24664_4.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "mira": {
+   "files": [
+    "35338_3.jpg",
+    "34960_3.jpg",
+    "34960_2.jpg"
+   ],
+   "credit": "фото"
+  },
+  "tsvetnoy-30-32-34-16866": {
+   "files": [
+    "35556_3.jpg",
+    "35556_2.jpg",
+    "35556_7.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "uno": {
+   "files": [
+    "25456_3.jpg",
+    "25456_1.jpg",
+    "25456_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "noon": {
+   "files": [
+    "27294_2.jpg",
+    "27294_4.jpg",
+    "27294_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "malaya-nikitskaya-27": {
+   "files": [
+    "32708_1.jpg",
+    "32708_3.jpg",
+    "32708_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "r4s": {
+   "files": [
+    "23141_7.jpg",
+    "23141_1.jpg",
+    "23141_8.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "sadovnicheskaya-69": {
+   "files": [
+    "30205_4.jpg",
+    "30205_3.jpg",
+    "30205_5.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "the-lot": {
+   "files": [
+    "32507_3.jpg",
+    "32507_4.jpg",
+    "26652_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "2-y-paveletskiy-4-6": {
+   "files": [
+    "27081_1.jpg",
+    "27081_3.jpg",
+    "27081_4.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "mfk-okolo-aviaparka": {
+   "files": [
+    "17140_1.jpg",
+    "17140_2.jpg",
+    "17140_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "sadovnicheskaya-76-71": {
+   "files": [
+    "24015_4.jpg",
+    "24015_5.jpg",
+    "24015_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "lobachevskogo-138g": {
+   "files": [
+    "22611_2.jpg",
+    "22611_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "arbatetskaya-2-str-5": {
+   "files": [
+    "35421_3.jpg",
+    "35421_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "marilnn-park": {
+   "files": [
+    "25647_1.jpg",
+    "25647_4.jpg",
+    "25647_6.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "king-sons": {
+   "files": [
+    "20258_2.jpg",
+    "20258_1.jpg",
+    "20258_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "kapelskiy-7a-str-1": {
+   "files": [
+    "23872_2.jpg",
+    "23872_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "biznes-park-ostankino": {
+   "files": [
+    "34367_2.jpg",
+    "21580_3.jpg",
+    "34367_1.jpg"
+   ],
+   "credit": "фото"
+  },
+  "shabolovka-26s10": {
+   "files": [
+    "20222_8.jpg",
+    "20222_5.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "dom-na-aristarkhovskom": {
+   "files": [
+    "33063_4.jpg",
+    "33063_2.jpg",
+    "33063_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "dom-dau": {
+   "files": [
+    "17195_1.jpg",
+    "17195_4.jpg",
+    "17684_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "ermakova-roshcha-7as1": {
+   "files": [
+    "22683_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "svet": {
+   "files": [
+    "28622_2.jpg",
+    "28622_1.jpg",
+    "28622_6.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "rubtsovsko-dvortsovaya-1-3": {
+   "files": [
+    "32307_4.jpg",
+    "32307_1.jpg",
+    "32307_8.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "romanov-7": {
+   "files": [
+    "24946_2.jpg",
+    "24946_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "uno-gorbunova": {
+   "files": [
+    "25446_2.jpg",
+    "25446_1.jpg",
+    "25446_4.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "proezd-607-21": {
+   "files": [
+    "29515_1.jpg",
+    "29515_2.jpg",
+    "29515_4.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "novoe-letovo": {
+   "files": [
+    "27613_5.jpg",
+    "27613_8.jpg",
+    "27613_9.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "badaevskiy": {
+   "files": [
+    "35445_1.jpg",
+    "35613_3.jpg",
+    "35613_1.jpg"
+   ],
+   "credit": "фото"
+  },
+  "dominanty-v-krasnogorske": {
+   "files": [
+    "33115_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "safonovskaya-13": {
+   "files": [
+    "30631_3.jpg",
+    "34602_1.jpg",
+    "30631_5.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "perevedenovskiy-13-str-11-12": {
+   "files": [
+    "28654_1.jpg",
+    "28654_3.jpg",
+    "28654_4.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "proektiruemyy-4062-y-8": {
+   "files": [
+    "23313_2.jpg",
+    "23313_3.jpg",
+    "23313_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "tpu-borovskoe-shosse": {
+   "files": [
+    "33558_1.jpg",
+    "33558_4.jpg",
+    "33558_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "vavilova-5": {
+   "files": [
+    "27657_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "yauza-park": {
+   "files": [
+    "17895_1.jpg",
+    "17895_2.jpg",
+    "17895_5.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "nicole": {
+   "files": [
+    "19521_3.jpg",
+    "19521_2.jpg",
+    "19521_7.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "staropetrovskiy-atrium": {
+   "files": [
+    "34373_2.jpg",
+    "34373_1.jpg",
+    "34373_5.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "2-ya-zvenigorodskaya-13": {
+   "files": [
+    "31469_1.jpg",
+    "31469_2.jpg",
+    "31469_5.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "yaroslavskiy-kvartal": {
+   "files": [
+    "18121_2.jpg",
+    "18121_3.jpg",
+    "18085_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "shift": {
+   "files": [
+    "20993_1.jpg",
+    "19435_6.jpg",
+    "19435_5.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "gavrikova-11": {
+   "files": [
+    "34810_3.jpg",
+    "30255_2.jpg",
+    "34810_4.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "vagonoremont": {
+   "files": [
+    "28938_2.jpg",
+    "28938_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "tts-tishinka": {
+   "files": [
+    "29101_1.jpg",
+    "29101_2.jpg",
+    "29101_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "danilovskiy-ot-granel": {
+   "files": [
+    "35877_2.jpg",
+    "35695_3.jpg",
+    "35695_4.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "krestovskiy": {
+   "files": [
+    "36068_7.jpg",
+    "36068_8.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "geolog": {
+   "files": [
+    "21000_2.jpg"
+   ],
+   "credit": "фото"
+  },
+  "uspenskiy-5": {
+   "files": [
+    "34617_1.jpg",
+    "34617_2.jpg",
+    "34617_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "mig": {
+   "files": [
+    "24160_2.jpg",
+    "24160_6.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "semenovskiy-park-2": {
+   "files": [
+    "33258_1.jpg",
+    "18419_1.jpg",
+    "18658_5.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "krylatskaya-2-4": {
+   "files": [
+    "31516_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "belyy-mys": {
+   "files": [
+    "19465_1.jpg",
+    "19465_2.jpg",
+    "19465_6.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "mosfilmovskaya-35": {
+   "files": [
+    "29371_5.jpg",
+    "29371_6.jpg",
+    "29371_10.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "akademika-skryabina-21": {
+   "files": [
+    "33531_1.jpg",
+    "33531_3.jpg",
+    "33531_5.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "nametkina-10a": {
+   "files": [
+    "18805_3.jpg"
+   ],
+   "credit": "фото"
+  },
+  "kotlyakovskaya-4": {
+   "files": [
+    "32894_1.jpg",
+    "26625_3.jpg",
+    "26625_5.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "sbersiti": {
+   "files": [
+    "32251_1.jpg",
+    "32251_2.jpg",
+    "18825_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "dom-7-danilovskiy": {
+   "files": [
+    "23678_1.jpg",
+    "22089_1.jpg",
+    "21517_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "qoob": {
+   "files": [
+    "18978_1.jpg",
+    "18978_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "strana-zarechnaya": {
+   "files": [
+    "31669_1.jpg",
+    "31669_2.jpg",
+    "31669_6.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "kaloshino": {
+   "files": [
+    "19367_4.jpg",
+    "19367_5.jpg",
+    "19367_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "kvartal-gertsena": {
+   "files": [
+    "30836_5.jpg",
+    "30836_1.jpg",
+    "30836_6.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "khodynka": {
+   "files": [
+    "24428_1.jpg",
+    "24428_5.jpg",
+    "24428_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "desnareche": {
+   "files": [
+    "35737_2.jpg",
+    "35882_3.jpg",
+    "19188_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "sokolniki": {
+   "files": [
+    "21512_1.jpg",
+    "21512_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "1-ya-yamskogo-polya-17": {
+   "files": [
+    "21508_2.jpg",
+    "21444_1.jpg",
+    "19264_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "neverovskogo-10": {
+   "files": [
+    "31915_1.jpg",
+    "31915_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "zdanie-sev": {
+   "files": [
+    "34922_4.jpg",
+    "34922_3.jpg",
+    "34922_5.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "level-michurinskogo": {
+   "files": [
+    "19284_3.jpg",
+    "19284_2.jpg",
+    "19284_5.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "dmitriya-donskogo-17": {
+   "files": [
+    "29151_2.jpg",
+    "29151_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "evopark-sokolniki": {
+   "files": [
+    "22095_2.jpg",
+    "21743_2.jpg",
+    "22095_4.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "shabolovka-35": {
+   "files": [
+    "31334_2.jpg",
+    "31334_1.jpg",
+    "25478_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "shabolovka-34": {
+   "files": [
+    "36177_3.jpg",
+    "36177_1.jpg",
+    "36177_5.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "ryabinovaya-44-1": {
+   "files": [
+    "26257_1.jpg",
+    "26257_2.jpg",
+    "26257_6.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "rassvet": {
+   "files": [
+    "17082_4.jpg",
+    "19593_4.jpg",
+    "17082_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "muza": {
+   "files": [
+    "33705_1.jpg",
+    "33705_2.jpg",
+    "31581_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "tpu-lianozovo": {
+   "files": [
+    "19719_1.jpg",
+    "19719_2.jpg",
+    "19719_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "volokolamskoe-32": {
+   "files": [
+    "31528_2.jpg",
+    "31528_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "metronom": {
+   "files": [
+    "19769_4.jpg",
+    "19769_2.jpg",
+    "19769_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "l67": {
+   "files": [
+    "33516_4.jpg",
+    "33516_3.jpg",
+    "33385_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "orient-ekspress": {
+   "files": [
+    "23298_3.jpg",
+    "23298_5.jpg",
+    "23295_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "kombinat-pitaniya-kosmos": {
+   "files": [
+    "23291_2.jpg",
+    "20076_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "literaturnyy-kvartal": {
+   "files": [
+    "33482_2.jpg",
+    "33482_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "begovaya-alleya-7a": {
+   "files": [
+    "20105_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "n-ice-tower": {
+   "files": [
+    "20856_2.jpg",
+    "20856_1.jpg",
+    "20203_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "yurlovskiy-2-4": {
+   "files": [
+    "23131_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "lodochnaya-27k2": {
+   "files": [
+    "23667_4.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "kami": {
+   "files": [
+    "33666_3.jpg",
+    "33666_7.jpg",
+    "33666_5.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "shtab-kvartira-yandeksa": {
+   "files": [
+    "20311_3.jpg",
+    "20311_2.jpg",
+    "20311_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "south-gate": {
+   "files": [
+    "20406_1.jpg",
+    "20406_2.jpg",
+    "20406_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "mitkovo": {
+   "files": [
+    "30794_5.jpg",
+    "30794_4.jpg",
+    "30794_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "dovzhenko-12": {
+   "files": [
+    "24831_2.jpg",
+    "24831_4.jpg",
+    "22972_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "4-y-verkhnemikhaylovskiy-5": {
+   "files": [
+    "20504_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "upside-kuntsev": {
+   "files": [
+    "20581_1.jpg",
+    "20581_4.jpg",
+    "20581_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "tpu-aviamotornaya": {
+   "files": [
+    "26339_7.jpg",
+    "26339_6.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "beside": {
+   "files": [
+    "24811_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "riversky": {
+   "files": [
+    "15869_2.jpg",
+    "15869_1.jpg"
+   ],
+   "credit": "фото"
+  },
+  "foriver": {
+   "files": [
+    "29503_2.jpg",
+    "29503_1.jpg"
+   ],
+   "credit": "фото"
+  },
+  "imperium": {
+   "files": [
+    "23483_1.jpg",
+    "23483_2.jpg",
+    "23483_4.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "andropova-22": {
+   "files": [
+    "20820_4.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "monema": {
+   "files": [
+    "25548_3.jpg",
+    "25548_4.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "pentagram": {
+   "files": [
+    "32481_1.jpg",
+    "32481_3.jpg",
+    "32481_5.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "your-majesty": {
+   "files": [
+    "31140_2.jpg",
+    "31140_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "nizhnyaya-maslovka-3": {
+   "files": [
+    "33200_3.jpg",
+    "33200_1.jpg",
+    "33200_5.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "letnaya-71": {
+   "files": [
+    "35978_3.jpg",
+    "35978_2.jpg",
+    "35978_7.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "kazakov-grand-loft": {
+   "files": [
+    "14220_5.jpg"
+   ],
+   "credit": "фото"
+  },
+  "elektronika-na-presne": {
+   "files": [
+    "21568_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "bolshoy-afanasevskiy-7-str-2-3": {
+   "files": [
+    "33875_5.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "voice-towers": {
+   "files": [
+    "21706_1.jpg",
+    "26062_2.jpg",
+    "21706_4.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "dom-kuptsa-buloshnikova": {
+   "files": [
+    "21812_1.jpg",
+    "21812_7.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "bolshoy-savvinskiy-12": {
+   "files": [
+    "23060_1.jpg"
+   ],
+   "credit": "фото"
+  },
+  "dom-soboleva": {
+   "files": [
+    "24766_4.jpg",
+    "24766_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "ryabovskaya-manufaktura": {
+   "files": [
+    "24891_1.jpg",
+    "29405_5.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "sivtsev-vrazhek-36-18": {
+   "files": [
+    "29694_3.jpg",
+    "21989_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "uzory": {
+   "files": [
+    "31260_1.jpg",
+    "28268_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "presnenskiy-val-38-str-5": {
+   "files": [
+    "22124_4.jpg",
+    "22124_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "aviamotornaya-24": {
+   "files": [
+    "34613_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "dom-perovskikh": {
+   "files": [
+    "22238_4.jpg"
+   ],
+   "credit": "фото"
+  },
+  "setun-tolbukhina-10": {
+   "files": [
+    "22523_1.jpg",
+    "22523_2.jpg",
+    "31101_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "ordzhonikidze-11": {
+   "files": [
+    "33990_4.jpg",
+    "33990_6.jpg",
+    "33990_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "rozhdestvenka-8": {
+   "files": [
+    "29263_2.jpg",
+    "29903_4.jpg",
+    "29903_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "dius": {
+   "files": [
+    "35638_1.jpg",
+    "35638_2.jpg",
+    "22635_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "preobrazhenie": {
+   "files": [
+    "14139_2.jpg",
+    "14139_1.jpg"
+   ],
+   "credit": "фото"
+  },
+  "dd-oo-mm": {
+   "files": [
+    "32194_1.jpg",
+    "32158_2.jpg",
+    "32158_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "rodina-peredelkino": {
+   "files": [
+    "24083_4.jpg",
+    "24083_3.jpg",
+    "24083_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "dk-serp-i-molot": {
+   "files": [
+    "24714_2.jpg",
+    "24714_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "layf-varshavskaya": {
+   "files": [
+    "10659_1.jpg",
+    "22716_1.jpg",
+    "10659_2.jpg"
+   ],
+   "credit": "фото"
+  },
+  "proekt-stone-v-sokolnikakh": {
+   "files": [
+    "22846_2.jpg",
+    "22846_1.jpg",
+    "22846_4.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "malomoskovskaya-22": {
+   "files": [
+    "34430_1.jpg",
+    "24591_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "bts-12": {
+   "files": [
+    "32098_2.jpg",
+    "32098_3.jpg",
+    "32098_6.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "publitsist": {
+   "files": [
+    "22772_3.jpg",
+    "22772_1.jpg",
+    "22772_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "4-ya-magistralnaya-4-10": {
+   "files": [
+    "22879_4.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "one-tower": {
+   "files": [
+    "27666_2.jpg",
+    "30388_6.jpg",
+    "30388_4.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "butovskiy-kombinat": {
+   "files": [
+    "21076_1.jpg",
+    "21076_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "dom-belyy": {
+   "files": [
+    "32429_1.jpg",
+    "23220_2.jpg",
+    "23220_4.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "starovagankovskiy": {
+   "files": [
+    "30662_1.jpg",
+    "30662_2.jpg",
+    "29557_4.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "dream-riva": {
+   "files": [
+    "27840_2.jpg",
+    "23316_1.jpg",
+    "27840_4.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "parshina-2": {
+   "files": [
+    "24365_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "shmitovskiy-34": {
+   "files": [
+    "27857_3.jpg",
+    "27857_1.jpg",
+    "27857_5.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "zvenigorodskaya": {
+   "files": [
+    "27156_2.jpg",
+    "23346_2.jpg",
+    "23346_5.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "vernadskogo-6v": {
+   "files": [
+    "29464_2.jpg",
+    "23467_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "4-ya-tverskaya-yamskaya-10-i-12-str-1": {
+   "files": [
+    "32796_2.jpg",
+    "32796_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "profsoyuznaya-4-12": {
+   "files": [
+    "24965_4.jpg",
+    "24965_7.jpg",
+    "24965_8.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "cityzen": {
+   "files": [
+    "32488_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "chernyy-kub": {
+   "files": [
+    "23653_2.jpg",
+    "23653_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "krt-ogorodnyy-proezd-proekt-2": {
+   "files": [
+    "31751_4.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "dmitrovskoe-62": {
+   "files": [
+    "34913_2.jpg",
+    "34913_3.jpg",
+    "21213_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "mosfilmovskaya-74-78": {
+   "files": [
+    "33969_3.jpg",
+    "33969_4.jpg",
+    "33969_5.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "s5": {
+   "files": [
+    "34727_5.jpg",
+    "34727_10.jpg",
+    "34727_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "paveletskaya-8": {
+   "files": [
+    "35539_2.jpg",
+    "35539_4.jpg",
+    "35539_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "zavod-fereyn": {
+   "files": [
+    "23992_2.jpg",
+    "23992_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "sushchevskiy-val-5": {
+   "files": [
+    "34531_5.jpg",
+    "34531_6.jpg",
+    "34531_4.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "26-parkvyu": {
+   "files": [
+    "34094_3.jpg",
+    "34094_1.jpg",
+    "34094_5.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "kobzon-city": {
+   "files": [
+    "27598_1.jpg",
+    "30102_1.jpg",
+    "28708_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "perovskiy-54": {
+   "files": [
+    "32404_2.jpg",
+    "32404_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "wowmanskaya": {
+   "files": [
+    "33759_2.jpg",
+    "33759_4.jpg",
+    "33759_5.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "zil-vostok": {
+   "files": [
+    "23006_2.jpg",
+    "23006_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "dom-na-dzhalilya": {
+   "files": [
+    "34343_1.jpg",
+    "34343_2.jpg",
+    "34249_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "magnum-solo": {
+   "files": [
+    "33073_1.jpg",
+    "28764_3.jpg",
+    "24419_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "natsionalnyy-tsentr-rossiya": {
+   "files": [
+    "28863_4.jpg",
+    "28863_6.jpg",
+    "28863_5.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "1-ya-bukhvostova-3-1": {
+   "files": [
+    "34155_1.jpg",
+    "34155_4.jpg",
+    "34155_5.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "stupinskiy-7": {
+   "files": [
+    "31096_1.jpg",
+    "31096_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "stoun-park-pobedy": {
+   "files": [
+    "36097_1.jpg",
+    "36029_1.jpg",
+    "36097_5.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "bakuninskaya-77-str-3": {
+   "files": [
+    "35741_3.jpg",
+    "35741_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "light-city": {
+   "files": [
+    "27482_5.jpg",
+    "27482_4.jpg",
+    "25041_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "kutuzov-siti": {
+   "files": [
+    "28239_8.jpg",
+    "28239_5.jpg",
+    "27262_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "akademika-oparina-2": {
+   "files": [
+    "32930_3.jpg",
+    "32930_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "edel": {
+   "files": [
+    "28534_2.jpg",
+    "28534_6.jpg",
+    "28534_5.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "tatum": {
+   "files": [
+    "33433_1.jpg",
+    "33433_4.jpg",
+    "32422_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "leningradskoe-63a-3": {
+   "files": [
+    "29484_1.jpg",
+    "29484_4.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "gasheka-12-2": {
+   "files": [
+    "33275_2.jpg",
+    "33275_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "tverskaya-30-2": {
+   "files": [
+    "31760_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "rublevskaya-rivera": {
+   "files": [
+    "25698_2.jpg",
+    "25698_4.jpg",
+    "25698_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "bolshaya-dorogomilovskaya-12": {
+   "files": [
+    "30016_4.jpg",
+    "30016_8.jpg",
+    "30016_5.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "2-y-irtyshskiy": {
+   "files": [
+    "32896_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "ofisnyy-proekt-stone-na-khodynke": {
+   "files": [
+    "32890_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "zatsepa-21": {
+   "files": [
+    "26903_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "eon": {
+   "files": [
+    "28477_2.jpg",
+    "35780_1.jpg",
+    "28477_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "kashirskoe-14": {
+   "files": [
+    "31457_1.jpg",
+    "31457_2.jpg",
+    "31457_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "avtozavodskaya-23": {
+   "files": [
+    "34425_2.jpg",
+    "34425_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "beregovoy-4-6": {
+   "files": [
+    "34278_3.jpg",
+    "34278_4.jpg",
+    "34278_6.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "khavskaya-9-1": {
+   "files": [
+    "33018_2.jpg",
+    "33018_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "saltykovskaya-24": {
+   "files": [
+    "30161_3.jpg",
+    "30161_4.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "rubtsovskaya-3": {
+   "files": [
+    "26831_4.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "leningradskoe-71a": {
+   "files": [
+    "35951_2.jpg",
+    "35951_1.jpg",
+    "35951_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "vavilova-64-1": {
+   "files": [
+    "33922_1.jpg",
+    "33922_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "1-y-volokolamskiy-10": {
+   "files": [
+    "33505_2.jpg",
+    "33505_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "krasnyy-oktyabr": {
+   "files": [
+    "36157_1.jpg",
+    "36157_4.jpg",
+    "36157_5.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "malyy-levshinskiy-7": {
+   "files": [
+    "33510_1.jpg",
+    "33510_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "bolshoy-moskovskiy-tsirk-na-prospekte-vernadskogo": {
+   "files": [
+    "27714_1.jpg",
+    "27714_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "serebryanicheskaya-11": {
+   "files": [
+    "31966_1.jpg",
+    "27802_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "bolshoy-kharitonevskiy-13a-s10": {
+   "files": [
+    "33376_2.jpg",
+    "33376_4.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "3-ya-khoroshevskaya-18-2": {
+   "files": [
+    "27990_1.jpg",
+    "34127_2.jpg",
+    "34127_5.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "gerasima-kurina-10-str-1-str-2": {
+   "files": [
+    "30989_5.jpg",
+    "30989_2.jpg",
+    "30989_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "moskva-tovarnaya-ryazanskaya": {
+   "files": [
+    "34690_1.jpg",
+    "34690_2.jpg",
+    "28659_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "kolskaya-18": {
+   "files": [
+    "33765_4.jpg",
+    "33765_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "symphony-38a": {
+   "files": [
+    "28948_2.jpg"
+   ],
+   "credit": "фото"
+  },
+  "bolshoy-kozikhinskiy-22-str-1-2": {
+   "files": [
+    "29188_4.jpg",
+    "29188_1.jpg",
+    "29188_7.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "icity": {
+   "files": [
+    "31630_2.jpg",
+    "31630_5.jpg",
+    "32009_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "paveletskaya-naberezhnaya-6": {
+   "files": [
+    "35945_2.jpg",
+    "35945_4.jpg",
+    "35945_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "tpu-fili": {
+   "files": [
+    "29027_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "buninskaya-naberezhnaya": {
+   "files": [
+    "29205_2.jpg",
+    "29205_1.jpg",
+    "29205_6.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "loran": {
+   "files": [
+    "36032_1.jpg",
+    "36032_3.jpg",
+    "29322_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "vetkina-2v": {
+   "files": [
+    "31366_1.jpg",
+    "31366_2.jpg",
+    "31366_4.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "mangazeya-na-rechnom": {
+   "files": [
+    "32561_3.jpg",
+    "32561_2.jpg",
+    "32561_4.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "molodogvardeyskaya-64-9": {
+   "files": [
+    "34114_5.jpg",
+    "34114_8.jpg",
+    "34114_7.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "presnenskiy-val-14s1": {
+   "files": [
+    "30092_3.jpg"
+   ],
+   "credit": "фото"
+  },
+  "bolshoy-savvinskiy-2-str-7": {
+   "files": [
+    "33621_1.jpg",
+    "33621_6.jpg",
+    "33621_7.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "kashirskoe-61-korp-4-str-1-9": {
+   "files": [
+    "30174_3.jpg",
+    "30174_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "kvartal-mit": {
+   "files": [
+    "30682_2.jpg",
+    "30682_1.jpg",
+    "30682_5.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "enigmiya": {
+   "files": [
+    "32526_2.jpg",
+    "32526_4.jpg",
+    "32526_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "onezhskiy-val": {
+   "files": [
+    "30847_2.jpg",
+    "30847_6.jpg",
+    "30847_4.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "novoyasenevskiy-5-13": {
+   "files": [
+    "32906_1.jpg",
+    "32906_3.jpg",
+    "32906_4.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "upside-ostankino": {
+   "files": [
+    "32209_2.jpg",
+    "32209_3.jpg",
+    "32209_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "triniti": {
+   "files": [
+    "31288_3.jpg",
+    "31288_2.jpg",
+    "31288_6.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "sber-siti": {
+   "files": [
+    "31342_2.jpg",
+    "31342_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "kod-sokolniki": {
+   "files": [
+    "32426_2.jpg",
+    "32426_3.jpg",
+    "31562_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "bakuninskaya-74-76": {
+   "files": [
+    "31657_3.jpg",
+    "31657_2.jpg",
+    "31841_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "michurinskiy-park": {
+   "files": [
+    "32648_1.jpg",
+    "32648_2.jpg",
+    "23154_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "work-nizhegorodskaya": {
+   "files": [
+    "33986_1.jpg",
+    "33986_4.jpg",
+    "33986_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "level-nizhegorodskaya": {
+   "files": [
+    "31957_5.jpg",
+    "31970_2.jpg",
+    "31970_6.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "krt-na-ulitse-krzhizhanovskogo": {
+   "files": [
+    "33916_2.jpg",
+    "33916_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "planetnaya-3": {
+   "files": [
+    "32015_4.jpg",
+    "32015_3.jpg",
+    "32015_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "2-ya-magistralnaya-18": {
+   "files": [
+    "33689_2.jpg",
+    "33689_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "shkola-budushchego": {
+   "files": [
+    "35209_2.jpg",
+    "35209_1.jpg",
+    "35201_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "nizhnie-mnevniki-20": {
+   "files": [
+    "32349_2.jpg",
+    "32349_1.jpg",
+    "32349_5.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "kutuzovskaya-sloboda": {
+   "files": [
+    "32362_3.jpg",
+    "32362_4.jpg",
+    "32362_2.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "blik": {
+   "files": [
+    "33445_3.jpg",
+    "33445_2.jpg",
+    "32377_1.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "lomonosov": {
+   "files": [
+    "33957_2.jpg",
+    "33957_5.jpg",
+    "33957_4.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "rizhskiy-vokzal": {
+   "files": [
+    "33216_1.jpg"
+   ],
+   "credit": "фото"
+  },
+  "sitidzen": {
+   "files": [
+    "33474_2.jpg",
+    "33474_3.jpg",
+    "33474_6.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "om-botanicheskiy": {
+   "files": [
+    "35439_1.jpg",
+    "33538_2.jpg",
+    "35439_5.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "sreda-na-varshavskom": {
+   "files": [
+    "33880_1.jpg",
+    "33880_2.jpg",
+    "33880_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "fenomen-goroda": {
+   "files": [
+    "33976_2.jpg",
+    "33976_4.jpg",
+    "33976_3.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "aurus-rezidentsii": {
+   "files": [
+    "35329_8.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "1-y-sheremetevskiy": {
+   "files": [
+    "35727_5.jpg",
+    "35727_8.jpg",
+    "35378_1.jpg"
+   ],
+   "credit": "фото"
+  },
+  "bolshaya-ordynka-25": {
+   "files": [
+    "33421_3.jpg",
+    "31146_3.jpg",
+    "33421_5.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "kutuzovskiy-12-14a": {
+   "files": [
+    "28782_3.jpg",
+    "28782_7.jpg"
+   ],
+   "credit": "визуализация"
+  },
+  "oda-gallery": {
+   "files": [
+    "19398_2.jpg",
+    "19398_9.jpg",
+    "19398_6.jpg"
+   ],
+   "credit": "визуализация"
+  }
+ }
+}

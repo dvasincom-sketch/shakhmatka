@@ -1,0 +1,19 @@
+{
+ "key": "arbat",
+ "name": "Арбат",
+ "nameIn": "на Арбате",
+ "okrug": "ЦАО",
+ "slug": "arbat",
+ "url": "/novostroyki/arbat/",
+ "objects": [
+  {
+   "name": "Проезд Шломина, 8",
+   "url": "/obekty/proezd-shlomina-8/",
+   "developer": "СЗ Проезд Шломина",
+   "summary": "«Проезд Шломина, 8» — проект застройщика СЗ Проезд Шломина (район Арбат). В досье 3 события с 2022 по 2026 год.",
+   "stage": "architecture",
+   "zu": "Проезд Шломина, 8",
+   "articles": []
+  }
+ ]
+}

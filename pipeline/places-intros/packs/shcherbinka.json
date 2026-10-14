@@ -1,0 +1,18 @@
+{
+ "key": "shcherbinka",
+ "name": "Щербинка",
+ "nameIn": "в Щербинке",
+ "okrug": "НАО",
+ "slug": "shcherbinka",
+ "url": "/novostroyki/shcherbinka/",
+ "objects": [
+  {
+   "name": "Никольские луга",
+   "url": "/obekty/nikolskie-luga/",
+   "developer": "ПИК (ПАО «ПИК-специализированный застройщик»)",
+   "summary": "«Никольские луга» — проект застройщика ПИК (район Щербинка). В досье 6 событий с 2021 по 2022 год, из них 2 — сигнала до официальных новостей.",
+   "stage": "sales",
+   "articles": []
+  }
+ ]
+}

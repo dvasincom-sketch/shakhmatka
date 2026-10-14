@@ -1,0 +1,30 @@
+{
+ "slug": "losinoostrovskiy-park",
+ "status": "ok",
+ "project": "Лосиноостровский парк",
+ "start": {
+  "date": "2021-09",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 5.4,
+  "lot_desc": "минимальная стоимость лота на старте (квартиры от 20 до 86 м², с отделкой, первые 4 из 22 корпусов)",
+  "source": {
+   "title": "ЖК «Лосиноостровский парк»: минимальная (novostroy-m.ru)",
+   "url": "https://www.novostroy-m.ru/novosti/jk_losinoostrovskiy_park_minimalnaya",
+   "date": "2021-09-15"
+  }
+ },
+ "now": {
+  "as_of": "2026-10-14",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 15.56,
+  "lot_desc": "студия 28,10 м², 15 561 780 ₽ (в заголовке «от 15.6 млн₽»), 61 квартира в продаже",
+  "selling": true,
+  "source": {
+   "title": "ЖК Лосиноостровский парк, карточка novostroy-m.ru (/baza/jk_na_otkrytom_shosse)",
+   "url": "https://www.novostroy-m.ru/baza/jk_na_otkrytom_shosse"
+  }
+ },
+ "note": "Цены за м² в источниках нет. Карточка: «Цены за квартиры от 14 октября» (год не указан), последняя запись динамики цен 02.10.2026. Лоты разные по площади (старт: минимум в диапазоне 20-86 м²; сейчас студия 28,1 м²), сравнение по лоту приблизительное."
+}

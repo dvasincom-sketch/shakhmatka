@@ -1,0 +1,30 @@
+{
+ "slug": "streshnevo",
+ "status": "ok",
+ "project": "Level Стрешнево",
+ "start": {
+  "date": "2019-12",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 4.1,
+  "lot_desc": "студия 23,3 м²",
+  "source": {
+   "title": "Новость novostroy-m.ru о старте продаж Level Стрешнево",
+   "url": "https://www.novostroy-m.ru/novosti/zdaniya_rasschitany_na_747",
+   "date": "2019-12-27"
+  }
+ },
+ "now": {
+  "as_of": "2026-10-14",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": null,
+  "lot_desc": null,
+  "selling": false,
+  "source": {
+   "title": "ЖК Level Стрешнево, карточка novostroy-m.ru",
+   "url": "https://www.novostroy-m.ru/baza/jk_level_streshnevo_level"
+  }
+ },
+ "note": "Старт всего проекта - декабрь 2019 (первая очередь), а не корпус января 2022 из архива (261 тыс.). Новость от 27.12.2019 не называет точной даты старта; башня 'Запад' - отдельная новость 22.05.2020 ('от 5,8 млн'). Цена за м2 в источниках не указана. Сейчас на карточке: 'Все лоты от застройщика реализованы', все корпуса - выдача ключей (последние данные на странице - лето 2024)."
+}

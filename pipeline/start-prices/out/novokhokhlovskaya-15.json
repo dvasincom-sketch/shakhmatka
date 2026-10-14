@@ -1,0 +1,30 @@
+{
+ "slug": "novokhokhlovskaya-15",
+ "status": "partial",
+ "project": "ЖК Новохохловская 15",
+ "start": {
+  "date": "2020-10",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 5.0,
+  "lot_desc": "минимальная стоимость на старте; в продажу выведены корпуса 1 и 2",
+  "source": {
+   "title": "Новый проект Новохохловская 15 (novostroy-m.ru)",
+   "url": "https://www.novostroy-m.ru/novosti/novyy_proekt_novohohlovskaya_15",
+   "date": "2020-10-17"
+  }
+ },
+ "now": {
+  "as_of": "2026-10-14",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": null,
+  "lot_desc": null,
+  "selling": false,
+  "source": {
+   "title": "ЖК Новохохловская 15, карточка novostroy-m.ru",
+   "url": "https://www.novostroy-m.ru/baza/jk_novohohlovskaya15"
+  }
+ },
+ "note": "Старт: «минимальная стоимость на старте - 5 млн рублей», цены за м² в источнике нет (189 тыс. из архива не подтверждено). Сейчас: карточка пишет «Нет в продаже квартир от застройщика», цен нет; проверить на сайте ПИК не удалось (pik.ru не открылся), поэтому selling=false только по карточке. Декларации: корпуса 1-2 от 07.09.2020, 3-4 от 23.06.2021."
+}

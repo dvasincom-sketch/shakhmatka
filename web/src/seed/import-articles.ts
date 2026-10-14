@@ -22,7 +22,7 @@ const iso = (v: unknown) => (v ? new Date(String(v instanceof Date ? v.toISOStri
 async function run() {
   const payload = await initPayload()
   const dir = path.resolve(process.cwd(), process.env.CONTENT_DIR || '../content/articles')
-  const files = fs.readdirSync(dir).filter((f) => /^\d+-.+\.md$/.test(f)).sort()
+  const files = fs.readdirSync(dir).filter((f) => /^(\d+|signaly-\d{4}-\d{2})-.+\.md$/.test(f)).sort()
   payload.logger.info(`Импорт из ${dir}: ${files.length} файлов`)
 
   const upsert = async (collection: 'developers' | 'objects' | 'articles', slug: string, data: Record<string, unknown>): Promise<{ id: number | string }> => {
@@ -42,13 +42,25 @@ async function run() {
 
   for (const f of files) {
     const { data: fm, content } = matter(fs.readFileSync(path.join(dir, f), 'utf8'))
-    if (fm.status === 'skip') { payload.logger.info(`пропуск ${f}: ${fm.skip_reason}`); continue }
+    if (fm.status === 'skip') {
+      // статью сняли после фактчекинга — если она уже была в базе, убираем
+      const was = fm.slug ? (await payload.find({ collection: 'articles', where: { slug: { equals: fm.slug } }, limit: 1, depth: 0 })).docs[0] : undefined
+      if (was) { await payload.delete({ collection: 'articles', id: was.id }); payload.logger.info(`снята ${fm.slug}: ${fm.skip_reason}`) }
+      else payload.logger.info(`пропуск ${f}: ${fm.skip_reason}`)
+      continue
+    }
 
     const devIds: (number | string)[] = []
     let mainDev: number | string | undefined
     const prevDevs: (number | string)[] = []
+    // застройщики и объекты: существующие не перезаписываем (досье ведутся отдельно), только создаём недостающие
+    const ensure = async (collection: 'developers' | 'objects', slug: string, data: Record<string, unknown>) => {
+      const found = await payload.find({ collection, where: { slug: { equals: slug } }, limit: 1, depth: 0 })
+      if (found.docs[0]) return found.docs[0] as { id: number | string }
+      return (await payload.create({ collection, data: { ...data, slug } } as never)) as { id: number | string }
+    }
     for (const d of fm.developers || []) {
-      const doc = await upsert('developers', d.id, { name: d.name })
+      const doc = await ensure('developers', d.id, { name: d.name })
       if (DEV_ROLES_LINKED.has(d.role)) devIds.push(doc.id)
       if (d.role === 'main') mainDev = doc.id
       if (d.role === 'previous') prevDevs.push(doc.id)
@@ -57,7 +69,7 @@ async function run() {
     const objIds: (number | string)[] = []
     for (const o of fm.objects || []) {
       const names: string[] = o.names || [o.id]
-      const doc = await upsert('objects', o.id, {
+      const doc = await ensure('objects', o.id, {
         name: names[0],
         aliases: names.slice(1).map((value) => ({ value })),
         zu: o.zu,

@@ -39,6 +39,15 @@ export default buildConfig({
     ? postgresAdapter({ pool: { connectionString: PG, ssl: process.env.DATABASE_SSL === '1' ? { rejectUnauthorized: false } : undefined }, push: false, prodMigrations: migrations })
     : sqliteAdapter({ client: { url: process.env.DATABASE_URL || 'file:./shakhmatka.db' } }),
   sharp,
+  // роли появились позже пользователей: если администратора нет, им становится самый первый пользователь
+  onInit: async (payload) => {
+    try {
+      const admins = await payload.count({ collection: 'users', where: { role: { equals: 'admin' } } })
+      if (admins.totalDocs) return
+      const first = (await payload.find({ collection: 'users', sort: 'createdAt', limit: 1, depth: 0 })).docs[0]
+      if (first) await payload.update({ collection: 'users', id: first.id, data: { role: 'admin' }, overrideAccess: true })
+    } catch (e) { payload.logger.warn(`роли пользователей: ${String(e)}`) }
+  },
   // Файлы (фото) — в S3-хранилище, если оно задано: контейнер при каждом деплое создаётся заново и свои файлы теряет.
   // Отдаются через /api/media/file/…, так что бакет может быть приватным.
   plugins: process.env.S3_BUCKET

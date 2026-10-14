@@ -1,0 +1,19 @@
+{
+ "key": "savelovskiy",
+ "name": "Савёловский",
+ "nameIn": "в Савёловском районе",
+ "okrug": "САО",
+ "slug": "savelovskiy",
+ "url": "/novostroyki/savelovskiy/",
+ "objects": [
+  {
+   "name": "Ось Савеловского",
+   "url": "/obekty/os-savelovskogo/",
+   "developer": "Sminex",
+   "summary": "«Ось Савеловского» — проект застройщика Sminex на участке «Бутырская, 1» (район Савёловский). В досье 3 события 2022 года.",
+   "stage": "architecture",
+   "zu": "Бутырская, 1",
+   "articles": []
+  }
+ ]
+}

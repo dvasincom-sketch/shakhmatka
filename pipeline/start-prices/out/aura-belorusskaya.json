@@ -1,0 +1,19 @@
+{
+ "slug": "aura-belorusskaya",
+ "status": "unverifiable",
+ "project": "GloraX Aura Belorusskaya / Клубный дом GloraX Premium Белорусская (1-я ул. Ямского Поля, 28)",
+ "start": null,
+ "now": {
+  "as_of": "2026-10-14",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": null,
+  "lot_desc": null,
+  "selling": false,
+  "source": {
+   "title": "Клубный дом GloraX Premium Белорусская (novostroy-m.ru): «Нет в продаже апартаментов от застройщика»",
+   "url": "https://novostroy-m.ru/baza/klubnyy_dom_glorax_aura"
+  }
+ },
+ "note": "Подтверждения старта с ценой не найдено. РБК-Недвижимость 14.12.2021 (https://realty.rbc.ru/news/61b722479a79473776988f56) подтверждает старт в декабре 2021, 183 апартамента, лоты 31-165 кв. м, но цен не называет. Цифра 645 тыс./м² есть только в архиве редакции. Сейчас: на карточке «Нет в продаже апартаментов от застройщика», сдан корпус 1."
+}

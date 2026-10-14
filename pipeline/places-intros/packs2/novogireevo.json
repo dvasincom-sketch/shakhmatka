@@ -1,0 +1,15 @@
+{
+ "key": "novogireevo",
+ "name": "Новогиреево",
+ "nameIn": "в районе Новогиреево",
+ "okrug": "ВАО",
+ "objects": [
+  {
+   "name": "Кусковская, 12",
+   "developer": "ПИК",
+   "stage_by_dossier": "проект",
+   "zu": "Кусковская, 12",
+   "events_in_dossier": 8
+  }
+ ]
+}

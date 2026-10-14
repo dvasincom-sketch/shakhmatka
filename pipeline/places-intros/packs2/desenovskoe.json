@@ -1,0 +1,15 @@
+{
+ "key": "desenovskoe",
+ "name": "Десёновское",
+ "nameIn": "в районе Десёновское",
+ "okrug": "НАО",
+ "objects": [
+  {
+   "name": "Деснаречье",
+   "developer": "А101",
+   "stage_by_dossier": "продажи",
+   "zu": null,
+   "events_in_dossier": 3
+  }
+ ]
+}

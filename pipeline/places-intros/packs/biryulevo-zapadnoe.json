@@ -1,0 +1,27 @@
+{
+ "key": "biryulevo-zapadnoe",
+ "name": "Бирюлёво Западное",
+ "nameIn": "в районе Бирюлёво Западное",
+ "okrug": "ЮАО",
+ "slug": "biryulevo-zapadnoe",
+ "url": "/novostroyki/biryulevo-zapadnoe/",
+ "objects": [
+  {
+   "name": "Ступинский, 7",
+   "url": "/obekty/stupinskiy-7/",
+   "developer": "MR Group",
+   "summary": "«Ступинский, 7» — проект застройщика MR Group (район Бирюлёво Западное). В досье 3 события с 2024 по 2025 год.",
+   "stage": "architecture",
+   "zu": "Ступинский, 7",
+   "articles": []
+  },
+  {
+   "name": "ТПУ Косино",
+   "url": "/obekty/tpu-kosino/",
+   "developer": "MR Group",
+   "summary": "«ТПУ Косино» — проект застройщика MR Group (район Бирюлёво Западное). В досье 3 события 2024 года, из них 1 — сигнал до официальных новостей.",
+   "stage": "land",
+   "articles": []
+  }
+ ]
+}

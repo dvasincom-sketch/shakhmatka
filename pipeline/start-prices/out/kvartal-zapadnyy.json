@@ -1,0 +1,19 @@
+{
+ "slug": "kvartal-zapadnyy",
+ "status": "partial",
+ "project": "Квартал Западный",
+ "start": null,
+ "now": {
+  "as_of": "2026-10-14",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 7.6,
+  "lot_desc": "студия без отделки 22,8 м² (по комментарию на карточке)",
+  "selling": true,
+  "source": {
+   "title": "ЖК Квартал Западный, novostroy-m",
+   "url": "https://www.novostroy-m.ru/baza/jk_kvartal_zapadnyy"
+  }
+ },
+ "note": "Старт февраля 2023 не подтверждён (обзоры novostroy-m не открылись). Сейчас: цены от 7 597 741 руб., 76 квартир, на 14 октября; цены за м² на карточке нет."
+}

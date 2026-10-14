@@ -1,0 +1,19 @@
+{
+ "slug": "ostrov",
+ "status": "partial",
+ "project": "ЖК Остров (Донстрой, Мнёвниковская пойма)",
+ "start": null,
+ "now": {
+  "as_of": "2026-10-14",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 21.4,
+  "lot_desc": "студия 28,0 м², 21 387 520 ₽ (минимум среди показанных лотов); в списке 690 квартир",
+  "selling": true,
+  "source": {
+   "title": "ЖК Остров, novostroy-m.ru",
+   "url": "https://www.novostroy-m.ru/baza/jk_ostrov"
+  }
+ },
+ "note": "Старт (дек. 2020) не подтверждён: Газета.ру/Ведомости 2020-12-16 содержат лишь оценку экспертов «на уровне 350-400 тыс. рублей» (прогноз, URL https://www.gazeta.ru/business/news/2020/12/16/n_15369356.shtml не открылся, данные со ссылки novostroy-m.ru/novosti/donstroy_zastroit_chast_mnevnikovskoy от 2020-12-16, старт продаж там не указан). Для справки: новый квартал в июне 2021 «от 11,5 млн» (novostroy-m.ru/novosti/prodaji_v_novom_kvartale, 2021-06-24) - это не старт проекта. Цена сейчас по нескольким кварталам, очередь не указана. Бюджет WebFetch превышен."
+}

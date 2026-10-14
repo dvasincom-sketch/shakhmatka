@@ -1,0 +1,26 @@
+{
+ "slug": "3s",
+ "name": "3S",
+ "objects": [
+  {
+   "name": "Талисман на Рокоссовского",
+   "stage_by_dossier": "продажи",
+   "where": "Богородское",
+   "zu": "Открытое шоссе, 14Д"
+  },
+  {
+   "name": "Бутырская, 1/2",
+   "stage_by_dossier": "проект",
+   "where": "Савёловский",
+   "zu": "Бутырская, 1/2"
+  },
+  {
+   "name": "Voice Towers",
+   "stage_by_dossier": "продажи",
+   "where": null,
+   "zu": "1-й Грайвороновский, 2/2"
+  }
+ ],
+ "confirmed_deals": [],
+ "checked_articles": []
+}

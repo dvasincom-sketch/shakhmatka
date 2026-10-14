@@ -1,0 +1,19 @@
+{
+ "slug": "nays-loft",
+ "status": "unverifiable",
+ "project": "N'ICE LOFT (Найс Лофт)",
+ "start": null,
+ "now": {
+  "as_of": "2026-10-13",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 8.5,
+  "lot_desc": "студия 20,1 м², 5/16 этаж (8 514 661 ₽); диапазон по проекту 8,5-33,9 млн",
+  "selling": true,
+  "source": {
+   "title": "N'ICE LOFT, карточка novostroy-m.ru",
+   "url": "https://www.novostroy-m.ru/baza/jk_nice_loft"
+  }
+ },
+ "note": "Подтверждения старта (июль 2021) в источниках не нашёл: бюджет поиска исчерпан, обзор novostroy-m за июль 2021 не открылся. Цена за м2 на карточке не указана. В продаже 302 помещения, акция до 31 октября."
+}

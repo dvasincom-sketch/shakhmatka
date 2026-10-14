@@ -1,4 +1,5 @@
 import type { CollectionConfig } from 'payload'
+import { admins, staff } from '../access'
 
 export const STAGES = [
   { label: 'Участок', value: 'land' },
@@ -39,11 +40,11 @@ export const CERTAINTY = [
 export const Objects: CollectionConfig = {
   slug: 'objects',
   labels: { singular: 'Объект', plural: 'Объекты' },
-  access: { read: () => true },
+  access: { read: () => true, create: staff, update: staff, delete: admins },
   admin: { useAsTitle: 'name', defaultColumns: ['name', 'zu', 'stage', 'priceFrom', 'region'] },
   hooks: {
-    beforeChange: [({ data }) => {
-      const tl = (data.timeline || []) as { date?: string; certainty?: string }[]
+    beforeChange: [({ data, originalDoc }) => {
+      const tl = (data.timeline ?? originalDoc?.timeline ?? []) as { date?: string; certainty?: string }[]
       const now = new Date().toISOString()
       const dates = tl.map((t) => t.date).filter((d): d is string => !!d && d <= now).sort()
       data.lastEventAt = dates.length ? dates[dates.length - 1] : null
@@ -90,6 +91,10 @@ export const Objects: CollectionConfig = {
           { name: 'confirmedOn', label: 'Подтвердилось', type: 'date', admin: { width: '50%', description: 'Для сигнала: когда информация подтвердилась', date: { pickerAppearance: 'dayOnly', displayFormat: 'dd.MM.yyyy' } } },
         ] },
         { type: 'row', fields: [
+          { name: 'outcome', label: 'Итог проверки', type: 'select', options: [{ label: 'Не подтвердилось', value: 'unconfirmed' }, { label: 'Опровергнуто', value: 'refuted' }], admin: { width: '50%', description: 'Для сигнала, который проверили и не нашли подтверждения' } },
+          { name: 'checkedOn', label: 'Проверено', type: 'date', admin: { width: '50%', date: { pickerAppearance: 'dayOnly', displayFormat: 'dd.MM.yyyy' } } },
+        ] },
+        { type: 'row', fields: [
           { name: 'sourceNote', label: 'Заметка архива', type: 'number', admin: { width: '50%', description: 'Номер заметки — для редакции, на сайте не показывается' } },
           { name: 'verified', label: 'Сверено по первоисточнику', type: 'checkbox', admin: { width: '50%' } },
         ] },
@@ -111,5 +116,18 @@ export const Objects: CollectionConfig = {
     { name: 'signalCount', label: 'Сигналов в хронологии', type: 'number', admin: { position: 'sidebar', readOnly: true } },
     { name: 'auto', label: 'Собрано из архива автоматически', type: 'checkbox', defaultValue: false, admin: { position: 'sidebar', description: 'Снимите галочку, когда редакция проверит досье: тогда повторный импорт его не перезапишет' } },
     { name: 'previousDevelopers', label: 'Застройщики раньше', type: 'relationship', relationTo: 'developers', hasMany: true },
+    {
+      name: 'owners', label: 'Смена собственников', type: 'array',
+      admin: { description: 'Кто владел проектом и когда: от первого к текущему. Каждая смена — со ссылкой на источник' },
+      fields: [
+        { type: 'row', fields: [
+          { name: 'developer', label: 'Застройщик / владелец', type: 'relationship', relationTo: 'developers', admin: { width: '40%' } },
+          { name: 'since', label: 'С', type: 'text', admin: { width: '30%', description: '«8 июля 2026», «январь 2022»' } },
+          { name: 'until', label: 'По', type: 'text', admin: { width: '30%' } },
+        ] },
+        { name: 'how', label: 'Как перешёл проект', type: 'textarea' },
+        { name: 'source', label: 'Источник', type: 'text' },
+      ],
+    },
   ],
 }

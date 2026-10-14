@@ -1,0 +1,30 @@
+{
+  "slug": "proekt-stone-v-sokolnikakh",
+  "status": "ok",
+  "project": "ЖК Sokolniki (СТОУН Сокольники), STONE",
+  "start": {
+    "date": "2024-08",
+    "price_m2": 390,
+    "price_m2_kind": "from",
+    "lot_from": null,
+    "lot_desc": null,
+    "source": {
+      "title": "Каким будет ЖК Sokolniki: обзор жилого дома класса бизнес+ от STONE (РБК Недвижимость)",
+      "url": "https://realty.rbc.ru/news/66bb8b149a79476205a18021",
+      "date": "2024-08-14"
+    }
+  },
+  "now": {
+    "as_of": "2026-10-14",
+    "price_m2": 541.648,
+    "price_m2_kind": "from",
+    "lot_from": 20.9572,
+    "lot_desc": "студия 33,1 м²; мин. цена за м2 - 1-комн. 47,5 м²",
+    "selling": true,
+    "source": {
+      "title": "Планировки квартир в ЖК «СТОУН Сокольники» (Яндекс Недвижимость)",
+      "url": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/stoun-sokolniki-3993648/planirovki/"
+    }
+  },
+  "note": "РБК: продажи стартовали в начале августа 2024. Архив редакции: бронирование с 15.04.2024 от 330 тыс./м2, студии 13-16 млн (слух/сигнал, не подтверждено источником); обзор novostroy-m за апрель 2024 цен по Stone не содержит. Страница Яндекса без явной даты (срок сдачи 4 кв. 2027), as_of условный. Мин. лот и мин. цена за м2 относятся к разным квартирам."
+}

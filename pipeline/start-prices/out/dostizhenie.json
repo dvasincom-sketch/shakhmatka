@@ -1,0 +1,19 @@
+{
+ "status": "partial",
+ "project": "Дом «Достижение» (Sminex)",
+ "start": null,
+ "now": {
+  "as_of": "2026-10-14",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": null,
+  "lot_desc": null,
+  "selling": false,
+  "source": {
+   "title": "Дом Достижение, карточка novostroy-m.ru: «Квартиры реализованы», нет в продаже от застройщика",
+   "url": "https://novostroy-m.ru/baza/jiloy_kompleks_ostankino"
+  }
+ },
+ "note": "Старт открытых продаж в феврале 2021 подтверждён РБК-Недвижимость (14.04.2021, https://realty.rbc.ru/news/606361bb9a7947b037cf204f), но цен там нет; цену старта (архив: средняя 332 тыс.) подтвердить не удалось. Pre-sale 2019: novostroy-m 02.12.2019 «от 195 тыс. руб./м²» (не старт открытых продаж). Сейчас квартиры распроданы (novostroy.ru тоже: нет квартир в продаже); последняя цена на карточке — ноябрь 2024, от 20 млн, неактуальна.",
+ "slug": "dostizhenie"
+}

@@ -1,0 +1,30 @@
+{
+ "status": "ok",
+ "project": "ЖК «Полар» (ПИК, Полярная, 39)",
+ "start": {
+  "date": "2022-05",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 6.1,
+  "lot_desc": "лоты 19,6-82,7 м² с отделкой, 'от 6,1 млн'",
+  "source": {
+   "title": "novostroy-m.ru, обзор стартов продаж мая 2022",
+   "url": "https://www.novostroy-m.ru/analitika/starty_prodaj_may_2022",
+   "date": "2022-05-31"
+  }
+ },
+ "now": {
+  "as_of": "2026-10-14",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 12.23,
+  "lot_desc": "студия 19,4 м² за 12 229 760 ₽ из блока 'Еще квартиры в Полар'; официальный минимум проекта страница не называет",
+  "selling": true,
+  "source": {
+   "title": "novostroy-m.ru, лот в ЖК Полар (цена от 10 окт 2026)",
+   "url": "https://www.novostroy-m.ru/kvartiry/odnokomnatnaya-kvartira-v-polar-e89485011b64aa02a0d69bc377a6ba"
+  }
+ },
+ "note": "Карточка проекта /baza/jk_polar не открылась; текущие цифры слабее старта. На той же странице 1-к 34,6 м² за 18 690 920 ₽ (540 200 ₽/м²). Цена за м² на старте источником не названа (237 тыс. из архива не подтверждены). Дом строится, сдача II кв. 2027.",
+ "slug": "polar"
+}

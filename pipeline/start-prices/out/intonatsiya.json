@@ -1,0 +1,30 @@
+{
+ "slug": "intonatsiya",
+ "status": "ok",
+ "project": "Клубный дом Интонация (Щукинская, 7)",
+ "start": {
+  "date": "2021-09",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 15,
+  "lot_desc": "'цены стартуют от 15 млн рублей'",
+  "source": {
+   "title": "Старты продаж, сентябрь 2021, novostroy-m.ru",
+   "url": "https://www.novostroy-m.ru/analitika/starty_prodaj_msk_sentyabr",
+   "date": "2021-09-30"
+  }
+ },
+ "now": {
+  "as_of": "2026-10-14",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 59.774503,
+  "lot_desc": "3-комн. 98 м²; заголовок 'от 59.8 млн'",
+  "selling": true,
+  "source": {
+   "title": "Клубный дом Интонация, novostroy-m.ru",
+   "url": "https://novostroy-m.ru/baza/jk_schukinskaya_7"
+  }
+ },
+ "note": "Цена за м2 в источниках не указана (316 тыс. из архива не подтверждена). Год у 'цены от 14 октября' на карточке не указан."
+}

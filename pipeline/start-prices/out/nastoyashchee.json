@@ -1,0 +1,19 @@
+{
+ "slug": "nastoyashchee",
+ "status": "unverifiable",
+ "project": "Настоящее",
+ "start": null,
+ "now": {
+  "as_of": "2024-12",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": null,
+  "lot_desc": null,
+  "selling": false,
+  "source": {
+   "title": "ЖК Настоящее, novostroy-m.ru",
+   "url": "https://novostroy-m.ru/baza/jk_nastoyashchee"
+  }
+ },
+ "note": "Старт (28 мая 2020, средняя 220 тыс. по архиву) не подтверждён источником. РБК 26.04.2021: продажи начались примерно за год до публикации, цен нет. novostroy-m 30.01.2021 «Стартовали продажи нового пула»: 1-комн. от 14,9 млн - это не старт. Сейчас: карточка (данные 2024): «Нет в продаже квартир от застройщика», все 4 корпуса сданы."
+}

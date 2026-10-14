@@ -1,0 +1,19 @@
+{
+ "slug": "river-park-kutuzovskiy",
+ "status": "unverifiable",
+ "project": "Ривер Парк Кутузовский",
+ "start": null,
+ "now": {
+  "as_of": "2026-10-08",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 29.468614,
+  "lot_desc": "студия 21,30 м²; 'от 29.5 до 332 млн'",
+  "selling": true,
+  "source": {
+   "title": "Ривер Парк Кутузовский, novostroy-m.ru",
+   "url": "https://www.novostroy-m.ru/kvartiry/novostroyka/jk_river_park_towers"
+  }
+ },
+ "note": "Подтверждения старта нет. Запись архива от 15.12.2025 (737 тыс./м2) - старт последней башни Lazur, не проекта; первый старт проекта (около 2022) источником не найден. Цена сейчас по всему проекту, не только Lazur; дата актуальности на карточке явно не указана ('от 8 октября' на странице вопросов, год не указан)."
+}

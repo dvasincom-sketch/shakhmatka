@@ -1,0 +1,30 @@
+{
+ "slug": "1-y-nagatinskiy",
+ "status": "ok",
+ "project": "1-й Нагатинский / Первый Нагатинский",
+ "start": {
+  "date": "2022-05",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 11.3,
+  "lot_desc": "студия 30,3 м²",
+  "source": {
+   "title": "ЖК 1-й Нагатинский: квартиры от 11,2 млн, novostroy-m.ru",
+   "url": "https://www.novostroy-m.ru/novosti/kvartiry_ot_112_mln",
+   "date": "2022-05-28"
+  }
+ },
+ "now": {
+  "as_of": "2026-10-14",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 17.8,
+  "lot_desc": "'от 17.8 до 77.8 млн', 252 квартиры",
+  "selling": true,
+  "source": {
+   "title": "Первый Нагатинский (vopros-otvet), novostroy-m.ru",
+   "url": "https://www.novostroy-m.ru/baza/kompleks_apartamentov_na_1m/vopros-otvet"
+  }
+ },
+ "note": "Старт: в заголовке '11,2 млн', в тексте 'от 11,3 млн' за студию 30,3 м2 (взято из текста). Цена за м2 не указана (346 тыс. из архива не подтверждена). Сейчас: главная карточка (цены на 29 сентября, год не указан) показывала от 18,6 млн (студия 18,2 м2, 18 554 651 руб.); взято значение страницы с датой 'от 14 октября' - расхождение. Корпуса 1.1-1.3 сданы, 2.1-2.2 строятся."
+}

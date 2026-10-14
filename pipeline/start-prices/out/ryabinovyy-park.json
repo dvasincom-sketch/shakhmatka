@@ -1,0 +1,30 @@
+{
+ "slug": "ryabinovyy-park",
+ "status": "partial",
+ "project": "Апарт-комплекс Верейская 41 (Рябиновый парк, Самолёт)",
+ "start": {
+  "date": "2022-03",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 11.1,
+  "lot_desc": "лоты 20-157 м2",
+  "source": {
+   "title": "Обзор стартов продаж марта 2022, novostroy-m.ru",
+   "url": "https://www.novostroy-m.ru/analitika/starty_prodaj_mart_2022",
+   "date": "2022-03-31"
+  }
+ },
+ "now": {
+  "as_of": "2026-10-14",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": null,
+  "lot_desc": "лоты в продаже есть на novostroy.ru, цены не получены",
+  "selling": true,
+  "source": {
+   "title": "Верейская 41 (novostroy.ru)",
+   "url": "https://www.novostroy.ru/new-flats/kvartira-33m-ryabinovyy-park-3394-20262/"
+  }
+ },
+ "note": "Цены сейчас не получены (страницы не открылись). Архив: 328 тыс/м2 с отделкой на старте - в обзоре месяца цены м2 нет."
+}

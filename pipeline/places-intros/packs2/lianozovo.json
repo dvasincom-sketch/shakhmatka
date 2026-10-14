@@ -1,0 +1,29 @@
+{
+ "key": "lianozovo",
+ "name": "Лианозово",
+ "nameIn": "в районе Лианозово",
+ "okrug": "СВАО",
+ "objects": [
+  {
+   "name": "Абрамцевская, 37",
+   "developer": "ПИК",
+   "stage_by_dossier": "проект",
+   "zu": "Абрамцевская, 37",
+   "events_in_dossier": 4
+  },
+  {
+   "name": "Стремление к свету",
+   "developer": "Севен санс",
+   "stage_by_dossier": "разрешение на строительство",
+   "zu": "Илимская, 3",
+   "events_in_dossier": 3
+  },
+  {
+   "name": "ТПУ Лианозово",
+   "developer": null,
+   "stage_by_dossier": "проект",
+   "zu": "Дубнинская, 81",
+   "events_in_dossier": 3
+  }
+ ]
+}

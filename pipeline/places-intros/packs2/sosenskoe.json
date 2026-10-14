@@ -1,0 +1,37 @@
+{
+ "key": "sosenskoe",
+ "name": "Сосенское",
+ "nameIn": "в поселении Сосенское",
+ "okrug": "НАО",
+ "objects": [
+  {
+   "name": "АДЦ Коммунарка",
+   "developer": "Самолёт",
+   "stage_by_dossier": "проект",
+   "zu": null,
+   "events_in_dossier": 19
+  },
+  {
+   "name": "Прокшино",
+   "developer": "А101",
+   "stage_by_dossier": "продажи",
+   "zu": null,
+   "events_in_dossier": 11
+  },
+  {
+   "name": "Новое Летово",
+   "developer": "Рост",
+   "stage_by_dossier": "продажи",
+   "zu": null,
+   "events_in_dossier": 3
+  },
+  {
+   "name": "Бунинская набережная",
+   "developer": "ПИК",
+   "stage_by_dossier": "продажи",
+   "zu": null,
+   "events_in_dossier": 3,
+   "start_vs_now": "старт 2025-04: от 7.2 млн ₽ → 2026-10-14: от 12.08 млн ₽ (проверено)"
+  }
+ ]
+}

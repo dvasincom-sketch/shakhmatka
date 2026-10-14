@@ -1,0 +1,30 @@
+{
+ "slug": "kolskaya-8",
+ "status": "ok",
+ "project": "Кольская 8",
+ "start": {
+  "date": "2021-04",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 6.3,
+  "lot_desc": "начальная цена предложения",
+  "source": {
+   "title": "ПИК представляет новый проект (novostroy-m)",
+   "url": "https://www.novostroy-m.ru/novosti/pik_predstavlyaet_novyy_proekt",
+   "date": "2021-04-05"
+  }
+ },
+ "now": {
+  "as_of": "2026-10-14",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 36.32,
+  "lot_desc": "3-комн. 82,2 м², статус Сдан",
+  "selling": true,
+  "source": {
+   "title": "ЖК Кольская 8, novostroy-m",
+   "url": "https://www.novostroy-m.ru/baza/jiloy_kompleks_kolskaya_8"
+  }
+ },
+ "note": "Цена за м² на старте в источнике не названа (262 тыс. только в архиве). Сейчас в продаже 2 трёхкомнатные квартиры в сданном доме и 2 помещения коммерции; в мета-описании карточки 'от 39,1 млн' (91,3 м²), но в списке лот 82,2 м² за 36 324 180 руб. (совпадает с заголовком novostroy.ru/buildings/kolskaya-8 'от 36 324 200 ₽'); взят меньший. Цены за м² на странице нет, на 8 октября."
+}

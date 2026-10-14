@@ -1,0 +1,26 @@
+{
+ "key": "golovinskiy",
+ "name": "Головинский",
+ "nameIn": "в Головинском районе",
+ "okrug": "САО",
+ "slug": "golovinskiy",
+ "url": "/novostroyki/golovinskiy/",
+ "objects": [
+  {
+   "name": "Автомоторная",
+   "url": "/obekty/avtomotornaya/",
+   "developer": "MR Group",
+   "summary": "«Автомоторная» — проект застройщика MR Group (район Головинский). В досье 6 событий 2022 года, из них 3 — сигнала до официальных новостей.",
+   "stage": "land",
+   "articles": []
+  },
+  {
+   "name": "Михалковский",
+   "url": "/obekty/mikhalkovskiy/",
+   "developer": "РГ",
+   "summary": "«Михалковский» — проект застройщика РГ (район Головинский). В досье 3 события с 2021 по 2022 год.",
+   "stage": "sales",
+   "articles": []
+  }
+ ]
+}

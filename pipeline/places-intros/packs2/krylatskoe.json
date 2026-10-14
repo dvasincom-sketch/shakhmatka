@@ -1,0 +1,36 @@
+{
+ "key": "krylatskoe",
+ "name": "Крылатское",
+ "nameIn": "в Крылатском",
+ "okrug": "ЗАО",
+ "objects": [
+  {
+   "name": "Экотауэр",
+   "developer": "Capital Group",
+   "stage_by_dossier": "разрешение на строительство",
+   "zu": "Крылатская, 33",
+   "events_in_dossier": 10
+  },
+  {
+   "name": "Дом горизонтов",
+   "developer": "Тач",
+   "stage_by_dossier": "продажи",
+   "zu": "Крылатская, 23",
+   "events_in_dossier": 7
+  },
+  {
+   "name": "СберСити",
+   "developer": "Сбер",
+   "stage_by_dossier": "сдан",
+   "zu": null,
+   "events_in_dossier": 4
+  },
+  {
+   "name": "Крылатская, 2/4",
+   "developer": null,
+   "stage_by_dossier": "участок",
+   "zu": "Крылатская, 2/4",
+   "events_in_dossier": 3
+  }
+ ]
+}

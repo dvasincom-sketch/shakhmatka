@@ -1,0 +1,43 @@
+{
+ "key": "akademicheskiy",
+ "name": "Академический",
+ "nameIn": "в Академическом районе",
+ "okrug": "ЮЗАО",
+ "objects": [
+  {
+   "name": "Академическая",
+   "developer": "Level Group",
+   "stage_by_dossier": "продажи",
+   "zu": "Профсоюзная, 2/22",
+   "events_in_dossier": 14
+  },
+  {
+   "name": "К31",
+   "developer": "Главстрой",
+   "stage_by_dossier": "проект",
+   "zu": "Кржижановского, 31",
+   "events_in_dossier": 9
+  },
+  {
+   "name": "Cherry City",
+   "developer": "MR Group",
+   "stage_by_dossier": "разрешение на строительство",
+   "zu": "Большая Черемушкинская, 25",
+   "events_in_dossier": 5
+  },
+  {
+   "name": "Профсоюзная, 4-12",
+   "developer": "Перспективные Инвестиции",
+   "stage_by_dossier": "участок",
+   "zu": "Профсоюзная, 4-12",
+   "events_in_dossier": 3
+  },
+  {
+   "name": "КРТ на улице Кржижановского",
+   "developer": "Самолёт",
+   "stage_by_dossier": "проект",
+   "zu": null,
+   "events_in_dossier": 3
+  }
+ ]
+}

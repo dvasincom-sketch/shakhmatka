@@ -1,0 +1,30 @@
+{
+ "status": "ok",
+ "project": "ЖК SHIFT (Шифт), Пионер, Донской",
+ "start": {
+  "date": "2024-02",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 37.0,
+  "lot_desc": "'цены на старте - от 37 млн рублей', лот не уточнён",
+  "source": {
+   "title": "novostroy-m.ru, обзор стартов продаж февраля 2024",
+   "url": "https://www.novostroy-m.ru/analitika/starty_prodaj_fevral_2024",
+   "date": "2024-02-29"
+  }
+ },
+ "now": {
+  "as_of": "2026-10-14",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 45.9,
+  "lot_desc": "2-к 46,5 м² за 45 909 450 ₽, диапазон 'от 45.9 до 491 млн'",
+  "selling": true,
+  "source": {
+   "title": "novostroy-m.ru, карточка ЖК Shift (цены от 14 октября)",
+   "url": "https://www.novostroy-m.ru/baza/jk_shift"
+  }
+ },
+ "note": "Цена за м² в источниках не названа (933 тыс. из архива не подтверждены). Корпуса 1-5, сдача I кв. 2028; к какой очереди относится минимальный лот, не сказано (в 2025 открылись башни 1, 4, 5).",
+ "slug": "shift"
+}

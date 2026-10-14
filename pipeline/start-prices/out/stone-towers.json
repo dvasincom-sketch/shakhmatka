@@ -1,0 +1,30 @@
+{
+ "slug": "stone-towers",
+ "status": "partial",
+ "project": "Stone Towers, башня D",
+ "start": {
+  "date": "2022-11",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 23,
+  "lot_desc": "башня D, лоты от 70 м2",
+  "source": {
+   "title": "РБК Недвижимость (реклама), Stone Towers башня D",
+   "url": "https://realty.rbc.ru/news/6378c9629a794700ccc227af",
+   "date": "2022-11-21"
+  }
+ },
+ "now": {
+  "as_of": "2026-10-14",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 272.2,
+  "lot_desc": "6 помещений 389-718 м2 от 272 198 560 руб. - относится к Tower E, не к башне D; дата на странице не указана",
+  "selling": true,
+  "source": {
+   "title": "Stone Towers (novostroy-m.ru)",
+   "url": "https://www.novostroy-m.ru/commerce/novostroyka/biznestsentr_stone_towers_"
+  }
+ },
+ "note": "Проект офисный. Публикация о старте помечена как реклама; цены за м2 в ней нет (архив: от 300 тыс/м2 - не источник). Башня D завершена, актуальная цена по ней не найдена; цифра now - по Tower E, для сравнения не годится."
+}

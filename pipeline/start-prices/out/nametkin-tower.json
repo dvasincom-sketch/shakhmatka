@@ -1,0 +1,27 @@
+{
+ "slug": "nametkin-tower",
+ "status": "partial",
+ "project": "Nametkin Tower (Основа), Наметкина, 10",
+ "start": {
+  "date": "2022-03",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 7.5,
+  "lot_desc": "студия 21,1 м2",
+  "source": {
+   "title": "Обзор стартов продаж марта 2022, novostroy-m.ru",
+   "url": "https://www.novostroy-m.ru/analitika/starty_prodaj_mart_2022",
+   "date": "2022-03-31"
+  }
+ },
+ "now": {
+  "as_of": "2026-10-14",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": null,
+  "lot_desc": null,
+  "selling": null,
+  "source": null
+ },
+ "note": "РБК Недвижимость 07.04.2022 (https://realty.rbc.ru/news/6245aba59a7947e236ec3722): минимальная стоимость 7,4 млн, апартаменты 21-111 м2 - небольшое расхождение с 7,5 млн; цены м2 в обеих публикациях нет. Цену сейчас найти не удалось (страницы не открылись)."
+}

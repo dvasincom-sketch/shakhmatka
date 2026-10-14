@@ -1,0 +1,26 @@
+{
+ "slug": "dogma",
+ "name": "Догма",
+ "objects": [
+  {
+   "name": "Котляковская, 4",
+   "stage_by_dossier": "проект",
+   "where": "Москворечье-Сабурово",
+   "zu": "Котляковская, 4"
+  },
+  {
+   "name": "2-й Иртышский",
+   "stage_by_dossier": "продажи",
+   "where": null,
+   "zu": null
+  },
+  {
+   "name": "Публицист",
+   "stage_by_dossier": "продажи",
+   "where": "moskovskaya-oblast",
+   "zu": null
+  }
+ ],
+ "confirmed_deals": [],
+ "checked_articles": []
+}
