@@ -24,9 +24,10 @@ FROM node:22-bookworm-slim AS run
 WORKDIR /app/web
 ENV NODE_ENV=production NEXT_TELEMETRY_DISABLED=1 PORT=3000 HOSTNAME=0.0.0.0
 # Полные node_modules и исходники нужны, чтобы в контейнере работали миграции и импорт контента (payload run).
-COPY --from=build /app/web ./
-COPY content/ /app/content/
-RUN chmod +x docker-entrypoint.sh && chown -R node:node /app
+# --chown при копировании вместо chown -R по всему /app: тот занимал ~9 минут на каждом деплое
+COPY --from=build --chown=node:node /app/web ./
+COPY --chown=node:node content/ /app/content/
+RUN chmod +x docker-entrypoint.sh && chown node:node /app /app/web /app/content
 USER node
 EXPOSE 3000
 CMD ["./docker-entrypoint.sh"]
