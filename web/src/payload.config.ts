@@ -19,7 +19,19 @@ import { migrations } from './migrations'
 
 const filename = fileURLToPath(import.meta.url)
 const dirname = path.dirname(filename)
-const PG = process.env.DATABASE_URI?.startsWith('postgres') ? process.env.DATABASE_URI : ''
+// Адрес базы: DATABASE_URI (наш) или DATABASE_URL (так его передаёт Timeweb при подключении базы к приложению).
+// Параметры sslmode/sslrootcert из адреса убираем и включаем SSL сами: сертификат управляемой базы самоподписанный.
+const RAW_DB = process.env.DATABASE_URI || process.env.DATABASE_URL || ''
+const IS_PG = /^postgres(ql)?:\/\//.test(RAW_DB)
+let PG = ''
+let PG_SSL = process.env.DATABASE_SSL === '1'
+if (IS_PG) {
+  const u = new URL(RAW_DB)
+  const mode = u.searchParams.get('sslmode')
+  if (mode && mode !== 'disable') PG_SSL = true
+  for (const k of ['sslmode', 'sslrootcert', 'sslcert', 'sslkey']) u.searchParams.delete(k)
+  PG = u.toString()
+}
 
 export default buildConfig({
   admin: {
@@ -33,11 +45,11 @@ export default buildConfig({
   editor: lexicalEditor(),
   secret: process.env.PAYLOAD_SECRET || '',
   typescript: { outputFile: path.resolve(dirname, 'payload-types.ts') },
-  // Продакшен: PostgreSQL (DATABASE_URI=postgres://…), схема — только миграциями из src/migrations, они применяются при старте.
+  // Продакшен: PostgreSQL (DATABASE_URI или DATABASE_URL = postgres://…), схема — только миграциями из src/migrations, они применяются при старте.
   // Локально без DATABASE_URI: SQLite-файл, схема подтягивается автоматически в dev.
   db: PG
-    ? postgresAdapter({ pool: { connectionString: PG, ssl: process.env.DATABASE_SSL === '1' ? { rejectUnauthorized: false } : undefined }, push: false, prodMigrations: migrations })
-    : sqliteAdapter({ client: { url: process.env.DATABASE_URL || 'file:./shakhmatka.db' } }),
+    ? postgresAdapter({ pool: { connectionString: PG, ssl: PG_SSL ? { rejectUnauthorized: false } : undefined }, push: false, prodMigrations: migrations })
+    : sqliteAdapter({ client: { url: RAW_DB.startsWith('file:') ? RAW_DB : 'file:./shakhmatka.db' } }),
   sharp,
   // роли появились позже пользователей: если администратора нет, им становится самый первый пользователь
   onInit: async (payload) => {
