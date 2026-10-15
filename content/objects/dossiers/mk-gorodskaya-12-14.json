@@ -1,5 +1,5 @@
 {
-  "_readme": "Ручное досье (15.10.2026) по карточкам каталогов: https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/zhk-gorodskaya-ul-d-12-14-4534803/, https://realty.yandex.ru/moskva/kupit/novostrojka/z-moskovskie-kvartaly-4209811/",
+  "_readme": "Ручное досье (15.10.2026) по карточкам каталогов: https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/zhk-gorodskaya-ul-d-12-14-4534803/, https://realty.yandex.ru/moskva/kupit/novostrojka/z-moskovskie-kvartaly-4209811/ Дополнено 15.10.2026 по карточке дома на москварталы.рф: https://москварталы.рф/obekty/gorodskaya-ul-d-12-14/",
   "slug": "mk-gorodskaya-12-14",
   "name": "Городская, 12, 14",
   "zu": "Городская, 12, 14",
@@ -11,13 +11,13 @@
   "district": "troitsk",
   "stage": "completed",
   "developer": "fond-renovatsii",
-  "summary": "Жилой дом Московского фонда реновации по адресу Москва (Троицк), ул. Городская, 12, 14. По данным каталога — 736 квартир, 19–20 этажей. Каталоги относят дом к линейке «Московские кварталы»; продажа квартир самим фондом на дату проверки не подтверждена.",
+  "summary": "Жилой дом по адресу Москва (Троицк), ул. Городская, 12, 14. По данным каталога — 736 квартир, 19–20 этажей. Квартиры продаёт Московский фонд реновации на портале «Московские кварталы» (москварталы.рф): в феврале 2026 года — от 229 тыс. ₽ за м², лоты от 14,7 млн ₽.",
   "timeline": [
     {
-      "date": "2026-10-15",
-      "dateLabel": "октябрь 2026",
-      "kind": "other",
-      "title": "Дом Фонда реновации значится в каталогах в линейке «Московские кварталы»",
+      "date": "2025-12-25",
+      "dateLabel": "декабрь 2025",
+      "kind": "sales",
+      "title": "Квартиры дома выставлены на продажу на портале «Московские кварталы»: от 233 тыс. ₽ за м²",
       "certainty": "fact"
     }
   ]

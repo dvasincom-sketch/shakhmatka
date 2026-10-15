@@ -1,5 +1,5 @@
 {
-  "_readme": "Ручное досье (15.10.2026) по карточкам каталогов: https://investfuture.ru/articles/kak-kupit-kvartiru-v-moskve-deshevle-chem-u-zastroyschika-est-prostoy-sposob, https://zhk-dom-po-ul-lyublinskaya-zu-521-i.cian.ru/",
+  "_readme": "Ручное досье (15.10.2026) по карточкам каталогов: https://investfuture.ru/articles/kak-kupit-kvartiru-v-moskve-deshevle-chem-u-zastroyschika-est-prostoy-sposob, https://zhk-dom-po-ul-lyublinskaya-zu-521-i.cian.ru/ Дополнено 15.10.2026 по карточке дома на москварталы.рф: https://москварталы.рф/",
   "slug": "mk-lyublinskaya-z-u-52-k1",
   "name": "Люблинская, з/у 52 к1",
   "zu": "Люблинская, з/у 52 к1",
@@ -11,13 +11,27 @@
   "district": "lyublino",
   "stage": "sales",
   "developer": "fond-renovatsii",
-  "summary": "Жилой дом Московского фонда реновации по адресу ул. Люблинская, 52, к. 1. Каталоги относят дом к линейке «Московские кварталы»; продажа квартир самим фондом на дату проверки не подтверждена.",
+  "summary": "Жилой дом по адресу ул. Люблинская, 52, к. 1. Квартиры продаёт Московский фонд реновации на портале «Московские кварталы» (москварталы.рф).",
   "timeline": [
     {
-      "date": "2026-10-15",
-      "dateLabel": "октябрь 2026",
+      "date": "2026-06-11",
+      "dateLabel": "июнь 2026",
+      "kind": "tender",
+      "title": "Часть квартир дома продаётся через аукцион",
+      "certainty": "fact"
+    },
+    {
+      "date": "2026-06-11",
+      "dateLabel": "июнь 2026",
       "kind": "sales",
-      "title": "Квартиры продаются на открытом рынке под брендом «Московские кварталы»",
+      "title": "Квартиры дома выставлены на продажу на портале «Московские кварталы»",
+      "certainty": "fact"
+    },
+    {
+      "date": "2026-06-11",
+      "dateLabel": "июнь 2026",
+      "kind": "tender",
+      "title": "Часть квартир дома продаётся через аукцион",
       "certainty": "fact"
     }
   ]

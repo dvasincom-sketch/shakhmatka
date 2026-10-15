@@ -535,100 +535,159 @@
    "class": "deluxe"
   },
   "mk-klinskaya-2a-k7": {
-   "priceFrom": 14.1,
-   "priceAsOf": "октябрь 2026",
-   "priceSource": "Яндекс Недвижимость, лоты застройщика",
-   "class": "comfort"
+   "priceFrom": 12.4,
+   "priceAsOf": "март 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)",
+   "class": "comfort",
+   "priceM2From": 289.6
   },
   "mk-lyublinskaya-76-k4": {
-   "priceFrom": 13.1,
-   "priceAsOf": "октябрь 2026",
-   "priceSource": "Яндекс Недвижимость, лоты застройщика",
-   "class": "comfort"
+   "priceFrom": 12.7,
+   "priceAsOf": "февраль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)",
+   "class": "comfort",
+   "priceM2From": 241.0
   },
   "kuskovskaya-12": {
-   "priceFrom": 25.1,
-   "priceAsOf": "октябрь 2026",
-   "priceSource": "Яндекс Недвижимость, лоты застройщика",
-   "class": "comfort"
+   "priceFrom": 19.2,
+   "priceAsOf": "июнь 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)",
+   "class": "comfort",
+   "priceM2From": 510.3
   },
   "mk-rodnikovaya-4a": {
    "priceFrom": 19.5,
-   "priceAsOf": "октябрь 2026",
-   "priceSource": "Яндекс Недвижимость, лоты застройщика",
+   "priceAsOf": "июль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)",
    "completion": "II кв. 2025",
-   "class": "comfort"
+   "class": "comfort",
+   "priceM2From": 342.3
   },
   "mk-svetlanova-11-k2": {
-   "priceFrom": 38.8,
-   "priceAsOf": "октябрь 2026",
-   "priceSource": "Яндекс Недвижимость, лоты застройщика",
-   "class": "business"
+   "priceFrom": 39.8,
+   "priceAsOf": "сентябрь 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)",
+   "class": "business",
+   "priceM2From": 639.3
   },
   "mk-3-ya-pryadilnaya-vl-4": {
-   "priceFrom": 13.6,
-   "priceAsOf": "октябрь 2026",
-   "priceSource": "Яндекс Недвижимость, лоты застройщика",
+   "priceFrom": 15.2,
+   "priceAsOf": "июнь 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)",
    "completion": "III кв. 2027",
-   "class": "comfort"
+   "class": "comfort",
+   "priceM2From": 342.2
   },
   "mk-3-ya-pryadilnaya-z-u-10": {
-   "priceFrom": 14.2,
-   "priceAsOf": "октябрь 2026",
-   "priceSource": "Яндекс Недвижимость, лоты застройщика",
+   "priceFrom": 12.2,
+   "priceAsOf": "май 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)",
    "completion": "II кв. 2027",
-   "class": "comfort"
+   "class": "comfort",
+   "priceM2From": 321.6
   },
   "mk-3-ya-pryadilnaya-z-u-14": {
    "completion": "IV кв. 2027",
-   "class": "comfort"
+   "class": "comfort",
+   "priceFrom": 13.9,
+   "priceM2From": 459.6,
+   "priceAsOf": "май 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
   },
   "mk-2-ya-frezernaya-z-u-6": {
    "completion": "IV кв. 2026"
   },
   "mk-novocheremushkinskaya-z-u-41-1a": {
    "completion": "III кв. 2027",
-   "class": "comfort"
+   "class": "comfort",
+   "priceFrom": 19.9,
+   "priceM2From": 471.2,
+   "priceAsOf": "март 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
   },
   "mk-bolshaya-cheremushkinskaya-z-u-26-2": {
    "completion": "III кв. 2027",
    "class": "comfort"
   },
   "mk-nikitinskaya-vl-21": {
-   "class": "comfort"
+   "class": "comfort",
+   "priceFrom": 16.7,
+   "priceM2From": 381.7,
+   "priceAsOf": "июнь 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
   },
   "mk-polyarnaya-z-u-16": {
-   "class": "comfort"
+   "class": "comfort",
+   "priceFrom": 24.4,
+   "priceM2From": 0,
+   "priceAsOf": "сентябрь 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
   },
   "mk-polyarnaya-3": {
-   "class": "comfort"
+   "class": "comfort",
+   "priceFrom": 15.2,
+   "priceM2From": 399.2,
+   "priceAsOf": "февраль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
   },
   "mk-polyarnaya-4-k1": {
-   "class": "comfort"
+   "class": "comfort",
+   "priceFrom": 19.8,
+   "priceM2From": 416.0,
+   "priceAsOf": "июль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
   },
   "mk-sirenevyy-b-r-4-12a": {
    "class": "business"
   },
   "mk-gorodskaya-12-14": {
-   "class": "comfort"
+   "class": "comfort",
+   "priceFrom": 14.7,
+   "priceM2From": 229.4,
+   "priceAsOf": "февраль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
   },
   "mk-borovskiy-proezd-1": {
-   "class": "comfort"
+   "class": "comfort",
+   "priceFrom": 31.1,
+   "priceM2From": 418.4,
+   "priceAsOf": "июль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
   },
   "mk-checherskiy-pr-d-28": {
-   "class": "comfort"
+   "class": "comfort",
+   "priceFrom": 16.3,
+   "priceM2From": 364.0,
+   "priceAsOf": "сентябрь 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
   },
   "mk-remizova-11-k2": {
-   "class": "comfort"
+   "class": "comfort",
+   "priceFrom": 22.5,
+   "priceM2From": 483.5,
+   "priceAsOf": "февраль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
   },
   "mk-garibaldi-26": {
-   "class": "comfort"
+   "class": "comfort",
+   "priceFrom": 27.9,
+   "priceM2From": 630.8,
+   "priceAsOf": "июнь 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
   },
   "mk-novocheremushkinskaya-56-3": {
-   "class": "comfort"
+   "class": "comfort",
+   "priceFrom": 25.4,
+   "priceM2From": 588.9,
+   "priceAsOf": "март 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
   },
   "mk-kedrova-16-k3": {
-   "class": "comfort"
+   "class": "comfort",
+   "priceFrom": 48.4,
+   "priceM2From": 668.5,
+   "priceAsOf": "июль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
   },
   "pik-signalnyy-16": {
    "priceFrom": 19.6,
@@ -745,6 +804,968 @@
    "class": "business"
   },
   "pik-yunino": {
+   "class": "comfort"
+  },
+  "mk-16-ya-parkovaya-12": {
+   "priceFrom": 16.6,
+   "priceM2From": 293.5,
+   "priceAsOf": "февраль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-2-y-tushinskiy-pr-d-1": {
+   "priceFrom": 15.4,
+   "priceM2From": 360.1,
+   "priceAsOf": "сентябрь 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-3-ya-pryadilnaya-z-u-13": {
+   "priceFrom": 14.1,
+   "priceM2From": 338.6,
+   "priceAsOf": "август 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-5-ya-parkovaya-62b": {
+   "priceFrom": 22.8,
+   "priceM2From": 292.5,
+   "priceAsOf": "февраль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-6-ya-radialnaya-7-1-k1": {
+   "priceFrom": 19.9,
+   "priceM2From": 196.2,
+   "priceAsOf": "февраль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-6-ya-radialnaya-7-1-k2": {
+   "priceFrom": 11.3,
+   "priceM2From": 304.8,
+   "priceAsOf": "июль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-9-ya-parkovaya-68": {
+   "priceFrom": 21.2,
+   "priceM2From": 297.2,
+   "priceAsOf": "февраль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-9-ya-sokolinoy-gory-9": {
+   "priceFrom": 21.3,
+   "priceM2From": 341.8,
+   "priceAsOf": "февраль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-akademika-dykhne-16": {
+   "priceFrom": 11.0,
+   "priceM2From": 155.4,
+   "priceAsOf": "февраль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-akademika-dykhne-18": {
+   "priceFrom": 11.1,
+   "priceM2From": 178.7,
+   "priceAsOf": "июль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-akademika-dykhne-20": {
+   "priceFrom": 12.2,
+   "priceM2From": 168.0,
+   "priceAsOf": "июль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-akademika-dykhne-8": {
+   "priceFrom": 7.4,
+   "priceM2From": 167.2,
+   "priceAsOf": "июль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-akademika-skryabina-40": {
+   "priceFrom": 31.4,
+   "priceM2From": 447.8,
+   "priceAsOf": "октябрь 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-akulovo-pos-4": {
+   "priceFrom": 22.5,
+   "priceM2From": 213.9,
+   "priceAsOf": "февраль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-altufevskoe-sh-53-k1-2": {
+   "priceFrom": 21.3,
+   "priceM2From": 469.7,
+   "priceAsOf": "июнь 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-aminevskoe-sh-4d-k1": {
+   "priceFrom": 16.3,
+   "priceM2From": 343.1,
+   "priceAsOf": "февраль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-amurskaya-1-2-1-1-2-2-1-2-3": {
+   "priceFrom": 13.2,
+   "priceM2From": 304.4,
+   "priceAsOf": "февраль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-arkhitektora-vlasova-2": {
+   "priceFrom": 29.3,
+   "priceM2From": 414.7,
+   "priceAsOf": "февраль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-bazovskaya-24b": {
+   "priceFrom": 21.5,
+   "priceM2From": 363.4,
+   "priceAsOf": "апрель 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-balaklavskiy-pr-kt-17": {
+   "priceFrom": 29.9,
+   "priceM2From": 508.5,
+   "priceAsOf": "июнь 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-begicheva-2": {
+   "priceFrom": 17.8,
+   "priceM2From": 411.8,
+   "priceAsOf": "июль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-beskudnikovskiy-b-r-50-1": {
+   "priceFrom": 22.9,
+   "priceM2From": 399.9,
+   "priceAsOf": "декабрь 2025",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-beskudnikovskiy-b-r-52": {
+   "priceFrom": 16.6,
+   "priceM2From": 283.1,
+   "priceAsOf": "март 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-varshavskoe-sh-100-k1": {
+   "priceFrom": 15.1,
+   "priceM2From": 366.9,
+   "priceAsOf": "февраль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-varshavskoe-sh-139": {
+   "priceFrom": 13.9,
+   "priceM2From": 298.9,
+   "priceAsOf": "февраль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-vvedenskogo-13v": {
+   "priceFrom": 14.7,
+   "priceM2From": 349.4,
+   "priceAsOf": "февраль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-vertoletchikov-2": {
+   "priceFrom": 16.5,
+   "priceM2From": 225.0,
+   "priceAsOf": "февраль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-volgogradskiy-pr-kt-97-k3": {
+   "priceFrom": 15.6,
+   "priceM2From": 304.1,
+   "priceAsOf": "март 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-garibaldi-31": {
+   "priceFrom": 27.4,
+   "priceM2From": 633.5,
+   "priceAsOf": "июль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-geroev-panfilovtsev-39": {
+   "priceFrom": 20.3,
+   "priceM2From": 492.9,
+   "priceAsOf": "октябрь 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-gostinichnyy-pr-d-10": {
+   "priceFrom": 19.1,
+   "priceM2From": 339.2,
+   "priceAsOf": "март 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-dmitriya-ulyanova-27-k1": {
+   "priceFrom": 21.8,
+   "priceM2From": 602.2,
+   "priceAsOf": "декабрь 2025",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-dmitrovskoe-sh-55a": {
+   "priceFrom": 24.6,
+   "priceM2From": 415.4,
+   "priceAsOf": "март 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-dmitrovskoe-sh-z-u-89": {
+   "priceFrom": 28.6,
+   "priceM2From": 548.2,
+   "priceAsOf": "август 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-dmitrovskoe-sh-93-k3": {
+   "priceFrom": 18.3,
+   "priceM2From": 422.5,
+   "priceAsOf": "сентябрь 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-dolgoprudnaya-al-14-k1": {
+   "priceFrom": 13.5,
+   "priceM2From": 253.5,
+   "priceAsOf": "февраль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-dolgoprudnaya-al-14-k2": {
+   "priceFrom": 13.5,
+   "priceM2From": 254.4,
+   "priceAsOf": "февраль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-dolgoprudnaya-al-15-k2": {
+   "priceFrom": 18.6,
+   "priceM2From": 232.8,
+   "priceAsOf": "февраль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-dolgoprudnaya-al-15-k3": {
+   "priceFrom": 15.8,
+   "priceM2From": 234.2,
+   "priceAsOf": "февраль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-zarevyy-pr-d-9": {
+   "priceFrom": 17.1,
+   "priceM2From": 295.0,
+   "priceAsOf": "февраль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-zelenyy-pr-kt-103": {
+   "priceFrom": 18.9,
+   "priceM2From": 258.2,
+   "priceAsOf": "февраль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-zelenyy-pr-kt-97a": {
+   "priceFrom": 21.6,
+   "priceM2From": 367.8,
+   "priceAsOf": "февраль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-p-znamya-oktyabrya-3-k1": {
+   "priceFrom": 9.8,
+   "priceM2From": 196.2,
+   "priceAsOf": "декабрь 2025",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-izumrudnaya-44-2": {
+   "priceFrom": 12.4,
+   "priceM2From": 295.0,
+   "priceAsOf": "январь 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-irlandskaya-4-k1-2": {
+   "priceFrom": 6.0,
+   "priceM2From": 157.4,
+   "priceAsOf": "август 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-kapotnya-1-y-kv-l-1": {
+   "priceFrom": 16.7,
+   "priceM2From": 244.8,
+   "priceAsOf": "февраль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-karamyshevskaya-nab-22a": {
+   "priceFrom": 18.3,
+   "priceM2From": 446.2,
+   "priceAsOf": "январь 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-kvartsevaya-2-3-4-5": {
+   "priceFrom": 12.7,
+   "priceM2From": 220.8,
+   "priceAsOf": "март 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-kerchenskaya-2": {
+   "priceFrom": 15.1,
+   "priceM2From": 361.7,
+   "priceAsOf": "март 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-klinskaya-2a": {
+   "priceFrom": 13.4,
+   "priceM2From": 304.8,
+   "priceAsOf": "сентябрь 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-korovinskoe-sh-29": {
+   "priceFrom": 19.7,
+   "priceM2From": 270.5,
+   "priceAsOf": "март 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-krasnodarskaya-6": {
+   "priceFrom": 15.5,
+   "priceM2From": 274.8,
+   "priceAsOf": "февраль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-krasnodonskaya-50": {
+   "priceFrom": 23.2,
+   "priceM2From": 415.5,
+   "priceAsOf": "февраль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-kuprina-pr-kt-38-k1-2": {
+   "priceFrom": 8.8,
+   "priceM2From": 242.0,
+   "priceAsOf": "февраль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-lenskaya-8": {
+   "priceFrom": 19.1,
+   "priceM2From": 343.9,
+   "priceAsOf": "февраль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-letchika-babushkina-29-k-5": {
+   "priceFrom": 21.3,
+   "priceM2From": 425.3,
+   "priceAsOf": "июль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-letchika-babushkina-41": {
+   "priceFrom": 15.9,
+   "priceM2From": 310.9,
+   "priceAsOf": "февраль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-lineynyy-pr-d-8a": {
+   "priceFrom": 26.0,
+   "priceM2From": 354.2,
+   "priceAsOf": "февраль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-lyublinskaya-113-k1": {
+   "priceFrom": 15.4,
+   "priceM2From": 266.1,
+   "priceAsOf": "декабрь 2025",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-lyublinskaya-76-k3": {
+   "priceFrom": 22.5,
+   "priceM2From": 249.9,
+   "priceAsOf": "февраль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-lyublinskaya-76-k5": {
+   "priceFrom": 14.5,
+   "priceM2From": 310.2,
+   "priceAsOf": "февраль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-lyublinskaya-80-k7": {
+   "priceFrom": 17.8,
+   "priceM2From": 259.0,
+   "priceAsOf": "февраль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-marushkino-severnaya-21-k1-2-3-4": {
+   "priceFrom": 10.0,
+   "priceM2From": 179.8,
+   "priceAsOf": "июнь 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-marshala-eremenko-5-k1-2-3-4": {
+   "priceFrom": 12.7,
+   "priceM2From": 223.2,
+   "priceAsOf": "февраль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-marshala-chuykova-9a": {
+   "priceFrom": 21.5,
+   "priceM2From": 500.3,
+   "priceAsOf": "сентябрь 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-milashenkova-6": {
+   "priceFrom": 22.9,
+   "priceM2From": 565.1,
+   "priceAsOf": "сентябрь 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-mikhaylova-30a-k1": {
+   "priceFrom": 21.5,
+   "priceM2From": 283.7,
+   "priceAsOf": "февраль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-mikhalkovskaya-48-k4": {
+   "priceFrom": 22.7,
+   "priceM2From": 472.6,
+   "priceAsOf": "август 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-molodtsova-33-k1": {
+   "priceFrom": 15.5,
+   "priceM2From": 314.4,
+   "priceAsOf": "февраль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-narvskaya-5": {
+   "priceFrom": 18.0,
+   "priceM2From": 299.4,
+   "priceAsOf": "февраль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-nizhnyaya-khokhlovka-6": {
+   "priceFrom": 36.2,
+   "priceM2From": 322.6,
+   "priceAsOf": "февраль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-nizhnyaya-khokhlovka-8": {
+   "priceFrom": 28.7,
+   "priceM2From": 313.7,
+   "priceAsOf": "декабрь 2025",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-nikitinskaya-5": {
+   "priceFrom": 17.2,
+   "priceM2From": 394.7,
+   "priceAsOf": "январь 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-novomikhaylovskoe-sh-1-k1-5": {
+   "priceFrom": 12.5,
+   "priceM2From": 202.8,
+   "priceAsOf": "февраль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-obrucheva-5": {
+   "priceFrom": 14.4,
+   "priceM2From": 346.9,
+   "priceAsOf": "февраль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-okruzhnaya-2a": {
+   "priceFrom": 18.0,
+   "priceM2From": 387.4,
+   "priceAsOf": "сентябрь 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-orenburgskaya-30": {
+   "priceFrom": 19.0,
+   "priceM2From": 354.7,
+   "priceAsOf": "сентябрь 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-ostashkovskaya-9-k2": {
+   "priceFrom": 16.8,
+   "priceM2From": 289.0,
+   "priceAsOf": "февраль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-otkrytoe-sh-28-3": {
+   "priceFrom": 18.1,
+   "priceM2From": 337.9,
+   "priceAsOf": "октябрь 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-otkrytoe-sh-30": {
+   "priceFrom": 16.5,
+   "priceM2From": 301.3,
+   "priceAsOf": "февраль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-parkovaya-33": {
+   "priceFrom": 15.9,
+   "priceM2From": 289.1,
+   "priceAsOf": "февраль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-peresvetov-per-9": {
+   "priceFrom": 15.4,
+   "priceM2From": 392.4,
+   "priceAsOf": "январь 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-petra-alekseeva-10": {
+   "priceFrom": 20.4,
+   "priceM2From": 268.8,
+   "priceAsOf": "декабрь 2025",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-polyarnaya-17-k1": {
+   "priceFrom": 17.7,
+   "priceM2From": 384.4,
+   "priceAsOf": "сентябрь 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-polyarnaya-22": {
+   "priceFrom": 19.6,
+   "priceM2From": 260.1,
+   "priceAsOf": "февраль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-promyshlennyy-pr-d-4": {
+   "priceFrom": 31.4,
+   "priceM2From": 426.0,
+   "priceAsOf": "февраль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-prospekt-vernadskogo-69": {
+   "priceFrom": 30.4,
+   "priceM2From": 400.1,
+   "priceAsOf": "февраль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-rodnikovaya-5a": {
+   "priceFrom": 20.1,
+   "priceM2From": 349.3,
+   "priceAsOf": "август 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-rotmistrova-2-k4": {
+   "priceFrom": 14.1,
+   "priceM2From": 341.8,
+   "priceAsOf": "февраль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-saltykovskaya-6-1-k2-4-5-6-7": {
+   "priceFrom": 12.3,
+   "priceM2From": 216.1,
+   "priceAsOf": "март 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-saltykovskaya-6-2-k1-2-3-4": {
+   "priceFrom": 14.1,
+   "priceM2From": 201.6,
+   "priceAsOf": "март 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-svetlanova-11-k1": {
+   "priceFrom": 26.4,
+   "priceM2From": 420.7,
+   "priceAsOf": "март 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-svetlanova-13": {
+   "priceFrom": 29.8,
+   "priceM2From": 630.7,
+   "priceAsOf": "сентябрь 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-svetlogorskiy-pr-d-7a": {
+   "priceFrom": 20.5,
+   "priceM2From": 292.3,
+   "priceAsOf": "февраль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-sevastopolskiy-pr-kt-28-k9": {
+   "priceFrom": 26.8,
+   "priceM2From": 375.5,
+   "priceAsOf": "март 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-sirenevyy-b-r-4-12": {
+   "priceFrom": 32.7,
+   "priceM2From": 445.4,
+   "priceAsOf": "сентябрь 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-sirenevyy-b-r-4-7": {
+   "priceFrom": 18.1,
+   "priceM2From": 307.6,
+   "priceAsOf": "март 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-sirenevyy-b-r-4-9": {
+   "priceFrom": 19.8,
+   "priceM2From": 420.0,
+   "priceAsOf": "сентябрь 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "kvartal-triumfalnyy": {
+   "priceFrom": 40.3,
+   "priceM2From": 610.9,
+   "priceAsOf": "август 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-sovkhoznaya-55-k1": {
+   "priceFrom": 17.3,
+   "priceM2From": 319.8,
+   "priceAsOf": "февраль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-sportivnaya-3-5": {
+   "priceFrom": 19.2,
+   "priceM2From": 205.2,
+   "priceAsOf": "февраль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-stavropolskaya-1": {
+   "priceFrom": 15.1,
+   "priceM2From": 262.1,
+   "priceAsOf": "февраль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-stavropolskaya-23-1": {
+   "priceFrom": 21.7,
+   "priceM2From": 288.9,
+   "priceAsOf": "февраль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-stavropolskaya-4-2": {
+   "priceFrom": 18.9,
+   "priceM2From": 257.5,
+   "priceAsOf": "февраль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-staroalekseevskaya-3": {
+   "priceFrom": 24.5,
+   "priceM2From": 414.2,
+   "priceAsOf": "февраль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-skhodnenskaya-vld-42": {
+   "priceFrom": 35.6,
+   "priceM2From": 445.7,
+   "priceAsOf": "июль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-tayninskaya-7-k2": {
+   "priceFrom": 20.0,
+   "priceM2From": 271.8,
+   "priceAsOf": "февраль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-tashkentskaya-29-k1": {
+   "priceFrom": 17.9,
+   "priceM2From": 366.8,
+   "priceAsOf": "сентябрь 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-tekstilshchikov-3-k1": {
+   "priceFrom": 12.4,
+   "priceM2From": 163.5,
+   "priceAsOf": "январь 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-tekstilshchikov-3-k2": {
+   "priceFrom": 6.8,
+   "priceM2From": 164.1,
+   "priceAsOf": "март 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-feodosiyskaya-5": {
+   "priceFrom": 28.7,
+   "priceM2From": 498.0,
+   "priceAsOf": "июль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-feodosiyskaya-7-1": {
+   "priceFrom": 16.8,
+   "priceM2From": 265.9,
+   "priceAsOf": "февраль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-festivalnaya-15-k2": {
+   "priceFrom": 24.3,
+   "priceM2From": 529.1,
+   "priceAsOf": "июль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-fonvizina-7a": {
+   "priceFrom": 17.4,
+   "priceM2From": 377.1,
+   "priceAsOf": "февраль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-frezer-sh-17": {
+   "priceFrom": 28.7,
+   "priceM2From": 399.5,
+   "priceAsOf": "сентябрь 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-frezer-sh-7-2": {
+   "priceFrom": 25.1,
+   "priceM2From": 298.7,
+   "priceAsOf": "февраль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-kharkovskiy-pr-d-1-1-k1-2-3": {
+   "priceFrom": 17.7,
+   "priceM2From": 236.3,
+   "priceAsOf": "февраль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-khutorskaya-2-ya-33-k1-2": {
+   "priceFrom": 27.6,
+   "priceM2From": 617.7,
+   "priceAsOf": "октябрь 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-chapaeva-4": {
+   "priceFrom": 14.6,
+   "priceM2From": 276.1,
+   "priceAsOf": "сентябрь 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-cherepanovykh-pr-d-10": {
+   "priceFrom": 36.9,
+   "priceM2From": 387.1,
+   "priceAsOf": "июнь 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-checherskiy-pr-d-28a": {
+   "priceFrom": 17.3,
+   "priceM2From": 312.2,
+   "priceAsOf": "сентябрь 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-chobotovskaya-2a": {
+   "priceFrom": 17.5,
+   "priceM2From": 379.1,
+   "priceAsOf": "июль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-sheremetevskaya-13-k1": {
+   "priceFrom": 20.2,
+   "priceM2From": 440.1,
+   "priceAsOf": "февраль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-p-shishkin-les-21-k1": {
+   "priceFrom": 12.8,
+   "priceM2From": 184.4,
+   "priceAsOf": "февраль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-shokalskogo-pr-d-27-k2": {
+   "priceFrom": 15.8,
+   "priceM2From": 264.0,
+   "priceAsOf": "март 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-shokalskogo-pr-d-28a-k1": {
+   "priceFrom": 17.7,
+   "priceM2From": 430.0,
+   "priceAsOf": "январь 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-shchelkovskoe-sh-71": {
+   "priceFrom": 17.9,
+   "priceM2From": 322.4,
+   "priceAsOf": "февраль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-shchelkovskoe-sh-74": {
+   "priceFrom": 25.3,
+   "priceM2From": 310.3,
+   "priceAsOf": "январь 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-elektrolitnyy-pr-d-7a-1": {
+   "priceFrom": 37.1,
+   "priceM2From": 344.1,
+   "priceAsOf": "февраль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mk-yavorki-1-k5-6": {
+   "priceFrom": 10.3,
+   "priceM2From": 328.6,
+   "priceAsOf": "июль 2026",
+   "priceSource": "портал «Московские кварталы» (москварталы.рф)"
+  },
+  "mr-group-klo-17": {
+   "priceFrom": 227.5,
+   "priceAsOf": "октябрь 2026",
+   "priceSource": "каталог новостроек",
+   "class": "deluxe"
+  },
+  "mr-group-s5": {
+   "priceFrom": 33.9,
+   "priceAsOf": "октябрь 2026",
+   "priceSource": "каталог новостроек",
+   "class": "deluxe"
+  },
+  "mr-group-kazachiy": {
+   "priceFrom": 138.8,
+   "priceAsOf": "октябрь 2026",
+   "priceSource": "каталог новостроек",
+   "class": "deluxe"
+  },
+  "mr-group-klif": {
+   "priceFrom": 20.7,
+   "priceAsOf": "октябрь 2026",
+   "priceSource": "каталог новостроек",
+   "class": "deluxe"
+  },
+  "fsk-amber-siti": {
+   "priceFrom": 19.3,
+   "priceAsOf": "октябрь 2026",
+   "priceSource": "каталог новостроек",
+   "class": "business"
+  },
+  "level-group-level-paveletskaya-siti": {
+   "priceFrom": 22.9,
+   "priceAsOf": "октябрь 2026",
+   "priceSource": "каталог новостроек",
+   "class": "business"
+  },
+  "level-group-level-voykovskaya": {
+   "priceFrom": 23.0,
+   "priceAsOf": "октябрь 2026",
+   "priceSource": "каталог новостроек",
+   "class": "business"
+  },
+  "a101-skandinaviya": {
+   "priceFrom": 13.7,
+   "priceAsOf": "октябрь 2026",
+   "priceSource": "каталог новостроек"
+  },
+  "a101-dzen-kvartaly": {
+   "priceFrom": 14.5,
+   "priceAsOf": "октябрь 2026",
+   "priceSource": "каталог новостроек",
+   "class": "business"
+  },
+  "a101-desnareche-kvartal-park": {
+   "priceFrom": 11.4,
+   "priceAsOf": "октябрь 2026",
+   "priceSource": "каталог новостроек",
+   "class": "comfort"
+  },
+  "a101-kholm": {
+   "priceFrom": 16.3,
+   "priceAsOf": "октябрь 2026",
+   "priceSource": "каталог новостроек",
+   "class": "business"
+  },
+  "a101-moskva-a101": {
+   "class": "comfort"
+  },
+  "a101-vyazemskoe": {
+   "class": "comfort"
+  },
+  "a101-kronburg": {
+   "class": "comfort"
+  },
+  "a101-smolenskaya-zastava": {
+   "class": "deluxe"
+  },
+  "a101-belye-nochi": {
+   "class": "comfort"
+  },
+  "a101-buninskie-kvartaly": {
+   "class": "business"
+  },
+  "a101-dom-na-zorge": {
+   "class": "business"
+  },
+  "fsk-m-house": {
+   "class": "comfort"
+  },
+  "fsk-zodiak": {
+   "class": "business"
+  },
+  "fsk-dykhanie": {
+   "class": "deluxe"
+  },
+  "fsk-lisitsyna-5": {
+   "class": "business"
+  },
+  "fsk-rikhard": {
+   "class": "business"
+  },
+  "fsk-rezhisser": {
+   "class": "deluxe"
+  },
+  "fsk-rotterdam": {
+   "class": "business"
+  },
+  "fsk-skay-garden": {
+   "class": "business"
+  },
+  "fsk-leyk": {
+   "class": "deluxe"
+  },
+  "fsk-sidney-praym": {
+   "class": "deluxe"
+  },
+  "level-group-level-kutuzovskiy": {
+   "class": "business"
+  },
+  "level-group-level-prichalnyy": {
+   "class": "business"
+  },
+  "mr-group-vodnyy": {
+   "class": "comfort"
+  },
+  "mr-group-fili-grad": {
+   "class": "deluxe"
+  },
+  "mr-group-dvintsev-14": {
+   "class": "business"
+  },
+  "mr-group-vorobev-dom": {
+   "class": "deluxe"
+  },
+  "mr-group-yasnyy": {
+   "class": "comfort"
+  },
+  "mr-group-perovsky": {
+   "class": "business"
+  },
+  "mr-group-metropoliya": {
+   "class": "business"
+  },
+  "mr-group-manor": {
+   "class": "deluxe"
+  },
+  "mr-group-d1": {
+   "class": "business"
+  },
+  "mr-group-discovery": {
+   "class": "business"
+  },
+  "mr-group-discovery-park": {
+   "class": "business"
+  },
+  "mr-group-dom-abrikosov": {
+   "class": "deluxe"
+  },
+  "mr-group-feymos": {
+   "class": "deluxe"
+  },
+  "samolet-eko-bunino": {
+   "class": "comfort"
+  },
+  "samolet-klenovye-allei": {
+   "class": "comfort"
+  },
+  "samolet-tsvetochnye-polyany": {
+   "class": "comfort"
+  },
+  "samolet-stremyannyy-2": {
+   "class": "business"
+  },
+  "samolet-pyatnitskoe-58": {
+   "class": "comfort"
+  },
+  "samolet-podolskie-kvartaly": {
+   "class": "comfort"
+  },
+  "samolet-olkhovyy-kvartal": {
    "class": "comfort"
   }
  }

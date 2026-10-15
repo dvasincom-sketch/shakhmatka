@@ -1,0 +1,30 @@
+[
+ {
+  "slug": "level-group-level-kutuzovskiy",
+  "class": "business",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/266534/",
+  "evidence": "класс в каталоге: Бизнес"
+ },
+ {
+  "slug": "level-group-level-paveletskaya-siti",
+  "class": "business",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/2132899/",
+  "evidence": "класс в каталоге: Бизнес"
+ },
+ {
+  "slug": "level-group-level-prichalnyy",
+  "class": "business",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/2272874/",
+  "evidence": "класс в каталоге: Бизнес"
+ },
+ {
+  "slug": "level-group-level-voykovskaya",
+  "class": "business",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/4137862/",
+  "evidence": "класс в каталоге: Бизнес"
+ }
+]

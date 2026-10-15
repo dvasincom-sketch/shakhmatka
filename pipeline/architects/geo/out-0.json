@@ -1,0 +1,506 @@
+[
+ {
+  "key": "syntaxis",
+  "city": "Москва",
+  "country": "RU",
+  "founded": 2018,
+  "source": "https://archi.ru/architects/russiastudios/3463/syntaxis",
+  "confidence": "high"
+ },
+ {
+  "key": "ariada",
+  "city": "Москва",
+  "country": "RU",
+  "founded": null,
+  "source": "https://archi.ru/projects/russia/20723/zhk-simonovskii-val",
+  "confidence": "low"
+ },
+ {
+  "key": "white-stones",
+  "city": null,
+  "country": null,
+  "founded": null,
+  "source": null,
+  "confidence": "low"
+ },
+ {
+  "key": "borisov-architects",
+  "city": null,
+  "country": null,
+  "founded": null,
+  "source": null,
+  "confidence": "low"
+ },
+ {
+  "key": "mam",
+  "city": "Москва",
+  "country": "RU",
+  "founded": 2017,
+  "source": "https://archi.ru/architects/russiastudios/4437",
+  "confidence": "high"
+ },
+ {
+  "key": "sergey-kiselev",
+  "city": "Москва",
+  "country": "RU",
+  "founded": 1987,
+  "source": "https://archi.ru/architects/russiastudios/789",
+  "confidence": "high"
+ },
+ {
+  "key": "scape",
+  "city": "Рим",
+  "country": "IT",
+  "founded": 2004,
+  "source": "https://www.larchitecturedaujourdhui.fr/off-the-record-scape/?lang=en",
+  "confidence": "medium"
+ },
+ {
+  "key": "bbm",
+  "city": null,
+  "country": null,
+  "founded": null,
+  "source": null,
+  "confidence": "low"
+ },
+ {
+  "key": "civil-architects",
+  "city": "Москва",
+  "country": "RU",
+  "founded": 2021,
+  "source": "https://archi.ru/architects/russiastudios/4222",
+  "confidence": "medium"
+ },
+ {
+  "key": "jaime-beriestain",
+  "city": "Барселона",
+  "country": "ES",
+  "founded": 2002,
+  "source": "https://archello.com/brand/jaime-beriestain",
+  "confidence": "high"
+ },
+ {
+  "key": "megabudka",
+  "city": "Москва",
+  "country": "RU",
+  "founded": 2014,
+  "source": "https://style.rbc.ru/architecture_and_urbanism/680267b39a794734f9105794",
+  "confidence": "medium"
+ },
+ {
+  "key": "west8",
+  "city": "Роттердам",
+  "country": "NL",
+  "founded": 1987,
+  "source": "https://en.wikipedia.org/wiki/West_8",
+  "confidence": "high"
+ },
+ {
+  "key": "gorproekt",
+  "city": "Москва",
+  "country": "RU",
+  "founded": 2002,
+  "source": "https://archi.ru/architects/russiastudios/1459",
+  "confidence": "high"
+ },
+ {
+  "key": "breath",
+  "city": null,
+  "country": null,
+  "founded": null,
+  "source": null,
+  "confidence": "low"
+ },
+ {
+  "key": "derevo-park",
+  "city": null,
+  "country": null,
+  "founded": null,
+  "source": null,
+  "confidence": "low"
+ },
+ {
+  "key": "mpg",
+  "city": null,
+  "country": null,
+  "founded": null,
+  "source": null,
+  "confidence": "low"
+ },
+ {
+  "key": "osa",
+  "city": "Екатеринбург",
+  "country": "RU",
+  "founded": 2003,
+  "source": "https://archi.ru/architects/russiastudios/1342",
+  "confidence": "medium"
+ },
+ {
+  "key": "u-studio",
+  "city": "Москва",
+  "country": "RU",
+  "founded": 1994,
+  "source": "https://archi.ru/en/architects/10205/ilya-utkin",
+  "confidence": "medium"
+ },
+ {
+  "key": "up-plus",
+  "city": null,
+  "country": null,
+  "founded": null,
+  "source": null,
+  "confidence": "low"
+ },
+ {
+  "key": "wowhaus",
+  "city": "Москва",
+  "country": "RU",
+  "founded": 2008,
+  "source": "https://archi.ru/en/102097/oleg-shapiro-we-design-life-as-a-whole-in-all-of-its-diversity",
+  "confidence": "medium"
+ },
+ {
+  "key": "druzhba",
+  "city": null,
+  "country": null,
+  "founded": null,
+  "source": null,
+  "confidence": "low"
+ },
+ {
+  "key": "mikhail-feldman",
+  "city": null,
+  "country": null,
+  "founded": null,
+  "source": null,
+  "confidence": "low"
+ },
+ {
+  "key": "abg",
+  "city": null,
+  "country": null,
+  "founded": null,
+  "source": null,
+  "confidence": "low"
+ },
+ {
+  "key": "amirov-architects",
+  "city": null,
+  "country": null,
+  "founded": null,
+  "source": null,
+  "confidence": "low"
+ },
+ {
+  "key": "archelp",
+  "city": null,
+  "country": null,
+  "founded": null,
+  "source": null,
+  "confidence": "low"
+ },
+ {
+  "key": "arkady-smirnov",
+  "city": null,
+  "country": null,
+  "founded": null,
+  "source": null,
+  "confidence": "low"
+ },
+ {
+  "key": "babayants",
+  "city": "Москва",
+  "country": "RU",
+  "founded": null,
+  "source": "https://archidiaries.com/practices/babayants-architects/",
+  "confidence": "medium"
+ },
+ {
+  "key": "bechu-associes",
+  "city": "Париж",
+  "country": "FR",
+  "founded": 2008,
+  "source": "https://bechuetassocies.com/en/agence",
+  "confidence": "high"
+ },
+ {
+  "key": "coop-himmelblau",
+  "city": "Вена",
+  "country": "AT",
+  "founded": 1968,
+  "source": "https://en.wikipedia.org/wiki/Coop_Himmelb(l)au",
+  "confidence": "high"
+ },
+ {
+  "key": "droo",
+  "city": null,
+  "country": null,
+  "founded": null,
+  "source": null,
+  "confidence": "low"
+ },
+ {
+  "key": "gravion-group",
+  "city": null,
+  "country": null,
+  "founded": null,
+  "source": null,
+  "confidence": "low"
+ },
+ {
+  "key": "herzog",
+  "city": "Базель",
+  "country": "CH",
+  "founded": 1978,
+  "source": "https://en.wikipedia.org/wiki/Herzog_%26_de_Meuron",
+  "confidence": "high"
+ },
+ {
+  "key": "iq",
+  "city": null,
+  "country": null,
+  "founded": null,
+  "source": null,
+  "confidence": "low"
+ },
+ {
+  "key": "katarsis",
+  "city": null,
+  "country": null,
+  "founded": null,
+  "source": null,
+  "confidence": "low"
+ },
+ {
+  "key": "kengo-kuma",
+  "city": "Токио",
+  "country": "JP",
+  "founded": 1990,
+  "source": "https://en.wikipedia.org/wiki/Kengo_Kuma",
+  "confidence": "high"
+ },
+ {
+  "key": "kokaistudious",
+  "city": "Шанхай",
+  "country": "CN",
+  "founded": 2000,
+  "source": "https://archinect.com/kokaistudios",
+  "confidence": "high"
+ },
+ {
+  "key": "krnv",
+  "city": "Москва",
+  "country": "RU",
+  "founded": null,
+  "source": "https://archi.ru/projects/russia/20883/zhiloi-kompleks-wowmanskaya",
+  "confidence": "low"
+ },
+ {
+  "key": "main",
+  "city": null,
+  "country": null,
+  "founded": null,
+  "source": null,
+  "confidence": "low"
+ },
+ {
+  "key": "maxx",
+  "city": null,
+  "country": null,
+  "founded": null,
+  "source": null,
+  "confidence": "low"
+ },
+ {
+  "key": "ms-architects",
+  "city": null,
+  "country": null,
+  "founded": null,
+  "source": null,
+  "confidence": "low"
+ },
+ {
+  "key": "oma",
+  "city": "Роттердам",
+  "country": "NL",
+  "founded": 1975,
+  "source": "https://en.wikipedia.org/wiki/Office_for_Metropolitan_Architecture",
+  "confidence": "high"
+ },
+ {
+  "key": "paris-classical-architecture",
+  "city": "Париж",
+  "country": "FR",
+  "founded": null,
+  "source": "https://www.pss-archi.eu/agence/16172",
+  "confidence": "medium"
+ },
+ {
+  "key": "sheloves",
+  "city": null,
+  "country": null,
+  "founded": null,
+  "source": null,
+  "confidence": "low"
+ },
+ {
+  "key": "smagin",
+  "city": null,
+  "country": null,
+  "founded": null,
+  "source": null,
+  "confidence": "low"
+ },
+ {
+  "key": "sredaa",
+  "city": null,
+  "country": null,
+  "founded": null,
+  "source": null,
+  "confidence": "low"
+ },
+ {
+  "key": "svesmi",
+  "city": "Роттердам",
+  "country": "NL",
+  "founded": 2007,
+  "source": "https://archello.com/brand/svesmi",
+  "confidence": "high"
+ },
+ {
+  "key": "thomas-juul-hansen",
+  "city": "Нью-Йорк",
+  "country": "US",
+  "founded": 2003,
+  "source": "https://interiordesign.net/designwire/10-questions-with-thomas-juul-hansen/",
+  "confidence": "medium"
+ },
+ {
+  "key": "valode-pistre",
+  "city": "Париж",
+  "country": "FR",
+  "founded": 1980,
+  "source": "https://en.wikipedia.org/wiki/Valode_%26_Pistre",
+  "confidence": "high"
+ },
+ {
+  "key": "yacheyka",
+  "city": null,
+  "country": null,
+  "founded": null,
+  "source": null,
+  "confidence": "low"
+ },
+ {
+  "key": "a-len",
+  "city": "Санкт-Петербург",
+  "country": "RU",
+  "founded": null,
+  "source": "https://archi.ru/en/architects/10731/sergei-oreshkin",
+  "confidence": "medium"
+ },
+ {
+  "key": "martynov-gatilova",
+  "city": null,
+  "country": null,
+  "founded": null,
+  "source": null,
+  "confidence": "low"
+ },
+ {
+  "key": "atp-tlp",
+  "city": null,
+  "country": null,
+  "founded": null,
+  "source": null,
+  "confidence": "low"
+ },
+ {
+  "key": "ekaterina-gren",
+  "city": null,
+  "country": null,
+  "founded": null,
+  "source": null,
+  "confidence": "low"
+ },
+ {
+  "key": "veshch",
+  "city": "Пенза",
+  "country": "RU",
+  "founded": 2016,
+  "source": "https://archi.ru/architects/russiastudios/2106",
+  "confidence": "low"
+ },
+ {
+  "key": "domo",
+  "city": null,
+  "country": null,
+  "founded": null,
+  "source": null,
+  "confidence": "low"
+ },
+ {
+  "key": "irga",
+  "city": null,
+  "country": null,
+  "founded": null,
+  "source": null,
+  "confidence": "low"
+ },
+ {
+  "key": "krupnyy-plan",
+  "city": "Москва",
+  "country": "RU",
+  "founded": null,
+  "source": "https://archi.ru/architects/russiastudios/1502",
+  "confidence": "high"
+ },
+ {
+  "key": "mezonproekt",
+  "city": "Москва",
+  "country": "RU",
+  "founded": 1999,
+  "source": "https://archi.ru/architects/russiastudios/1457",
+  "confidence": "high"
+ },
+ {
+  "key": "metropolis",
+  "city": null,
+  "country": null,
+  "founded": null,
+  "source": null,
+  "confidence": "low"
+ },
+ {
+  "key": "nva",
+  "city": null,
+  "country": null,
+  "founded": null,
+  "source": null,
+  "confidence": "low"
+ },
+ {
+  "key": "plotkin",
+  "city": "Москва",
+  "country": "RU",
+  "founded": 1987,
+  "source": "https://archi.ru/architects/russiastudios/791",
+  "confidence": "high"
+ },
+ {
+  "key": "steve-brown",
+  "city": null,
+  "country": null,
+  "founded": null,
+  "source": null,
+  "confidence": "low"
+ },
+ {
+  "key": "yauzaproekt",
+  "city": null,
+  "country": null,
+  "founded": null,
+  "source": null,
+  "confidence": "low"
+ }
+]

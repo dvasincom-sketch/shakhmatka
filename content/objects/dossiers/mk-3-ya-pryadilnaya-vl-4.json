@@ -1,5 +1,5 @@
 {
-  "_readme": "Ручное досье (15.10.2026) по карточкам каталогов: https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/zhk-3-ya-pryadilnaya-ul-vl-4-4175173/, https://realty.yandex.ru/moskva/kupit/novostrojka/z-moskovskie-kvartaly-4209811/",
+  "_readme": "Ручное досье (15.10.2026) по карточкам каталогов: https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/zhk-3-ya-pryadilnaya-ul-vl-4-4175173/, https://realty.yandex.ru/moskva/kupit/novostrojka/z-moskovskie-kvartaly-4209811/ Дополнено 15.10.2026 по карточке дома на москварталы.рф: https://москварталы.рф/obekty/3-ya-pryadilnaya-ul-vld-4/",
   "slug": "mk-3-ya-pryadilnaya-vl-4",
   "name": "3-я Прядильная, вл. 4",
   "zu": "3-я Прядильная, вл. 4",
@@ -11,7 +11,7 @@
   "district": "izmaylovo",
   "stage": "sales",
   "developer": "fond-renovatsii",
-  "summary": "Жилой дом Московского фонда реновации по адресу ул. 3-я Прядильная, вл. 4. По данным каталога — 235 квартир, 15–16 этажей. Часть квартир фонд продаёт на открытом рынке под брендом «Московские кварталы».",
+  "summary": "Жилой дом по адресу ул. 3-я Прядильная, вл. 4. По данным каталога — 235 квартир, 15–16 этажей. Часть квартир фонд продаёт на открытом рынке под брендом «Московские кварталы». Квартиры продаёт Московский фонд реновации на портале «Московские кварталы» (москварталы.рф): в июне 2026 года — от 342 тыс. ₽ за м², лоты от 15,2 млн ₽.",
   "timeline": [
     {
       "date": "2025-08-13",
@@ -20,10 +20,10 @@
       "certainty": "fact"
     },
     {
-      "date": "2026-10-15",
-      "dateLabel": "октябрь 2026",
+      "date": "2025-12-26",
+      "dateLabel": "декабрь 2025",
       "kind": "sales",
-      "title": "Квартиры продаются на открытом рынке под брендом «Московские кварталы», от 13,6 млн ₽",
+      "title": "Квартиры дома выставлены на продажу на портале «Московские кварталы»: от 316 тыс. ₽ за м²",
       "certainty": "fact"
     }
   ]

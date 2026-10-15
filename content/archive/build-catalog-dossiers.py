@@ -5,6 +5,8 @@
   python3 content/archive/build-catalog-dossiers.py pik
 """
 import json, re, sys, os
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from typo_ru import qn
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
 dev = sys.argv[1]
 P = json.load(open(f'{ROOT}/pipeline/dev-catalog/{dev}.json'))
@@ -29,7 +31,7 @@ for p in P['projects']:
     else:
         price = f', от {str(p["price_from_mln"]).replace(".", ",")} млн ₽' if p.get('price_from_mln') else ''
         tl.append({'date': '2026-10-15', 'dateLabel': 'октябрь 2026', 'kind': 'sales', 'title': f'Идут продажи{price}', 'certainty': 'fact'})
-    bits = [f'Жилой комплекс {DEVNAME}' + (f' по адресу {p["address"].split(" (")[0]}' if p.get('address') and not p['address'].startswith('м.') else '') + '.']
+    bits = [f'Жилой комплекс {qn(re.sub(r"^ЖК\s+", "", name))} застройщика {qn(DEVNAME)}' + (f' по адресу {p["address"].split(" (")[0]}' if p.get('address') and not p['address'].startswith('м.') else '') + '.']
     if p.get('buildings'): bits.append(f'По данным каталогов: {re.sub(r"\s*\(.*?\)", "", p["buildings"])}.')
     bits.append({'completed': 'Проект сдан.', 'sales': 'Продажи идут.', 'permit': 'Получено разрешение на строительство.'}[p['stage']])
     d = {'_readme': f'Ручное досье (15.10.2026) по каталогам новостроек: {", ".join(p.get("sources") or [])}. Добавлено, чтобы портфель застройщика в базе был полным; в архиве редакции о проекте не писали.',

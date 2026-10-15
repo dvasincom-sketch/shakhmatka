@@ -1,0 +1,337 @@
+[
+ {
+  "key": "ginzburg-architects",
+  "name": "Ginzburg Architects",
+  "founded": 1995,
+  "founders": [
+   "Алексей Гинзбург — сооснователь, руководитель бюро с 1997 года",
+   "Виталий Гинзбург — сооснователь"
+  ],
+  "city": "Москва",
+  "website": null,
+  "about": "Московское архитектурное бюро, основанное в 1995 году как «Архитектурная мастерская Виталия Гинзбурга»; с 1997 года им руководит Алексей Гинзбург. Бюро работает с жилыми комплексами, многофункциональными центрами, гостиницами, а также занимается реставрацией памятников, включая дом Наркомфина и усадьбу Сытина.",
+  "notable": [
+   "Реставрация дома Наркомфина (2020)",
+   "Реконструкция жилого дома с подземной парковкой, Трёхгорный Вал, 14, стр. 3 (отмечен наградой в 2011)",
+   "Многофункциональный центр на Земляном Валу, 77–79 (отмечен наградой в 2015)",
+   "ЖК «Баланс» на Рязанском проспекте (первая очередь построена к 2023)",
+   "Реставрация усадьбы Сытина (2020)"
+  ],
+  "awards": [
+   "«Золотое сечение» — лауреат, МФЦ на Земляном Валу (2015)",
+   "Золотой диплом фестиваля «Зодчество-2011» — реконструкция на Трёхгорном Валу (2011)",
+   "Медаль им. В. Баженова «За высокое архитектурное мастерство» — А. Гинзбург (2011)"
+  ],
+  "staff": null,
+  "sources": [
+   "https://archi.ru/en/architects/10584/aleksei-ginzburg",
+   "https://archi.ru/en/studio_news.html?id=1191"
+  ],
+  "confidence": "high"
+ },
+ {
+  "key": "syntaxis",
+  "name": "Syntaxis",
+  "founded": null,
+  "founders": null,
+  "city": null,
+  "website": null,
+  "about": null,
+  "notable": [],
+  "awards": [],
+  "staff": null,
+  "sources": [],
+  "confidence": "low"
+ },
+ {
+  "key": "white-stones",
+  "name": "White Stones",
+  "founded": null,
+  "founders": null,
+  "city": null,
+  "website": null,
+  "about": null,
+  "notable": [],
+  "awards": [],
+  "staff": null,
+  "sources": [],
+  "confidence": "low"
+ },
+ {
+  "key": "ariada",
+  "name": "Ariada",
+  "founded": null,
+  "founders": null,
+  "city": null,
+  "website": null,
+  "about": null,
+  "notable": [],
+  "awards": [],
+  "staff": null,
+  "sources": [],
+  "confidence": "low"
+ },
+ {
+  "key": "de-architekten-cie",
+  "name": "de Architekten Cie",
+  "founded": null,
+  "founders": [
+   "Пи де Брёйн — партнёр",
+   "Бранимир Медич — партнёр",
+   "Перо Пульиз — партнёр"
+  ],
+  "city": "Амстердам, Нидерланды",
+  "website": "https://www.cie.nl",
+  "about": "Нидерландское архитектурное бюро из Амстердама, работающее в градостроительстве, архитектуре и интерьерах; с 2006 года использует сокращённое название Cie. Проектирует объекты от жилья до музеев, имеет дочерние офисы в Загребе и Шанхае. В Москве по его проектам строятся жилые комплексы Portland (девелопер ФОРМА) и Nova (группа «Самолет»).",
+  "notable": [
+   "ЖК Portland, Печатники (девелопер ФОРМА; год не указан)",
+   "ЖК Nova, Раменки (группа «Самолет»; год не указан)"
+  ],
+  "awards": [
+   "Amsterdam Architecture Prize — бассейн Noorderparkbad (2016)"
+  ],
+  "staff": null,
+  "sources": [
+   "https://archinect.com/dearchitektencie",
+   "https://www.archilovers.com/teams/109513/de-architekten-cie.html",
+   "https://www.novostroy-m.ru/analitika/inostrannye_arhitektory_2024"
+  ],
+  "confidence": "high"
+ },
+ {
+  "key": "mla-plus",
+  "name": "MLA+",
+  "founded": null,
+  "founders": null,
+  "city": "Роттердам, Нидерланды",
+  "website": "http://www.mlaplus.com",
+  "about": "Нидерландское архитектурно-градостроительное бюро с офисом в Роттердаме. В Москве в 2017 году выиграло конкурс на концепцию парков на территории ЖК «Скандинавия» и «Белые ночи» группы «А101» в Новой Москве (100,2 га), работало над редевелопментом Рижского грузового двора и с девелопером ПСН.",
+  "notable": [
+   "Концепция парков на территории ЖК «Скандинавия» и «Белые ночи», Новая Москва — победа в конкурсе (2017)",
+   "Редевелопмент Рижского грузового двора (2019)"
+  ],
+  "awards": [],
+  "staff": null,
+  "sources": [
+   "https://dutchculture.nl/en/location/mla",
+   "https://www.dezeenjobs.com/job/mla-intermediate-level-architectural-designer-6842/",
+   "https://realty.rbc.ru/news/5a32565d9a79474a40d7d955"
+  ],
+  "confidence": "high"
+ },
+ {
+  "key": "nowadays",
+  "name": "Nowadays",
+  "founded": null,
+  "founders": [
+   "Наталья Масталерж — основатель"
+  ],
+  "city": "Москва",
+  "website": "https://www.nowadaysoffice.com",
+  "about": "Московское архитектурное бюро NOWADAYS office, основанное Натальей Масталерж; офис находится на Большой Никитской, 43. Бюро работает с общественными интерьерами, выставочными пространствами и реконструкцией промышленных объектов, в том числе завода «ГрафитЭл» на шоссе Энтузиастов. В 2023 году главный архитектор Москвы сообщил, что бюро занимается обликом станции метро «Кленовый бульвар 2» вместо Zaha Hadid Architects.",
+  "notable": [
+   "Выставочное пространство в Еврейском музее и центре толерантности (год не указан)",
+   "Кафе «Искра» (год не указан)",
+   "Станция метро «Кленовый бульвар 2» — проект облика (2023, в работе)",
+   "Реконструкция завода «ГрафитЭл» на шоссе Энтузиастов (2024, в работе)"
+  ],
+  "awards": [],
+  "staff": null,
+  "sources": [
+   "https://divisare.com/authors/2144761764-nowadays-office",
+   "https://news.rambler.ua/moscow_city/52993003-ranshe-zavody-snesli-by-a-teper-nikto-ne-pozvolit-chto-proishodit-so-stolichnoy-arhitekturoy-i-kak-na-nee-vliyayut-lyudi/",
+   "https://realty.rbc.ru/news/6475a6dd9a794736ec2fe1b6?from=copy",
+   "https://realty.rbc.ru/news/66ab71c29a7947d0edaa399f"
+  ],
+  "confidence": "high"
+ },
+ {
+  "key": "abd",
+  "name": "ABD",
+  "founded": 1991,
+  "founders": [
+   "Борис Левянт — основатель и генеральный директор",
+   "Юлия Шишарина — основатель и генеральный директор"
+  ],
+  "city": "Москва",
+  "website": "https://abd-architects.ru",
+  "about": "ABD architects — московское архитектурное бюро, выделившееся в 1991 году в самостоятельную компанию из архитектурного отдела; также работает в Санкт-Петербурге. Проектирует крупные архитектурные объекты и коммерческие интерьеры, прежде всего офисы. Среди проектов бюро — бизнес-центры White Square, Mercedes Benz Plaza и участие в проекте Luzhniki Collection.",
+  "notable": [
+   "Бизнес-центр White Square (год не указан)",
+   "Mercedes Benz Plaza (год не указан)",
+   "Luzhniki Collection, Хамовники — в составе группы бюро (год не указан)",
+   "Транспортно-пересадочный узел «Технопарк» (год не указан)"
+  ],
+  "awards": [
+   "Премия «Золотое сечение» — Борис Левянт (год не указан)",
+   "Best Office Awards — интерьерные проекты бюро (год не указан)"
+  ],
+  "staff": null,
+  "sources": [
+   "https://abd-architects.ru/en/history",
+   "https://moscow.100mcr.com/100mcr-en/borislevyant",
+   "https://www.novostroy-m.ru/analitika/inostrannye_arhitektory_2024"
+  ],
+  "confidence": "high"
+ },
+ {
+  "key": "blank-architects",
+  "name": "Blank Architects",
+  "founded": 2008,
+  "founders": [
+   "Магда Чихонь — сооснователь, партнёр",
+   "Лукаш Качмарчик — сооснователь, партнёр",
+   "Шимон Матковский — сооснователь, партнёр",
+   "Пётр Фонфара — сооснователь, партнёр",
+   "Магда Кмита — сооснователь, партнёр"
+  ],
+  "city": "Москва",
+  "website": "https://blankarchitects.ru",
+  "about": "Московское архитектурное бюро, основанное в 2008 году пятью архитекторами из Польши после шести лет совместной работы в группе компаний GROUP-ARCH (2002–2008). В портфеле более 400 проектов по России: торговые и многофункциональные центры, офисы, гостиницы, жильё, промышленные и логистические объекты, интерьеры; бюро выступает генеральным проектировщиком. В Москве известно, в частности, проектом станции метро «Рижская» Большой кольцевой линии.",
+  "notable": [
+   "Многофункциональный торгово-сервисный центр в Отрадном (премия Архсовета, 2017)",
+   "Станция метро «Рижская» БКЛ — победа в конкурсе Москомархитектуры (открытие планировалось на 2022)",
+   "Фасады ТЦ «Небо» в Солнцеве (год не указан)",
+   "Интерьеры ТЦ «Чкалов» у Курского вокзала (год не указан)"
+  ],
+  "awards": [
+   "V Премия Архсовета Москвы — номинация «Лучшее архитектурно-градостроительное решение объекта торгово-бытового назначения», ТРЦ «Отрадное» (2017)"
+  ],
+  "staff": "45 архитекторов плюс административный персонал (по данным интервью Archi.ru, 2017)",
+  "sources": [
+   "https://archi.ru/en/73159/blank-architects-net-opravdanii-krome-arkhitektury",
+   "https://incrussia.ru/pnews/byuro-blank-architects-stalo-pobeditelem-v-yubilejnoj-premii-arhsoveta-moskvy/",
+   "https://moskvichmag.ru/?p=147284"
+  ],
+  "confidence": "high"
+ },
+ {
+  "key": "nikken-sekkei",
+  "name": "Nikken Sekkei",
+  "founded": 1900,
+  "founders": [
+   "Тадао Камэй — президент (с 2015 года)"
+  ],
+  "city": "Токио, Япония",
+  "website": "https://www.nikken.co.jp/en",
+  "about": "Японская архитектурно-инженерная компания со штаб-квартирой в токийском районе Тиёда; ведёт историю с 1900 года как подразделение Sumitomo. Среди её проектов — Tokyo Dome, Tokyo Midtown и Tokyo Skytree; у компании есть офис в Москве. В Москве участвует в проекте ЖК Stories на Мосфильмовской вместе с бюро Gafa.",
+  "notable": [
+   "ЖК Stories на Мосфильмовской, Раменки — совместно с Gafa (девелопер October Group; год не указан)"
+  ],
+  "awards": [],
+  "staff": "2685 сотрудников (на 1 апреля 2019 года)",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Nikken_Sekkei",
+   "https://www.novostroy-m.ru/analitika/inostrannye_arhitektory_2024"
+  ],
+  "confidence": "high"
+ },
+ {
+  "key": "genpro",
+  "name": "Генпро",
+  "founded": null,
+  "founders": [
+   "Энди Сноу — главный архитектор, креативный директор"
+  ],
+  "city": "Москва",
+  "website": null,
+  "about": "Московская проектная компания, оказывающая полный цикл услуг генерального проектирования жилых объектов — от концепции до строительства; работает в России и США. Архитектурное направление возглавляет британский архитектор Энди Сноу. Бюро разрабатывало фасадные решения ЖК «Сидней Сити» для ФСК и мастер-планы для ПИК и «Галс-Девелопмент».",
+  "notable": [
+   "ЖК «Сидней Сити» — фасадные решения (девелопер ФСК; год не указан)",
+   "ЖК JOIS (девелопер MR Group; год не указан)"
+  ],
+  "awards": [],
+  "staff": null,
+  "sources": [
+   "https://archello.com/brand/genpro",
+   "https://archi.ru/en/88738/andy-snow-i-aim-for-an-architecture-which-is-rational-and-poetic",
+   "https://realty.rbc.ru/news/63ef1bd59a79474568abf796",
+   "https://www.novostroy-m.ru/analitika/inostrannye_arhitektory_2024"
+  ],
+  "confidence": "high"
+ },
+ {
+  "key": "tt-architects",
+  "name": "T+T Architects",
+  "founded": null,
+  "founders": [
+   "Сергей Труханов — руководитель бюро"
+  ],
+  "city": "Москва",
+  "website": null,
+  "about": "Московское архитектурное бюро под руководством Сергея Труханова; офис расположен на Берсеневской набережной. Работает с офисными, жилыми и многофункциональными объектами в Москве, а также в Екатеринбурге, Казани, Владивостоке и Самаре.",
+  "notable": [
+   "Жилой комплекс Studio8 на месте бывшего опытного завода № 408 у метро «Аэропорт» (2013)",
+   "Деловые пространства Multispace (год не указан)",
+   "Штаб-квартира Сбербанка (год не указан)"
+  ],
+  "awards": [
+   "«Золотое сечение» — специальный диплом за Studio8 «За особо удачные решения в условиях плотной застройки» (2013)"
+  ],
+  "staff": null,
+  "sources": [
+   "https://officesnapshots.com/2019/09/18/tt-architects-offices-moscow/",
+   "https://www.mentoday.ru/heroes/ordinary-heroes/kajdyi-arhitektor-v-dushe-rok-zvezda-sergei-truhanov-o-trendah-cifrovizacii-i-o-tom-kak-izmenyatsya-nashi-doma-v-blijaishem-budushchem/",
+   "https://archi.ru/print/news/en/48397",
+   "https://realty.rbc.ru/news/66ab71c29a7947d0edaa399f"
+  ],
+  "confidence": "low"
+ },
+ {
+  "key": "kpln",
+  "name": "KPLN",
+  "founded": null,
+  "founders": [
+   "Сергей Никешкин — руководитель (Archi.ru называет бюро «KPLN Сергея Никешкина»)"
+  ],
+  "city": "Москва",
+  "website": null,
+  "about": "Московское проектное бюро «Крупный план» (KPLN) с командой из архитекторов, дизайнеров и инженеров численностью более ста человек. Оказывает услуги полного цикла, совмещая архитектурную и инженерную часть, проектирует жилые комплексы, многофункциональные и производственные объекты в Москве и Подмосковье. В 2026 году бюро представило фасады жилого и офисного комплекса на территории «Электрозавода» для девелопера «Эталон».",
+  "notable": [
+   "Научно-производственный комплекс «Кроон» (2019)",
+   "Многофункциональное здание в Москве — «A constraint based form» (2017)",
+   "Жилой квартал в Деснаречье, Новая Москва (2026, проект)",
+   "Жилой и офисный комплекс на территории «Электрозавода» для группы «Эталон» (2026, проект)"
+  ],
+  "awards": [],
+  "staff": "более 100 сотрудников (по профилю на Archilovers)",
+  "sources": [
+   "https://archi.ru/en/studio_news.html?id=1502",
+   "https://www.archilovers.com/kpln-architectural-bureau/",
+   "https://moskvichmag.ru/?p=508602"
+  ],
+  "confidence": "high"
+ },
+ {
+  "key": "parsec",
+  "name": "Parsec",
+  "founded": null,
+  "founders": null,
+  "city": null,
+  "website": null,
+  "about": null,
+  "notable": [],
+  "awards": [],
+  "staff": null,
+  "sources": [],
+  "confidence": "low"
+ },
+ {
+  "key": "above",
+  "name": "ABOVE",
+  "founded": null,
+  "founders": [
+   "Мария Салех — соучредитель"
+  ],
+  "city": "Москва",
+  "website": null,
+  "about": "Московское архитектурное бюро Above; в 2025 году mos.ru представил его соучредителя Марию Салех в материале о молодых архитекторах города. По данным той же публикации, в бюро работает около 50 специалистов.",
+  "notable": [],
+  "awards": [],
+  "staff": "около 50 специалистов (mos.ru, июль 2025)",
+  "sources": [
+   "https://www.mos.ru/news/item/156871073/"
+  ],
+  "confidence": "low"
+ }
+]

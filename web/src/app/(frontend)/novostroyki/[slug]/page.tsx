@@ -4,7 +4,8 @@ import { FollowButton } from '@/lib/follow-button'
 import { notFound } from 'next/navigation'
 import { getPayload, type Where } from 'payload'
 import config from '@payload-config'
-import { DISTRICT_STATS, LINE_NAMES } from '@/lib/district-stats'
+import { DISTRICT_STATS } from '@/lib/district-stats'
+import { StationLinks, districtStations, lineName } from '@/lib/metro'
 import { BUREAUS } from '@/lib/architects'
 import { TROUBLE, TROUBLE_BADGE } from '@/lib/trouble'
 import { CLASS_LABELS } from '@/lib/geo'
@@ -42,7 +43,17 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   }
 }
 
-export default async function LandingPage({ params }: { params: Promise<{ slug: string }> }) {
+/** Плашка «Ещё N проектов» под карточками. Варианты (?cta=a|b|c) — на выбор редакции */
+function MoreCta({ variant, n, href, next }: { variant: string; n: number; href: string; next: string[] }) {
+  const word = `${n} ${plural(n, 'проект', 'проекта', 'проектов')}`
+  if (variant === 'a') return <Link className="more-a" href={href}><span className="more-a-t">Ещё {word} <b>→</b></span><small>{next.join(' · ')}{n > next.length ? ' и другие' : ''} — в каталоге с фильтрами</small></Link>
+  if (variant === 'b') return <Link className="more-b" href={href}><span className="more-b-face"><span className="more-b-n">+{n}</span><span className="more-b-x"><b>Ещё {word} в подборке →</b><small>{next.join(' · ')}{n > next.length ? ' и другие' : ''}</small></span></span></Link>
+  if (variant === 'c') return <div className="more-c"><div className="more-c-ghost" aria-hidden="true">{next.map((t) => <div key={t} className="card"><i /><b>{t}</b></div>)}</div><Link className="btn more-c-btn" href={href}>Показать ещё {word} →</Link></div>
+  return <Link className="land-cta card" href={href}><span>Ещё {word}</span><small>все проекты подборки — в каталоге с фильтрами</small></Link>
+}
+
+export default async function LandingPage({ params, searchParams }: { params: Promise<{ slug: string }>; searchParams: Promise<{ cta?: string }> }) {
+  const cta = (await searchParams).cta || ''
   const d = await load((await params).slug)
   if (!d) notFound()
   const { l, landings, all, objs } = d
@@ -59,7 +70,7 @@ export default async function LandingPage({ params }: { params: Promise<{ slug: 
   const arts = or.length ? (await payload.find({ collection: 'articles', where: pub({ or }), sort: '-datePublished', limit: 12, depth: 1 })).docs : []
   const img = (id: number) => coverOf(arts.find((a) => (a.objects || []).some((o) => (typeof o === 'object' ? o.id : o) === id) && coverOf(a.heroImage))?.heroImage)
   const { cheapest, priced, soonest } = stats(objs)
-  const faq = faqFor(l, objs, stageLabel)
+  const faq = faqFor(l, objs, stageLabel, { all, stations: l.group === 'district' ? districtStations(l.key || l.slug).map((s) => s.name) : [] })
   const H = cap(l.subject)
   const url = `${SITE}/novostroyki/${l.slug}/`
   const n1 = (x: number) => x.toLocaleString('ru-RU', { maximumFractionDigits: 1 })
@@ -116,12 +127,13 @@ export default async function LandingPage({ params }: { params: Promise<{ slug: 
         const future = objs.filter((o) => ['land', 'concept', 'architecture', 'permit'].includes(o.stage || '')).length
         const troubled = objs.filter((o) => TROUBLE[o.slug])
         const lines = ds?.stations ? [...new Set(ds.stations.flatMap((st) => st.lines))] : []
+        const sts = districtStations(l.key || l.slug)
         return (
           <section className="sec" aria-labelledby="h-fig">
             <div className="sec-h"><h2 id="h-fig" className="tt">Район в цифрах<span>по базе Шахматки{ds?.population ? ' и открытым данным' : ''}</span></h2></div>
             <div className="dfig">
               {ds?.population ? <div className="card"><p className="f-k">Население</p><p className="dfig-n">{ds.population.toLocaleString('ru-RU')}</p><small>{ds.populationYear}{ds.areaKm2 ? ` · ${String(ds.areaKm2).replace('.', ',')} км² · ${Math.round(ds.population / ds.areaKm2).toLocaleString('ru-RU')} чел./км²` : ''}{ds.populationSource ? <> · <a className="muted-link" href={ds.populationSource} target="_blank" rel="noopener">источник</a></> : null}{ds.note ? <><br />{ds.note}</> : null}</small></div> : null}
-              {ds?.stations?.length ? <div className="card"><p className="f-k">{ds.stations.some((st) => st.system === 'mck') ? (ds.stations.some((st) => st.system === 'metro') ? 'Метро и МЦК' : 'МЦК') : 'Метро'}</p><p className="dfig-n">{ds.stations.length} {plural(ds.stations.length, 'станция', 'станции', 'станций')}</p><small>{[...ds.stations.reduce((m, st) => m.set(st.name, [...(m.get(st.name) || []), ...st.lines]), new Map<string, string[]>())].map(([n, ls]) => `${n} (${ls.map((x) => x === '14' ? 'МЦК' : x).join(', ')})`).join(', ')}<br />{lines.length} {plural(lines.length, 'линия', 'линии', 'линий')}: {lines.map((x) => LINE_NAMES[x] || x).join(', ')}{ds.stationsSource ? <> · <a className="muted-link" href={ds.stationsSource} target="_blank" rel="noopener">источник</a></> : null}</small></div> : null}
+              {ds?.stations?.length ? <div className="card"><p className="f-k">{ds.stations.some((st) => st.system === 'mck') ? (ds.stations.some((st) => st.system === 'metro') ? 'Метро и МЦК' : 'МЦК') : 'Метро'}</p><p className="dfig-n">{sts.length} {plural(sts.length, 'станция', 'станции', 'станций')}</p><StationLinks district={l.slug} stations={sts} /><small>{lines.length} {plural(lines.length, 'линия', 'линии', 'линий')}: {lines.map((x) => lineName(x)).join(', ')}</small></div> : null}
               <div className="card"><p className="f-k">Будущие проекты</p><p className="dfig-n">{future}</p><small>участки, концепции, архитектура и разрешения — то, что ещё не продаётся</small></div>
               {sig ? <div className="card"><p className="f-k">Сигналы</p><p className="dfig-n">{sig}</p><small>сообщений о проектах района до официальных новостей</small></div> : null}
               {topDevs.length ? <div className="card dfig-list"><p className="f-k">Кто строит</p><ol>{topDevs.map((d) => <li key={d.slug}><Link href={`/zastroyshchiki/${d.slug}/`}>{d.name}</Link><b>{d.n}</b></li>)}</ol></div> : null}
@@ -139,7 +151,7 @@ export default async function LandingPage({ params }: { params: Promise<{ slug: 
         {objs.length ? (
           <>
             <div className="obj-grid land-grid">{objs.slice(0, LAND_CARDS).map((o) => <ObjectCard key={o.id} o={o} im={img(o.id)} />)}</div>
-            {objs.length > LAND_CARDS ? <Link className="land-cta card" href={l.catalog}><span>Ещё {objs.length - LAND_CARDS} {plural(objs.length - LAND_CARDS, 'проект', 'проекта', 'проектов')}</span><small>все проекты подборки — в каталоге с фильтрами</small></Link> : null}
+            {objs.length > LAND_CARDS ? <MoreCta variant={cta} n={objs.length - LAND_CARDS} href={l.catalog} next={objs.slice(LAND_CARDS, LAND_CARDS + 4).map((o) => o.name)} /> : null}
           </>
         ) : (
           <div className="empty card"><p>Таких проектов в базе пока нет. Каталог пополняется с каждым проверенным материалом.</p><Link className="btn ghost" href="/obekty/">Все объекты</Link></div>

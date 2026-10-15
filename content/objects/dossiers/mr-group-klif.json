@@ -1,0 +1,23 @@
+{
+  "_readme": "Ручное досье (15.10.2026) по каталогам новостроек: https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/4902598/. Добавлено, чтобы портфель застройщика в базе был полным; в архиве редакции о проекте не писали.",
+  "slug": "mr-group-klif",
+  "name": "Клиф",
+  "zu": "Клиф",
+  "aliases": [
+    "ЖК Клиф"
+  ],
+  "region": "moscow",
+  "stage": "sales",
+  "developer": "mr-group",
+  "summary": "Жилой комплекс «Клиф» застройщика MR Group по адресу Москва, Проектируемый проезд № 4087. Продажи идут.",
+  "timeline": [
+    {
+      "date": "2026-10-15",
+      "dateLabel": "октябрь 2026",
+      "kind": "sales",
+      "title": "Идут продажи, от 20,7 млн ₽",
+      "certainty": "fact"
+    }
+  ],
+  "district": "pokrovskoe-streshnevo"
+}

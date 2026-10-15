@@ -1,0 +1,146 @@
+aeroport	Аэропорт
+akademicheskiy	Академический
+alekseevskiy	Алексеевский
+altufevskiy	Алтуфьевский
+arbat	Арбат
+babushkinskiy	Бабушкинский
+basmannyy	Басманный
+begovoy	Беговой
+beskudnikovskiy	Бескудниковский
+bibirevo	Бибирево
+biryulevo-vostochnoe	Бирюлёво Восточное
+biryulevo-zapadnoe	Бирюлёво Западное
+bogorodskoe	Богородское
+brateevo	Братеево
+butyrskiy	Бутырский
+cheremushki	Черёмушки
+chertanovo-severnoe	Чертаново Северное
+chertanovo-tsentralnoe	Чертаново Центральное
+chertanovo-yuzhnoe	Чертаново Южное
+danilovskiy	Даниловский
+desenovskoe	Десёновское
+dmitrovskiy	Дмитровский
+donskoy	Донской
+dorogomilovo	Дорогомилово
+filevskiy-park	Филёвский Парк
+fili-davydkovo	Фили-Давыдково
+filimonkovskoe	Филимонковское
+gagarinskiy	Гагаринский
+golovinskiy	Головинский
+golyanovo	Гольяново
+ivanovskoe	Ивановское
+izmaylovo	Измайлово
+kapotnya	Капотня
+khamovniki	Хамовники
+khoroshevo-mnevniki	Хорошёво-Мнёвники
+khoroshevskiy	Хорошёвский
+khovrino	Ховрино
+kievskiy	Киевский
+klenovskoe	Кленовское
+kokoshkino	Кокошкино
+konkovo	Коньково
+koptevo	Коптево
+kosino-ukhtomskiy	Косино-Ухтомский
+kotlovka	Котловка
+krasnopakhorskoe	Краснопахорское
+krasnoselskiy	Красносельский
+krylatskoe	Крылатское
+kryukovo	Крюково
+kuntsevo	Кунцево
+kurkino	Куркино
+kuzminki	Кузьминки
+lefortovo	Лефортово
+levoberezhnyy	Левобережный
+lianozovo	Лианозово
+lomonosovskiy	Ломоносовский
+losinoostrovskiy	Лосиноостровский
+lyublino	Люблино
+marfino	Марфино
+marina-roshcha	Марьина Роща
+marino	Марьино
+marushkinskoe	Марушкинское
+matushkino	Матушкино
+meshchanskiy	Мещанский
+metrogorodok	Метрогородок
+mikhaylovo-yartsevskoe	Михайлово-Ярцевское
+mitino	Митино
+molzhaninovskiy	Молжаниновский
+moskovskiy	Московский
+moskvoreche-saburovo	Москворечье-Сабурово
+mosrentgen	Мосрентген
+mozhayskiy	Можайский
+nagatino-sadovniki	Нагатино-Садовники
+nagatinskiy-zaton	Нагатинский Затон
+nagornyy	Нагорный
+nekrasovka	Некрасовка
+nizhegorodskiy	Нижегородский
+novo-peredelkino	Ново-Переделкино
+novofedorovskoe	Новофёдоровское
+novogireevo	Новогиреево
+novokosino	Новокосино
+obruchevskiy	Обручевский
+ochakovo-matveevskoe	Очаково-Матвеевское
+orekhovo-borisovo-severnoe	Орехово-Борисово Северное
+orekhovo-borisovo-yuzhnoe	Орехово-Борисово Южное
+ostankinskiy	Останкинский
+otradnoe	Отрадное
+pechatniki	Печатники
+perovo	Перово
+pervomayskoe	Первомайское
+pokrovskoe-streshnevo	Покровское-Стрешнево
+preobrazhenskoe	Преображенское
+presnenskiy	Пресненский
+prospekt-vernadskogo	Проспект Вернадского
+ramenki	Раменки
+rogovskoe	Роговское
+rostokino	Ростокино
+ryazanovskoe	Рязановское
+ryazanskiy	Рязанский
+savelki	Савёлки
+savelovskiy	Савёловский
+severnoe-butovo	Северное Бутово
+severnoe-izmaylovo	Северное Измайлово
+severnoe-medvedkovo	Северное Медведково
+severnoe-tushino	Северное Тушино
+severnyy	Северный
+shchapovskoe	Щаповское
+shcherbinka	Щербинка
+shchukino	Щукино
+silino	Силино
+sokol	Сокол
+sokolinaya-gora	Соколиная Гора
+sokolniki	Сокольники
+solntsevo	Солнцево
+sosenskoe	Сосенское
+staroe-kryukovo	Старое Крюково
+strogino	Строгино
+sviblovo	Свиблово
+taganskiy	Таганский
+tekstilshchiki	Текстильщики
+teplyy-stan	Тёплый Стан
+timiryazevskiy	Тимирязевский
+troitsk	Троицк
+troparevo-nikulino	Тропарёво-Никулино
+tsaritsyno	Царицыно
+tverskoy	Тверской
+veshnyaki	Вешняки
+vnukovo	Внуково
+vnukovskoe	Внуковское
+voronovskoe	Вороновское
+voskresenskoe	Воскресенское
+vostochnoe-degunino	Восточное Дегунино
+vostochnoe-izmaylovo	Восточное Измайлово
+vostochnyy	Восточный
+voykovskiy	Войковский
+vykhino-zhulebino	Выхино-Жулебино
+yakimanka	Якиманка
+yaroslavskiy	Ярославский
+yasenevo	Ясенево
+yuzhnoe-butovo	Южное Бутово
+yuzhnoe-medvedkovo	Южное Медведково
+yuzhnoe-tushino	Южное Тушино
+yuzhnoportovyy	Южнопортовый
+zamoskvorechye	Замоскворечье
+zapadnoe-degunino	Западное Дегунино
+zyablikovo	Зябликово
+zyuzino	Зюзино

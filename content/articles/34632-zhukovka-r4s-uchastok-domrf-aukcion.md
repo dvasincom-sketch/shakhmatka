@@ -3,7 +3,7 @@ source: {id: 34632, date: 2026-06-17}
 status: skip
 skip_reason: unverifiable
 type: object
-region: moscow-oblast
+region: moskovskaya-oblast
 title: "R4S и участок в Жуковке: покупка на аукционе ДОМ.РФ не подтверждена"
 slug: "zhukovka-r4s-uchastok-domrf-aukcion"
 lead: "В июне 2026 года участники рынка говорили, что R4S через аффилированную компанию забрала на аукционе ДОМ.РФ участок 1,2 га в Жуковке за 763 млн ₽. Сам аукцион и цена подтвердились, но покупатель и его связь с R4S по открытым источникам не нашлись, поэтому статьи нет."

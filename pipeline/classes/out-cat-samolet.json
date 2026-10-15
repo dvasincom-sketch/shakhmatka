@@ -1,0 +1,51 @@
+[
+ {
+  "slug": "samolet-eko-bunino",
+  "class": "comfort",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/729796/",
+  "evidence": "класс в каталоге: Комфорт"
+ },
+ {
+  "slug": "samolet-klenovye-allei",
+  "class": "comfort",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/778553/",
+  "evidence": "класс в каталоге: Комфорт"
+ },
+ {
+  "slug": "samolet-tsvetochnye-polyany",
+  "class": "comfort",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/1685695/",
+  "evidence": "класс в каталоге: Комфорт"
+ },
+ {
+  "slug": "samolet-stremyannyy-2",
+  "class": "business",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/2003613/",
+  "evidence": "класс в каталоге: Бизнес"
+ },
+ {
+  "slug": "samolet-pyatnitskoe-58",
+  "class": "comfort",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/2582196/",
+  "evidence": "класс в каталоге: Комфорт"
+ },
+ {
+  "slug": "samolet-podolskie-kvartaly",
+  "class": "comfort",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/3425121/",
+  "evidence": "класс в каталоге: Комфорт"
+ },
+ {
+  "slug": "samolet-olkhovyy-kvartal",
+  "class": "comfort",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/3916149/",
+  "evidence": "класс в каталоге: Комфорт"
+ }
+]

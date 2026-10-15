@@ -1,0 +1,787 @@
+{
+ "merged": {
+  "2026-10": "2026-09"
+ },
+ "base": "2025-12",
+ "to": "2026-09",
+ "index": {
+  "2025-12": 1.0,
+  "2026-01": 0.9912,
+  "2026-02": 0.9687,
+  "2026-03": 1.0382,
+  "2026-04": 1.0858,
+  "2026-05": 1.1089,
+  "2026-06": 1.1463,
+  "2026-07": 1.1618,
+  "2026-08": 1.2314,
+  "2026-09": 1.1966
+ },
+ "index_se": {
+  "2025-12": 0.0,
+  "2026-01": 0.0094,
+  "2026-02": 0.0094,
+  "2026-03": 0.0104,
+  "2026-04": 0.0112,
+  "2026-05": 0.011,
+  "2026-06": 0.012,
+  "2026-07": 0.0137,
+  "2026-08": 0.0151,
+  "2026-09": 0.0134
+ },
+ "houses": {
+  "https://москварталы.рф/obekty/16-ya-parkovaya-ul-d-12/": {
+   "std": 355370,
+   "n": 4,
+   "se": 0.032
+  },
+  "https://москварталы.рф/obekty/2-y-tushinskiy-pr-d-d-1/": {
+   "std": 450134,
+   "n": 28,
+   "se": 0.015
+  },
+  "https://москварталы.рф/obekty/2-ya-hutorskaya-ul-d-33-k-1-2/": {
+   "std": 583141,
+   "n": 5,
+   "se": 0.027
+  },
+  "https://москварталы.рф/obekty/3-ya-pryadilnaya-ul-vld-4/": {
+   "std": 387323,
+   "n": 49,
+   "se": 0.014
+  },
+  "https://москварталы.рф/obekty/3-ya-pryadilnaya-ul-z-u-10/": {
+   "std": 375591,
+   "n": 33,
+   "se": 0.016
+  },
+  "https://москварталы.рф/obekty/3-ya-pryadilnaya-ul-z-u-13/": {
+   "std": 367975,
+   "n": 5,
+   "se": 0.03
+  },
+  "https://москварталы.рф/obekty/3-ya-pryadilnaya-ul-z-u-14/": {
+   "std": 412256,
+   "n": 29,
+   "se": 0.016
+  },
+  "https://москварталы.рф/obekty/5-ya-parkovaya-ul-d-62b/": {
+   "std": 384691,
+   "n": 4,
+   "se": 0.032
+  },
+  "https://москварталы.рф/obekty/6-ya-radialnaya-ul-d-7-1-k-1/": {
+   "std": 282101,
+   "n": 2,
+   "se": 0.045
+  },
+  "https://москварталы.рф/obekty/6-ya-radialnaya-ul-d-7-1-k-2/": {
+   "std": 347276,
+   "n": 5,
+   "se": 0.03
+  },
+  "https://москварталы.рф/obekty/9-ya-parkovaya-ul-vld-68-2-3/": {
+   "std": 399772,
+   "n": 5,
+   "se": 0.029
+  },
+  "https://москварталы.рф/obekty/9-ya-ul-sokolinoy-gory-d-9/": {
+   "std": 441359,
+   "n": 2,
+   "se": 0.043
+  },
+  "https://москварталы.рф/obekty/akademika-dykhne-ul-d-16/": {
+   "std": 217196,
+   "n": 5,
+   "se": 0.029
+  },
+  "https://москварталы.рф/obekty/akademika-dykhne-ul-d-18/": {
+   "std": 201026,
+   "n": 5,
+   "se": 0.031
+  },
+  "https://москварталы.рф/obekty/akademika-dykhne-ul-d-20/": {
+   "std": 192066,
+   "n": 10,
+   "se": 0.022
+  },
+  "https://москварталы.рф/obekty/akademika-dykhne-ul-d-8/": {
+   "std": 188230,
+   "n": 10,
+   "se": 0.023
+  },
+  "https://москварталы.рф/obekty/akademika-skryabina-ul-d-40/": {
+   "std": 483270,
+   "n": 5,
+   "se": 0.027
+  },
+  "https://москварталы.рф/obekty/akulovo-pos-d-4/": {
+   "std": 333646,
+   "n": 1,
+   "se": 0.062
+  },
+  "https://москварталы.рф/obekty/altufevskoe-sh-d-53-k-1-2/": {
+   "std": 430666,
+   "n": 9,
+   "se": 0.023
+  },
+  "https://москварталы.рф/obekty/aminevskoe-sh-d-4d-k-1/": {
+   "std": 454661,
+   "n": 5,
+   "se": 0.03
+  },
+  "https://москварталы.рф/obekty/amurskaya-ul-d-1-2-1-1-2-2-1-2-3/": {
+   "std": 371948,
+   "n": 2,
+   "se": 0.043
+  },
+  "https://москварталы.рф/obekty/arkhitektora-vlasova-ul-d-2/": {
+   "std": 541187,
+   "n": 2,
+   "se": 0.043
+  },
+  "https://москварталы.рф/obekty/balaklavskiy-pr-kt-d-17/": {
+   "std": 527873,
+   "n": 15,
+   "se": 0.019
+  },
+  "https://москварталы.рф/obekty/bazovskaya-ul-d-24b/": {
+   "std": 425509,
+   "n": 8,
+   "se": 0.024
+  },
+  "https://москварталы.рф/obekty/begicheva-ul-d-2/": {
+   "std": 390864,
+   "n": 5,
+   "se": 0.03
+  },
+  "https://москварталы.рф/obekty/beskudnikovskij-b-r-vld-52/": {
+   "std": 356825,
+   "n": 1,
+   "se": 0.061
+  },
+  "https://москварталы.рф/obekty/beskudnikovskiy-b-r-z-u-50/": {
+   "std": 483078,
+   "n": 1,
+   "se": 0.06
+  },
+  "https://москварталы.рф/obekty/borovskij-proezd-vl-1/": {
+   "std": 451758,
+   "n": 5,
+   "se": 0.03
+  },
+  "https://москварталы.рф/obekty/chapaeva-ul-d-4/": {
+   "std": 308648,
+   "n": 5,
+   "se": 0.026
+  },
+  "https://москварталы.рф/obekty/checherskiy-pr-d-d-28/": {
+   "std": 357900,
+   "n": 8,
+   "se": 0.021
+  },
+  "https://москварталы.рф/obekty/chechyerskiy-pr-d-d-28a/": {
+   "std": 370718,
+   "n": 5,
+   "se": 0.026
+  },
+  "https://москварталы.рф/obekty/cherepanovykh-pr-d-d-10/": {
+   "std": 449629,
+   "n": 5,
+   "se": 0.032
+  },
+  "https://москварталы.рф/obekty/chobotovskaya-ul-d-2a/": {
+   "std": 440505,
+   "n": 9,
+   "se": 0.023
+  },
+  "https://москварталы.рф/obekty/d-marushkino-severnaya-ul-d-21-k-1-2/": {
+   "std": 189914,
+   "n": 2,
+   "se": 0.047
+  },
+  "https://москварталы.рф/obekty/dmitriya-ulyanova-ul-d-27-k-1/": {
+   "std": 639059,
+   "n": 7,
+   "se": 0.026
+  },
+  "https://москварталы.рф/obekty/dmitrovskoe-sh-d-93-k-3/": {
+   "std": 464958,
+   "n": 5,
+   "se": 0.026
+  },
+  "https://москварталы.рф/obekty/dmitrovskoe-sh-z-u-55a/": {
+   "std": 513934,
+   "n": 11,
+   "se": 0.021
+  },
+  "https://москварталы.рф/obekty/dmitrovskoe-sh-z-u-89-str-1/": {
+   "std": 464134,
+   "n": 86,
+   "se": 0.014
+  },
+  "https://москварталы.рф/obekty/dolgoprudnaya-al-d-14-k-1/": {
+   "std": 334140,
+   "n": 1,
+   "se": 0.061
+  },
+  "https://москварталы.рф/obekty/dolgoprudnaya-al-d-14-k-2/": {
+   "std": 335016,
+   "n": 1,
+   "se": 0.061
+  },
+  "https://москварталы.рф/obekty/dolgoprudnaya-al-d-15-k-2/": {
+   "std": 342364,
+   "n": 2,
+   "se": 0.043
+  },
+  "https://москварталы.рф/obekty/dolgoprudnaya-al-d-15-k-3/": {
+   "std": 323859,
+   "n": 3,
+   "se": 0.036
+  },
+  "https://москварталы.рф/obekty/elektrolitnyy-pr-d-d-7a-1/": {
+   "std": 539947,
+   "n": 1,
+   "se": 0.062
+  },
+  "https://москварталы.рф/obekty/feodosijskaya-ul-d-7-1/": {
+   "std": 354264,
+   "n": 1,
+   "se": 0.061
+  },
+  "https://москварталы.рф/obekty/feodosiyskaya-ul-vl-7/": {
+   "std": 536478,
+   "n": 5,
+   "se": 0.029
+  },
+  "https://москварталы.рф/obekty/festivalnaya-ul-d-15-k-2/": {
+   "std": 578416,
+   "n": 21,
+   "se": 0.018
+  },
+  "https://москварталы.рф/obekty/fonvizina-ul-d-7a/": {
+   "std": 477868,
+   "n": 2,
+   "se": 0.049
+  },
+  "https://москварталы.рф/obekty/frezer-sh-d-17/": {
+   "std": 440323,
+   "n": 7,
+   "se": 0.022
+  },
+  "https://москварталы.рф/obekty/frezer-sh-d-7-2/": {
+   "std": 433847,
+   "n": 1,
+   "se": 0.061
+  },
+  "https://москварталы.рф/obekty/garibaldi-ul-d-31/": {
+   "std": 614611,
+   "n": 5,
+   "se": 0.03
+  },
+  "https://москварталы.рф/obekty/garibaldi-ul-z-u-26/": {
+   "std": 661482,
+   "n": 5,
+   "se": 0.03
+  },
+  "https://москварталы.рф/obekty/geroev-panfilovtsev-ul-d-39/": {
+   "std": 451552,
+   "n": 5,
+   "se": 0.027
+  },
+  "https://москварталы.рф/obekty/gorodskaya-ul-d-12-14/": {
+   "std": 301067,
+   "n": 3,
+   "se": 0.036
+  },
+  "https://москварталы.рф/obekty/gostinichnyy-pr-d-d-10/": {
+   "std": 424284,
+   "n": 2,
+   "se": 0.045
+  },
+  "https://москварталы.рф/obekty/irlandskaya-ul-d-4-k-1-2/": {
+   "std": 170673,
+   "n": 25,
+   "se": 0.018
+  },
+  "https://москварталы.рф/obekty/izumrudnaya-ul-d-44-2/": {
+   "std": 347321,
+   "n": 1,
+   "se": 0.061
+  },
+  "https://москварталы.рф/obekty/kapotnya-1-y-kv-l-d-1/": {
+   "std": 335346,
+   "n": 6,
+   "se": 0.027
+  },
+  "https://москварталы.рф/obekty/karamyshevskaya-nab-d-22a/": {
+   "std": 522561,
+   "n": 1,
+   "se": 0.061
+  },
+  "https://москварталы.рф/obekty/kedrova-ul-d-16-k-3/": {
+   "std": 726372,
+   "n": 17,
+   "se": 0.019
+  },
+  "https://москварталы.рф/obekty/kerchenskaya-ul-vld-2/": {
+   "std": 419235,
+   "n": 1,
+   "se": 0.061
+  },
+  "https://москварталы.рф/obekty/kharkovskiy-pr-d-d-1-1-k-1-2-3/": {
+   "std": 333710,
+   "n": 1,
+   "se": 0.061
+  },
+  "https://москварталы.рф/obekty/klinskaya-ul-d-2a/": {
+   "std": 391089,
+   "n": 166,
+   "se": 0.012
+  },
+  "https://москварталы.рф/obekty/korovinskoe-sh-d-29/": {
+   "std": 353536,
+   "n": 2,
+   "se": 0.046
+  },
+  "https://москварталы.рф/obekty/krasnodarskaya-ul-vld-6/": {
+   "std": 367437,
+   "n": 1,
+   "se": 0.061
+  },
+  "https://москварталы.рф/obekty/kuprina-pr-kt-d-38-k-1-2/": {
+   "std": 270445,
+   "n": 1,
+   "se": 0.059
+  },
+  "https://москварталы.рф/obekty/kuskovskaya-ul-d-12-1-podezdy-10-19/": {
+   "std": 475642,
+   "n": 52,
+   "se": 0.014
+  },
+  "https://москварталы.рф/obekty/kvartsevaya-ul-d-2-3-4-5/": {
+   "std": 266639,
+   "n": 28,
+   "se": 0.016
+  },
+  "https://москварталы.рф/obekty/lenskaya-ul-d-8/": {
+   "std": 443658,
+   "n": 1,
+   "se": 0.061
+  },
+  "https://москварталы.рф/obekty/letchika-babushkina-ul-d-41/": {
+   "std": 406163,
+   "n": 1,
+   "se": 0.061
+  },
+  "https://москварталы.рф/obekty/letchika-babushkina-ul-z-u-29-5/": {
+   "std": 475265,
+   "n": 5,
+   "se": 0.029
+  },
+  "https://москварталы.рф/obekty/lineynyy-pr-d-d-8a/": {
+   "std": 448395,
+   "n": 2,
+   "se": 0.043
+  },
+  "https://москварталы.рф/obekty/lyublinskaya-ul-d-76-k-3/": {
+   "std": 334889,
+   "n": 3,
+   "se": 0.036
+  },
+  "https://москварталы.рф/obekty/lyublinskaya-ul-d-76-k-4/": {
+   "std": 339884,
+   "n": 9,
+   "se": 0.024
+  },
+  "https://москварталы.рф/obekty/lyublinskaya-ul-d-76-k-5/": {
+   "std": 366829,
+   "n": 5,
+   "se": 0.029
+  },
+  "https://москварталы.рф/obekty/lyublinskaya-ul-d-80-k-7/": {
+   "std": 352312,
+   "n": 1,
+   "se": 0.061
+  },
+  "https://москварталы.рф/obekty/lyublinskaya-ul-vl-111-str-3/": {
+   "std": 329939,
+   "n": 2,
+   "se": 0.043
+  },
+  "https://москварталы.рф/obekty/lyublinskaya-ul-z-u-113-3/": {
+   "std": 346770,
+   "n": 1,
+   "se": 0.061
+  },
+  "https://москварталы.рф/obekty/marshala-chuykova-ul-d-9a/": {
+   "std": 533665,
+   "n": 5,
+   "se": 0.026
+  },
+  "https://москварталы.рф/obekty/marshala-eremenko-ul-d-5-k-1-2-3-4/": {
+   "std": 299088,
+   "n": 1,
+   "se": 0.061
+  },
+  "https://москварталы.рф/obekty/mikhalkovskaya-ul-d-48-k-4/": {
+   "std": 493605,
+   "n": 15,
+   "se": 0.02
+  },
+  "https://москварталы.рф/obekty/mikhaylova-ul-d-30a-k-1/": {
+   "std": 368157,
+   "n": 2,
+   "se": 0.043
+  },
+  "https://москварталы.рф/obekty/milashenkova-ul-d-6/": {
+   "std": 577209,
+   "n": 10,
+   "se": 0.019
+  },
+  "https://москварталы.рф/obekty/molodtsova-ul-d-33-k-1/": {
+   "std": 406638,
+   "n": 1,
+   "se": 0.061
+  },
+  "https://москварталы.рф/obekty/narvskaya-ul-d-5/": {
+   "std": 380537,
+   "n": 3,
+   "se": 0.036
+  },
+  "https://москварталы.рф/obekty/nikitinskaya-ul-vl-21-korp-1-3/": {
+   "std": 417614,
+   "n": 5,
+   "se": 0.029
+  },
+  "https://москварталы.рф/obekty/nikitinskaya-ul-vld-5/": {
+   "std": 476415,
+   "n": 10,
+   "se": 0.022
+  },
+  "https://москварталы.рф/obekty/nizhegorodskaya-ul-d-74/": {
+   "std": 486449,
+   "n": 1,
+   "se": 0.061
+  },
+  "https://москварталы.рф/obekty/nizhnyaya-khokhlovka-ul-d-6/": {
+   "std": 495044,
+   "n": 1,
+   "se": 0.062
+  },
+  "https://москварталы.рф/obekty/nizhnyaya-khokhlovka-ul-d-8/": {
+   "std": 450714,
+   "n": 1,
+   "se": 0.061
+  },
+  "https://москварталы.рф/obekty/novocheremushkinskaya-ul-d-56-3/": {
+   "std": 615055,
+   "n": 5,
+   "se": 0.029
+  },
+  "https://москварталы.рф/obekty/novocheryemushkinskaya-ul-z-u-41a/": {
+   "std": 559668,
+   "n": 15,
+   "se": 0.02
+  },
+  "https://москварталы.рф/obekty/novomikhaylovskoe-sh-d-1-k-1-5/": {
+   "std": 302919,
+   "n": 7,
+   "se": 0.026
+  },
+  "https://москварталы.рф/obekty/obrucheva-ul-d-5/": {
+   "std": 430164,
+   "n": 1,
+   "se": 0.061
+  },
+  "https://москварталы.рф/obekty/okruzhnaya-ul-d-2a/": {
+   "std": 395928,
+   "n": 5,
+   "se": 0.026
+  },
+  "https://москварталы.рф/obekty/orenburgskaya-ul-d-30/": {
+   "std": 382814,
+   "n": 5,
+   "se": 0.027
+  },
+  "https://москварталы.рф/obekty/ostashkovskaya-ul-d-9-k-2/": {
+   "std": 378988,
+   "n": 4,
+   "se": 0.032
+  },
+  "https://москварталы.рф/obekty/otkrytoe-sh-d-28-3/": {
+   "std": 361243,
+   "n": 5,
+   "se": 0.027
+  },
+  "https://москварталы.рф/obekty/otkrytoe-sh-d-30/": {
+   "std": 368485,
+   "n": 2,
+   "se": 0.043
+  },
+  "https://москварталы.рф/obekty/p-shishkin-les-d-21-k-1/": {
+   "std": 259507,
+   "n": 1,
+   "se": 0.061
+  },
+  "https://москварталы.рф/obekty/p-znamya-oktyabrya-d-3-k-1/": {
+   "std": 261356,
+   "n": 4,
+   "se": 0.034
+  },
+  "https://москварталы.рф/obekty/parkovaya-ul-d-33/": {
+   "std": 365915,
+   "n": 2,
+   "se": 0.045
+  },
+  "https://москварталы.рф/obekty/peresvetov-per-d-9/": {
+   "std": 482630,
+   "n": 6,
+   "se": 0.03
+  },
+  "https://москварталы.рф/obekty/petra-alekseeva-ul-d-10/": {
+   "std": 369042,
+   "n": 1,
+   "se": 0.061
+  },
+  "https://москварталы.рф/obekty/polyarnaya-ul-d-17-k-1/": {
+   "std": 426696,
+   "n": 15,
+   "se": 0.016
+  },
+  "https://москварталы.рф/obekty/polyarnaya-ul-d-22/": {
+   "std": 350795,
+   "n": 6,
+   "se": 0.027
+  },
+  "https://москварталы.рф/obekty/polyarnaya-ul-d-3/": {
+   "std": 472139,
+   "n": 26,
+   "se": 0.016
+  },
+  "https://москварталы.рф/obekty/polyarnaya-ul-vld-16/": {
+   "std": 384143,
+   "n": 33,
+   "se": 0.015
+  },
+  "https://москварталы.рф/obekty/polyarnaya-ul-z-u-4/": {
+   "std": 451694,
+   "n": 5,
+   "se": 0.029
+  },
+  "https://москварталы.рф/obekty/promyshlennyy-pr-d-d-4/": {
+   "std": 580827,
+   "n": 1,
+   "se": 0.062
+  },
+  "https://москварталы.рф/obekty/prospekt-vernadskogo-d-69/": {
+   "std": 567237,
+   "n": 1,
+   "se": 0.061
+  },
+  "https://москварталы.рф/obekty/remizova-ul-z-u-11-2/": {
+   "std": 597247,
+   "n": 2,
+   "se": 0.043
+  },
+  "https://москварталы.рф/obekty/rodnikovaya-ul-d-5a/": {
+   "std": 366419,
+   "n": 6,
+   "se": 0.027
+  },
+  "https://москварталы.рф/obekty/rodnikovaya-ul-vld-4-1/": {
+   "std": 369917,
+   "n": 10,
+   "se": 0.022
+  },
+  "https://москварталы.рф/obekty/rotmistrova-ul-d-2-k-4/": {
+   "std": 409820,
+   "n": 1,
+   "se": 0.061
+  },
+  "https://москварталы.рф/obekty/saltykovskaya-ul-d-6-1-k-2-4-5-6-7/": {
+   "std": 261607,
+   "n": 1,
+   "se": 0.061
+  },
+  "https://москварталы.рф/obekty/saltykovskaya-ul-d-6-2-k-1-2-3-4/": {
+   "std": 266815,
+   "n": 4,
+   "se": 0.032
+  },
+  "https://москварталы.рф/obekty/sevastopolskiy-pr-kt-d-28-k-9/": {
+   "std": 496514,
+   "n": 1,
+   "se": 0.061
+  },
+  "https://москварталы.рф/obekty/shchelkovskoe-sh-d-71/": {
+   "std": 401347,
+   "n": 2,
+   "se": 0.043
+  },
+  "https://москварталы.рф/obekty/shchelkovskoe-sh-d-74/": {
+   "std": 406717,
+   "n": 4,
+   "se": 0.032
+  },
+  "https://москварталы.рф/obekty/sheremetevskaya-ul-d-13-k-1/": {
+   "std": 559353,
+   "n": 1,
+   "se": 0.061
+  },
+  "https://москварталы.рф/obekty/shokalskogo-pr-d-d-27-k-2/": {
+   "std": 334539,
+   "n": 1,
+   "se": 0.061
+  },
+  "https://москварталы.рф/obekty/shokalskogo-pr-d-vld-28a/": {
+   "std": 521920,
+   "n": 22,
+   "se": 0.017
+  },
+  "https://москварталы.рф/obekty/sirenevyy-b-r-d-4-12/": {
+   "std": 482427,
+   "n": 9,
+   "se": 0.021
+  },
+  "https://москварталы.рф/obekty/sirenevyy-b-r-d-4-7/": {
+   "std": 378704,
+   "n": 2,
+   "se": 0.045
+  },
+  "https://москварталы.рф/obekty/sirenevyy-b-r-d-4-9/": {
+   "std": 457624,
+   "n": 11,
+   "se": 0.019
+  },
+  "https://москварталы.рф/obekty/skhodnenskaya-ul-vld-42/": {
+   "std": 488044,
+   "n": 5,
+   "se": 0.03
+  },
+  "https://москварталы.рф/obekty/slavyanskiy-b-r-d-1a/": {
+   "std": 733021,
+   "n": 5,
+   "se": 0.032
+  },
+  "https://москварталы.рф/obekty/sovhoznaya-ul-z-u-55-1/": {
+   "std": 422939,
+   "n": 1,
+   "se": 0.061
+  },
+  "https://москварталы.рф/obekty/sportivnaya-ul-d-3-d-5/": {
+   "std": 295632,
+   "n": 7,
+   "se": 0.029
+  },
+  "https://москварталы.рф/obekty/staroalekseevskaya-ul-d-3/": {
+   "std": 560676,
+   "n": 1,
+   "se": 0.061
+  },
+  "https://москварталы.рф/obekty/stavropolskaya-ul-d-23-1/": {
+   "std": 395456,
+   "n": 1,
+   "se": 0.062
+  },
+  "https://москварталы.рф/obekty/stavropolskaya-ul-vld-4-k-2/": {
+   "std": 340028,
+   "n": 4,
+   "se": 0.032
+  },
+  "https://москварталы.рф/obekty/svetlanova-ul-d-11-k-1/": {
+   "std": 536744,
+   "n": 4,
+   "se": 0.032
+  },
+  "https://москварталы.рф/obekty/svetlanova-ul-d-11-k-2/": {
+   "std": 610514,
+   "n": 36,
+   "se": 0.016
+  },
+  "https://москварталы.рф/obekty/svetlanova-ul-d-13/": {
+   "std": 704007,
+   "n": 5,
+   "se": 0.027
+  },
+  "https://москварталы.рф/obekty/svetlogorskiy-pr-d-d-7a/": {
+   "std": 393415,
+   "n": 1,
+   "se": 0.062
+  },
+  "https://москварталы.рф/obekty/tashkentskaya-ul-d-29-k-1/": {
+   "std": 364174,
+   "n": 7,
+   "se": 0.023
+  },
+  "https://москварталы.рф/obekty/tayninskaya-ul-d-7-k-2/": {
+   "std": 353239,
+   "n": 3,
+   "se": 0.036
+  },
+  "https://москварталы.рф/obekty/tekstilshchikov-ul-d-3-k-1/": {
+   "std": 211665,
+   "n": 8,
+   "se": 0.025
+  },
+  "https://москварталы.рф/obekty/tekstilshchikov-ul-d-3-k-2/": {
+   "std": 204169,
+   "n": 5,
+   "se": 0.03
+  },
+  "https://москварталы.рф/obekty/varshavskoe-sh-d-100-k-1/": {
+   "std": 415037,
+   "n": 2,
+   "se": 0.043
+  },
+  "https://москварталы.рф/obekty/varshavskoe-sh-d-139/": {
+   "std": 406741,
+   "n": 5,
+   "se": 0.03
+  },
+  "https://москварталы.рф/obekty/verhnie-polya-ul-vl-19/": {
+   "std": 500405,
+   "n": 15,
+   "se": 0.019
+  },
+  "https://москварталы.рф/obekty/vertoletchikov-ul-d-2/": {
+   "std": 306265,
+   "n": 1,
+   "se": 0.062
+  },
+  "https://москварталы.рф/obekty/volgogradskij-pr-kt-d-97-k-3/": {
+   "std": 371043,
+   "n": 1,
+   "se": 0.061
+  },
+  "https://москварталы.рф/obekty/vvedenskogo-ul-d-13v/": {
+   "std": 428013,
+   "n": 2,
+   "se": 0.043
+  },
+  "https://москварталы.рф/obekty/yavorki-ul-d-1-k-5-6/": {
+   "std": 213257,
+   "n": 5,
+   "se": 0.029
+  },
+  "https://москварталы.рф/obekty/zarevyy-pr-d-d-9/": {
+   "std": 397495,
+   "n": 1,
+   "se": 0.061
+  },
+  "https://москварталы.рф/obekty/zelenyj-pr-kt-d-97a/": {
+   "std": 451436,
+   "n": 5,
+   "se": 0.029
+  },
+  "https://москварталы.рф/obekty/zelenyy-pr-kt-d-103/": {
+   "std": 362835,
+   "n": 1,
+   "se": 0.061
+  }
+ },
+ "r2": 0.97,
+ "n": 1213,
+ "houses_n": 150,
+ "beta_area": -0.245
+}

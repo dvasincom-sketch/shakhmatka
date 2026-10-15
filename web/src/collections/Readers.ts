@@ -2,16 +2,17 @@ import type { CollectionConfig } from 'payload'
 import { admins } from '../access'
 
 /**
- * Читатели — подписчики «Следить». Не путать с сотрудниками (users): вход по ссылке из письма, без пароля,
+ * Читатели — подписчики «Следить». Не путать с сотрудниками (users): вход по звонку (sms.ru) или по ссылке из письма, без пароля,
  * своя cookie (lib/reader.ts). Публичного API нет: всё через маршруты /akkaunt/….
  */
 export const Readers: CollectionConfig = {
   slug: 'readers',
   labels: { singular: 'Читатель', plural: 'Читатели' },
-  admin: { useAsTitle: 'email', defaultColumns: ['email', 'confirmed', 'frequency', 'follows', 'createdAt'], group: 'Читатели' },
+  admin: { useAsTitle: 'email', defaultColumns: ['email', 'phone', 'confirmed', 'frequency', 'follows', 'createdAt'], group: 'Читатели' },
   access: { read: admins, create: admins, update: admins, delete: admins },
   fields: [
-    { name: 'email', label: 'Email', type: 'email', required: true, unique: true, index: true },
+    { name: 'email', label: 'Email', type: 'email', unique: true, index: true, admin: { description: 'Пусто, если читатель вошёл по звонку и почту не оставил' } },
+    { name: 'phone', label: 'Телефон', type: 'text', unique: true, index: true, admin: { description: 'Подтверждён звонком (sms.ru): 7XXXXXXXXXX' } },
     { name: 'confirmed', label: 'Подтвердил email', type: 'checkbox', defaultValue: false },
     {
       name: 'frequency', label: 'Рассылка', type: 'select', defaultValue: 'weekly',

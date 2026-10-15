@@ -14,6 +14,7 @@ ap = argparse.ArgumentParser()
 ap.add_argument('--batch', type=int, required=True)
 ap.add_argument('--size', type=int, default=30)
 ap.add_argument('--notes', default=os.path.join(HERE, '..', '..', 'pipeline', 'notes-text.json'), help='тексты заметок: {id: {date, text, links, media}}')
+ap.add_argument('--units', help='только кластеры с этими заметками (через запятую), например свежие: --units 36253,36242')
 ap.add_argument('--no-triage', action='store_true', help='не применять отсев pipeline/triage')
 ap.add_argument('--since', default='2024-01-01', help='сначала берём свежие кластеры')
 A = ap.parse_args()
@@ -89,6 +90,9 @@ if TRI and not A.no_triage:
     units = [u for u in units if grade(u) != 'C']
     units.sort(key=lambda u: grade(u) != 'A')  # устойчивая сортировка: внутри A/B порядок по весу
     print(f'отсев: убрано C {len(dropped)}, A {sum(grade(u) == "A" for u in units)}, B {sum(grade(u) == "B" for u in units)}')
+if A.units:
+    want = {int(x) for x in A.units.split(',')}
+    units = [u for u in units if want & set(u[1])]
 pick, per_dev, per_obj = [], collections.Counter(), set()
 for u in units:
     o = D[u[0]]

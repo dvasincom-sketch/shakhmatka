@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { useMemo, useState } from 'react'
 import { Select } from './select'
 
-export type KrtEvent = { date: string; title: string; signal: boolean; unconfirmed: boolean; confirmed: boolean }
+export type KrtEvent = { date: string; title: string; signal: boolean; unconfirmed: boolean; confirmed: boolean; href?: string }
 export type KrtRow = {
   slug: string
   name: string
@@ -105,7 +105,7 @@ export function KrtTracker({ rows }: { rows: KrtRow[] }) {
                       <time dateTime={e.date}>{d(e.date)}</time>
                       <span>
                         {e.signal ? <b className={`krt-b${e.unconfirmed ? ' no' : e.confirmed ? ' ok' : ''}`}>{e.unconfirmed ? 'Не подтвердилось' : e.confirmed ? 'Сигнал подтвердился' : 'Сигнал'}</b> : null}
-                        {e.title}
+                        {e.href ? <Link href={e.href}>{e.title}</Link> : e.title}
                       </span>
                     </li>
                   ))}

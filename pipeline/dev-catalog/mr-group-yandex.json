@@ -1,0 +1,335 @@
+{
+ "21504": {
+  "name": "Водный",
+  "addr": "Москва, Кронштадтский бул.",
+  "st": "Сдан",
+  "cl": "комфорт",
+  "pr": "",
+  "u": "/moskva_i_moskovskaya_oblast/kupit/novostrojka/21504/",
+  "t": ""
+ },
+ "23905": {
+  "name": "Фили Град",
+  "addr": "Москва, Береговой проезд, вл. 5",
+  "st": "Сдан",
+  "cl": "элитный",
+  "pr": "",
+  "u": "/moskva_i_moskovskaya_oblast/kupit/novostrojka/23905/",
+  "t": ""
+ },
+ "76164": {
+  "name": "Савеловский Сити",
+  "addr": "Москва, ул. Новодмитровская",
+  "st": "Сдан",
+  "cl": "",
+  "pr": "",
+  "u": "/moskva_i_moskovskaya_oblast/kupit/novostrojka/76164/",
+  "t": ""
+ },
+ "161218": {
+  "name": "Двинцев, 14",
+  "addr": "Москва, ул. Двинцев, 12, к. 1Б",
+  "st": "Сдан",
+  "cl": "бизнес",
+  "pr": "",
+  "u": "/moskva_i_moskovskaya_oblast/kupit/novostrojka/161218/",
+  "t": ""
+ },
+ "161586": {
+  "name": "Воробьев дом",
+  "addr": "Москва, Воробьёвское ш. 4, 4, стр. 1",
+  "st": "Сдан",
+  "cl": "элитный",
+  "pr": "",
+  "u": "/moskva_i_moskovskaya_oblast/kupit/novostrojka/161586/",
+  "t": ""
+ },
+ "185252": {
+  "name": "Ясный",
+  "addr": "Москва, ш. Каширское",
+  "st": "Сдан",
+  "cl": "комфорт",
+  "pr": "",
+  "u": "/moskva_i_moskovskaya_oblast/kupit/novostrojka/185252/",
+  "t": ""
+ },
+ "207205": {
+  "name": "PerovSky",
+  "addr": "Москва, ш. Энтузиастов, 86А, к. 1-3",
+  "st": "Сдан",
+  "cl": "бизнес",
+  "pr": "",
+  "u": "/moskva_i_moskovskaya_oblast/kupit/novostrojka/207205/",
+  "t": ""
+ },
+ "224482": {
+  "name": "Метрополия",
+  "addr": "Москва, пр. Волгоградский, вл. 32",
+  "st": "Сдан",
+  "cl": "бизнес",
+  "pr": "27,1",
+  "u": "/moskva_i_moskovskaya_oblast/kupit/novostrojka/224482/",
+  "t": ""
+ },
+ "508835": {
+  "name": "Селигер Сити",
+  "addr": "Москва, Ильменский проезд, вл. 14",
+  "st": "",
+  "cl": "бизнес",
+  "pr": "28,8",
+  "u": "/moskva_i_moskovskaya_oblast/kupit/novostrojka/508835/",
+  "t": ""
+ },
+ "917108": {
+  "name": "Фили Сити",
+  "addr": "Москва, Багратионовский проезд, 5А, к. 1",
+  "st": "Сдан",
+  "cl": "бизнес",
+  "pr": "",
+  "u": "/moskva_i_moskovskaya_oblast/kupit/novostrojka/917108/",
+  "t": ""
+ },
+ "1657260": {
+  "name": "усадьба Manor",
+  "addr": "Москва, ул. Садовая-Сухаревская, 10/12",
+  "st": "Сдан",
+  "cl": "элитный",
+  "pr": "",
+  "u": "/moskva_i_moskovskaya_oblast/kupit/novostrojka/1657260/",
+  "t": ""
+ },
+ "1667563": {
+  "name": "D1",
+  "addr": "Москва, проезд Дмитровский, 1",
+  "st": "Сдан",
+  "cl": "бизнес",
+  "pr": "",
+  "u": "/moskva_i_moskovskaya_oblast/kupit/novostrojka/1667563/",
+  "t": ""
+ },
+ "1672763": {
+  "name": "Discovery",
+  "addr": "Москва, ул. Беломорская, 23, к. 1-5",
+  "st": "Сдан",
+  "cl": "бизнес",
+  "pr": "",
+  "u": "/moskva_i_moskovskaya_oblast/kupit/novostrojka/1672763/",
+  "t": ""
+ },
+ "1687065": {
+  "name": "Discovery Park",
+  "addr": "Москва, ул. Дыбенко, 7, к. 1-4",
+  "st": "Сдан",
+  "cl": "бизнес",
+  "pr": "",
+  "u": "/moskva_i_moskovskaya_oblast/kupit/novostrojka/1687065/",
+  "t": ""
+ },
+ "2287072": {
+  "name": "Сити Бэй",
+  "addr": "Москва, ш. Волоколамское",
+  "st": "",
+  "cl": "бизнес",
+  "pr": "25,0",
+  "u": "/moskva_i_moskovskaya_oblast/kupit/novostrojka/2287072/",
+  "t": ""
+ },
+ "2309863": {
+  "name": "дом Абрикосов",
+  "addr": "Москва, Потаповский пер., 6, стр. 1",
+  "st": "Сдан",
+  "cl": "элитный",
+  "pr": "",
+  "u": "/moskva_i_moskovskaya_oblast/kupit/novostrojka/2309863/",
+  "t": ""
+ },
+ "2335669": {
+  "name": "Слава",
+  "addr": "Москва, пр. Ленинградский / ул. 1-я Ямского Поля",
+  "st": "",
+  "cl": "элитный",
+  "pr": "28,3",
+  "u": "/moskva_i_moskovskaya_oblast/kupit/novostrojka/2335669/",
+  "t": ""
+ },
+ "2444397": {
+  "name": "Симфония 34",
+  "addr": "Москва, ул. 2-я Хуторская, 34",
+  "st": "Сдан",
+  "cl": "элитный",
+  "pr": "23,7",
+  "u": "/moskva_i_moskovskaya_oblast/kupit/novostrojka/2444397/",
+  "t": ""
+ },
+ "2450806": {
+  "name": "Мод",
+  "addr": "Москва, 4-я ул. Марьиной Рощи",
+  "st": "Сдан",
+  "cl": "элитный",
+  "pr": "26,3",
+  "u": "/moskva_i_moskovskaya_oblast/kupit/novostrojka/2450806/",
+  "t": ""
+ },
+ "3032850": {
+  "name": "Noble",
+  "addr": "Москва, Багратионовский проезд, возле вл. 5",
+  "st": "Сдан",
+  "cl": "элитный",
+  "pr": "",
+  "u": "/moskva_i_moskovskaya_oblast/kupit/novostrojka/3032850/",
+  "t": ""
+ },
+ "3032937": {
+  "name": "Феймос",
+  "addr": "Москва, Багратионовский проезд, возле вл. 5",
+  "st": "Сдан",
+  "cl": "элитный",
+  "pr": "29,5",
+  "u": "/moskva_i_moskovskaya_oblast/kupit/novostrojka/3032937/",
+  "t": ""
+ },
+ "3454125": {
+  "name": "Форум",
+  "addr": "Москва, ул. Садовая-Сухаревская, 14/1",
+  "st": "Сдан",
+  "cl": "элитный",
+  "pr": "153,8",
+  "u": "/moskva_i_moskovskaya_oblast/kupit/novostrojka/3454125/",
+  "t": ""
+ },
+ "3657380": {
+  "name": "фамильный дом Люче",
+  "addr": "Москва, пер. Крестовоздвиженский, 4",
+  "st": "1 кв. 2027",
+  "cl": "элитный",
+  "pr": "270,5",
+  "u": "/moskva_i_moskovskaya_oblast/kupit/novostrojka/3657380/",
+  "t": ""
+ },
+ "3706631": {
+  "name": "Николь",
+  "addr": "Москва, ул. Никольская",
+  "st": "",
+  "cl": "элитный",
+  "pr": "234,5",
+  "u": "/moskva_i_moskovskaya_oblast/kupit/novostrojka/3706631/",
+  "t": ""
+ },
+ "3797634": {
+  "name": "Джойс",
+  "addr": "Москва, 3-й Силикатный проезд",
+  "st": "4 кв. 2027",
+  "cl": "элитный",
+  "pr": "18,9",
+  "u": "/moskva_i_moskovskaya_oblast/kupit/novostrojka/3797634/",
+  "t": ""
+ },
+ "3850850": {
+  "name": "Мультиквартал СИТИДЗЕН",
+  "addr": "Москва, ул. Вишнёвая",
+  "st": "",
+  "cl": "бизнес",
+  "pr": "15,9",
+  "u": "/moskva_i_moskovskaya_oblast/kupit/novostrojka/3850850/",
+  "t": ""
+ },
+ "3986077": {
+  "name": "Веер",
+  "addr": "Москва, ул. Багрицкого / ул. Верейская",
+  "st": "",
+  "cl": "бизнес",
+  "pr": "25,0",
+  "u": "/moskva_i_moskovskaya_oblast/kupit/novostrojka/3986077/",
+  "t": ""
+ },
+ "4013614": {
+  "name": "жилой дом Кло 17",
+  "addr": "Москва, Староваганьковский пер., 17, стр. 4",
+  "st": "1 кв. 2027",
+  "cl": "элитный",
+  "pr": "227,5",
+  "u": "/moskva_i_moskovskaya_oblast/kupit/novostrojka/4013614/",
+  "t": ""
+ },
+ "4014763": {
+  "name": "СЕТ",
+  "addr": "Москва, ул. Верейская / ул. Багрицкого",
+  "st": "3 кв. 2028",
+  "cl": "бизнес",
+  "pr": "25,0",
+  "u": "/moskva_i_moskovskaya_oblast/kupit/novostrojka/4014763/",
+  "t": ""
+ },
+ "4033113": {
+  "name": "МИРА",
+  "addr": "Москва, пр. Мира",
+  "st": "3 кв. 2027",
+  "cl": "элитный",
+  "pr": "21,2",
+  "u": "/moskva_i_moskovskaya_oblast/kupit/novostrojka/4033113/",
+  "t": ""
+ },
+ "4075304": {
+  "name": "жилой дом по ул. 2-я Хапиловская",
+  "addr": "Москва, ул. 2-я Хапиловская",
+  "st": "4 кв. 2026",
+  "cl": "эконом",
+  "pr": "",
+  "u": "/moskva_i_moskovskaya_oblast/kupit/novostrojka/4075304/",
+  "t": ""
+ },
+ "4160840": {
+  "name": "Оне",
+  "addr": "Москва, 1-й Красногвардейский проезд",
+  "st": "3 кв. 2027",
+  "cl": "элитный",
+  "pr": "43,5",
+  "u": "/moskva_i_moskovskaya_oblast/kupit/novostrojka/4160840/",
+  "t": ""
+ },
+ "4194312": {
+  "name": "Климашкина 7/11",
+  "addr": "Москва, ул. Климашкина, 7/11",
+  "st": "4 кв. 2028",
+  "cl": "элитный",
+  "pr": "102,5",
+  "u": "/moskva_i_moskovskaya_oblast/kupit/novostrojka/4194312/",
+  "t": ""
+ },
+ "4545154": {
+  "name": "С5",
+  "addr": "Москва, ул. Серёгина",
+  "st": "1 кв. 2030",
+  "cl": "элитный",
+  "pr": "33,9",
+  "u": "/moskva_i_moskovskaya_oblast/kupit/novostrojka/4545154/",
+  "t": ""
+ },
+ "4863419": {
+  "name": "Казачий",
+  "addr": "Москва, пер. 1-й Казачий",
+  "st": "3 кв. 2029",
+  "cl": "элитный",
+  "pr": "138,8",
+  "u": "/moskva_i_moskovskaya_oblast/kupit/novostrojka/4863419/",
+  "t": ""
+ },
+ "4885192": {
+  "name": "26 ПАРКВЬЮ",
+  "addr": "Москва, ул. Тимирязевская",
+  "st": "2 кв. 2029",
+  "cl": "элитный",
+  "pr": "30,5",
+  "u": "/moskva_i_moskovskaya_oblast/kupit/novostrojka/4885192/",
+  "t": ""
+ },
+ "4902598": {
+  "name": "Клиф",
+  "addr": "Москва, Проектируемый проезд № 4087",
+  "st": "4 кв. 2026",
+  "cl": "элитный",
+  "pr": "20,7",
+  "u": "/moskva_i_moskovskaya_oblast/kupit/novostrojka/4902598/",
+  "t": ""
+ }
+}

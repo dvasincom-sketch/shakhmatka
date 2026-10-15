@@ -1,3 +1,4 @@
+import { districtStations } from '@/lib/metro'
 import type { MetadataRoute } from 'next'
 import { getPayload } from 'payload'
 import config from '@payload-config'
@@ -37,12 +38,16 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: `${ORIGIN}/obekty/`, changeFrequency: 'daily', priority: 0.8 },
     { url: `${ORIGIN}/novostroyki/`, changeFrequency: 'daily', priority: 0.9 },
     ...land.map((l) => ({ url: `${ORIGIN}/novostroyki/${l.slug}/`, changeFrequency: 'daily' as const, priority: 0.8 })),
+    // станции внутри районов: /novostroyki/<район>/<станция>/
+    ...land.filter((l) => l.group === 'district').flatMap((l) => districtStations(l.key || l.slug).map((s) => ({ url: `${ORIGIN}/novostroyki/${l.slug}/${s.slug}/`, changeFrequency: 'weekly' as const, priority: 0.6 }))),
     { url: `${ORIGIN}/zastroyshchiki/`, changeFrequency: 'daily', priority: 0.8 },
     { url: `${ORIGIN}/arhitektory/`, changeFrequency: 'weekly', priority: 0.6 },
     ...BUREAUS.filter((b) => b.objects.length + b.articles.length >= 2).map((b) => ({ url: `${ORIGIN}/arhitektory/${b.key}/`, changeFrequency: 'monthly' as const, priority: 0.4 })),
     { url: `${ORIGIN}/pro/`, changeFrequency: 'monthly', priority: 0.4 },
     { url: `${ORIGIN}/o-proekte/`, changeFrequency: 'monthly', priority: 0.4 },
     { url: `${ORIGIN}/ceny-na-starte/`, changeFrequency: 'weekly', priority: 0.8 },
+    { url: `${ORIGIN}/moskovskie-kvartaly/`, changeFrequency: 'weekly', priority: 0.8 },
+    { url: `${ORIGIN}/razmorozka/`, changeFrequency: 'weekly', priority: 0.7 },
     { url: `${ORIGIN}/krt/`, changeFrequency: 'daily', priority: 0.8 },
     { url: `${ORIGIN}/signaly/`, changeFrequency: 'daily', priority: 0.7 },
     ...arts.docs.map((a) => ({ url: `${ORIGIN}/novosti/${a.slug}/`, lastModified: d(a.dateModified, a.datePublished, a.updatedAt), changeFrequency: 'weekly' as const, priority: 0.7 })),

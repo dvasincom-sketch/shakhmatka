@@ -1,0 +1,350 @@
+{
+ "developer": "mr-group",
+ "sources": [
+  "https://realty.yandex.ru/moskva/kupit/novostrojka/z-mr-268784/?showOutdated=YES"
+ ],
+ "projects": [
+  {
+   "name": "Водный",
+   "address": "Москва, Кронштадтский бул.",
+   "zu": null,
+   "district": null,
+   "stage": "completed",
+   "completion": null,
+   "class": "Комфорт",
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/21504/"
+   ],
+   "yandex_site_id": "21504",
+   "notes": "Яндекс Недвижимость, раздел застройщика в Москве (с завершёнными), 15.10.2026"
+  },
+  {
+   "name": "Фили Град",
+   "address": "Москва, Береговой проезд, вл. 5",
+   "zu": null,
+   "district": null,
+   "stage": "completed",
+   "completion": null,
+   "class": "Элитный",
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/23905/"
+   ],
+   "yandex_site_id": "23905",
+   "notes": "Яндекс Недвижимость, раздел застройщика в Москве (с завершёнными), 15.10.2026"
+  },
+  {
+   "name": "Савеловский Сити",
+   "address": "Москва, ул. Новодмитровская",
+   "zu": null,
+   "district": null,
+   "stage": "completed",
+   "completion": null,
+   "class": null,
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/76164/"
+   ],
+   "yandex_site_id": "76164",
+   "notes": "Яндекс Недвижимость, раздел застройщика в Москве (с завершёнными), 15.10.2026"
+  },
+  {
+   "name": "Двинцев, 14",
+   "address": "Москва, ул. Двинцев, 12, к. 1Б",
+   "zu": null,
+   "district": null,
+   "stage": "completed",
+   "completion": null,
+   "class": "Бизнес",
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/161218/"
+   ],
+   "yandex_site_id": "161218",
+   "notes": "Яндекс Недвижимость, раздел застройщика в Москве (с завершёнными), 15.10.2026"
+  },
+  {
+   "name": "Воробьев дом",
+   "address": "Москва, Воробьёвское ш. 4, 4, стр. 1",
+   "zu": null,
+   "district": null,
+   "stage": "completed",
+   "completion": null,
+   "class": "Элитный",
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/161586/"
+   ],
+   "yandex_site_id": "161586",
+   "notes": "Яндекс Недвижимость, раздел застройщика в Москве (с завершёнными), 15.10.2026"
+  },
+  {
+   "name": "Ясный",
+   "address": "Москва, ш. Каширское",
+   "zu": null,
+   "district": null,
+   "stage": "completed",
+   "completion": null,
+   "class": "Комфорт",
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/185252/"
+   ],
+   "yandex_site_id": "185252",
+   "notes": "Яндекс Недвижимость, раздел застройщика в Москве (с завершёнными), 15.10.2026"
+  },
+  {
+   "name": "PerovSky",
+   "address": "Москва, ш. Энтузиастов, 86А, к. 1-3",
+   "zu": null,
+   "district": null,
+   "stage": "completed",
+   "completion": null,
+   "class": "Бизнес",
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/207205/"
+   ],
+   "yandex_site_id": "207205",
+   "notes": "Яндекс Недвижимость, раздел застройщика в Москве (с завершёнными), 15.10.2026"
+  },
+  {
+   "name": "Метрополия",
+   "address": "Москва, пр. Волгоградский, вл. 32",
+   "zu": null,
+   "district": null,
+   "stage": "completed",
+   "completion": null,
+   "class": "Бизнес",
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/224482/"
+   ],
+   "yandex_site_id": "224482",
+   "notes": "Яндекс Недвижимость, раздел застройщика в Москве (с завершёнными), 15.10.2026"
+  },
+  {
+   "name": "Manor",
+   "address": "Москва, ул. Садовая-Сухаревская, 10/12",
+   "zu": null,
+   "district": null,
+   "stage": "completed",
+   "completion": null,
+   "class": "Элитный",
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/1657260/"
+   ],
+   "yandex_site_id": "1657260",
+   "notes": "Яндекс Недвижимость, раздел застройщика в Москве (с завершёнными), 15.10.2026"
+  },
+  {
+   "name": "D1",
+   "address": "Москва, проезд Дмитровский, 1",
+   "zu": null,
+   "district": null,
+   "stage": "completed",
+   "completion": null,
+   "class": "Бизнес",
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/1667563/"
+   ],
+   "yandex_site_id": "1667563",
+   "notes": "Яндекс Недвижимость, раздел застройщика в Москве (с завершёнными), 15.10.2026"
+  },
+  {
+   "name": "Discovery",
+   "address": "Москва, ул. Беломорская, 23, к. 1-5",
+   "zu": null,
+   "district": null,
+   "stage": "completed",
+   "completion": null,
+   "class": "Бизнес",
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/1672763/"
+   ],
+   "yandex_site_id": "1672763",
+   "notes": "Яндекс Недвижимость, раздел застройщика в Москве (с завершёнными), 15.10.2026"
+  },
+  {
+   "name": "Discovery Park",
+   "address": "Москва, ул. Дыбенко, 7, к. 1-4",
+   "zu": null,
+   "district": null,
+   "stage": "completed",
+   "completion": null,
+   "class": "Бизнес",
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/1687065/"
+   ],
+   "yandex_site_id": "1687065",
+   "notes": "Яндекс Недвижимость, раздел застройщика в Москве (с завершёнными), 15.10.2026"
+  },
+  {
+   "name": "дом Абрикосов",
+   "address": "Москва, Потаповский пер., 6, стр. 1",
+   "zu": null,
+   "district": null,
+   "stage": "completed",
+   "completion": null,
+   "class": "Элитный",
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/2309863/"
+   ],
+   "yandex_site_id": "2309863",
+   "notes": "Яндекс Недвижимость, раздел застройщика в Москве (с завершёнными), 15.10.2026"
+  },
+  {
+   "name": "Феймос",
+   "address": "Москва, Багратионовский проезд, возле вл. 5",
+   "zu": null,
+   "district": null,
+   "stage": "completed",
+   "completion": null,
+   "class": "Элитный",
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/3032937/"
+   ],
+   "yandex_site_id": "3032937",
+   "notes": "Яндекс Недвижимость, раздел застройщика в Москве (с завершёнными), 15.10.2026"
+  },
+  {
+   "name": "Кло 17",
+   "address": "Москва, Староваганьковский пер., 17, стр. 4",
+   "zu": null,
+   "district": null,
+   "stage": "sales",
+   "completion": "1 кв. 2027",
+   "class": "Элитный",
+   "buildings": null,
+   "price_from_mln": 227.5,
+   "price_as_of": "октябрь 2026",
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/4013614/"
+   ],
+   "yandex_site_id": "4013614",
+   "notes": "Яндекс Недвижимость, раздел застройщика в Москве (с завершёнными), 15.10.2026; статус «строится/продажи», срок сдачи по каталогу"
+  },
+  {
+   "name": "ул. 2-я Хапиловская",
+   "address": "Москва, ул. 2-я Хапиловская",
+   "zu": null,
+   "district": null,
+   "stage": "sales",
+   "completion": "4 кв. 2026",
+   "class": "Эконом",
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/4075304/"
+   ],
+   "yandex_site_id": "4075304",
+   "notes": "Яндекс Недвижимость, раздел застройщика в Москве (с завершёнными), 15.10.2026; статус «строится/продажи», срок сдачи по каталогу"
+  },
+  {
+   "name": "С5",
+   "address": "Москва, ул. Серёгина",
+   "zu": null,
+   "district": null,
+   "stage": "sales",
+   "completion": "1 кв. 2030",
+   "class": "Элитный",
+   "buildings": null,
+   "price_from_mln": 33.9,
+   "price_as_of": "октябрь 2026",
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/4545154/"
+   ],
+   "yandex_site_id": "4545154",
+   "notes": "Яндекс Недвижимость, раздел застройщика в Москве (с завершёнными), 15.10.2026; статус «строится/продажи», срок сдачи по каталогу"
+  },
+  {
+   "name": "Казачий",
+   "address": "Москва, пер. 1-й Казачий",
+   "zu": null,
+   "district": null,
+   "stage": "sales",
+   "completion": "3 кв. 2029",
+   "class": "Элитный",
+   "buildings": null,
+   "price_from_mln": 138.8,
+   "price_as_of": "октябрь 2026",
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/4863419/"
+   ],
+   "yandex_site_id": "4863419",
+   "notes": "Яндекс Недвижимость, раздел застройщика в Москве (с завершёнными), 15.10.2026; статус «строится/продажи», срок сдачи по каталогу"
+  },
+  {
+   "name": "Клиф",
+   "address": "Москва, Проектируемый проезд № 4087",
+   "zu": null,
+   "district": null,
+   "stage": "sales",
+   "completion": "4 кв. 2026",
+   "class": "Элитный",
+   "buildings": null,
+   "price_from_mln": 20.7,
+   "price_as_of": "октябрь 2026",
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/4902598/"
+   ],
+   "yandex_site_id": "4902598",
+   "notes": "Яндекс Недвижимость, раздел застройщика в Москве (с завершёнными), 15.10.2026; статус «строится/продажи», срок сдачи по каталогу"
+  }
+ ]
+}

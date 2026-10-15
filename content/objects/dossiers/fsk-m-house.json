@@ -1,0 +1,15 @@
+{
+  "_readme": "Ручное досье (15.10.2026) по каталогам новостроек: https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/25502/. Добавлено, чтобы портфель застройщика в базе был полным; в архиве редакции о проекте не писали.",
+  "slug": "fsk-m-house",
+  "name": "M-House",
+  "zu": "M-House",
+  "aliases": [
+    "ЖК M-House"
+  ],
+  "region": "moscow",
+  "stage": "completed",
+  "developer": "fsk",
+  "summary": "Жилой комплекс M-House застройщика ФСК по адресу Москва, ул. Академика Янгеля, 2. Проект сдан.",
+  "timeline": [],
+  "district": "chertanovo-yuzhnoe"
+}

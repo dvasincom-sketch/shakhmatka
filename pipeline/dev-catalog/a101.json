@@ -1,0 +1,260 @@
+{
+ "developer": "a101",
+ "sources": [
+  "https://realty.yandex.ru/moskva/kupit/novostrojka/z-gk-a101-269230/?showOutdated=YES"
+ ],
+ "projects": [
+  {
+   "name": "Зеленый бор",
+   "address": "Москва, Зеленоград, 23-й мкр.",
+   "zu": null,
+   "district": null,
+   "stage": "completed",
+   "completion": null,
+   "class": "Эконом",
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/63868/"
+   ],
+   "yandex_site_id": "63868",
+   "notes": "Яндекс Недвижимость, раздел застройщика в Москве (с завершёнными), 15.10.2026"
+  },
+  {
+   "name": "Москва А101",
+   "address": "Москва, пос. Коммунарка, ул. Липовый Парк",
+   "zu": null,
+   "district": null,
+   "stage": "completed",
+   "completion": null,
+   "class": "Комфорт",
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/72896/"
+   ],
+   "yandex_site_id": "72896",
+   "notes": "Яндекс Недвижимость, раздел застройщика в Москве (с завершёнными), 15.10.2026"
+  },
+  {
+   "name": "Вяземское",
+   "address": "Москва, д. Николо-Хованское, КП «Вяземское»",
+   "zu": null,
+   "district": null,
+   "stage": "completed",
+   "completion": null,
+   "class": "Комфорт",
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/73609/"
+   ],
+   "yandex_site_id": "73609",
+   "notes": "Яндекс Недвижимость, раздел застройщика в Москве (с завершёнными), 15.10.2026"
+  },
+  {
+   "name": "Кронбург",
+   "address": "Москва, д. Губкино, Кронбургская ул.",
+   "zu": null,
+   "district": null,
+   "stage": "completed",
+   "completion": null,
+   "class": "Комфорт",
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/73630/"
+   ],
+   "yandex_site_id": "73630",
+   "notes": "Яндекс Недвижимость, раздел застройщика в Москве (с завершёнными), 15.10.2026"
+  },
+  {
+   "name": "Зеленая линия",
+   "address": "Москва, пос. Коммунарка, Бачуринская ул.",
+   "zu": null,
+   "district": null,
+   "stage": "completed",
+   "completion": null,
+   "class": "Эконом",
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/73655/"
+   ],
+   "yandex_site_id": "73655",
+   "notes": "Яндекс Недвижимость, раздел застройщика в Москве (с завершёнными), 15.10.2026"
+  },
+  {
+   "name": "Испанские кварталы",
+   "address": "Москва, пос. Сосенское, ул. Сервантеса / бул. Веласкеса",
+   "zu": null,
+   "district": null,
+   "stage": "completed",
+   "completion": null,
+   "class": null,
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/129699/"
+   ],
+   "yandex_site_id": "129699",
+   "notes": "Яндекс Недвижимость, раздел застройщика в Москве (с завершёнными), 15.10.2026"
+  },
+  {
+   "name": "Смоленская Застава",
+   "address": "Москва, пер. Ружейный, 3",
+   "zu": null,
+   "district": null,
+   "stage": "completed",
+   "completion": null,
+   "class": "Элитный",
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/173303/"
+   ],
+   "yandex_site_id": "173303",
+   "notes": "Яндекс Недвижимость, раздел застройщика в Москве (с завершёнными), 15.10.2026"
+  },
+  {
+   "name": "Скандинавия",
+   "address": "Москва, пос. Сосенское, Скандинавский бул.",
+   "zu": null,
+   "district": null,
+   "stage": "sales",
+   "completion": null,
+   "class": null,
+   "buildings": null,
+   "price_from_mln": 13.7,
+   "price_as_of": "октябрь 2026",
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/364144/"
+   ],
+   "yandex_site_id": "364144",
+   "notes": "Яндекс Недвижимость, раздел застройщика в Москве (с завершёнными), 15.10.2026; статус «строится/продажи», срок сдачи по каталогу"
+  },
+  {
+   "name": "Белые ночи",
+   "address": "Москва, пос. Коммунарка, ул. Потаповская Роща",
+   "zu": null,
+   "district": null,
+   "stage": "completed",
+   "completion": null,
+   "class": "Комфорт",
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/374276/"
+   ],
+   "yandex_site_id": "374276",
+   "notes": "Яндекс Недвижимость, раздел застройщика в Москве (с завершёнными), 15.10.2026"
+  },
+  {
+   "name": "Бунинские Кварталы",
+   "address": "Москва, пос. Сосенское, пр. Куприна",
+   "zu": null,
+   "district": null,
+   "stage": "completed",
+   "completion": null,
+   "class": "Бизнес",
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/3087460/"
+   ],
+   "yandex_site_id": "3087460",
+   "notes": "Яндекс Недвижимость, раздел застройщика в Москве (с завершёнными), 15.10.2026"
+  },
+  {
+   "name": "Дзен-кварталы",
+   "address": "Москва, пос. Сосенское, ул. Александры Монаховой",
+   "zu": null,
+   "district": null,
+   "stage": "sales",
+   "completion": null,
+   "class": "Бизнес",
+   "buildings": null,
+   "price_from_mln": 14.5,
+   "price_as_of": "октябрь 2026",
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/3123313/"
+   ],
+   "yandex_site_id": "3123313",
+   "notes": "Яндекс Недвижимость, раздел застройщика в Москве (с завершёнными), 15.10.2026; статус «строится/продажи», срок сдачи по каталогу"
+  },
+  {
+   "name": "Дом на Зорге",
+   "address": "Москва, ул. Зорге",
+   "zu": null,
+   "district": null,
+   "stage": "completed",
+   "completion": null,
+   "class": "Бизнес",
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/3487946/"
+   ],
+   "yandex_site_id": "3487946",
+   "notes": "Яндекс Недвижимость, раздел застройщика в Москве (с завершёнными), 15.10.2026"
+  },
+  {
+   "name": "Деснаречье квартал Парк",
+   "address": "Москва, район Троицк, ул. Гренадерская",
+   "zu": null,
+   "district": null,
+   "stage": "sales",
+   "completion": null,
+   "class": "Комфорт",
+   "buildings": null,
+   "price_from_mln": 11.4,
+   "price_as_of": "октябрь 2026",
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/3641076/"
+   ],
+   "yandex_site_id": "3641076",
+   "notes": "Яндекс Недвижимость, раздел застройщика в Москве (с завершёнными), 15.10.2026; статус «строится/продажи», срок сдачи по каталогу"
+  },
+  {
+   "name": "Хольм",
+   "address": "Москва, Новомосковский округ, район Коммунарка",
+   "zu": null,
+   "district": null,
+   "stage": "sales",
+   "completion": "4 кв. 2028",
+   "class": "Бизнес",
+   "buildings": null,
+   "price_from_mln": 16.3,
+   "price_as_of": "октябрь 2026",
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/4872138/"
+   ],
+   "yandex_site_id": "4872138",
+   "notes": "Яндекс Недвижимость, раздел застройщика в Москве (с завершёнными), 15.10.2026; статус «строится/продажи», срок сдачи по каталогу"
+  }
+ ]
+}

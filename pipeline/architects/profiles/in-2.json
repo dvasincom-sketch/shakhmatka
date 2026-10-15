@@ -1,0 +1,223 @@
+[
+ {
+  "key": "marks-group",
+  "name": "Marks Group",
+  "aliases": [
+   "MARKS GROUP",
+   "«Маркс»"
+  ],
+  "projects": [
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ]
+ },
+ {
+  "key": "dnk-ag",
+  "name": "DNK ag",
+  "aliases": [
+   "DNK"
+  ],
+  "projects": [
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ]
+ },
+ {
+  "key": "abv",
+  "name": "ABV",
+  "aliases": [
+   "abv",
+   "АБВ"
+  ],
+  "projects": [
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ]
+ },
+ {
+  "key": "ai-architects",
+  "name": "AI Architects",
+  "aliases": [
+   "AI Studio",
+   "Al Studio",
+   "АИ-АРХИТЕКТС",
+   "бюро AI"
+  ],
+  "projects": [
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ]
+ },
+ {
+  "key": "borisov-architects",
+  "name": "Borisov Architects",
+  "aliases": [],
+  "projects": [
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ]
+ },
+ {
+  "key": "meganom",
+  "name": "Меганом",
+  "aliases": [
+   "Meganom",
+   "«Меганом»"
+  ],
+  "projects": [
+   null,
+   null,
+   null,
+   null,
+   null
+  ]
+ },
+ {
+  "key": "ostozhenka",
+  "name": "Остоженка",
+  "aliases": [
+   "Ostozhenka",
+   "бюро «Остоженка»",
+   "бюро Остоженка"
+  ],
+  "projects": [
+   null,
+   null,
+   null,
+   null,
+   null
+  ]
+ },
+ {
+  "key": "buromoscow",
+  "name": "Buromoscow",
+  "aliases": [
+   "BUROMOSCOW"
+  ],
+  "projects": [
+   null,
+   null,
+   null,
+   null,
+   null
+  ]
+ },
+ {
+  "key": "oleg-klodt",
+  "name": "Oleg Klodt Architecture & Design",
+  "aliases": [
+   "Oleg Klodt Architecture&Design",
+   "Бюро Олега Клодта",
+   "Олег Клодт",
+   "Олега Клодта"
+  ],
+  "projects": [
+   null,
+   null,
+   null,
+   null
+  ]
+ },
+ {
+  "key": "saga",
+  "name": "Saga",
+  "aliases": [
+   "SAGA",
+   "Сага"
+  ],
+  "projects": [
+   null,
+   null,
+   null,
+   null
+  ]
+ },
+ {
+  "key": "mam",
+  "name": "М.А.М.",
+  "aliases": [
+   "MAM",
+   "Концепция — мастерской MAM",
+   "МАМ",
+   "мастерская MAM",
+   "мастерская «МАМ»"
+  ],
+  "projects": [
+   null,
+   null,
+   null,
+   null
+  ]
+ },
+ {
+  "key": "oda",
+  "name": "ODA",
+  "aliases": [],
+  "projects": [
+   null,
+   null,
+   null,
+   null
+  ]
+ },
+ {
+  "key": "sergey-kiselev",
+  "name": "Бюро Сергея Киселёва",
+  "aliases": [
+   "Бюро Сергея Киселева",
+   "бюро Сергея Киселева",
+   "бюро Сергея Киселёва"
+  ],
+  "projects": [
+   null,
+   null,
+   null,
+   null
+  ]
+ },
+ {
+  "key": "gren",
+  "name": "GREN",
+  "aliases": [],
+  "projects": [
+   null,
+   null,
+   null,
+   null
+  ]
+ },
+ {
+  "key": "bbm",
+  "name": "ББМ",
+  "aliases": [
+   "BBM Project",
+   "bbm"
+  ],
+  "projects": [
+   null,
+   null,
+   null,
+   null
+  ]
+ }
+]

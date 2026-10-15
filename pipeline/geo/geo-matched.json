@@ -1,0 +1,1514 @@
+[
+ {
+  "slug": "coin-house",
+  "name": "Coin House",
+  "q": "Москва, Подольское шоссе, 3",
+  "geo": "Даниловский р/М",
+  "district": "danilovskiy"
+ },
+ {
+  "slug": "amurskaya-1",
+  "name": "Амурская, 1",
+  "q": "Москва, Амурская, 1",
+  "geo": "р Гольяново/М",
+  "district": "golyanovo"
+ },
+ {
+  "slug": "varshavskoe-14",
+  "name": "Варшавское, 14",
+  "q": "Москва, Варшавское, 14",
+  "geo": "р Нагатино-Садовники/М",
+  "district": "nagatino-sadovniki"
+ },
+ {
+  "slug": "komsomolskiy-1",
+  "name": "Комсомольский, 1",
+  "q": "Москва, Комсомольский, 1",
+  "geo": "р Хамовники/М",
+  "district": "khamovniki"
+ },
+ {
+  "slug": "very",
+  "name": "Very",
+  "q": "Москва, Ботаническая, 29",
+  "geo": "р Марфино/М",
+  "district": "marfino"
+ },
+ {
+  "slug": "krasnyy-bogatyr",
+  "name": "Красный богатырь",
+  "q": "Москва, Краснобогатырская, 2",
+  "geo": "р Богородское/М",
+  "district": "bogorodskoe"
+ },
+ {
+  "slug": "b-aires",
+  "name": "B'Aires",
+  "q": "Москва, Большой Волоколамский, 23",
+  "geo": "р Щукино/М",
+  "district": "shchukino"
+ },
+ {
+  "slug": "perovskoe-2",
+  "name": "Перовское, 2",
+  "q": "Москва, Перовское, 2",
+  "geo": "Нижегородский р/М",
+  "district": "nizhegorodskiy"
+ },
+ {
+  "slug": "elektrozavodskaya-60",
+  "name": "Электрозаводская, 60",
+  "q": "Москва, Электрозаводская, 60",
+  "geo": "р Преображенское/М",
+  "district": "preobrazhenskoe"
+ },
+ {
+  "slug": "2-ya-rybinskaya-21",
+  "name": "2-я Рыбинская, 21",
+  "q": "Москва, 2-я Рыбинская, 21",
+  "geo": "р Сокольники/М",
+  "district": "sokolniki"
+ },
+ {
+  "slug": "shosse-entuziastov-46",
+  "name": "Шоссе Энтузиастов, 46",
+  "q": "Москва, Шоссе Энтузиастов, 46",
+  "geo": "р Лефортово/М",
+  "district": "lefortovo"
+ },
+ {
+  "slug": "nii-delta",
+  "name": "НИИ Дельта",
+  "q": "Москва, Щелковское шоссе, 2а",
+  "geo": "р Гольяново/М",
+  "district": "golyanovo"
+ },
+ {
+  "slug": "tts-ekstrim",
+  "name": "ТЦ Экстрим",
+  "q": "Москва, Смольная, 63Б",
+  "geo": "р Левобережный/М",
+  "district": "levoberezhnyy"
+ },
+ {
+  "slug": "moskva-siti-2",
+  "name": "Москва-Сити-2",
+  "q": "Москва, Москва-Сити-2",
+  "geo": "AZIMUT Сити Отель Комсити М/р Солнцево/М",
+  "district": "solntsevo"
+ },
+ {
+  "slug": "1-y-nagatinskiy",
+  "name": "1-й Нагатинский",
+  "q": "Москва, 1-й Нагатинский",
+  "geo": "р Нагатино-Садовники/М",
+  "district": "nagatino-sadovniki"
+ },
+ {
+  "slug": "siti-2a",
+  "name": "Сити-2А",
+  "q": "Москва, Сити-2А",
+  "geo": "Тверской р/М",
+  "district": "tverskoy"
+ },
+ {
+  "slug": "siti-2",
+  "name": "Сити-2",
+  "q": "Москва, Сити-2",
+  "geo": "городской округ Мытищи/Московская область",
+  "district": "MO:городской округ Мытищи/Московская область"
+ },
+ {
+  "slug": "tpu-siti-2",
+  "name": "ТПУ Сити-2",
+  "q": "Москва, ТПУ Сити-2",
+  "geo": "-",
+  "district": null
+ },
+ {
+  "slug": "arkhitektora-vlasova-57",
+  "name": "Архитектора Власова, 57",
+  "q": "Москва, Архитектора Власова, 57",
+  "geo": "Ломоносовский р/М",
+  "district": "lomonosovskiy"
+ },
+ {
+  "slug": "staroobryadcheskaya-28a",
+  "name": "Старообрядческая, 28А",
+  "q": "Москва, Старообрядческая, 28А",
+  "geo": "р Лефортово/М",
+  "district": "lefortovo"
+ },
+ {
+  "slug": "ice-tower",
+  "name": "Ice Tower",
+  "q": "Москва, Лобачевского, 3-5",
+  "geo": "р Раменки/М",
+  "district": "ramenki"
+ },
+ {
+  "slug": "leningradskiy-80",
+  "name": "Ленинградский, 80",
+  "q": "Москва, Ленинградский, 80",
+  "geo": "р Сокол/М",
+  "district": "sokol"
+ },
+ {
+  "slug": "kashirskoe-shosse-63-13",
+  "name": "Каширское шоссе, 63/13",
+  "q": "Москва, Каширское шоссе, 63",
+  "geo": "р Орехово-Борисово Южное/М",
+  "district": "orekhovo-borisovo-yuzhnoe"
+ },
+ {
+  "slug": "kozhevnicheskie-bani",
+  "name": "Кожевнические бани",
+  "q": "Москва, Кожевническая, 15",
+  "geo": "р Замоскворечье/М",
+  "district": "zamoskvorechye"
+ },
+ {
+  "slug": "kremenchugskaya-42",
+  "name": "Кременчугская, 42",
+  "q": "Москва, Кременчугская, 42",
+  "geo": "р Фили-Давыдково/М",
+  "district": "fili-davydkovo"
+ },
+ {
+  "slug": "rublevskoe-shosse-68",
+  "name": "Рублевское шоссе, 68",
+  "q": "Москва, Рублевское шоссе, 68",
+  "geo": "р Крылатское/М",
+  "district": "krylatskoe"
+ },
+ {
+  "slug": "dokukina-10",
+  "name": "Докукина, 10",
+  "q": "Москва, Докукина, 10",
+  "geo": "р Ростокино/М",
+  "district": "rostokino"
+ },
+ {
+  "slug": "krivokolennyy-12",
+  "name": "Кривоколенный, 12",
+  "q": "Москва, Кривоколенный, 12",
+  "geo": "Басманный р/М",
+  "district": "basmannyy"
+ },
+ {
+  "slug": "mishina-56",
+  "name": "Мишина, 56",
+  "q": "Москва, Мишина, 56",
+  "geo": "Савёловский р/М",
+  "district": "savelovskiy"
+ },
+ {
+  "slug": "kashirskoe-78",
+  "name": "Каширское, 78",
+  "q": "Москва, Каширское, 78",
+  "geo": "р Москворечье-Сабурово/М",
+  "district": "moskvoreche-saburovo"
+ },
+ {
+  "slug": "univer",
+  "name": "Univer",
+  "q": "Москва, Миклухо-Маклая, 16",
+  "geo": "р Коньково/М",
+  "district": "konkovo"
+ },
+ {
+  "slug": "malaya-nikitskaya-27",
+  "name": "Малая Никитская, 27",
+  "q": "Москва, Малая Никитская, 27",
+  "geo": "Пресненский р/М",
+  "district": "presnenskiy"
+ },
+ {
+  "slug": "romanov-7",
+  "name": "Романов, 7",
+  "q": "Москва, Романов, 7",
+  "geo": "р Арбат/М",
+  "district": "arbat"
+ },
+ {
+  "slug": "kashirskoe-34",
+  "name": "Каширское, 34",
+  "q": "Москва, Каширское, 34",
+  "geo": "р Москворечье-Сабурово/М",
+  "district": "moskvoreche-saburovo"
+ },
+ {
+  "slug": "dubininskaya-33b",
+  "name": "Дубининская, 33Б",
+  "q": "Москва, Дубининская, 33Б",
+  "geo": "р Замоскворечье/М",
+  "district": "zamoskvorechye"
+ },
+ {
+  "slug": "vavilova-5",
+  "name": "Вавилова, 5",
+  "q": "Москва, Вавилова, 5",
+  "geo": "Гагаринский р/М",
+  "district": "gagarinskiy"
+ },
+ {
+  "slug": "sreda-na-yuzhnoportovoy",
+  "name": "Среда на Южнопортовой",
+  "q": "Москва, Южнопортовая, 3",
+  "geo": "р Печатники/М",
+  "district": "pechatniki"
+ },
+ {
+  "slug": "gavrikova-11",
+  "name": "Гаврикова, 11",
+  "q": "Москва, Гаврикова, 11",
+  "geo": "Красносельский р/М",
+  "district": "krasnoselskiy"
+ },
+ {
+  "slug": "kirpichnye-vyemki-2s1",
+  "name": "Кирпичные Выемки, 2С1",
+  "q": "Москва, Кирпичные Выемки, 2С1",
+  "geo": "р Чертаново Южное/М",
+  "district": "chertanovo-yuzhnoe"
+ },
+ {
+  "slug": "2-ya-magistralnaya-7a",
+  "name": "2-я Магистральная, 7А",
+  "q": "Москва, 2-я Магистральная, 7А",
+  "geo": "Пресненский р/М",
+  "district": "presnenskiy"
+ },
+ {
+  "slug": "bolshoy-levshinskiy-12",
+  "name": "Большой Левшинский, 12",
+  "q": "Москва, Большой Левшинский, 12",
+  "geo": "р Хамовники/М",
+  "district": "khamovniki"
+ },
+ {
+  "slug": "qoob",
+  "name": "QOOB",
+  "q": "Москва, Алексея Свиридова, 17",
+  "geo": "р Фили-Давыдково/М",
+  "district": "fili-davydkovo"
+ },
+ {
+  "slug": "byvshiy-torgovyy-dom-amo-zil",
+  "name": "Бывший торговый дом АМО ЗИЛ",
+  "q": "Москва, 1-й Автозаводский, 3",
+  "geo": "Даниловский р/М",
+  "district": "danilovskiy"
+ },
+ {
+  "slug": "uchastok-20-moskva-siti",
+  "name": "участок 20 Москва-Сити",
+  "q": "Москва, участо",
+  "geo": "-",
+  "district": null
+ },
+ {
+  "slug": "lodochnaya-27k2",
+  "name": "Лодочная, 27к2",
+  "q": "Москва, Лодочная, 27",
+  "geo": "р Южное Тушино/М",
+  "district": "yuzhnoe-tushino"
+ },
+ {
+  "slug": "south-gate",
+  "name": "South Gate",
+  "q": "Москва, Андропова, 20",
+  "geo": "Даниловский р/М",
+  "district": "danilovskiy"
+ },
+ {
+  "slug": "verkhnyaya-krasnoselskaya-11a",
+  "name": "Верхняя Красносельская, 11А",
+  "q": "Москва, Верхняя Красносельская, 11А",
+  "geo": "М Красносельская/Красносельский р/М",
+  "district": "krasnoselskiy"
+ },
+ {
+  "slug": "your-majesty",
+  "name": "Your MAJESTY",
+  "q": "Москва, Большой Левшинский, 19",
+  "geo": "р Хамовники/М",
+  "district": "khamovniki"
+ },
+ {
+  "slug": "kampus-mgsu",
+  "name": "Кампус МГСУ",
+  "q": "Москва, Ярославское, 26",
+  "geo": "Ярославский р/М",
+  "district": "yaroslavskiy"
+ },
+ {
+  "slug": "pavlovskaya-bolnitsa",
+  "name": "Павловская больница",
+  "q": "Москва, Павловская, 25",
+  "geo": "Даниловский р/М",
+  "district": "danilovskiy"
+ },
+ {
+  "slug": "dom-kuptsa-buloshnikova",
+  "name": "Дом купца Булошникова",
+  "q": "Москва, Большая Никитская, 17",
+  "geo": "Пресненский р/М",
+  "district": "presnenskiy"
+ },
+ {
+  "slug": "dk-serp-i-molot",
+  "name": "ДК «Серп и Молот",
+  "q": "Москва, Волочаевская, 48",
+  "geo": "р Лефортово/М",
+  "district": "lefortovo"
+ },
+ {
+  "slug": "avtozavodskaya-23s58",
+  "name": "Автозаводская, 23с58",
+  "q": "Москва, Автозаводская, 23",
+  "geo": "Даниловский р/М",
+  "district": "danilovskiy"
+ },
+ {
+  "slug": "vavilova-9a-str-1-2",
+  "name": "Вавилова, 9А стр. 1, 2",
+  "q": "Москва, Вавилова, 9А, 2",
+  "geo": "Академический р/М",
+  "district": "akademicheskiy"
+ },
+ {
+  "slug": "rublevskoe-58",
+  "name": "Рублевское, 58",
+  "q": "Москва, Рублевское, 58",
+  "geo": "р Крылатское/М",
+  "district": "krylatskoe"
+ },
+ {
+  "slug": "zaozernaya-15a",
+  "name": "Заозерная, 15а",
+  "q": "Москва, Заозерная, 15а",
+  "geo": "Краснопахорский р/М",
+  "district": "krasnopakhorskoe"
+ },
+ {
+  "slug": "dmitrovskoe-62",
+  "name": "Дмитровское, 62",
+  "q": "Москва, Дмитровское, 62",
+  "geo": "Бескудниковский р/М",
+  "district": "beskudnikovskiy"
+ },
+ {
+  "slug": "zavod-fereyn",
+  "name": "завод Ферейн",
+  "q": "Москва, Нагатинская, 1",
+  "geo": "р Нагатино-Садовники/М",
+  "district": "nagatino-sadovniki"
+ },
+ {
+  "slug": "novovorotnikovskiy-4-1",
+  "name": "Нововоротниковский, 4/1",
+  "q": "Москва, Нововоротниковский, 4",
+  "geo": "Тверской р/М",
+  "district": "tverskoy"
+ },
+ {
+  "slug": "leninskiy-82-2-2",
+  "name": "Ленинский, 82/2/2",
+  "q": "Москва, Ленинский, 82",
+  "geo": "Зареченский территориальный округ/городской округ Тула/Тульская область",
+  "district": "MO:Зареченский территориальный округ/городской округ Тула/Тульская область"
+ },
+ {
+  "slug": "kashirskoe-76a",
+  "name": "Каширское, 76а",
+  "q": "Москва, Каширское, 76а",
+  "geo": "р Орехово-Борисово Северное/М",
+  "district": "orekhovo-borisovo-severnoe"
+ },
+ {
+  "slug": "novoslobodskaya-55-str-1",
+  "name": "Новослободская, 55 стр. 1",
+  "q": "Москва, Новослободская, 55",
+  "geo": "Тверской р/М",
+  "district": "tverskoy"
+ },
+ {
+  "slug": "2-y-kozhevnicheskiy-2",
+  "name": "2-й Кожевнический, 2",
+  "q": "Москва, 2-й Кожевнический, 2",
+  "geo": "М-сити/Даниловский р/М",
+  "district": "danilovskiy"
+ },
+ {
+  "slug": "bolshaya-nikitskaya-11-4s3",
+  "name": "Большая Никитская, 11/4с3",
+  "q": "Москва, Большая Никитская, 11",
+  "geo": "Пресненский р/М",
+  "district": "presnenskiy"
+ },
+ {
+  "slug": "arkhitektora-vlasova-59",
+  "name": "Архитектора Власова, 59",
+  "q": "Москва, Архитектора Власова, 59",
+  "geo": "Обручевский р/М",
+  "district": "obruchevskiy"
+ },
+ {
+  "slug": "kutuzov-siti",
+  "name": "Кутузов Сити",
+  "q": "Москва, Гродненская, 18",
+  "geo": "Можайский р/М",
+  "district": "mozhayskiy"
+ },
+ {
+  "slug": "tsandera-14",
+  "name": "Цандера, 14",
+  "q": "Москва, Цандера, 14",
+  "geo": "Останкинский р/М",
+  "district": "ostankinskiy"
+ },
+ {
+  "slug": "bolshoy-nikolovorobinskiy-7-str-2-3-4-17",
+  "name": "Большой Николоворобинский, 7 стр 2, 3, 4, 17",
+  "q": "Москва, Большой Николоворобинский, 7, 3, 4, 17",
+  "geo": "Таганский р/М",
+  "district": "taganskiy"
+ },
+ {
+  "slug": "rublevskaya-rivera",
+  "name": "Рублевская Ривьера",
+  "q": "Москва, 3-я Черепковская, 15",
+  "geo": "р Кунцево/М",
+  "district": "kuntsevo"
+ },
+ {
+  "slug": "kashirskoe-14",
+  "name": "Каширское, 14",
+  "q": "Москва, Каширское, 14",
+  "geo": "р Москворечье-Сабурово/М",
+  "district": "moskvoreche-saburovo"
+ },
+ {
+  "slug": "nikitskiy-6",
+  "name": "Никитский, 6",
+  "q": "Москва, Никитский, 6",
+  "geo": "Тверской р/М",
+  "district": "tverskoy"
+ },
+ {
+  "slug": "bolshaya-nikitskaya-16",
+  "name": "Большая Никитская, 16",
+  "q": "Москва, Большая Никитская, 16",
+  "geo": "Пресненский р/М",
+  "district": "presnenskiy"
+ },
+ {
+  "slug": "gate-one",
+  "name": "Gate One",
+  "q": "Москва, 60-летия Октября, 5А",
+  "geo": "Гагаринский р/М",
+  "district": "gagarinskiy"
+ },
+ {
+  "slug": "potapovskiy-2-8",
+  "name": "Потаповский, 2/8",
+  "q": "Москва, Потаповский, 2",
+  "geo": "Главный дом городской усадьбы Головиных/Басманный р/М",
+  "district": "basmannyy"
+ },
+ {
+  "slug": "bolshaya-bronnaya-23-str-1",
+  "name": "Большая Бронная, 23, стр. 1",
+  "q": "Москва, Большая Бронная, 23",
+  "geo": "Пресненский р/М",
+  "district": "presnenskiy"
+ },
+ {
+  "slug": "khersonskaya-35",
+  "name": "Херсонская, 35",
+  "q": "Москва, Херсонская, 35",
+  "geo": "р Черёмушки/М",
+  "district": "cheremushki"
+ },
+ {
+  "slug": "khavskaya-9-1",
+  "name": "Хавская, 9/1",
+  "q": "Москва, Хавская, 9",
+  "geo": "Даниловский р/М",
+  "district": "danilovskiy"
+ },
+ {
+  "slug": "saltykovskaya-24",
+  "name": "Салтыковская, 24",
+  "q": "Москва, Салтыковская, 24",
+  "geo": "р Новокосино/М",
+  "district": "novokosino"
+ },
+ {
+  "slug": "leningradskoe-71a",
+  "name": "Ленинградское, 71А",
+  "q": "Москва, Ленинградское, 71А",
+  "geo": "Войковский р/М",
+  "district": "voykovskiy"
+ },
+ {
+  "slug": "1-y-volokolamskiy-10",
+  "name": "1-й Волоколамский, 10",
+  "q": "Москва, 1-й Волоколамский, 10",
+  "geo": "р Щукино/М",
+  "district": "shchukino"
+ },
+ {
+  "slug": "mark",
+  "name": "Марк",
+  "q": "Москва, Автозаводская, 23",
+  "geo": "Даниловский р/М",
+  "district": "danilovskiy"
+ },
+ {
+  "slug": "bolshoy-kharitonevskiy-13a-s10",
+  "name": "Большой Харитоньевский, 13А, С10",
+  "q": "Москва, Большой Харитоньевский, 13А, С10",
+  "geo": "Басманный р/М",
+  "district": "basmannyy"
+ },
+ {
+  "slug": "udaltsova-85a",
+  "name": "Удальцова, 85А",
+  "q": "Москва, Удальцова, 85А",
+  "geo": "р Проспект Вернадского/М",
+  "district": "prospekt-vernadskogo"
+ },
+ {
+  "slug": "povarskaya-29-36-str-2",
+  "name": "Поварская, 29/36 стр. 2",
+  "q": "Москва, Поварская, 29",
+  "geo": "р Арбат/М",
+  "district": "arbat"
+ },
+ {
+  "slug": "kolskaya-18",
+  "name": "Кольская, 18",
+  "q": "Москва, Кольская, 18",
+  "geo": "Бабушкинский р/М",
+  "district": "babushkinskiy"
+ },
+ {
+  "slug": "kozhevnicheskaya-13-3",
+  "name": "Кожевническая, 13/3",
+  "q": "Москва, Кожевническая, 13",
+  "geo": "р Замоскворечье/М",
+  "district": "zamoskvorechye"
+ },
+ {
+  "slug": "kinoteatr-pravda",
+  "name": "кинотеатр Правда",
+  "q": "Москва, Люсиновская, 57",
+  "geo": "Даниловский р/М",
+  "district": "danilovskiy"
+ },
+ {
+  "slug": "bell",
+  "name": "BELL",
+  "q": "Москва, 1-я улица Ямского Поля, 12",
+  "geo": "р Беговой/М",
+  "district": "begovoy"
+ },
+ {
+  "slug": "mind",
+  "name": "MIND",
+  "q": "Москва, Серегина, 5–7",
+  "geo": "р Аэропорт/М",
+  "district": "aeroport"
+ },
+ {
+  "slug": "paveletskaya-naberezhnaya-6",
+  "name": "Павелецкая набережная, 6",
+  "q": "Москва, Павелецкая набережная, 6",
+  "geo": "Даниловский р/М",
+  "district": "danilovskiy"
+ },
+ {
+  "slug": "lodochnaya-27-k-2",
+  "name": "Лодочная, 27, к. 2",
+  "q": "Москва, Лодочная, 27",
+  "geo": "р Южное Тушино/М",
+  "district": "yuzhnoe-tushino"
+ },
+ {
+  "slug": "lyalin-18-str-1",
+  "name": "Лялин, 18, стр. 1",
+  "q": "Москва, Лялин, 18",
+  "geo": "Басманный р/М",
+  "district": "basmannyy"
+ },
+ {
+  "slug": "loran",
+  "name": "Лоран",
+  "q": "Москва, Ленинский, 11",
+  "geo": "Зареченский территориальный округ/городской округ Тула/Тульская область",
+  "district": "MO:Зареченский территориальный округ/городской округ Тула/Тульская область"
+ },
+ {
+  "slug": "vetkina-2v",
+  "name": "Веткина, 2В",
+  "q": "Москва, Веткина, 2В",
+  "geo": "р Марьина Роща/М",
+  "district": "marina-roshcha"
+ },
+ {
+  "slug": "nizhegorodskaya-63-65",
+  "name": "Нижегородская, 63-65",
+  "q": "Москва, Нижегородская, 63-65",
+  "geo": "Нижегородский р/М",
+  "district": "nizhegorodskiy"
+ },
+ {
+  "slug": "zorge-30a",
+  "name": "Зорге, 30А",
+  "q": "Москва, Зорге, 30А",
+  "geo": "Хорошёвский р/М",
+  "district": "khoroshevskiy"
+ },
+ {
+  "slug": "molodogvardeyskaya-64-9",
+  "name": "Молодогвардейская, 64/9",
+  "q": "Москва, Молодогвардейская, 64",
+  "geo": "р Кунцево/М",
+  "district": "kuntsevo"
+ },
+ {
+  "slug": "belgrad",
+  "name": "Белград",
+  "q": "Москва, Домодедовская, 28",
+  "geo": "р Орехово-Борисово Южное/М",
+  "district": "orekhovo-borisovo-yuzhnoe"
+ },
+ {
+  "slug": "khomutovskiy-10-str-1",
+  "name": "Хомутовский, 10, стр. 1",
+  "q": "Москва, Хомутовский, 10",
+  "geo": "Басманный р/М",
+  "district": "basmannyy"
+ },
+ {
+  "slug": "kashirskoe-61-korp-4-str-1-9",
+  "name": "Каширское, 61, корп. 4, стр. 1-9",
+  "q": "Москва, Каширское, 61",
+  "geo": "р Орехово-Борисово Северное/М",
+  "district": "orekhovo-borisovo-severnoe"
+ },
+ {
+  "slug": "bolshaya-butovskaya-11",
+  "name": "Большая Бутовская, 11",
+  "q": "Москва, Большая Бутовская, 11",
+  "geo": "р Южное Бутово/М",
+  "district": "yuzhnoe-butovo"
+ },
+ {
+  "slug": "mashkinskoe-2",
+  "name": "Машкинское, 2",
+  "q": "Москва, Машкинское, 2",
+  "geo": "р Куркино/М",
+  "district": "kurkino"
+ },
+ {
+  "slug": "mnevniki-3",
+  "name": "Мневники 3",
+  "q": "Москва, Мневники 3",
+  "geo": "р Хорошёво-Мнёвники/М",
+  "district": "khoroshevo-mnevniki"
+ },
+ {
+  "slug": "selskokhozyaystvennaya-5-str-1-2",
+  "name": "Сельскохозяйственная, 5, стр. 1,2",
+  "q": "Москва, Сельскохозяйственная, 5, 2",
+  "geo": "р Ростокино/М",
+  "district": "rostokino"
+ },
+ {
+  "slug": "8-ya-tekstilshchikov-8",
+  "name": "8-я Текстильщиков, 8",
+  "q": "Москва, 8-я Текстильщиков, 8",
+  "geo": "р Текстильщики/М",
+  "district": "tekstilshchiki"
+ },
+ {
+  "slug": "krt-avtomotornaya",
+  "name": "КРТ Автомоторная",
+  "q": "Москва, Войкова, 6",
+  "geo": "Головинский р/М",
+  "district": "golovinskiy"
+ },
+ {
+  "slug": "planetnaya-3",
+  "name": "Планетная, 3",
+  "q": "Москва, Планетная, 3",
+  "geo": "р Аэропорт/М",
+  "district": "aeroport"
+ },
+ {
+  "slug": "dorozhnaya-3",
+  "name": "Дорожная, 3",
+  "q": "Москва, Дорожная, 3",
+  "geo": "М",
+  "district": null
+ },
+ {
+  "slug": "kolledzh-raketno-kosmicheskoy-otrasli",
+  "name": "Колледж ракетно-космической отрасли",
+  "q": "Москва, Мясищева, 3",
+  "geo": "р Филёвский Парк/М",
+  "district": "filevskiy-park"
+ },
+ {
+  "slug": "profsoyuznaya-152",
+  "name": "Профсоюзная, 152",
+  "q": "Москва, Профсоюзная, 152",
+  "geo": "р Тёплый Стан/М",
+  "district": "teplyy-stan"
+ },
+ {
+  "slug": "volokolamskoe-71-22",
+  "name": "Волоколамское, 71/22",
+  "q": "Москва, Волоколамское, 71",
+  "geo": "р Покровское-Стрешнево/М",
+  "district": "pokrovskoe-streshnevo"
+ },
+ {
+  "slug": "river-city",
+  "name": "River City",
+  "q": "Москва, Ленинградское, 65",
+  "geo": "р Левобережный/М",
+  "district": "levoberezhnyy"
+ },
+ {
+  "slug": "malaya-nikitskaya-29",
+  "name": "Малая Никитская, 29",
+  "q": "Москва, Малая Никитская, 29",
+  "geo": "Пресненский р/М",
+  "district": "presnenskiy"
+ },
+ {
+  "slug": "smirnovskaya-1",
+  "name": "Смирновская, 1",
+  "q": "Москва, Смирновская, 1",
+  "geo": "Нижегородский р/М",
+  "district": "nizhegorodskiy"
+ },
+ {
+  "slug": "bazhova-11-2",
+  "name": "Бажова, 11/2",
+  "q": "Москва, Бажова, 11",
+  "geo": "р Ростокино/М",
+  "district": "rostokino"
+ },
+ {
+  "slug": "elektrolitnyy-1-k-5",
+  "name": "Электролитный, 1, к. 5",
+  "q": "Москва, Электролитный, 1",
+  "geo": "Нагорный р/М",
+  "district": "nagornyy"
+ },
+ {
+  "slug": "novoostapovskaya-3",
+  "name": "Новоостаповская, 3",
+  "q": "Москва, Новоостаповская, 3",
+  "geo": "Южнопортовый р/М",
+  "district": "yuzhnoportovyy"
+ },
+ {
+  "slug": "budayskaya-3",
+  "name": "Будайская, 3",
+  "q": "Москва, Будайская, 3",
+  "geo": "р Ростокино/М",
+  "district": "rostokino"
+ },
+ {
+  "slug": "shlyuzovaya-8-2",
+  "name": "Шлюзовая, 8/2",
+  "q": "Москва, Шлюзовая, 8",
+  "geo": "р Замоскворечье/М",
+  "district": "zamoskvorechye"
+ },
+ {
+  "slug": "kotlyakovskiy-4a",
+  "name": "1-й Котляковский, 4А",
+  "q": "Москва, 1-й Котляковский, 4А",
+  "geo": "р Москворечье-Сабурово/М",
+  "district": "moskvoreche-saburovo"
+ },
+ {
+  "slug": "very-miklukho-maklaya-23",
+  "name": "Very на Миклухо-Маклая",
+  "q": "Москва, Миклухо-Маклая, 23",
+  "geo": "Обручевский р/М",
+  "district": "obruchevskiy"
+ },
+ {
+  "slug": "pik-polyarnaya-25",
+  "name": "Полярная 25",
+  "q": "Москва, Полярная, 25",
+  "geo": "р Южное Медведково/М",
+  "district": "yuzhnoe-medvedkovo"
+ },
+ {
+  "slug": "pik-anninskiy",
+  "name": "Аннинский",
+  "q": "Москва, Варшавское шоссе, 160",
+  "geo": "р Чертаново Южное/М",
+  "district": "chertanovo-yuzhnoe"
+ },
+ {
+  "slug": "pik-bolshoe-kuskovo",
+  "name": "Большое Кусково",
+  "q": "Москва, улица Перовская",
+  "geo": "р Перово/М",
+  "district": "perovo"
+ },
+ {
+  "slug": "pik-myakinino-park",
+  "name": "Мякинино Парк",
+  "q": "Москва, ЗАО, Новорижское шоссе, вблизи Мякининской поймы",
+  "geo": "-",
+  "district": null
+ },
+ {
+  "slug": "pik-solntsevo-park",
+  "name": "Солнцево Парк",
+  "q": "Москва, мкр. Солнцево-Парк, улица Летчика Грицевца",
+  "geo": "р Внуково/М",
+  "district": "vnukovo"
+ },
+ {
+  "slug": "pik-vander-park",
+  "name": "Вандер Парк",
+  "q": "Москва, Рублёвское шоссе, 101",
+  "geo": "р Кунцево/М",
+  "district": "kuntsevo"
+ },
+ {
+  "slug": "pik-yasenevaya-14",
+  "name": "Ясеневая 14",
+  "q": "Москва, улица Ясеневая, 14",
+  "geo": "р Троицк/М",
+  "district": "troitsk"
+ },
+ {
+  "slug": "pik-yunino",
+  "name": "Юнино",
+  "q": "Москва, улица Мостотреста",
+  "geo": "Щербинка/р Щербинка/М",
+  "district": "shcherbinka"
+ },
+ {
+  "slug": "pik-zhemchuzhina-zelenograda",
+  "name": "Жемчужина Зеленограда",
+  "q": "Москва, Зеленоград, проспект Георгиевский",
+  "geo": "17-й микрорайон/р Крюково/Зеленоград/М",
+  "district": "kryukovo"
+ },
+ {
+  "slug": "mk-9-ya-sokolinoy-gory-9",
+  "name": "9-я, Соколиной Горы, 9",
+  "q": "Москва, 9-я, Соколиной Горы, 9",
+  "geo": "р Соколиная Гора/М",
+  "district": "sokolinaya-gora"
+ },
+ {
+  "slug": "mk-angarskaya-33a",
+  "name": "Ангарская, 33А",
+  "q": "Москва, Ангарская, 33А",
+  "geo": "р Западное Дегунино/М",
+  "district": "zapadnoe-degunino"
+ },
+ {
+  "slug": "mk-beregovoy-pr-d-1a-1b",
+  "name": "Береговой пр-д, 1А, 1Б",
+  "q": "Москва, Береговой проезд, 1А, 1Б",
+  "geo": "р Филёвский Парк/М",
+  "district": "filevskiy-park"
+ },
+ {
+  "slug": "mk-chapaeva-4",
+  "name": "Чапаева, 4",
+  "q": "Москва, Чапаева, 4",
+  "geo": "р Внуково/М",
+  "district": "vnukovo"
+ },
+ {
+  "slug": "mk-dmitriya-ulyanova-27-k1",
+  "name": "Дмитрия Ульянова, 27 к1",
+  "q": "Москва, Дмитрия Ульянова, 27",
+  "geo": "Академический р/М",
+  "district": "akademicheskiy"
+ },
+ {
+  "slug": "mk-dmitriya-ulyanova-47",
+  "name": "Дмитрия Ульянова, 47",
+  "q": "Москва, Дмитрия Ульянова, 47",
+  "geo": "р Котловка/М",
+  "district": "kotlovka"
+ },
+ {
+  "slug": "mk-dosflota-pr-d-2a",
+  "name": "Досфлота пр-д, 2А",
+  "q": "Москва, Досфлота проезд, 2А",
+  "geo": "р Южное Тушино/М",
+  "district": "yuzhnoe-tushino"
+ },
+ {
+  "slug": "mk-georgievskiy-pr-kt-k1936",
+  "name": "Георгиевский пр-кт к1936",
+  "q": "Москва, Георгиевский проспект",
+  "geo": "17-й микрорайон/р Крюково/Зеленоград/М",
+  "district": "kryukovo"
+ },
+ {
+  "slug": "mk-geroev-panfilovtsev-z-u-49",
+  "name": "Героев Панфиловцев, з/у 49",
+  "q": "Москва, Героев Панфиловцев, 49",
+  "geo": "Микрор №5/р Северное Тушино/М",
+  "district": "severnoe-tushino"
+ },
+ {
+  "slug": "mk-ilimskaya-5",
+  "name": "Илимская, 5",
+  "q": "Москва, Илимская, 5",
+  "geo": "р Лианозово/М",
+  "district": "lianozovo"
+ },
+ {
+  "slug": "mk-kasimovskaya-39-k2",
+  "name": "Касимовская, 39 к2",
+  "q": "Москва, Касимовская, 39",
+  "geo": "р Бирюлёво Восточное/М",
+  "district": "biryulevo-vostochnoe"
+ },
+ {
+  "slug": "mk-konstantina-fedina-5",
+  "name": "Константина Федина, 5",
+  "q": "Москва, Константина Федина, 5",
+  "geo": "р Северное Измайлово/М",
+  "district": "severnoe-izmaylovo"
+ },
+ {
+  "slug": "mk-kuprina-pr-kt-38-k1-2",
+  "name": "Куприна пр-кт, 38 к1, 2",
+  "q": "Москва, Куприна проспект, 38, 2",
+  "geo": "р Коммунарка/М",
+  "district": "sosenskoe"
+ },
+ {
+  "slug": "mk-kuprina-pr-t-30-k9",
+  "name": "Куприна пр-т, 30 к9",
+  "q": "Москва, Куприна проспект, 30",
+  "geo": "р Коммунарка/М",
+  "district": "sosenskoe"
+ },
+ {
+  "slug": "mk-lobachevskogo-z-u-28-36",
+  "name": "Лобачевского, з/у 28/36",
+  "q": "Москва, Лобачевского, 28",
+  "geo": "р Проспект Вернадского/М",
+  "district": "prospekt-vernadskogo"
+ },
+ {
+  "slug": "mk-marushkino-severnaya-21-k1-2-3-4",
+  "name": "Марушкино, Северная, 21 к1, 2, 3, 4",
+  "q": "Москва, Марушкино, Северная, 21, 2, 3, 4",
+  "geo": "4-й микрор Северного/р Северный/М",
+  "district": "severnyy"
+ },
+ {
+  "slug": "mk-novomikhaylovskoe-sh-1-k1-5",
+  "name": "Новомихайловское ш., 1 к1-5",
+  "q": "Москва, Новомихайловское шоссе, 1",
+  "geo": "р Коммунарка/М",
+  "district": "sosenskoe"
+ },
+ {
+  "slug": "mk-otradnyy-pr-d-8",
+  "name": "Отрадный пр-д, 8",
+  "q": "Москва, Отрадный проезд, 8",
+  "geo": "р Отрадное/М",
+  "district": "otradnoe"
+ },
+ {
+  "slug": "mk-p-shishkin-les-21-k1",
+  "name": "п. Шишкин лес, 21 к1",
+  "q": "Москва, п. Шишкин лес, 21",
+  "geo": "-",
+  "district": null
+ },
+ {
+  "slug": "mk-p-znamya-oktyabrya-3-k1",
+  "name": "п. Знамя Октября, 3 к1",
+  "q": "Москва, п. Знамя Октября, 3",
+  "geo": "-",
+  "district": null
+ },
+ {
+  "slug": "mk-profsoyuznaya-96-k1",
+  "name": "Профсоюзная, 96 к1",
+  "q": "Москва, Профсоюзная, 96",
+  "geo": "р Коньково/М",
+  "district": "konkovo"
+ },
+ {
+  "slug": "mk-profsoyuznaya-98-k6",
+  "name": "Профсоюзная, 98 к6",
+  "q": "Москва, Профсоюзная, 98",
+  "geo": "р Коньково/М",
+  "district": "konkovo"
+ },
+ {
+  "slug": "mk-sevastopolskiy-pr-kt-71-k1",
+  "name": "Севастопольский пр-кт, 71 к1",
+  "q": "Москва, Севастопольский проспект, 71",
+  "geo": "р Зюзино/М",
+  "district": "zyuzino"
+ },
+ {
+  "slug": "mk-shushenskaya-5",
+  "name": "Шушенская, 5",
+  "q": "Москва, Шушенская, 5",
+  "geo": "Лосиноостровский р/М",
+  "district": "losinoostrovskiy"
+ },
+ {
+  "slug": "mk-solnechnaya-al-k936",
+  "name": "Солнечная ал. к936",
+  "q": "Москва, Солнечная аллея",
+  "geo": "8-й микрорайон/р Старое Крюково/Зеленоград/М",
+  "district": "staroe-kryukovo"
+ },
+ {
+  "slug": "mk-zagorevskaya-8",
+  "name": "Загорьевская, 8",
+  "q": "Москва, Загорьевская, 8",
+  "geo": "р Бирюлёво Восточное/М",
+  "district": "biryulevo-vostochnoe"
+ },
+ {
+  "slug": "a101-belye-nochi",
+  "name": "Белые ночи",
+  "q": "Москва, пос. Коммунарка, улица Потаповская Роща",
+  "geo": "р Коммунарка/М",
+  "district": "sosenskoe"
+ },
+ {
+  "slug": "a101-buninskie-kvartaly",
+  "name": "Бунинские Кварталы",
+  "q": "Москва, пос. Сосенское, проспект Куприна",
+  "geo": "р Коммунарка/М",
+  "district": "sosenskoe"
+ },
+ {
+  "slug": "a101-desnareche-kvartal-park",
+  "name": "Деснаречье квартал Парк",
+  "q": "Москва, район Троицк, улица Гренадерская",
+  "geo": "Наро-Фоминский городской округ/Московская область",
+  "district": "MO:Наро-Фоминский городской округ/Московская область"
+ },
+ {
+  "slug": "a101-dom-na-zorge",
+  "name": "Дом на Зорге",
+  "q": "Москва, улица Зорге",
+  "geo": "Хорошёвский р/М",
+  "district": "khoroshevskiy"
+ },
+ {
+  "slug": "a101-dzen-kvartaly",
+  "name": "Дзен-кварталы",
+  "q": "Москва, пос. Сосенское, улица Александры Монаховой",
+  "geo": "р Коммунарка/М",
+  "district": "sosenskoe"
+ },
+ {
+  "slug": "a101-ispanskie-kvartaly",
+  "name": "Испанские кварталы",
+  "q": "Москва, пос. Сосенское, улица Сервантеса",
+  "geo": "р Коммунарка/М",
+  "district": "sosenskoe"
+ },
+ {
+  "slug": "a101-kholm",
+  "name": "Хольм",
+  "q": "Москва, район Коммунарка",
+  "geo": "р Коммунарка/М",
+  "district": "sosenskoe"
+ },
+ {
+  "slug": "a101-kronburg",
+  "name": "Кронбург",
+  "q": "Москва, д. Губкино, Кронбургская улица",
+  "geo": "р Коммунарка/М",
+  "district": "sosenskoe"
+ },
+ {
+  "slug": "a101-moskva-a101",
+  "name": "Москва А101",
+  "q": "Москва, пос. Коммунарка, улица Липовый Парк",
+  "geo": "р Коммунарка/М",
+  "district": "sosenskoe"
+ },
+ {
+  "slug": "a101-skandinaviya",
+  "name": "Скандинавия",
+  "q": "Москва, пос. Сосенское, Скандинавский бульвар",
+  "geo": "Жилой комплекс «М А101»/р Коммунарка/М",
+  "district": "sosenskoe"
+ },
+ {
+  "slug": "a101-smolenskaya-zastava",
+  "name": "Смоленская Застава",
+  "q": "Москва, переулок Ружейный, 3",
+  "geo": "р Хамовники/М",
+  "district": "khamovniki"
+ },
+ {
+  "slug": "a101-vyazemskoe",
+  "name": "Вяземское",
+  "q": "Москва, д. Николо-Хованское, КП «Вяземское»",
+  "geo": "-",
+  "district": null
+ },
+ {
+  "slug": "a101-zelenaya-liniya",
+  "name": "Зеленая линия",
+  "q": "Москва, пос. Коммунарка, Бачуринская улица",
+  "geo": "Жилой комплекс «М А101»/р Коммунарка/М",
+  "district": "sosenskoe"
+ },
+ {
+  "slug": "a101-zelenyy-bor",
+  "name": "Зеленый бор",
+  "q": "Москва, Зеленоград, 23-й мкр",
+  "geo": "Зеленоград/М",
+  "district": null
+ },
+ {
+  "slug": "fsk-amber-siti",
+  "name": "Амбер Сити",
+  "q": "Москва, 3-й Хорошёвский проезд",
+  "geo": "Хорошёвский р/М",
+  "district": "khoroshevskiy"
+ },
+ {
+  "slug": "fsk-dvizhenie-govorovo",
+  "name": "Движение. Говорово",
+  "q": "Москва, район Солнцево, квартал № 3, 6, 2",
+  "geo": "Раменский муниципальный округ/Московская область",
+  "district": "MO:Раменский муниципальный округ/Московская область"
+ },
+ {
+  "slug": "fsk-dykhanie",
+  "name": "Дыхание",
+  "q": "Москва, Дмитровское шоссе, 13",
+  "geo": "р Северный/М",
+  "district": "severnyy"
+ },
+ {
+  "slug": "fsk-leyk",
+  "name": "Лэйк",
+  "q": "Москва, улица Снежная, 22",
+  "geo": "р Свиблово/М",
+  "district": "sviblovo"
+ },
+ {
+  "slug": "fsk-lisitsyna-5",
+  "name": "Лисицына 5",
+  "q": "Москва, шоссе Дмитровское, 13",
+  "geo": "Тимирязевский р/М",
+  "district": "timiryazevskiy"
+ },
+ {
+  "slug": "fsk-m-house",
+  "name": "M-House",
+  "q": "Москва, улица Академика Янгеля, 2",
+  "geo": "р Чертаново Южное/М",
+  "district": "chertanovo-yuzhnoe"
+ },
+ {
+  "slug": "fsk-nastroenie",
+  "name": "Настроение",
+  "q": "Москва, улица Красная Сосна",
+  "geo": "Ярославский р/М",
+  "district": "yaroslavskiy"
+ },
+ {
+  "slug": "fsk-pokolenie",
+  "name": "Поколение",
+  "q": "Москва, Нововладыкинский проезд",
+  "geo": "р Отрадное/М",
+  "district": "otradnoe"
+ },
+ {
+  "slug": "fsk-rezhisser",
+  "name": "Режиссер",
+  "q": "Москва, улица Вильгельма Пика, 1",
+  "geo": "р Ростокино/М",
+  "district": "rostokino"
+ },
+ {
+  "slug": "fsk-rikhard",
+  "name": "Рихард",
+  "q": "Москва, улица Зорге, 9, 2",
+  "geo": "Хорошёвский р/М",
+  "district": "khoroshevskiy"
+ },
+ {
+  "slug": "fsk-rotterdam",
+  "name": "Роттердам",
+  "q": "Москва, Варшавское шоссе",
+  "geo": "р Чертаново Южное/М",
+  "district": "chertanovo-yuzhnoe"
+ },
+ {
+  "slug": "fsk-sidney-praym",
+  "name": "Сидней Прайм",
+  "q": "Москва, Шелепихинская набережная",
+  "geo": "Пресненский р/М",
+  "district": "presnenskiy"
+ },
+ {
+  "slug": "fsk-skay-garden",
+  "name": "Скай Гарден",
+  "q": "Москва, Строительный проезд, 9",
+  "geo": "р Южное Тушино/М",
+  "district": "yuzhnoe-tushino"
+ },
+ {
+  "slug": "fsk-zodiak",
+  "name": "Зодиак",
+  "q": "Москва, Сосновая аллея, 1",
+  "geo": "р Покровское-Стрешнево/М",
+  "district": "pokrovskoe-streshnevo"
+ },
+ {
+  "slug": "level-group-level-kutuzovskiy",
+  "name": "Левел Кутузовский",
+  "q": "Москва, улица Гришина, 16",
+  "geo": "Можайский р/М",
+  "district": "mozhayskiy"
+ },
+ {
+  "slug": "level-group-level-paveletskaya-siti",
+  "name": "Левел Павелецкая Сити",
+  "q": "Москва, улица Дубининская",
+  "geo": "р Замоскворечье/М",
+  "district": "zamoskvorechye"
+ },
+ {
+  "slug": "level-group-level-prichalnyy",
+  "name": "Левел Причальный",
+  "q": "Москва, Причальный проезд",
+  "geo": "р Хорошёво-Мнёвники/М",
+  "district": "khoroshevo-mnevniki"
+ },
+ {
+  "slug": "level-group-level-voykovskaya",
+  "name": "Левел Войковская",
+  "q": "Москва, Старопетровский проезд, 11",
+  "geo": "Войковский р/М",
+  "district": "voykovskiy"
+ },
+ {
+  "slug": "mr-group-d1",
+  "name": "D1",
+  "q": "Москва, проезд Дмитровский, 1",
+  "geo": "Тимирязевский р/М",
+  "district": "timiryazevskiy"
+ },
+ {
+  "slug": "mr-group-discovery-park",
+  "name": "Discovery Park",
+  "q": "Москва, улица Дыбенко, 7",
+  "geo": "р Ховрино/М",
+  "district": "khovrino"
+ },
+ {
+  "slug": "mr-group-discovery",
+  "name": "Discovery",
+  "q": "Москва, улица Беломорская, 23",
+  "geo": "р Ховрино/М",
+  "district": "khovrino"
+ },
+ {
+  "slug": "mr-group-dom-abrikosov",
+  "name": "дом Абрикосов",
+  "q": "Москва, Потаповский переулок, 6",
+  "geo": "Басманный р/М",
+  "district": "basmannyy"
+ },
+ {
+  "slug": "mr-group-dvintsev-14",
+  "name": "Двинцев, 14",
+  "q": "Москва, улица Двинцев, 12",
+  "geo": "р Марьина Роща/М",
+  "district": "marina-roshcha"
+ },
+ {
+  "slug": "mr-group-feymos",
+  "name": "Феймос",
+  "q": "Москва, Багратионовский проезд, 5",
+  "geo": "р Филёвский Парк/М",
+  "district": "filevskiy-park"
+ },
+ {
+  "slug": "mr-group-fili-grad",
+  "name": "Фили Град",
+  "q": "Москва, Береговой проезд, 5",
+  "geo": "р Филёвский Парк/М",
+  "district": "filevskiy-park"
+ },
+ {
+  "slug": "mr-group-kazachiy",
+  "name": "Казачий",
+  "q": "Москва, переулок 1-й Казачий",
+  "geo": "-",
+  "district": null
+ },
+ {
+  "slug": "mr-group-klif",
+  "name": "Клиф",
+  "q": "Москва, Проектируемый проезд № 4087",
+  "geo": "р Покровское-Стрешнево/М",
+  "district": "pokrovskoe-streshnevo"
+ },
+ {
+  "slug": "mr-group-klo-17",
+  "name": "Кло 17",
+  "q": "Москва, Староваганьковский переулок, 17",
+  "geo": "р Арбат/М",
+  "district": "arbat"
+ },
+ {
+  "slug": "mr-group-manor",
+  "name": "Manor",
+  "q": "Москва, улица Садовая-Сухаревская, 10",
+  "geo": "Мещанский р/М",
+  "district": "meshchanskiy"
+ },
+ {
+  "slug": "mr-group-metropoliya",
+  "name": "Метрополия",
+  "q": "Москва, проспект Волгоградский, 32",
+  "geo": "Нижегородский р/М",
+  "district": "nizhegorodskiy"
+ },
+ {
+  "slug": "mr-group-perovsky",
+  "name": "PerovSky",
+  "q": "Москва, шоссе Энтузиастов, 86А",
+  "geo": "р Перово/М",
+  "district": "perovo"
+ },
+ {
+  "slug": "mr-group-s5",
+  "name": "С5",
+  "q": "Москва, улица Серёгина",
+  "geo": "р Аэропорт/М",
+  "district": "aeroport"
+ },
+ {
+  "slug": "mr-group-savelovskiy-siti",
+  "name": "Савеловский Сити",
+  "q": "Москва, улица Новодмитровская",
+  "geo": "Бутырский р/М",
+  "district": "butyrskiy"
+ },
+ {
+  "slug": "mr-group-ul-2-ya-khapilovskaya",
+  "name": "ул. 2-я Хапиловская",
+  "q": "Москва, улица 2-я Хапиловская",
+  "geo": "-",
+  "district": null
+ },
+ {
+  "slug": "mr-group-vodnyy",
+  "name": "Водный",
+  "q": "Москва, Кронштадтский бульвар",
+  "geo": "Головинский р/М",
+  "district": "golovinskiy"
+ },
+ {
+  "slug": "mr-group-vorobev-dom",
+  "name": "Воробьев дом",
+  "q": "Москва, Воробьёвское шоссе 4, 4",
+  "geo": "р Раменки/М",
+  "district": "ramenki"
+ },
+ {
+  "slug": "mr-group-yasnyy",
+  "name": "Ясный",
+  "q": "Москва, шоссе Каширское",
+  "geo": "р Орехово-Борисово Северное/М",
+  "district": "orekhovo-borisovo-severnoe"
+ },
+ {
+  "slug": "samolet-eko-bunino",
+  "name": "Эко Бунино",
+  "q": "Москва, пос. Сосенское, д. Столбово, проспект Куприна",
+  "geo": "р Коммунарка/М",
+  "district": "sosenskoe"
+ },
+ {
+  "slug": "samolet-klenovye-allei",
+  "name": "Кленовые Аллеи",
+  "q": "Москва, пос. Десёновское, улица Генерала Пилипенко",
+  "geo": "р Троицк/М",
+  "district": "troitsk"
+ },
+ {
+  "slug": "samolet-olkhovyy-kvartal",
+  "name": "Ольховый Квартал",
+  "q": "Москва, район Коммунарка",
+  "geo": "р Коммунарка/М",
+  "district": "sosenskoe"
+ },
+ {
+  "slug": "samolet-podolskie-kvartaly",
+  "name": "Подольские Кварталы",
+  "q": "Москва, пос. Рязановское, улица Алхимовская",
+  "geo": "-",
+  "district": null
+ },
+ {
+  "slug": "samolet-pyatnitskoe-58",
+  "name": "Пятницкое 58",
+  "q": "Москва, шоссе Пятницкое, 56Б",
+  "geo": "р Митино/М",
+  "district": "mitino"
+ },
+ {
+  "slug": "samolet-stremyannyy-2",
+  "name": "Стремянный 2",
+  "q": "Москва, переулок Стремянный, 2",
+  "geo": "р Замоскворечье/М",
+  "district": "zamoskvorechye"
+ },
+ {
+  "slug": "samolet-tsvetochnye-polyany",
+  "name": "Цветочные Поляны",
+  "q": "Москва, пос. Филимонковское, улица Золотошвейная",
+  "geo": "Филимонковский р/М",
+  "district": "filimonkovskoe"
+ },
+ {
+  "slug": "samolet-vnukovo-2016",
+  "name": "Внуково 2016",
+  "q": "Москва, пос. Внуковское, в районе д. Ликова",
+  "geo": "р Внуково/М",
+  "district": "vnukovo"
+ },
+ {
+  "slug": "samolet-vnukovo-2017",
+  "name": "Внуково 2017",
+  "q": "Москва, пос. Внуковское, д. Изварино, шоссе Внуковское",
+  "geo": "р Внуково/М",
+  "district": "vnukovo"
+ }
+]

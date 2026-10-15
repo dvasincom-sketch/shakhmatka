@@ -1,0 +1,296 @@
+[
+ {
+  "key": "apex",
+  "name": "APEX",
+  "aliases": [
+   "Apex",
+   "АПЕКС"
+  ],
+  "projects": [
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ]
+ },
+ {
+  "key": "kleinewelt",
+  "name": "Kleinewelt Architekten",
+  "aliases": [
+   "Kleinewelt",
+   "Kleinewelt architekten",
+   "kleinewelt",
+   "kleinewelt architekten"
+  ],
+  "projects": [
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ]
+ },
+ {
+  "key": "wall",
+  "name": "WALL",
+  "aliases": [
+   "Wall",
+   "Волл",
+   "бюро Рубена"
+  ],
+  "projects": [
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ]
+ },
+ {
+  "key": "kamen",
+  "name": "KAMEN",
+  "aliases": [
+   "KAMEN Architects",
+   "Kamen",
+   "«Камень»",
+   "Камен"
+  ],
+  "projects": [
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ]
+ },
+ {
+  "key": "gafa",
+  "name": "GAFA",
+  "aliases": [
+   "GAFA Architects"
+  ],
+  "projects": [
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ]
+ },
+ {
+  "key": "ind",
+  "name": "IND Architects",
+  "aliases": [
+   "IND",
+   "IND architects"
+  ],
+  "projects": [
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ]
+ },
+ {
+  "key": "tsimailo-lyashenko",
+  "name": "Цимайло, Ляшенко и Партнёры",
+  "aliases": [
+   "ЦЛП",
+   "Цимайло Ляшенко",
+   "Цимайло Ляшенко и Партнеры",
+   "Цимайло Ляшенко и партнеры",
+   "Цимайло Ляшенко и партнёры",
+   "Цимайло, Ляшенко",
+   "Цимайло, Ляшенко и Партнеры",
+   "Цимайло, Ляшенко и партнеры",
+   "бюро Цимайло"
+  ],
+  "projects": [
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ]
+ },
+ {
+  "key": "adm",
+  "name": "ADM",
+  "aliases": [
+   "АДМ",
+   "студия ADM"
+  ],
+  "projects": [
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ]
+ },
+ {
+  "key": "unk",
+  "name": "UNK",
+  "aliases": [
+   "UNK architects",
+   "UNK project"
+  ],
+  "projects": [
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ]
+ },
+ {
+  "key": "speech",
+  "name": "SPEECH",
+  "aliases": [
+   "SPICH",
+   "Speech",
+   "СПИЧ",
+   "Спич"
+  ],
+  "projects": [
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ]
+ },
+ {
+  "key": "atrium",
+  "name": "ATRIUM",
+  "aliases": [
+   "Atrium",
+   "Атриум",
+   "бюро «Атриум»",
+   "бюро Атриум"
+  ],
+  "projects": [
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ]
+ },
+ {
+  "key": "skuratov-architects",
+  "name": "Сергей Скуратов Architects",
+  "aliases": [
+   "Sergey Skuratov Architects",
+   "Скуратов",
+   "Скуратова",
+   "бюро Сергея Скуратова",
+   "бюро Скуратова",
+   "мастерская Сергея Скуратова"
+  ],
+  "projects": [
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ]
+ },
+ {
+  "key": "asadov",
+  "name": "ASADOV",
+  "aliases": [
+   "Asadov",
+   "Асадов",
+   "Асадова",
+   "Бюро Асадова",
+   "бюро Асадова"
+  ],
+  "projects": [
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ]
+ },
+ {
+  "key": "arch-e-type",
+  "name": "ARCH(E)TYPE",
+  "aliases": [
+   "Arch(e)type",
+   "Arch-e-type"
+  ],
+  "projects": [
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ]
+ },
+ {
+  "key": "masters-plan",
+  "name": "Master's plan",
+  "aliases": [
+   "Masters Plan",
+   "Mastersplan",
+   "Master’s plan",
+   "Мастер’с план"
+  ],
+  "projects": [
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ]
+ }
+]

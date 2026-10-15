@@ -1,0 +1,121 @@
+[
+ {
+  "slug": "mr-group-vodnyy",
+  "class": "comfort",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/21504/",
+  "evidence": "класс в каталоге: Комфорт"
+ },
+ {
+  "slug": "mr-group-fili-grad",
+  "class": "deluxe",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/23905/",
+  "evidence": "класс в каталоге: Элитный"
+ },
+ {
+  "slug": "mr-group-dvintsev-14",
+  "class": "business",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/161218/",
+  "evidence": "класс в каталоге: Бизнес"
+ },
+ {
+  "slug": "mr-group-vorobev-dom",
+  "class": "deluxe",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/161586/",
+  "evidence": "класс в каталоге: Элитный"
+ },
+ {
+  "slug": "mr-group-yasnyy",
+  "class": "comfort",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/185252/",
+  "evidence": "класс в каталоге: Комфорт"
+ },
+ {
+  "slug": "mr-group-perovsky",
+  "class": "business",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/207205/",
+  "evidence": "класс в каталоге: Бизнес"
+ },
+ {
+  "slug": "mr-group-metropoliya",
+  "class": "business",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/224482/",
+  "evidence": "класс в каталоге: Бизнес"
+ },
+ {
+  "slug": "mr-group-manor",
+  "class": "deluxe",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/1657260/",
+  "evidence": "класс в каталоге: Элитный"
+ },
+ {
+  "slug": "mr-group-d1",
+  "class": "business",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/1667563/",
+  "evidence": "класс в каталоге: Бизнес"
+ },
+ {
+  "slug": "mr-group-discovery",
+  "class": "business",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/1672763/",
+  "evidence": "класс в каталоге: Бизнес"
+ },
+ {
+  "slug": "mr-group-discovery-park",
+  "class": "business",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/1687065/",
+  "evidence": "класс в каталоге: Бизнес"
+ },
+ {
+  "slug": "mr-group-dom-abrikosov",
+  "class": "deluxe",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/2309863/",
+  "evidence": "класс в каталоге: Элитный"
+ },
+ {
+  "slug": "mr-group-feymos",
+  "class": "deluxe",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/3032937/",
+  "evidence": "класс в каталоге: Элитный"
+ },
+ {
+  "slug": "mr-group-klo-17",
+  "class": "deluxe",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/4013614/",
+  "evidence": "класс в каталоге: Элитный"
+ },
+ {
+  "slug": "mr-group-s5",
+  "class": "deluxe",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/4545154/",
+  "evidence": "класс в каталоге: Элитный"
+ },
+ {
+  "slug": "mr-group-kazachiy",
+  "class": "deluxe",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/4863419/",
+  "evidence": "класс в каталоге: Элитный"
+ },
+ {
+  "slug": "mr-group-klif",
+  "class": "deluxe",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/4902598/",
+  "evidence": "класс в каталоге: Элитный"
+ }
+]

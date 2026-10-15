@@ -25,7 +25,9 @@ async function run() {
   const dir = path.join(BASE, 'dossiers')
   for (const f of fs.readdirSync(dir).filter((x) => x.endsWith('.json'))) {
     const d = JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8'))
-    const dev = d.developer ? (await payload.find({ collection: 'developers', where: { slug: { equals: d.developer } }, limit: 1 })).docs[0] : undefined
+    let dev = d.developer ? (await payload.find({ collection: 'developers', where: { slug: { equals: d.developer } }, limit: 1 })).docs[0] : undefined
+    // застройщика ещё нет в базе — заводим по имени из досье (developerName)
+    if (!dev && d.developer && d.developerName) dev = (await payload.create({ collection: 'developers', data: { name: d.developerName, slug: d.developer } as never })) as never
     const data = {
       name: d.name, slug: d.slug, zu: d.zu, region: d.region, district: d.district, stage: d.stage,
       developer: dev?.id, legalEntity: d.legalEntity, summary: d.summary,
@@ -40,6 +42,16 @@ async function run() {
     console.log(ex ? 'обновлено' : 'создано', d.slug, `— событий: ${data.timeline.length}, фото: ${data.gallery.length}`)
   }
   await archive(payload)
+  // районы для московских объектов без района (созданных из статей и т. п.) — по адресу, см. content/objects/districts-override.json
+  const ovr = JSON.parse(fs.readFileSync(path.join(BASE, 'districts-override.json'), 'utf8')) as Record<string, { district?: string; region?: string }>
+  const bare = await payload.find({ collection: 'objects', where: { and: [{ region: { equals: 'moscow' } }, { or: [{ district: { exists: false } }, { district: { equals: '' } }] }] }, limit: 10000, pagination: false, depth: 0, select: { slug: true } })
+  let fixed = 0
+  for (const o of bare.docs) {
+    const v = ovr[o.slug]
+    if (!v) { console.log('без района:', o.slug); continue }
+    await payload.update({ collection: 'objects', id: o.id, data: (v.region ? { region: v.region } : { district: v.district }) as never }); fixed++
+  }
+  console.log(`районы по адресу: ${fixed}, без района осталось ${bare.docs.length - fixed}`)
   process.exit(0)
 }
 await run()

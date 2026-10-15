@@ -1,5 +1,5 @@
 {
-  "_readme": "Ручное досье (15.10.2026) по карточкам каталогов: https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/zhk-lyublinskaya-ul-d-76-k-4-4535577/, https://realty.yandex.ru/moskva/kupit/novostrojka/z-moskovskie-kvartaly-4209811/",
+  "_readme": "Ручное досье (15.10.2026) по карточкам каталогов: https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/zhk-lyublinskaya-ul-d-76-k-4-4535577/, https://realty.yandex.ru/moskva/kupit/novostrojka/z-moskovskie-kvartaly-4209811/ Дополнено 15.10.2026 по карточке дома на москварталы.рф: https://москварталы.рф/obekty/lyublinskaya-ul-d-76-k-4/",
   "slug": "mk-lyublinskaya-76-k4",
   "name": "Люблинская, 76 к4",
   "zu": "Люблинская, 76 к4",
@@ -10,7 +10,7 @@
   "region": "moscow",
   "stage": "sales",
   "developer": "fond-renovatsii",
-  "summary": "Жилой дом Московского фонда реновации по адресу ул. Люблинская, 76, к. 4. По данным каталога — 230 квартир, 24 этажей. Часть квартир фонд продаёт на открытом рынке под брендом «Московские кварталы».",
+  "summary": "Жилой дом по адресу ул. Люблинская, 76, к. 4. По данным каталога — 230 квартир, 24 этажей. Часть квартир фонд продаёт на открытом рынке под брендом «Московские кварталы». Квартиры продаёт Московский фонд реновации на портале «Московские кварталы» (москварталы.рф): в феврале 2026 года — от 241 тыс. ₽ за м², лоты от 12,7 млн ₽.",
   "timeline": [
     {
       "date": "2020-12-29",
@@ -19,11 +19,26 @@
       "certainty": "fact"
     },
     {
-      "date": "2026-10-15",
-      "dateLabel": "октябрь 2026",
+      "date": "2025-12-29",
+      "dateLabel": "декабрь 2025",
+      "kind": "tender",
+      "title": "Часть квартир дома продаётся через аукцион",
+      "certainty": "fact"
+    },
+    {
+      "date": "2025-12-29",
+      "dateLabel": "декабрь 2025",
       "kind": "sales",
-      "title": "Квартиры продаются на открытом рынке под брендом «Московские кварталы», от 13,1 млн ₽",
+      "title": "Квартиры дома выставлены на продажу на портале «Московские кварталы»: от 264 тыс. ₽ за м²",
+      "certainty": "fact"
+    },
+    {
+      "date": "2025-12-29",
+      "dateLabel": "декабрь 2025",
+      "kind": "tender",
+      "title": "Часть квартир дома продаётся через аукцион",
       "certainty": "fact"
     }
-  ]
+  ],
+  "district": "lyublino"
 }

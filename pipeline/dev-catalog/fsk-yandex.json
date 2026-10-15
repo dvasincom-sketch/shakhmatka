@@ -1,0 +1,164 @@
+{
+ "25502": {
+  "name": "M-House",
+  "addr": "Москва, ул. Академика Янгеля, 2",
+  "st": "Сдан",
+  "cl": "комфорт",
+  "pr": "",
+  "u": "/moskva_i_moskovskaya_oblast/kupit/novostrojka/25502/",
+  "t": ""
+ },
+ "69110": {
+  "name": "Зодиак",
+  "addr": "Москва, Сосновая ал., 1",
+  "st": "Сдан",
+  "cl": "бизнес",
+  "pr": "",
+  "u": "/moskva_i_moskovskaya_oblast/kupit/novostrojka/69110/",
+  "t": ""
+ },
+ "170725": {
+  "name": "жилой дом Дыхание",
+  "addr": "Москва, Дмитровское ш., 13",
+  "st": "Сдан",
+  "cl": "элитный",
+  "pr": "",
+  "u": "/moskva_i_moskovskaya_oblast/kupit/novostrojka/170725/",
+  "t": ""
+ },
+ "271636": {
+  "name": "Поколение",
+  "addr": "Москва, Нововладыкинский проезд",
+  "st": "Сдан",
+  "cl": "",
+  "pr": "",
+  "u": "/moskva_i_moskovskaya_oblast/kupit/novostrojka/271636/",
+  "t": ""
+ },
+ "441250": {
+  "name": "жилой дом Лисицына 5",
+  "addr": "Москва, ш. Дмитровское, 13",
+  "st": "Сдан",
+  "cl": "бизнес",
+  "pr": "",
+  "u": "/moskva_i_moskovskaya_oblast/kupit/novostrojka/441250/",
+  "t": ""
+ },
+ "1705293": {
+  "name": "Настроение",
+  "addr": "Москва, ул. Красная Сосна",
+  "st": "Сдан",
+  "cl": "",
+  "pr": "",
+  "u": "/moskva_i_moskovskaya_oblast/kupit/novostrojka/1705293/",
+  "t": ""
+ },
+ "1705661": {
+  "name": "Рихард",
+  "addr": "Москва, ул. Зорге, 9, к. 1, 2",
+  "st": "Сдан",
+  "cl": "бизнес",
+  "pr": "",
+  "u": "/moskva_i_moskovskaya_oblast/kupit/novostrojka/1705661/",
+  "t": ""
+ },
+ "1999891": {
+  "name": "Движение. Тушино",
+  "addr": "Москва, Волоколамское ш. / ул. Лётная",
+  "st": "Сдан",
+  "cl": "",
+  "pr": "",
+  "u": "/moskva_i_moskovskaya_oblast/kupit/novostrojka/1999891/",
+  "t": ""
+ },
+ "2047213": {
+  "name": "Сидней Сити",
+  "addr": "Москва, ул. Шеногина",
+  "st": "",
+  "cl": "элитный",
+  "pr": "23,3",
+  "u": "/moskva_i_moskovskaya_oblast/kupit/novostrojka/2047213/",
+  "t": ""
+ },
+ "2348601": {
+  "name": "Архитектор",
+  "addr": "Москва, ул. Академика Волгина, 2",
+  "st": "Сдан",
+  "cl": "элитный",
+  "pr": "36,5",
+  "u": "/moskva_i_moskovskaya_oblast/kupit/novostrojka/2348601/",
+  "t": ""
+ },
+ "2370917": {
+  "name": "Режиссер",
+  "addr": "Москва, ул. Вильгельма Пика, 1",
+  "st": "Сдан",
+  "cl": "элитный",
+  "pr": "42,4",
+  "u": "/moskva_i_moskovskaya_oblast/kupit/novostrojka/2370917/",
+  "t": ""
+ },
+ "2756197": {
+  "name": "Роттердам",
+  "addr": "Москва, Варшавское ш.",
+  "st": "Сдан",
+  "cl": "бизнес",
+  "pr": "24,4",
+  "u": "/moskva_i_moskovskaya_oblast/kupit/novostrojka/2756197/",
+  "t": ""
+ },
+ "2794038": {
+  "name": "Скай Гарден",
+  "addr": "Москва, Строительный проезд, 9",
+  "st": "",
+  "cl": "бизнес",
+  "pr": "",
+  "u": "/moskva_i_moskovskaya_oblast/kupit/novostrojka/2794038/",
+  "t": ""
+ },
+ "3090586": {
+  "name": "Движение. Говорово",
+  "addr": "Москва, район Солнцево, квартал № 3, 6, к. 1, 2",
+  "st": "Сдан",
+  "cl": "",
+  "pr": "",
+  "u": "/moskva_i_moskovskaya_oblast/kupit/novostrojka/3090586/",
+  "t": ""
+ },
+ "3218148": {
+  "name": "Лэйк",
+  "addr": "Москва, ул. Снежная, вл. 22, к. 3",
+  "st": "Сдан",
+  "cl": "элитный",
+  "pr": "51,7",
+  "u": "/moskva_i_moskovskaya_oblast/kupit/novostrojka/3218148/",
+  "t": ""
+ },
+ "3522213": {
+  "name": "Сидней Прайм",
+  "addr": "Москва, Шелепихинская наб.",
+  "st": "Сдан",
+  "cl": "элитный",
+  "pr": "65,9",
+  "u": "/moskva_i_moskovskaya_oblast/kupit/novostrojka/3522213/",
+  "t": ""
+ },
+ "3975219": {
+  "name": "Амбер Сити",
+  "addr": "Москва, 3-й Хорошёвский проезд / ул. Розанова",
+  "st": "",
+  "cl": "бизнес",
+  "pr": "19,3",
+  "u": "/moskva_i_moskovskaya_oblast/kupit/novostrojka/3975219/",
+  "t": ""
+ },
+ "4006261": {
+  "name": "Симоновский Вал",
+  "addr": "Москва, ул. Новоостаповская",
+  "st": "4 кв. 2029",
+  "cl": "элитный",
+  "pr": "25,1",
+  "u": "/moskva_i_moskovskaya_oblast/kupit/novostrojka/4006261/",
+  "t": ""
+ }
+}

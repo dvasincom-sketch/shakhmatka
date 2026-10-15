@@ -1,0 +1,72 @@
+[
+ {
+  "slug": "a101-moskva-a101",
+  "class": "comfort",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/72896/",
+  "evidence": "класс в каталоге: Комфорт"
+ },
+ {
+  "slug": "a101-vyazemskoe",
+  "class": "comfort",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/73609/",
+  "evidence": "класс в каталоге: Комфорт"
+ },
+ {
+  "slug": "a101-kronburg",
+  "class": "comfort",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/73630/",
+  "evidence": "класс в каталоге: Комфорт"
+ },
+ {
+  "slug": "a101-smolenskaya-zastava",
+  "class": "deluxe",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/173303/",
+  "evidence": "класс в каталоге: Элитный"
+ },
+ {
+  "slug": "a101-belye-nochi",
+  "class": "comfort",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/374276/",
+  "evidence": "класс в каталоге: Комфорт"
+ },
+ {
+  "slug": "a101-buninskie-kvartaly",
+  "class": "business",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/3087460/",
+  "evidence": "класс в каталоге: Бизнес"
+ },
+ {
+  "slug": "a101-dzen-kvartaly",
+  "class": "business",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/3123313/",
+  "evidence": "класс в каталоге: Бизнес"
+ },
+ {
+  "slug": "a101-dom-na-zorge",
+  "class": "business",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/3487946/",
+  "evidence": "класс в каталоге: Бизнес"
+ },
+ {
+  "slug": "a101-desnareche-kvartal-park",
+  "class": "comfort",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/3641076/",
+  "evidence": "класс в каталоге: Комфорт"
+ },
+ {
+  "slug": "a101-kholm",
+  "class": "business",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/4872138/",
+  "evidence": "класс в каталоге: Бизнес"
+ }
+]

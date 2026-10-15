@@ -1,6 +1,6 @@
 /**
  * Черновики словаря из content/terms/terms.json (published=false). У существующих терминов дописывает только пустые поля
- * (body, full, sources) — правки редакции не перезаписываются. Служебные поля с «_» не импортируются.
+ * (body, full, sources) — правки редакции не перезаписываются, кроме полей из _force. Служебные поля с «_» не импортируются.
  * npm run seed:terms
  */
 import fs from 'node:fs'
@@ -17,7 +17,9 @@ async function run() {
     const found = (await payload.find({ collection: 'terms', where: { slug: { equals: t.slug } }, limit: 1 })).docs[0] as unknown as Record<string, unknown> | undefined
     if (found) {
       const empty = (v: unknown) => v == null || v === '' || (Array.isArray(v) && v.length === 0)
-      const patch = Object.fromEntries(Object.entries(t).filter(([k]) => ['body', 'full', 'sources'].includes(k) && empty(found[k])))
+      // _force: поля, которые редакция переписала в terms.json сознательно (новая методика и т. п.) — обновляем даже непустые
+      const force = (raw._force as string[] | undefined) || []
+      const patch = Object.fromEntries(Object.entries(t).filter(([k]) => force.includes(k) || (['body', 'full', 'sources'].includes(k) && empty(found[k]))))
       if (Object.keys(patch).length) await payload.update({ collection: 'terms', id: found.id as number, data: patch as never })
       console.log('есть', t.slug, Object.keys(patch).join(',') || '')
       continue

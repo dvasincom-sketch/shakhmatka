@@ -1321,6 +1321,342 @@
    "kind": "каталог",
    "checked": "15.10.2026"
   },
+  "a101-moskva-a101": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/72896/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "a101-vyazemskoe": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/73609/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "a101-kronburg": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/73630/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "a101-smolenskaya-zastava": {
+   "class": "deluxe",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/173303/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "a101-belye-nochi": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/374276/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "a101-buninskie-kvartaly": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/3087460/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "a101-dzen-kvartaly": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/3123313/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "a101-dom-na-zorge": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/3487946/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "a101-desnareche-kvartal-park": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/3641076/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "a101-kholm": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/4872138/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "fsk-m-house": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/25502/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "fsk-zodiak": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/69110/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "fsk-dykhanie": {
+   "class": "deluxe",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/170725/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "fsk-lisitsyna-5": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/441250/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "fsk-rikhard": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/1705661/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "fsk-rezhisser": {
+   "class": "deluxe",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/2370917/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "fsk-rotterdam": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/2756197/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "fsk-skay-garden": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/2794038/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "fsk-leyk": {
+   "class": "deluxe",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/3218148/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "fsk-sidney-praym": {
+   "class": "deluxe",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/3522213/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "fsk-amber-siti": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/3975219/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "level-group-level-kutuzovskiy": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/266534/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "level-group-level-paveletskaya-siti": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/2132899/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "level-group-level-prichalnyy": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/2272874/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "level-group-level-voykovskaya": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/4137862/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "mr-group-vodnyy": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/21504/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "mr-group-fili-grad": {
+   "class": "deluxe",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/23905/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "mr-group-dvintsev-14": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/161218/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "mr-group-vorobev-dom": {
+   "class": "deluxe",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/161586/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "mr-group-yasnyy": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/185252/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "mr-group-perovsky": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/207205/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "mr-group-metropoliya": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/224482/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "mr-group-manor": {
+   "class": "deluxe",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/1657260/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "mr-group-d1": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/1667563/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "mr-group-discovery": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/1672763/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "mr-group-discovery-park": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/1687065/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "mr-group-dom-abrikosov": {
+   "class": "deluxe",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/2309863/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "mr-group-feymos": {
+   "class": "deluxe",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/3032937/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "mr-group-klo-17": {
+   "class": "deluxe",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/4013614/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "mr-group-s5": {
+   "class": "deluxe",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/4545154/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "mr-group-kazachiy": {
+   "class": "deluxe",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/4863419/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "mr-group-klif": {
+   "class": "deluxe",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/4902598/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
   "pik-signalnyy-16": {
    "class": "comfort",
    "basis": "catalog",
@@ -1621,6 +1957,62 @@
    "class": "comfort",
    "basis": "catalog",
    "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "samolet-eko-bunino": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/729796/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "samolet-klenovye-allei": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/778553/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "samolet-tsvetochnye-polyany": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/1685695/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "samolet-stremyannyy-2": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/2003613/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "samolet-pyatnitskoe-58": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/2582196/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "samolet-podolskie-kvartaly": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/3425121/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "samolet-olkhovyy-kvartal": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/3916149/",
    "site": "Яндекс Недвижимость",
    "kind": "каталог",
    "checked": "15.10.2026"

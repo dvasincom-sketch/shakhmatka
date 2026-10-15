@@ -6,6 +6,7 @@ import { SITE, devName, ogFor } from '@/lib/ui'
 import { districtName, plural } from '@/lib/geo'
 import { MOSCOW_DISTRICTS } from '@/lib/districts'
 import { JsonLd } from '@/lib/jsonld'
+import { signalHref, signalSlugs } from '@/lib/signals'
 import { KrtTracker, type KrtRow } from '@/lib/krt-tracker'
 import type { Object as Obj } from '@/payload-types'
 
@@ -36,6 +37,7 @@ export default async function Krt() {
     .filter((o) => o.region === 'moscow')
     .map((o) => {
       const tl = o.timeline || []
+      const sig = signalSlugs(o.slug, tl)
       const krt = tl.filter((t) => t.kind === 'krt').sort((a, b) => b.date.localeCompare(a.date))
       const dist = o.district ? MOSCOW_DISTRICTS[o.district] : undefined
       const dev = o.developer != null ? devById.get(o.developer as number) : undefined
@@ -48,7 +50,7 @@ export default async function Krt() {
         stage: o.stage || '',
         first: krt[krt.length - 1]?.date || '',
         last: (o.lastEventAt as string) || krt[0]?.date || '',
-        events: krt.map((t) => ({ date: t.date, title: t.title, signal: t.certainty === 'signal', unconfirmed: !!t.outcome, confirmed: !!t.confirmedOn })),
+        events: krt.map((t) => ({ date: t.date, title: t.title, signal: t.certainty === 'signal', unconfirmed: !!t.outcome, confirmed: !!t.confirmedOn, href: t.id && sig.get(t.id) ? signalHref(sig.get(t.id)!) : undefined })),
         signals: krt.filter((t) => t.certainty === 'signal').length,
       }
     })

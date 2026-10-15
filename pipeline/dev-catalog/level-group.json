@@ -1,0 +1,80 @@
+{
+ "developer": "level-group",
+ "sources": [
+  "https://realty.yandex.ru/moskva/kupit/novostrojka/z-level-group-521490/?showOutdated=YES"
+ ],
+ "projects": [
+  {
+   "name": "Левел Кутузовский",
+   "address": "Москва, ул. Гришина, 16",
+   "zu": null,
+   "district": null,
+   "stage": "completed",
+   "completion": null,
+   "class": "Бизнес",
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/266534/"
+   ],
+   "yandex_site_id": "266534",
+   "notes": "Яндекс Недвижимость, раздел застройщика в Москве (с завершёнными), 15.10.2026"
+  },
+  {
+   "name": "Левел Павелецкая Сити",
+   "address": "Москва, ул. Дубининская",
+   "zu": null,
+   "district": null,
+   "stage": "sales",
+   "completion": null,
+   "class": "Бизнес",
+   "buildings": null,
+   "price_from_mln": 22.9,
+   "price_as_of": "октябрь 2026",
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/2132899/"
+   ],
+   "yandex_site_id": "2132899",
+   "notes": "Яндекс Недвижимость, раздел застройщика в Москве (с завершёнными), 15.10.2026; статус «строится/продажи», срок сдачи по каталогу"
+  },
+  {
+   "name": "Левел Причальный",
+   "address": "Москва, Причальный проезд",
+   "zu": null,
+   "district": null,
+   "stage": "completed",
+   "completion": null,
+   "class": "Бизнес",
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/2272874/"
+   ],
+   "yandex_site_id": "2272874",
+   "notes": "Яндекс Недвижимость, раздел застройщика в Москве (с завершёнными), 15.10.2026"
+  },
+  {
+   "name": "Левел Войковская",
+   "address": "Москва, Старопетровский проезд, 11",
+   "zu": null,
+   "district": null,
+   "stage": "sales",
+   "completion": "3 кв. 2028",
+   "class": "Бизнес",
+   "buildings": null,
+   "price_from_mln": 23.0,
+   "price_as_of": "октябрь 2026",
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/4137862/"
+   ],
+   "yandex_site_id": "4137862",
+   "notes": "Яндекс Недвижимость, раздел застройщика в Москве (с завершёнными), 15.10.2026; статус «строится/продажи», срок сдачи по каталогу"
+  }
+ ]
+}

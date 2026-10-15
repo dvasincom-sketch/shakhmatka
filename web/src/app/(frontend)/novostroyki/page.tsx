@@ -5,20 +5,43 @@ import { cap, getAllObjects, getLandings } from '@/lib/landings'
 import { JsonLd } from '@/lib/jsonld'
 import { MoscowMap, type MapArea } from '@/lib/moscow-map-ui'
 import { MOSCOW_DISTRICTS } from '@/lib/districts'
-import { priceText } from '@/lib/geo'
-import { stageLabel } from '@/lib/ui'
+import { priceText, regionName } from '@/lib/geo'
+import { ObjectCard, stageLabel } from '@/lib/ui'
 
 // Страницы собираются на запрос: в Docker-сборке нет доступа к базе, а данные должны быть свежими
 export const dynamic = 'force-dynamic'
 export const metadata: Metadata = {
-  title: 'Новостройки Москвы по районам, классам и стадиям',
+  title: 'Новостройки Москвы и области по районам, классам и стадиям',
   description: 'Подборки новостроек Москвы и регионов: по районам и округам, по классу жилья и стадии — от купленного участка до сданного дома. Только проверенные данные.',
   alternates: { canonical: `${SITE}/novostroyki/` },
     openGraph: ogFor(`${SITE}/novostroyki/`),
 }
 
-export default async function Hub() {
-  const [landings, all] = await Promise.all([getLandings(), getAllObjects()])
+export default async function Hub({ searchParams }: { searchParams: Promise<{ region?: string }> }) {
+  const [landings, all, sp] = await Promise.all([getLandings(), getAllObjects(), searchParams])
+  // регион: по умолчанию Москва; остальные — переключателем над картой
+  const regions = [...all.reduce((m, o) => m.set(o.region || '', (m.get(o.region || '') || 0) + 1), new Map<string, number>())]
+    .filter(([r]) => r && r !== 'moscow' && r !== 'russia').sort((a, b) => b[1] - a[1])
+  const region = sp.region && regions.some(([r]) => r === sp.region) ? sp.region : 'moscow'
+  const switcher = (
+    <nav className="reg-sw" aria-label="Регион">
+      <Link href="/novostroyki/" className={region === 'moscow' ? 'on' : ''} aria-current={region === 'moscow' ? 'page' : undefined}>Москва<i>{all.filter((o) => o.region === 'moscow').length}</i></Link>
+      {regions.map(([r, k]) => <Link key={r} href={`/novostroyki/?region=${r}`} className={region === r ? 'on' : ''} aria-current={region === r ? 'page' : undefined}>{regionName(r)}<i>{k}</i></Link>)}
+    </nav>
+  )
+  if (region !== 'moscow') {
+    const objs = all.filter((o) => o.region === region)
+    const landing = landings.find((l) => l.group === 'region' && l.key === region)
+    return (
+      <>
+        <nav className="crumbs" aria-label="Путь"><Link href="/">Лента</Link><span>/</span><Link href="/novostroyki/">Новостройки</Link><span>/</span><span>{regionName(region)}</span></nav>
+        <h1 className="page-h tt">Новостройки<span>{regionName(region)}</span></h1>
+        {switcher}
+        <p className="hello-sub">{objs.length} {objs.length === 1 ? 'проект' : objs.length < 5 ? 'проекта' : 'проектов'} из базы Шахматки за пределами Москвы. Основной фокус редакции — Москва; здесь проекты, о которых мы писали или которые ведут московские застройщики.{landing ? <> Подборка со статьями — <Link href={`/novostroyki/${landing.slug}/`}>«{cap(landing.subject)}»</Link>.</> : null}</p>
+        <div className="obj-grid">{objs.map((o) => <ObjectCard key={o.id} o={o} />)}</div>
+      </>
+    )
+  }
   const n = (l: (typeof landings)[number]) => all.filter(l.match).length
   const districts = landings.filter((l) => l.group === 'district')
   const okrugs = [...new Set(districts.map((d) => d.okrug || 'Другие'))].sort()
@@ -57,6 +80,7 @@ export default async function Hub() {
       <JsonLd data={ld} />
       <nav className="crumbs" aria-label="Путь"><Link href="/">Лента</Link><span>/</span><span>Новостройки</span></nav>
       <h1 className="page-h tt">Новостройки<span>по районам и подборкам</span></h1>
+      {switcher}
       <p className="hello-sub">Все проекты из базы Шахматки, сгруппированные по месту, классу и стадии. Цифра на кнопке — сколько проектов в подборке сейчас.</p>
       <MoscowMap areas={areas} unplaced={unplaced} />
       <p className="krt-links">Территории комплексного развития — в <Link href="/krt/">трекере КРТ</Link>: где решение уже принято и кто застройщик. Как менялась цена с начала продаж — в подборке <Link href="/ceny-na-starte/">«Цена на старте и сейчас»</Link>.</p>

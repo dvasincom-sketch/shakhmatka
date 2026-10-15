@@ -3,7 +3,8 @@ import Link from 'next/link'
 import { getPayload } from 'payload'
 import config from '@payload-config'
 import { currentReader } from '@/lib/reader'
-import { EmailLogin, FrequencySelect, Unfollow } from '@/lib/account-ui'
+import { CallLogin, EmailLogin, FrequencySelect, Unfollow } from '@/lib/account-ui'
+import { prettyPhone } from '@/lib/callcheck'
 
 export const dynamic = 'force-dynamic'
 export const metadata: Metadata = { title: 'Личный кабинет', robots: { index: false, follow: false } }
@@ -27,7 +28,8 @@ export default async function Account({ searchParams }: { searchParams: Promise<
         <h1 className="page-h tt">Личный кабинет<span>за чем вы следите</span></h1>
         {note ? <p className="acc-note">{note}</p> : null}
         <p className="hello-sub">Нажмите «Следить» на странице объекта, застройщика, района или архитектурного бюро — и мы пришлём письмо, когда там появятся новые события, сигналы или материалы. Здесь — все ваши подписки и настройки рассылки.</p>
-        <EmailLogin />
+        <CallLogin />
+        <details className="acc-alt"><summary>Войти по почте</summary><EmailLogin /></details>
       </section>
     )
   }
@@ -39,7 +41,9 @@ export default async function Account({ searchParams }: { searchParams: Promise<
   return (
     <section className="acc">
       <nav className="crumbs" aria-label="Путь"><Link href="/">Лента</Link><span>/</span><span>Личный кабинет</span></nav>
-      <h1 className="page-h tt">Личный кабинет<span>{r.email}</span></h1>
+      <h1 className="page-h tt">Личный кабинет<span>{r.email || (r.phone ? prettyPhone(r.phone) : '')}</span></h1>
+      {!r.email ? <p className="acc-note">Вы вошли по номеру телефона. Чтобы получать письма о новостях по подпискам, добавьте почту ниже — пришлём ссылку для подтверждения.</p> : null}
+      {!r.email ? <EmailLogin /> : null}
       {note ? <p className="acc-note">{note}</p> : null}
       <div className="acc-bar">
         <FrequencySelect value={(r.frequency as 'weekly' | 'daily' | 'off') || 'weekly'} />

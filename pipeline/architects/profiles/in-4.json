@@ -1,0 +1,153 @@
+[
+ {
+  "key": "mvrdv",
+  "name": "MVRDV",
+  "aliases": [],
+  "projects": [
+   null,
+   null
+  ]
+ },
+ {
+  "key": "semren-mansson",
+  "name": "Semrén & Månsson",
+  "aliases": [
+   "Semrén&Månsson"
+  ],
+  "projects": [
+   null,
+   null
+  ]
+ },
+ {
+  "key": "masterskaya-ilina",
+  "name": "Мастерская Алексея Ильина",
+  "aliases": [
+   "АМ Ильина",
+   "мастерская Алексея Ильина"
+  ],
+  "projects": [
+   null,
+   null
+  ]
+ },
+ {
+  "key": "breath",
+  "name": "Breath Architects",
+  "aliases": [],
+  "projects": [
+   null,
+   null
+  ]
+ },
+ {
+  "key": "ddd",
+  "name": "DDD",
+  "aliases": [],
+  "projects": [
+   null,
+   null
+  ]
+ },
+ {
+  "key": "kanva",
+  "name": "Kanva",
+  "aliases": [
+   "Бюро Kanva"
+  ],
+  "projects": [
+   null,
+   null
+  ]
+ },
+ {
+  "key": "mayak",
+  "name": "MAYAK",
+  "aliases": [
+   "Mayak"
+  ],
+  "projects": [
+   null,
+   null
+  ]
+ },
+ {
+  "key": "mpg",
+  "name": "MPG Architects",
+  "aliases": [],
+  "projects": [
+   null,
+   null
+  ]
+ },
+ {
+  "key": "osa",
+  "name": "OSA architectural office",
+  "aliases": [
+   "бюро ОСА"
+  ],
+  "projects": [
+   null,
+   null
+  ]
+ },
+ {
+  "key": "plp-architecture",
+  "name": "PLP Architecture",
+  "aliases": [],
+  "projects": [
+   null,
+   null
+  ]
+ },
+ {
+  "key": "progress",
+  "name": "Progress",
+  "aliases": [
+   "бюро Progress"
+  ],
+  "projects": [
+   null,
+   null
+  ]
+ },
+ {
+  "key": "u-studio",
+  "name": "U-Studio",
+  "aliases": [],
+  "projects": [
+   null,
+   null
+  ]
+ },
+ {
+  "key": "vostok",
+  "name": "VOSTOK",
+  "aliases": [
+   "бюро Восток"
+  ],
+  "projects": [
+   null,
+   null
+  ]
+ },
+ {
+  "key": "tpo-pride",
+  "name": "ТПО Pride",
+  "aliases": [],
+  "projects": [
+   null,
+   null
+  ]
+ },
+ {
+  "key": "lampa-community",
+  "name": "Lampa Community",
+  "aliases": [
+   "Lampa"
+  ],
+  "projects": [
+   null
+  ]
+ }
+]

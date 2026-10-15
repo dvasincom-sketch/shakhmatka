@@ -1,0 +1,277 @@
+[
+ {
+  "key": "steel",
+  "name": "Steel",
+  "founded": null,
+  "founders": [],
+  "city": null,
+  "website": null,
+  "about": null,
+  "notable": [],
+  "awards": [],
+  "staff": null,
+  "sources": [],
+  "confidence": "low"
+ },
+ {
+  "key": "archivista",
+  "name": "Archivista",
+  "founded": null,
+  "founders": [],
+  "city": null,
+  "website": null,
+  "about": null,
+  "notable": [],
+  "awards": [],
+  "staff": null,
+  "sources": [],
+  "confidence": "low"
+ },
+ {
+  "key": "buro-2-2",
+  "name": "Buro 2+2",
+  "founded": null,
+  "founders": [],
+  "city": null,
+  "website": null,
+  "about": null,
+  "notable": [],
+  "awards": [],
+  "staff": null,
+  "sources": [],
+  "confidence": "low"
+ },
+ {
+  "key": "heatherwick-studio",
+  "name": "Heatherwick Studio",
+  "founded": 1994,
+  "founders": [
+   "Томас Хезервик — основатель, дизайн-директор"
+  ],
+  "city": "Лондон, Великобритания",
+  "website": "http://www.heatherwick.com/",
+  "about": "Heatherwick Studio — лондонская студия, основанная Томасом Хезервиком в 1994 году; объединяет архитектуру, дизайн, скульптуру и градостроительство. Известна британским павильоном на EXPO 2010 в Шанхае, олимпийской чашей Игр 2012 года в Лондоне и автобусом New Bus for London. В Москве по проекту бюро девелопер MR Group строит жилой комплекс «Nicole» в Тверском районе.",
+  "notable": [
+   {
+    "project": "ЖК «Nicole», Тверской район (девелопер MR Group)",
+    "year": null
+   }
+  ],
+  "awards": [
+   {
+    "award": "Золотая награда за павильон Великобритании на EXPO 2010 в Шанхае",
+    "year": 2010
+   },
+   {
+    "award": "Томас Хезервик — звание Royal Designer for Industry",
+    "year": 2004
+   }
+  ],
+  "staff": "около 170–180 сотрудников (NLA — 170, Dezeen — около 180)",
+  "sources": [
+   "https://nla.london/contributors/thomas-heatherwick",
+   "https://www.dezeen.com/?p=1196709",
+   "https://www.novostroy-m.ru/analitika/inostrannye_arhitektory_2024"
+  ],
+  "confidence": "high"
+ },
+ {
+  "key": "mecanoo",
+  "name": "Mecanoo",
+  "founded": 1984,
+  "founders": [
+   "Франсин Хубен — сооснователь, креативный директор и партнёр",
+   "Хенк Дёлл — сооснователь",
+   "Рулф Стенхёйс — сооснователь",
+   "Эрик ван Эгерат — сооснователь",
+   "Крис де Вейер — сооснователь",
+   "Дик ван Гамерен — партнёр"
+  ],
+  "city": "Делфт, Нидерланды",
+  "website": "https://www.mecanoo.com",
+  "about": "Mecanoo — нидерландское архитектурное бюро, основанное в Делфте в 1984 году; из пяти основателей в бюро осталась Франсин Хубен, остальные ушли в 1988–2003 годах. Среди известных работ — Библиотека Бирмингема (2013), библиотека TU Delft (1997) и Национальный центр искусств в Гаосюне (2018). В Москве по проекту бюро ГК «Основа» строит башню Nametkin Tower в районе Черёмушки.",
+  "notable": [
+   {
+    "project": "Nametkin Tower, Черёмушки (застройщик ГК «Основа»)",
+    "year": null
+   }
+  ],
+  "awards": [],
+  "staff": "120 сотрудников из 25 стран (по профилю на world-architects.com)",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Mecanoo",
+   "https://www.world-architects.com/en/mecanoo-delft",
+   "https://www.novostroy-m.ru/analitika/inostrannye_arhitektory_2024"
+  ],
+  "confidence": "high"
+ },
+ {
+  "key": "muza-form",
+  "name": "MUZA FORM",
+  "founded": null,
+  "founders": [],
+  "city": null,
+  "website": null,
+  "about": null,
+  "notable": [],
+  "awards": [],
+  "staff": null,
+  "sources": [],
+  "confidence": "low"
+ },
+ {
+  "key": "steve-brown-architecture",
+  "name": "Steve Brown Architecture",
+  "founded": null,
+  "founders": [],
+  "city": "Великобритания (город не установлен)",
+  "website": null,
+  "about": "Steve Brown Architecture — британское бюро; по данным РБК, участвовало в работе над кварталом Republic (застройщик «Форма») в Москве в составе команды с британской студией John McAslan + Partners.",
+  "notable": [
+   {
+    "project": "Квартал Republic (застройщик «Форма»), совместно с John McAslan + Partners",
+    "year": null
+   }
+  ],
+  "awards": [],
+  "staff": null,
+  "sources": [
+   "https://realty.rbc.ru/news/6475a6dd9a794736ec2fe1b6"
+  ],
+  "confidence": "low"
+ },
+ {
+  "key": "studio-jahn",
+  "name": "Studio Jahn",
+  "founded": 1981,
+  "founders": [
+   "Хельмут Ян (1940–2021) — руководитель с 1981 года, переименовал C. F. Murphy Associates в Murphy/Jahn"
+  ],
+  "city": "Чикаго, США",
+  "website": "https://jahn.studio/",
+  "about": "JAHN (ранее C. F. Murphy Associates и Murphy/Jahn) — чикагское архитектурное бюро; в 1981 году Хельмут Ян получил единоличный контроль над фирмой и переименовал её в Murphy/Jahn, в 2012 году она стала называться JAHN. Есть офисы в Берлине и Шанхае. В Москве по проектам бюро построен офисный комплекс iCity в «Москва-Сити» и строится жилой комплекс SLAVA (MR Group).",
+  "notable": [
+   {
+    "project": "iCity: башни Space (256 м) и Time (150 м), «Москва-Сити»",
+    "year": 2024
+   },
+   {
+    "project": "ЖК SLAVA, Беговой район (MR Group), корпуса D–G — плановое завершение",
+    "year": 2027
+   }
+  ],
+  "awards": [
+   {
+    "award": "AIA Architecture Firm Award (Murphy/Jahn, Inc.)",
+    "year": 2005
+   },
+   {
+    "award": "Хельмут Ян — AIA Chicago Lifetime Achievement Award",
+    "year": 2012
+   },
+   {
+    "award": "Хельмут Ян — офицерский крест ордена «За заслуги» ФРГ",
+    "year": 1994
+   }
+  ],
+  "staff": null,
+  "sources": [
+   "https://en.wikipedia.org/wiki/Helmut_Jahn",
+   "https://www.skyscrapercenter.com/company/6129",
+   "https://www.novostroy-m.ru/analitika/inostrannye_arhitektory_2024"
+  ],
+  "confidence": "high"
+ },
+ {
+  "key": "umbra",
+  "name": "umbra",
+  "founded": null,
+  "founders": [],
+  "city": null,
+  "website": null,
+  "about": null,
+  "notable": [],
+  "awards": [],
+  "staff": null,
+  "sources": [],
+  "confidence": "low"
+ },
+ {
+  "key": "unstudio",
+  "name": "UNStudio",
+  "founded": 1988,
+  "founders": [
+   "Бен ван Беркел — сооснователь, руководитель",
+   "Кэролайн Бос — сооснователь"
+  ],
+  "city": "Амстердам, Нидерланды",
+  "website": "http://www.unstudio.com/",
+  "about": "UNStudio — нидерландское бюро, основанное Беном ван Беркелом и Кэролайн Бос в Амстердаме в 1988 году как Van Berkel & Bos Architectuurbureau и переименованное в UNStudio в 1998 году (по данным CTBUH, в 2025 году бюро сменило название на UNS). Известно домом Мёбиуса в Нардене и зданием Сингапурского университета технологии и дизайна. В 2021 году бюро выиграло конкурс на жилой комплекс на улице Кржижановского, 31 в Москве (ЖК K31, «Главстрой»).",
+  "notable": [
+   {
+    "project": "ЖК K31 (башни Courtyard West, 37 эт., и Courtyard East, 30 эт.), ул. Кржижановского, 31 (застройщик «Главстрой»); победа в конкурсе",
+    "year": 2021
+   }
+  ],
+  "awards": [
+   {
+    "award": "Бен ван Беркел — Dutch Designer of the Year",
+    "year": 2019
+   },
+   {
+    "award": "Бен ван Беркел — RIBA International Fellowship",
+    "year": 2009
+   }
+  ],
+  "staff": null,
+  "sources": [
+   "https://en.wikipedia.org/wiki/Ben_van_Berkel",
+   "https://skyscrapercenter.com/company/35620",
+   "https://www.mos.ru/news/item/98576073/",
+   "https://realty.rbc.ru/news/6475a6dd9a794736ec2fe1b6"
+  ],
+  "confidence": "high"
+ },
+ {
+  "key": "up-plus",
+  "name": "UP+",
+  "founded": null,
+  "founders": [],
+  "city": null,
+  "website": null,
+  "about": null,
+  "notable": [],
+  "awards": [],
+  "staff": null,
+  "sources": [],
+  "confidence": "low"
+ },
+ {
+  "key": "kk",
+  "name": "К+К",
+  "founded": null,
+  "founders": [],
+  "city": null,
+  "website": null,
+  "about": null,
+  "notable": [],
+  "awards": [],
+  "staff": null,
+  "sources": [],
+  "confidence": "low"
+ },
+ {
+  "key": "mikhail-feldman",
+  "name": "Михаил Фельдман",
+  "founded": null,
+  "founders": [],
+  "city": null,
+  "website": null,
+  "about": null,
+  "notable": [],
+  "awards": [],
+  "staff": null,
+  "sources": [],
+  "confidence": "low"
+ }
+]

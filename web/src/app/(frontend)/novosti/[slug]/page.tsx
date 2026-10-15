@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import { signalHref, signalSlugs } from '@/lib/signals'
 import { notFound } from 'next/navigation'
 import { getPayload } from 'payload'
 import config from '@payload-config'
@@ -9,6 +10,7 @@ import type { Article, Developer, Media, Object as Obj } from '@/payload-types'
 import { ONLY_READY, pub } from '@/lib/public'
 import { ReadingProgress, Share } from '@/lib/client'
 import { getResolver } from '@/lib/site-links'
+import { autolink, getAutolinks } from '@/lib/autolink'
 import { JsonLd } from '@/lib/jsonld'
 
 // Страницы собираются на запрос: в Docker-сборке нет доступа к базе, а данные должны быть свежими
@@ -45,7 +47,9 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
   const objects = (a.objects || []) as Obj[]
   const devs = (a.developers || []) as Developer[]
   const main = objects[0]
-  const html = renderArticle(a.body || '', { skipImage: hero?.filename || undefined, resolve: await getResolver() })
+  const html0 = renderArticle(a.body || '', { skipImage: hero?.filename || undefined, resolve: await getResolver() })
+  // первое упоминание застройщика, бюро или объекта — ссылка на его страницу
+  const html = autolink(html0, await getAutolinks())
   const contents = toc(a.body || '')
   const fc = a.factcheck || []
   const count = (s: string) => fc.filter((x) => x.status === s).length
@@ -64,6 +68,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
   const pivot = at >= 0 ? at : tl.findIndex((t) => a.datePublished && t.date >= a.datePublished)
   const from = pivot >= 0 ? Math.max(0, pivot - 3) : Math.max(0, tl.length - 6)
   const story = tl.slice(from, from + 7)
+  const sig = signalSlugs(main?.slug || '', main?.timeline)
 
   const crumbsLd = {
     '@context': 'https://schema.org', '@type': 'BreadcrumbList',
@@ -113,7 +118,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
                   return (
                     <li key={t.id} className={`${here ? 'here' : ''}${after ? ' after' : ''}${t.certainty === 'signal' ? ' sig' : ''}`}>
                       <time dateTime={t.date.slice(0, 10)}>{t.dateLabel || ruDate(t.date)}</time>
-                      <p>{typo(t.title)}{here ? <b className="story-here">этот материал</b> : null}{t.certainty === 'signal' ? <span className="tl-sig">Сигнал</span> : null}</p>
+                      <p>{t.certainty === 'signal' && t.id && sig.get(t.id) ? <Link href={signalHref(sig.get(t.id)!)}>{typo(t.title)}</Link> : typo(t.title)}{here ? <b className="story-here">этот материал</b> : null}{t.certainty === 'signal' ? <span className="tl-sig">Сигнал</span> : null}</p>
                     </li>
                   )
                 })}

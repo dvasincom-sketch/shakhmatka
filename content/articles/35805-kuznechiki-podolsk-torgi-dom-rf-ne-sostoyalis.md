@@ -3,7 +3,7 @@ source: {id: 35805, date: 2026-09-18}
 status: needs_review
 skip_reason: null
 type: object
-region: moscow-oblast
+region: moskovskaya-oblast
 title: "Кузнечики под Подольском: торги ДОМ.РФ снова не состоялись — пришли, но молчали"
 title_alts: ["Кузнечики-2: ДОМ.РФ скинул цену до 2,63 млрд ₽, а торговаться никто не стал", "Подольск, Кузнечики: 40,66 га с недостроем снова остались без покупателя"]
 slug: "kuznechiki-podolsk-torgi-dom-rf-ne-sostoyalis"

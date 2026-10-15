@@ -1,6 +1,9 @@
 import { monthGen } from '@/lib/months'
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import { autolink, getAutolinks } from '@/lib/autolink'
+import { priceCheck, zoneOf } from '@/lib/class-method'
+import { MOSCOW_DISTRICTS } from '@/lib/districts'
 import { FollowButton } from '@/lib/follow-button'
 import { notFound } from 'next/navigation'
 import { getPayload } from 'payload'
@@ -79,7 +82,16 @@ export default async function ObjectPage({ params }: { params: Promise<{ slug: s
   const price = priceText(o)
   const sp = START_PRICES.find((r) => r.slug === o.slug)
   const where = place?.name || (o.region === 'moscow' ? districtName(o.district) || 'Москва' : regionName(o.region))
+  // класс сверяем с ценой по методике «Шахматки» (коридоры ₽/м² для ЦАО, остальной Москвы и Новой Москвы)
+  const clsCheck = o.region === 'moscow' ? priceCheck(o.class, o.priceM2From, zoneOf(o.district ? MOSCOW_DISTRICTS[o.district]?.okrug : null)) : null
+  // досье без событий больше трёх лет (кроме сданных) — помечаем как требующее обновления
+  const last = (o.lastEventAt as string | null) || (o.timeline || []).map((t) => t.date).sort().pop() || null
+  const stale = !!last && o.stage !== 'completed' && Date.now() - +new Date(last) > 3 * 365.25 * 864e5
   const timeline = [...(o.timeline || [])].sort((a, b) => +new Date(a.date) - +new Date(b.date))
+  // автоссылки на застройщиков, бюро и объекты: каждая страница — один раз на досье
+  const links = await getAutolinks()
+  const linked = new Set<string>()
+  const esc = (x: string) => x.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
   const years = [...new Set(timeline.map((t) => (t.dateLabel && /до/.test(t.dateLabel) ? t.dateLabel : String(year(t.date)))))]
   const firstSale = timeline.find((t) => t.kind === 'sales' && /старт/i.test(t.title))
   const neighbors = o.neighbors || []
@@ -111,7 +123,8 @@ export default async function ObjectPage({ params }: { params: Promise<{ slug: s
         <div>
           <h1 className="page-h tt">{o.name}{dev ? <span>{devName(dev.name)}</span> : null}</h1>
           <FollowButton kind="object" id={o.slug} label={o.name} hint="Пришлём письмо, когда в досье появятся новые события, сигналы или материалы." />
-          {o.summary ? <p className="obj-sum">{typo(o.summary)}</p> : null}
+          {stale ? <p className="obj-stale" role="note"><b>Давно нет новостей.</b> Последнее событие в досье — {monthYear(last!)}, больше трёх лет назад. Стадия и сроки могли измениться: досье стоит в очереди редакции на проверку. Знаете, что сейчас происходит с проектом? Напишите нам.</p> : null}
+          {o.summary ? <p className="obj-sum" dangerouslySetInnerHTML={{ __html: autolink(typo(esc(o.summary), true), links, { self: `/obekty/${o.slug}/`, used: linked }) }} /> : null}
           <div className="zus">
             {o.zu ? <Link className="zu" href={`/poisk/?q=${encodeURIComponent(o.zu)}`} title="Найти всё по адресу участка"><b>ЗУ</b>{o.zu}</Link> : null}
             {(o.aliases || []).filter((a) => a.value && a.value !== o.zu && a.value !== o.name).map((a) => <Link key={a.id} className="pill pill-q" href={`/poisk/?q=${encodeURIComponent(a.value!)}`} title="Другое название — найти упоминания">{a.value}</Link>)}
@@ -151,8 +164,9 @@ export default async function ObjectPage({ params }: { params: Promise<{ slug: s
                 <dt>Класс</dt>
                 <dd><Link href={`/obekty/?class=${o.class}`}>{CLASS_LABELS[o.class] || o.class}</Link></dd>
                 <small>
-                  {clsSrc ? (clsSrc.s ? <>заявлен · <a className="muted-link" href={clsSrc.s} target="_blank" rel={relFor(clsSrc.s)}>{clsSrc.n}</a></> : <>заявлен · {clsSrc.n}</>) : 'заявленный'}
-                  {classTerm ? <> · <Link className="muted-link" href="/slovar/klass-zhilya/">как определяем</Link></> : null}
+                  {clsSrc?.b === 'article' ? 'проверен редакцией' : clsSrc?.b === 'catalog' ? 'заявлен в каталогах' : 'заявлен застройщиком'}
+                  {clsCheck ? <> · <span className={clsCheck.ok ? '' : 'cls-warn'}>{clsCheck.text}</span></> : null}
+                  {classTerm ? <>{' · '}<Link className="muted-link" href="/slovar/klass-zhilya/">методика Шахматки</Link></> : null}
                 </small>
               </div>
             ) : null}
@@ -217,7 +231,7 @@ export default async function ObjectPage({ params }: { params: Promise<{ slug: s
                           {t.verified ? <span className="tl-ok">сверено</span> : null}
                         </div>
                         <div className="tl-body">
-                          <p className="tl-t">{t.outcome ? <span className="tl-said">Участники рынка говорили: </span> : null}{t.certainty === 'signal' && t.id && sigSlugs.get(t.id) ? <Link href={signalHref(sigSlugs.get(t.id)!)}>{typo(t.title)}</Link> : typo(t.title)}</p>
+                          <p className="tl-t">{t.outcome ? <span className="tl-said">Участники рынка говорили: </span> : null}{t.certainty === 'signal' && t.id && sigSlugs.get(t.id) ? <Link href={signalHref(sigSlugs.get(t.id)!)}>{typo(t.title)}</Link> : <span dangerouslySetInnerHTML={{ __html: autolink(typo(esc(t.title), true), links, { self: `/obekty/${o.slug}/`, used: linked, max: 1 }) }} />}</p>
                           {t.text ? <p className="tl-x">{typo(t.text)}</p> : null}
                           {im?.url ? <figure className="tl-fig"><img src={im.url} alt={im.alt} loading="lazy" />{im.caption ? <figcaption>{im.caption}</figcaption> : null}</figure> : null}
                         </div>

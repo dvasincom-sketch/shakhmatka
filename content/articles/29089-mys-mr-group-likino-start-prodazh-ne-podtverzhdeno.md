@@ -5,7 +5,7 @@ source:
 status: skip
 skip_reason: unverifiable
 type: object
-region: moscow-oblast
+region: moskovskaya-oblast
 title: '«Мыс» MR Group в Ликино: старт продаж в апреле 2025 года не подтвердился'
 slug: mys-mr-group-likino-start-prodazh-ne-podtverzhdeno
 lead: 'В апреле 2025 года участники рынка говорили, что MR Group запустила продажи «Мыса» за Одинцовом: квартиры от 11,1 млн ₽ за 38 м², в среднем 250 тыс. ₽/м². Сам проект подтверждается, продажи сейчас идут, но дату старта и стартовые цены по открытым источникам на октябрь 2026 года подтвердить не удалось.'

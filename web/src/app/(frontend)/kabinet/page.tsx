@@ -27,6 +27,12 @@ export default async function Cabinet() {
     collection: 'objects', where: { or: [{ gallery: { exists: false } }, { gallery: { equals: [] } }] }, sort: '-signalCount', limit: 40, depth: 0,
     select: { name: true, slug: true, district: true, region: true, signalCount: true, lastEventAt: true },
   })).docs as Obj[]
+  // очередь обновления: несданные проекты без событий больше трёх лет — сначала те, где больше сигналов
+  const staleCut = new Date(Date.now() - 3 * 365.25 * 864e5).toISOString()
+  const stale = (await payload.find({
+    collection: 'objects', where: { and: [{ lastEventAt: { less_than: staleCut } }, { stage: { not_equals: 'completed' } }] }, sort: '-signalCount', limit: 60, depth: 0,
+    select: { name: true, slug: true, district: true, region: true, signalCount: true, lastEventAt: true, stage: true },
+  }))
   // за чем следят читатели (кнопка «Следить»): pending — email оставили, но ещё не подтвердили
   const [readersAll, readersOk, fl] = await Promise.all([
     payload.count({ collection: 'readers', overrideAccess: true }),
@@ -49,6 +55,12 @@ export default async function Cabinet() {
           {topList.map((t) => <li key={`${t.kind}:${t.key}`}><Link href={HREF[t.kind]?.(t.key) || '/'}>{t.label}</Link><span>{KIND_RU[t.kind] || t.kind} · {t.n} {t.ok < t.n ? `(подтвердили ${t.ok})` : ''}</span></li>)}
         </ol>
       ) : <p className="hello-sub">Пока никто не подписался. Кнопка «Следить» — на страницах объектов, застройщиков, районов, бюро и сигналов. Все подписки — в админке, раздел «Читатели».</p>}
+      <h2 className="tt cab-h">Давно без новостей<span>{stale.totalDocs} несданных проектов без событий больше трёх лет — кандидаты на новые заметки</span></h2>
+      <ol className="cab-list">
+        {(stale.docs as Obj[]).map((o) => (
+          <li key={o.id}><Link href={`/obekty/${o.slug}/`}>{o.name}</Link><span>последнее: {String(o.lastEventAt).slice(0, 7)}{o.signalCount ? ` · сигналов: ${o.signalCount}` : ''}</span></li>
+        ))}
+      </ol>
       <h2 className="tt cab-h">Досье без фото<span>сначала — где больше сигналов</span></h2>
       <ol className="cab-list">
         {noPhoto.map((o) => (

@@ -1,0 +1,186 @@
+[
+ {
+  "key": "dyer",
+  "name": "Dyer",
+  "aliases": [
+   "DYER"
+  ],
+  "projects": [
+   null,
+   null,
+   null
+  ]
+ },
+ {
+  "key": "hadaa",
+  "name": "HADAA Architects",
+  "aliases": [
+   "HADAA"
+  ],
+  "projects": [
+   null,
+   null,
+   null
+  ]
+ },
+ {
+  "key": "john-mcaslan",
+  "name": "John McAslan + Partners",
+  "aliases": [
+   "John McAslan",
+   "John McAslan+Partners"
+  ],
+  "projects": [
+   null,
+   null,
+   null
+  ]
+ },
+ {
+  "key": "ket",
+  "name": "ket",
+  "aliases": [
+   "бюро ket"
+  ],
+  "projects": [
+   null,
+   null,
+   null
+  ]
+ },
+ {
+  "key": "masterskaya-dmitrieva",
+  "name": "Архитектурная мастерская Михаила Дмитриева",
+  "aliases": [
+   "АМ Михаила Дмитриева",
+   "бюро Михаила Дмитриева",
+   "мастерская Михаила Дмитриева"
+  ],
+  "projects": [
+   null,
+   null,
+   null
+  ]
+ },
+ {
+  "key": "byuro-80-88",
+  "name": "80/88",
+  "aliases": [
+   "бюро 80/88"
+  ],
+  "projects": [
+   null,
+   null,
+   null
+  ]
+ },
+ {
+  "key": "citizenstudio",
+  "name": "Citizenstudio",
+  "aliases": [],
+  "projects": [
+   null,
+   null,
+   null
+  ]
+ },
+ {
+  "key": "civil-architects",
+  "name": "Civil Architects",
+  "aliases": [
+   "civil architects",
+   "СИВИЛ"
+  ],
+  "projects": [
+   null,
+   null,
+   null
+  ]
+ },
+ {
+  "key": "vi",
+  "name": "ВИ",
+  "aliases": [
+   "бюро ВИ",
+   "бюро Ви"
+  ],
+  "projects": [
+   null,
+   null,
+   null
+  ]
+ },
+ {
+  "key": "gorproekt",
+  "name": "Горпроект",
+  "aliases": [
+   "Горпроектом"
+  ],
+  "projects": [
+   null,
+   null,
+   null
+  ]
+ },
+ {
+  "key": "max-dudler",
+  "name": "Max Dudler",
+  "aliases": [
+   "maxdudler"
+  ],
+  "projects": [
+   null,
+   null
+  ]
+ },
+ {
+  "key": "simpsonhaugh",
+  "name": "SimpsonHaugh",
+  "aliases": [
+   "Simpson Haugh"
+  ],
+  "projects": [
+   null,
+   null
+  ]
+ },
+ {
+  "key": "byuro-bashkaeva",
+  "name": "Бюро Тимура Башкаева",
+  "aliases": [
+   "Башкаев",
+   "Башкаева",
+   "Тимура Башкаева",
+   "бюро Тимура Башкаева"
+  ],
+  "projects": [
+   null,
+   null
+  ]
+ },
+ {
+  "key": "masterskaya-gerasimova",
+  "name": "Мастерская Евгения Герасимова и партнёров",
+  "aliases": [
+   "Евгений Герасимов",
+   "Евгения Герасимова",
+   "архитектор Герасимов",
+   "мастерской Евгения Герасимова и партнеров"
+  ],
+  "projects": [
+   null,
+   null
+  ]
+ },
+ {
+  "key": "megabudka",
+  "name": "Megabudka",
+  "aliases": [
+   "megabudka"
+  ],
+  "projects": [
+   null,
+   null
+  ]
+ }
+]

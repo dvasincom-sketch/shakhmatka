@@ -6,6 +6,7 @@ import config from '@payload-config'
 import { ArticleCard, SITE } from '@/lib/ui'
 import { renderArticle } from '@/lib/markdown'
 import { getResolver } from '@/lib/site-links'
+import { autolink, getAutolinks } from '@/lib/autolink'
 import { pub } from '@/lib/public'
 import { JsonLd } from '@/lib/jsonld'
 
@@ -45,7 +46,7 @@ export default async function TermPage({ params }: { params: Promise<{ slug: str
       <h1 className="page-h tt">{t.term}{t.full ? <span>{t.full}</span> : null}</h1>
       <div className="page-text">
         <p className="term-short">{t.short}</p>
-        {t.body ? <div className="body" dangerouslySetInnerHTML={{ __html: renderArticle(t.body, { resolve: await getResolver() }) }} /> : null}
+        {t.body ? <div className="body" dangerouslySetInnerHTML={{ __html: autolink(renderArticle(t.body, { resolve: await getResolver() }), await getAutolinks()) }} /> : null}
         {t.sources?.length ? <><h2>Источники</h2><ul>{t.sources.map((s) => <li key={s.id}>{s.url ? <a href={s.url} target="_blank" rel="noopener">{s.title || s.url}</a> : s.title}</li>)}</ul></> : null}
       </div>
       {arts.length ? (

@@ -3,6 +3,7 @@ import * as migration_20261013_185717_roles_owners_outcome from './20261013_1857
 import * as migration_20261014_012522_media_card_size from './20261014_012522_media_card_size';
 import * as migration_20261015_103653_readers_follows from './20261015_103653_readers_follows';
 import * as migration_20261015_115421_leads from './20261015_115421_leads';
+import * as migration_20261015_170810_readers_phone from './20261015_170810_readers_phone';
 
 export const migrations = [
   {
@@ -28,6 +29,11 @@ export const migrations = [
   {
     up: migration_20261015_115421_leads.up,
     down: migration_20261015_115421_leads.down,
-    name: '20261015_115421_leads'
+    name: '20261015_115421_leads',
+  },
+  {
+    up: migration_20261015_170810_readers_phone.up,
+    down: migration_20261015_170810_readers_phone.down,
+    name: '20261015_170810_readers_phone'
   },
 ];

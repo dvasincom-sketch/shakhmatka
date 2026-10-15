@@ -1,5 +1,5 @@
 {
-  "_readme": "Ручное досье (15.10.2026) по карточкам каталогов: https://zhk-remizova-11k2-i.cian.ru/, https://www.cian.ru/novostroyki-komfort-klassa-ot-zastroyschika-moskovskie-kvartaly-20036-moskva-yuzao-0410-RLTM/",
+  "_readme": "Ручное досье (15.10.2026) по карточкам каталогов: https://zhk-remizova-11k2-i.cian.ru/, https://www.cian.ru/novostroyki-komfort-klassa-ot-zastroyschika-moskovskie-kvartaly-20036-moskva-yuzao-0410-RLTM/ Дополнено 15.10.2026 по карточке дома на москварталы.рф: https://москварталы.рф/obekty/remizova-ul-z-u-11-2/",
   "slug": "mk-remizova-11-k2",
   "name": "Ремизова, 11 к2",
   "zu": "Ремизова, 11 к2",
@@ -11,13 +11,27 @@
   "district": "kotlovka",
   "stage": "completed",
   "developer": "fond-renovatsii",
-  "summary": "Жилой дом Московского фонда реновации по адресу ул. Ремизова, 11к2. Каталоги относят дом к линейке «Московские кварталы»; продажа квартир самим фондом на дату проверки не подтверждена.",
+  "summary": "Жилой дом по адресу ул. Ремизова, 11к2. Квартиры продаёт Московский фонд реновации на портале «Московские кварталы» (москварталы.рф): в феврале 2026 года — от 484 тыс. ₽ за м², лоты от 22,5 млн ₽.",
   "timeline": [
     {
-      "date": "2026-10-15",
-      "dateLabel": "октябрь 2026",
-      "kind": "other",
-      "title": "Дом Фонда реновации значится в каталогах в линейке «Московские кварталы»",
+      "date": "2026-02-17",
+      "dateLabel": "февраль 2026",
+      "kind": "sales",
+      "title": "Квартиры дома выставлены на продажу на портале «Московские кварталы»: от 484 тыс. ₽ за м²",
+      "certainty": "fact"
+    },
+    {
+      "date": "2026-04-17",
+      "dateLabel": "апрель 2026",
+      "kind": "tender",
+      "title": "Часть квартир дома продаётся через аукцион",
+      "certainty": "fact"
+    },
+    {
+      "date": "2026-04-17",
+      "dateLabel": "апрель 2026",
+      "kind": "tender",
+      "title": "Часть квартир дома продаётся через аукцион",
       "certainty": "fact"
     }
   ]

@@ -1,0 +1,676 @@
+[
+ {
+  "key": "syntaxis",
+  "name": "Syntaxis",
+  "aliases": [
+   "«Синтаксис»",
+   "Синтаксис"
+  ],
+  "kind": "architecture",
+  "objects": [
+   "businovskiy-park",
+   "adts-kommunarka",
+   "selskokhozyaystvennaya-5-str-1-2"
+  ]
+ },
+ {
+  "key": "ariada",
+  "name": "Ariada",
+  "aliases": [
+   "ARIADA",
+   "ARIADA architects"
+  ],
+  "kind": "architecture",
+  "objects": [
+   "wave",
+   "staropetrovskiy-atrium",
+   "bolshoy-kozikhinskiy-22-str-1-2"
+  ]
+ },
+ {
+  "key": "white-stones",
+  "name": "White Stones",
+  "aliases": [
+   "Whitestones",
+   "whitestones"
+  ],
+  "kind": "architecture",
+  "objects": [
+   "dobrolyubova-3",
+   "dom-na-aristarkhovskom",
+   "dubininskaya-55"
+  ]
+ },
+ {
+  "key": "borisov-architects",
+  "name": "Borisov Architects",
+  "aliases": [],
+  "kind": "architecture",
+  "objects": [
+   "khavskaya-9-1",
+   "level-michurinskogo",
+   "ivovaya-8"
+  ]
+ },
+ {
+  "key": "mam",
+  "name": "М.А.М.",
+  "aliases": [
+   "MAM",
+   "Концепция — мастерской MAM",
+   "МАМ",
+   "мастерская MAM"
+  ],
+  "kind": "architecture",
+  "objects": [
+   "businovskiy-park",
+   "kampus-mgsu",
+   "26-parkvyu"
+  ]
+ },
+ {
+  "key": "sergey-kiselev",
+  "name": "Бюро Сергея Киселёва",
+  "aliases": [
+   "Бюро Сергея Киселева",
+   "бюро Сергея Киселева",
+   "бюро Сергея Киселёва"
+  ],
+  "kind": "architecture",
+  "objects": [
+   "ever",
+   "rizhskiy-gruzovoy-dvor",
+   "avtozavodskaya-23"
+  ]
+ },
+ {
+  "key": "scape",
+  "name": "SCAPE",
+  "aliases": [
+   "Scape"
+  ],
+  "kind": "landscape",
+  "objects": [
+   "rozhdestvenka-8",
+   "shlyuzovaya-2"
+  ]
+ },
+ {
+  "key": "bbm",
+  "name": "ББМ",
+  "aliases": [
+   "BBM Project",
+   "bbm"
+  ],
+  "kind": "architecture",
+  "objects": [
+   "losinoostrovskiy-park",
+   "soyuz",
+   "dolina-yauzy"
+  ]
+ },
+ {
+  "key": "civil-architects",
+  "name": "Civil Architects",
+  "aliases": [
+   "civil architects",
+   "СИВИЛ"
+  ],
+  "kind": "architecture",
+  "objects": [
+   "sreda",
+   "era",
+   "tpu-presnya"
+  ]
+ },
+ {
+  "key": "jaime-beriestain",
+  "name": "Jaime Beriestain",
+  "aliases": [
+   "Jaime Beriestain Studio"
+  ],
+  "kind": "interior",
+  "objects": [
+   "high-life",
+   "symphony-34"
+  ]
+ },
+ {
+  "key": "megabudka",
+  "name": "Megabudka",
+  "aliases": [
+   "megabudka"
+  ],
+  "kind": "architecture",
+  "objects": [
+   "district-39",
+   "dom-na-aristarkhovskom"
+  ]
+ },
+ {
+  "key": "west8",
+  "name": "WEST 8",
+  "aliases": [
+   "WEST8"
+  ],
+  "kind": "landscape",
+  "objects": [
+   "portland",
+   "symphony-34"
+  ]
+ },
+ {
+  "key": "gorproekt",
+  "name": "Горпроект",
+  "aliases": [
+   "Горпроектом"
+  ],
+  "kind": "architecture",
+  "objects": [
+   "nizhnyaya-maslovka-17",
+   "sobytie",
+   "vauxhall"
+  ]
+ },
+ {
+  "key": "breath",
+  "name": "Breath Architects",
+  "aliases": [],
+  "kind": "architecture",
+  "objects": [
+   "shabolovka-34",
+   "shabolovka-35"
+  ]
+ },
+ {
+  "key": "derevo-park",
+  "name": "DEREVO PARK",
+  "aliases": [
+   "DEREVO"
+  ],
+  "kind": "landscape",
+  "objects": [
+   "masters"
+  ]
+ },
+ {
+  "key": "mpg",
+  "name": "MPG Architects",
+  "aliases": [],
+  "kind": "architecture",
+  "objects": [
+   "emotion",
+   "nakhabino"
+  ]
+ },
+ {
+  "key": "osa",
+  "name": "OSA architectural office",
+  "aliases": [
+   "бюро ОСА"
+  ],
+  "kind": "architecture",
+  "objects": [
+   "odingrad",
+   "dvizhenie-tushino"
+  ]
+ },
+ {
+  "key": "u-studio",
+  "name": "U-Studio",
+  "aliases": [],
+  "kind": "architecture",
+  "objects": [
+   "le-dome",
+   "frunzenskaya-30"
+  ]
+ },
+ {
+  "key": "up-plus",
+  "name": "UP+",
+  "aliases": [],
+  "kind": "architecture",
+  "objects": [
+   "rassvet"
+  ]
+ },
+ {
+  "key": "wowhaus",
+  "name": "Wowhaus",
+  "aliases": [
+   "WOWHAUS"
+  ],
+  "kind": "landscape",
+  "objects": [
+   "botanica",
+   "siti-2"
+  ]
+ },
+ {
+  "key": "druzhba",
+  "name": "Дружба",
+  "aliases": [
+   "бюро «Дружба»",
+   "бюро Дружба"
+  ],
+  "kind": "landscape",
+  "objects": [
+   "setun",
+   "foriver"
+  ]
+ },
+ {
+  "key": "mikhail-feldman",
+  "name": "Михаил Фельдман",
+  "aliases": [
+   "Михаила Фельдмана"
+  ],
+  "kind": "architecture",
+  "objects": [
+   "vysotka-na-zhukova"
+  ]
+ },
+ {
+  "key": "abg",
+  "name": "ABG",
+  "aliases": [
+   "бюро ABG"
+  ],
+  "kind": "architecture",
+  "objects": [
+   "zikkurat-preobrazhenskiy"
+  ]
+ },
+ {
+  "key": "amirov-architects",
+  "name": "Amirov Architects",
+  "aliases": [],
+  "kind": "architecture",
+  "objects": [
+   "zil-vostok"
+  ]
+ },
+ {
+  "key": "archelp",
+  "name": "ARCHELP",
+  "aliases": [],
+  "kind": "architecture",
+  "objects": [
+   "ostozhenka-12-1s1"
+  ]
+ },
+ {
+  "key": "arkady-smirnov",
+  "name": "Arkady Smirnov",
+  "aliases": [],
+  "kind": "architecture",
+  "objects": [
+   "soyuz"
+  ]
+ },
+ {
+  "key": "babayants",
+  "name": "Babayants architects",
+  "aliases": [],
+  "kind": "architecture",
+  "objects": [
+   "kasatkina-11"
+  ]
+ },
+ {
+  "key": "bechu-associes",
+  "name": "Bechu + Associés",
+  "aliases": [
+   "Bechu + Associ"
+  ],
+  "kind": "architecture",
+  "objects": [
+   "severnyy-port"
+  ]
+ },
+ {
+  "key": "coop-himmelblau",
+  "name": "Coop Himmelb(l)au",
+  "aliases": [],
+  "kind": "architecture",
+  "objects": [
+   "shabolovka-34"
+  ]
+ },
+ {
+  "key": "droo",
+  "name": "DROO",
+  "aliases": [],
+  "kind": "architecture",
+  "objects": [
+   "sukharevka"
+  ]
+ },
+ {
+  "key": "gravion-group",
+  "name": "Gravion group",
+  "aliases": [],
+  "kind": "architecture",
+  "objects": [
+   "miklukho-maklaya-23"
+  ]
+ },
+ {
+  "key": "herzog",
+  "name": "Herzog & de Meuron",
+  "aliases": [],
+  "kind": "architecture",
+  "objects": [
+   "moskva-siti-2"
+  ]
+ },
+ {
+  "key": "iq",
+  "name": "IQ",
+  "aliases": [
+   "бюро IQ"
+  ],
+  "kind": "architecture",
+  "objects": [
+   "work-nizhegorodskaya"
+  ]
+ },
+ {
+  "key": "katarsis",
+  "name": "Katarsis",
+  "aliases": [],
+  "kind": "architecture",
+  "objects": [
+   "matveevskiy-park"
+  ]
+ },
+ {
+  "key": "kengo-kuma",
+  "name": "Kengo Kuma",
+  "aliases": [],
+  "kind": "architecture",
+  "objects": [
+   "zavod-kazakova"
+  ]
+ },
+ {
+  "key": "kokaistudious",
+  "name": "Kokaistudious",
+  "aliases": [],
+  "kind": "architecture",
+  "objects": [
+   "siti-2"
+  ]
+ },
+ {
+  "key": "krnv",
+  "name": "KRNV architects",
+  "aliases": [
+   "KRNV"
+  ],
+  "kind": "architecture",
+  "objects": [
+   "wowmanskaya"
+  ]
+ },
+ {
+  "key": "main",
+  "name": "MAIN",
+  "aliases": [
+   "Бюро MAIN"
+  ],
+  "kind": "architecture",
+  "objects": [
+   "chaplygina-20-str-3-5-6-8"
+  ]
+ },
+ {
+  "key": "maxx",
+  "name": "MAXX",
+  "aliases": [
+   "бюро MAXX"
+  ],
+  "kind": "architecture",
+  "objects": [
+   "zhivopisnaya-27"
+  ]
+ },
+ {
+  "key": "ms-architects",
+  "name": "MS Architects",
+  "aliases": [],
+  "kind": "architecture",
+  "objects": [
+   "the-lot"
+  ]
+ },
+ {
+  "key": "oma",
+  "name": "OMA",
+  "aliases": [
+   "ОМА"
+  ],
+  "kind": "architecture",
+  "objects": [
+   "matveevskiy-park"
+  ]
+ },
+ {
+  "key": "paris-classical-architecture",
+  "name": "Paris Classical Architecture",
+  "aliases": [
+   "Paris Classical"
+  ],
+  "kind": "architecture",
+  "objects": [
+   "le-dome"
+  ]
+ },
+ {
+  "key": "sheloves",
+  "name": "SHELOVES",
+  "aliases": [],
+  "kind": "architecture",
+  "objects": [
+   "dosflota-10"
+  ]
+ },
+ {
+  "key": "smagin",
+  "name": "Smagin Architects",
+  "aliases": [],
+  "kind": "architecture",
+  "objects": [
+   "avtozavodskaya-23s58"
+  ]
+ },
+ {
+  "key": "sredaa",
+  "name": "SREDAA",
+  "aliases": [],
+  "kind": "architecture",
+  "objects": [
+   "oro"
+  ]
+ },
+ {
+  "key": "svesmi",
+  "name": "SVESMI",
+  "aliases": [],
+  "kind": "architecture",
+  "objects": [
+   "zilart"
+  ]
+ },
+ {
+  "key": "thomas-juul-hansen",
+  "name": "Thomas Juul Hansen",
+  "aliases": [],
+  "kind": "architecture",
+  "objects": [
+   "le-dome"
+  ]
+ },
+ {
+  "key": "valode-pistre",
+  "name": "Valode & Pistre",
+  "aliases": [],
+  "kind": "architecture",
+  "objects": [
+   "1-ya-yamskogo-polya-17"
+  ]
+ },
+ {
+  "key": "yacheyka",
+  "name": "YACHEYKA",
+  "aliases": [],
+  "kind": "architecture",
+  "objects": [
+   "oro"
+  ]
+ },
+ {
+  "key": "a-len",
+  "name": "А.Лен",
+  "aliases": [],
+  "kind": "architecture",
+  "objects": [
+   "level-nagatinskaya"
+  ]
+ },
+ {
+  "key": "martynov-gatilova",
+  "name": "Архитектурная мастерская Мартынова и Гатиловой",
+  "aliases": [
+   "мастерская Мартынова и Гатиловой"
+  ],
+  "kind": "architecture",
+  "objects": [
+   "40-let-oktyabrya-7"
+  ]
+ },
+ {
+  "key": "atp-tlp",
+  "name": "АТП ТЛП",
+  "aliases": [],
+  "kind": "architecture",
+  "objects": [
+   "frunzenskaya-30"
+  ]
+ },
+ {
+  "key": "ekaterina-gren",
+  "name": "Бюро Екатерины Грень",
+  "aliases": [
+   "бюро Екатерины Грень"
+  ],
+  "kind": "architecture",
+  "objects": [
+   "vernissage"
+  ]
+ },
+ {
+  "key": "veshch",
+  "name": "Вещь!",
+  "aliases": [
+   "бюро Вещь!"
+  ],
+  "kind": "landscape",
+  "objects": [
+   "dolina-yauzy"
+  ]
+ },
+ {
+  "key": "domo",
+  "name": "Домо",
+  "aliases": [
+   "бюро Домо"
+  ],
+  "kind": "architecture",
+  "objects": [
+   "krt-na-ulitse-krzhizhanovskogo"
+  ]
+ },
+ {
+  "key": "irga",
+  "name": "Ирга",
+  "aliases": [
+   "архитектор Ирга"
+  ],
+  "kind": "architecture",
+  "objects": [
+   "pobeda"
+  ]
+ },
+ {
+  "key": "krupnyy-plan",
+  "name": "Крупный план",
+  "aliases": [
+   "«Крупный план»"
+  ],
+  "kind": "architecture",
+  "objects": [
+   "zhukov-8"
+  ]
+ },
+ {
+  "key": "mezonproekt",
+  "name": "Мезонпроект",
+  "aliases": [],
+  "kind": "architecture",
+  "objects": [
+   "dosflota-10"
+  ]
+ },
+ {
+  "key": "metropolis",
+  "name": "Метрополис",
+  "aliases": [
+   "«Метрополис»"
+  ],
+  "kind": "architecture",
+  "objects": [
+   "shabolovka-35"
+  ]
+ },
+ {
+  "key": "nva",
+  "name": "НВА",
+  "aliases": [
+   "студии НВА"
+  ],
+  "kind": "interior",
+  "objects": [
+   "nicole"
+  ]
+ },
+ {
+  "key": "plotkin",
+  "name": "Плоткин",
+  "aliases": [
+   "Плоткина"
+  ],
+  "kind": "architecture",
+  "objects": [
+   "savvinskaya-17"
+  ]
+ },
+ {
+  "key": "steve-brown",
+  "name": "Стив Браун",
+  "aliases": [],
+  "kind": "architecture",
+  "objects": [
+   "repablik"
+  ]
+ },
+ {
+  "key": "yauzaproekt",
+  "name": "Яузапроект",
+  "aliases": [],
+  "kind": "architecture",
+  "objects": [
+   "artkvartal"
+  ]
+ }
+]

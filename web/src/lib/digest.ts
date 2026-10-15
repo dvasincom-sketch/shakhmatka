@@ -83,6 +83,7 @@ export async function runDigest({ dry = false, only }: { dry?: boolean; only?: n
   const now = Date.now()
   let sent = 0, empty = 0, skipped = 0
   for (const r of readers) {
+    if (!r.email) { skipped++; continue } // вошёл по звонку и почту не оставил — писать некуда
     const gap = r.frequency === 'daily' ? 20 * 36e5 : 6.5 * 864e5
     if (r.lastDigestAt && now - new Date(r.lastDigestAt).getTime() < gap) { skipped++; continue }
     const since = r.lastDigestAt || r.createdAt

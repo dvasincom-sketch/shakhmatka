@@ -1,0 +1,34 @@
+{
+  "_readme": "Ручное досье (15.10.2026): знаковый проект, которого не было в архиве заметок. Источники: Новострой-М (карточка ЖК), РБК Недвижимость 31.05.2013, INTERNI 26.05.2015. Ссылки: https://www.novostroy-m.ru/baza/knightsbridge_private_park ; https://realty.rbc.ru/news/577d27b19a7947a78ce92c9b ; https://www.internimagazine.com/last_news/news_people/knightsbridge-private-park/",
+  "slug": "knightsbridge-private-park",
+  "name": "Knightsbridge Private Park",
+  "zu": "ул. Ефремова, 19, корп. 1–4",
+  "aliases": [
+    "Найтсбридж Приват Парк",
+    "ЖК Knightsbridge Private Park",
+    "Хлебозавод № 6"
+  ],
+  "region": "moscow",
+  "district": "khamovniki",
+  "stage": "completed",
+  "developer": "restavratsiya-n",
+  "developerName": "Реставрация Н",
+  "summary": "Клубный квартал в Хамовниках на месте хлебозавода № 6 (ул. Ефремова, 19): четыре малоэтажных дома на 163 квартиры площадью от 156 до 636 м² и парк около 2 га. Архитектор — Олег Рыбак, ландшафт — Крис Бёрдшоу, фасады в английской неоклассике. Все корпуса сданы.",
+  "timeline": [
+    {
+      "date": "2013-05-31",
+      "kind": "sales",
+      "title": "Проект в Хамовниках называют единственным проектом класса де-люкс в ЦАО: таунхаусы до 600 м² на нижних этажах и парк на 2 га",
+      "certainty": "fact",
+      "verified": true
+    },
+    {
+      "date": "2015-05-26",
+      "dateLabel": "2015 год",
+      "kind": "construction",
+      "title": "Квартал построен: архитектор Олег Рыбак, интерьеры общих зон — David Linley и Andrew Martin, парк — Крис Бёрдшоу",
+      "certainty": "fact",
+      "verified": true
+    }
+  ]
+}

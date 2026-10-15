@@ -1,0 +1,3742 @@
+{
+ "bureaus": [
+  {
+   "key": "apex",
+   "name": "APEX",
+   "objects": 54,
+   "main": 53,
+   "alt": 1,
+   "stages": {
+    "architecture": 19,
+    "sales": 29,
+    "completed": 2,
+    "permit": 3
+   },
+   "reached_permit_share": 0.64,
+   "devs": [
+    [
+     "Страна",
+     3
+    ],
+    [
+     "Пионер",
+     3
+    ],
+    [
+     "Гранель",
+     2
+    ],
+    [
+     "Град",
+     2
+    ],
+    [
+     "ПИК",
+     2
+    ]
+   ]
+  },
+  {
+   "key": "kleinewelt",
+   "name": "Kleinewelt Architekten",
+   "objects": 36,
+   "main": 36,
+   "alt": 0,
+   "stages": {
+    "architecture": 16,
+    "sales": 17,
+    "permit": 2,
+    "completed": 1
+   },
+   "reached_permit_share": 0.56,
+   "devs": [
+    [
+     "MR Group",
+     6
+    ],
+    [
+     "Stone",
+     6
+    ],
+    [
+     "Пионер",
+     3
+    ],
+    [
+     "ПИК",
+     2
+    ],
+    [
+     "Level Group",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "wall",
+   "name": "WALL",
+   "objects": 29,
+   "main": 28,
+   "alt": 1,
+   "stages": {
+    "completed": 1,
+    "sales": 14,
+    "architecture": 10,
+    "permit": 3
+   },
+   "reached_permit_share": 0.64,
+   "devs": [
+    [
+     "Stone",
+     7
+    ],
+    [
+     "Пионер",
+     3
+    ],
+    [
+     "Эталон",
+     2
+    ],
+    [
+     "ПИК",
+     2
+    ],
+    [
+     "Asterus",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "kamen",
+   "name": "KAMEN",
+   "objects": 28,
+   "main": 26,
+   "alt": 2,
+   "stages": {
+    "sales": 13,
+    "completed": 1,
+    "architecture": 9,
+    "permit": 2,
+    "concept": 1
+   },
+   "reached_permit_share": 0.62,
+   "devs": [
+    [
+     "Главстрой",
+     4
+    ],
+    [
+     "MR Group",
+     3
+    ],
+    [
+     "ЛСР",
+     2
+    ],
+    [
+     "Пионер",
+     1
+    ],
+    [
+     "Страна",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "gafa",
+   "name": "GAFA",
+   "objects": 28,
+   "main": 26,
+   "alt": 2,
+   "stages": {
+    "sales": 13,
+    "completed": 2,
+    "architecture": 11
+   },
+   "reached_permit_share": 0.58,
+   "devs": [
+    [
+     "Самолёт",
+     4
+    ],
+    [
+     "Vesper",
+     3
+    ],
+    [
+     "ПИК",
+     2
+    ],
+    [
+     "Level Group",
+     2
+    ],
+    [
+     "Кортрос",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "ind",
+   "name": "IND Architects",
+   "objects": 26,
+   "main": 24,
+   "alt": 2,
+   "stages": {
+    "architecture": 10,
+    "sales": 9,
+    "completed": 2,
+    "concept": 1,
+    "permit": 1,
+    "land": 1
+   },
+   "reached_permit_share": 0.5,
+   "devs": [
+    [
+     "Level Group",
+     4
+    ],
+    [
+     "Asterus",
+     2
+    ],
+    [
+     "Атриум",
+     1
+    ],
+    [
+     "Самолёт",
+     1
+    ],
+    [
+     "ПИК",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "tsimailo-lyashenko",
+   "name": "Цимайло, Ляшенко и Партнёры",
+   "objects": 20,
+   "main": 20,
+   "alt": 0,
+   "stages": {
+    "completed": 5,
+    "sales": 8,
+    "architecture": 7
+   },
+   "reached_permit_share": 0.65,
+   "devs": [
+    [
+     "Stone",
+     4
+    ],
+    [
+     "Пионер",
+     3
+    ],
+    [
+     "Sminex",
+     2
+    ],
+    [
+     "Hutton",
+     2
+    ],
+    [
+     "ВекторСтройФинанс",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "adm",
+   "name": "ADM",
+   "objects": 18,
+   "main": 18,
+   "alt": 0,
+   "stages": {
+    "sales": 8,
+    "completed": 2,
+    "architecture": 7,
+    "permit": 1
+   },
+   "reached_permit_share": 0.61,
+   "devs": [
+    [
+     "Пионер",
+     4
+    ],
+    [
+     "Sminex",
+     3
+    ],
+    [
+     "MR Group",
+     2
+    ],
+    [
+     "Level Group",
+     1
+    ],
+    [
+     "Dominanta",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "unk",
+   "name": "UNK",
+   "objects": 17,
+   "main": 17,
+   "alt": 0,
+   "stages": {
+    "sales": 8,
+    "architecture": 7,
+    "completed": 1,
+    "permit": 1
+   },
+   "reached_permit_share": 0.59,
+   "devs": [
+    [
+     "Абсолют",
+     2
+    ],
+    [
+     "Level Group",
+     2
+    ],
+    [
+     "MR Group",
+     2
+    ],
+    [
+     "Сбер",
+     1
+    ],
+    [
+     "Галс",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "speech",
+   "name": "SPEECH",
+   "objects": 16,
+   "main": 16,
+   "alt": 0,
+   "stages": {
+    "architecture": 3,
+    "sales": 10,
+    "land": 2,
+    "permit": 1
+   },
+   "reached_permit_share": 0.69,
+   "devs": [
+    [
+     "MR Group",
+     3
+    ],
+    [
+     "Галс",
+     2
+    ],
+    [
+     "Sminex",
+     2
+    ],
+    [
+     "Level Group",
+     1
+    ],
+    [
+     "Coldy",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "atrium",
+   "name": "ATRIUM",
+   "objects": 13,
+   "main": 12,
+   "alt": 1,
+   "stages": {
+    "architecture": 5,
+    "sales": 5,
+    "completed": 2
+   },
+   "reached_permit_share": 0.58,
+   "devs": [
+    [
+     "Эталон",
+     1
+    ],
+    [
+     "Asterus",
+     1
+    ],
+    [
+     "Донстрой",
+     1
+    ],
+    [
+     "Level Group",
+     1
+    ],
+    [
+     "Capital Alliance",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "asadov",
+   "name": "ASADOV",
+   "objects": 11,
+   "main": 10,
+   "alt": 1,
+   "stages": {
+    "sales": 4,
+    "architecture": 6
+   },
+   "reached_permit_share": 0.4,
+   "devs": [
+    [
+     "ЛСР",
+     1
+    ],
+    [
+     "Level Group",
+     1
+    ],
+    [
+     "НКК",
+     1
+    ],
+    [
+     "Интеко",
+     1
+    ],
+    [
+     "Vesper",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "arch-e-type",
+   "name": "ARCH(E)TYPE",
+   "objects": 11,
+   "main": 11,
+   "alt": 0,
+   "stages": {
+    "sales": 8,
+    "architecture": 2,
+    "concept": 1
+   },
+   "reached_permit_share": 0.73,
+   "devs": [
+    [
+     "Level Group",
+     7
+    ],
+    [
+     "Sminex",
+     1
+    ],
+    [
+     "Мангазея",
+     1
+    ],
+    [
+     "Regions Development",
+     1
+    ],
+    [
+     "Град",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "skuratov-architects",
+   "name": "Сергей Скуратов Architects",
+   "objects": 10,
+   "main": 9,
+   "alt": 1,
+   "stages": {
+    "architecture": 7,
+    "sales": 2
+   },
+   "reached_permit_share": 0.22,
+   "devs": [
+    [
+     "ЛСР",
+     2
+    ],
+    [
+     "Интеко",
+     1
+    ],
+    [
+     "Пионер",
+     1
+    ],
+    [
+     "Русский монолит",
+     1
+    ],
+    [
+     "Гута",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "ginzburg-architects",
+   "name": "Ginzburg Architects",
+   "objects": 10,
+   "main": 10,
+   "alt": 0,
+   "stages": {
+    "sales": 1,
+    "permit": 3,
+    "architecture": 6
+   },
+   "reached_permit_share": 0.4,
+   "devs": [
+    [
+     "Tekta",
+     1
+    ],
+    [
+     "Coldy",
+     1
+    ],
+    [
+     "Самолёт",
+     1
+    ],
+    [
+     "Пионер",
+     1
+    ],
+    [
+     "Отрада",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "syntaxis",
+   "name": "Syntaxis",
+   "objects": 10,
+   "main": 10,
+   "alt": 0,
+   "stages": {
+    "sales": 3,
+    "architecture": 6,
+    "concept": 1
+   },
+   "reached_permit_share": 0.3,
+   "devs": [
+    [
+     "ПИК",
+     2
+    ],
+    [
+     "Эталон",
+     2
+    ],
+    [
+     "Самолёт",
+     1
+    ],
+    [
+     "Группа «Голос» (СЗ «Голос.15»)",
+     1
+    ],
+    [
+     "ДОМ.РФ",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "masters-plan",
+   "name": "Master's plan",
+   "objects": 10,
+   "main": 10,
+   "alt": 0,
+   "stages": {
+    "architecture": 4,
+    "sales": 4,
+    "permit": 1,
+    "completed": 1
+   },
+   "reached_permit_share": 0.6,
+   "devs": [
+    [
+     "Главстрой",
+     1
+    ],
+    [
+     "ПИК",
+     1
+    ],
+    [
+     "Level Group",
+     1
+    ],
+    [
+     "Трансстройинвест",
+     1
+    ],
+    [
+     "Самолёт",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "white-stones",
+   "name": "White Stones",
+   "objects": 10,
+   "main": 10,
+   "alt": 0,
+   "stages": {
+    "architecture": 9,
+    "land": 1
+   },
+   "reached_permit_share": 0.0,
+   "devs": [
+    [
+     "Русич",
+     1
+    ],
+    [
+     "ГК Развитие",
+     1
+    ],
+    [
+     "Vos'hod",
+     1
+    ],
+    [
+     "ГК Конти",
+     1
+    ],
+    [
+     "Трансюжстрой",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "ariada",
+   "name": "Ariada",
+   "objects": 9,
+   "main": 8,
+   "alt": 1,
+   "stages": {
+    "sales": 4,
+    "architecture": 4
+   },
+   "reached_permit_share": 0.5,
+   "devs": [
+    [
+     "Level Group",
+     1
+    ],
+    [
+     "Coldy",
+     1
+    ],
+    [
+     "ФСК",
+     1
+    ],
+    [
+     "ЛСР",
+     1
+    ],
+    [
+     "Аквилон",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "de-architekten-cie",
+   "name": "de Architekten Cie",
+   "objects": 9,
+   "main": 8,
+   "alt": 1,
+   "stages": {
+    "sales": 6,
+    "completed": 1,
+    "architecture": 1
+   },
+   "reached_permit_share": 0.88,
+   "devs": [
+    [
+     "Самолёт",
+     2
+    ],
+    [
+     "Level Group",
+     2
+    ],
+    [
+     "Forma",
+     2
+    ],
+    [
+     "Родина",
+     1
+    ],
+    [
+     "Страна",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "mla-plus",
+   "name": "MLA+",
+   "objects": 8,
+   "main": 7,
+   "alt": 1,
+   "stages": {
+    "architecture": 2,
+    "sales": 3,
+    "unknown": 1,
+    "completed": 1
+   },
+   "reached_permit_share": 0.57,
+   "devs": [
+    [
+     "Восток Девелопмент",
+     1
+    ],
+    [
+     "Аквилон",
+     1
+    ],
+    [
+     "ВекторСтройФинанс",
+     1
+    ],
+    [
+     "РГ",
+     1
+    ],
+    [
+     "ПСН",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "nowadays",
+   "name": "Nowadays",
+   "objects": 8,
+   "main": 7,
+   "alt": 1,
+   "stages": {
+    "sales": 2,
+    "architecture": 4,
+    "completed": 1
+   },
+   "reached_permit_share": 0.43,
+   "devs": [
+    [
+     "Foresight",
+     1
+    ],
+    [
+     "Центр Инвест",
+     1
+    ],
+    [
+     "Эталон",
+     1
+    ],
+    [
+     "Vesper",
+     1
+    ],
+    [
+     "Родина",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "above",
+   "name": "ABOVE",
+   "objects": 8,
+   "main": 8,
+   "alt": 0,
+   "stages": {
+    "concept": 1,
+    "architecture": 6,
+    "sales": 1
+   },
+   "reached_permit_share": 0.12,
+   "devs": [
+    [
+     "Level Group",
+     2
+    ],
+    [
+     "Capital Group",
+     1
+    ],
+    [
+     "Hutton",
+     1
+    ],
+    [
+     "ДС",
+     1
+    ],
+    [
+     "Пром Архитектура",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "abd",
+   "name": "ABD",
+   "objects": 8,
+   "main": 8,
+   "alt": 0,
+   "stages": {
+    "completed": 1,
+    "architecture": 2,
+    "land": 1,
+    "sales": 3,
+    "concept": 1
+   },
+   "reached_permit_share": 0.5,
+   "devs": [
+    [
+     "Галс",
+     1
+    ],
+    [
+     "НКК",
+     1
+    ],
+    [
+     "ПИК",
+     1
+    ],
+    [
+     "Кортрос",
+     1
+    ],
+    [
+     "Абсолют",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "blank-architects",
+   "name": "Blank Architects",
+   "objects": 7,
+   "main": 7,
+   "alt": 0,
+   "stages": {
+    "architecture": 2,
+    "sales": 4,
+    "completed": 1
+   },
+   "reached_permit_share": 0.71,
+   "devs": [
+    [
+     "ПСН",
+     1
+    ],
+    [
+     "Sminex",
+     1
+    ],
+    [
+     "Hutton",
+     1
+    ],
+    [
+     "Tekta",
+     1
+    ],
+    [
+     "СЗ «Танковый»",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "nikken-sekkei",
+   "name": "Nikken Sekkei",
+   "objects": 7,
+   "main": 7,
+   "alt": 0,
+   "stages": {
+    "architecture": 2,
+    "sales": 5
+   },
+   "reached_permit_share": 0.71,
+   "devs": [
+    [
+     "October Group",
+     3
+    ],
+    [
+     "Пионер",
+     1
+    ],
+    [
+     "Сбер",
+     1
+    ],
+    [
+     "Кортрос",
+     1
+    ],
+    [
+     "MR Group",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "genpro",
+   "name": "Генпро",
+   "objects": 7,
+   "main": 7,
+   "alt": 0,
+   "stages": {
+    "sales": 4,
+    "unknown": 1,
+    "architecture": 2
+   },
+   "reached_permit_share": 0.57,
+   "devs": [
+    [
+     "MR Group",
+     2
+    ],
+    [
+     "ПИК",
+     1
+    ],
+    [
+     "РГ",
+     1
+    ],
+    [
+     "Sminex",
+     1
+    ],
+    [
+     "Tekta",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "tt-architects",
+   "name": "T+T Architects",
+   "objects": 7,
+   "main": 6,
+   "alt": 1,
+   "stages": {
+    "completed": 1,
+    "architecture": 2,
+    "sales": 3
+   },
+   "reached_permit_share": 0.67,
+   "devs": [
+    [
+     "Level Group",
+     2
+    ],
+    [
+     "Stone",
+     1
+    ],
+    [
+     "Sminex",
+     1
+    ],
+    [
+     "Галс",
+     1
+    ],
+    [
+     "Гранель",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "kpln",
+   "name": "KPLN",
+   "objects": 7,
+   "main": 7,
+   "alt": 0,
+   "stages": {
+    "architecture": 6,
+    "sales": 1
+   },
+   "reached_permit_share": 0.14,
+   "devs": [
+    [
+     "А101",
+     2
+    ],
+    [
+     "October Group",
+     1
+    ],
+    [
+     "БЭЛ",
+     1
+    ],
+    [
+     "ПИК",
+     1
+    ],
+    [
+     "РЖД",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "parsec",
+   "name": "Parsec",
+   "objects": 6,
+   "main": 6,
+   "alt": 0,
+   "stages": {
+    "architecture": 1,
+    "completed": 1,
+    "sales": 4
+   },
+   "reached_permit_share": 0.83,
+   "devs": [
+    [
+     "ЛСР",
+     1
+    ],
+    [
+     "Stone",
+     1
+    ],
+    [
+     "Гута",
+     1
+    ],
+    [
+     "А101",
+     1
+    ],
+    [
+     "ПИК",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "marks-group",
+   "name": "Marks Group",
+   "objects": 6,
+   "main": 5,
+   "alt": 1,
+   "stages": {
+    "architecture": 4,
+    "sales": 1
+   },
+   "reached_permit_share": 0.2,
+   "devs": [
+    [
+     "Кортрос",
+     1
+    ],
+    [
+     "НКК",
+     1
+    ],
+    [
+     "КП УГС",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "dnk-ag",
+   "name": "DNK ag",
+   "objects": 6,
+   "main": 6,
+   "alt": 0,
+   "stages": {
+    "architecture": 3,
+    "sales": 3
+   },
+   "reached_permit_share": 0.5,
+   "devs": [
+    [
+     "Coldy",
+     2
+    ],
+    [
+     "KR Properties",
+     1
+    ],
+    [
+     "Рост",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "abv",
+   "name": "ABV",
+   "objects": 6,
+   "main": 3,
+   "alt": 3,
+   "stages": {
+    "architecture": 2,
+    "completed": 1
+   },
+   "reached_permit_share": 0.33,
+   "devs": [
+    [
+     "Самолёт",
+     1
+    ],
+    [
+     "Строй-комплекс",
+     1
+    ],
+    [
+     "Level Group",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "ai-architects",
+   "name": "AI Architects",
+   "objects": 6,
+   "main": 5,
+   "alt": 1,
+   "stages": {
+    "completed": 1,
+    "sales": 3,
+    "architecture": 1
+   },
+   "reached_permit_share": 0.8,
+   "devs": [
+    [
+     "Level Group",
+     1
+    ],
+    [
+     "Балчуг девелопмент",
+     1
+    ],
+    [
+     "ПИК",
+     1
+    ],
+    [
+     "Страна",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "borisov-architects",
+   "name": "Borisov Architects",
+   "objects": 6,
+   "main": 6,
+   "alt": 0,
+   "stages": {
+    "architecture": 5,
+    "sales": 1
+   },
+   "reached_permit_share": 0.17,
+   "devs": [
+    [
+     "Level Group",
+     2
+    ],
+    [
+     "Брусника",
+     1
+    ],
+    [
+     "Upside",
+     1
+    ],
+    [
+     "ЮгСтройИнвест",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "meganom",
+   "name": "Меганом",
+   "objects": 5,
+   "main": 5,
+   "alt": 0,
+   "stages": {
+    "architecture": 2,
+    "sales": 2,
+    "completed": 1
+   },
+   "reached_permit_share": 0.6,
+   "devs": [
+    [
+     "Ташир",
+     1
+    ],
+    [
+     "Тройка РЭД",
+     1
+    ],
+    [
+     "Страна",
+     1
+    ],
+    [
+     "Гута",
+     1
+    ],
+    [
+     "Vesper",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "ostozhenka",
+   "name": "Остоженка",
+   "objects": 5,
+   "main": 4,
+   "alt": 1,
+   "stages": {
+    "architecture": 1,
+    "sales": 3
+   },
+   "reached_permit_share": 0.75,
+   "devs": [
+    [
+     "РЖД",
+     1
+    ],
+    [
+     "Level Group",
+     1
+    ],
+    [
+     "ЛСР",
+     1
+    ],
+    [
+     "Новая Эра",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "buromoscow",
+   "name": "Buromoscow",
+   "objects": 5,
+   "main": 5,
+   "alt": 0,
+   "stages": {
+    "sales": 1,
+    "completed": 1,
+    "architecture": 3
+   },
+   "reached_permit_share": 0.4,
+   "devs": [
+    [
+     "Эталон",
+     2
+    ],
+    [
+     "ЛСР",
+     1
+    ],
+    [
+     "Река Резорт",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "oleg-klodt",
+   "name": "Oleg Klodt Architecture & Design",
+   "objects": 4,
+   "main": 4,
+   "alt": 0,
+   "stages": {
+    "completed": 2,
+    "architecture": 1,
+    "sales": 1
+   },
+   "reached_permit_share": 0.75,
+   "devs": [
+    [
+     "Dominanta",
+     1
+    ],
+    [
+     "Coldy",
+     1
+    ],
+    [
+     "Sminex",
+     1
+    ],
+    [
+     "MR Group",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "saga",
+   "name": "Saga",
+   "objects": 4,
+   "main": 4,
+   "alt": 0,
+   "stages": {
+    "architecture": 1,
+    "sales": 3
+   },
+   "reached_permit_share": 0.75,
+   "devs": [
+    [
+     "ПИК",
+     2
+    ],
+    [
+     "Level Group",
+     1
+    ],
+    [
+     "Гута",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "mam",
+   "name": "М.А.М.",
+   "objects": 4,
+   "main": 4,
+   "alt": 0,
+   "stages": {
+    "sales": 3,
+    "architecture": 1
+   },
+   "reached_permit_share": 0.75,
+   "devs": [
+    [
+     "ПИК",
+     1
+    ],
+    [
+     "Капиталисты",
+     1
+    ],
+    [
+     "MR Group",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "oda",
+   "name": "ODA",
+   "objects": 4,
+   "main": 3,
+   "alt": 1,
+   "stages": {
+    "sales": 2,
+    "permit": 1
+   },
+   "reached_permit_share": 1.0,
+   "devs": [
+    [
+     "Абсолют",
+     2
+    ],
+    [
+     "Level Group",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "sergey-kiselev",
+   "name": "Бюро Сергея Киселёва",
+   "objects": 4,
+   "main": 4,
+   "alt": 0,
+   "stages": {
+    "sales": 2,
+    "architecture": 2
+   },
+   "reached_permit_share": 0.5,
+   "devs": [
+    [
+     "Tekta",
+     1
+    ],
+    [
+     "Страна",
+     1
+    ],
+    [
+     "СК10",
+     1
+    ],
+    [
+     "Dominanta",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "gren",
+   "name": "GREN",
+   "objects": 4,
+   "main": 4,
+   "alt": 0,
+   "stages": {
+    "sales": 3,
+    "architecture": 1
+   },
+   "reached_permit_share": 0.75,
+   "devs": [
+    [
+     "Самолёт",
+     3
+    ],
+    [
+     "Level Group",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "bbm",
+   "name": "ББМ",
+   "objects": 4,
+   "main": 4,
+   "alt": 0,
+   "stages": {
+    "sales": 3,
+    "completed": 1
+   },
+   "reached_permit_share": 1.0,
+   "devs": [
+    [
+     "ПИК",
+     1
+    ],
+    [
+     "Родина",
+     1
+    ],
+    [
+     "Самолёт",
+     1
+    ],
+    [
+     "Страна",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "dyer",
+   "name": "Dyer",
+   "objects": 3,
+   "main": 3,
+   "alt": 0,
+   "stages": {
+    "sales": 3
+   },
+   "reached_permit_share": 1.0,
+   "devs": [
+    [
+     "Level Group",
+     1
+    ],
+    [
+     "Абсолют",
+     1
+    ],
+    [
+     "MR Group",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "hadaa",
+   "name": "HADAA Architects",
+   "objects": 3,
+   "main": 3,
+   "alt": 0,
+   "stages": {
+    "sales": 2,
+    "architecture": 1
+   },
+   "reached_permit_share": 0.67,
+   "devs": [
+    [
+     "ПИК",
+     1
+    ],
+    [
+     "Трансстройинвест",
+     1
+    ],
+    [
+     "Stone",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "john-mcaslan",
+   "name": "John McAslan + Partners",
+   "objects": 3,
+   "main": 3,
+   "alt": 0,
+   "stages": {
+    "architecture": 2,
+    "sales": 1
+   },
+   "reached_permit_share": 0.33,
+   "devs": [
+    [
+     "Главстрой",
+     1
+    ],
+    [
+     "Страна",
+     1
+    ],
+    [
+     "AB Development",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "ket",
+   "name": "ket",
+   "objects": 3,
+   "main": 3,
+   "alt": 0,
+   "stages": {
+    "sales": 3
+   },
+   "reached_permit_share": 1.0,
+   "devs": [
+    [
+     "Palladio Group",
+     1
+    ],
+    [
+     "MR Group",
+     1
+    ],
+    [
+     "Forma",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "masterskaya-dmitrieva",
+   "name": "Архитектурная мастерская Михаила Дмитриева",
+   "objects": 3,
+   "main": 3,
+   "alt": 0,
+   "stages": {
+    "completed": 1,
+    "sales": 1,
+    "architecture": 1
+   },
+   "reached_permit_share": 0.67,
+   "devs": [
+    [
+     "Основа",
+     1
+    ],
+    [
+     "Эталон",
+     1
+    ],
+    [
+     "Река Резорт",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "byuro-80-88",
+   "name": "80/88",
+   "objects": 3,
+   "main": 2,
+   "alt": 1,
+   "stages": {
+    "completed": 1,
+    "architecture": 1
+   },
+   "reached_permit_share": 0.5,
+   "devs": [
+    [
+     "Level Group",
+     2
+    ]
+   ]
+  },
+  {
+   "key": "citizenstudio",
+   "name": "Citizenstudio",
+   "objects": 3,
+   "main": 3,
+   "alt": 0,
+   "stages": {
+    "sales": 2,
+    "architecture": 1
+   },
+   "reached_permit_share": 0.67,
+   "devs": [
+    [
+     "Брусника",
+     1
+    ],
+    [
+     "Самолёт",
+     1
+    ],
+    [
+     "Аквилон",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "civil-architects",
+   "name": "Civil Architects",
+   "objects": 3,
+   "main": 2,
+   "alt": 1,
+   "stages": {
+    "architecture": 2
+   },
+   "reached_permit_share": 0.0,
+   "devs": [
+    [
+     "ПСН",
+     1
+    ],
+    [
+     "Гранель",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "vi",
+   "name": "ВИ",
+   "objects": 3,
+   "main": 3,
+   "alt": 0,
+   "stages": {
+    "architecture": 3
+   },
+   "reached_permit_share": 0.0,
+   "devs": [
+    [
+     "ЛСР",
+     1
+    ],
+    [
+     "Magnum Development",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "gorproekt",
+   "name": "Горпроект",
+   "objects": 3,
+   "main": 3,
+   "alt": 0,
+   "stages": {
+    "architecture": 1,
+    "sales": 1,
+    "completed": 1
+   },
+   "reached_permit_share": 0.67,
+   "devs": [
+    [
+     "Sezar Group",
+     1
+    ],
+    [
+     "Донстрой",
+     1
+    ],
+    [
+     "Эталон",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "max-dudler",
+   "name": "Max Dudler",
+   "objects": 2,
+   "main": 2,
+   "alt": 0,
+   "stages": {
+    "completed": 1,
+    "sales": 1
+   },
+   "reached_permit_share": 1.0,
+   "devs": [
+    [
+     "Родина",
+     1
+    ],
+    [
+     "Страна",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "simpsonhaugh",
+   "name": "SimpsonHaugh",
+   "objects": 2,
+   "main": 2,
+   "alt": 0,
+   "stages": {
+    "sales": 2
+   },
+   "reached_permit_share": 1.0,
+   "devs": [
+    [
+     "Страна",
+     1
+    ],
+    [
+     "Абсолют",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "byuro-bashkaeva",
+   "name": "Бюро Тимура Башкаева",
+   "objects": 2,
+   "main": 1,
+   "alt": 1,
+   "stages": {
+    "architecture": 1
+   },
+   "reached_permit_share": 0.0,
+   "devs": [
+    [
+     "НКК",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "masterskaya-gerasimova",
+   "name": "Мастерская Евгения Герасимова и партнёров",
+   "objects": 2,
+   "main": 2,
+   "alt": 0,
+   "stages": {
+    "architecture": 1,
+    "permit": 1
+   },
+   "reached_permit_share": 0.5,
+   "devs": [
+    [
+     "Coldy",
+     2
+    ]
+   ]
+  },
+  {
+   "key": "megabudka",
+   "name": "Megabudka",
+   "objects": 2,
+   "main": 2,
+   "alt": 0,
+   "stages": {
+    "permit": 1,
+    "architecture": 1
+   },
+   "reached_permit_share": 0.5,
+   "devs": [
+    [
+     "Трансстройинвест",
+     1
+    ],
+    [
+     "ГК Развитие",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "mvrdv",
+   "name": "MVRDV",
+   "objects": 2,
+   "main": 2,
+   "alt": 0,
+   "stages": {
+    "completed": 1,
+    "sales": 1
+   },
+   "reached_permit_share": 1.0,
+   "devs": [
+    [
+     "Основа",
+     1
+    ],
+    [
+     "Абсолют",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "semren-mansson",
+   "name": "Semrén & Månsson",
+   "objects": 2,
+   "main": 1,
+   "alt": 1,
+   "stages": {
+    "sales": 1
+   },
+   "reached_permit_share": 1.0,
+   "devs": [
+    [
+     "Сбер",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "masterskaya-ilina",
+   "name": "Мастерская Алексея Ильина",
+   "objects": 2,
+   "main": 2,
+   "alt": 0,
+   "stages": {
+    "architecture": 1,
+    "sales": 1
+   },
+   "reached_permit_share": 0.5,
+   "devs": [
+    [
+     "НКК",
+     1
+    ],
+    [
+     "3S",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "breath",
+   "name": "Breath Architects",
+   "objects": 2,
+   "main": 2,
+   "alt": 0,
+   "stages": {
+    "architecture": 2
+   },
+   "reached_permit_share": 0.0,
+   "devs": [
+    [
+     "ЛСР",
+     2
+    ]
+   ]
+  },
+  {
+   "key": "ddd",
+   "name": "DDD",
+   "objects": 2,
+   "main": 2,
+   "alt": 0,
+   "stages": {
+    "sales": 1,
+    "architecture": 1
+   },
+   "reached_permit_share": 0.5,
+   "devs": [
+    [
+     "Level Group",
+     1
+    ],
+    [
+     "DDD",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "kanva",
+   "name": "Kanva",
+   "objects": 2,
+   "main": 2,
+   "alt": 0,
+   "stages": {
+    "architecture": 1,
+    "sales": 1
+   },
+   "reached_permit_share": 0.5,
+   "devs": [
+    [
+     "Бизнес-Инвестиции",
+     1
+    ],
+    [
+     "Plus Development",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "mayak",
+   "name": "MAYAK",
+   "objects": 2,
+   "main": 2,
+   "alt": 0,
+   "stages": {
+    "sales": 2
+   },
+   "reached_permit_share": 1.0,
+   "devs": [
+    [
+     "ПИК",
+     1
+    ],
+    [
+     "October Group",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "mpg",
+   "name": "MPG Architects",
+   "objects": 2,
+   "main": 2,
+   "alt": 0,
+   "stages": {
+    "sales": 1,
+    "architecture": 1
+   },
+   "reached_permit_share": 0.5,
+   "devs": [
+    [
+     "Основа",
+     1
+    ],
+    [
+     "РКС",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "osa",
+   "name": "OSA architectural office",
+   "objects": 2,
+   "main": 1,
+   "alt": 1,
+   "stages": {
+    "architecture": 1
+   },
+   "reached_permit_share": 0.0,
+   "devs": [
+    [
+     "ФСК",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "plp-architecture",
+   "name": "PLP Architecture",
+   "objects": 2,
+   "main": 2,
+   "alt": 0,
+   "stages": {
+    "architecture": 2
+   },
+   "reached_permit_share": 0.0,
+   "devs": [
+    [
+     "Яндекс",
+     1
+    ],
+    [
+     "Sense",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "progress",
+   "name": "Progress",
+   "objects": 2,
+   "main": 1,
+   "alt": 1,
+   "stages": {
+    "architecture": 1
+   },
+   "reached_permit_share": 0.0,
+   "devs": [
+    [
+     "Главстрой",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "u-studio",
+   "name": "U-Studio",
+   "objects": 2,
+   "main": 2,
+   "alt": 0,
+   "stages": {
+    "sales": 2
+   },
+   "reached_permit_share": 1.0,
+   "devs": [
+    [
+     "ЛСР",
+     1
+    ],
+    [
+     "Sminex",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "vostok",
+   "name": "VOSTOK",
+   "objects": 2,
+   "main": 2,
+   "alt": 0,
+   "stages": {
+    "architecture": 1,
+    "sales": 1
+   },
+   "reached_permit_share": 0.5,
+   "devs": [
+    [
+     "Интеко",
+     1
+    ],
+    [
+     "Magnum Development",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "tpo-pride",
+   "name": "ТПО Pride",
+   "objects": 2,
+   "main": 2,
+   "alt": 0,
+   "stages": {
+    "sales": 1,
+    "permit": 1
+   },
+   "reached_permit_share": 1.0,
+   "devs": [
+    [
+     "Галс",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "lampa-community",
+   "name": "Lampa Community",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "architecture": 1
+   },
+   "reached_permit_share": 0.0,
+   "devs": [
+    [
+     "Самолёт",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "steel",
+   "name": "Steel",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "architecture": 1
+   },
+   "reached_permit_share": 0.0,
+   "devs": [
+    [
+     "Самолёт",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "archivista",
+   "name": "Archivista",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "sales": 1
+   },
+   "reached_permit_share": 1.0,
+   "devs": [
+    [
+     "Неометрия",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "buro-2-2",
+   "name": "Buro 2+2",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "architecture": 1
+   },
+   "reached_permit_share": 0.0,
+   "devs": [
+    [
+     "Capital Group",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "heatherwick-studio",
+   "name": "Heatherwick Studio",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "permit": 1
+   },
+   "reached_permit_share": 1.0,
+   "devs": [
+    [
+     "MR Group",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "mecanoo",
+   "name": "Mecanoo",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "sales": 1
+   },
+   "reached_permit_share": 1.0,
+   "devs": [
+    [
+     "Основа",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "muza-form",
+   "name": "MUZA FORM",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "architecture": 1
+   },
+   "reached_permit_share": 0.0,
+   "devs": [
+    [
+     "ДОМ.РФ",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "steve-brown-architecture",
+   "name": "Steve Brown Architecture",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "sales": 1
+   },
+   "reached_permit_share": 1.0,
+   "devs": [
+    [
+     "Страна",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "studio-jahn",
+   "name": "Studio Jahn",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "sales": 1
+   },
+   "reached_permit_share": 1.0,
+   "devs": [
+    [
+     "MR Group",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "umbra",
+   "name": "umbra",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "architecture": 1
+   },
+   "reached_permit_share": 0.0,
+   "devs": [
+    [
+     "ЛСР",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "unstudio",
+   "name": "UNStudio",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "architecture": 1
+   },
+   "reached_permit_share": 0.0,
+   "devs": [
+    [
+     "Главстрой",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "up-plus",
+   "name": "UP+",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "sales": 1
+   },
+   "reached_permit_share": 1.0,
+   "devs": [
+    [
+     "KR Properties",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "kk",
+   "name": "К+К",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "sales": 1
+   },
+   "reached_permit_share": 1.0,
+   "devs": [
+    [
+     "ПИК",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "mikhail-feldman",
+   "name": "Михаил Фельдман",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "sales": 1
+   },
+   "reached_permit_share": 1.0,
+   "devs": [
+    [
+     "Крост",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "a2m",
+   "name": "A2M",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "permit": 1
+   },
+   "reached_permit_share": 1.0,
+   "devs": [
+    [
+     "Страна",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "abg",
+   "name": "ABG",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "architecture": 1
+   },
+   "reached_permit_share": 0.0,
+   "devs": [
+    [
+     "Эталон",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "ahr",
+   "name": "AHR",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "sales": 1
+   },
+   "reached_permit_share": 1.0,
+   "devs": [
+    [
+     "Эталон",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "amirov-architects",
+   "name": "Amirov Architects",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "architecture": 1
+   },
+   "reached_permit_share": 0.0,
+   "devs": [
+    [
+     "ЛСР",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "antonini-darmon",
+   "name": "Antonini Darmon",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "architecture": 1
+   },
+   "reached_permit_share": 0.0,
+   "devs": [
+    [
+     "Vesper",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "archelp",
+   "name": "ARCHELP",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "concept": 1
+   },
+   "reached_permit_share": 0.0,
+   "devs": []
+  },
+  {
+   "key": "archives",
+   "name": "ARCHIVES. Legkov Markosyan",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "architecture": 1
+   },
+   "reached_permit_share": 0.0,
+   "devs": [
+    [
+     "Галс",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "arkady-smirnov",
+   "name": "Arkady Smirnov",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "completed": 1
+   },
+   "reached_permit_share": 1.0,
+   "devs": [
+    [
+     "Родина",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "aukett",
+   "name": "AUKETT SWANKE",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "sales": 1
+   },
+   "reached_permit_share": 1.0,
+   "devs": [
+    [
+     "Абсолют",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "babayants",
+   "name": "Babayants architects",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "architecture": 1
+   },
+   "reached_permit_share": 0.0,
+   "devs": [
+    [
+     "Forma",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "clou",
+   "name": "CLOU Architects",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "permit": 1
+   },
+   "reached_permit_share": 1.0,
+   "devs": [
+    [
+     "Страна",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "coop-himmelblau",
+   "name": "Coop Himmelb(l)au",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "architecture": 1
+   },
+   "reached_permit_share": 0.0,
+   "devs": [
+    [
+     "ЛСР",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "chipperfield",
+   "name": "David Chipperfield Architects",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "sales": 1
+   },
+   "reached_permit_share": 1.0,
+   "devs": [
+    [
+     "Vos'hod",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "droo",
+   "name": "DROO",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "architecture": 1
+   },
+   "reached_permit_share": 0.0,
+   "devs": [
+    [
+     "Sense",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "do-bureau",
+   "name": "DŌ",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "architecture": 1
+   },
+   "reached_permit_share": 0.0,
+   "devs": []
+  },
+  {
+   "key": "gravion-group",
+   "name": "Gravion group",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "architecture": 1
+   },
+   "reached_permit_share": 0.0,
+   "devs": [
+    [
+     "Основа",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "gregory-tuck-architects",
+   "name": "Gregory Tuck Architects",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "sales": 1
+   },
+   "reached_permit_share": 1.0,
+   "devs": [
+    [
+     "Sense",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "herzog",
+   "name": "Herzog & de Meuron",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "architecture": 1
+   },
+   "reached_permit_share": 0.0,
+   "devs": [
+    [
+     "Capital Group",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "highlight",
+   "name": "Highlight Architecture",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "sales": 1
+   },
+   "reached_permit_share": 1.0,
+   "devs": [
+    [
+     "3S",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "iq",
+   "name": "IQ",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "sales": 1
+   },
+   "reached_permit_share": 1.0,
+   "devs": [
+    [
+     "Level Group",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "jtp",
+   "name": "JTP",
+   "objects": 1,
+   "main": 0,
+   "alt": 1,
+   "stages": {},
+   "reached_permit_share": null,
+   "devs": []
+  },
+  {
+   "key": "katarsis",
+   "name": "Katarsis",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "sales": 1
+   },
+   "reached_permit_share": 1.0,
+   "devs": [
+    [
+     "ПИК",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "kengo-kuma",
+   "name": "Kengo Kuma",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "architecture": 1
+   },
+   "reached_permit_share": 0.0,
+   "devs": [
+    [
+     "Главстрой",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "kk-archstudio",
+   "name": "KK ARCHSTUDIO",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "sales": 1
+   },
+   "reached_permit_share": 1.0,
+   "devs": [
+    [
+     "ПИК",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "kokaistudious",
+   "name": "Kokaistudious",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "permit": 1
+   },
+   "reached_permit_share": 1.0,
+   "devs": [
+    [
+     "Страна",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "kosmos-architects",
+   "name": "Kosmos Architects",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "permit": 1
+   },
+   "reached_permit_share": 1.0,
+   "devs": [
+    [
+     "Страна",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "krnv",
+   "name": "KRNV architects",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "architecture": 1
+   },
+   "reached_permit_share": 0.0,
+   "devs": [
+    [
+     "Гута",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "lunn",
+   "name": "Lunn",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "concept": 1
+   },
+   "reached_permit_share": 0.0,
+   "devs": [
+    [
+     "ГК НПС",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "main",
+   "name": "MAIN",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "architecture": 1
+   },
+   "reached_permit_share": 0.0,
+   "devs": []
+  },
+  {
+   "key": "martela",
+   "name": "Martela",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "architecture": 1
+   },
+   "reached_permit_share": 0.0,
+   "devs": [
+    [
+     "Интеко",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "maxx",
+   "name": "MAXX",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "architecture": 1
+   },
+   "reached_permit_share": 0.0,
+   "devs": [
+    [
+     "Struktura Development",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "michalowski",
+   "name": "Michalowski",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "permit": 1
+   },
+   "reached_permit_share": 1.0,
+   "devs": []
+  },
+  {
+   "key": "ms-architects",
+   "name": "MS Architects",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "sales": 1
+   },
+   "reached_permit_share": 1.0,
+   "devs": [
+    [
+     "Аквилон",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "msp",
+   "name": "MSP",
+   "objects": 1,
+   "main": 0,
+   "alt": 1,
+   "stages": {},
+   "reached_permit_share": null,
+   "devs": []
+  },
+  {
+   "key": "oma",
+   "name": "OMA",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "sales": 1
+   },
+   "reached_permit_share": 1.0,
+   "devs": [
+    [
+     "ПИК",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "parametrica",
+   "name": "Parametrica",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "architecture": 1
+   },
+   "reached_permit_share": 0.0,
+   "devs": [
+    [
+     "Инград",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "paris-classical-architecture",
+   "name": "Paris Classical Architecture",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "sales": 1
+   },
+   "reached_permit_share": 1.0,
+   "devs": [
+    [
+     "ЛСР",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "project-2018",
+   "name": "project 2018",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "sales": 1
+   },
+   "reached_permit_share": 1.0,
+   "devs": [
+    [
+     "РГ",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "sheloves",
+   "name": "SHELOVES",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "sales": 1
+   },
+   "reached_permit_share": 1.0,
+   "devs": [
+    [
+     "Galaxy Group",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "slava-plus",
+   "name": "Slava+",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "sales": 1
+   },
+   "reached_permit_share": 1.0,
+   "devs": [
+    [
+     "ПИК",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "smagin",
+   "name": "Smagin Architects",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "architecture": 1
+   },
+   "reached_permit_share": 0.0,
+   "devs": [
+    [
+     "Plus Development",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "soulstone",
+   "name": "SOULSTONE",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "architecture": 1
+   },
+   "reached_permit_share": 0.0,
+   "devs": [
+    [
+     "Самолёт",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "sredaa",
+   "name": "SREDAA",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "architecture": 1
+   },
+   "reached_permit_share": 0.0,
+   "devs": [
+    [
+     "Стена",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "stanton-williams",
+   "name": "Stanton Williams",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "architecture": 1
+   },
+   "reached_permit_share": 0.0,
+   "devs": [
+    [
+     "AB Development",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "svesmi",
+   "name": "SVESMI",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "completed": 1
+   },
+   "reached_permit_share": 1.0,
+   "devs": [
+    [
+     "ЛСР",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "tabanlioglu",
+   "name": "Tabanlioglu Architects",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "architecture": 1
+   },
+   "reached_permit_share": 0.0,
+   "devs": [
+    [
+     "Uniq",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "thomas-juul-hansen",
+   "name": "Thomas Juul Hansen",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "sales": 1
+   },
+   "reached_permit_share": 1.0,
+   "devs": [
+    [
+     "ЛСР",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "um",
+   "name": "UM",
+   "objects": 1,
+   "main": 0,
+   "alt": 1,
+   "stages": {},
+   "reached_permit_share": null,
+   "devs": []
+  },
+  {
+   "key": "valode-pistre",
+   "name": "Valode & Pistre",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "architecture": 1
+   },
+   "reached_permit_share": 0.0,
+   "devs": [
+    [
+     "Вперёд ДВЛ",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "wilmotte",
+   "name": "Wilmotte & Associés",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "sales": 1
+   },
+   "reached_permit_share": 1.0,
+   "devs": [
+    [
+     "Гута",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "yacheyka",
+   "name": "YACHEYKA",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "architecture": 1
+   },
+   "reached_permit_share": 0.0,
+   "devs": [
+    [
+     "Стена",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "naumov",
+   "name": "А. Наумов",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "sales": 1
+   },
+   "reached_permit_share": 1.0,
+   "devs": [
+    [
+     "Плюс Девелопмент",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "a-len",
+   "name": "А.Лен",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "sales": 1
+   },
+   "reached_permit_share": 1.0,
+   "devs": [
+    [
+     "Level Group",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "archimatika",
+   "name": "Архиматика",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "sales": 1
+   },
+   "reached_permit_share": 1.0,
+   "devs": [
+    [
+     "АЕОН",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "martynov-gatilova",
+   "name": "Архитектурная мастерская Мартынова и Гатиловой",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "sales": 1
+   },
+   "reached_permit_share": 1.0,
+   "devs": [
+    [
+     "Расцветай",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "arkvartal",
+   "name": "Архквартал",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "sales": 1
+   },
+   "reached_permit_share": 1.0,
+   "devs": [
+    [
+     "Инград",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "atp-tlp",
+   "name": "АТП ТЛП",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "sales": 1
+   },
+   "reached_permit_share": 1.0,
+   "devs": [
+    [
+     "Sminex",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "b1",
+   "name": "Б1",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "architecture": 1
+   },
+   "reached_permit_share": 0.0,
+   "devs": [
+    [
+     "Самолёт",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "ekaterina-gren",
+   "name": "Бюро Екатерины Грень",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "sales": 1
+   },
+   "reached_permit_share": 1.0,
+   "devs": [
+    [
+     "Ziggurat",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "byuro-soyuz",
+   "name": "Бюро Союз",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "completed": 1
+   },
+   "reached_permit_share": 1.0,
+   "devs": [
+    [
+     "ЛСР",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "gavalidis",
+   "name": "Григориус Гавалидис",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "architecture": 1
+   },
+   "reached_permit_share": 0.0,
+   "devs": [
+    [
+     "Capital Group",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "domo",
+   "name": "Домо",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "architecture": 1
+   },
+   "reached_permit_share": 0.0,
+   "devs": [
+    [
+     "Самолёт",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "ingmar",
+   "name": "Ингмар",
+   "objects": 1,
+   "main": 0,
+   "alt": 1,
+   "stages": {},
+   "reached_permit_share": null,
+   "devs": []
+  },
+  {
+   "key": "irga",
+   "name": "Ирга",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "architecture": 1
+   },
+   "reached_permit_share": 0.0,
+   "devs": [
+    [
+     "Брусника",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "kollektiv-12",
+   "name": "Коллектив 12",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "architecture": 1
+   },
+   "reached_permit_share": 0.0,
+   "devs": [
+    [
+     "Самолёт",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "krupnyy-plan",
+   "name": "Крупный план",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "sales": 1
+   },
+   "reached_permit_share": 1.0,
+   "devs": [
+    [
+     "Coldy",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "labva",
+   "name": "Лабва",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "permit": 1
+   },
+   "reached_permit_share": 1.0,
+   "devs": [
+    [
+     "ФСК",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "mezonproekt",
+   "name": "Мезонпроект",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "sales": 1
+   },
+   "reached_permit_share": 1.0,
+   "devs": [
+    [
+     "Galaxy Group",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "merakom",
+   "name": "Мераком",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "sales": 1
+   },
+   "reached_permit_share": 1.0,
+   "devs": [
+    [
+     "Plus Development",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "metropolis",
+   "name": "Метрополис",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "architecture": 1
+   },
+   "reached_permit_share": 0.0,
+   "devs": [
+    [
+     "ЛСР",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "mikhail-filippov",
+   "name": "Михаил Филиппов",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "architecture": 1
+   },
+   "reached_permit_share": 0.0,
+   "devs": []
+  },
+  {
+   "key": "olimproekt",
+   "name": "Олимпроект",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "sales": 1
+   },
+   "reached_permit_share": 1.0,
+   "devs": [
+    [
+     "Самолёт",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "plotkin",
+   "name": "Плоткин",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "completed": 1
+   },
+   "reached_permit_share": 1.0,
+   "devs": [
+    [
+     "Level Group",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "soho",
+   "name": "СОХО",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "architecture": 1
+   },
+   "reached_permit_share": 0.0,
+   "devs": [
+    [
+     "Гранард",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "steve-brown",
+   "name": "Стив Браун",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "sales": 1
+   },
+   "reached_permit_share": 1.0,
+   "devs": [
+    [
+     "Страна",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "chekharda",
+   "name": "Чехарда",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "sales": 1
+   },
+   "reached_permit_share": 1.0,
+   "devs": [
+    [
+     "Самолёт",
+     1
+    ]
+   ]
+  },
+  {
+   "key": "yauzaproekt",
+   "name": "Яузапроект",
+   "objects": 1,
+   "main": 1,
+   "alt": 0,
+   "stages": {
+    "architecture": 1
+   },
+   "reached_permit_share": 0.0,
+   "devs": []
+  },
+  {
+   "key": "bechu-associes",
+   "name": "Bechu + Associés",
+   "objects": 0,
+   "main": 0,
+   "alt": 0,
+   "stages": {},
+   "reached_permit_share": null,
+   "devs": []
+  }
+ ],
+ "top_pairs": [
+  [
+   "WALL",
+   "Stone",
+   7
+  ],
+  [
+   "ARCH(E)TYPE",
+   "Level Group",
+   7
+  ],
+  [
+   "Kleinewelt Architekten",
+   "MR Group",
+   6
+  ],
+  [
+   "Kleinewelt Architekten",
+   "Stone",
+   6
+  ],
+  [
+   "KAMEN",
+   "Главстрой",
+   4
+  ],
+  [
+   "GAFA",
+   "Самолёт",
+   4
+  ],
+  [
+   "IND Architects",
+   "Level Group",
+   4
+  ],
+  [
+   "Цимайло, Ляшенко и Партнёры",
+   "Stone",
+   4
+  ],
+  [
+   "ADM",
+   "Пионер",
+   4
+  ],
+  [
+   "APEX",
+   "Страна",
+   3
+  ],
+  [
+   "APEX",
+   "Пионер",
+   3
+  ],
+  [
+   "Kleinewelt Architekten",
+   "Пионер",
+   3
+  ],
+  [
+   "WALL",
+   "Пионер",
+   3
+  ],
+  [
+   "KAMEN",
+   "MR Group",
+   3
+  ],
+  [
+   "GAFA",
+   "Vesper",
+   3
+  ],
+  [
+   "Цимайло, Ляшенко и Партнёры",
+   "Пионер",
+   3
+  ],
+  [
+   "SPEECH",
+   "MR Group",
+   3
+  ],
+  [
+   "ADM",
+   "Sminex",
+   3
+  ],
+  [
+   "Nikken Sekkei",
+   "October Group",
+   3
+  ],
+  [
+   "GREN",
+   "Самолёт",
+   3
+  ],
+  [
+   "APEX",
+   "Гранель",
+   2
+  ],
+  [
+   "APEX",
+   "Град",
+   2
+  ],
+  [
+   "APEX",
+   "ПИК",
+   2
+  ],
+  [
+   "APEX",
+   "Самолёт",
+   2
+  ],
+  [
+   "APEX",
+   "Coldy",
+   2
+  ]
+ ],
+ "objects_with_architect": 414,
+ "objects_multi_bureau": 149,
+ "alt_links": 33,
+ "stage_total": {
+  "architecture": 269,
+  "sales": 291,
+  "completed": 43,
+  "permit": 29,
+  "concept": 8,
+  "land": 5,
+  "unknown": 2
+ }
+}

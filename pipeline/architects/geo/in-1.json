@@ -1,0 +1,649 @@
+[
+ {
+  "key": "arch-e-type",
+  "name": "ARCH(E)TYPE",
+  "aliases": [
+   "Arch(e)type",
+   "Arch-e-type"
+  ],
+  "kind": "architecture",
+  "objects": [
+   "level-baumanskaya",
+   "luzhnetskaya-10a",
+   "level-nagatinskaya"
+  ]
+ },
+ {
+  "key": "masters-plan",
+  "name": "Master's plan",
+  "aliases": [
+   "Masters Plan",
+   "Mastersplan",
+   "Master’s plan",
+   "Мастер’с план"
+  ],
+  "kind": "architecture",
+  "objects": [
+   "k31",
+   "rustaveli-14",
+   "severnyy-port"
+  ]
+ },
+ {
+  "key": "parsec",
+  "name": "Parsec",
+  "aliases": [
+   "Parsek",
+   "Парсек"
+  ],
+  "kind": "architecture",
+  "objects": [
+   "1-ya-brestskaya-64",
+   "zilart",
+   "khodynka"
+  ]
+ },
+ {
+  "key": "saga",
+  "name": "Saga",
+  "aliases": [
+   "SAGA",
+   "Сага"
+  ],
+  "kind": "architecture",
+  "objects": [
+   "sadovnicheskaya-62",
+   "moskvoreche",
+   "krasnyy-oktyabr"
+  ]
+ },
+ {
+  "key": "hadaa",
+  "name": "HADAA Architects",
+  "aliases": [
+   "HADAA"
+  ],
+  "kind": "architecture",
+  "objects": [
+   "rustaveli-14",
+   "your-majesty",
+   "blik"
+  ]
+ },
+ {
+  "key": "ket",
+  "name": "ket",
+  "aliases": [
+   "бюро ket"
+  ],
+  "kind": "architecture",
+  "objects": [
+   "pentagram",
+   "set",
+   "tatum"
+  ]
+ },
+ {
+  "key": "masterskaya-dmitrieva",
+  "name": "Архитектурная мастерская Михаила Дмитриева",
+  "aliases": [
+   "АМ Михаила Дмитриева",
+   "бюро Михаила Дмитриева",
+   "мастерская Михаила Дмитриева"
+  ],
+  "kind": "architecture",
+  "objects": [
+   "red7",
+   "omega-residence",
+   "radio-16s4"
+  ]
+ },
+ {
+  "key": "byuro-80-88",
+  "name": "80/88",
+  "aliases": [
+   "бюро 80/88"
+  ],
+  "kind": "architecture",
+  "objects": [
+   "akademicheskaya",
+   "savvinskaya-17",
+   "4-y-verkhnemikhaylovskiy-5"
+  ]
+ },
+ {
+  "key": "gillespies",
+  "name": "Gillespies",
+  "aliases": [],
+  "kind": "landscape",
+  "objects": [
+   "lunar",
+   "repablik"
+  ]
+ },
+ {
+  "key": "lampa-community",
+  "name": "Lampa Community",
+  "aliases": [
+   "Lampa"
+  ],
+  "kind": "architecture",
+  "objects": [
+   "adts-kommunarka"
+  ]
+ },
+ {
+  "key": "steel",
+  "name": "Steel",
+  "aliases": [
+   "бюро Steel"
+  ],
+  "kind": "architecture",
+  "objects": [
+   "adts-kommunarka"
+  ]
+ },
+ {
+  "key": "vi",
+  "name": "ВИ",
+  "aliases": [
+   "бюро ВИ",
+   "бюро Ви"
+  ],
+  "kind": "architecture",
+  "objects": [
+   "vozdvizhenka-7-6-str-6",
+   "tsaritsyno",
+   "1-ya-bukhvostova-3-1"
+  ]
+ },
+ {
+  "key": "archivista",
+  "name": "Archivista",
+  "aliases": [],
+  "kind": "architecture",
+  "objects": [
+   "vern"
+  ]
+ },
+ {
+  "key": "buro-2-2",
+  "name": "Buro 2+2",
+  "aliases": [],
+  "kind": "architecture",
+  "objects": [
+   "kompleks-obshchezhitiy-krasnoy-professury"
+  ]
+ },
+ {
+  "key": "lburo",
+  "name": "L.BURO",
+  "aliases": [],
+  "kind": "landscape",
+  "objects": [
+   "k7-11"
+  ]
+ },
+ {
+  "key": "muza-form",
+  "name": "MUZA FORM",
+  "aliases": [],
+  "kind": "architecture",
+  "objects": [
+   "baltiyskaya-8"
+  ]
+ },
+ {
+  "key": "progress",
+  "name": "Progress",
+  "aliases": [
+   "бюро Progress"
+  ],
+  "kind": "architecture",
+  "objects": [
+   "injoy",
+   "d8"
+  ]
+ },
+ {
+  "key": "umbra",
+  "name": "umbra",
+  "aliases": [],
+  "kind": "architecture",
+  "objects": [
+   "shabolovka-35"
+  ]
+ },
+ {
+  "key": "vostok",
+  "name": "VOSTOK",
+  "aliases": [
+   "бюро Восток"
+  ],
+  "kind": "architecture",
+  "objects": [
+   "sadovye-kvartaly",
+   "magnum-solo"
+  ]
+ },
+ {
+  "key": "vyuga",
+  "name": "Вьюга",
+  "aliases": [
+   "«Вьюга»"
+  ],
+  "kind": "landscape",
+  "objects": [
+   "profsoyuznaya-78"
+  ]
+ },
+ {
+  "key": "kk",
+  "name": "К+К",
+  "aliases": [
+   "«К+К»",
+   "бюро «КК»"
+  ],
+  "kind": "architecture",
+  "objects": [
+   "buninskaya-naberezhnaya"
+  ]
+ },
+ {
+  "key": "a2m",
+  "name": "A2M",
+  "aliases": [],
+  "kind": "architecture",
+  "objects": [
+   "siti-2"
+  ]
+ },
+ {
+  "key": "ahr",
+  "name": "AHR",
+  "aliases": [],
+  "kind": "architecture",
+  "objects": [
+   "nagatino-i-land"
+  ]
+ },
+ {
+  "key": "antonini-darmon",
+  "name": "Antonini Darmon",
+  "aliases": [],
+  "kind": "architecture",
+  "objects": [
+   "vesper"
+  ]
+ },
+ {
+  "key": "archives",
+  "name": "ARCHIVES. Legkov Markosyan",
+  "aliases": [],
+  "kind": "architecture",
+  "objects": [
+   "chalet"
+  ]
+ },
+ {
+  "key": "aukett",
+  "name": "AUKETT SWANKE",
+  "aliases": [],
+  "kind": "architecture",
+  "objects": [
+   "luzhniki-collection"
+  ]
+ },
+ {
+  "key": "basis",
+  "name": "basis",
+  "aliases": [
+   "бюро basis"
+  ],
+  "kind": "landscape",
+  "objects": [
+   "onest"
+  ]
+ },
+ {
+  "key": "clou",
+  "name": "CLOU Architects",
+  "aliases": [],
+  "kind": "architecture",
+  "objects": [
+   "siti-2"
+  ]
+ },
+ {
+  "key": "chipperfield",
+  "name": "David Chipperfield Architects",
+  "aliases": [
+   "David Chipperfield"
+  ],
+  "kind": "architecture",
+  "objects": [
+   "telegraf"
+  ]
+ },
+ {
+  "key": "do-bureau",
+  "name": "DŌ",
+  "aliases": [
+   "бюро DŌ"
+  ],
+  "kind": "architecture",
+  "objects": [
+   "natsionalnyy-tsentr-rossiya"
+  ]
+ },
+ {
+  "key": "gregory-tuck-architects",
+  "name": "Gregory Tuck Architects",
+  "aliases": [],
+  "kind": "architecture",
+  "objects": [
+   "dom-belyy"
+  ]
+ },
+ {
+  "key": "highlight",
+  "name": "Highlight Architecture",
+  "aliases": [],
+  "kind": "architecture",
+  "objects": [
+   "voice-towers"
+  ]
+ },
+ {
+  "key": "jtp",
+  "name": "JTP",
+  "aliases": [],
+  "kind": "architecture",
+  "objects": [
+   "repablik"
+  ]
+ },
+ {
+  "key": "kemelin",
+  "name": "Kemelin",
+  "aliases": [],
+  "kind": "interior",
+  "objects": [
+   "stone-savelovskaya"
+  ]
+ },
+ {
+  "key": "kk-archstudio",
+  "name": "KK ARCHSTUDIO",
+  "aliases": [],
+  "kind": "architecture",
+  "objects": [
+   "michurinskiy-park"
+  ]
+ },
+ {
+  "key": "kosmos-architects",
+  "name": "Kosmos Architects",
+  "aliases": [],
+  "kind": "architecture",
+  "objects": [
+   "siti-2"
+  ]
+ },
+ {
+  "key": "lunn",
+  "name": "Lunn",
+  "aliases": [
+   "Бюро Lunn"
+  ],
+  "kind": "architecture",
+  "objects": [
+   "2-ya-magistralnaya-18"
+  ]
+ },
+ {
+  "key": "martela",
+  "name": "Martela",
+  "aliases": [],
+  "kind": "architecture",
+  "objects": [
+   "sadovye-kvartaly"
+  ]
+ },
+ {
+  "key": "michalowski",
+  "name": "Michalowski",
+  "aliases": [
+   "michalowski"
+  ],
+  "kind": "architecture",
+  "objects": [
+   "tpu-shelepikha"
+  ]
+ },
+ {
+  "key": "msp",
+  "name": "MSP",
+  "aliases": [],
+  "kind": "architecture",
+  "objects": [
+   "repablik"
+  ]
+ },
+ {
+  "key": "parametrica",
+  "name": "Parametrica",
+  "aliases": [
+   "parametrica"
+  ],
+  "kind": "architecture",
+  "objects": [
+   "rumyantsevo"
+  ]
+ },
+ {
+  "key": "project-2018",
+  "name": "project 2018",
+  "aliases": [],
+  "kind": "architecture",
+  "objects": [
+   "orient-ekspress"
+  ]
+ },
+ {
+  "key": "slava-plus",
+  "name": "Slava+",
+  "aliases": [],
+  "kind": "architecture",
+  "objects": [
+   "kvartal-mit"
+  ]
+ },
+ {
+  "key": "soulstone",
+  "name": "SOULSTONE",
+  "aliases": [],
+  "kind": "architecture",
+  "objects": [
+   "adts-kommunarka"
+  ]
+ },
+ {
+  "key": "stanton-williams",
+  "name": "Stanton Williams",
+  "aliases": [],
+  "kind": "architecture",
+  "objects": [
+   "vishnevyy-sad"
+  ]
+ },
+ {
+  "key": "tabanlioglu",
+  "name": "Tabanlioglu Architects",
+  "aliases": [],
+  "kind": "architecture",
+  "objects": [
+   "springs"
+  ]
+ },
+ {
+  "key": "um",
+  "name": "UM",
+  "aliases": [],
+  "kind": "architecture",
+  "objects": [
+   "novyy-arbat-2"
+  ]
+ },
+ {
+  "key": "wilmotte",
+  "name": "Wilmotte & Associés",
+  "aliases": [
+   "Wilmotte & Associ"
+  ],
+  "kind": "architecture",
+  "objects": [
+   "krasnyy-oktyabr"
+  ]
+ },
+ {
+  "key": "naumov",
+  "name": "А. Наумов",
+  "aliases": [],
+  "kind": "architecture",
+  "objects": [
+   "aktsenty"
+  ]
+ },
+ {
+  "key": "archimatika",
+  "name": "Архиматика",
+  "aliases": [
+   "Архиматик"
+  ],
+  "kind": "architecture",
+  "objects": [
+   "river-park"
+  ]
+ },
+ {
+  "key": "arkvartal",
+  "name": "Архквартал",
+  "aliases": [],
+  "kind": "architecture",
+  "objects": [
+   "lesoparkovyy"
+  ]
+ },
+ {
+  "key": "b1",
+  "name": "Б1",
+  "aliases": [],
+  "kind": "architecture",
+  "objects": [
+   "adts-kommunarka"
+  ]
+ },
+ {
+  "key": "byuro-soyuz",
+  "name": "Бюро Союз",
+  "aliases": [
+   "бюро Союз"
+  ],
+  "kind": "architecture",
+  "objects": [
+   "zilart"
+  ]
+ },
+ {
+  "key": "gavalidis",
+  "name": "Григориус Гавалидис",
+  "aliases": [
+   "Гавалидис"
+  ],
+  "kind": "architecture",
+  "objects": [
+   "masters"
+  ]
+ },
+ {
+  "key": "ingmar",
+  "name": "Ингмар",
+  "aliases": [
+   "бюро Ингмар"
+  ],
+  "kind": "architecture",
+  "objects": [
+   "tpu-fili"
+  ]
+ },
+ {
+  "key": "kollektiv-12",
+  "name": "Коллектив 12",
+  "aliases": [],
+  "kind": "architecture",
+  "objects": [
+   "adts-kommunarka"
+  ]
+ },
+ {
+  "key": "labva",
+  "name": "Лабва",
+  "aliases": [
+   "бюро Лабва"
+  ],
+  "kind": "architecture",
+  "objects": [
+   "1-y-khimkinskiy"
+  ]
+ },
+ {
+  "key": "merakom",
+  "name": "Мераком",
+  "aliases": [
+   "бюро Мераком"
+  ],
+  "kind": "architecture",
+  "objects": [
+   "leningradskoe-63a-3"
+  ]
+ },
+ {
+  "key": "mikhail-filippov",
+  "name": "Михаил Филиппов",
+  "aliases": [
+   "Михаила Филиппова"
+  ],
+  "kind": "architecture",
+  "objects": [
+   "khavskaya-9-1"
+  ]
+ },
+ {
+  "key": "olimproekt",
+  "name": "Олимпроект",
+  "aliases": [],
+  "kind": "architecture",
+  "objects": [
+   "molzhaninovo"
+  ]
+ },
+ {
+  "key": "soho",
+  "name": "СОХО",
+  "aliases": [],
+  "kind": "architecture",
+  "objects": [
+   "tpu-suvorovskaya"
+  ]
+ },
+ {
+  "key": "chekharda",
+  "name": "Чехарда",
+  "aliases": [],
+  "kind": "architecture",
+  "objects": [
+   "alkhimovo"
+  ]
+ }
+]

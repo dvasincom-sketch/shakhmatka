@@ -1,5 +1,5 @@
 {
-  "_readme": "Ручное досье (15.10.2026) по карточкам каталогов: https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/zhk-polyarnaya-ul-z-u-4-4029707/, https://realty.yandex.ru/moskva/kupit/novostrojka/z-moskovskie-kvartaly-4209811/",
+  "_readme": "Ручное досье (15.10.2026) по карточкам каталогов: https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/zhk-polyarnaya-ul-z-u-4-4029707/, https://realty.yandex.ru/moskva/kupit/novostrojka/z-moskovskie-kvartaly-4209811/ Дополнено 15.10.2026 по карточке дома на москварталы.рф: https://москварталы.рф/obekty/polyarnaya-ul-z-u-4/",
   "slug": "mk-polyarnaya-4-k1",
   "name": "Полярная, 4 к1",
   "zu": "Полярная, 4 к1",
@@ -10,13 +10,21 @@
   "region": "moscow",
   "stage": "completed",
   "developer": "fond-renovatsii",
-  "summary": "Жилой дом Московского фонда реновации по адресу ул. Полярная, 4, к. 1. По данным каталога — 168 квартир, до 13 этажей. Каталоги относят дом к линейке «Московские кварталы»; продажа квартир самим фондом на дату проверки не подтверждена.",
+  "summary": "Жилой дом по адресу ул. Полярная, 4, к. 1. По данным каталога — 168 квартир, до 13 этажей. Квартиры продаёт Московский фонд реновации на портале «Московские кварталы» (москварталы.рф): в июле 2026 года — от 416 тыс. ₽ за м², лоты от 19,8 млн ₽.",
   "timeline": [
     {
       "date": "2025-12-26",
       "kind": "construction",
       "title": "Дом введён в эксплуатацию (корпус по адресу Полярная, 4 к1)",
       "certainty": "fact"
+    },
+    {
+      "date": "2026-07-02",
+      "dateLabel": "июль 2026",
+      "kind": "sales",
+      "title": "Квартиры дома выставлены на продажу на портале «Московские кварталы»: от 416 тыс. ₽ за м²",
+      "certainty": "fact"
     }
-  ]
+  ],
+  "district": "yuzhnoe-medvedkovo"
 }

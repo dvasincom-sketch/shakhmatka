@@ -1,0 +1,23 @@
+{
+  "_readme": "Ручное досье (15.10.2026) по каталогам новостроек: https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/2132899/. Добавлено, чтобы портфель застройщика в базе был полным; в архиве редакции о проекте не писали.",
+  "slug": "level-group-level-paveletskaya-siti",
+  "name": "Левел Павелецкая Сити",
+  "zu": "Левел Павелецкая Сити",
+  "aliases": [
+    "ЖК Левел Павелецкая Сити"
+  ],
+  "region": "moscow",
+  "stage": "sales",
+  "developer": "level-group",
+  "summary": "Жилой комплекс «Левел Павелецкая Сити» застройщика Level Group по адресу Москва, ул. Дубининская. Продажи идут.",
+  "timeline": [
+    {
+      "date": "2026-10-15",
+      "dateLabel": "октябрь 2026",
+      "kind": "sales",
+      "title": "Идут продажи, от 22,9 млн ₽",
+      "certainty": "fact"
+    }
+  ],
+  "district": "zamoskvorechye"
+}

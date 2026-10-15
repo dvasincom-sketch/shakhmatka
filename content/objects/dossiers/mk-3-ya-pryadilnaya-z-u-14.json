@@ -1,5 +1,5 @@
 {
-  "_readme": "Ручное досье (15.10.2026) по карточкам каталогов: https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/zhk-3-ya-pryadilnaya-ul-z-u-14-4163692/, https://realty.yandex.ru/moskva/kupit/novostrojka/z-moskovskie-kvartaly-4209811/",
+  "_readme": "Ручное досье (15.10.2026) по карточкам каталогов: https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/zhk-3-ya-pryadilnaya-ul-z-u-14-4163692/, https://realty.yandex.ru/moskva/kupit/novostrojka/z-moskovskie-kvartaly-4209811/ Дополнено 15.10.2026 по карточке дома на москварталы.рф: https://москварталы.рф/obekty/3-ya-pryadilnaya-ul-z-u-14/",
   "slug": "mk-3-ya-pryadilnaya-z-u-14",
   "name": "3-я Прядильная, з/у 14",
   "zu": "3-я Прядильная, з/у 14",
@@ -9,9 +9,9 @@
   ],
   "region": "moscow",
   "district": "izmaylovo",
-  "stage": "permit",
+  "stage": "sales",
   "developer": "fond-renovatsii",
-  "summary": "Жилой дом Московского фонда реновации по адресу ул. 3-я Прядильная, 14. По данным каталога — 170 квартир, 14 этажей. Каталоги относят дом к линейке «Московские кварталы»; продажа квартир самим фондом на дату проверки не подтверждена.",
+  "summary": "Жилой дом по адресу ул. 3-я Прядильная, 14. По данным каталога — 170 квартир, 14 этажей. Квартиры продаёт Московский фонд реновации на портале «Московские кварталы» (москварталы.рф): в мае 2026 года — от 460 тыс. ₽ за м², лоты от 13,9 млн ₽.",
   "timeline": [
     {
       "date": "2025-07-09",
@@ -23,6 +23,27 @@
       "date": "2025-08-04",
       "kind": "sales",
       "title": "Опубликована проектная декларация",
+      "certainty": "fact"
+    },
+    {
+      "date": "2026-01-14",
+      "dateLabel": "январь 2026",
+      "kind": "sales",
+      "title": "Квартиры дома выставлены на продажу на портале «Московские кварталы»: от 302 тыс. ₽ за м²",
+      "certainty": "fact"
+    },
+    {
+      "date": "2026-03-31",
+      "dateLabel": "март 2026",
+      "kind": "price",
+      "title": "Фонд поднял цены на 5 квартир в среднем на 24,76%",
+      "certainty": "fact"
+    },
+    {
+      "date": "2026-03-31",
+      "dateLabel": "март 2026",
+      "kind": "price",
+      "title": "Фонд поднял цены на 5 квартир в среднем на 24,76%",
       "certainty": "fact"
     }
   ]

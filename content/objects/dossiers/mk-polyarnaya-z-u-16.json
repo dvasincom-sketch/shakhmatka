@@ -1,5 +1,5 @@
 {
-  "_readme": "Ручное досье (15.10.2026) по карточкам каталогов: https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/zhk-polyarnaya-ul-z-u-16-4164628/, https://realty.yandex.ru/moskva/kupit/novostrojka/z-moskovskie-kvartaly-4209811/",
+  "_readme": "Ручное досье (15.10.2026) по карточкам каталогов: https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/zhk-polyarnaya-ul-z-u-16-4164628/, https://realty.yandex.ru/moskva/kupit/novostrojka/z-moskovskie-kvartaly-4209811/ Дополнено 15.10.2026 по карточке дома на москварталы.рф: https://москварталы.рф/obekty/polyarnaya-ul-vld-16/",
   "slug": "mk-polyarnaya-z-u-16",
   "name": "Полярная, з/у 16",
   "zu": "Полярная, з/у 16",
@@ -10,13 +10,21 @@
   "region": "moscow",
   "stage": "completed",
   "developer": "fond-renovatsii",
-  "summary": "Жилой дом Московского фонда реновации по адресу ул. Полярная, 16. По данным каталога — 422 квартиры, 24–25 этажей. Каталоги относят дом к линейке «Московские кварталы»; продажа квартир самим фондом на дату проверки не подтверждена.",
+  "summary": "Жилой дом на 422 квартиры (24 этажа), введён в 2026 году. Квартиры без отделки. Квартиры продаёт Московский фонд реновации на портале «Московские кварталы» (москварталы.рф): в сентябре 2026 года — от 0 тыс. ₽ за м², лоты от 24,4 млн ₽. Доступна семейная ипотека. Метро: Бабушкинская, Отрадное.",
   "timeline": [
+    {
+      "date": "2025-12-24",
+      "dateLabel": "декабрь 2025",
+      "kind": "sales",
+      "title": "Квартиры дома выставлены на продажу на портале «Московские кварталы»: от 303 тыс. ₽ за м²",
+      "certainty": "fact"
+    },
     {
       "date": "2026-06-30",
       "kind": "construction",
       "title": "Дом введён в эксплуатацию (корпус по адресу Полярная, з/у 16)",
       "certainty": "fact"
     }
-  ]
+  ],
+  "district": "yuzhnoe-medvedkovo"
 }

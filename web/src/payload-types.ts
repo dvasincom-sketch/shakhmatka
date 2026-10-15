@@ -522,7 +522,14 @@ export interface User {
  */
 export interface Reader {
   id: number;
-  email: string;
+  /**
+   * Пусто, если читатель вошёл по звонку и почту не оставил
+   */
+  email?: string | null;
+  /**
+   * Подтверждён звонком (sms.ru): 7XXXXXXXXXX
+   */
+  phone?: string | null;
   confirmed?: boolean | null;
   frequency?: ('weekly' | 'daily' | 'off') | null;
   follows?: number | null;
@@ -936,6 +943,7 @@ export interface UsersSelect<T extends boolean = true> {
  */
 export interface ReadersSelect<T extends boolean = true> {
   email?: T;
+  phone?: T;
   confirmed?: T;
   frequency?: T;
   follows?: T;

@@ -1,0 +1,170 @@
+{
+ "developer": "samolet",
+ "sources": [
+  "https://realty.yandex.ru/moskva/kupit/novostrojka/z-gruppa-samolet-102320/?showOutdated=YES"
+ ],
+ "projects": [
+  {
+   "name": "Внуково 2016",
+   "address": "Москва, пос. Внуковское, в районе д. Ликова",
+   "zu": null,
+   "district": null,
+   "stage": "completed",
+   "completion": null,
+   "class": "Эконом",
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/172360/"
+   ],
+   "yandex_site_id": "172360",
+   "notes": "Яндекс Недвижимость, раздел застройщика в Москве (с завершёнными), 15.10.2026"
+  },
+  {
+   "name": "Внуково 2017",
+   "address": "Москва, пос. Внуковское, д. Изварино, ш. Внуковское",
+   "zu": null,
+   "district": null,
+   "stage": "completed",
+   "completion": null,
+   "class": "Эконом",
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/320218/"
+   ],
+   "yandex_site_id": "320218",
+   "notes": "Яндекс Недвижимость, раздел застройщика в Москве (с завершёнными), 15.10.2026"
+  },
+  {
+   "name": "Эко Бунино",
+   "address": "Москва, пос. Сосенское, д. Столбово, пр. Куприна",
+   "zu": null,
+   "district": null,
+   "stage": "sales",
+   "completion": null,
+   "class": "Комфорт",
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/729796/"
+   ],
+   "yandex_site_id": "729796",
+   "notes": "Яндекс Недвижимость, раздел застройщика в Москве (с завершёнными), 15.10.2026; статус «строится/продажи», срок сдачи по каталогу"
+  },
+  {
+   "name": "Кленовые Аллеи",
+   "address": "Москва, пос. Десёновское, ул. Генерала Пилипенко",
+   "zu": null,
+   "district": null,
+   "stage": "completed",
+   "completion": null,
+   "class": "Комфорт",
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/778553/"
+   ],
+   "yandex_site_id": "778553",
+   "notes": "Яндекс Недвижимость, раздел застройщика в Москве (с завершёнными), 15.10.2026"
+  },
+  {
+   "name": "Цветочные Поляны",
+   "address": "Москва, пос. Филимонковское, ул. Золотошвейная",
+   "zu": null,
+   "district": null,
+   "stage": "sales",
+   "completion": null,
+   "class": "Комфорт",
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/1685695/"
+   ],
+   "yandex_site_id": "1685695",
+   "notes": "Яндекс Недвижимость, раздел застройщика в Москве (с завершёнными), 15.10.2026; статус «строится/продажи», срок сдачи по каталогу"
+  },
+  {
+   "name": "Стремянный 2",
+   "address": "Москва, пер. Стремянный, 2",
+   "zu": null,
+   "district": null,
+   "stage": "completed",
+   "completion": null,
+   "class": "Бизнес",
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/2003613/"
+   ],
+   "yandex_site_id": "2003613",
+   "notes": "Яндекс Недвижимость, раздел застройщика в Москве (с завершёнными), 15.10.2026"
+  },
+  {
+   "name": "Пятницкое 58",
+   "address": "Москва, ш. Пятницкое, 56Б",
+   "zu": null,
+   "district": null,
+   "stage": "completed",
+   "completion": null,
+   "class": "Комфорт",
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/2582196/"
+   ],
+   "yandex_site_id": "2582196",
+   "notes": "Яндекс Недвижимость, раздел застройщика в Москве (с завершёнными), 15.10.2026"
+  },
+  {
+   "name": "Подольские Кварталы",
+   "address": "Москва, пос. Рязановское, ул. Алхимовская",
+   "zu": null,
+   "district": null,
+   "stage": "sales",
+   "completion": "4 кв. 2026",
+   "class": "Комфорт",
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/3425121/"
+   ],
+   "yandex_site_id": "3425121",
+   "notes": "Яндекс Недвижимость, раздел застройщика в Москве (с завершёнными), 15.10.2026; статус «строится/продажи», срок сдачи по каталогу"
+  },
+  {
+   "name": "Ольховый Квартал",
+   "address": "Москва, Новомосковский округ, район Коммунарка",
+   "zu": null,
+   "district": null,
+   "stage": "sales",
+   "completion": null,
+   "class": "Комфорт",
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/3916149/"
+   ],
+   "yandex_site_id": "3916149",
+   "notes": "Яндекс Недвижимость, раздел застройщика в Москве (с завершёнными), 15.10.2026; статус «строится/продажи», срок сдачи по каталогу"
+  }
+ ]
+}

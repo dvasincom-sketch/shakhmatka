@@ -98,11 +98,11 @@ export function Footer() {
         </div>
         <nav aria-label="Новостройки">
           <b>Новостройки</b>
-          <Link href="/">Лента</Link><Link href="/obekty/">Объекты</Link><Link href="/novostroyki/">Новостройки по районам</Link><Link href="/zastroyshchiki/">Застройщики</Link><Link href="/arhitektory/">Архитектурные бюро</Link><Link href="/akkaunt/">Личный кабинет</Link><Link href="/ceny-na-starte/">Цены на старте и сейчас</Link>
+          <Link href="/">Лента</Link><Link href="/obekty/">Объекты</Link><Link href="/novostroyki/">Новостройки по районам</Link><Link href="/zastroyshchiki/">Застройщики</Link><Link href="/arhitektory/">Архитектурные бюро</Link><Link href="/ceny-na-starte/">Цены на старте и сейчас</Link>
         </nav>
         <nav aria-label="Аналитика и проект">
           <b>Аналитика и проект</b>
-          <Link href="/signaly/">Сигналы</Link><Link href="/krt/">Трекер КРТ</Link><Link href="/pro/">Шахматка Про</Link><Link href="/o-proekte/">О проекте</Link><Link href="/kabinet/">Вход для редакции</Link>
+          <Link href="/signaly/">Сигналы</Link><Link href="/krt/">Трекер КРТ</Link><Link href="/razmorozka/">Конкурс «Разморозка»</Link><Link href="/pro/">Шахматка Про</Link><Link href="/o-proekte/">О проекте</Link><Link href="/kabinet/">Вход для редакции</Link>
         </nav>
         <div>
           <b>Принципы</b>

@@ -6,7 +6,11 @@ export const TOPICS: Record<string, { label: string; subject: string }> = {
   ipoteka: { label: 'Ипотека', subject: 'Ипотека на новостройки' },
   premium: { label: 'Премиум', subject: 'Премиальные новостройки' },
   krt: { label: 'КРТ', subject: 'Комплексное развитие территорий' },
-  arhitektura: { label: 'Архитектура', subject: 'Как менялись проекты новостроек' },
+  arhitektura: { label: 'Архитектура', subject: 'Архитектура Москвы: от старых стилей до новостроек' },
+  'staraya-moskva': { label: 'Старая Москва', subject: 'Старая Москва: откуда взялись стили и где их цитируют новостройки' },
+  mir: { label: 'Мир', subject: 'Мировой опыт: как строят города и что применимо к Москве' },
+  obrazovanie: { label: 'Образование', subject: 'Образование: архшколы, профессии и как читать документы проекта' },
+  konkursy: { label: 'Конкурсы', subject: 'Архитектурные конкурсы Москвы: кого выбрали и почему' },
   signaly: { label: 'Сигналы', subject: 'Говорили раньше всех: сигналы рынка и что подтвердилось' },
 }
 export const topicLabel = (s: string) => TOPICS[s]?.label || s.charAt(0).toUpperCase() + s.slice(1)

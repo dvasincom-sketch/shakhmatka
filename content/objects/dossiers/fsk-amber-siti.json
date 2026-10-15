@@ -1,0 +1,23 @@
+{
+  "_readme": "Ручное досье (15.10.2026) по каталогам новостроек: https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/3975219/. Добавлено, чтобы портфель застройщика в базе был полным; в архиве редакции о проекте не писали.",
+  "slug": "fsk-amber-siti",
+  "name": "Амбер Сити",
+  "zu": "Амбер Сити",
+  "aliases": [
+    "ЖК Амбер Сити"
+  ],
+  "region": "moscow",
+  "stage": "sales",
+  "developer": "fsk",
+  "summary": "Жилой комплекс «Амбер Сити» застройщика ФСК по адресу Москва, 3-й Хорошёвский проезд / ул. Розанова. Продажи идут.",
+  "timeline": [
+    {
+      "date": "2026-10-15",
+      "dateLabel": "октябрь 2026",
+      "kind": "sales",
+      "title": "Идут продажи, от 19,3 млн ₽",
+      "certainty": "fact"
+    }
+  ],
+  "district": "khoroshevskiy"
+}

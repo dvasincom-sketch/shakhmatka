@@ -16,7 +16,7 @@ const SITE = () => process.env.NEXT_PUBLIC_SITE_URL || 'https://шахматка
 export const FOLLOW_KINDS = ['object', 'developer', 'place', 'bureau', 'signals'] as const
 export type FollowKind = (typeof FOLLOW_KINDS)[number]
 
-export type Reader = { id: number; email: string; confirmed?: boolean | null; frequency?: string | null; unsubscribeKey?: string | null; follows?: number | null }
+export type Reader = { id: number; email?: string | null; phone?: string | null; confirmed?: boolean | null; frequency?: string | null; unsubscribeKey?: string | null; follows?: number | null }
 
 const sign = (v: string) => crypto.createHmac('sha256', SECRET()).update(v).digest('base64url')
 const hash = (v: string) => crypto.createHash('sha256').update(v).digest('hex')

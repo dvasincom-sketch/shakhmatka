@@ -1,0 +1,402 @@
+[
+ {
+  "key": "dyer",
+  "name": "Dyer",
+  "founded": null,
+  "founders": [],
+  "city": "Великобритания (головной офис не подтверждён; по данным 2008 года офисы в Челтнеме, Эдинбурге, Париже, Мадриде, Нью-Йорке, Далласе и Дубае)",
+  "website": null,
+  "about": "Dyer — британская архитектурная практика с международной сетью офисов. В 2008 году открыла офис в Москве, свой первый в Восточной Европе, и работала над торговыми и многофункциональными проектами в России. В Москве автор жилого комплекса Prime Park и один из соавторов Luzhniki Collection.",
+  "notable": [
+   {
+    "project": "Prime Park",
+    "year": null
+   },
+   {
+    "project": "Luzhniki Collection: идея подиумов под каждым корпусом с подъездом машин к лобби (совместно с MVRDV, Aukett Swanke, SimpsonHaugh, ODA)",
+    "year": null
+   },
+   {
+    "project": "Многофункциональный комплекс «Звёздный», Жуковский (проект, 2008)",
+    "year": null
+   }
+  ],
+  "awards": [
+   {
+    "award": "International Property Awards, номинация Best Residential High-rise Architecture — Prime Park",
+    "year": null
+   }
+  ],
+  "staff": null,
+  "sources": [
+   "https://www.urbanrealm.com/news/628/Dyer_says_%D0%B4%D0%B0_%D1%83%D0%B3%D0%BE%D0%B4%D0%B8%D1%82%D0%B5_to_Moscow.html",
+   "https://architizer.com/projects/prime-park-architectural-visualizations-for-dyer-group/",
+   "https://realty.rbc.ru/news/65b267079a7947cb50b3349c"
+  ],
+  "confidence": "low"
+ },
+ {
+  "key": "hadaa",
+  "name": "HADAA Architects",
+  "founded": null,
+  "founders": [],
+  "city": null,
+  "website": null,
+  "about": null,
+  "notable": [],
+  "awards": [],
+  "staff": null,
+  "sources": [],
+  "confidence": "low"
+ },
+ {
+  "key": "john-mcaslan",
+  "name": "John McAslan + Partners",
+  "founded": 1993,
+  "founders": [
+   "Джон Макаслан (John McAslan) — основатель, исполнительный председатель; с 2024 года бюро в совместной собственности старших партнёров"
+  ],
+  "city": "Лондон, Великобритания",
+  "website": "https://www.mcaslan.co.uk/",
+  "about": "John McAslan + Partners — британская архитектурная практика, основанная в 1993 году; кроме Лондона имеет офисы в Эдинбурге, Сиднее и Нью-Йорке. Работает с транспортной инфраструктурой и вокзалами, общественными и культурными зданиями, жильём и приспособлением исторических зданий (вестибюль вокзала Кингс-Кросс, реставрация Burrell Collection, станция Bond Street линии Элизабет). В Москве много лет сотрудничает с девелопером AB Development (проекты «Фабрика Станиславского», «Вишнёвый сад», «Большевик» и др.).",
+  "notable": [
+   {
+    "project": "«Фабрика Станиславского» (с AB Development)",
+    "year": null
+   },
+   {
+    "project": "ЖК «Вишнёвый сад» (с AB Development)",
+    "year": null
+   },
+   {
+    "project": "«Большевик» (с AB Development)",
+    "year": null
+   },
+   {
+    "project": "Апарт-отель «Дом с бассейном», Сретенка, 13/26, для Главстроя (проект; разрешение на строительство — декабрь 2020)",
+    "year": null
+   }
+  ],
+  "awards": [
+   {
+    "award": "RIBA Stirling Prize — линия Элизабет, включая станцию Bond Street",
+    "year": 2024
+   },
+   {
+    "award": "Art Fund Museum of the Year — Burrell Collection (реставрация бюро)",
+    "year": 2023
+   },
+   {
+    "award": "World Architect of the Year по версии Building Design",
+    "year": 2009
+   }
+  ],
+  "staff": null,
+  "sources": [
+   "https://www.mcaslan.co.uk/about",
+   "https://en.wikipedia.org/wiki/John_McAslan",
+   "https://abdevelopment.ru/en/pages/mcaslan/",
+   "https://novayagazeta.ru/articles/2021/07/28/poshchechina-moskve"
+  ],
+  "confidence": "high"
+ },
+ {
+  "key": "ket",
+  "name": "ket",
+  "founded": null,
+  "founders": [],
+  "city": null,
+  "website": null,
+  "about": "Архитектурное бюро .ket (пишется также ket). В апреле 2025 года представило концепцию комплекса из шести башен высотой от 6 до 75 этажей на Верейской улице в Москве, на территории бывшего Московского радиотехнического завода.",
+  "notable": [
+   {
+    "project": "Концепция комплекса из шести башен на Верейской улице (бывший Московский радиотехнический завод)",
+    "year": 2025
+   }
+  ],
+  "awards": [],
+  "staff": null,
+  "sources": [
+   "https://moskvichmag.ru/?p=420246"
+  ],
+  "confidence": "low"
+ },
+ {
+  "key": "masterskaya-dmitrieva",
+  "name": "Архитектурная мастерская Михаила Дмитриева",
+  "founded": null,
+  "founders": [],
+  "city": null,
+  "website": null,
+  "about": null,
+  "notable": [],
+  "awards": [],
+  "staff": null,
+  "sources": [],
+  "confidence": "low"
+ },
+ {
+  "key": "byuro-80-88",
+  "name": "80/88",
+  "founded": null,
+  "founders": [],
+  "city": null,
+  "website": null,
+  "about": null,
+  "notable": [],
+  "awards": [],
+  "staff": null,
+  "sources": [],
+  "confidence": "low"
+ },
+ {
+  "key": "citizenstudio",
+  "name": "Citizenstudio",
+  "founded": null,
+  "founders": [
+   "Михаил Бейлин — сооснователь",
+   "Даниил Никишин — сооснователь"
+  ],
+  "city": "Москва",
+  "website": null,
+  "about": "Citizenstudio («Горожане») — московское архитектурное бюро Михаила Бейлина и Даниила Никишина, выпускников МАРХИ, которые раньше работали в бюро «Меганом». Партнёрство выросло из творческой группы, участвовавшей в конкурсах в кризис 2008–2009 годов; бюро работает удалённо, без постоянного офиса. Занимается проектами разного масштаба: от арт-объектов и парков до музеев и жилых комплексов.",
+  "notable": [
+   {
+    "project": "Инсталляция «Экран футбола» в парке Горького (к чемпионату мира по футболу)",
+    "year": 2018
+   },
+   {
+    "project": "Реконструкция особняков на Софийской набережной (совместно с «Меганом»)",
+    "year": null
+   },
+   {
+    "project": "Первое место в конкурсе концепций музея «Дом Мельникова»",
+    "year": null
+   }
+  ],
+  "awards": [
+   {
+    "award": "Гран-при Первой российской молодёжной архитектурной биеннале (Иннополис) и спецприз Минстроя",
+    "year": 2017
+   },
+   {
+    "award": "Премия «Золотой Трезини»",
+    "year": null
+   },
+   {
+    "award": "Два золотых диплома фестиваля «Золотое сечение»",
+    "year": null
+   }
+  ],
+  "staff": null,
+  "sources": [
+   "https://style.rbc.ru/architecture_and_urbanism/6a02dabc9a7947b8b3e63dc5",
+   "https://weekend.rambler.ru/places/38144107-gruppa-citizenstudio-stala-pobeditelem-molodezhnoy-arhitekturnoy-biennale-v-tatarstane/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "key": "civil-architects",
+  "name": "Civil Architects",
+  "founded": null,
+  "founders": [],
+  "city": null,
+  "website": null,
+  "about": "Архитектурное бюро Civil Architects (СИВИЛ). В конце 2022 года представило концепцию 200-метровой башни для ТПУ «Пресня» в Москве.",
+  "notable": [
+   {
+    "project": "Концепция 200-метровой башни в ТПУ «Пресня»",
+    "year": 2022
+   }
+  ],
+  "awards": [],
+  "staff": null,
+  "sources": [
+   "https://moskvichmag.ru/gorod/vot-takoj-ogranennyj-neboskreb-s-vyemkoj-hotyat-postroit-na-tpu-presnya/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "key": "vi",
+  "name": "ВИ",
+  "founded": null,
+  "founders": [],
+  "city": null,
+  "website": null,
+  "about": "Архитектурно-градостроительное бюро Ви (ВИ). Готовит концепции и варианты массинга для участков в Москве, например на Воздвиженке, вл. 7/6, где генпроектировщик — «Метрополис». В июне 2026 года сообщалось, что эта концепция реализована не будет.",
+  "notable": [
+   {
+    "project": "Концепция застройки участка на Воздвиженке, вл. 7/6 (не будет реализована)",
+    "year": 2026
+   }
+  ],
+  "awards": [],
+  "staff": null,
+  "sources": [
+   "https://moskvichmag.ru/gorod/na-ekspertizu-v-meriyu-postupil-proekt-devyatietazhki-v-300-m-ot-kremlya/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "key": "gorproekt",
+  "name": "Горпроект",
+  "founded": null,
+  "founders": [],
+  "city": null,
+  "website": null,
+  "about": null,
+  "notable": [],
+  "awards": [],
+  "staff": null,
+  "sources": [],
+  "confidence": "low"
+ },
+ {
+  "key": "max-dudler",
+  "name": "Max Dudler",
+  "founded": 1986,
+  "founders": [
+   "Макс Дудлер (Max Dudler) — основатель; в 1986 году основал бюро с Карлом Дудлером и Пете Вельбергеном, с 1992 года руководит им единолично"
+  ],
+  "city": "Берлин, Германия (офисы также во Франкфурте-на-Майне и Цюрихе)",
+  "website": "https://www.maxdudler.com/",
+  "about": "Max Dudler — архитектурное бюро швейцарского архитектора Макса Дудлера, работавшего у Освальда Маттиаса Унгерса. Проектирует крупные общественные и частные здания: министерства, библиотеки, музеи, офисы, жильё, а также интерьеры и мебель; работы бюро относят к рационалистической архитектуре. Среди известных объектов — Центр Якоба и Вильгельма Гримм Университета Гумбольдта и станция метро Museumsinsel в Берлине.",
+  "notable": [],
+  "awards": [],
+  "staff": "в среднем около 60 человек (по данным профиля на Architonic)",
+  "sources": [
+   "https://architonic.com/en/microsite/max-dudler/5200725",
+   "https://swiss-architects.com/en/max-dudler-zurich?nonav=1",
+   "https://en.wikipedia.org/wiki/Max_Dudler"
+  ],
+  "confidence": "high"
+ },
+ {
+  "key": "simpsonhaugh",
+  "name": "SimpsonHaugh",
+  "founded": 1987,
+  "founders": [
+   "Иэн Симпсон (Ian Simpson) — сооснователь",
+   "Рейчел Хоу (Rachel Haugh) — сооснователь"
+  ],
+  "city": "Манчестер, Великобритания (также офис в Лондоне)",
+  "website": null,
+  "about": "SimpsonHaugh — британское архитектурное бюро, основанное в 1987 году в Манчестере Иэном Симпсоном и Рейчел Хоу как Ian Simpson Architects; нынешнее название носит примерно с 2014–2015 годов. Известно высотными и общественными зданиями в Манчестере, включая Beetham Tower, No1 Deansgate и Urbis (ныне Национальный музей футбола). В Москве участвовало в проекте Luzhniki Collection, где отвечало за расстановку корпусов.",
+  "notable": [
+   {
+    "project": "Luzhniki Collection: расстановка корпусов (совместно с MVRDV, Aukett Swanke, Dyer, ODA, адаптация — APEX)",
+    "year": null
+   }
+  ],
+  "awards": [],
+  "staff": "120 человек (Place North West, 2017)",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Ian_Simpson_(architect)",
+   "https://www.placenorthwest.co.uk/simpsonhaugh-heres-to-the-next-30-years/",
+   "https://realty.rbc.ru/news/65b267079a7947cb50b3349c"
+  ],
+  "confidence": "low"
+ },
+ {
+  "key": "byuro-bashkaeva",
+  "name": "Бюро Тимура Башкаева",
+  "founded": 1998,
+  "founders": [
+   "Тимур Башкаев — основатель и руководитель"
+  ],
+  "city": "Москва",
+  "website": null,
+  "about": "Архитектурное бюро Тимура Башкаева (АБТБ) — московская архитектурная практика, работающая с 1998 года: архитектура, интерьеры, ландшафт и градостроительство. Известно транспортными и инфраструктурными объектами, в том числе транспортно-пересадочными узлами МЦК и вокзалами пригородных электричек. К 2016 году выполнило более 300 проектов, из которых построено свыше 60.",
+  "notable": [
+   {
+    "project": "Транспортно-пересадочные узлы МЦК",
+    "year": null
+   },
+   {
+    "project": "Станции «Лось» и «Выхино» (проекты остановочных пунктов железной дороги)",
+    "year": null
+   },
+   {
+    "project": "Реконструкция залов ожидания Ярославского вокзала",
+    "year": null
+   },
+   {
+    "project": "Интерьеры павильонов «Медиацентр» и «Заповедное посольство» в парке «Зарядье»",
+    "year": null
+   },
+   {
+    "project": "Станция метро «Нижние Мнёвники» (победа в конкурсе)",
+    "year": null
+   }
+  ],
+  "awards": [
+   {
+    "award": "Победа в конкурсе на проект станции метро «Нижние Мнёвники»",
+    "year": null
+   }
+  ],
+  "staff": null,
+  "sources": [
+   "https://www.m24.ru/articles/96302",
+   "https://www.mos.ru/news/item/53435073/",
+   "https://shop.garagemca.org/en/books/architecture/abtb-architectural-bureau-by-timur-bashkaev-37106.html"
+  ],
+  "confidence": "low"
+ },
+ {
+  "key": "masterskaya-gerasimova",
+  "name": "Мастерская Евгения Герасимова и партнёров",
+  "founded": 1991,
+  "founders": [
+   "Евгений Герасимов — основатель и руководитель, заслуженный архитектор РФ"
+  ],
+  "city": "Санкт-Петербург",
+  "website": null,
+  "about": "«Евгений Герасимов и партнёры» — петербургская архитектурная мастерская под руководством Евгения Герасимова. Проектирует жилые комплексы, общественные и деловые здания, в основном в Санкт-Петербурге; часть проектов сделана совместно с Сергеем Чобаном («Невская ратуша», «Европа Сити», «Дом у моря»). Среди работ мастерской — конгрессно-выставочный центр «Экспофорум» и жилые дома на Крестовском и Каменном островах.",
+  "notable": [],
+  "awards": [],
+  "staff": null,
+  "sources": [
+   "https://realty.rbc.ru/news/577fc90d9a79474a0edbd04b",
+   "https://www.sobaka.ru/people/3935",
+   "https://archi.ru/en/22512/dom-s-grifonami"
+  ],
+  "confidence": "low"
+ },
+ {
+  "key": "megabudka",
+  "name": "Megabudka",
+  "founded": 2014,
+  "founders": [
+   "Артём Укропов — сооснователь",
+   "Кирилл Губернаторов — сооснователь",
+   "Дарья Листопад — сооснователь"
+  ],
+  "city": null,
+  "website": null,
+  "about": "Megabudka — архитектурное бюро, основанное в 2014 году тремя выпускниками МАРХИ. Проектирует общественные и жилые здания, ландшафт и комплексное развитие территорий, работает с локальной идентичностью; по данным РБК, работало примерно в 50 городах России и за рубежом. Известность получило через конкурсы, в том числе с непостроенным проектом реконструкции Триумфальной площади в Москве.",
+  "notable": [
+   {
+    "project": "Конкурсное предложение по реконструкции Триумфальной площади (не реализовано)",
+    "year": null
+   }
+  ],
+  "awards": [
+   {
+    "award": "The Blueprint 100, номинация «Архитектура и дизайн»",
+    "year": 2024
+   },
+   {
+    "award": "Премия Архитектурного совета Москвы, номинация «Адаптация» (год выведен из даты публикации РБК)",
+    "year": 2023
+   }
+  ],
+  "staff": "около 60 человек (РБК Стиль, 2024)",
+  "sources": [
+   "https://style.rbc.ru/architecture_and_urbanism/680267b39a794734f9105794",
+   "https://theblueprint.ru/lifestyle/architecture/100-2024-ar%D1%81h",
+   "https://snob.ru/culture/pobediteli-blueprint-100-v-nominatsiiakh-moda-i-arkhitektura/"
+  ],
+  "confidence": "low"
+ }
+]

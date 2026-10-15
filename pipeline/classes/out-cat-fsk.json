@@ -1,0 +1,79 @@
+[
+ {
+  "slug": "fsk-m-house",
+  "class": "comfort",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/25502/",
+  "evidence": "класс в каталоге: Комфорт"
+ },
+ {
+  "slug": "fsk-zodiak",
+  "class": "business",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/69110/",
+  "evidence": "класс в каталоге: Бизнес"
+ },
+ {
+  "slug": "fsk-dykhanie",
+  "class": "deluxe",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/170725/",
+  "evidence": "класс в каталоге: Элитный"
+ },
+ {
+  "slug": "fsk-lisitsyna-5",
+  "class": "business",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/441250/",
+  "evidence": "класс в каталоге: Бизнес"
+ },
+ {
+  "slug": "fsk-rikhard",
+  "class": "business",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/1705661/",
+  "evidence": "класс в каталоге: Бизнес"
+ },
+ {
+  "slug": "fsk-rezhisser",
+  "class": "deluxe",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/2370917/",
+  "evidence": "класс в каталоге: Элитный"
+ },
+ {
+  "slug": "fsk-rotterdam",
+  "class": "business",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/2756197/",
+  "evidence": "класс в каталоге: Бизнес"
+ },
+ {
+  "slug": "fsk-skay-garden",
+  "class": "business",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/2794038/",
+  "evidence": "класс в каталоге: Бизнес"
+ },
+ {
+  "slug": "fsk-leyk",
+  "class": "deluxe",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/3218148/",
+  "evidence": "класс в каталоге: Элитный"
+ },
+ {
+  "slug": "fsk-sidney-praym",
+  "class": "deluxe",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/3522213/",
+  "evidence": "класс в каталоге: Элитный"
+ },
+ {
+  "slug": "fsk-amber-siti",
+  "class": "business",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/3975219/",
+  "evidence": "класс в каталоге: Бизнес"
+ }
+]

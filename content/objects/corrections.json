@@ -2039,7 +2039,7 @@
   "districtSource": "https://www.novostroy-m.ru/baza/zhk_varshavskoe_shosse_141/vopros-otvet"
  },
  "izmaylovskiy-les": {
-  "region": "moscow-oblast",
+  "region": "moskovskaya-oblast",
   "note": "регион по https://www.novostroy-m.ru/novosti/v_jk_izmaylovskiy_les"
  },
  "lumin": {
@@ -2697,5 +2697,9 @@
   ],
   "note": "дом Фонда реновации («Московские кварталы») по карточке Яндекс Недвижимости, https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/zhk-kuskovskaya-ul-d-12-1-4012105/; дом Фонда реновации («Московские кварталы») по карточке Яндекс Недвижимости, https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/zhk-kuskovskaya-ul-d-12-1-4012105/; дом Фонда реновации («Московские кварталы») по карточке Яндекс Недвижимости, https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/zhk-kuskovskaya-ul-d-12-1-4012105/",
   "stage": "sales"
+ },
+ "fabritsiusa-19a": {
+  "noDeveloper": true,
+  "note": "торги за право КРТ: застройщик не определён (инвестор по итогам аукциона 19.11.2026); Фонд реновации ошибочно из разметки"
  }
 }

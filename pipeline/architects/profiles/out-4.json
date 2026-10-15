@@ -1,0 +1,361 @@
+[
+ {
+  "key": "mvrdv",
+  "name": "MVRDV",
+  "founded": 1993,
+  "founders": [
+   "Вини Маас — сооснователь",
+   "Якоб ван Рейс — сооснователь",
+   "Натали де Врис — сооснователь"
+  ],
+  "city": "Роттердам, Нидерланды",
+  "website": "https://www.mvrdv.com/",
+  "about": "MVRDV — нидерландское архитектурное бюро, основанное в 1993 году в Роттердаме; есть офисы в Берлине, Нью-Йорке, Париже и Шанхае. Бюро работает в архитектуре и урбанистике, среди известных работ — хранилище Depot Boijmans Van Beuningen и комплекс Valley в Амстердаме. В Москве спроектировало комплекс апартаментов Red7 на Садовом кольце (застройщик — ГК «Основа», генпроектировщик — бюро APEX).",
+  "notable": [
+   {
+    "project": "Red7, комплекс апартаментов на углу Садовой-Спасской ул. и пр. Академика Сахарова (завершён к 2024 году, по данным Moskvich Mag)",
+    "year": 2024
+   }
+  ],
+  "awards": [
+   {
+    "award": "European Museum of the Year, специальный приз жюри — Depot Boijmans Van Beuningen",
+    "year": 2023
+   },
+   {
+    "award": "International Architecture Award — Valley",
+    "year": 2020
+   }
+  ],
+  "staff": "более 300 сотрудников (по данным Википедии)",
+  "sources": [
+   "https://en.wikipedia.org/wiki/MVRDV",
+   "https://moskvichmag.ru/?p=350269",
+   "https://realty.rbc.ru/amp/news/5d4c139f9a79479630af8a1a"
+  ],
+  "confidence": "low"
+ },
+ {
+  "key": "semren-mansson",
+  "name": "Semrén & Månsson",
+  "founded": null,
+  "founders": [
+   "Мария Броман — главный архитектор проекта (по Archi.ru, 2017; руководящая роль в бюро не подтверждена)"
+  ],
+  "city": "Швеция (город штаб-квартиры не подтверждён); есть российское отделение",
+  "website": null,
+  "about": "Semrén & Månsson — шведское архитектурное бюро, у которого есть российское отделение; в публикациях оно описывает свой подход как «скандинавский дизайн по российским нормативам». В Подмосковье по его проекту строился UP-квартал «Скандинавский» ФСК «Лидер», в Санкт-Петербурге при его участии спроектирован ЖК Skandi Klubb (2016). В 2025 году бюро представило концепцию жилого комплекса на улице Обручева у станции «Калужская».",
+  "notable": [
+   {
+    "project": "UP-квартал «Скандинавский», ФСК «Лидер» (Мытищинский район, Московская область; строительство начато к 2017 году)",
+    "year": null
+   },
+   {
+    "project": "Концепция жилого комплекса на ул. Обручева у станции «Калужская» (концепция, 2025)",
+    "year": 2025
+   }
+  ],
+  "awards": [],
+  "staff": null,
+  "sources": [
+   "https://archi.ru/print/news/en/74758",
+   "https://moskvichmag.ru/gorod/u-kaluzhskoj-postroyat-skandinavskij-zhiloj-kompleks-po-proektu-shvedskogo-arhitekturnogo-byuro/",
+   "https://www.builderonline.com/project-gallery/skandi-klubb-residential-complex"
+  ],
+  "confidence": "low"
+ },
+ {
+  "key": "masterskaya-ilina",
+  "name": "Мастерская Алексея Ильина",
+  "founded": 2020,
+  "founders": [
+   "Алексей Ильин — основатель и руководитель"
+  ],
+  "city": "Москва",
+  "website": "https://alexeyilinarchitects.moscow",
+  "about": "Архитектурная мастерская Алексея Ильина (Alexey Ilin Architects) — московское бюро, оформившееся около 2020 года; его основатель ранее был сооснователем бюро «Ильин Чобан» и руководил мастерской №1 в SPEECH. Бюро занимается в основном жилыми и офисными зданиями в Москве, стадию «П» выполняет само, рабочую документацию — партнёр «Проект 2018». Алексей Ильин также известен как автор архитектурной графики.",
+  "notable": [
+   {
+    "project": "ЖК Aalto",
+    "year": 2020
+   },
+   {
+    "project": "Офисное здание Rail.a, Переведеновский пер. (по данным Archi.ru — почти завершено)",
+    "year": 2023
+   },
+   {
+    "project": "ЖК Voice Towers (строится)",
+    "year": 2024
+   },
+   {
+    "project": "ЖК Amber City (строится)",
+    "year": null
+   },
+   {
+    "project": "ЖК «Шагал» (в реализации)",
+    "year": null
+   }
+  ],
+  "awards": [
+   {
+    "award": "«Серебряный знак» фестиваля «Зодчество» — гостиничный комплекс в Минеральных Водах",
+    "year": null
+   }
+  ],
+  "staff": "около 30–35 человек (по словам Алексея Ильина в интервью Archi.ru)",
+  "sources": [
+   "https://archi.ru/en/101508/aleksei-ilyin-i-approach-every-task-with-genuine-interest"
+  ],
+  "confidence": "high"
+ },
+ {
+  "key": "breath",
+  "name": "Breath Architects",
+  "founded": null,
+  "founders": [],
+  "city": null,
+  "website": null,
+  "about": null,
+  "notable": [],
+  "awards": [],
+  "staff": null,
+  "sources": [],
+  "confidence": "low"
+ },
+ {
+  "key": "ddd",
+  "name": "DDD",
+  "founded": 2021,
+  "founders": [
+   "Дарья Семенова — сооснователь, соруководитель",
+   "Данила Царьков — соруководитель"
+  ],
+  "city": "Москва",
+  "website": null,
+  "about": "DDD Architects — московское архитектурное бюро, которому, по данным mos.ru, в 2025 году исполнилось четыре года. Проектирует жилые дома, общественные и социальные объекты, концепции станций метро; основная часть работ — высотные здания. Бюро предлагало концепцию станции «Лебедянская» Бирюлёвской линии метро (конкурс не выиграло).",
+  "notable": [
+   {
+    "project": "Жилой комплекс из трёх башен высотой 100–150 м у станции метро «Селигерская» (статус не указан)",
+    "year": null
+   }
+  ],
+  "awards": [],
+  "staff": null,
+  "sources": [
+   "https://www.mos.ru/news/item/156871073/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "key": "kanva",
+  "name": "Kanva",
+  "founded": null,
+  "founders": [],
+  "city": "Москва (по проектам; адрес штаб-квартиры не подтверждён)",
+  "website": null,
+  "about": "Kanva — архитектурное бюро, автор концепций нескольких московских объектов: 125-метрового офисного центра на территории бывшего грузового Северного речного порта и вариантов застройки участка в переулке Расковой. Не путать с канадским бюро KANVA из Монреаля. Сведений о составе и истории бюро в открытых профильных источниках найти не удалось.",
+  "notable": [
+   {
+    "project": "Офисный центр (29 этажей, 125 м) на территории бывшего грузового Северного речного порта (проект; завершение планировалось на II квартал 2027 года)",
+    "year": null
+   },
+   {
+    "project": "Концепции бизнес-центра и жилого комплекса в пер. Расковой, 14/22 (концепция, 2026)",
+    "year": 2026
+   }
+  ],
+  "awards": [],
+  "staff": null,
+  "sources": [
+   "https://moskvichmag.ru/gorod/v-severnom-rechnom-portu-postroyat-ofisnyj-tsentr-s-rassechennym-uglom/",
+   "https://moskvichmag.ru/?p=481359"
+  ],
+  "confidence": "low"
+ },
+ {
+  "key": "mayak",
+  "name": "MAYAK",
+  "founded": null,
+  "founders": [
+   "Лиза Бриллиантова — сооснователь"
+  ],
+  "city": "Санкт-Петербург",
+  "website": null,
+  "about": "MAYAK (MAYAK Architects) — российское архитектурное бюро из Санкт-Петербурга. В 2019 году выиграло конкурс на жилой комплекс «Покровский» в Ижевске. В Москве бюро — автор проекта жилого квартала PAVE девелопера FORMA в Даниловском районе.",
+  "notable": [
+   {
+    "project": "ЖК PAVE, 2-й Павелецкий пр., 4/6, девелопер FORMA (проект; ввод первого этапа запланирован на IV квартал 2028 года)",
+    "year": null
+   }
+  ],
+  "awards": [
+   {
+    "award": "Победа в конкурсе на ЖК «Покровский» в Ижевске (Удмуртское отделение Союза архитекторов России)",
+    "year": 2019
+   }
+  ],
+  "staff": null,
+  "sources": [
+   "https://aluminas.ru/media/media-publications/zhk_s_tremya_bashnyami_dominantami_poyavitsya_v_danilovskom_rayone",
+   "https://archi.ru/en/82729/garden-and-arch-etude"
+  ],
+  "confidence": "low"
+ },
+ {
+  "key": "mpg",
+  "name": "MPG Architects",
+  "founded": null,
+  "founders": [],
+  "city": null,
+  "website": null,
+  "about": null,
+  "notable": [],
+  "awards": [],
+  "staff": null,
+  "sources": [],
+  "confidence": "low"
+ },
+ {
+  "key": "osa",
+  "name": "OSA architectural office",
+  "founded": 2002,
+  "founders": [
+   "Станислав Белых — сооснователь, партнёр"
+  ],
+  "city": "Екатеринбург",
+  "website": "http://www.osa-group.com",
+  "about": "OSA — архитектурное бюро из Екатеринбурга, основанное в 2002 году; ядро бюро составляют пять партнёров. Проектирует жилые дома, офисы, образовательные, спортивные и торговые комплексы, общественные пространства; работало в Екатеринбурге, Тюмени, Новосибирске, Вологде, Перми и Одинцове. Соответствие этого бюро московским проектам из входных данных не проверено: проекты во входном файле не указаны.",
+  "notable": [],
+  "awards": [],
+  "staff": "45 сотрудников (по профилю на World-Architects); около 30 человек по данным интервью Archi.ru 2017 года",
+  "sources": [
+   "https://world-architects.com/da/osa-yekaterinburg/about",
+   "https://archi.ru/en/75514/osa-we-are-excited-to-work-with-human-habitat"
+  ],
+  "confidence": "high"
+ },
+ {
+  "key": "plp-architecture",
+  "name": "PLP Architecture",
+  "founded": 2009,
+  "founders": [
+   "Ли Полисано — сооснователь (ранее президент Kohn Pedersen Fox)",
+   "Дэвид Левенталь — сооснователь",
+   "Карен Кук — сооснователь",
+   "Рон Баккер — сооснователь",
+   "Фред Пилброу — сооснователь (вскоре покинул бюро)"
+  ],
+  "city": "Лондон, Великобритания",
+  "website": "https://plparchitecture.com/",
+  "about": "PLP Architecture — британское архитектурное бюро, основанное в Лондоне в 2009 году бывшими руководителями и партнёрами Kohn Pedersen Fox. Специализируется на офисных и многофункциональных зданиях и небоскрёбах; среди известных работ — офисное здание The Edge в Амстердаме и башня 22 Bishopsgate в Лондоне. В Москве бюро участвовало в конкурсе на жилой комплекс на улице Кржижановского, 31 (2021), где победило UNStudio; реализованных московских проектов в открытых источниках найти не удалось.",
+  "notable": [
+   {
+    "project": "Конкурсное предложение: жилой комплекс на ул. Кржижановского, 31 (участник конкурса; победитель — UNStudio)",
+    "year": 2021
+   }
+  ],
+  "awards": [
+   {
+    "award": "The Edge (Амстердам) признан BRE самым экологичным офисным зданием в мире",
+    "year": 2015
+   }
+  ],
+  "staff": null,
+  "sources": [
+   "https://en.wikipedia.org/wiki/PLP_Architecture",
+   "https://plparchitecture.com/?p=728",
+   "https://www.mos.ru/news/item/98576073/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "key": "progress",
+  "name": "Progress",
+  "founded": null,
+  "founders": [],
+  "city": null,
+  "website": null,
+  "about": null,
+  "notable": [],
+  "awards": [],
+  "staff": null,
+  "sources": [],
+  "confidence": "low"
+ },
+ {
+  "key": "u-studio",
+  "name": "U-Studio",
+  "founded": null,
+  "founders": [],
+  "city": null,
+  "website": null,
+  "about": null,
+  "notable": [],
+  "awards": [],
+  "staff": null,
+  "sources": [],
+  "confidence": "low"
+ },
+ {
+  "key": "vostok",
+  "name": "VOSTOK",
+  "founded": null,
+  "founders": [],
+  "city": null,
+  "website": null,
+  "about": null,
+  "notable": [],
+  "awards": [],
+  "staff": null,
+  "sources": [],
+  "confidence": "low"
+ },
+ {
+  "key": "tpo-pride",
+  "name": "ТПО Pride",
+  "founded": null,
+  "founders": [],
+  "city": "Москва",
+  "website": null,
+  "about": "ТПО Pride (Творческое производственное объединение «Прайд») — московское архитектурное бюро; по его собственным данным, в портфолио более 1,1 млн м² построенных объектов разного назначения, от спортивных стадионов до крупных деловых центров. В Москве известно Дворцом художественной гимнастики в «Лужниках», проектом территории у стадиона «Динамо» и бизнес-центром iCity на Шелепихе.",
+  "notable": [
+   {
+    "project": "Дворец художественной гимнастики в «Лужниках»",
+    "year": null
+   },
+   {
+    "project": "Территория у стадиона «Динамо»",
+    "year": null
+   },
+   {
+    "project": "Бизнес-центр iCity на Шелепихе (строился по состоянию на 2022 год)",
+    "year": null
+   },
+   {
+    "project": "Офисный центр с «золотым порталом», Можайский Вал / Брянская ул. (концепция согласована Москомархитектурой, 2022)",
+    "year": 2022
+   }
+  ],
+  "awards": [],
+  "staff": null,
+  "sources": [
+   "https://moskvichmag.ru/gorod/vot-takoj-ofisnyj-tsentr-s-zolotym-portalom-postroyat-u-dorogomilovskogo-rynka/",
+   "https://astek-mt.ru/company/news/zavod-gk-astek-mt-v-gorode-krymske-posetila-delegatsiya-arkhitekturnogo-byuro-prayd-iz-goroda-moskvy/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "key": "lampa-community",
+  "name": "Lampa Community",
+  "founded": null,
+  "founders": [],
+  "city": null,
+  "website": null,
+  "about": null,
+  "notable": [],
+  "awards": [],
+  "staff": null,
+  "sources": [],
+  "confidence": "low"
+ }
+]

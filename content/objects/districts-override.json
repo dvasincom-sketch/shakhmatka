@@ -1,0 +1,1393 @@
+{
+ "coin-house": {
+  "district": "danilovskiy",
+  "how": "geo",
+  "basis": "Подольское шоссе, 3"
+ },
+ "amurskaya-1": {
+  "district": "golyanovo",
+  "how": "geo",
+  "basis": "Амурская, 1"
+ },
+ "varshavskoe-14": {
+  "district": "nagatino-sadovniki",
+  "how": "geo",
+  "basis": "Варшавское, 14"
+ },
+ "komsomolskiy-1": {
+  "district": "khamovniki",
+  "how": "geo",
+  "basis": "Комсомольский, 1"
+ },
+ "very": {
+  "district": "marfino",
+  "how": "geo",
+  "basis": "Ботаническая, 29"
+ },
+ "krasnyy-bogatyr": {
+  "district": "bogorodskoe",
+  "how": "geo",
+  "basis": "Краснобогатырская, 2"
+ },
+ "b-aires": {
+  "district": "shchukino",
+  "how": "geo",
+  "basis": "Большой Волоколамский, 23"
+ },
+ "perovskoe-2": {
+  "district": "nizhegorodskiy",
+  "how": "geo",
+  "basis": "Перовское, 2"
+ },
+ "elektrozavodskaya-60": {
+  "district": "preobrazhenskoe",
+  "how": "geo",
+  "basis": "Электрозаводская, 60"
+ },
+ "2-ya-rybinskaya-21": {
+  "district": "sokolniki",
+  "how": "geo",
+  "basis": "2-я Рыбинская, 21"
+ },
+ "shosse-entuziastov-46": {
+  "district": "lefortovo",
+  "how": "geo",
+  "basis": "Шоссе Энтузиастов, 46"
+ },
+ "nii-delta": {
+  "district": "golyanovo",
+  "how": "geo",
+  "basis": "Щелковское шоссе, 2а"
+ },
+ "tts-ekstrim": {
+  "district": "levoberezhnyy",
+  "how": "geo",
+  "basis": "Смольная, 63Б"
+ },
+ "moskva-siti-2": {
+  "district": "solntsevo",
+  "how": "geo",
+  "basis": "Москва-Сити-2"
+ },
+ "1-y-nagatinskiy": {
+  "district": "nagatino-sadovniki",
+  "how": "geo",
+  "basis": "1-й Нагатинский"
+ },
+ "siti-2a": {
+  "district": "tverskoy",
+  "how": "geo",
+  "basis": "Сити-2А"
+ },
+ "siti-2": {
+  "district": "presnenskiy",
+  "how": "manual",
+  "basis": "Сити-2"
+ },
+ "tpu-siti-2": {
+  "district": "presnenskiy",
+  "how": "manual",
+  "basis": "ТПУ Сити-2"
+ },
+ "arkhitektora-vlasova-57": {
+  "district": "lomonosovskiy",
+  "how": "geo",
+  "basis": "Архитектора Власова, 57"
+ },
+ "staroobryadcheskaya-28a": {
+  "district": "lefortovo",
+  "how": "geo",
+  "basis": "Старообрядческая, 28А"
+ },
+ "ice-tower": {
+  "district": "ramenki",
+  "how": "geo",
+  "basis": "Лобачевского, 3-5"
+ },
+ "leningradskiy-80": {
+  "district": "sokol",
+  "how": "geo",
+  "basis": "Ленинградский, 80"
+ },
+ "kashirskoe-shosse-63-13": {
+  "district": "orekhovo-borisovo-yuzhnoe",
+  "how": "geo",
+  "basis": "Каширское шоссе, 63"
+ },
+ "kozhevnicheskie-bani": {
+  "district": "zamoskvorechye",
+  "how": "geo",
+  "basis": "Кожевническая, 15"
+ },
+ "kremenchugskaya-42": {
+  "district": "fili-davydkovo",
+  "how": "geo",
+  "basis": "Кременчугская, 42"
+ },
+ "rublevskoe-shosse-68": {
+  "district": "krylatskoe",
+  "how": "geo",
+  "basis": "Рублевское шоссе, 68"
+ },
+ "dokukina-10": {
+  "district": "rostokino",
+  "how": "geo",
+  "basis": "Докукина, 10"
+ },
+ "krivokolennyy-12": {
+  "district": "basmannyy",
+  "how": "geo",
+  "basis": "Кривоколенный, 12"
+ },
+ "mishina-56": {
+  "district": "savelovskiy",
+  "how": "geo",
+  "basis": "Мишина, 56"
+ },
+ "kashirskoe-78": {
+  "district": "moskvoreche-saburovo",
+  "how": "geo",
+  "basis": "Каширское, 78"
+ },
+ "univer": {
+  "district": "konkovo",
+  "how": "geo",
+  "basis": "Миклухо-Маклая, 16"
+ },
+ "malaya-nikitskaya-27": {
+  "district": "presnenskiy",
+  "how": "geo",
+  "basis": "Малая Никитская, 27"
+ },
+ "romanov-7": {
+  "district": "arbat",
+  "how": "geo",
+  "basis": "Романов, 7"
+ },
+ "kashirskoe-34": {
+  "district": "moskvoreche-saburovo",
+  "how": "geo",
+  "basis": "Каширское, 34"
+ },
+ "dubininskaya-33b": {
+  "district": "zamoskvorechye",
+  "how": "geo",
+  "basis": "Дубининская, 33Б"
+ },
+ "vavilova-5": {
+  "district": "gagarinskiy",
+  "how": "geo",
+  "basis": "Вавилова, 5"
+ },
+ "sreda-na-yuzhnoportovoy": {
+  "district": "pechatniki",
+  "how": "geo",
+  "basis": "Южнопортовая, 3"
+ },
+ "gavrikova-11": {
+  "district": "krasnoselskiy",
+  "how": "geo",
+  "basis": "Гаврикова, 11"
+ },
+ "kirpichnye-vyemki-2s1": {
+  "district": "chertanovo-yuzhnoe",
+  "how": "geo",
+  "basis": "Кирпичные Выемки, 2С1"
+ },
+ "2-ya-magistralnaya-7a": {
+  "district": "presnenskiy",
+  "how": "geo",
+  "basis": "2-я Магистральная, 7А"
+ },
+ "bolshoy-levshinskiy-12": {
+  "district": "khamovniki",
+  "how": "geo",
+  "basis": "Большой Левшинский, 12"
+ },
+ "qoob": {
+  "district": "fili-davydkovo",
+  "how": "geo",
+  "basis": "Алексея Свиридова, 17"
+ },
+ "byvshiy-torgovyy-dom-amo-zil": {
+  "district": "danilovskiy",
+  "how": "geo",
+  "basis": "1-й Автозаводский, 3"
+ },
+ "uchastok-20-moskva-siti": {
+  "district": "presnenskiy",
+  "how": "manual",
+  "basis": "участо"
+ },
+ "lodochnaya-27k2": {
+  "district": "yuzhnoe-tushino",
+  "how": "geo",
+  "basis": "Лодочная, 27"
+ },
+ "south-gate": {
+  "district": "danilovskiy",
+  "how": "geo",
+  "basis": "Андропова, 20"
+ },
+ "verkhnyaya-krasnoselskaya-11a": {
+  "district": "krasnoselskiy",
+  "how": "geo",
+  "basis": "Верхняя Красносельская, 11А"
+ },
+ "your-majesty": {
+  "district": "khamovniki",
+  "how": "geo",
+  "basis": "Большой Левшинский, 19"
+ },
+ "kampus-mgsu": {
+  "district": "yaroslavskiy",
+  "how": "geo",
+  "basis": "Ярославское, 26"
+ },
+ "pavlovskaya-bolnitsa": {
+  "district": "danilovskiy",
+  "how": "geo",
+  "basis": "Павловская, 25"
+ },
+ "dom-kuptsa-buloshnikova": {
+  "district": "presnenskiy",
+  "how": "geo",
+  "basis": "Большая Никитская, 17"
+ },
+ "dk-serp-i-molot": {
+  "district": "lefortovo",
+  "how": "geo",
+  "basis": "Волочаевская, 48"
+ },
+ "avtozavodskaya-23s58": {
+  "district": "danilovskiy",
+  "how": "geo",
+  "basis": "Автозаводская, 23"
+ },
+ "vavilova-9a-str-1-2": {
+  "district": "akademicheskiy",
+  "how": "geo",
+  "basis": "Вавилова, 9А, 2"
+ },
+ "rublevskoe-58": {
+  "district": "krylatskoe",
+  "how": "geo",
+  "basis": "Рублевское, 58"
+ },
+ "zaozernaya-15a": {
+  "district": "kosino-ukhtomskiy",
+  "how": "manual",
+  "basis": "Заозерная, 15а"
+ },
+ "dmitrovskoe-62": {
+  "district": "beskudnikovskiy",
+  "how": "geo",
+  "basis": "Дмитровское, 62"
+ },
+ "zavod-fereyn": {
+  "district": "nagatino-sadovniki",
+  "how": "geo",
+  "basis": "Нагатинская, 1"
+ },
+ "novovorotnikovskiy-4-1": {
+  "district": "tverskoy",
+  "how": "geo",
+  "basis": "Нововоротниковский, 4"
+ },
+ "leninskiy-82-2-2": {
+  "district": "lomonosovskiy",
+  "how": "manual",
+  "basis": "Ленинский, 82"
+ },
+ "kashirskoe-76a": {
+  "district": "orekhovo-borisovo-severnoe",
+  "how": "geo",
+  "basis": "Каширское, 76а"
+ },
+ "novoslobodskaya-55-str-1": {
+  "district": "tverskoy",
+  "how": "geo",
+  "basis": "Новослободская, 55"
+ },
+ "2-y-kozhevnicheskiy-2": {
+  "district": "danilovskiy",
+  "how": "geo",
+  "basis": "2-й Кожевнический, 2"
+ },
+ "bolshaya-nikitskaya-11-4s3": {
+  "district": "presnenskiy",
+  "how": "geo",
+  "basis": "Большая Никитская, 11"
+ },
+ "arkhitektora-vlasova-59": {
+  "district": "obruchevskiy",
+  "how": "geo",
+  "basis": "Архитектора Власова, 59"
+ },
+ "kutuzov-siti": {
+  "district": "mozhayskiy",
+  "how": "geo",
+  "basis": "Гродненская, 18"
+ },
+ "tsandera-14": {
+  "district": "ostankinskiy",
+  "how": "geo",
+  "basis": "Цандера, 14"
+ },
+ "bolshoy-nikolovorobinskiy-7-str-2-3-4-17": {
+  "district": "taganskiy",
+  "how": "geo",
+  "basis": "Большой Николоворобинский, 7, 3, 4, 17"
+ },
+ "rublevskaya-rivera": {
+  "district": "kuntsevo",
+  "how": "geo",
+  "basis": "3-я Черепковская, 15"
+ },
+ "kashirskoe-14": {
+  "district": "moskvoreche-saburovo",
+  "how": "geo",
+  "basis": "Каширское, 14"
+ },
+ "nikitskiy-6": {
+  "district": "tverskoy",
+  "how": "geo",
+  "basis": "Никитский, 6"
+ },
+ "bolshaya-nikitskaya-16": {
+  "district": "presnenskiy",
+  "how": "geo",
+  "basis": "Большая Никитская, 16"
+ },
+ "gate-one": {
+  "district": "gagarinskiy",
+  "how": "geo",
+  "basis": "60-летия Октября, 5А"
+ },
+ "potapovskiy-2-8": {
+  "district": "basmannyy",
+  "how": "geo",
+  "basis": "Потаповский, 2"
+ },
+ "bolshaya-bronnaya-23-str-1": {
+  "district": "presnenskiy",
+  "how": "geo",
+  "basis": "Большая Бронная, 23"
+ },
+ "khersonskaya-35": {
+  "district": "cheremushki",
+  "how": "geo",
+  "basis": "Херсонская, 35"
+ },
+ "khavskaya-9-1": {
+  "district": "danilovskiy",
+  "how": "geo",
+  "basis": "Хавская, 9"
+ },
+ "saltykovskaya-24": {
+  "district": "novokosino",
+  "how": "geo",
+  "basis": "Салтыковская, 24"
+ },
+ "leningradskoe-71a": {
+  "district": "voykovskiy",
+  "how": "geo",
+  "basis": "Ленинградское, 71А"
+ },
+ "1-y-volokolamskiy-10": {
+  "district": "shchukino",
+  "how": "geo",
+  "basis": "1-й Волоколамский, 10"
+ },
+ "mark": {
+  "district": "danilovskiy",
+  "how": "geo",
+  "basis": "Автозаводская, 23"
+ },
+ "bolshoy-kharitonevskiy-13a-s10": {
+  "district": "basmannyy",
+  "how": "geo",
+  "basis": "Большой Харитоньевский, 13А, С10"
+ },
+ "udaltsova-85a": {
+  "district": "prospekt-vernadskogo",
+  "how": "geo",
+  "basis": "Удальцова, 85А"
+ },
+ "povarskaya-29-36-str-2": {
+  "district": "arbat",
+  "how": "geo",
+  "basis": "Поварская, 29"
+ },
+ "kolskaya-18": {
+  "district": "babushkinskiy",
+  "how": "geo",
+  "basis": "Кольская, 18"
+ },
+ "kozhevnicheskaya-13-3": {
+  "district": "zamoskvorechye",
+  "how": "geo",
+  "basis": "Кожевническая, 13"
+ },
+ "kinoteatr-pravda": {
+  "district": "danilovskiy",
+  "how": "geo",
+  "basis": "Люсиновская, 57"
+ },
+ "bell": {
+  "district": "begovoy",
+  "how": "geo",
+  "basis": "1-я улица Ямского Поля, 12"
+ },
+ "mind": {
+  "district": "aeroport",
+  "how": "geo",
+  "basis": "Серегина, 5–7"
+ },
+ "paveletskaya-naberezhnaya-6": {
+  "district": "danilovskiy",
+  "how": "geo",
+  "basis": "Павелецкая набережная, 6"
+ },
+ "lodochnaya-27-k-2": {
+  "district": "yuzhnoe-tushino",
+  "how": "geo",
+  "basis": "Лодочная, 27"
+ },
+ "lyalin-18-str-1": {
+  "district": "basmannyy",
+  "how": "geo",
+  "basis": "Лялин, 18"
+ },
+ "loran": {
+  "district": "yakimanka",
+  "how": "manual",
+  "basis": "Ленинский, 11"
+ },
+ "vetkina-2v": {
+  "district": "marina-roshcha",
+  "how": "geo",
+  "basis": "Веткина, 2В"
+ },
+ "nizhegorodskaya-63-65": {
+  "district": "nizhegorodskiy",
+  "how": "geo",
+  "basis": "Нижегородская, 63-65"
+ },
+ "zorge-30a": {
+  "district": "khoroshevskiy",
+  "how": "geo",
+  "basis": "Зорге, 30А"
+ },
+ "molodogvardeyskaya-64-9": {
+  "district": "kuntsevo",
+  "how": "geo",
+  "basis": "Молодогвардейская, 64"
+ },
+ "belgrad": {
+  "district": "orekhovo-borisovo-yuzhnoe",
+  "how": "geo",
+  "basis": "Домодедовская, 28"
+ },
+ "khomutovskiy-10-str-1": {
+  "district": "basmannyy",
+  "how": "geo",
+  "basis": "Хомутовский, 10"
+ },
+ "kashirskoe-61-korp-4-str-1-9": {
+  "district": "orekhovo-borisovo-severnoe",
+  "how": "geo",
+  "basis": "Каширское, 61"
+ },
+ "bolshaya-butovskaya-11": {
+  "district": "yuzhnoe-butovo",
+  "how": "geo",
+  "basis": "Большая Бутовская, 11"
+ },
+ "mashkinskoe-2": {
+  "district": "kurkino",
+  "how": "geo",
+  "basis": "Машкинское, 2"
+ },
+ "mnevniki-3": {
+  "district": "khoroshevo-mnevniki",
+  "how": "geo",
+  "basis": "Мневники 3"
+ },
+ "selskokhozyaystvennaya-5-str-1-2": {
+  "district": "rostokino",
+  "how": "geo",
+  "basis": "Сельскохозяйственная, 5, 2"
+ },
+ "8-ya-tekstilshchikov-8": {
+  "district": "tekstilshchiki",
+  "how": "geo",
+  "basis": "8-я Текстильщиков, 8"
+ },
+ "krt-avtomotornaya": {
+  "district": "golovinskiy",
+  "how": "geo",
+  "basis": "Войкова, 6"
+ },
+ "planetnaya-3": {
+  "district": "aeroport",
+  "how": "geo",
+  "basis": "Планетная, 3"
+ },
+ "dorozhnaya-3": {
+  "district": "chertanovo-yuzhnoe",
+  "how": "manual",
+  "basis": "Дорожная, 3"
+ },
+ "kolledzh-raketno-kosmicheskoy-otrasli": {
+  "district": "filevskiy-park",
+  "how": "geo",
+  "basis": "Мясищева, 3"
+ },
+ "profsoyuznaya-152": {
+  "district": "teplyy-stan",
+  "how": "geo",
+  "basis": "Профсоюзная, 152"
+ },
+ "volokolamskoe-71-22": {
+  "district": "pokrovskoe-streshnevo",
+  "how": "geo",
+  "basis": "Волоколамское, 71"
+ },
+ "river-city": {
+  "district": "levoberezhnyy",
+  "how": "geo",
+  "basis": "Ленинградское, 65"
+ },
+ "malaya-nikitskaya-29": {
+  "district": "presnenskiy",
+  "how": "geo",
+  "basis": "Малая Никитская, 29"
+ },
+ "smirnovskaya-1": {
+  "district": "nizhegorodskiy",
+  "how": "geo",
+  "basis": "Смирновская, 1"
+ },
+ "bazhova-11-2": {
+  "district": "rostokino",
+  "how": "geo",
+  "basis": "Бажова, 11"
+ },
+ "elektrolitnyy-1-k-5": {
+  "district": "nagornyy",
+  "how": "geo",
+  "basis": "Электролитный, 1"
+ },
+ "novoostapovskaya-3": {
+  "district": "yuzhnoportovyy",
+  "how": "geo",
+  "basis": "Новоостаповская, 3"
+ },
+ "budayskaya-3": {
+  "district": "rostokino",
+  "how": "geo",
+  "basis": "Будайская, 3"
+ },
+ "shlyuzovaya-8-2": {
+  "district": "zamoskvorechye",
+  "how": "geo",
+  "basis": "Шлюзовая, 8"
+ },
+ "kotlyakovskiy-4a": {
+  "district": "moskvoreche-saburovo",
+  "how": "geo",
+  "basis": "1-й Котляковский, 4А"
+ },
+ "very-miklukho-maklaya-23": {
+  "district": "obruchevskiy",
+  "how": "geo",
+  "basis": "Миклухо-Маклая, 23"
+ },
+ "pik-polyarnaya-25": {
+  "district": "yuzhnoe-medvedkovo",
+  "how": "geo",
+  "basis": "Полярная, 25"
+ },
+ "pik-anninskiy": {
+  "district": "chertanovo-yuzhnoe",
+  "how": "geo",
+  "basis": "Варшавское шоссе, 160"
+ },
+ "pik-bolshoe-kuskovo": {
+  "district": "perovo",
+  "how": "geo",
+  "basis": "улица Перовская"
+ },
+ "pik-solntsevo-park": {
+  "district": "vnukovo",
+  "how": "geo",
+  "basis": "мкр. Солнцево-Парк, улица Летчика Грицевца"
+ },
+ "pik-vander-park": {
+  "district": "kuntsevo",
+  "how": "geo",
+  "basis": "Рублёвское шоссе, 101"
+ },
+ "pik-yasenevaya-14": {
+  "district": "orekhovo-borisovo-yuzhnoe",
+  "how": "manual",
+  "basis": "улица Ясеневая, 14"
+ },
+ "pik-yunino": {
+  "district": "shcherbinka",
+  "how": "geo",
+  "basis": "улица Мостотреста"
+ },
+ "pik-zhemchuzhina-zelenograda": {
+  "district": "kryukovo",
+  "how": "geo",
+  "basis": "Зеленоград, проспект Георгиевский"
+ },
+ "mk-9-ya-sokolinoy-gory-9": {
+  "district": "sokolinaya-gora",
+  "how": "geo",
+  "basis": "9-я, Соколиной Горы, 9"
+ },
+ "mk-angarskaya-33a": {
+  "district": "zapadnoe-degunino",
+  "how": "geo",
+  "basis": "Ангарская, 33А"
+ },
+ "mk-beregovoy-pr-d-1a-1b": {
+  "district": "filevskiy-park",
+  "how": "geo",
+  "basis": "Береговой проезд, 1А, 1Б"
+ },
+ "mk-chapaeva-4": {
+  "district": "vnukovo",
+  "how": "geo",
+  "basis": "Чапаева, 4"
+ },
+ "mk-dmitriya-ulyanova-27-k1": {
+  "district": "akademicheskiy",
+  "how": "geo",
+  "basis": "Дмитрия Ульянова, 27"
+ },
+ "mk-dmitriya-ulyanova-47": {
+  "district": "kotlovka",
+  "how": "geo",
+  "basis": "Дмитрия Ульянова, 47"
+ },
+ "mk-dosflota-pr-d-2a": {
+  "district": "yuzhnoe-tushino",
+  "how": "geo",
+  "basis": "Досфлота проезд, 2А"
+ },
+ "mk-georgievskiy-pr-kt-k1936": {
+  "district": "kryukovo",
+  "how": "geo",
+  "basis": "Георгиевский проспект"
+ },
+ "mk-geroev-panfilovtsev-z-u-49": {
+  "district": "severnoe-tushino",
+  "how": "geo",
+  "basis": "Героев Панфиловцев, 49"
+ },
+ "mk-ilimskaya-5": {
+  "district": "lianozovo",
+  "how": "geo",
+  "basis": "Илимская, 5"
+ },
+ "mk-kasimovskaya-39-k2": {
+  "district": "biryulevo-vostochnoe",
+  "how": "geo",
+  "basis": "Касимовская, 39"
+ },
+ "mk-konstantina-fedina-5": {
+  "district": "severnoe-izmaylovo",
+  "how": "geo",
+  "basis": "Константина Федина, 5"
+ },
+ "mk-kuprina-pr-kt-38-k1-2": {
+  "district": "sosenskoe",
+  "how": "geo",
+  "basis": "Куприна проспект, 38, 2"
+ },
+ "mk-kuprina-pr-t-30-k9": {
+  "district": "sosenskoe",
+  "how": "geo",
+  "basis": "Куприна проспект, 30"
+ },
+ "mk-lobachevskogo-z-u-28-36": {
+  "district": "prospekt-vernadskogo",
+  "how": "geo",
+  "basis": "Лобачевского, 28"
+ },
+ "mk-marushkino-severnaya-21-k1-2-3-4": {
+  "district": "severnyy",
+  "how": "geo",
+  "basis": "Марушкино, Северная, 21, 2, 3, 4"
+ },
+ "mk-novomikhaylovskoe-sh-1-k1-5": {
+  "district": "sosenskoe",
+  "how": "geo",
+  "basis": "Новомихайловское шоссе, 1"
+ },
+ "mk-otradnyy-pr-d-8": {
+  "district": "otradnoe",
+  "how": "geo",
+  "basis": "Отрадный проезд, 8"
+ },
+ "mk-p-shishkin-les-21-k1": {
+  "district": "mikhaylovo-yartsevskoe",
+  "how": "manual",
+  "basis": "п. Шишкин лес, 21"
+ },
+ "mk-p-znamya-oktyabrya-3-k1": {
+  "district": "ryazanovskoe",
+  "how": "manual",
+  "basis": "п. Знамя Октября, 3"
+ },
+ "mk-profsoyuznaya-96-k1": {
+  "district": "konkovo",
+  "how": "geo",
+  "basis": "Профсоюзная, 96"
+ },
+ "mk-profsoyuznaya-98-k6": {
+  "district": "konkovo",
+  "how": "geo",
+  "basis": "Профсоюзная, 98"
+ },
+ "mk-sevastopolskiy-pr-kt-71-k1": {
+  "district": "zyuzino",
+  "how": "geo",
+  "basis": "Севастопольский проспект, 71"
+ },
+ "mk-shushenskaya-5": {
+  "district": "losinoostrovskiy",
+  "how": "geo",
+  "basis": "Шушенская, 5"
+ },
+ "mk-solnechnaya-al-k936": {
+  "district": "staroe-kryukovo",
+  "how": "geo",
+  "basis": "Солнечная аллея"
+ },
+ "mk-zagorevskaya-8": {
+  "district": "biryulevo-vostochnoe",
+  "how": "geo",
+  "basis": "Загорьевская, 8"
+ },
+ "a101-belye-nochi": {
+  "district": "sosenskoe",
+  "how": "geo",
+  "basis": "пос. Коммунарка, улица Потаповская Роща"
+ },
+ "a101-buninskie-kvartaly": {
+  "district": "sosenskoe",
+  "how": "geo",
+  "basis": "пос. Сосенское, проспект Куприна"
+ },
+ "a101-desnareche-kvartal-park": {
+  "district": "troitsk",
+  "how": "manual",
+  "basis": "район Троицк, улица Гренадерская"
+ },
+ "a101-dom-na-zorge": {
+  "district": "khoroshevskiy",
+  "how": "geo",
+  "basis": "улица Зорге"
+ },
+ "a101-dzen-kvartaly": {
+  "district": "sosenskoe",
+  "how": "geo",
+  "basis": "пос. Сосенское, улица Александры Монаховой"
+ },
+ "a101-ispanskie-kvartaly": {
+  "district": "sosenskoe",
+  "how": "geo",
+  "basis": "пос. Сосенское, улица Сервантеса"
+ },
+ "a101-kholm": {
+  "district": "sosenskoe",
+  "how": "geo",
+  "basis": "район Коммунарка"
+ },
+ "a101-kronburg": {
+  "district": "sosenskoe",
+  "how": "geo",
+  "basis": "д. Губкино, Кронбургская улица"
+ },
+ "a101-moskva-a101": {
+  "district": "sosenskoe",
+  "how": "geo",
+  "basis": "пос. Коммунарка, улица Липовый Парк"
+ },
+ "a101-skandinaviya": {
+  "district": "sosenskoe",
+  "how": "geo",
+  "basis": "пос. Сосенское, Скандинавский бульвар"
+ },
+ "a101-smolenskaya-zastava": {
+  "district": "khamovniki",
+  "how": "geo",
+  "basis": "переулок Ружейный, 3"
+ },
+ "a101-vyazemskoe": {
+  "district": "sosenskoe",
+  "how": "manual",
+  "basis": "д. Николо-Хованское, КП «Вяземское»"
+ },
+ "a101-zelenaya-liniya": {
+  "district": "sosenskoe",
+  "how": "geo",
+  "basis": "пос. Коммунарка, Бачуринская улица"
+ },
+ "a101-zelenyy-bor": {
+  "district": "kryukovo",
+  "how": "manual",
+  "basis": "Зеленоград, 23-й мкр"
+ },
+ "fsk-amber-siti": {
+  "district": "khoroshevskiy",
+  "how": "geo",
+  "basis": "3-й Хорошёвский проезд"
+ },
+ "fsk-dvizhenie-govorovo": {
+  "district": "solntsevo",
+  "how": "manual",
+  "basis": "район Солнцево, квартал № 3, 6, 2"
+ },
+ "fsk-dykhanie": {
+  "district": "severnyy",
+  "how": "geo",
+  "basis": "Дмитровское шоссе, 13"
+ },
+ "fsk-leyk": {
+  "district": "sviblovo",
+  "how": "geo",
+  "basis": "улица Снежная, 22"
+ },
+ "fsk-lisitsyna-5": {
+  "district": "timiryazevskiy",
+  "how": "geo",
+  "basis": "шоссе Дмитровское, 13"
+ },
+ "fsk-m-house": {
+  "district": "chertanovo-yuzhnoe",
+  "how": "geo",
+  "basis": "улица Академика Янгеля, 2"
+ },
+ "fsk-nastroenie": {
+  "district": "yaroslavskiy",
+  "how": "geo",
+  "basis": "улица Красная Сосна"
+ },
+ "fsk-pokolenie": {
+  "district": "otradnoe",
+  "how": "geo",
+  "basis": "Нововладыкинский проезд"
+ },
+ "fsk-rezhisser": {
+  "district": "rostokino",
+  "how": "geo",
+  "basis": "улица Вильгельма Пика, 1"
+ },
+ "fsk-rikhard": {
+  "district": "khoroshevskiy",
+  "how": "geo",
+  "basis": "улица Зорге, 9, 2"
+ },
+ "fsk-rotterdam": {
+  "district": "chertanovo-yuzhnoe",
+  "how": "geo",
+  "basis": "Варшавское шоссе"
+ },
+ "fsk-sidney-praym": {
+  "district": "presnenskiy",
+  "how": "geo",
+  "basis": "Шелепихинская набережная"
+ },
+ "fsk-skay-garden": {
+  "district": "yuzhnoe-tushino",
+  "how": "geo",
+  "basis": "Строительный проезд, 9"
+ },
+ "fsk-zodiak": {
+  "district": "pokrovskoe-streshnevo",
+  "how": "geo",
+  "basis": "Сосновая аллея, 1"
+ },
+ "level-group-level-kutuzovskiy": {
+  "district": "mozhayskiy",
+  "how": "geo",
+  "basis": "улица Гришина, 16"
+ },
+ "level-group-level-paveletskaya-siti": {
+  "district": "zamoskvorechye",
+  "how": "geo",
+  "basis": "улица Дубининская"
+ },
+ "level-group-level-prichalnyy": {
+  "district": "khoroshevo-mnevniki",
+  "how": "geo",
+  "basis": "Причальный проезд"
+ },
+ "level-group-level-voykovskaya": {
+  "district": "voykovskiy",
+  "how": "geo",
+  "basis": "Старопетровский проезд, 11"
+ },
+ "mr-group-d1": {
+  "district": "timiryazevskiy",
+  "how": "geo",
+  "basis": "проезд Дмитровский, 1"
+ },
+ "mr-group-discovery-park": {
+  "district": "khovrino",
+  "how": "geo",
+  "basis": "улица Дыбенко, 7"
+ },
+ "mr-group-discovery": {
+  "district": "khovrino",
+  "how": "geo",
+  "basis": "улица Беломорская, 23"
+ },
+ "mr-group-dom-abrikosov": {
+  "district": "basmannyy",
+  "how": "geo",
+  "basis": "Потаповский переулок, 6"
+ },
+ "mr-group-dvintsev-14": {
+  "district": "marina-roshcha",
+  "how": "geo",
+  "basis": "улица Двинцев, 12"
+ },
+ "mr-group-feymos": {
+  "district": "filevskiy-park",
+  "how": "geo",
+  "basis": "Багратионовский проезд, 5"
+ },
+ "mr-group-fili-grad": {
+  "district": "filevskiy-park",
+  "how": "geo",
+  "basis": "Береговой проезд, 5"
+ },
+ "mr-group-kazachiy": {
+  "district": "yakimanka",
+  "how": "manual",
+  "basis": "переулок 1-й Казачий"
+ },
+ "mr-group-klif": {
+  "district": "pokrovskoe-streshnevo",
+  "how": "geo",
+  "basis": "Проектируемый проезд № 4087"
+ },
+ "mr-group-klo-17": {
+  "district": "arbat",
+  "how": "geo",
+  "basis": "Староваганьковский переулок, 17"
+ },
+ "mr-group-manor": {
+  "district": "meshchanskiy",
+  "how": "geo",
+  "basis": "улица Садовая-Сухаревская, 10"
+ },
+ "mr-group-metropoliya": {
+  "district": "nizhegorodskiy",
+  "how": "geo",
+  "basis": "проспект Волгоградский, 32"
+ },
+ "mr-group-perovsky": {
+  "district": "perovo",
+  "how": "geo",
+  "basis": "шоссе Энтузиастов, 86А"
+ },
+ "mr-group-s5": {
+  "district": "aeroport",
+  "how": "geo",
+  "basis": "улица Серёгина"
+ },
+ "mr-group-savelovskiy-siti": {
+  "district": "butyrskiy",
+  "how": "geo",
+  "basis": "улица Новодмитровская"
+ },
+ "mr-group-ul-2-ya-khapilovskaya": {
+  "district": "sokolinaya-gora",
+  "how": "manual",
+  "basis": "улица 2-я Хапиловская"
+ },
+ "mr-group-vodnyy": {
+  "district": "golovinskiy",
+  "how": "geo",
+  "basis": "Кронштадтский бульвар"
+ },
+ "mr-group-vorobev-dom": {
+  "district": "ramenki",
+  "how": "geo",
+  "basis": "Воробьёвское шоссе 4, 4"
+ },
+ "mr-group-yasnyy": {
+  "district": "orekhovo-borisovo-severnoe",
+  "how": "geo",
+  "basis": "шоссе Каширское"
+ },
+ "samolet-eko-bunino": {
+  "district": "sosenskoe",
+  "how": "geo",
+  "basis": "пос. Сосенское, д. Столбово, проспект Куприна"
+ },
+ "samolet-klenovye-allei": {
+  "district": "troitsk",
+  "how": "geo",
+  "basis": "пос. Десёновское, улица Генерала Пилипенко"
+ },
+ "samolet-olkhovyy-kvartal": {
+  "district": "sosenskoe",
+  "how": "geo",
+  "basis": "район Коммунарка"
+ },
+ "samolet-podolskie-kvartaly": {
+  "district": "ryazanovskoe",
+  "how": "manual",
+  "basis": "пос. Рязановское, улица Алхимовская"
+ },
+ "samolet-pyatnitskoe-58": {
+  "district": "mitino",
+  "how": "geo",
+  "basis": "шоссе Пятницкое, 56Б"
+ },
+ "samolet-stremyannyy-2": {
+  "district": "zamoskvorechye",
+  "how": "geo",
+  "basis": "переулок Стремянный, 2"
+ },
+ "samolet-tsvetochnye-polyany": {
+  "district": "filimonkovskoe",
+  "how": "geo",
+  "basis": "пос. Филимонковское, улица Золотошвейная"
+ },
+ "samolet-vnukovo-2016": {
+  "district": "vnukovo",
+  "how": "geo",
+  "basis": "пос. Внуковское, в районе д. Ликова"
+ },
+ "samolet-vnukovo-2017": {
+  "district": "vnukovo",
+  "how": "geo",
+  "basis": "пос. Внуковское, д. Изварино, шоссе Внуковское"
+ },
+ "bauman-khaus": {
+  "district": "basmannyy",
+  "how": "research",
+  "basis": "ул. Новая Дорога, 11А, корп. 1–3",
+  "source": "https://www.novostroy-m.ru/baza/jk_novaya_doroga_vl"
+ },
+ "din-haus": {
+  "district": "savelovskiy",
+  "how": "research",
+  "basis": "ул. Нижняя Масловка, вл. 10, стр. Б",
+  "source": "https://www.novostroy-m.ru/baza/jk_din_haus"
+ },
+ "skazochnyy-les": {
+  "district": "yaroslavskiy",
+  "how": "research",
+  "basis": "ул. Лосиноостровская, вл. 45",
+  "source": "https://www.novostroy-m.ru/expertise/jk_skazochnyy_les_ot"
+ },
+ "yuzhnaya-bittsa": {
+  "region": "moskovskaya-oblast",
+  "how": "research",
+  "basis": "Ленинский г.о., пос. Битца (быв. с.п. Булатниковское), Варшавское ш.",
+  "source": "https://www.novostroy.ru/buildings/yuzhnaya-bittsa/"
+ },
+ "zelenaya-vertikal": {
+  "district": "chertanovo-yuzhnoe",
+  "how": "research",
+  "basis": "Варшавское ш., вл. 170Е",
+  "source": "https://www.novostroy.ru/buildings/zelenaya-vertikal/"
+ },
+ "yuzhnye-sady": {
+  "district": "yuzhnoe-butovo",
+  "how": "research",
+  "basis": "ул. Бартеневская, 16",
+  "source": "https://novostroy-m.ru/baza/jk_yujnye_sady"
+ },
+ "oktyabrskoe-pole": {
+  "district": "shchukino",
+  "how": "research",
+  "basis": "ул. Берзарина (промзона «Октябрьское поле»), номер дома не указан",
+  "source": "https://novostroy-m.ru/baza/jiloy_kvartal_oktyabrskoe_pole"
+ },
+ "zelenyy-park": {
+  "district": "kryukovo",
+  "how": "research",
+  "basis": "Зеленоград, район Крюково (корп. 5.2 и др.), точный адрес не указан",
+  "source": "https://www.novostroy-m.ru/kvartiry/dvuhkomnatnaya-kvartira-v-zelenii-park-54276b320a1705cc2964bbc014e61d"
+ },
+ "sportivnye-obekty-khrunicheva": {
+  "district": "filevskiy-park",
+  "how": "research",
+  "basis": "Регбийный стадион «Фили» (Фили, рядом с ГКНПЦ им. Хруничева); точный адрес не подтверждён",
+  "source": "https://moskvichmag.ru/?p=202593"
+ },
+ "neskuchnyy": {
+  "district": "donskoy",
+  "how": "research",
+  "basis": "5-й Донской пр-д, вл. 21, корп. 6",
+  "source": "https://realty.rbc.ru/amp/news/58634fbf9a79478167116ef6"
+ },
+ "aura-na-belorusskoy": {
+  "district": "begovoy",
+  "how": "research",
+  "basis": "1-я ул. Ямского Поля, 26",
+  "source": "https://novostroy-m.ru/baza/klubnyy_dom_glorax_aura"
+ },
+ "five": {
+  "district": "donskoy",
+  "how": "research",
+  "basis": "5-й Донской пр-д, вл. 21, корп. 6",
+  "source": "https://moskvichmag.ru/gorod/na-ttk-v-rajone-leninskogo-prospekta-postroyat-vot-takie-dubajskie-neboskreby/"
+ },
+ "kvartal-zapadnyy": {
+  "district": "marushkinskoe",
+  "how": "research",
+  "basis": "ТиНАО, пос. Марушкинское, д. Большое Свинорье",
+  "source": "https://www.novostroy-m.ru/kvartiry/odnokomnatnaya-kvartira-v-zhk-kvartal-zapadnii-e748a45892b71d823fa89eb2f79b1c"
+ },
+ "tpu-minskaya": {
+  "district": "fili-davydkovo",
+  "how": "research",
+  "basis": "ул. Староволынская (у ст. «Минская»)",
+  "source": "https://www.novostroy-m.ru/novosti/150_tys_kv_m"
+ },
+ "sev": {
+  "district": "presnenskiy",
+  "how": "research",
+  "basis": "ул. Новый Арбат, 36",
+  "source": "https://www.novostroy-m.ru/novosti/domknijka_na_novom_arbate"
+ },
+ "tsaritsyno": {
+  "district": "biryulevo-vostochnoe",
+  "how": "research",
+  "basis": "6-я Радиальная ул.",
+  "source": "https://www.novostroy-m.ru/novosti/v_moskve_dostroili_problemnyy"
+ },
+ "touch-office": {
+  "district": "sosenskoe",
+  "how": "research",
+  "basis": "Коммунарка, рядом с Депозитарно-выставочным центром; точный адрес не найден",
+  "source": null
+ },
+ "khay-layf": {
+  "district": "danilovskiy",
+  "how": "research",
+  "basis": "Летниковская ул. (номер дома не указан)",
+  "source": "https://www.novostroy-m.ru/panoramy_novostroek/jk_high_life_hay"
+ },
+ "rizhskiy": {
+  "district": "marina-roshcha",
+  "how": "research",
+  "basis": "Рижский грузовой двор, 4-я ул. Марьиной Рощи",
+  "source": "https://www.novostroy-m.ru/kvartiry/studiya-v-zhk-ridzh-61a237a4ddd2a0c782e1485713a278"
+ },
+ "fedosino": {
+  "district": "novo-peredelkino",
+  "how": "research",
+  "basis": "ул. Федосьино (у Боровского ш., ст. «Рассказовка»)",
+  "source": "https://www.novostroy-m.ru/novosti/nedaleko_ot_metro_rasskazovka"
+ },
+ "masters-34113": {
+  "district": "khoroshevskiy",
+  "how": "research",
+  "basis": "ул. Викторенко, з/у 18/3А",
+  "source": "https://www.novostroy-m.ru/kvartiry/studiya-v-zhk-masters-6f3f6bc7174431ecdfcadcaa7e401b"
+ },
+ "teatr-durova": {
+  "district": "meshchanskiy",
+  "how": "research",
+  "basis": "ул. Дурова, 4",
+  "source": null
+ },
+ "gruzovoy-dvor-u-savelovskogo-vokzala": {
+  "district": "butyrskiy",
+  "how": "research",
+  "basis": "между Новодмитровской, Бутырской и Складочной ул. (ст. Москва-Бутырская)",
+  "source": "https://www.novostroy-m.ru/novosti/na_territorii_savelovskogo_gruzovogo"
+ },
+ "ridzh": {
+  "district": "marina-roshcha",
+  "how": "research",
+  "basis": "4-я ул. Марьиной Рощи",
+  "source": "https://www.novostroy-m.ru/kvartiry/studiya-v-zhk-ridzh-61a237a4ddd2a0c782e1485713a278"
+ },
+ "tpu-verkhnie-likhobory": {
+  "district": "beskudnikovskiy",
+  "how": "research",
+  "basis": "ул. Верхнелихоборская, вл. 8с4 (ТПУ «Верхние Лихоборы», Дмитровское ш.)",
+  "source": "https://www.novostroy-m.ru/baza/jk__verhnie_lihobory"
+ },
+ "sputnik": {
+  "region": "moskovskaya-oblast",
+  "how": "research",
+  "basis": "г.о. Красногорск, ул. Липовой Рощи",
+  "source": "https://finance.rambler.ru/realty/50582072-v-krasnogorskom-zhk-sputnik-postroyat-esche-chetyre-mnogoetazhki-s-dvorami-terrasami/"
+ },
+ "veresk": {
+  "district": "khoroshevo-mnevniki",
+  "how": "research",
+  "basis": "ул. 3-я Хорошёвская, вл. 19, стр. 3",
+  "source": "https://www.novostroy-m.ru/baza/jk_veresk"
+ },
+ "sreda": {
+  "district": "nizhegorodskiy",
+  "how": "research",
+  "basis": "Рязанский пр-т, 2",
+  "source": "https://www.novostroy-m.ru/baza/jk_ryazanskiy_prospekt_2"
+ },
+ "river-park-kutuzovskiy": {
+  "district": "dorogomilovo",
+  "how": "research",
+  "basis": "Кутузовский пр-д, вл. 16А/1",
+  "source": "https://www.novostroy-m.ru/kvartiry/odnokomnatnaya-kvartira-v-zhk-river-park-kutuzovskii-bc7df8c1e715bb10e14f0bdbbfd18b"
+ },
+ "aura-belorusskaya": {
+  "district": "begovoy",
+  "how": "research",
+  "basis": "1-я ул. Ямского Поля, 26",
+  "source": "https://novostroy-m.ru/baza/klubnyy_dom_glorax_aura"
+ },
+ "fereyn": {
+  "district": "nagatino-sadovniki",
+  "how": "research",
+  "basis": "ул. Нагатинская (территория завода «Ферейн»)",
+  "source": "https://www.vedomosti.ru/realty/articles/2019/07/24/807233-barkli-mozhet"
+ },
+ "tpu-kaluzhskaya": {
+  "district": "obruchevskiy",
+  "how": "research",
+  "basis": "у ст. метро «Калужская»",
+  "source": null
+ },
+ "starosyrovo": {
+  "district": "ryazanovskoe",
+  "how": "research",
+  "basis": "Старосырово, у станции МЦД «Остафьево»",
+  "source": null
+ },
+ "tpu-kuntsevskaya": {
+  "district": "kuntsevo",
+  "how": "research",
+  "basis": "у ст. метро «Кунцевская»",
+  "source": "https://www.novostroy-m.ru/kvartiry/novostroyka/bts_upside_kuntsevo"
+ },
+ "botanika": {
+  "district": "rostokino",
+  "how": "research",
+  "basis": "1-я ул. Леонова, 22",
+  "source": "https://www.novostroy-m.ru/baza/plaza_botanica_plaza_botanika"
+ },
+ "tpu-borovskoe-shosse": {
+  "district": "novo-peredelkino",
+  "how": "research",
+  "basis": "у ст. метро «Боровское шоссе»",
+  "source": null
+ },
+ "bolshoy-moskovskiy-tsirk-na-prospekte-vernadskogo": {
+  "district": "gagarinskiy",
+  "how": "geo",
+  "basis": "проспект Вернадского, 7"
+ },
+ "bestseller": {
+  "district": "nizhegorodskiy",
+  "how": "research",
+  "basis": "Перовское ш., 21",
+  "source": "https://www.novostroy-m.ru/baza/jk_bestseller"
+ },
+ "stone-rise": {
+  "district": "lefortovo",
+  "how": "research",
+  "basis": "промзона «Серп и Молот», у парка «Зелёная река» (м. «Площадь Ильича»/«Римская»)",
+  "source": "https://realty.rbc.ru/amp/news/68d256179a79473f92f3272f"
+ },
+ "one": {
+  "district": "presnenskiy",
+  "how": "research",
+  "basis": "1-й Красногвардейский пр-д (ММДЦ «Москва-Сити»)",
+  "source": "https://realty.rbc.ru/news/694515279a7947383cff920b"
+ },
+ "tpu-lipovaya-roshcha": {
+  "region": "moskovskaya-oblast",
+  "how": "research",
+  "basis": "ст. «Липовая роща», у ЖК «Спутник», г.о. Красногорск",
+  "source": "https://finance.rambler.ru/realty/50582072-v-krasnogorskom-zhk-sputnik-postroyat-esche-chetyre-mnogoetazhki-s-dvorami-terrasami/"
+ },
+ "simonovskiy-val": {
+  "district": "yuzhnoportovyy",
+  "how": "research",
+  "basis": "ул. Симоновский Вал",
+  "source": "https://www.mirkvartir.ru/journal/news/2026/05/13/opublikovano/"
+ },
+ "trenirovochnaya-baza-sbornykh-rossii-po-futbolu": {
+  "district": "khoroshevo-mnevniki",
+  "how": "research",
+  "basis": "ул. Нижние Мнёвники, вл. 4",
+  "source": "https://realty.rbc.ru/news/67d2c1839a794793e26e6bdb"
+ },
+ "fenomen-goroda": {
+  "district": "ramenki",
+  "how": "research",
+  "basis": "ТПУ «Минская»",
+  "source": null
+ },
+ "will-towers-vtoraya-ochered": {
+  "district": "ramenki",
+  "how": "research",
+  "basis": "пр-т Генерала Дорохова",
+  "source": "https://www.novostroy-m.ru/baza/jk_will_towers_vill"
+ },
+ "terletskiy-park": {
+  "district": "perovo",
+  "how": "research",
+  "basis": "Новогиреевская ул., вл. 5",
+  "source": "https://www.novostroy-m.ru/baza/zhk_terleckiy_park"
+ },
+ "krt-kashirskiy-proezd-kotlyakovskiy-proezd": {
+  "district": "moskvoreche-saburovo",
+  "how": "geo",
+  "basis": "Каширский проезд"
+ },
+ "devyatskoe": {
+  "district": "ryazanovskoe",
+  "how": "manual",
+  "basis": "д. Девятское у Алхимова (поселение Рязановское)"
+ },
+ "elizarovo": {
+  "district": "filimonkovskoe",
+  "how": "geo",
+  "basis": "д. Елизарово, Филимонковский район"
+ },
+ "kutuzovskaya-sloboda": {
+  "district": "kryukovo",
+  "how": "geo",
+  "basis": "Кутузовское шоссе, район Крюково, Зеленоград"
+ },
+ "glorax-rimskaya": {
+  "district": "lefortovo",
+  "how": "manual",
+  "basis": "у станции метро «Римская»"
+ },
+ "most-mezhdu-zilom-i-varshavkoy": {
+  "district": "danilovskiy",
+  "how": "manual",
+  "basis": "мост между ЗИЛом и Варшавским шоссе"
+ },
+ "kalinovka": {
+  "region": "moskovskaya-oblast",
+  "how": "research",
+  "basis": "СЗ «Самолет-Калиновка»: ЖК «Новое Видное», Ленинский г.о.",
+  "source": "https://www.novostroy-m.ru/kompanii/spetsializirovannyy_zastroyschik_samoletkalinovka"
+ },
+ "pik-myakinino-park": {
+  "district": "kuntsevo",
+  "how": "manual",
+  "basis": "Новорижское шоссе, у Мякининской поймы"
+ }
+}

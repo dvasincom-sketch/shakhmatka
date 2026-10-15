@@ -5,9 +5,9 @@ skip_reason: duplicate
 duplicate_of: "rozhdestvenka-8-sminex-kupil-proekt-galsa"
 type: developer
 region: moscow
-title: "Рождественка, 8: покупка проекта Галса Sminex уже описана"
+title: "Рождественка, 8: покупка проекта «Галса» Sminex уже описана"
 slug: "rozhdestvenka-8-sminex-sdelka-dekabr-2025"
-lead: "Сделка подтверждена: 16 декабря 2025 года стало известно, что Sminex купил у «Галс-Девелопмента» проект «Рождественка 8». Это событие уже описано в статье «Рождественка, 8: проект Галса в Мещанском районе купил Sminex», отдельная статья не нужна."
+lead: "Сделка подтверждена: 16 декабря 2025 года стало известно, что Sminex купил у «Галс-Девелопмента» проект «Рождественка 8». Это событие уже описано в статье «Рождественка, 8: проект «Галса» в Мещанском районе купил Sminex», отдельная статья не нужна."
 developers: [{id: sminex, name: "Sminex", role: main}, {id: gals, name: "Галс-Девелопмент", role: previous}]
 objects: [{id: rozhdestvenka-8, names: ["Рождественка, 8"], zu: "Рождественка, 8", main: true, new: false}]
 ownership_changes:

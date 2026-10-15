@@ -7,6 +7,11 @@
 """
 import unicodedata, json, re, os, difflib, collections
 from datetime import date
+import sys as _sys; _sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from typo_ru import qn, quote_names, tidy
+def dev_phrase(dev):
+    if dev.startswith('Фонд '): return ' — проект Фонда ' + dev[5:]
+    return f' — проект застройщика {qn(dev)}'
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 R = json.load(open(os.path.join(HERE, 'registry.json')))
@@ -249,6 +254,18 @@ for src_slug, c in CORR.items():
         FORCE[nk] = {'slug': part['slug'], 'name': part['name'], 'zu': part.get('zu'), 'aliases': part.get('aliases')}
 
 objects, devs, places, used_slugs = [], {}, {}, set()
+# стабильные адреса: если досье уже было (те же заметки), оставляем прежний slug, даже если поменялось название
+_prev = os.path.join(HERE, '..', 'objects', 'archive-dossiers.json')
+PREV_BY_NOTE = {}
+if os.path.exists(_prev):
+    for _o in json.load(open(_prev))['objects']:
+        if not _o.get('manual'):
+            for _n in _o.get('notes') or []: PREV_BY_NOTE.setdefault(_n, _o['slug'])
+def prev_slug(notes):
+    c = collections.Counter(PREV_BY_NOTE[n] for n in notes if n in PREV_BY_NOTE)
+    if not c: return None
+    s, k = c.most_common(1)[0]
+    return s if k * 2 >= len([n for n in notes if n in PREV_BY_NOTE]) and s not in used_slugs else None
 skipped = collections.Counter()
 for key, o in R.items():
     evs = [e for e in o['events'] if e['certainty'] != 'forecast' and M.get(e['note'], {}).get('kind') != 'promo']
@@ -293,7 +310,7 @@ for key, o in R.items():
     if key in FORCE:
         f = FORCE[key]; name = f.get('name') or name; addr = f.get('zu') or addr
         if f.get('aliases') is not None: aliases = f['aliases']
-    slug = manual or (FORCE[key]['slug'] if key in FORCE else slugify(name))
+    slug = manual or (FORCE[key]['slug'] if key in FORCE else (prev_slug(o['notes']) or slugify(name)))
     if not manual and (slug in used_slugs or slug in MANUAL.values()):
         slug = slugify(f'{name} {addr}') if addr and addr != name else f'{slug}-{tl[0]["sourceNote"]}'
     if slug in used_slugs: slug = f'{slug}-{tl[0]["sourceNote"]}'
@@ -303,7 +320,7 @@ for key, o in R.items():
     y0, y1 = tl[0]['date'][:4], tl[-1]['date'][:4]
     nsig = sum(1 for t in tl if t['certainty'] == 'signal')
     where = f'район {dname}' if dname else ('Москва' if region == 'moscow' else 'Московская область')
-    bits = [f'«{name}»' + (f' — проект застройщика {dev}' if dev else '') + (f' на участке «{addr}»' if addr and addr != name else '') + f' ({where}).']
+    bits = [qn(name) + (dev_phrase(dev) if dev else '') + (f' на участке {addr}' if addr and addr != name else '') + f' ({where}).']
     bits.append(f'В досье {len(tl)} {plural(len(tl), "событие", "события", "событий")} ' + (f'с {y0} по {y1} год' if y0 != y1 else f'{y0} года') + (f', из них {nsig} — {plural(nsig, "сигнал", "сигнала", "сигналов")} до официальных новостей' if nsig else '') + '.')
     rec = {'slug': slug, 'name': name, 'zu': addr, 'aliases': aliases, 'region': region, 'stage': stage, 'summary': ' '.join(bits), 'timeline': tl, 'notes': sorted(o['notes'])}
     if dname: rec['district'] = DIST[dname][0]
@@ -324,7 +341,7 @@ def make_summary(rec):
     where = f'район {dn}' if dn else ('Москва' if rec['region'] == 'moscow' else 'Московская область')
     dev = devs.get(rec.get('developer') or '')
     addr = rec.get('zu')
-    head = f"«{rec['name']}»" + (f' — проект застройщика {dev}' if dev else '') + (f' на участке «{addr}»' if addr and addr != rec['name'] else '') + f' ({where}).'
+    head = qn(rec['name']) + (dev_phrase(dev) if dev else '') + (f' на участке {addr}' if addr and addr != rec['name'] else '') + f' ({where}).'
     tail = f'В досье {len(tl)} {plural(len(tl), "событие", "события", "событий")} ' + (f'с {y0} по {y1} год' if y0 != y1 else f'{y0} года') + (f', из них {nsig} — {plural(nsig, "сигнал", "сигнала", "сигналов")} до официальных новостей' if nsig else '') + '.'
     return head + ' ' + tail
 
@@ -370,18 +387,56 @@ for pf in _glob.glob(os.path.join(HERE, '..', '..', 'pipeline', 'batch-*', 'plan
         if u['unit'] in UNCONF:
             for nid in u['notes']: UNCONF.setdefault(nid, UNCONF[u['unit']])
 for nid in CORR.get('_unconfirmed', []): UNCONF.setdefault(int(nid), '2026-10-13')
+# район по адресу (геокодирование и проверка — pipeline/geo/, content/objects/districts-override.json): ни один московский объект без района
+_OVR = json.load(open(os.path.join(HERE, '..', 'objects', 'districts-override.json')))
+for rec in objects:
+    v = _OVR.get(rec['slug'])
+    if not v or rec.get('manual'): continue
+    if v.get('region') and rec.get('region') == 'moscow' and not rec.get('district'): rec['region'] = v['region']
+    elif v.get('district') and not rec.get('district'):
+        rec['district'] = v['district']; n = DIST_BY_KEY.get(v['district'])
+        if n: places.setdefault(v['district'], {'key': v['district'], 'slug': v['district'], 'kind': 'district', 'name': n, 'nameIn': name_in(n), 'okrug': DIST[n][1]})
+    else: continue
+    rec['summary'] = make_summary(rec)
+# обновления редакции по досье без новостей (pipeline/refresh, content/objects/updates.json): новые события и стадия
+_UPD_F = os.path.join(HERE, '..', 'objects', 'updates.json')
+_UPD = json.load(open(_UPD_F)) if os.path.exists(_UPD_F) else {}
+for rec in objects:
+    u = _UPD.get(rec['slug'])
+    if not u or rec.get('manual'): continue
+    have = {(t['date'][:10], t['title']) for t in rec['timeline']}
+    for e in u.get('events', []):
+        if (e['date'][:10], e['title']) in have: continue
+        ev = {k: e[k] for k in ('date', 'dateLabel', 'kind', 'title', 'text') if e.get(k)}
+        ev['certainty'] = 'fact'; ev['verified'] = True
+        rec['timeline'].append(ev)
+    rec['timeline'].sort(key=lambda t: t['date'])
+    if u.get('stage'): rec['stage'] = u['stage']
+    rec['summary'] = make_summary(rec)
 REFUTED = {int(x) for x in CORR.get('_refuted', [])}  # не просто не подтвердилось, а опровергнуто источником
 for rec in objects:
     for t in rec['timeline']:
-        objs_ok = CONFIRM_OBJ.get(t['sourceNote'])
-        if objs_ok and rec['slug'] not in objs_ok and t.get('confirmedOn') == confirmed_by.get(t['sourceNote']) and t['sourceNote'] in CONFIRM_ART:
+        objs_ok = CONFIRM_OBJ.get(t.get('sourceNote'))
+        if objs_ok and rec['slug'] not in objs_ok and t.get('confirmedOn') == confirmed_by.get(t.get('sourceNote')) and t.get('sourceNote') in CONFIRM_ART:
             t.pop('confirmedOn', None)
 n_unc = 0
 for rec in objects:
     for t in rec['timeline']:
-        if t['sourceNote'] in UNCONF and not t.get('confirmedOn'):
+        if t.get('sourceNote') in UNCONF and not t.get('confirmedOn'):
             t['certainty'] = 'signal'; t['outcome'] = 'refuted' if t['sourceNote'] in REFUTED else 'unconfirmed'; t['checkedOn'] = UNCONF[t['sourceNote']]; n_unc += 1
 print('не подтвердилось (пометка в хронологии):', n_unc)
+
+# типографика по Мильчину: кириллические условные названия застройщиков — в ёлочках
+_DEVN = dict(devs)
+# по всей базе — только названия, которые не совпадают с обычными словами и топонимами
+_COMMON = {'Атлас', 'Град', 'Рост', 'Родина', 'Север', 'Среда', 'Страна', 'Стена', 'Спартак', 'Черноголовка', 'Киевская площадь', 'Яндекс', 'Сумма', 'Консоль', 'Пионер', 'Единство', 'Отрада', 'Остров Мечты', 'Новая Жизнь', 'Новая Эра', 'Капиталист', 'Капиталисты', 'Монарх', 'Атриум', 'Абсолют', 'Тач', 'Русич', 'Догма', 'Доходный Дом', 'Первый девелопер', 'Центр Инвеста', 'Кроста', 'Мосинжпроект'}
+_GLOBAL = [n for n in _DEVN.values() if n not in _COMMON] + ['Мортон', 'Ведис', 'Капитал Груп', 'Эталон', 'Пионер']
+for rec in objects:
+    names = [_DEVN.get(rec.get('developer') or '')] + [_DEVN.get(d) or d for d in (rec.get('previousDevelopers') or []) if isinstance(d, str)]
+    own = [n for n in [rec.get('name')] + list(rec.get('aliases') or []) if n and not re.search(r'[\d,]', n) and n != rec.get('zu') and len(n) >= 4]
+    names = [n for n in names if n] + _GLOBAL + own
+    for t in rec['timeline']: t['title'] = tidy(quote_names(t['title'], names))
+    if rec.get('summary'): rec['summary'] = tidy(quote_names(rec['summary'], names))
 
 out = {
     '_readme': 'Сгенерировано content/archive/build-dossiers.py из разметки архива. Не править руками: правки — в админке (досье с auto=false не перезаписываются) или в ручных файлах dossiers/*.json.',

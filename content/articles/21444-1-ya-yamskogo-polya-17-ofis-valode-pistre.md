@@ -4,7 +4,7 @@ status: skip
 skip_reason: unverifiable
 type: object
 region: moscow
-title: "1-я Ямского Поля, 17: офисное здание Valode & Pistre от Вперёд ДВЛ"
+title: "1-я Ямского Поля, 17: офисное здание Valode & Pistre от «Вперёд ДВЛ»"
 slug: "1-ya-yamskogo-polya-17-ofis-valode-pistre"
 lead: "В январе 2024 года участники рынка говорили, что АО «Вперёд ДВЛ» готовит на участке 1-я Ямского Поля, 17 офисное здание на 73 тыс. м² по проекту французского бюро Valode & Pistre. Подтвердить это по открытым источникам на октябрь 2026 года не удалось, поэтому статьи нет."
 objects: [{id: 1-ya-yamskogo-polya-17, names: ["1-я Ямского Поля, 17"], zu: "1-я Ямского Поля, 17", main: true, new: false}]

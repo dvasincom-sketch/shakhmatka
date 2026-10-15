@@ -1,0 +1,118 @@
+[
+ {
+  "key": "steel",
+  "name": "Steel",
+  "aliases": [
+   "бюро Steel"
+  ],
+  "projects": [
+   null
+  ]
+ },
+ {
+  "key": "archivista",
+  "name": "Archivista",
+  "aliases": [],
+  "projects": [
+   null
+  ]
+ },
+ {
+  "key": "buro-2-2",
+  "name": "Buro 2+2",
+  "aliases": [],
+  "projects": [
+   null
+  ]
+ },
+ {
+  "key": "heatherwick-studio",
+  "name": "Heatherwick Studio",
+  "aliases": [
+   "Heatherwick",
+   "Хезервика"
+  ],
+  "projects": [
+   null
+  ]
+ },
+ {
+  "key": "mecanoo",
+  "name": "Mecanoo",
+  "aliases": [],
+  "projects": [
+   null
+  ]
+ },
+ {
+  "key": "muza-form",
+  "name": "MUZA FORM",
+  "aliases": [],
+  "projects": [
+   null
+  ]
+ },
+ {
+  "key": "steve-brown-architecture",
+  "name": "Steve Brown Architecture",
+  "aliases": [],
+  "projects": [
+   null
+  ]
+ },
+ {
+  "key": "studio-jahn",
+  "name": "Studio Jahn",
+  "aliases": [
+   "Хельмут Ян"
+  ],
+  "projects": [
+   null
+  ]
+ },
+ {
+  "key": "umbra",
+  "name": "umbra",
+  "aliases": [],
+  "projects": [
+   null
+  ]
+ },
+ {
+  "key": "unstudio",
+  "name": "UNStudio",
+  "aliases": [],
+  "projects": [
+   null
+  ]
+ },
+ {
+  "key": "up-plus",
+  "name": "UP+",
+  "aliases": [],
+  "projects": [
+   null
+  ]
+ },
+ {
+  "key": "kk",
+  "name": "К+К",
+  "aliases": [
+   "«К+К»",
+   "бюро «КК»"
+  ],
+  "projects": [
+   null
+  ]
+ },
+ {
+  "key": "mikhail-feldman",
+  "name": "Михаил Фельдман",
+  "aliases": [
+   "Михаила Фельдмана"
+  ],
+  "projects": [
+   null
+  ]
+ }
+]

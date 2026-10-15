@@ -124,6 +124,7 @@ export default async function DeveloperPage({ params }: { params: Promise<{ slug
       <nav className="crumbs" aria-label="Путь"><Link href="/">Лента</Link><span>/</span><Link href="/zastroyshchiki/">Застройщики</Link><span>/</span><span>{name}</span></nav>
       <h1 className="page-h tt">{name}<span>застройщик</span></h1>
       <FollowButton kind="developer" id={d.slug} label={name} hint="Новые проекты, сделки с участками, сигналы и материалы о компании." />
+      {d.slug === 'fond-renovatsii' ? <Link className="land-cta card mk-cta" href="/moskovskie-kvartaly/"><span>«Московские кварталы»: все дома в продаже</span><small>минимальная цена за м², лоты, аукционы и дата выхода в продажу по каждому дому</small></Link> : null}
       {about.length ? (
         <div className="dev-about">
           <p>{typo(about[0])}</p>
@@ -238,7 +239,7 @@ export default async function DeveloperPage({ params }: { params: Promise<{ slug
                   {e.certainty === 'signal' ? <span className="tl-sig">Сигнал</span> : null}
                 </div>
                 <div className="tl-body">
-                  <p className="tl-t">{typo(e.title)}</p>
+                  <p className="tl-t">{sigUrl.get(e.id) ? <Link href={sigUrl.get(e.id)!}>{typo(e.title)}</Link> : typo(e.title)}</p>
                   <p className="tl-x"><Link href={`/obekty/${e.o.slug}/`}>{e.o.name}</Link></p>
                 </div>
               </li>

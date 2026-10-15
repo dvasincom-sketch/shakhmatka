@@ -3,7 +3,7 @@ source: {id: 31245, date: 2025-09-24}
 status: needs_review
 skip_reason: null
 type: object
-region: moscow-oblast
+region: moskovskaya-oblast
 title: "«Кузнечики» в Подольске: ДОМ.РФ уценил долгострой до 2,63 млрд ₽"
 title_alts: ["Кузнечики у Подольска: вторая попытка ДОМ.РФ продать долгострой за 2,63 млрд ₽", "ДОМ.РФ почти вдвое уценил «Кузнечики»: 40,66 га и недострой в нагрузку"]
 slug: "kuznechiki-podolsk-torgi-domrf-cena"

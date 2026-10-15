@@ -133,23 +133,80 @@ export function metaFor(l: Landing, objs: Obj[]) {
   return { title, description }
 }
 
-export function faqFor(l: Landing, objs: Obj[], stageLabel: (s?: string | null) => string | undefined) {
+const median = (xs: number[]) => { const a = [...xs].sort((x, y) => x - y); const k = Math.floor(a.length / 2); return a.length % 2 ? a[k] : (a[k - 1] + a[k]) / 2 }
+const devOf = (o: Obj) => { const d = o.developer as { name?: string } | number | null | undefined; return typeof d === 'object' && d?.name ? d.name : null }
+const list = (xs: string[], n = 5) => xs.slice(0, n).join(', ') + (xs.length > n ? ` и ещё ${xs.length - n}` : '')
+
+/**
+ * Вопросы и ответы подборки. Для районов — аналитика по базе: что продаётся и что на подходе, кто строит, цена метра
+ * на фоне Москвы, сроки ввода, проекты без новостей, станции. Вопрос попадает в блок, только если данных хватает на содержательный ответ.
+ */
+export function faqFor(l: Landing, objs: Obj[], stageLabel: (s?: string | null) => string | undefined, ctx: { all?: Obj[]; stations?: string[] } = {}) {
   const { cheapest, priced, done } = stats(objs)
   const out: { q: string; a: string }[] = []
   if (!objs.length) return out
-  out.push({
-    q: `Какие ${l.subject} есть в базе Шахматки?`,
-    a: objs.slice(0, 8).map((o) => `«${o.name}» — ${(stageLabel(o.stage) || 'стадия уточняется').toLowerCase()}`).join('; ') + (objs.length > 8 ? ` и ещё ${objs.length - 8}.` : '.'),
-  })
-  if (cheapest)
+  const where = l.group === 'district' ? l.subject.replace(/^новостройки\s+/, '') : l.subject
+  if (l.group !== 'district') {
+    out.push({ q: `Какие ${l.subject} есть в базе Шахматки?`, a: objs.slice(0, 8).map((o) => `«${o.name}» — ${(stageLabel(o.stage) || 'стадия уточняется').toLowerCase()}`).join('; ') + (objs.length > 8 ? ` и ещё ${objs.length - 8}.` : '.') })
+    if (cheapest) out.push({ q: `Сколько стоят ${l.subject}?`, a: `Самая низкая цена квартиры среди проектов с открытыми ценами — от ${n1(cheapest.priceFrom!)} млн ₽ в «${cheapest.name}»${cheapest.priceAsOf ? ` (${cheapest.priceAsOf})` : ''}. Цена известна у ${priced.length} из ${objs.length} проектов.` })
+    if (done.length) out.push({ q: `Когда сдадут ${l.subject}?`, a: done.slice(0, 6).map((o) => `«${o.name}» — ${o.completion}`).join('; ') + '. Сроки — по данным застройщика и проектной декларации на дату проверки.' })
+    return out
+  }
+  const by = (st: string) => objs.filter((o) => o.stage === st)
+  const sales = by('sales'), permit = by('permit'), early = objs.filter((o) => ['land', 'concept', 'architecture'].includes(o.stage || ''))
+  const named = (xs: Obj[]) => xs.map((o) => `«${o.name}»${devOf(o) ? ` (${devOf(o)})` : ''}`)
+  // 1. что продаётся и что на подходе
+  if (sales.length || permit.length)
     out.push({
-      q: `Сколько стоят ${l.subject}?`,
-      a: `Самая низкая цена квартиры среди проектов с открытыми ценами — от ${n1(cheapest.priceFrom!)} млн ₽ в «${cheapest.name}»${cheapest.priceAsOf ? ` (${cheapest.priceAsOf})` : ''}. Цена известна у ${priced.length} из ${objs.length} проектов. Цены меняются, актуальную уточняйте у застройщика.`,
+      q: `Что сейчас продаётся ${where} и что выйдет в продажу следующим?`,
+      a: [sales.length ? `В продаже ${sales.length} ${plural(sales.length, 'проект', 'проекта', 'проектов')}: ${list(named(sales))}.` : 'Сейчас в базе нет проектов района в продаже.',
+        permit.length ? `Ещё у ${permit.length} ${plural(permit.length, 'проекта', 'проектов', 'проектов')} есть разрешение на строительство, но продажи не стартовали: ${list(named(permit))} — это ближайшие кандидаты на старт продаж.` : '',
+      ].filter(Boolean).join(' '),
     })
-  if (done.length)
+  // 2. будущее района
+  if (early.length >= 2) {
+    const c = (st: string) => objs.filter((o) => o.stage === st).length
+    const krt = objs.filter((o) => /КРТ|ТПУ|промзон/i.test(o.name))
+    const sig = [...early].sort((a, b) => (b.signalCount || 0) - (a.signalCount || 0)).filter((o) => o.signalCount).slice(0, 3)
     out.push({
-      q: `Когда сдадут ${l.subject}?`,
-      a: done.slice(0, 6).map((o) => `«${o.name}» — ${o.completion}`).join('; ') + '. Сроки указаны по данным застройщика и проектной декларации на дату проверки.',
+      q: `Что построят ${where} в ближайшие годы?`,
+      a: `До стройки ещё не дошли ${early.length} ${plural(early.length, 'проект', 'проекта', 'проектов')}: ${[c('land') && `${c('land')} — участки`, c('concept') && `${c('concept')} — концепции`, c('architecture') && `${c('architecture')} — архитектура (АГР или проект)`].filter(Boolean).join(', ')}.`
+        + (krt.length ? ` Среди них территории КРТ и ТПУ: ${list(krt.map((o) => `«${o.name}»`), 4)}.` : '')
+        + (sig.length ? ` Больше всего ранних сигналов у ${sig.map((o) => `«${o.name}» (${o.signalCount})`).join(', ')} — это проекты, о которых рынок говорил до официальных новостей.` : ''),
     })
+  }
+  // 3. кто строит
+  const devs = new Map<string, number>()
+  objs.forEach((o) => { const d = devOf(o); if (d) devs.set(d, (devs.get(d) || 0) + 1) })
+  const top = [...devs].sort((a, b) => b[1] - a[1])
+  if (top.length >= 2) {
+    const withDev = top.reduce((s, x) => s + x[1], 0), top3 = top.slice(0, 3).reduce((s, x) => s + x[1], 0)
+    out.push({
+      q: `Кто строит ${where} больше всего?`,
+      a: `Застройщик известен у ${withDev} из ${objs.length} проектов. Лидеры: ${top.slice(0, 5).map(([n, k]) => `${n} — ${k}`).join(', ')}. На тройку крупнейших приходится ${Math.round((top3 / withDev) * 100)}% проектов с известным застройщиком${top3 / withDev > 0.5 ? ' — рынок района заметно сконцентрирован' : ' — рынок района раздроблен'}.`,
+    })
+  }
+  // 4. цена метра на фоне Москвы
+  const m2 = objs.filter((o) => o.priceM2From).map((o) => o.priceM2From!)
+  const allM2 = (ctx.all || []).filter((o) => o.region === 'moscow' && o.priceM2From).map((o) => o.priceM2From!)
+  if (m2.length >= 2 && allM2.length >= 20) {
+    const md = median(m2), mm = median(allM2), d = (md / mm - 1) * 100
+    out.push({
+      q: `Сколько стоит метр в новостройках ${where} по сравнению с Москвой?`,
+      a: `Медиана стартовой цены за метр по ${m2.length} ${plural(m2.length, 'проекту', 'проектам', 'проектам')} района с открытой ценой — ${Math.round(md).toLocaleString('ru-RU')} тыс. ₽, по ${allM2.length} проектам Москвы в базе — ${Math.round(mm).toLocaleString('ru-RU')} тыс. ₽: район ${Math.abs(d) < 5 ? 'на уровне города' : d > 0 ? `дороже на ${Math.round(d)}%` : `дешевле на ${Math.round(-d)}%`}. Сравниваются цены «от» на разные даты, поэтому это ориентир, а не оценка конкретной квартиры.`,
+    })
+  } else if (cheapest) out.push({ q: `Сколько стоят квартиры в новостройках ${where}?`, a: `Самый доступный вход среди проектов с открытыми ценами — от ${n1(cheapest.priceFrom!)} млн ₽ в «${cheapest.name}»${cheapest.priceAsOf ? ` (${cheapest.priceAsOf})` : ''}. Открытые цены есть у ${priced.length} из ${objs.length} проектов: у остальных стадия ещё до продаж или застройщик цену не публикует.` })
+  // 5. ввод
+  const soon = objs.filter((o) => o.stage !== 'completed' && o.completion && completionKey(o.completion) !== Infinity).sort((a, b) => completionKey(a.completion) - completionKey(b.completion))
+  if (soon.length)
+    out.push({ q: `Какие новостройки ${where} сдадут первыми?`, a: `По проектным декларациям и данным застройщиков: ${soon.slice(0, 5).map((o) => `«${o.name}» — ${o.completion}`).join('; ')}.${soon.length > 5 ? ` Всего срок ввода известен у ${soon.length} строящихся проектов.` : ''} Сроки в декларациях переносят — следите за изменениями в досье.` })
+  // 6. давно без новостей
+  const cut = Date.now() - 3 * 365.25 * 864e5
+  const stale = objs.filter((o) => o.stage !== 'completed' && o.lastEventAt && +new Date(o.lastEventAt as string) < cut)
+  if (stale.length)
+    out.push({ q: `Есть ли ${where} замершие проекты?`, a: `По ${stale.length} ${plural(stale.length, 'проекту', 'проектам', 'проектам')} в досье нет новостей больше трёх лет: ${list(stale.map((o) => `«${o.name}» (последнее событие — ${String(o.lastEventAt).slice(0, 4)})`), 4)}. Это не значит, что проект заморожен, но перед покупкой стоит проверить разрешение и стройку по наш.дом.рф.` })
+  // 7. метро
+  if (ctx.stations?.length)
+    out.push({ q: `Какие станции метро и МЦК есть ${where}?`, a: `${ctx.stations.length} ${plural(ctx.stations.length, 'станция', 'станции', 'станций')}: ${ctx.stations.join(', ')}. У каждой станции есть своя подборка проектов поблизости — ссылки в блоке «Район в цифрах».` })
   return out
 }

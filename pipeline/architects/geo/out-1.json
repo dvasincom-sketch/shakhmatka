@@ -1,0 +1,498 @@
+[
+ {
+  "key": "arch-e-type",
+  "city": "Москва",
+  "country": "RU",
+  "founded": 2015,
+  "source": "https://style.rbc.ru/architecture_and_urbanism/6805f1049a7947e38522979c",
+  "confidence": "low"
+ },
+ {
+  "key": "masters-plan",
+  "city": "Москва",
+  "country": "RU",
+  "founded": null,
+  "source": "https://hh.ru/employer/1028979",
+  "confidence": "high"
+ },
+ {
+  "key": "parsec",
+  "city": null,
+  "country": null,
+  "founded": null,
+  "source": null,
+  "confidence": "low"
+ },
+ {
+  "key": "saga",
+  "city": "Москва",
+  "country": "RU",
+  "founded": null,
+  "source": "https://archi.ru/russia/102222/zvezda-s-zvezdoyu-govorit",
+  "confidence": "low"
+ },
+ {
+  "key": "hadaa",
+  "city": "Москва",
+  "country": "RU",
+  "founded": null,
+  "source": "https://hh.kz/employer/10087345",
+  "confidence": "medium"
+ },
+ {
+  "key": "ket",
+  "city": null,
+  "country": null,
+  "founded": null,
+  "source": null,
+  "confidence": "low"
+ },
+ {
+  "key": "masterskaya-dmitrieva",
+  "city": null,
+  "country": null,
+  "founded": null,
+  "source": null,
+  "confidence": "low"
+ },
+ {
+  "key": "byuro-80-88",
+  "city": null,
+  "country": null,
+  "founded": null,
+  "source": null,
+  "confidence": "low"
+ },
+ {
+  "key": "gillespies",
+  "city": "Лондон",
+  "country": "GB",
+  "founded": 1962,
+  "source": "https://www.gillespies.co.uk/about-us/our-story",
+  "confidence": "medium"
+ },
+ {
+  "key": "lampa-community",
+  "city": null,
+  "country": null,
+  "founded": null,
+  "source": null,
+  "confidence": "low"
+ },
+ {
+  "key": "steel",
+  "city": null,
+  "country": null,
+  "founded": null,
+  "source": null,
+  "confidence": "low"
+ },
+ {
+  "key": "vi",
+  "city": "Москва",
+  "country": "RU",
+  "founded": null,
+  "source": "https://archi.ru/architects/russiastudios/4101",
+  "confidence": "medium"
+ },
+ {
+  "key": "archivista",
+  "city": "Краснодар",
+  "country": "RU",
+  "founded": null,
+  "source": "https://archi.ru/architects/russiastudios/4111",
+  "confidence": "medium"
+ },
+ {
+  "key": "buro-2-2",
+  "city": null,
+  "country": null,
+  "founded": null,
+  "source": null,
+  "confidence": "low"
+ },
+ {
+  "key": "lburo",
+  "city": null,
+  "country": null,
+  "founded": null,
+  "source": null,
+  "confidence": "low"
+ },
+ {
+  "key": "muza-form",
+  "city": null,
+  "country": null,
+  "founded": null,
+  "source": null,
+  "confidence": "low"
+ },
+ {
+  "key": "progress",
+  "city": null,
+  "country": null,
+  "founded": null,
+  "source": null,
+  "confidence": "low"
+ },
+ {
+  "key": "umbra",
+  "city": null,
+  "country": null,
+  "founded": null,
+  "source": null,
+  "confidence": "low"
+ },
+ {
+  "key": "vostok",
+  "city": null,
+  "country": null,
+  "founded": null,
+  "source": null,
+  "confidence": "low"
+ },
+ {
+  "key": "vyuga",
+  "city": null,
+  "country": null,
+  "founded": null,
+  "source": null,
+  "confidence": "low"
+ },
+ {
+  "key": "kk",
+  "city": null,
+  "country": null,
+  "founded": null,
+  "source": null,
+  "confidence": "low"
+ },
+ {
+  "key": "a2m",
+  "city": null,
+  "country": null,
+  "founded": null,
+  "source": null,
+  "confidence": "low"
+ },
+ {
+  "key": "ahr",
+  "city": "Лидс",
+  "country": "GB",
+  "founded": null,
+  "source": "https://members.wnychamber.co.uk/member/ahr",
+  "confidence": "medium"
+ },
+ {
+  "key": "antonini-darmon",
+  "city": "Париж",
+  "country": "FR",
+  "founded": 2006,
+  "source": "https://www.metalocus.es/en/author/antonini-darmon-arch",
+  "confidence": "medium"
+ },
+ {
+  "key": "archives",
+  "city": null,
+  "country": null,
+  "founded": null,
+  "source": null,
+  "confidence": "low"
+ },
+ {
+  "key": "aukett",
+  "city": "Лондон",
+  "country": "GB",
+  "founded": 1972,
+  "source": "https://en.wikipedia.org/wiki/Aukett_Swanke",
+  "confidence": "high"
+ },
+ {
+  "key": "basis",
+  "city": null,
+  "country": null,
+  "founded": null,
+  "source": null,
+  "confidence": "low"
+ },
+ {
+  "key": "clou",
+  "city": "Пекин",
+  "country": "CN",
+  "founded": 2015,
+  "source": "https://worldarchitecturefestival.com/WAF2026/en/node/judgeprofile-jan-clostermann",
+  "confidence": "medium"
+ },
+ {
+  "key": "chipperfield",
+  "city": "Лондон",
+  "country": "GB",
+  "founded": 1985,
+  "source": "https://en.wikipedia.org/wiki/David_Chipperfield_Architects",
+  "confidence": "high"
+ },
+ {
+  "key": "do-bureau",
+  "city": null,
+  "country": null,
+  "founded": null,
+  "source": null,
+  "confidence": "low"
+ },
+ {
+  "key": "gregory-tuck-architects",
+  "city": null,
+  "country": null,
+  "founded": null,
+  "source": null,
+  "confidence": "low"
+ },
+ {
+  "key": "highlight",
+  "city": null,
+  "country": null,
+  "founded": null,
+  "source": null,
+  "confidence": "low"
+ },
+ {
+  "key": "jtp",
+  "city": "Лондон",
+  "country": "GB",
+  "founded": null,
+  "source": "https://www.buildingdesignindex.co.uk/company/32527/John-Thompson-and-Partners/",
+  "confidence": "high"
+ },
+ {
+  "key": "kemelin",
+  "city": null,
+  "country": null,
+  "founded": null,
+  "source": null,
+  "confidence": "low"
+ },
+ {
+  "key": "kk-archstudio",
+  "city": null,
+  "country": null,
+  "founded": null,
+  "source": null,
+  "confidence": "low"
+ },
+ {
+  "key": "kosmos-architects",
+  "city": "Москва",
+  "country": "RU",
+  "founded": null,
+  "source": "https://archi.ru/world/97577/kosmos-ves-nash-put-byl-i-est-poisk-i-formirovanie-sobstvennogo-diskursa",
+  "confidence": "medium"
+ },
+ {
+  "key": "lunn",
+  "city": null,
+  "country": null,
+  "founded": null,
+  "source": null,
+  "confidence": "low"
+ },
+ {
+  "key": "martela",
+  "city": null,
+  "country": null,
+  "founded": null,
+  "source": null,
+  "confidence": "low"
+ },
+ {
+  "key": "michalowski",
+  "city": null,
+  "country": null,
+  "founded": null,
+  "source": null,
+  "confidence": "low"
+ },
+ {
+  "key": "msp",
+  "city": null,
+  "country": null,
+  "founded": null,
+  "source": null,
+  "confidence": "low"
+ },
+ {
+  "key": "parametrica",
+  "city": null,
+  "country": null,
+  "founded": null,
+  "source": null,
+  "confidence": "low"
+ },
+ {
+  "key": "project-2018",
+  "city": null,
+  "country": null,
+  "founded": null,
+  "source": null,
+  "confidence": "low"
+ },
+ {
+  "key": "slava-plus",
+  "city": null,
+  "country": null,
+  "founded": null,
+  "source": null,
+  "confidence": "low"
+ },
+ {
+  "key": "soulstone",
+  "city": null,
+  "country": null,
+  "founded": null,
+  "source": null,
+  "confidence": "low"
+ },
+ {
+  "key": "stanton-williams",
+  "city": "Лондон",
+  "country": "GB",
+  "founded": 1985,
+  "source": "https://en.wikipedia.org/wiki/Stanton_Williams",
+  "confidence": "high"
+ },
+ {
+  "key": "tabanlioglu",
+  "city": "Стамбул",
+  "country": "TR",
+  "founded": 1956,
+  "source": "https://en.wikipedia.org/wiki/Tabanl%C4%B1o%C4%9Flu_Architects",
+  "confidence": "high"
+ },
+ {
+  "key": "um",
+  "city": null,
+  "country": null,
+  "founded": null,
+  "source": null,
+  "confidence": "low"
+ },
+ {
+  "key": "wilmotte",
+  "city": "Париж",
+  "country": "FR",
+  "founded": 1975,
+  "source": "https://en.wikipedia.org/wiki/Jean-Michel_Wilmotte",
+  "confidence": "high"
+ },
+ {
+  "key": "naumov",
+  "city": null,
+  "country": null,
+  "founded": null,
+  "source": null,
+  "confidence": "low"
+ },
+ {
+  "key": "archimatika",
+  "city": "Киев",
+  "country": "UA",
+  "founded": 2005,
+  "source": "https://archello.com/brand/archimatika",
+  "confidence": "medium"
+ },
+ {
+  "key": "arkvartal",
+  "city": null,
+  "country": null,
+  "founded": null,
+  "source": null,
+  "confidence": "low"
+ },
+ {
+  "key": "b1",
+  "city": null,
+  "country": null,
+  "founded": null,
+  "source": null,
+  "confidence": "low"
+ },
+ {
+  "key": "byuro-soyuz",
+  "city": null,
+  "country": null,
+  "founded": null,
+  "source": null,
+  "confidence": "low"
+ },
+ {
+  "key": "gavalidis",
+  "city": "Москва",
+  "country": "RU",
+  "founded": 2014,
+  "source": "https://archi.ru/architects/russiastudios/2311",
+  "confidence": "high"
+ },
+ {
+  "key": "ingmar",
+  "city": null,
+  "country": null,
+  "founded": null,
+  "source": null,
+  "confidence": "low"
+ },
+ {
+  "key": "kollektiv-12",
+  "city": null,
+  "country": null,
+  "founded": null,
+  "source": null,
+  "confidence": "low"
+ },
+ {
+  "key": "labva",
+  "city": null,
+  "country": null,
+  "founded": null,
+  "source": null,
+  "confidence": "low"
+ },
+ {
+  "key": "merakom",
+  "city": null,
+  "country": null,
+  "founded": null,
+  "source": null,
+  "confidence": "low"
+ },
+ {
+  "key": "mikhail-filippov",
+  "city": "Москва",
+  "country": "RU",
+  "founded": null,
+  "source": "https://archi.ru/projects/russia/613/zhk-marshal",
+  "confidence": "medium"
+ },
+ {
+  "key": "olimproekt",
+  "city": null,
+  "country": null,
+  "founded": null,
+  "source": null,
+  "confidence": "low"
+ },
+ {
+  "key": "soho",
+  "city": null,
+  "country": null,
+  "founded": null,
+  "source": null,
+  "confidence": "low"
+ },
+ {
+  "key": "chekharda",
+  "city": null,
+  "country": null,
+  "founded": null,
+  "source": null,
+  "confidence": "low"
+ }
+]
