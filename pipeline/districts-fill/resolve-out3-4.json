@@ -1,0 +1,242 @@
+[
+ {
+  "slug": "severnyy-port",
+  "district": "levoberezhnyy",
+  "region": null,
+  "source": "https://realty.rbc.ru/news/664343289a7947c66eaa5e70",
+  "evidence": "Ленинградское шоссе, вл. 57 — «Левобережный район» (ЖК Северный порт)",
+  "reason": null
+ },
+ {
+  "slug": "yuzhnaya-bittsa",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "kalinovka",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "источник не найден: в выдаче Калиновка в других регионах, район не подтверждён"
+ },
+ {
+  "slug": "elizarovo",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "в выдаче только однофамильные Елизарово других районов; источник не найден"
+ },
+ {
+  "slug": "starosyrovo",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "kutuzovskaya-sloboda",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "novostroy.ru: «микрорайон №22 г. Зеленоград», застройщик ЗИФ, не Upside; не подтверждено",
+  "reason": "найденная карточка с другим застройщиком, привязка неоднозначна"
+ },
+ {
+  "slug": "tpu-elektrozavodskaya",
+  "district": "basmannyy",
+  "region": null,
+  "source": "https://www.mos.ru/news/item/77250073/",
+  "evidence": "mos.ru: ТПУ «Электрозаводская» — Центральный округ, Басманный район",
+  "reason": null
+ },
+ {
+  "slug": "rublevo-arkhangelskoe",
+  "district": "kuntsevo",
+  "region": null,
+  "source": "https://realty.rbc.ru/news/64819b6f9a7947bafae637d7",
+  "evidence": "РБК: Рублёво-Архангельское «является частью района Кунцево, ЗАО», 461 га",
+  "reason": null
+ },
+ {
+  "slug": "five",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "novostroy-m: ЖК Five — 5-й Донской проезд, 21, застройщик СЗ 5 Донской (не Атриум)",
+  "reason": "найденный ЖК с другим застройщиком, не подтверждено что тот же проект"
+ },
+ {
+  "slug": "twist",
+  "district": "savelovskiy",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/baza/delovoy_tsentr_twist",
+  "evidence": "ул. Бутырская, уч. 1; «Москва, САО, Савеловский»; застройщик Sminex",
+  "reason": null
+ },
+ {
+  "slug": "porta",
+  "district": "filevskiy-park",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/baza/biznestsentr_porta_porta",
+  "evidence": "ул. Заречная, вл 2/1; район «Филевский Парк», ЗАО",
+  "reason": null
+ },
+ {
+  "slug": "krt-poklonnaya",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "источник с районом не найден"
+ },
+ {
+  "slug": "sber-siti",
+  "district": "kuntsevo",
+  "region": null,
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/kvartira/zhk-sbersiti-2846968/s-terrasoi/",
+  "evidence": "Яндекс: «Москва, мкр. Рублёво-Архангельское» (Петергофская ул., 4); микрорайон — часть района Кунцево по РБК",
+  "reason": null
+ },
+ {
+  "slug": "lomonosov",
+  "district": "ramenki",
+  "region": null,
+  "source": "https://www.riamo.ru/news/nedvizhimost/efimov-v-moskovskom-rajone-ramenki-postrojat-2-nauchno-tehnologicheskih-klastera/",
+  "evidence": "заголовок: «в московском районе Раменки построят 2 научно-технологических кластера» (Ломоносов-2 у МГУ)",
+  "reason": null
+ },
+ {
+  "slug": "aurus-rezidentsii",
+  "district": "presnenskiy",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/panoramy_novostroek/panorama_jk_aurus_rezidentsii",
+  "evidence": "«Аурус Резиденции» в Пресненском районе, рядом с Москва-Сити",
+  "reason": null
+ },
+ {
+  "slug": "siti-2a",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "источник не найден"
+ },
+ {
+  "slug": "sportivnye-obekty-khrunicheva",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "mos.ru нашёл регбийный стадион на Нижних Мневниках, уч. 19 — не подтверждено что это объект Хруничева",
+  "reason": "найденный объект неоднозначен"
+ },
+ {
+  "slug": "kashirskiy-dvor-2",
+  "district": "nagatino-sadovniki",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/kvartiry/trehkomnatnaya-kvartira-v-zhk-beluck-kolomenskoe-bilak-kolomenskoe-4342492cf2c3a1f184162351c6280f",
+  "evidence": "ЖК BeLuck Коломенское (Гранель): Каширское ш., 1с17; район Нагатино-Садовники",
+  "reason": null
+ },
+ {
+  "slug": "danilovskiy-ot-granel",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "rublevskaya-rivera",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "moskvichmag: Рублевская Ривьера на ул. Академика Чазова у ЦКБ; адрес 3-й Черепковской не подтверждён",
+  "reason": "район в источнике не назван"
+ },
+ {
+  "slug": "khavskaya-9-1",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "moskvichmag: Хавская ул., 9, Хавско-Шаболовский жилмассив, около Шуховской башни; админ. район не назван",
+  "reason": "район не указан в источнике"
+ },
+ {
+  "slug": "bolshoy-moskovskiy-tsirk-na-prospekte-vernadskogo",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "mel.fm: новый цирк построят в Мневниковской пойме, а не на пр-те Вернадского (Собянин)",
+  "reason": "место проекта изменилось, район не назван"
+ },
+ {
+  "slug": "kashirskoe-61-korp-4-str-1-9",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "moskvichmag: Каширское ш. недалеко от м. Домодедовская, дом 61 не указан",
+  "reason": "район в источнике не назван"
+ },
+ {
+  "slug": "om-botanicheskiy",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "bolshaya-ordynka-25",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "din-haus",
+  "district": "savelovskiy",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/baza/jk_din_haus",
+  "evidence": "ул. Нижняя Масловка, вл. 10, стр. Б; Савеловский район, САО",
+  "reason": null
+ },
+ {
+  "slug": "siti-2",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "promzona-butovo",
+  "district": "yuzhnoe-butovo",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/novosti/v_byvshey_promzone_butovo",
+  "evidence": "участок 81,27 га на Варшавском шоссе, район Южное Бутово, ЮЗАО",
+  "reason": null
+ },
+ {
+  "slug": "silika",
+  "district": "khoroshevo-mnevniki",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/kvartiry/odnokomnatnaya-kvartira-v-zhk-sezar-silika-c067274c65b7871d9b15421e7db19f",
+  "evidence": "3-й Силикатный пр-д, вл. 3 (Sezar Group); Хорошево-Мневники, СЗАО",
+  "reason": null
+ },
+ {
+  "slug": "sreda-na-varshavskom",
+  "district": "moskvoreche-saburovo",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/baza/biznestsentr_sreda_na_varshavskoy",
+  "evidence": "1-й Варшавский проезд, вл. 1А, стр. 31-33; район Москворечье-Сабурово, ЮАО",
+  "reason": null
+ }
+]

@@ -726,6 +726,10 @@
    "name": "Термодом"
   },
   {
+   "slug": "touch",
+   "name": "Touch"
+  },
+  {
    "slug": "transstroyinvest",
    "name": "Трансстройинвест"
   },
@@ -4770,8 +4774,10 @@
      "date": "2021-03-29",
      "kind": "sales",
      "title": "Tekta Group открыла продажи в EVER на Обручева: 6 башен по 34 этажа, цена от 245 тыс. руб./кв. м, лот от 8,2 млн руб.",
-     "certainty": "fact",
-     "sourceNote": 7490
+     "certainty": "signal",
+     "sourceNote": 7490,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2021-03-31",
@@ -6381,16 +6387,20 @@
      "date": "2019-08-01",
      "kind": "other",
      "title": "Здания бывшего радиоцентра №4 на Краснолиманской исключены из перечня объектов культурного наследия",
-     "certainty": "fact",
+     "certainty": "signal",
      "sourceNote": 2769,
-     "dateLabel": "август 2019"
+     "dateLabel": "август 2019",
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2019-11-13",
      "kind": "land",
      "title": "Участок 20,8 га на Краснолиманской, 19А (около 450 тыс. кв. м жилья) готовят к аукциону ДОМ.РФ в конце 2019 года",
      "certainty": "signal",
-     "sourceNote": 2769
+     "sourceNote": 2769,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2019-12-31",
@@ -7488,7 +7498,7 @@
    "aliases": [],
    "region": "moscow",
    "stage": "architecture",
-   "summary": "«ТПУ Электрозаводская» (Москва). В досье 4 события с 2019 по 2021 год.",
+   "summary": "«ТПУ Электрозаводская» (район Басманный). В досье 4 события с 2019 по 2021 год.",
    "timeline": [
     {
      "date": "2019-11-25",
@@ -7524,7 +7534,8 @@
     2921,
     3165,
     8942
-   ]
+   ],
+   "district": "basmannyy"
   },
   {
    "slug": "varshavskoe-9-1",
@@ -12169,15 +12180,19 @@
      "date": "2021-07-26",
      "kind": "concept",
      "title": "Vesper прошёл ГЗК по редевелопменту Бережковской набережной, 20",
-     "certainty": "fact",
-     "sourceNote": 8712
+     "certainty": "signal",
+     "sourceNote": 8712,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2021-07-26",
      "kind": "deal",
      "title": "Vesper привлёк fee-девелопера для реализации офисной части около 300 тыс. кв. м",
      "certainty": "signal",
-     "sourceNote": 8712
+     "sourceNote": 8712,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2022-06-08",
@@ -15907,15 +15922,19 @@
      "date": "2021-12-10",
      "kind": "architecture",
      "title": "Архитектурный совет рассмотрел проект Paris Classical Architecture на Соймоновском, 3, всего 68 квартир",
-     "certainty": "fact",
-     "sourceNote": 10348
+     "certainty": "signal",
+     "sourceNote": 10348,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2021-12-10",
      "kind": "deal",
      "title": "Проект на Соймоновском, 3 реализует ЛСР, а не MR Group: ЛСР тендерит генподряд",
      "certainty": "signal",
-     "sourceNote": 10348
+     "sourceNote": 10348,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2021-12-14",
@@ -18164,8 +18183,10 @@
      "date": "2023-03-27",
      "kind": "concept",
      "title": "Город на ГЗК обновляет проект планировки территории Некрасовки, в районе ещё 1,9 млн кв. м жилья",
-     "certainty": "fact",
-     "sourceNote": 17063
+     "certainty": "signal",
+     "sourceNote": 17063,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2023-07-05",
@@ -18291,8 +18312,10 @@
      "date": "2023-10-19",
      "kind": "price",
      "title": "На Перовском, 2 цена выросла с 240 до 320 тыс. руб./кв. м за полгода",
-     "certainty": "fact",
-     "sourceNote": 19918
+     "certainty": "signal",
+     "sourceNote": 19918,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     }
    ],
    "notes": [
@@ -19014,7 +19037,7 @@
    "aliases": [],
    "region": "moscow",
    "stage": "architecture",
-   "summary": "«Рублево-Архангельское» — проект застройщика Сбер (Москва). В досье 8 событий с 2021 по 2024 год, из них 2 — сигнала до официальных новостей.",
+   "summary": "«Рублево-Архангельское» — проект застройщика Сбер (район Кунцево). В досье 8 событий с 2021 по 2024 год, из них 2 — сигнала до официальных новостей.",
    "timeline": [
     {
      "date": "2021-01-12",
@@ -19084,7 +19107,8 @@
     13284,
     21553
    ],
-   "developer": "sber"
+   "developer": "sber",
+   "district": "kuntsevo"
   },
   {
    "slug": "moskovskiy",
@@ -22510,8 +22534,10 @@
      "date": "2022-07-21",
      "kind": "permit",
      "title": "ЛСР получил разрешение на строительство проекта Дмитровское Небо на Ильменском, 1",
-     "certainty": "fact",
-     "sourceNote": 13650
+     "certainty": "signal",
+     "sourceNote": 13650,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2022-07-25",
@@ -22902,7 +22928,7 @@
    ],
    "region": "moscow",
    "stage": "sales",
-   "summary": "«River Park Кутузовский» — проект застройщика РнС (Москва). В досье 7 событий с 2021 по 2025 год, из них 1 — сигнал до официальных новостей.",
+   "summary": "«River Park Кутузовский» — проект застройщика АЕОН (Москва). В досье 7 событий с 2021 по 2025 год, из них 1 — сигнал до официальных новостей.",
    "timeline": [
     {
      "date": "2021-05-31",
@@ -22915,15 +22941,19 @@
      "date": "2022-05-04",
      "kind": "permit",
      "title": "РнС получил разрешение на строительство Ривер Парк Кутузовский",
-     "certainty": "fact",
-     "sourceNote": 12033
+     "certainty": "signal",
+     "sourceNote": 12033,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2022-05-04",
      "kind": "price",
      "title": "На предбронях цена 2-х комнатных около 650 тыс. руб./кв. м, 3-4-комнатных около 500 тыс. руб./кв. м",
-     "certainty": "fact",
-     "sourceNote": 12033
+     "certainty": "signal",
+     "sourceNote": 12033,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2022-09-16",
@@ -22970,7 +23000,7 @@
     32478,
     33017
    ],
-   "developer": "rns"
+   "developer": "aeon"
   },
   {
    "slug": "rizhskiy-gruzovoy-dvor",
@@ -24970,7 +25000,7 @@
    ],
    "region": "moscow",
    "stage": "sales",
-   "summary": "«Champine» — проект застройщика UDevelopment на участке «Сосинская, 43» (район Текстильщики). В досье 9 событий с 2020 по 2024 год, из них 2 — сигнала до официальных новостей.",
+   "summary": "«Champine» — проект застройщика Touch на участке «Сосинская, 43» (район Текстильщики). В досье 9 событий с 2020 по 2024 год, из них 2 — сигнала до официальных новостей.",
    "timeline": [
     {
      "date": "2020-12-31",
@@ -25055,7 +25085,7 @@
     24831,
     28633
    ],
-   "developer": "udevelopment",
+   "developer": "touch",
    "district": "tekstilshchiki"
   },
   {
@@ -27011,8 +27041,10 @@
      "date": "2022-04-27",
      "kind": "krt",
      "title": "Заключён инвестконтракт по КРТ в Очаково-Матвеевском (Рябиновая) в рамках программы «Индустриальные кварталы»",
-     "certainty": "fact",
-     "sourceNote": 12002
+     "certainty": "signal",
+     "sourceNote": 12002,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2022-12-22",
@@ -27731,7 +27763,9 @@
      "kind": "construction",
      "title": "По слухам, на Сокольническом валу, 2А проект будет строить Бэсткон",
      "certainty": "signal",
-     "sourceNote": 12466
+     "sourceNote": 12466,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2022-12-28",
@@ -28364,8 +28398,10 @@
      "date": "2023-03-17",
      "kind": "deal",
      "title": "Брусника купила проект «Огородный, 20» у мастер-девелопера MR",
-     "certainty": "fact",
-     "sourceNote": 16966
+     "certainty": "signal",
+     "sourceNote": 16966,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2023-05-03",
@@ -28656,7 +28692,9 @@
      "kind": "construction",
      "title": "Возможен снос академии Спартака на Малом Оленьем, 23 под застройку",
      "certainty": "signal",
-     "sourceNote": 12466
+     "sourceNote": 12466,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2024-04-16",
@@ -29048,8 +29086,10 @@
      "date": "2026-10-08",
      "kind": "deal",
      "title": "«МонАрх» купил у MR участок на Вилюйской, 3",
-     "certainty": "fact",
-     "sourceNote": 36089
+     "certainty": "signal",
+     "sourceNote": 36089,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     }
    ],
    "notes": [
@@ -30057,8 +30097,10 @@
      "date": "2023-10-19",
      "kind": "sales",
      "title": "Level Group стартует продажи проекта Нижегородская: в среднем 311 тыс. руб./кв. м со скидкой, студии от 8,4 млн руб., ключи в конце 2026",
-     "certainty": "fact",
-     "sourceNote": 19918
+     "certainty": "signal",
+     "sourceNote": 19918,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2024-02-15",
@@ -32594,8 +32636,10 @@
      "date": "2022-04-27",
      "kind": "krt",
      "title": "Заключён инвестконтракт по КРТ в Южном Тушине (Свободы, 35) в рамках программы «Индустриальные кварталы»",
-     "certainty": "fact",
-     "sourceNote": 12002
+     "certainty": "signal",
+     "sourceNote": 12002,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2023-03-02",
@@ -32708,8 +32752,10 @@
      "date": "2022-04-27",
      "kind": "krt",
      "title": "Заключён инвестконтракт по КРТ в Хорошево-Мневниках (Маршала Жукова, 6); общие инвестиции по трём проектам 158 млрд руб.",
-     "certainty": "fact",
-     "sourceNote": 12002
+     "certainty": "signal",
+     "sourceNote": 12002,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2022-05-04",
@@ -34326,7 +34372,7 @@
    ],
    "region": "moscow",
    "stage": "sales",
-   "summary": "«Каширский двор-2» — проект застройщика Гранель на участке «Каширское, 1» (Москва). В досье 8 событий с 2020 по 2025 год, из них 3 — сигнала до официальных новостей.",
+   "summary": "«Каширский двор-2» — проект застройщика Гранель на участке «Каширское, 1» (район Нагатино-Садовники). В досье 8 событий с 2020 по 2025 год, из них 3 — сигнала до официальных новостей.",
    "timeline": [
     {
      "date": "2020-12-04",
@@ -34399,7 +34445,8 @@
     26018,
     27999
    ],
-   "developer": "granel"
+   "developer": "granel",
+   "district": "nagatino-sadovniki"
   },
   {
    "slug": "1-y-krasnokursantskiy-3-5",
@@ -36835,8 +36882,10 @@
      "date": "2023-11-22",
      "kind": "sales",
      "title": "Vos'hod стартует с продажами в Телеграфе на Тверской, 7: 32 двусветных апартамента, 150 машино-мест",
-     "certainty": "fact",
-     "sourceNote": 20362
+     "certainty": "signal",
+     "sourceNote": 20362,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2024-05-24",
@@ -38881,8 +38930,10 @@
      "date": "2023-10-24",
      "kind": "deal",
      "title": "Капиталисты продали участок Дубнинская, 83 с одобренными 348 тыс. кв. м жилья региональной компании Плюс девелопмент",
-     "certainty": "fact",
-     "sourceNote": 19959
+     "certainty": "signal",
+     "sourceNote": 19959,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2024-02-03",
@@ -39248,7 +39299,7 @@
    "aliases": [],
    "region": "moscow",
    "stage": "sales",
-   "summary": "«Twist» — проект застройщика Sminex (Москва). В досье 5 событий с 2023 по 2024 год.",
+   "summary": "«Twist» — проект застройщика Sminex (район Савёловский). В досье 5 событий с 2023 по 2024 год.",
    "timeline": [
     {
      "date": "2023-04-10",
@@ -39304,7 +39355,8 @@
     22767,
     22824
    ],
-   "developer": "sminex"
+   "developer": "sminex",
+   "district": "savelovskiy"
   },
   {
    "slug": "basmannyy-7",
@@ -44031,7 +44083,7 @@
    ],
    "region": "moscow",
    "stage": "sales",
-   "summary": "«Porta» — проект застройщика Forma на участке «Заречная, 2» (Москва). В досье 3 события 2023 года, из них 1 — сигнал до официальных новостей.",
+   "summary": "«Porta» — проект застройщика Forma на участке «Заречная, 2» (район Филёвский Парк). В досье 3 события 2023 года, из них 1 — сигнал до официальных новостей.",
    "timeline": [
     {
      "date": "2023-08-17",
@@ -44066,7 +44118,8 @@
     22767,
     32425
    ],
-   "developer": "forma"
+   "developer": "forma",
+   "district": "filevskiy-park"
   },
   {
    "slug": "aviamotornaya-55",
@@ -50185,8 +50238,10 @@
      "date": "2026-04-24",
      "kind": "sales",
      "title": "MR объявила о старте офисного комплекса класса А CITYZEN в Покровском-Стрешневе",
-     "certainty": "fact",
-     "sourceNote": 34012
+     "certainty": "signal",
+     "sourceNote": 34012,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     }
    ],
    "notes": [
@@ -55359,7 +55414,7 @@
    "aliases": [],
    "region": "moscow",
    "stage": "sales",
-   "summary": "«Сбер Сити» — проект застройщика Сбер (Москва). В досье 3 события с 2025 по 2026 год.",
+   "summary": "«Сбер Сити» — проект застройщика Сбер (район Кунцево). В досье 3 события с 2025 по 2026 год.",
    "timeline": [
     {
      "date": "2025-10-03",
@@ -55390,7 +55445,8 @@
     31342,
     33811
    ],
-   "developer": "sber"
+   "developer": "sber",
+   "district": "kuntsevo"
   },
   {
    "slug": "kod-sokolniki",
@@ -56008,7 +56064,7 @@
    ],
    "region": "moscow",
    "stage": "architecture",
-   "summary": "«Ломоносов» (Москва). В досье 3 события с 2021 по 2026 год.",
+   "summary": "«Ломоносов» (район Раменки). В досье 3 события с 2021 по 2026 год.",
    "timeline": [
     {
      "date": "2021-01-27",
@@ -56040,7 +56096,8 @@
     32541,
     33957,
     34997
-   ]
+   ],
+   "district": "ramenki"
   },
   {
    "slug": "varshavskoe-37",
@@ -56071,8 +56128,10 @@
      "date": "2026-09-29",
      "kind": "tender",
      "title": "КРТ на Варшавском, 37 и Нагатинской, 3А/6 ушло на аукционе за 5,4 млрд руб. при старте 2,4 млрд",
-     "certainty": "fact",
-     "sourceNote": 35939
+     "certainty": "signal",
+     "sourceNote": 35939,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     }
    ],
    "notes": [
@@ -56305,7 +56364,7 @@
    ],
    "region": "moscow",
    "stage": "architecture",
-   "summary": "«Среда на Варшавском» — проект застройщика Среда (Москва). В досье 3 события 2026 года, из них 2 — сигнала до официальных новостей.",
+   "summary": "«Среда на Варшавском» — проект застройщика Среда (район Москворечье-Сабурово). В досье 3 события 2026 года, из них 2 — сигнала до официальных новостей.",
    "timeline": [
     {
      "date": "2026-04-15",
@@ -56334,7 +56393,8 @@
     33883,
     35956
    ],
-   "developer": "sreda"
+   "developer": "sreda",
+   "district": "moskvoreche-saburovo"
   },
   {
    "slug": "fenomen-goroda",
@@ -56471,7 +56531,7 @@
    "aliases": [],
    "region": "moscow",
    "stage": "sales",
-   "summary": "«Аурус Резиденции» — проект застройщика Страна (Москва). В досье 3 события 2026 года.",
+   "summary": "«Аурус Резиденции» — проект застройщика Страна (район Пресненский). В досье 3 события 2026 года.",
    "timeline": [
     {
      "date": "2026-07-13",
@@ -56506,7 +56566,8 @@
     35329,
     35418
    ],
-   "developer": "strana"
+   "developer": "strana",
+   "district": "presnenskiy"
   },
   {
    "slug": "1-y-sheremetevskiy",

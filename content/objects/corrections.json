@@ -1070,7 +1070,9 @@
   },
   "champine": {
     "district": "tekstilshchiki",
-    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Сосинская, 43, у метро Волгоградский проспект → Текстильщики"
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Сосинская, 43, у метро Волгоградский проспект → Текстильщики",
+    "developer": "touch",
+    "developerName": "Touch"
   },
   "mayprioriti-paveletskaya": {
     "district": "zamoskvorechye",
@@ -2214,5 +2216,49 @@
   "triniti": {
     "district": "zapadnoe-degunino",
     "districtSource": "https://www.novostroy-m.ru/kvartiry/dvuhkomnatnaya-kvartira-v-zhk-triniti-571d1dfc0234bf8e48351723447329"
+  },
+  "river-park-kutuzovskiy": {
+    "developer": "aeon",
+    "note": "Застройщик — АЕОН Девелопмент (новость от 17.05.2022, фактчекинг статьи 12033); «РнС» в разметке — сокращение «разрешение на строительство»"
+  },
+  "severnyy-port": {
+    "district": "levoberezhnyy",
+    "districtSource": "https://realty.rbc.ru/news/664343289a7947c66eaa5e70"
+  },
+  "tpu-elektrozavodskaya": {
+    "district": "basmannyy",
+    "districtSource": "https://www.mos.ru/news/item/77250073/"
+  },
+  "rublevo-arkhangelskoe": {
+    "district": "kuntsevo",
+    "districtSource": "https://realty.rbc.ru/news/64819b6f9a7947bafae637d7"
+  },
+  "twist": {
+    "district": "savelovskiy",
+    "districtSource": "https://www.novostroy-m.ru/baza/delovoy_tsentr_twist"
+  },
+  "porta": {
+    "district": "filevskiy-park",
+    "districtSource": "https://www.novostroy-m.ru/baza/biznestsentr_porta_porta"
+  },
+  "sber-siti": {
+    "district": "kuntsevo",
+    "districtSource": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/kvartira/zhk-sbersiti-2846968/s-terrasoi/"
+  },
+  "lomonosov": {
+    "district": "ramenki",
+    "districtSource": "https://www.riamo.ru/news/nedvizhimost/efimov-v-moskovskom-rajone-ramenki-postrojat-2-nauchno-tehnologicheskih-klastera/"
+  },
+  "aurus-rezidentsii": {
+    "district": "presnenskiy",
+    "districtSource": "https://www.novostroy-m.ru/panoramy_novostroek/panorama_jk_aurus_rezidentsii"
+  },
+  "kashirskiy-dvor-2": {
+    "district": "nagatino-sadovniki",
+    "districtSource": "https://www.novostroy-m.ru/kvartiry/trehkomnatnaya-kvartira-v-zhk-beluck-kolomenskoe-bilak-kolomenskoe-4342492cf2c3a1f184162351c6280f"
+  },
+  "sreda-na-varshavskom": {
+    "district": "moskvoreche-saburovo",
+    "districtSource": "https://www.novostroy-m.ru/baza/biznestsentr_sreda_na_varshavskoy"
   }
 }
