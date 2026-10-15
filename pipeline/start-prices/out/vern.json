@@ -1,0 +1,19 @@
+{
+ "slug": "vern",
+ "status": "partial",
+ "project": "ЖК Верн (Вернадского, 10)",
+ "start": null,
+ "now": {
+  "as_of": "2026-10-15",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 40.019085,
+  "lot_desc": "1-комн. 45 м², 2 этаж",
+  "selling": true,
+  "source": {
+   "title": "ЖК Верн, novostroy-m.ru",
+   "url": "https://www.novostroy-m.ru/baza/jk_vern"
+  }
+ },
+ "note": "Продажи открыты в корпусах 1 и 3 (котлован), 29 лотов, диапазон 40-100 млн, цены от 15.10. Цена за м² на странице не указана. Дату и цену старта в деловых СМИ не нашёл: новость novostroy-m (https://www.novostroy-m.ru/novosti/novoe_na_rynke_proekt, 9 октября) без цен. Цифры ~700 и ~900 тыс. за м² есть только в Телеграм-архиве."
+}

@@ -1,0 +1,19 @@
+{
+ "slug": "set",
+ "status": "unverifiable",
+ "project": "SET (ЖК СЕТ, Верейская, 29)",
+ "start": null,
+ "now": {
+  "as_of": "2026-10-15",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 28.29,
+  "lot_desc": "1-комн. 48,94 м² (одно объявление, не минимум проекта)",
+  "selling": true,
+  "source": {
+   "title": "1-комн. квартира в ЖК СЕТ, novostroy-m.ru",
+   "url": "https://www.novostroy-m.ru/kvartiry/odnokomnatnaya-kvartira-v-zhk-set-edcd282f24f5ceb119ba245a9cfb4e"
+  }
+ },
+ "note": "Старт именно SET не найден. Обзор novostroy-m 2024-09-02 и новость 2024-08-20 говорят о старте первой очереди VEER (Indigo), а не SET: от 11,8 млн за студию 20,6 м² (https://www.novostroy-m.ru/analitika/starty_prodaj_avgust_2024 , https://www.novostroy-m.ru/novosti/multikvartal_veer_i_novyy). Относится ли это к SET - не подтверждено. Цена сейчас: на странице указано 578 тыс. за м² для этого лота (28,29 млн, 48,94 м², обновлено 23.09.2026), проектного минимума на странице нет; в блоке похожих лотов студия 23,1 м² за 16,7 млн, но не ясно, что это тот же проект."
+}

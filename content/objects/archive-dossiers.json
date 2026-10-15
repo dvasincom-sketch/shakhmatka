@@ -826,6 +826,10 @@
    "name": "Термодом"
   },
   {
+   "slug": "tochno",
+   "name": "ТОЧНО"
+  },
+  {
    "slug": "touch",
    "name": "Touch"
   },
@@ -23658,16 +23662,20 @@
      "date": "2021-12-31",
      "kind": "tender",
      "title": "MR Group купила на аукционе завод Чернышева на Вишневой, 7, на торги также заявлялся Эталон",
-     "certainty": "fact",
+     "certainty": "signal",
      "sourceNote": 17455,
-     "dateLabel": "2021"
+     "dateLabel": "2021",
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2023-04-25",
      "kind": "other",
      "title": "MR Group получила акт ГИКЭ на первую очередь проекта на Вишневой, 7",
-     "certainty": "fact",
-     "sourceNote": 17455
+     "certainty": "signal",
+     "sourceNote": 17455,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2023-06-06",
@@ -36320,8 +36328,10 @@
      "date": "2023-03-14",
      "kind": "krt",
      "title": "ПИК забирает промзону №48 Дегунино-Лихоборы за 1,035 млрд руб., жилья около 240 тыс. кв. м",
-     "certainty": "fact",
-     "sourceNote": 16894
+     "certainty": "signal",
+     "sourceNote": 16894,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     }
    ],
    "notes": [
@@ -38019,15 +38029,19 @@
      "date": "2022-12-29",
      "kind": "permit",
      "title": "KR Properties получила разрешение на строительство дома «Мюр и Мерилиз» на 98 квартир",
-     "certainty": "fact",
-     "sourceNote": 16145
+     "certainty": "signal",
+     "sourceNote": 16145,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2022-12-29",
      "kind": "price",
      "title": "Цены в «Мюр и Мерилиз» стартуют от 780 тыс. руб. за кв. м",
-     "certainty": "fact",
-     "sourceNote": 16145
+     "certainty": "signal",
+     "sourceNote": 16145,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     }
    ],
    "notes": [
@@ -48734,7 +48748,9 @@
      "kind": "krt",
      "title": "В мэрии обсуждают контур комплексного развития 169 га в Басманном, Таганском и Лефортово",
      "certainty": "signal",
-     "sourceNote": 36006
+     "sourceNote": 36006,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     }
    ],
    "notes": [
@@ -52900,8 +52916,10 @@
      "date": "2025-03-12",
      "kind": "price",
      "title": "В beLuck Коломенское экспонирование поднято до 320 тыс. руб./кв. м при фактической контрактации около 290 тыс. после старта с 411 тыс.",
-     "certainty": "fact",
-     "sourceNote": 28387
+     "certainty": "signal",
+     "sourceNote": 28387,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     }
    ],
    "notes": [
@@ -59156,7 +59174,7 @@
    ],
    "region": "moscow",
    "stage": "sales",
-   "summary": "«Лодочная, 27, к. 2» — проект застройщика Атлас (Москва). В досье 2 события 2025 года.",
+   "summary": "«Лодочная, 27, к. 2» — проект застройщика ТОЧНО (Москва). В досье 2 события 2025 года.",
    "timeline": [
     {
      "date": "2025-04-29",
@@ -59177,7 +59195,7 @@
     29202,
     29416
    ],
-   "developer": "atlas"
+   "developer": "tochno"
   },
   {
    "slug": "krt-golyanovo",
@@ -59223,8 +59241,10 @@
      "date": "2025-05-07",
      "kind": "land",
      "title": "Coldy купил здание 598 кв. м на участке 0,15 га у Минимущества Кировской области за 450 млн руб.",
-     "certainty": "fact",
-     "sourceNote": 29273
+     "certainty": "signal",
+     "sourceNote": 29273,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2025-10-24",
@@ -59513,7 +59533,7 @@
    ],
    "region": "moscow",
    "stage": "architecture",
-   "summary": "«ТАКТ» — проект застройщика Патек Групп на участке «2-я Ямская, 9» (район Марьина Роща). В досье 2 события 2025 года.",
+   "summary": "«ТАКТ» — проект застройщика Upside на участке «2-я Ямская, 9» (район Марьина Роща). В досье 2 события 2025 года.",
    "timeline": [
     {
      "date": "2025-06-20",
@@ -59540,7 +59560,7 @@
     34711
    ],
    "district": "marina-roshcha",
-   "developer": "patek-grupp"
+   "developer": "upside"
   },
   {
    "slug": "dom-kino",
@@ -60080,8 +60100,10 @@
      "date": "2026-01-28",
      "kind": "concept",
      "title": "Гранард показал визуализации многофункционального офисного комплекса 190 тыс. кв. м на Крылатской, 2",
-     "certainty": "fact",
-     "sourceNote": 32902
+     "certainty": "signal",
+     "sourceNote": 32902,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     }
    ],
    "notes": [
@@ -60110,8 +60132,10 @@
      "date": "2025-07-22",
      "kind": "architecture",
      "title": "Скуратов проработал башню 225 м на Мичуринском, 54, корп. 3 с жильём на 28 тыс. кв. м",
-     "certainty": "fact",
-     "sourceNote": 30302
+     "certainty": "signal",
+     "sourceNote": 30302,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2026-03-24",
@@ -60142,8 +60166,10 @@
      "date": "2025-07-22",
      "kind": "architecture",
      "title": "Скуратов проработал клубный дом 36,6 м на 2-м Мосфильмовском, 21А с жильём на 13 тыс. кв. м",
-     "certainty": "fact",
-     "sourceNote": 30302
+     "certainty": "signal",
+     "sourceNote": 30302,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2025-12-30",
@@ -60571,16 +60597,20 @@
      "date": "2024-12-31",
      "kind": "land",
      "title": "Рязанский девелопер «Единство» купил участок «Нижегородская, 94/4» за 242 млн руб.",
-     "certainty": "fact",
+     "certainty": "signal",
      "sourceNote": 31022,
-     "dateLabel": "2024"
+     "dateLabel": "2024",
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2025-09-09",
      "kind": "tender",
      "title": "«Единство» выставило участок «Нижегородская, 94/4» на аукцион со стартовой ценой 1,5 млрд руб.",
-     "certainty": "fact",
-     "sourceNote": 31022
+     "certainty": "signal",
+     "sourceNote": 31022,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     }
    ],
    "notes": [
@@ -63103,7 +63133,9 @@
      "kind": "land",
      "title": "Участок «Смирновская, 1» за 228 млн руб. купил ЗПИФ «257» под управлением «Диалог Инвестиции», связанной с MR",
      "certainty": "signal",
-     "sourceNote": 34638
+     "sourceNote": 34638,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     }
    ],
    "notes": [
@@ -63733,14 +63765,18 @@
      "kind": "deal",
      "title": "«РГ-Девелопмент» определена девелопером жилой части проекта «Новой Эры» на грузовом дворе у Савеловского вокзала",
      "certainty": "signal",
-     "sourceNote": 35817
+     "sourceNote": 35817,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2026-09-21",
      "kind": "architecture",
      "title": "Мастер-план грузового двора: 16,3 га, более 305 тыс. кв. м жилья и свыше 110 тыс. кв. м офисов",
-     "certainty": "fact",
-     "sourceNote": 35817
+     "certainty": "signal",
+     "sourceNote": 35817,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     }
    ],
    "notes": [

@@ -2537,5 +2537,15 @@
   ],
   "developer": "lsr",
   "developerName": "ЛСР"
+ },
+ "lodochnaya-27-k-2": {
+  "developer": "tochno",
+  "developerName": "ТОЧНО",
+  "note": "застройщик по фактчекингу статьи 29416"
+ },
+ "takt": {
+  "developer": "upside",
+  "developerName": "Upside Development",
+  "note": "застройщик по фактчекингу статьи 32369"
  }
 }

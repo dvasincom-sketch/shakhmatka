@@ -1,0 +1,30 @@
+{
+ "slug": "ever",
+ "status": "ok",
+ "project": "EVER (Эвер, Обручева, 23)",
+ "start": {
+  "date": "2021-03",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 8.2,
+  "lot_desc": "студия 26 м²",
+  "source": {
+   "title": "Старты продаж новостроек, март 2021, novostroy-m.ru",
+   "url": "https://www.novostroy-m.ru/analitika/starty_prodaj_novostroek_po",
+   "date": "2021-03-30"
+  }
+ },
+ "now": {
+  "as_of": "2026-10-15",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 30.555483,
+  "lot_desc": "2-комн. 48,6 м² (на 30.09.2026)",
+  "selling": true,
+  "source": {
+   "title": "ЖК Ever, novostroy-m.ru",
+   "url": "https://www.novostroy-m.ru/baza/jk_obrucheva_23"
+  }
+ },
+ "note": "Цена за м² на старте (245 тыс. по архиву) в обзоре не подтверждена. Сейчас: диапазон 30-70,2 млн, 27 квартир в продаже, в мета-описании 'от 29 973 251', в карточках такой цены нет; цены за м² на странице нет. Корпуса 1-6 сданы."
+}

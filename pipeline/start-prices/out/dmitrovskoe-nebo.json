@@ -1,0 +1,19 @@
+{
+ "slug": "dmitrovskoe-nebo",
+ "status": "unverifiable",
+ "project": "Дмитровское небо",
+ "start": null,
+ "now": {
+  "as_of": "2026-10-15",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 14.5,
+  "lot_desc": "студия от 19,8 м2; мин. карточка 14 967 202 за 22,3 м2",
+  "selling": true,
+  "source": {
+   "title": "novostroy-m.ru: ЖК Дмитровское небо",
+   "url": "https://www.novostroy-m.ru/baza/jk_dmitrovskoe_nebo"
+  }
+ },
+ "note": "Первичный источник старта (июль 2022) не открылся: статья novostroy.ru за июль не загрузилась. Цены 7,1/10,2 млн из архива не источник. Сейчас в продаже очередь 2 (этап 2.5, сдача 2 кв. 2027), очередь 1 сдана; 'от 14.5 млн' - по странице, без указания очереди."
+}

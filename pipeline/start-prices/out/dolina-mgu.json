@@ -1,0 +1,19 @@
+{
+ "slug": "dolina-mgu",
+ "status": "unverifiable",
+ "project": "Долина МГУ / В12 (Вернадского, 12Б)",
+ "start": null,
+ "now": {
+  "as_of": "2026-10-07",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": null,
+  "lot_desc": "цена по запросу, мин. площадь помещений 38 м²",
+  "selling": null,
+  "source": {
+   "title": "novostroy-m.ru: Комплекс апартаментов на пр-те Вернадского",
+   "url": "https://www.novostroy-m.ru/baza/kompleks_apartamentov_na_prte"
+  }
+ },
+ "note": "Старт не подтверждён: Москвич Mag 2021-11-08 цен не содержит; 500 тыс./м² из архива - прогноз. Карточка novostroy-m привязана к проекту по выдаче по запросу (не на 100%), там 'цена по запросу', стадия котлована, сдача 2 кв. 2027; статус продаж не указан."
+}

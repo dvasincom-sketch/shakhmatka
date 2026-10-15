@@ -1,0 +1,19 @@
+{
+ "slug": "admiral",
+ "status": "unverifiable",
+ "project": "Адмирал",
+ "start": null,
+ "now": {
+  "as_of": "2026-10-14",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 19.8,
+  "lot_desc": "конкретный лот 1-к 30 м2, дом 1.1, 40 этаж, сдача 3 кв. 2028 (страница показывает 660 575 р./м2, не минимум по проекту)",
+  "selling": true,
+  "source": {
+   "title": "novostroy-m.ru: 1-комн. квартира в ЖК Адмирал",
+   "url": "https://www.novostroy-m.ru/kvartiry/odnokomnatnaya-kvartira-v-zhk-admiral-00842e8f617956f78dd0f5338ecb71"
+  }
+ },
+ "note": "Старт не найден, карточка проекта не открылась. Данные 'сейчас' - один лот (19 817 260 руб.), не гарантированный минимум и не 'от'."
+}

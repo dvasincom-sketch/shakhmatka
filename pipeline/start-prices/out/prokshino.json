@@ -1,0 +1,19 @@
+{
+ "slug": "prokshino",
+ "status": "partial",
+ "project": "Прокшино (А101)",
+ "start": {
+  "date": "2020-08",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 3.95,
+  "lot_desc": "студии (по тексту: цены на студии начинаются от 3,95 млн)",
+  "source": {
+   "title": "novostroy-m.ru: Объявлен старт продаж в Прокшино",
+   "url": "https://www.novostroy-m.ru/novosti/obyavlen_start_prodaj_v",
+   "date": "2020-08-12"
+  }
+ },
+ "now": null,
+ "note": "Цена сейчас не получена (страницы novostroy.ru не открылись). Справочно: дом 6, 2021-12-17, студия от 5,8 млн без отделки (novostroy-m.ru/novosti/kvartira_58_mln_rubley). Средний ценник 162 тыс. из архива не подтверждён."
+}

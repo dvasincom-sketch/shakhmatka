@@ -1,0 +1,275 @@
+{
+ "batch": 13,
+ "units": [
+  {
+   "unit": 17455,
+   "notes": [
+    17455
+   ],
+   "dossier": "vishnevaya-7",
+   "developer": "mr-group",
+   "date": "2023-04-25",
+   "images": 3
+  },
+  {
+   "unit": 16145,
+   "notes": [
+    16145
+   ],
+   "dossier": "myur-i-meriliz",
+   "developer": "kr-properties",
+   "date": "2022-12-29",
+   "images": 1
+  },
+  {
+   "unit": 19521,
+   "notes": [
+    19521
+   ],
+   "dossier": "nicole",
+   "developer": "mr-group",
+   "date": "2023-09-21",
+   "images": 10
+  },
+  {
+   "unit": 16894,
+   "notes": [
+    16894
+   ],
+   "dossier": "promzona-48-degunino-likhobory",
+   "developer": "prometeysiti",
+   "date": "2023-03-14",
+   "images": 3
+  },
+  {
+   "unit": 31152,
+   "notes": [
+    31152
+   ],
+   "dossier": "k7-11",
+   "developer": "mr-group",
+   "date": "2025-09-17",
+   "images": 6
+  },
+  {
+   "unit": 30302,
+   "notes": [
+    30302
+   ],
+   "dossier": "michurinskiy-54-korp-3",
+   "developer": "speloe-solntse",
+   "date": "2025-07-22",
+   "images": 10
+  },
+  {
+   "unit": 30793,
+   "notes": [
+    30793
+   ],
+   "dossier": "rizhskiy",
+   "developer": "rzhd-nedvizhimost",
+   "date": "2025-08-20",
+   "images": 0
+  },
+  {
+   "unit": 30842,
+   "notes": [
+    30842
+   ],
+   "dossier": "sev",
+   "developer": null,
+   "date": "2025-08-25",
+   "images": 0
+  },
+  {
+   "unit": 31528,
+   "notes": [
+    31528
+   ],
+   "dossier": "volokolamskoe-32",
+   "developer": "pik",
+   "date": "2025-10-15",
+   "images": 5
+  },
+  {
+   "unit": 32060,
+   "notes": [
+    32060
+   ],
+   "dossier": "strogino-360",
+   "developer": "pik",
+   "date": "2025-11-20",
+   "images": 8
+  },
+  {
+   "unit": 32132,
+   "notes": [
+    32132
+   ],
+   "dossier": "mitinskiy-les",
+   "developer": "pik",
+   "date": "2025-11-25",
+   "images": 9
+  },
+  {
+   "unit": 32902,
+   "notes": [
+    32902
+   ],
+   "dossier": "krylatskaya-2",
+   "developer": "granard",
+   "date": "2026-01-28",
+   "images": 4
+  },
+  {
+   "unit": 33221,
+   "notes": [
+    33221
+   ],
+   "dossier": "brateevskaya-39-12",
+   "developer": "rodina",
+   "date": "2026-02-20",
+   "images": 6
+  },
+  {
+   "unit": 34638,
+   "notes": [
+    34638
+   ],
+   "dossier": "smirnovskaya-1",
+   "developer": "dom-rf",
+   "date": "2026-06-17",
+   "images": 3
+  },
+  {
+   "unit": 35817,
+   "notes": [
+    35817
+   ],
+   "dossier": "gruzovoy-dvor-u-savelovskogo-vokzala",
+   "developer": "rg-development",
+   "date": "2026-09-21",
+   "images": 3
+  },
+  {
+   "unit": 36006,
+   "notes": [
+    36006
+   ],
+   "dossier": "artkvartal",
+   "developer": null,
+   "date": "2026-10-02",
+   "images": 0
+  },
+  {
+   "unit": 28387,
+   "notes": [
+    28387
+   ],
+   "dossier": "beluck-kolomenskoe",
+   "developer": "granel",
+   "date": "2025-03-12",
+   "images": 1
+  },
+  {
+   "unit": 29072,
+   "notes": [
+    29072
+   ],
+   "dossier": "bestseller",
+   "developer": "baza",
+   "date": "2025-04-23",
+   "images": 10
+  },
+  {
+   "unit": 29136,
+   "notes": [
+    29136
+   ],
+   "dossier": "gostinichnyy-kompleks-berlin",
+   "developer": null,
+   "date": "2025-04-28",
+   "images": 8
+  },
+  {
+   "unit": 29273,
+   "notes": [
+    29273
+   ],
+   "dossier": "lyalin-18-str-1",
+   "developer": "r4s",
+   "date": "2025-05-07",
+   "images": 10
+  },
+  {
+   "unit": 29416,
+   "notes": [
+    29416
+   ],
+   "dossier": "lodochnaya-27-k-2",
+   "developer": "atlas",
+   "date": "2025-05-21",
+   "images": 3
+  },
+  {
+   "unit": 31022,
+   "notes": [
+    31022
+   ],
+   "dossier": "nizhegorodskaya-94-4",
+   "developer": "edinstvo",
+   "date": "2025-09-09",
+   "images": 10
+  },
+  {
+   "unit": 31985,
+   "notes": [
+    31985
+   ],
+   "dossier": "krt-derbenevskaya",
+   "developer": "pioner",
+   "date": "2025-11-17",
+   "images": 10
+  },
+  {
+   "unit": 32338,
+   "notes": [
+    32338
+   ],
+   "dossier": "grand-fili",
+   "developer": "granard",
+   "date": "2025-12-03",
+   "images": 8
+  },
+  {
+   "unit": 32369,
+   "notes": [
+    32369
+   ],
+   "dossier": "takt",
+   "developer": "patek-grupp",
+   "date": "2025-12-04",
+   "images": 8
+  },
+  {
+   "unit": 32809,
+   "notes": [
+    32809
+   ],
+   "dossier": "dom-kino",
+   "developer": "pervyy-developer",
+   "date": "2026-01-15",
+   "images": 7
+  },
+  {
+   "unit": 33004,
+   "notes": [
+    33004
+   ],
+   "dossier": "dorozhnaya-3",
+   "developer": "coldy",
+   "date": "2026-02-05",
+   "images": 10
+  }
+ ]
+}

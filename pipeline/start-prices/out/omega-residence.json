@@ -1,0 +1,30 @@
+{
+ "slug": "omega-residence",
+ "status": "ok",
+ "project": "Резиденция Омега (Omega Residence)",
+ "start": {
+  "date": "2026-03",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 123,
+  "lot_desc": "'цены на квартиры стартуют от 123 млн рублей'",
+  "source": {
+   "title": "novostroy-m.ru: Старты продаж - март 2026 / Резиденция Омега",
+   "url": "https://www.novostroy-m.ru/analitika/starty_prodaj_mart_2026",
+   "date": "2026-03-27"
+  }
+ },
+ "now": {
+  "as_of": "2026-10-08",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 158.477,
+  "lot_desc": "1-к 73,2 м2 (мин. лот на странице)",
+  "selling": true,
+  "source": {
+   "title": "novostroy-m.ru: Omega Residence, планировки",
+   "url": "https://www.novostroy-m.ru/baza/omega_residence_omega_rezidens/planirovki"
+  }
+ },
+ "note": "Дата новости '27 марта' без года в тексте, год 2026 по обзору месяца. 'Цены от 8 октября' без года - принято 2026. Цена за м2 на страницах не указана, не считал. Прайс 2,5-2,9 млн/м2 (дек. 2025) - архив, до старта."
+}

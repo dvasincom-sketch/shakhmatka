@@ -1,0 +1,30 @@
+{
+ "slug": "foriver",
+ "status": "ok",
+ "project": "FORIVER (Квартал Foriver / Foriver Residence)",
+ "start": {
+  "date": "2020-10",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 14.2,
+  "lot_desc": "корпус 8 (Инград)",
+  "source": {
+   "title": "Старт продаж от 14,2 млн, novostroy-m.ru",
+   "url": "https://www.novostroy-m.ru/novosti/start_prodaj_ot_142",
+   "date": "2020-10-12"
+  }
+ },
+ "now": {
+  "as_of": "2026-10-15",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": null,
+  "lot_desc": null,
+  "selling": false,
+  "source": {
+   "title": "ЖК Foriver Residence, novostroy-m.ru",
+   "url": "https://www.novostroy-m.ru/baza/jk_foriver_residence_foriver"
+  }
+ },
+ "note": "Старт - по новости novostroy-m, корпус 8 (дата со страницы 12.10.2020); архив пишет о закрытом бронировании в июле 2020, возможна более ранняя первая очередь. Сейчас: на странице 'нет в продаже квартир от застройщика', сдача 4 кв. 2026. Цену за м² источники не дают."
+}

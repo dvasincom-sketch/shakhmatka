@@ -1,0 +1,30 @@
+{
+ "slug": "emotion",
+ "status": "ok",
+ "project": "Emotion (МФК/апарт-комплекс, Большой Сити)",
+ "start": {
+  "date": "2023-09",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 9.69,
+  "lot_desc": "студия 18,1 м²",
+  "source": {
+   "title": "Старты продаж в сентябре 2023, novostroy-m.ru",
+   "url": "https://www.novostroy-m.ru/analitika/starty_prodaj_sentyabr_23",
+   "date": "2023-10-02"
+  }
+ },
+ "now": {
+  "as_of": "2026-10-15",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": 13.3035,
+  "lot_desc": "студия 18,1 м² (самая дешёвая из показанных на странице лотов)",
+  "selling": true,
+  "source": {
+   "title": "Апартаменты в Emotion, novostroy-m.ru",
+   "url": "https://www.novostroy-m.ru/kvartiry/apartamenti-v-iemoushn-bfc2aa4a2b6abf16e59416bcce9648"
+  }
+ },
+ "note": "Старт: тот же факт в новости novostroy-m от 2023-09-05 (https://www.novostroy-m.ru/novosti/mfk_emotion_v_bolshom). Обзор не называет адрес 2-й Силикатный, но проект - Emotion/Основа/Большой Сити. Цены за м² в источниках нет. Сейчас: проектного минимума на странице нет, 13,3 млн - минимум среди нескольких показанных лотов; для сравнения лот 64,3 м² - 27,8 млн (432,36 тыс. за м², обновлено 01.10.2026)."
+}

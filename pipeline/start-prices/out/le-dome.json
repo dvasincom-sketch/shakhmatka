@@ -1,0 +1,19 @@
+{
+ "slug": "le-dome",
+ "status": "unverifiable",
+ "project": "Le Dome (Дом на Соймоновском)",
+ "start": null,
+ "now": {
+  "as_of": "2026-10-15",
+  "price_m2": null,
+  "price_m2_kind": null,
+  "lot_from": null,
+  "lot_desc": null,
+  "selling": null,
+  "source": {
+   "title": "Дом на Соймоновском, novostroy-m.ru",
+   "url": "https://www.novostroy-m.ru/baza/jk_dom_na_soymonovskom"
+  }
+ },
+ "note": "Старт не найден (архив: прогноз 1,2 млн за м² в 2020 и 4,2 млн по регистрациям в 2023 - не источники). Сейчас: 'цена по запросу', цены с 29.09 на сайте застройщика недоступны, статус продаж на странице не указан; сдача корпуса 1 в 3 кв. 2026."
+}
