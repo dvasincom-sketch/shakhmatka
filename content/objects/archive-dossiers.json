@@ -3548,6 +3548,15 @@
     7278
    ],
    "developer": "sminex",
+   "owners": [
+    {
+     "developer": "sminex",
+     "name": "Sminex (СЗ «Толмачевский»)",
+     "since": "июнь 2019",
+     "how": "Sminex через СЗ «Толмачевский» купила на открытых торгах участок 1,6 га с 14 зданиями у Гиредмета за 3,68 млрд ₽",
+     "source": "https://www.vedomosti.ru/realty/articles/2019/07/23/807152-sminex-lishitsya"
+    }
+   ],
    "district": "yakimanka"
   },
   {
@@ -5402,15 +5411,19 @@
      "date": "2022-09-13",
      "kind": "architecture",
      "title": "Архитектурный совет утвердил мастерплан проекта Самолёта в Молжанинове",
-     "certainty": "fact",
-     "sourceNote": 14476
+     "certainty": "signal",
+     "sourceNote": 14476,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2022-09-13",
      "kind": "sales",
      "title": "Самолёт продаёт в Молжанинове в среднем по 160 квартир в месяц, цена превысила 230 тыс. руб./м²",
-     "certainty": "fact",
-     "sourceNote": 14476
+     "certainty": "signal",
+     "sourceNote": 14476,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2026-01-01",
@@ -7647,6 +7660,15 @@
     16547
    ],
    "developer": "etalon",
+   "owners": [
+    {
+     "developer": "etalon",
+     "name": "Эталон",
+     "since": "19 февраля 2019 года",
+     "how": "«Эталон» купила 51% акций «Лидер-Инвеста», застройщика проекта, у АФК «Система» за 15,2 млрд ₽",
+     "source": "https://www.etalongroup.com/fileadmin/user_upload/pdf/annual-reports/AR2018rus.pdf"
+    }
+   ],
    "district": "danilovskiy"
   },
   {
@@ -10046,8 +10068,10 @@
      "date": "2026-10-06",
      "kind": "architecture",
      "title": "Согласована архитектура жилого проекта на Нижней Масловке, 17 в классическом стиле",
-     "certainty": "fact",
-     "sourceNote": 36027
+     "certainty": "signal",
+     "sourceNote": 36027,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     }
    ],
    "notes": [
@@ -10497,8 +10521,10 @@
      "date": "2023-12-18",
      "kind": "architecture",
      "title": "Kleinewelt подготовило для участка ещё один, отвергнутый вариант проекта",
-     "certainty": "fact",
-     "sourceNote": 20928
+     "certainty": "signal",
+     "sourceNote": 20928,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2025-12-09",
@@ -16121,8 +16147,10 @@
      "date": "2022-07-19",
      "kind": "architecture",
      "title": "Новая очередь Ривер Парка заявлена как офисный кластер с более спокойным фасадом-волной",
-     "certainty": "fact",
-     "sourceNote": 13568
+     "certainty": "signal",
+     "sourceNote": 13568,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2022-10-20",
@@ -19840,8 +19868,10 @@
      "date": "2025-03-17",
      "kind": "architecture",
      "title": "Появились визуализации застройки участка Досфлота, 10; город выдал ТЭП без жилья, проект ведёт ПИК",
-     "certainty": "fact",
-     "sourceNote": 28424
+     "certainty": "signal",
+     "sourceNote": 28424,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     }
    ],
    "notes": [
@@ -20200,8 +20230,10 @@
      "date": "2024-10-02",
      "kind": "concept",
      "title": "Для участка на Саввинской, 17 появилась девятая концепция, кроме восьми ранее показанных",
-     "certainty": "fact",
-     "sourceNote": 25894
+     "certainty": "signal",
+     "sourceNote": 25894,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2024-10-30",
@@ -23671,6 +23703,15 @@
     21875
    ],
    "developer": "mr-group",
+   "owners": [
+    {
+     "developer": "mr-group",
+     "name": "MR Group (ООО «С-Девелопмент»)",
+     "since": "июнь 2021 года",
+     "how": "«С-Девелопмент» выиграл торги и купил имущественный комплекс завода — 125 объектов недвижимости на 60 га — за 11 млрд ₽ при стартовой цене 8,1 млрд ₽; организатором торгов выступил «РТ-Капитал»",
+     "source": "https://realty.rbc.ru/news/61c9826a9a79470dbb9c7b69"
+    }
+   ],
    "district": "pokrovskoe-streshnevo"
   },
   {
@@ -24076,9 +24117,11 @@
      "date": "2021-06-01",
      "kind": "permit",
      "title": "Получено разрешение на строительство апарт-комплекса VERNISSAGE",
-     "certainty": "fact",
+     "certainty": "signal",
      "sourceNote": 11622,
-     "dateLabel": "июнь 2021"
+     "dateLabel": "июнь 2021",
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2021-07-12",
@@ -24105,8 +24148,10 @@
      "date": "2022-03-28",
      "kind": "sales",
      "title": "ZIGGURAT объявил о старте закрытых продаж премиального апарт-комплекса VERNISSAGE на Щипке, от 570 тыс. руб./кв. м",
-     "certainty": "fact",
-     "sourceNote": 11622
+     "certainty": "signal",
+     "sourceNote": 11622,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     }
    ],
    "notes": [
@@ -26380,8 +26425,10 @@
      "date": "2023-01-13",
      "kind": "deal",
      "title": "MR Group продал площадку на 1-й Фрезерной, 2/1 компании Гранель",
-     "certainty": "fact",
-     "sourceNote": 16260
+     "certainty": "signal",
+     "sourceNote": 16260,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2026-02-17",
@@ -32241,7 +32288,7 @@
   {
    "slug": "lucky",
    "name": "Lucky",
-   "zu": "Шаболовка, 31",
+   "zu": "2-я Звенигородская / Костикова",
    "aliases": [
     "Lucky 2.0",
     "Новый Lucky",
@@ -32249,7 +32296,7 @@
    ],
    "region": "moscow",
    "stage": "completed",
-   "summary": "«Lucky» — проект застройщика Vesper на участке «Шаболовка, 31» (район Донской). В досье 13 событий с 2019 по 2025 год, из них 1 — сигнал до официальных новостей.",
+   "summary": "«Lucky» — проект застройщика Vesper на участке «2-я Звенигородская / Костикова» (район Пресненский). В досье 13 событий с 2019 по 2025 год, из них 1 — сигнал до официальных новостей.",
    "timeline": [
     {
      "date": "2019-07-27",
@@ -32385,7 +32432,7 @@
     35594,
     36177
    ],
-   "district": "donskoy",
+   "district": "presnenskiy",
    "developer": "vesper"
   },
   {
@@ -35257,8 +35304,10 @@
      "date": "2022-08-17",
      "kind": "tender",
      "title": "Торги по участку на Большой Татарской, 35 со стартовой ценой 9,3 млрд руб. не состоялись из-за отсутствия заявок",
-     "certainty": "fact",
-     "sourceNote": 14079
+     "certainty": "signal",
+     "sourceNote": 14079,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2023-07-05",
@@ -36156,8 +36205,10 @@
      "date": "2023-10-20",
      "kind": "concept",
      "title": "Город согласовал на участке 3-й Силикатный, 6 жильё 82 тыс. кв. м с доминантой 199 м (65 этажей)",
-     "certainty": "fact",
-     "sourceNote": 19944
+     "certainty": "signal",
+     "sourceNote": 19944,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2023-10-25",
@@ -40055,7 +40106,7 @@
    "aliases": [],
    "region": "moscow",
    "stage": "land",
-   "summary": "«Univer» — проект застройщика РнС на участке «Миклухо-Маклая, 16/10» (Москва). В досье 3 события с 2023 по 2026 год.",
+   "summary": "«Univer» на участке «Миклухо-Маклая, 16/10» (Москва). В досье 3 события с 2023 по 2026 год.",
    "timeline": [
     {
      "date": "2023-02-09",
@@ -40083,8 +40134,7 @@
     16485,
     29502,
     35005
-   ],
-   "developer": "rns"
+   ]
   },
   {
    "slug": "sky-city-business-park",
@@ -44679,7 +44729,7 @@
      "certainty": "signal",
      "sourceNote": 35821,
      "outcome": "unconfirmed",
-     "checkedOn": "2026-10-13"
+     "checkedOn": "2026-10-15"
     }
    ],
    "notes": [
@@ -45849,8 +45899,10 @@
      "date": "2023-12-26",
      "kind": "sales",
      "title": "Самолёт стартует продажи Квартала Герцена по 310 тыс. руб. за кв. м с отделкой и кондиционерами",
-     "certainty": "fact",
-     "sourceNote": 21169
+     "certainty": "signal",
+     "sourceNote": 21169,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2024-05-06",
@@ -46732,7 +46784,16 @@
     36177
    ],
    "district": "donskoy",
-   "developer": "lsr"
+   "developer": "lsr",
+   "owners": [
+    {
+     "developer": "lsr",
+     "name": "ЛСР",
+     "since": "17 марта 2026",
+     "how": "ЛСР выкупила у города 80% компании «Навис инжиниринг», на балансе которой числится недостроенный телецентр; до этого, в 2023 году, группа уже купила 20%",
+     "source": "https://msk1.ru/text/gorod/2026/03/18/76317866/"
+    }
+   ]
   },
   {
    "slug": "shabolovka-34",
@@ -48596,8 +48657,10 @@
      "date": "2023-12-04",
      "kind": "tender",
      "title": "Город продаёт проект ТПУ «Авиамоторная» за 1 млрд руб.; участок 1,0291 га, 52 тыс. кв. м, высота 80 м; заявки до 12 декабря, итоги 23 декабря",
-     "certainty": "fact",
-     "sourceNote": 20612
+     "certainty": "signal",
+     "sourceNote": 20612,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2024-02-02",
@@ -51306,7 +51369,7 @@
    ],
    "region": "moscow",
    "stage": "sales",
-   "summary": "«Лайф Варшавская» — проект застройщика Пионер на участке «2-й Котляковский, 3» (район Нагорный). В досье 9 событий с 2018 по 2026 год, из них 1 — сигнал до официальных новостей.",
+   "summary": "«Лайф Варшавская» — проект застройщика Пионер на участке «2-й Котляковский, 3» (район Нагорный). В досье 7 событий с 2018 по 2026 год.",
    "timeline": [
     {
      "date": "2018-06-01",
@@ -51345,26 +51408,11 @@
      "sourceNote": 22716
     },
     {
-     "date": "2024-12-31",
-     "kind": "deal",
-     "title": "Компания ОМ летом 2024 года продала площадку на «2-м Котляковском, 3» и «1-м Котляковском, 4А» Apsis Globe",
-     "certainty": "fact",
-     "sourceNote": 35002,
-     "dateLabel": "2024"
-    },
-    {
      "date": "2025-03-06",
      "kind": "price",
      "title": "Пионер продаёт Лайф Варшавскую около 1 тыс. кв. м в месяц по цене 430 тыс. руб./кв. м",
      "certainty": "fact",
      "sourceNote": 28305
-    },
-    {
-     "date": "2026-07-10",
-     "kind": "deal",
-     "title": "Apsis Globe, вероятно, ищет покупателя на проект «2-й Котляковский, 3»",
-     "certainty": "signal",
-     "sourceNote": 35002
     },
     {
      "date": "2026-09-07",
@@ -63875,8 +63923,10 @@
      "date": "2023-07-18",
      "kind": "permit",
      "title": "Абсолют получил разрешение на строительство проекта «oda gallery» на Кутузовском, архитектура ODA",
-     "certainty": "fact",
-     "sourceNote": 18681
+     "certainty": "signal",
+     "sourceNote": 18681,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2023-09-15",
@@ -63895,6 +63945,38 @@
    ],
    "developer": "absolyut",
    "district": "dorogomilovo"
+  },
+  {
+   "slug": "kotlyakovskiy-4a",
+   "name": "1-й Котляковский, 4А",
+   "zu": "1-й Котляковский, 4А",
+   "aliases": [
+    "2-й Котляковский, 3 (часть площадки)"
+   ],
+   "region": "moscow",
+   "stage": null,
+   "summary": "«1-й Котляковский, 4А» — проект застройщика Apsis Globe (Москва). В досье 2 события с 2024 по 2026 год, из них 1 — сигнал до официальных новостей.",
+   "timeline": [
+    {
+     "date": "2024-12-31",
+     "kind": "deal",
+     "title": "Компания ОМ летом 2024 года продала площадку на «2-м Котляковском, 3» и «1-м Котляковском, 4А» Apsis Globe",
+     "certainty": "fact",
+     "sourceNote": 35002,
+     "dateLabel": "2024"
+    },
+    {
+     "date": "2026-07-10",
+     "kind": "deal",
+     "title": "Apsis Globe, вероятно, ищет покупателя на проект «2-й Котляковский, 3»",
+     "certainty": "signal",
+     "sourceNote": 35002
+    }
+   ],
+   "notes": [
+    35002
+   ],
+   "developer": "apsis-globe"
   }
  ]
 }

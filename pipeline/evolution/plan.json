@@ -2,333 +2,133 @@
  "series": "evolution",
  "units": [
   {
-   "unit": 26861,
-   "dossier": "yuzhnyy-port",
-   "developer": "kortros",
-   "events": 13,
-   "notes": [
-    6299,
-    6305,
-    6670,
-    6852,
-    13255,
-    15659,
-    15693,
-    16758,
-    16783,
-    18408,
-    21768,
-    26407,
-    26861
-   ],
-   "images": 58
-  },
-  {
-   "unit": 29994,
-   "dossier": "soyuz",
-   "developer": "rodina",
-   "events": 13,
-   "notes": [
-    3007,
-    3069,
-    4221,
-    4429,
-    5914,
-    7799,
-    11890,
-    12150,
-    12593,
-    21970,
-    22513,
-    24740,
-    29994
-   ],
-   "images": 94
-  },
-  {
-   "unit": 33427,
-   "dossier": "zilart",
-   "developer": "lsr",
-   "events": 11,
-   "notes": [
-    7449,
-    7932,
-    8958,
-    10283,
-    13518,
-    15364,
-    17750,
-    31372,
-    31376,
-    31386,
-    33427
-   ],
-   "images": 72
-  },
-  {
-   "unit": 17887,
-   "dossier": "repablik",
-   "developer": "strana",
-   "events": 11,
-   "notes": [
-    4449,
-    5049,
-    6014,
-    6997,
-    9920,
-    10187,
-    11365,
-    11905,
-    11916,
-    14672,
-    17887
-   ],
-   "images": 41
-  },
-  {
-   "unit": 36157,
-   "dossier": "krasnyy-oktyabr",
-   "developer": "guta",
-   "events": 11,
-   "notes": [
-    12417,
-    12426,
-    13770,
-    27054,
-    34136,
-    34964,
-    34969,
-    35109,
-    35319,
-    35506,
-    36157
-   ],
-   "images": 72
-  },
-  {
-   "unit": 32785,
-   "dossier": "slava",
-   "developer": "mr-group",
-   "events": 10,
-   "notes": [
-    6024,
-    6033,
-    7908,
-    10448,
-    12654,
-    14909,
-    17176,
-    22172,
-    32471,
-    32785
-   ],
-   "images": 28
-  },
-  {
-   "unit": 29384,
-   "dossier": "set",
-   "developer": "mr-group",
-   "events": 9,
-   "notes": [
-    11268,
-    17996,
-    20786,
-    20961,
-    22005,
-    23224,
-    25541,
-    28644,
-    29384
-   ],
-   "images": 44
-  },
-  {
-   "unit": 35316,
-   "dossier": "krasnyy-bogatyr-vitebskaya-9",
-   "developer": "pioner",
-   "events": 9,
-   "notes": [
-    21038,
-    12293,
-    12283,
-    30574,
-    30625,
-    31900,
-    31921,
-    35316
-   ],
-   "images": 56
-  },
-  {
-   "unit": 32087,
-   "dossier": "alia",
-   "developer": "alia",
-   "events": 9,
-   "notes": [
-    3833,
-    10511,
-    10594,
-    11658,
-    11884,
-    13061,
-    13068,
-    32027,
-    32087
-   ],
-   "images": 35
-  },
-  {
-   "unit": 34743,
-   "dossier": "adts-kommunarka",
-   "developer": "samolet",
-   "events": 9,
-   "notes": [
-    24233,
-    24239,
-    27337,
-    29789,
-    30889,
-    31763,
-    33939,
-    34132,
-    34743
-   ],
-   "images": 35
-  },
-  {
-   "unit": 22629,
-   "dossier": "zareche",
-   "developer": "mits",
-   "events": 8,
-   "notes": [
-    3370,
-    5600,
-    5826,
-    12129,
-    17043,
-    17179,
-    20436,
-    22629
-   ],
-   "images": 39
-  },
-  {
-   "unit": 27373,
-   "dossier": "wave",
+   "unit": 34446,
+   "dossier": "shabolovka-35",
    "developer": "lsr",
    "events": 8,
    "notes": [
-    7208,
-    7231,
-    8022,
-    9633,
-    13004,
-    21317,
-    21486,
-    27373
-   ],
-   "images": 33
-  },
-  {
-   "unit": 19136,
-   "dossier": "tpu-novopeschanaya",
-   "developer": "akvilon",
-   "events": 8,
-   "notes": [
-    6936,
-    7566,
-    8071,
-    10072,
-    16340,
-    17517,
-    18047,
-    19136
-   ],
-   "images": 28
-  },
-  {
-   "unit": 30130,
-   "dossier": "shagal",
-   "developer": "etalon",
-   "events": 8,
-   "notes": [
-    6298,
-    10174,
-    12864,
-    14013,
-    14280,
-    17109,
-    21423,
-    30130
+    19478,
+    19612,
+    23982,
+    24323,
+    25478,
+    25819,
+    31334,
+    34446
    ],
    "images": 32
   },
   {
-   "unit": 34819,
-   "dossier": "kristall",
-   "developer": "asterus",
-   "events": 8,
+   "unit": 36177,
+   "dossier": "shabolovka-34",
+   "developer": "lsr",
+   "events": 7,
    "notes": [
-    3488,
-    19122,
-    20317,
-    22256,
-    28828,
-    33112,
-    34415,
-    34819
+    23982,
+    24323,
+    33245,
+    34446,
+    34468,
+    35214,
+    36177
    ],
-   "images": 16
+   "images": 42
   },
   {
-   "unit": 36196,
-   "dossier": "geliymash",
-   "developer": "sminex",
-   "events": 8,
+   "unit": 25894,
+   "dossier": "savvinskaya-17",
+   "developer": "level-group",
+   "events": 7,
    "notes": [
-    8871,
-    19575,
-    19580,
-    23036,
-    25662,
-    25672,
-    29433,
-    36196
+    9240,
+    12930,
+    13036,
+    13042,
+    13140,
+    20765,
+    25894
    ],
-   "images": 41
+   "images": 26
   },
   {
-   "unit": 24723,
-   "dossier": "foriver",
-   "developer": "sibpromstroy",
-   "events": 8,
+   "unit": 13568,
+   "dossier": "river-park",
+   "developer": "aeon",
+   "events": 7,
    "notes": [
-    3626,
-    3758,
-    4712,
-    6659,
-    11779,
-    15973,
-    17272,
-    24723
+    5784,
+    5790,
+    6029,
+    6566,
+    7311,
+    8061,
+    13568
    ],
-   "images": 48
+   "images": 33
   },
   {
-   "unit": 32583,
-   "dossier": "emotion",
-   "developer": "osnova",
-   "events": 8,
+   "unit": 36027,
+   "dossier": "nizhnyaya-maslovka-17",
+   "developer": "sezar-group",
+   "events": 7,
    "notes": [
-    8691,
-    8697,
-    9591,
-    17112,
-    17814,
-    18252,
-    32583
+    3190,
+    5544,
+    16704,
+    18024,
+    19703,
+    24010,
+    36027
    ],
-   "images": 23
+   "images": 20
+  },
+  {
+   "unit": 35821,
+   "dossier": "mig",
+   "developer": "capital-group",
+   "events": 7,
+   "notes": [
+    18403,
+    21050,
+    24160,
+    24167,
+    25904,
+    28121,
+    35821
+   ],
+   "images": 20
+  },
+  {
+   "unit": 20928,
+   "dossier": "era",
+   "developer": "pik",
+   "events": 7,
+   "notes": [
+    4865,
+    4892,
+    5013,
+    11095,
+    17065,
+    20589,
+    20928
+   ],
+   "images": 33
+  },
+  {
+   "unit": 28424,
+   "dossier": "dosflota-10",
+   "developer": "galaxy-group",
+   "events": 7,
+   "notes": [
+    6815,
+    12582,
+    12591,
+    12624,
+    12626,
+    23001,
+    28424
+   ],
+   "images": 18
   }
  ]
 }

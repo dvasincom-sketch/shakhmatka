@@ -44,7 +44,7 @@ done = set()
 for f in glob.glob(os.path.join(ROOT, 'articles', '*.md')):
     m = re.match(r'(\d+)-', os.path.basename(f))
     if m: done.add(int(m.group(1)))
-for f in glob.glob(os.path.join(ROOT, '..', 'pipeline', 'batch-*', 'plan.json')) + glob.glob(os.path.join(ROOT, '..', 'pipeline', 'evolution', 'plan.json')):
+for f in glob.glob(os.path.join(ROOT, '..', 'pipeline', 'batch-*', 'plan.json')) + glob.glob(os.path.join(ROOT, '..', 'pipeline', 'evolution', 'plan*.json')):
     for u in json.load(open(f))['units']: done.update(u['notes'])
 articles = {}
 for f in glob.glob(os.path.join(ROOT, 'articles', '*.md')):

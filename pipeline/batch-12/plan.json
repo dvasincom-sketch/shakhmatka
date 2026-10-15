@@ -1,0 +1,245 @@
+{
+ "batch": 12,
+ "units": [
+  {
+   "unit": 8483,
+   "notes": [
+    8483
+   ],
+   "dossier": "symphony-34",
+   "developer": "mr-group",
+   "date": "2021-07-07",
+   "images": 4
+  },
+  {
+   "unit": 21169,
+   "notes": [
+    21169
+   ],
+   "dossier": "kvartal-gertsena",
+   "developer": "brusnika",
+   "date": "2023-12-26",
+   "images": 6
+  },
+  {
+   "unit": 11358,
+   "notes": [
+    11358
+   ],
+   "dossier": "zil-vostok",
+   "developer": "lsr",
+   "date": "2022-03-08",
+   "images": 0
+  },
+  {
+   "unit": 14476,
+   "notes": [
+    14476
+   ],
+   "dossier": "molzhaninovo",
+   "developer": "samolet",
+   "date": "2022-09-13",
+   "images": 4
+  },
+  {
+   "unit": 15023,
+   "notes": [
+    15023
+   ],
+   "dossier": "baumanskaya-53",
+   "developer": "rks",
+   "date": "2022-10-19",
+   "images": 4
+  },
+  {
+   "unit": 16260,
+   "notes": [
+    16260
+   ],
+   "dossier": "1-ya-frezernaya-2-1",
+   "developer": "granel",
+   "date": "2023-01-13",
+   "images": 1
+  },
+  {
+   "unit": 20612,
+   "notes": [
+    20612
+   ],
+   "dossier": "tpu-aviamotornaya",
+   "developer": "mosrealstroy",
+   "date": "2023-12-04",
+   "images": 10
+  },
+  {
+   "unit": 2892,
+   "notes": [
+    2892
+   ],
+   "dossier": "nagatino-i-land",
+   "developer": "etalon",
+   "date": "2019-11-22",
+   "images": 0
+  },
+  {
+   "unit": 11066,
+   "notes": [
+    11066
+   ],
+   "dossier": "zarechnaya",
+   "developer": "strana",
+   "date": "2022-02-10",
+   "images": 0
+  },
+  {
+   "unit": 14190,
+   "notes": [
+    14190
+   ],
+   "dossier": "teplyy-stan",
+   "developer": "akvilon",
+   "date": "2022-08-23",
+   "images": 5
+  },
+  {
+   "unit": 19944,
+   "notes": [
+    19944
+   ],
+   "dossier": "level-zvenigorodskaya",
+   "developer": "level-group",
+   "date": "2023-10-20",
+   "images": 0
+  },
+  {
+   "unit": 2175,
+   "notes": [
+    2175
+   ],
+   "dossier": "bolshoy-tolmachevskiy-5",
+   "developer": "sminex",
+   "date": "2019-06-28",
+   "images": 0
+  },
+  {
+   "unit": 11622,
+   "notes": [
+    11622
+   ],
+   "dossier": "vernissage",
+   "developer": "ziggurat",
+   "date": "2022-03-28",
+   "images": 3
+  },
+  {
+   "unit": 16143,
+   "notes": [
+    16143
+   ],
+   "dossier": "seliger-siti",
+   "developer": "mr-group",
+   "date": "2022-12-28",
+   "images": 1
+  },
+  {
+   "unit": 17563,
+   "notes": [
+    17563
+   ],
+   "dossier": "very",
+   "developer": "osnova",
+   "date": "2023-05-04",
+   "images": 6
+  },
+  {
+   "unit": 18681,
+   "notes": [
+    18681
+   ],
+   "dossier": "oda-gallery",
+   "developer": "absolyut",
+   "date": "2023-07-18",
+   "images": 8
+  },
+  {
+   "unit": 3623,
+   "notes": [
+    3623
+   ],
+   "dossier": "novodanilovskaya-8",
+   "developer": "samolet",
+   "date": "2020-03-01",
+   "images": 1
+  },
+  {
+   "unit": 8403,
+   "notes": [
+    8403
+   ],
+   "dossier": "vishnevaya-7",
+   "developer": "mr-group",
+   "date": "2021-06-25",
+   "images": 1
+  },
+  {
+   "unit": 13555,
+   "notes": [
+    13555
+   ],
+   "dossier": "1-y-truzhenikov-12",
+   "developer": "coldy",
+   "date": "2022-07-18",
+   "images": 1
+  },
+  {
+   "unit": 14079,
+   "notes": [
+    14079
+   ],
+   "dossier": "tatarskaya-35",
+   "developer": "rostekh",
+   "date": "2022-08-17",
+   "images": 1
+  },
+  {
+   "unit": 14292,
+   "notes": [
+    14292
+   ],
+   "dossier": "tpu-molodezhnaya",
+   "developer": "akvilon",
+   "date": "2022-09-01",
+   "images": 1
+  },
+  {
+   "unit": 36202,
+   "notes": [
+    36202
+   ],
+   "dossier": "biznes-park-ramenki",
+   "developer": null,
+   "date": "2026-10-13",
+   "images": 10
+  },
+  {
+   "unit": 36216,
+   "notes": [
+    36216
+   ],
+   "dossier": "kharkovskiy-1-9",
+   "developer": null,
+   "date": "2026-10-13",
+   "images": 4
+  },
+  {
+   "unit": 36233,
+   "notes": [
+    36233
+   ],
+   "dossier": "ridzh",
+   "developer": null,
+   "date": "2026-10-14",
+   "images": 0
+  }
+ ]
+}

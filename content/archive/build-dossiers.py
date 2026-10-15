@@ -326,6 +326,8 @@ for rec in objects:
     if rec.get('manual'): continue
     if c.get('developer'):
         rec['developer'] = c['developer']; devs.setdefault(c['developer'], c.get('developerName') or c['developer'])
+    if c.get('noDeveloper'): rec.pop('developer', None)  # застройщик в разметке ошибочный, верного нет
+    if c.get('zu'): rec['zu'] = c['zu']
     if c.get('previousDevelopers'): rec['previousDevelopers'] = c['previousDevelopers']
     if c.get('district'):
         rec['district'] = c['district']; n = DIST_BY_KEY.get(c['district'])

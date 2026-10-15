@@ -18,7 +18,7 @@ PLACES = {p['key']: p for p in ARCH['places']}
 for p in json.load(open(os.path.join(ROOT, 'places', 'places.json')))['places']: PLACES.setdefault(p['key'], p)
 TERMS = [t['slug'] for t in json.load(open(os.path.join(ROOT, 'terms', 'terms.json')))['terms']]
 articles, done_obj = {}, set()
-for f in glob.glob(os.path.join(ROOT, 'articles', '*.md')):
+for f in glob.glob(os.path.join(ROOT, 'articles', '*.md')) + glob.glob(os.path.join(ROOT, '..', 'pipeline', 'evolution', 'skipped', '*.md')):
     s = open(f, encoding='utf-8').read()
     m = re.search(r'^slug:\s*"?([\w-]+)"?', s, re.M); t = re.search(r'^title:\s*"?(.+?)"?\s*$', s, re.M)
     if m and 'status: skip' not in s[:3000]: articles[m.group(1)] = t.group(1) if t else ''

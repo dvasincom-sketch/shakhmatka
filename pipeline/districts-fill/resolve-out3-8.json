@@ -1,0 +1,114 @@
+[
+ {
+  "slug": "kashirskoe-78",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "в выдаче нет источника с районом (cian/novostroy-m — общие страницы застройщика)",
+  "reason": "не найдено"
+ },
+ {
+  "slug": "tpu-minskaya",
+  "district": "fili-davydkovo",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/novosti/150_tys_kv_m",
+  "evidence": "«на улице Староволынская в районе Фили-Давыдково на западе города» (ТПУ «Минская»)",
+  "reason": null
+ },
+ {
+  "slug": "vavilova-5",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "в выдаче нет источника с районом для Вавилова, 5",
+  "reason": "не найдено"
+ },
+ {
+  "slug": "zaozernaya-15a",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "найден только стадион Локомотив в Люблине (mos.ru) — это другой стадион, не Заозерная, 15а",
+  "reason": "не найдено"
+ },
+ {
+  "slug": "dmitrovskoe-62",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "в выдаче нет источника с районом для Дмитровское, 62",
+  "reason": "не найдено"
+ },
+ {
+  "slug": "kashirskoe-76a",
+  "district": "moskvoreche-saburovo",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/novosti/v_moskvorechesaburovo_rasselyat_devyat",
+  "evidence": "«в районе Москворечье-Сабурово (ЮАО) ... проектируемое жилое здание на Каширском шоссе, вл. 76» — соседний участок вл. 76 (реновация), тот же номер что и 76а; сама 76а в тексте не названа. Уверенность средняя.",
+  "reason": null
+ },
+ {
+  "slug": "arkhitektora-vlasova-59",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "в выдаче нет источника с районом для Архитектора Власова, 59",
+  "reason": "не найдено"
+ },
+ {
+  "slug": "khersonskaya-35",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "rambler: Херсонская, ЗУ 8 — Зюзино (ЮЗАО), но номер 8 далёк от 35, тот же квартал не доказан",
+  "reason": "не найдено"
+ },
+ {
+  "slug": "leningradskoe-71a",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "в выдаче нет источника с районом для Ленинградского, 71А",
+  "reason": "не найдено"
+ },
+ {
+  "slug": "udaltsova-85a",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "riamo: КРТ 75А и 85А «в районах Раменки и Проспект Вернадского», привязка 85А к одному из них не указана",
+  "reason": "не найдено"
+ },
+ {
+  "slug": "zorge-30a",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "moskvichmag: только адрес «улица Зорге, 30а», район не назван",
+  "reason": "не найдено"
+ },
+ {
+  "slug": "bolshaya-butovskaya-11",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "novostroy-m: участки нежилой застройки у Бутово МЦД-2 в Южном Бутове, но дом 11 в тексте не упомянут — привязка не доказана",
+  "reason": "не найдено"
+ },
+ {
+  "slug": "dorozhnaya-3",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "в выдаче нет источника с районом для Дорожной, 3",
+  "reason": "не найдено"
+ },
+ {
+  "slug": "profsoyuznaya-152",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "в выдаче нет источника с районом для Профсоюзной, 152",
+  "reason": "не найдено"
+ }
+]
