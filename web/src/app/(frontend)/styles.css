@@ -62,7 +62,8 @@ main.wrap { padding-block: 6px 24px; min-height: 60vh; }
 .card { background: var(--panel); border-radius: var(--r); box-shadow: var(--shadow); }
 .soft { background: var(--soft); border-radius: var(--r); }
 .sec { margin-top: 40px; }
-.sec-h { display: flex; align-items: end; justify-content: space-between; gap: 12px; margin-bottom: 16px; }
+.sec-h { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 8px 12px; margin-bottom: 16px; }
+.sec-h h2 { min-width: 0; flex: 1 1 260px; }
 .sec-h h2 { font-size: var(--s3); }
 .more { font-size: var(--s-1); font-weight: 500; text-decoration: none; padding: 8px 14px; border-radius: 999px; background: var(--panel); box-shadow: var(--shadow); white-space: nowrap; }
 .more:hover { box-shadow: var(--shadow-h); }
@@ -600,7 +601,7 @@ html { scroll-padding-top: 90px; }
 .story-list p { font-size: var(--s0); line-height: var(--lh-tight, 1.4); display: flex; flex-wrap: wrap; gap: 6px 8px; align-items: baseline; }
 .story-list li.here p { font-weight: 500; }
 .story-here { font-size: var(--s-2); font-weight: 500; color: var(--orange); }
-.story .more { font-weight: 500; }
+.story .more { font-weight: 500; white-space: normal; display: inline-block; max-width: 100%; border-radius: 18px; line-height: 1.35; overflow-wrap: anywhere; }
 
 /* итог проверки сигнала и собственники */
 .tl-unc { color: var(--coral); font-weight: 500; font-size: var(--s-2); }
@@ -799,14 +800,16 @@ html { scroll-padding-top: 90px; }
 .sp-chg { text-align: right; display: grid; gap: 2px; flex: none; }
 .sp-chg b { font-family: var(--f-display); font-weight: 500; font-size: var(--s2); letter-spacing: var(--ls-m); font-variant-numeric: tabular-nums; }
 .sp-chg b.down { color: var(--muted); }
-.sp-chg small { font-size: var(--s-2); color: var(--muted); white-space: nowrap; }
+.sp-chg small { font-size: var(--s-2); color: var(--muted); }
+.sp-h > :first-child { min-width: 0; }
+@media (min-width: 520px) { .sp-chg small { white-space: nowrap; } }
 .sp-track { position: relative; height: 14px; border-radius: 999px; background: var(--soft); transition: background .15s; margin: 0 6px; }
 .sp-seg { position: absolute; top: 5px; height: 4px; border-radius: 4px; background: color-mix(in srgb, var(--orange) 55%, var(--panel)); }
 .sp-seg.down { background: var(--line); }
 .sp-dot { position: absolute; top: 50%; width: 12px; height: 12px; border-radius: 50%; transform: translate(-50%, -50%); box-shadow: 0 0 0 2px var(--panel); display: inline-block; }
 .sp-dot.s { background: var(--grey); }
 .sp-dot.n { background: var(--orange); }
-.sp-vals { margin: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.sp-vals { margin: 0; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 12px; }
 .sp-vals > div { display: grid; gap: 2px; align-content: start; min-width: 0; }
 .sp-vals dt { font-size: var(--s-2); color: var(--muted); text-transform: uppercase; letter-spacing: .05em; font-weight: 600; }
 .sp-vals dd { margin: 0; font-weight: 600; font-variant-numeric: tabular-nums; }
@@ -1275,3 +1278,7 @@ a.pill-q:hover, a.zu:hover { background: var(--line); }
 .rz-who label { display: flex; gap: 8px; align-items: center; }
 .rz-row { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
 .rz-form .hp { position: absolute; left: -9999px; }
+
+/* страховка от горизонтальной прокрутки на телефоне: длинное слово или кнопка не должны раздвигать страницу (clip не ломает sticky-шапку) */
+html, body { overflow-x: clip; }
+.more { max-width: 100%; }
