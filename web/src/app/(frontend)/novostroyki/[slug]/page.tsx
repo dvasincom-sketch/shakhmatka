@@ -3,7 +3,11 @@ import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { getPayload, type Where } from 'payload'
 import config from '@payload-config'
-import { ArticleCard, ObjectCard, SITE, STAGES, StageStrip, stageLabel, coverOf } from '@/lib/ui'
+import { DISTRICT_STATS } from '@/lib/district-stats'
+import { BUREAUS } from '@/lib/architects'
+import { TROUBLE, TROUBLE_BADGE } from '@/lib/trouble'
+import { CLASS_LABELS } from '@/lib/geo'
+import { ArticleCard, ObjectCard, SITE, STAGES, StageStrip, stageLabel, coverOf, devName } from '@/lib/ui'
 import { plural } from '@/lib/geo'
 import { cap, faqFor, getAllObjects, getLandings, indexable, metaFor, stats } from '@/lib/landings'
 import { pub } from '@/lib/public'
@@ -71,7 +75,8 @@ export default async function LandingPage({ params }: { params: Promise<{ slug: 
       itemListElement: [
         { '@type': 'ListItem', position: 1, name: 'Лента', item: `${SITE}/` },
         { '@type': 'ListItem', position: 2, name: 'Новостройки', item: `${SITE}/novostroyki/` },
-        { '@type': 'ListItem', position: 3, name: H, item: url },
+        ...(l.group === 'district' ? [{ '@type': 'ListItem', position: 3, name: 'Москва', item: `${SITE}/novostroyki/moskva/` }] : []),
+        { '@type': 'ListItem', position: l.group === 'district' ? 4 : 3, name: H, item: url },
       ],
     },
     {
@@ -84,7 +89,7 @@ export default async function LandingPage({ params }: { params: Promise<{ slug: 
   return (
     <>
       <JsonLd data={ld} />
-      <nav className="crumbs" aria-label="Путь"><Link href="/">Лента</Link><span>/</span><Link href="/novostroyki/">Новостройки</Link><span>/</span><span>{l.label}</span></nav>
+      <nav className="crumbs" aria-label="Путь"><Link href="/">Лента</Link><span>/</span><Link href="/novostroyki/">Новостройки</Link><span>/</span>{l.group === 'district' ? <><Link href="/novostroyki/moskva/">Москва</Link><span>/</span></> : null}<span>{l.label}</span></nav>
       <h1 className="page-h tt">{H}{l.note ? <span>{l.note}</span> : null}</h1>
       {l.intro ? <div className="land-intro">{l.intro.split(/\n\s*\n/).map((p, i) => <p key={i}>{p}</p>)}</div> : null}
 
@@ -96,6 +101,35 @@ export default async function LandingPage({ params }: { params: Promise<{ slug: 
           {STAGES.map((s) => { const k = objs.filter((o) => o.stage === s.value).length; return k ? <span key={s.value}><StageStrip stage={s.value} />{s.label}<b>{k}</b></span> : null })}
         </dd></div>
       </dl> : null}
+
+      {l.group === 'district' && objs.length ? (() => {
+        const ds = DISTRICT_STATS[l.key || '']
+        const devCount = new Map<string, { name: string; slug: string; n: number }>()
+        objs.forEach((o) => { const d = o.developer as { name?: string; slug?: string } | undefined; if (d?.slug) { const c = devCount.get(d.slug) || { name: devName(d.name), slug: d.slug, n: 0 }; c.n++; devCount.set(d.slug, c) } })
+        const topDevs = [...devCount.values()].sort((a, b) => b.n - a.n).slice(0, 5)
+        const slugs = new Set(objs.map((o) => o.slug))
+        const bureaus = BUREAUS.filter((b) => b.kind === 'architecture').map((b) => ({ b, n: b.objects.filter((x) => slugs.has(x.slug)).length })).filter((x) => x.n).sort((a, b) => b.n - a.n).slice(0, 5)
+        const classes = (['comfort', 'business', 'premium', 'deluxe'] as const).map((c) => ({ c, n: objs.filter((o) => o.class === c).length })).filter((x) => x.n)
+        const sig = objs.reduce((s, o) => s + (o.signalCount || 0), 0)
+        const future = objs.filter((o) => ['land', 'concept', 'architecture', 'permit'].includes(o.stage || '')).length
+        const troubled = objs.filter((o) => TROUBLE[o.slug])
+        const lines = ds?.stations ? [...new Set(ds.stations.flatMap((st) => st.lines))] : []
+        return (
+          <section className="sec" aria-labelledby="h-fig">
+            <div className="sec-h"><h2 id="h-fig" className="tt">Район в цифрах<span>по базе Шахматки{ds?.population ? ' и открытым данным' : ''}</span></h2></div>
+            <div className="dfig">
+              {ds?.population ? <div className="card"><p className="f-k">Население</p><p className="dfig-n">{ds.population.toLocaleString('ru-RU')}</p><small>{ds.populationYear}{ds.areaKm2 ? ` · ${String(ds.areaKm2).replace('.', ',')} км² · ${Math.round(ds.population / ds.areaKm2).toLocaleString('ru-RU')} чел./км²` : ''}{ds.populationSource ? <> · <a className="muted-link" href={ds.populationSource} target="_blank" rel="noopener">источник</a></> : null}</small></div> : null}
+              {ds?.stations?.length ? <div className="card"><p className="f-k">Метро, МЦК, МЦД</p><p className="dfig-n">{ds.stations.length} {plural(ds.stations.length, 'станция', 'станции', 'станций')}</p><small>{lines.length} {plural(lines.length, 'линия', 'линии', 'линий')}: {ds.stations.map((st) => st.name).join(', ')}</small></div> : null}
+              <div className="card"><p className="f-k">Будущие проекты</p><p className="dfig-n">{future}</p><small>участки, концепции, архитектура и разрешения — то, что ещё не продаётся</small></div>
+              {sig ? <div className="card"><p className="f-k">Сигналы</p><p className="dfig-n">{sig}</p><small>сообщений о проектах района до официальных новостей</small></div> : null}
+              {topDevs.length ? <div className="card dfig-list"><p className="f-k">Кто строит</p><ol>{topDevs.map((d) => <li key={d.slug}><Link href={`/zastroyshchiki/${d.slug}/`}>{d.name}</Link><b>{d.n}</b></li>)}</ol></div> : null}
+              {classes.length ? <div className="card dfig-list"><p className="f-k">Классы</p><ol>{classes.map((x) => <li key={x.c}><Link href={`/obekty/?geo=moscow&district=${l.key}&class=${x.c}`}>{CLASS_LABELS[x.c]}</Link><b>{x.n}</b></li>)}</ol><small>заявленный класс, есть не у всех проектов</small></div> : null}
+              {bureaus.length ? <div className="card dfig-list"><p className="f-k">Архитекторы</p><ol>{bureaus.map((x) => <li key={x.b.key}><Link href={`/arhitektory/${x.b.key}/`}>{x.b.name}</Link><b>{x.n}</b></li>)}</ol></div> : null}
+              {troubled.length ? <div className="card dfig-list dfig-tr"><p className="f-k">Проблемные и бывшие долгострои</p><ol>{troubled.map((o) => <li key={o.slug}><Link href={`/obekty/${o.slug}/`}>{o.name}</Link><i className={`tr-badge tr-${TROUBLE[o.slug].status}`}>{TROUBLE_BADGE[TROUBLE[o.slug].status]}</i></li>)}</ol></div> : null}
+            </div>
+          </section>
+        )
+      })() : null}
 
       {objs.length ? (
       <section className="sec" aria-labelledby="h-objs">

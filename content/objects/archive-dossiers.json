@@ -1940,8 +1940,10 @@
      "date": "2019-06-05",
      "kind": "sales",
      "title": "Вышел в продажу «Дом с Атлантами» — реконструкция у Китай-города, строительство дошло до 5-6 этажа",
-     "certainty": "fact",
-     "sourceNote": 2057
+     "certainty": "signal",
+     "sourceNote": 2057,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2020-04-13",
@@ -1982,7 +1984,9 @@
      "kind": "sales",
      "title": "Hutton готовит выход Lumin в ближайшие полгода, ожидается цена около 1 млн руб./кв. м",
      "certainty": "signal",
-     "sourceNote": 2057
+     "sourceNote": 2057,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2020-07-15",
@@ -2045,7 +2049,8 @@
      "kind": "sales",
      "title": "ПИК выведет на рынок «Ильменский, 17» в ближайшие одну-две недели",
      "certainty": "signal",
-     "sourceNote": 2072
+     "sourceNote": 2072,
+     "confirmedOn": "2019-08-31"
     },
     {
      "date": "2019-08-29",
@@ -2140,7 +2145,8 @@
      "kind": "sales",
      "title": "ФСК готовит выход сервисных апартаментов «Движение Тушино» на Тушинском аэродроме, архитектура Severin Group",
      "certainty": "signal",
-     "sourceNote": 2088
+     "sourceNote": 2088,
+     "confirmedOn": "2019-06-22"
     },
     {
      "date": "2019-11-18",
@@ -2871,7 +2877,8 @@
      "kind": "land",
      "title": "ПИК получит участок на Большой Очаковской, 2",
      "certainty": "signal",
-     "sourceNote": 2109
+     "sourceNote": 2109,
+     "confirmedOn": "2019-07-31"
     },
     {
      "date": "2020-07-20",
@@ -2921,7 +2928,9 @@
      "kind": "other",
      "title": "Инград сократил число машиномест в «Филатовом Луге» с около 1100 до 895 и отказался от воркаут-зоны",
      "certainty": "signal",
-     "sourceNote": 2638
+     "sourceNote": 2638,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2020-12-13",
@@ -3064,7 +3073,8 @@
      "kind": "permit",
      "title": "МИЦ получает разрешительную документацию по «Мяте» (сервисные апартаменты), выход до конца 2019 года",
      "certainty": "signal",
-     "sourceNote": 2128
+     "sourceNote": 2128,
+     "confirmedOn": "2019-11-25"
     },
     {
      "date": "2019-11-20",
@@ -3514,7 +3524,9 @@
      "kind": "land",
      "title": "У РГ-Девелопмент будет проект на Варшавском шоссе, 170е",
      "certainty": "signal",
-     "sourceNote": 3462
+     "sourceNote": 3462,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     }
    ],
    "notes": [
@@ -3592,7 +3604,8 @@
      "kind": "sales",
      "title": "Level Group готовит апартаменты Level «Стрешнево» из трёх башен по 25 этажей, старт от 150 тыс. руб./кв. м",
      "certainty": "signal",
-     "sourceNote": 2217
+     "sourceNote": 2217,
+     "confirmedOn": "2019-11-15"
     },
     {
      "date": "2019-11-08",
@@ -3637,7 +3650,8 @@
      "kind": "sales",
      "title": "ГК «Основа» готовит выход апартаментов Mainstreet на западе Москвы до конца года",
      "certainty": "signal",
-     "sourceNote": 2226
+     "sourceNote": 2226,
+     "confirmedOn": "2019-12-18"
     },
     {
      "date": "2022-03-17",
@@ -4204,7 +4218,9 @@
      "kind": "sales",
      "title": "Возможный девелопер апартаментов на Наметкина, 10Д — Инград; старт в конце 2020 года по 150-160 тыс. руб./кв. м",
      "certainty": "signal",
-     "sourceNote": 2402
+     "sourceNote": 2402,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2020-03-05",
@@ -4327,7 +4343,8 @@
      "kind": "construction",
      "title": "Завод «Памяти революции 1905 года» («Кросна») на Пресненском валу идёт под снос",
      "certainty": "signal",
-     "sourceNote": 2419
+     "sourceNote": 2419,
+     "confirmedOn": "2022-12-21"
     },
     {
      "date": "2020-06-17",
@@ -4695,7 +4712,9 @@
      "kind": "sales",
      "title": "Проект из 7 башен на 100 тыс. кв. м на Добролюбова, 3: документов нет, старт в начале 2021 года по 170 тыс. руб./кв. м",
      "certainty": "signal",
-     "sourceNote": 2426
+     "sourceNote": 2426,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2023-11-10",
@@ -5866,14 +5885,18 @@
      "kind": "sales",
      "title": "«Талисман на Рокоссовского» выйдет в продажу в ближайшие полгода со стартом от 150 тыс. руб./кв. м",
      "certainty": "signal",
-     "sourceNote": 2553
+     "sourceNote": 2553,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2019-12-04",
      "kind": "sales",
      "title": "Старт продаж «Талисмана на Рокоссовского» назначен на 20 января, средняя цена около 150 тыс. руб./кв. м",
      "certainty": "signal",
-     "sourceNote": 2990
+     "sourceNote": 2990,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2020-01-23",
@@ -6027,7 +6050,8 @@
      "kind": "architecture",
      "title": "ПИК будет самостоятельно проектировать детские пространства PlayHub, в том числе в «Люблинском парке»",
      "certainty": "signal",
-     "sourceNote": 2564
+     "sourceNote": 2564,
+     "confirmedOn": "2021-07-28"
     },
     {
      "date": "2019-12-19",
@@ -7300,7 +7324,9 @@
      "kind": "deal",
      "title": "Инвестором площадки завода «Союз» на Лужнецкой набережной, 2/4 кроме Абсолюта станет армянский Ташир",
      "certainty": "signal",
-     "sourceNote": 2876
+     "sourceNote": 2876,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2020-02-18",
@@ -8298,7 +8324,9 @@
      "kind": "sales",
      "title": "Старт продаж «Павелецкой Сити» на Дубининской, 59 назначен на 3 декабря, студии забронированы",
      "certainty": "signal",
-     "sourceNote": 2943
+     "sourceNote": 2943,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2020-02-12",
@@ -9836,7 +9864,8 @@
      "kind": "tender",
      "title": "ТПУ «Савеловская» выставлена на продажу с начальной ценой 64 млн руб., её возьмёт 3S под проект «Талисман на Савеловской»",
      "certainty": "signal",
-     "sourceNote": 3158
+     "sourceNote": 3158,
+     "confirmedOn": "2019-12-19"
     },
     {
      "date": "2022-12-16",
@@ -11114,7 +11143,9 @@
      "kind": "concept",
      "title": "Ранее опубликованная концепция редевелопмента завода «Кристалл» в Лефортове с апартаментами, вероятно, будет реализована",
      "certainty": "signal",
-     "sourceNote": 3488
+     "sourceNote": 3488,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2021-07-12",
@@ -11325,7 +11356,9 @@
      "kind": "land",
      "title": "Участок 6,6 га на Плеханова, 11 с потенциалом 173 тыс. кв. м; возможный девелопер - Эталон",
      "certainty": "signal",
-     "sourceNote": 3500
+     "sourceNote": 3500,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2022-07-21",
@@ -11426,7 +11459,9 @@
      "kind": "land",
      "title": "Участок 3,2 га на Новохохловской, 15, предельная высота 75 м; возможный девелопер - РГ",
      "certainty": "signal",
-     "sourceNote": 3505
+     "sourceNote": 3505,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2020-10-04",
@@ -11636,7 +11671,9 @@
      "kind": "land",
      "title": "Участок на Лужнецкой, 10А ищет девелопера для строительства более 200 тыс. кв. м апартаментов",
      "certainty": "signal",
-     "sourceNote": 2876
+     "sourceNote": 2876,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2020-02-18",
@@ -13845,7 +13882,9 @@
      "kind": "sales",
      "title": "Проект на Китайгородском проезде, 9/5 от ООО «Визор»: выход в начале 2020 года по 1 млн руб./кв. м",
      "certainty": "signal",
-     "sourceNote": 2439
+     "sourceNote": 2439,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2019-09-11",

@@ -1,0 +1,208 @@
+{
+ "source_notes": "Only en.wikipedia.org district articles (linked from Central_ and Northern_Administrative_Okrug pages). Figures are as the article states: 2010 census or 2017/2018 estimate; no newer data in these articles. null: CAO Zamoskvorechye, Meshchansky, Tagansky, Khamovniki (no link on okrug page); all SVAO, VAO, YuVAO districts (okrug pages en.wikipedia North-Eastern/Eastern/South-Eastern_Administrative_Okrug contain no district links; URLs not guessed). population null with area given: aeroport, zapadnoe-degunino, savelovskiy (article has no population). area null for CAO districts (not in articles).",
+ "places": {
+  "arbat": {
+   "population": 28179,
+   "population_year": "2010 (census)",
+   "population_source": "https://en.wikipedia.org/wiki/Arbat_District",
+   "area_km2": null,
+   "area_source": null
+  },
+  "basmannyy": {
+   "population": 108204,
+   "population_year": "2010 (census)",
+   "population_source": "https://en.wikipedia.org/wiki/Basmanny_District",
+   "area_km2": null,
+   "area_source": null
+  },
+  "zamoskvorechye": null,
+  "krasnoselskiy": {
+   "population": 47256,
+   "population_year": "2010 (census)",
+   "population_source": "https://en.wikipedia.org/wiki/Krasnoselsky_District,_Moscow",
+   "area_km2": null,
+   "area_source": null
+  },
+  "meshchanskiy": null,
+  "presnenskiy": {
+   "population": 123284,
+   "population_year": "2010 (census)",
+   "population_source": "https://en.wikipedia.org/wiki/Presnensky_District",
+   "area_km2": null,
+   "area_source": null
+  },
+  "taganskiy": null,
+  "tverskoy": {
+   "population": 75378,
+   "population_year": "2010 (census)",
+   "population_source": "https://en.wikipedia.org/wiki/Tverskoy_District",
+   "area_km2": null,
+   "area_source": null
+  },
+  "khamovniki": null,
+  "yakimanka": {
+   "population": 26578,
+   "population_year": "2010 (census)",
+   "population_source": "https://en.wikipedia.org/wiki/Yakimanka_District",
+   "area_km2": null,
+   "area_source": null
+  },
+  "aeroport": {
+   "population": null,
+   "population_year": null,
+   "population_source": null,
+   "area_km2": 4.58,
+   "area_source": "https://en.wikipedia.org/wiki/Aeroport_District"
+  },
+  "begovoy": {
+   "population": 37900,
+   "population_year": "2017 (estimate)",
+   "population_source": "https://en.wikipedia.org/wiki/Begovoy_District",
+   "area_km2": 4.18,
+   "area_source": "https://en.wikipedia.org/wiki/Begovoy_District"
+  },
+  "beskudnikovskiy": {
+   "population": 64000,
+   "population_year": "2017 (estimate)",
+   "population_source": "https://en.wikipedia.org/wiki/Beskudnikovsky_District",
+   "area_km2": 3.27,
+   "area_source": "https://en.wikipedia.org/wiki/Beskudnikovsky_District"
+  },
+  "voykovskiy": {
+   "population": 64933,
+   "population_year": "2010 (census)",
+   "population_source": "https://en.wikipedia.org/wiki/Voykovsky_District",
+   "area_km2": 6.6,
+   "area_source": "https://en.wikipedia.org/wiki/Voykovsky_District"
+  },
+  "vostochnoe-degunino": {
+   "population": 95700,
+   "population_year": "2017 (estimate)",
+   "population_source": "https://en.wikipedia.org/wiki/Vostochnoye_Degunino_District",
+   "area_km2": 3.77,
+   "area_source": "https://en.wikipedia.org/wiki/Vostochnoye_Degunino_District"
+  },
+  "golovinskiy": {
+   "population": 103148,
+   "population_year": "2018 (estimate)",
+   "population_source": "https://en.wikipedia.org/wiki/Golovinsky_District",
+   "area_km2": 8.806,
+   "area_source": "https://en.wikipedia.org/wiki/Golovinsky_District"
+  },
+  "dmitrovskiy": {
+   "population": 87779,
+   "population_year": "2010 (census)",
+   "population_source": "https://en.wikipedia.org/wiki/Dmitrovsky_District,_Moscow",
+   "area_km2": 6.8397,
+   "area_source": "https://en.wikipedia.org/wiki/Dmitrovsky_District,_Moscow"
+  },
+  "zapadnoe-degunino": {
+   "population": null,
+   "population_year": null,
+   "population_source": null,
+   "area_km2": 7.5266,
+   "area_source": "https://en.wikipedia.org/wiki/Zapadnoye_Degunino_District"
+  },
+  "koptevo": {
+   "population": 100642,
+   "population_year": "2017 (estimate per infobox; article body says \"100,642 in 2021\")",
+   "population_source": "https://en.wikipedia.org/wiki/Koptevo_District",
+   "area_km2": 5.08,
+   "area_source": "https://en.wikipedia.org/wiki/Koptevo_District"
+  },
+  "levoberezhnyy": {
+   "population": 51457,
+   "population_year": "2010 (census)",
+   "population_source": "https://en.wikipedia.org/wiki/Levoberezhny_District,_Moscow",
+   "area_km2": 8,
+   "area_source": "https://en.wikipedia.org/wiki/Levoberezhny_District,_Moscow"
+  },
+  "molzhaninovskiy": {
+   "population": 3521,
+   "population_year": "2010 (census)",
+   "population_source": "https://en.wikipedia.org/wiki/Molzhaninovsky_District",
+   "area_km2": 16.65,
+   "area_source": "https://en.wikipedia.org/wiki/Molzhaninovsky_District"
+  },
+  "savelovskiy": {
+   "population": null,
+   "population_year": null,
+   "population_source": null,
+   "area_km2": 2.7,
+   "area_source": "https://en.wikipedia.org/wiki/Savyolovsky_District"
+  },
+  "sokol": {
+   "population": 57133,
+   "population_year": "2010 (census)",
+   "population_source": "https://en.wikipedia.org/wiki/Sokol_District",
+   "area_km2": 3.05,
+   "area_source": "https://en.wikipedia.org/wiki/Sokol_District"
+  },
+  "timiryazevskiy": {
+   "population": 82800,
+   "population_year": "2017 (estimate)",
+   "population_source": "https://en.wikipedia.org/wiki/Timiryazevsky_District",
+   "area_km2": 10.43,
+   "area_source": "https://en.wikipedia.org/wiki/Timiryazevsky_District"
+  },
+  "khovrino": {
+   "population": 80792,
+   "population_year": "2010 (census)",
+   "population_source": "https://en.wikipedia.org/wiki/Khovrino_District",
+   "area_km2": 5.727,
+   "area_source": "https://en.wikipedia.org/wiki/Khovrino_District"
+  },
+  "khoroshevskiy": {
+   "population": 56600,
+   "population_year": "2017 (estimate)",
+   "population_source": "https://en.wikipedia.org/wiki/Khoroshyovsky_District",
+   "area_km2": 8.54,
+   "area_source": "https://en.wikipedia.org/wiki/Khoroshyovsky_District"
+  },
+  "alekseevskiy": null,
+  "altufevskiy": null,
+  "babushkinskiy": null,
+  "bibirevo": null,
+  "butyrskiy": null,
+  "lianozovo": null,
+  "losinoostrovskiy": null,
+  "marfino": null,
+  "marina-roshcha": null,
+  "ostankinskiy": null,
+  "otradnoe": null,
+  "rostokino": null,
+  "sviblovo": null,
+  "severnoe-medvedkovo": null,
+  "severnyy": null,
+  "yuzhnoe-medvedkovo": null,
+  "yaroslavskiy": null,
+  "bogorodskoe": null,
+  "veshnyaki": null,
+  "vostochnoe-izmaylovo": null,
+  "vostochnyy": null,
+  "golyanovo": null,
+  "ivanovskoe": null,
+  "izmaylovo": null,
+  "kosino-ukhtomskiy": null,
+  "metrogorodok": null,
+  "novogireevo": null,
+  "novokosino": null,
+  "perovo": null,
+  "preobrazhenskoe": null,
+  "severnoe-izmaylovo": null,
+  "sokolinaya-gora": null,
+  "sokolniki": null,
+  "vykhino-zhulebino": null,
+  "kapotnya": null,
+  "kuzminki": null,
+  "lefortovo": null,
+  "lyublino": null,
+  "marino": null,
+  "nekrasovka": null,
+  "nizhegorodskiy": null,
+  "pechatniki": null,
+  "ryazanskiy": null,
+  "tekstilshchiki": null,
+  "yuzhnoportovyy": null
+ }
+}

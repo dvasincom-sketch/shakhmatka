@@ -10,6 +10,7 @@ import { pub } from '@/lib/public'
 import { CLASS_LABELS, districtName, priceText, regionName } from '@/lib/geo'
 import { CLASS_SOURCES } from '@/lib/classes'
 import { bureausOf } from '@/lib/architects'
+import { TROUBLE_BADGE, troubleOf } from '@/lib/trouble'
 import { START_PRICES } from '@/lib/start-prices'
 import { typo } from '@/lib/markdown'
 import { JsonLd } from '@/lib/jsonld'
@@ -114,6 +115,23 @@ export default async function ObjectPage({ params }: { params: Promise<{ slug: s
             {dev ? <Link className="pill" href={`/zastroyshchiki/${dev.slug}/`}>{devName(dev.name)}</Link> : null}
             {prev.map((p) => <Link key={p.id} className="pill" href={`/zastroyshchiki/${p.slug}/`}>ранее {devName(p.name)}</Link>)}
           </div>
+          {(() => {
+            const tr = troubleOf(o.slug)
+            if (!tr) return null
+            const ym = (x: string | null, M = MONTHS) => (x ? (x.length > 4 ? `${M[+x.slice(5, 7) - 1]} ${x.slice(0, 4)}` : `${x} год`) : '')
+            return (
+              <section className={`trouble card tr-${tr.status}`} aria-label="Проблемы проекта">
+                <p className="tr-h"><b>{TROUBLE_BADGE[tr.status]}</b><span>{tr.label}{tr.since ? ` · с ${ym(tr.since).replace(' год', ' года')}` : ''}{tr.status === 'resolved' && tr.resolvedOn ? ` · решено: ${ym(tr.resolvedOn, MONTHS_N)}` : ''}</span></p>
+                <p className="tr-sum">{typo(tr.summary)}</p>
+                {tr.facts.length ? (
+                  <ol className="tr-facts">
+                    {tr.facts.map((f, k) => <li key={k}><time>{f.date.length > 4 ? f.date.slice(0, 7).split('-').reverse().join('.') : f.date}</time><span>{typo(f.text)} <a className="muted-link" href={f.source} target="_blank" rel={relFor(f.source)}>источник</a></span></li>)}
+                  </ol>
+                ) : null}
+                <small>Проверено по открытым источникам {tr.checked.split('-').reverse().join('.')}</small>
+              </section>
+            )
+          })()}
           {bureausOf(o.slug).length ? (
             <p className="obj-arch"><span>Архитекторы</span>{bureausOf(o.slug).map((b) => <Link key={b.key} className="pill" href={`/arhitektory/${b.key}/`}>{b.name}</Link>)}</p>
           ) : null}

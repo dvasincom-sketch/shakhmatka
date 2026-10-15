@@ -7,6 +7,7 @@ import config from '@payload-config'
 import { ArticleCard, SITE, STAGES, StageStrip, devName, stageLabel, ogFor, coverOf } from '@/lib/ui'
 import { pub } from '@/lib/public'
 import { signalHref, signalSlugs, isSnapshot, outcomeLabel } from '@/lib/signals'
+import { TROUBLE, TROUBLE_BADGE } from '@/lib/trouble'
 import { CLASS_LABELS, districtName, plural, priceText, regionName } from '@/lib/geo'
 import { typo } from '@/lib/markdown'
 import { JsonLd } from '@/lib/jsonld'
@@ -181,7 +182,7 @@ export default async function DeveloperPage({ params }: { params: Promise<{ slug
                       <li key={o.id}><Link href={`/obekty/${o.slug}/`}>
                         <span className={`dp-ph${im?.url ? '' : ' ph-empty'}`}>{im?.url ? <img src={im.url} alt="" loading="lazy" /> : <b aria-hidden="true">{o.name.slice(0, 1)}</b>}</span>
                         <span className="dp-tx">
-                          <span className="dp-h"><b>{o.name}</b>{o.signalCount ? <i className="dp-sig" title="Сигналы до официальных новостей">{o.signalCount} {plural(o.signalCount, 'сигнал', 'сигнала', 'сигналов')}</i> : null}</span>
+                          <span className="dp-h"><b>{o.name}</b>{TROUBLE[o.slug] && TROUBLE[o.slug].status !== 'resolved' ? <i className={`tr-badge tr-${TROUBLE[o.slug].status}`}>{TROUBLE_BADGE[TROUBLE[o.slug].status]}</i> : null}{o.signalCount ? <i className="dp-sig" title="Сигналы до официальных новостей">{o.signalCount} {plural(o.signalCount, 'сигнал', 'сигнала', 'сигналов')}</i> : null}</span>
                           <span className="dp-f">
                             <span>{where}</span>
                             {o.class ? <span>{CLASS_LABELS[o.class]}</span> : null}

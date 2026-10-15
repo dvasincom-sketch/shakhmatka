@@ -36,7 +36,9 @@ async function load(slug: string) {
   const s = (o.timeline || []).find((t) => t.id && slugs.get(t.id) === full)
   if (!s) return null
   const arts = (await payload.find({ collection: 'articles', where: pub({ objects: { contains: o.id } }), sort: '-datePublished', limit: 6, depth: 1 })).docs
-  return { o, s, slugs, arts }
+  // статья, которая подтвердила или разобрала этот сигнал (по номеру заметки архива)
+  const proof = s.sourceNote ? (await payload.find({ collection: 'articles', where: pub({ sourceNoteId: { equals: s.sourceNote } }), limit: 1, depth: 0 })).docs[0] : undefined
+  return { o, s, slugs, arts, proof }
 }
 
 const statusOf = (s: TL) =>
@@ -63,7 +65,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 export default async function SignalPage({ params }: { params: Promise<{ slug: string }> }) {
   const d = await load((await params).slug)
   if (!d) notFound()
-  const { o, s, slugs, arts } = d
+  const { o, s, slugs, arts, proof } = d
   const st = statusOf(s)
   const dev = o.developer as Developer | undefined
   const where = o.region === 'moscow' ? (o.district ? districtName(o.district) : 'Москва') : regionName(o.region)
@@ -119,7 +121,8 @@ export default async function SignalPage({ params }: { params: Promise<{ slug: s
           {st === 'confirmed' ? (
             <>
               <b>Подтвердилось — {my(s.confirmedOn!)}</b>
-              <p>{lead ? `Сигнал опередил официальные новости на ${lead} ${plural(lead, 'месяц', 'месяца', 'месяцев')}.` : 'Подтверждение пришло в том же месяце.'} Что именно произошло — в хронологии ниже и в досье проекта.</p>
+              <p>{lead ? `Сигнал опередил официальные новости на ${lead} ${plural(lead, 'месяц', 'месяца', 'месяцев')}.` : 'Подтверждение пришло в том же месяце.'} {proof ? 'Как это было — в материале ниже.' : 'Что именно произошло — в хронологии ниже и в досье проекта.'}</p>
+              {proof ? <p className="sig-proof"><Link href={`/novosti/${proof.slug}/`}>{typo(proof.title)}</Link>{proof.datePublished ? <small> · {dm(proof.datePublished)}</small> : null}</p> : null}
             </>
           ) : st === 'snapshot' ? (
             <>

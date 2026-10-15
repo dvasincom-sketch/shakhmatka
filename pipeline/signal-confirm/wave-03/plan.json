@@ -1,0 +1,86 @@
+{
+ "wave": 3,
+ "units": [
+  {
+   "unit": 3228,
+   "notes": [
+    3228
+   ],
+   "dossier": "zil-yug",
+   "date": "2019-12-25",
+   "signals": 1
+  },
+  {
+   "unit": 3229,
+   "notes": [
+    3229
+   ],
+   "dossier": "now",
+   "date": "2019-12-25",
+   "signals": 1
+  },
+  {
+   "unit": 3293,
+   "notes": [
+    3293
+   ],
+   "dossier": "nastoyashchee",
+   "date": "2020-01-14",
+   "signals": 1
+  },
+  {
+   "unit": 3377,
+   "notes": [
+    3377
+   ],
+   "dossier": "2-y-paveletskiy-4-6",
+   "date": "2020-01-23",
+   "signals": 1
+  },
+  {
+   "unit": 3462,
+   "notes": [
+    3462
+   ],
+   "dossier": "varshavskoe-shosse-170e",
+   "date": "2020-02-03",
+   "signals": 1
+  },
+  {
+   "unit": 3488,
+   "notes": [
+    3488
+   ],
+   "dossier": "kristall",
+   "date": "2020-02-04",
+   "signals": 1
+  },
+  {
+   "unit": 3494,
+   "notes": [
+    3494
+   ],
+   "dossier": "palashevskiy-11",
+   "date": "2020-02-05",
+   "signals": 1
+  },
+  {
+   "unit": 3500,
+   "notes": [
+    3500
+   ],
+   "dossier": "pik",
+   "date": "2020-02-06",
+   "signals": 1
+  },
+  {
+   "unit": 3505,
+   "notes": [
+    3505
+   ],
+   "dossier": "novokhokhlovskaya-15",
+   "date": "2020-02-07",
+   "signals": 1
+  }
+ ]
+}

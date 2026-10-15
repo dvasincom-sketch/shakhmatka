@@ -1,0 +1,1722 @@
+[
+ {
+  "developer": "pik",
+  "developer_name": "ПИК",
+  "objects": [
+   {
+    "slug": "ilmenskiy-17",
+    "name": "Ильменский, 17",
+    "aliases": [],
+    "zu": "Ильменский, 17",
+    "stage": "sales"
+   },
+   {
+    "slug": "meshcherskiy-les",
+    "name": "Мещерский лес",
+    "aliases": [
+     "Мещерский Лес",
+     "Мещера"
+    ],
+    "zu": null,
+    "stage": "sales"
+   },
+   {
+    "slug": "salarevo",
+    "name": "Саларьево",
+    "aliases": [
+     "апартаменты Самолёта в Саларьево"
+    ],
+    "zu": null,
+    "stage": "sales"
+   },
+   {
+    "slug": "izmaylovskiy-les",
+    "name": "Измайловский лес",
+    "aliases": [
+     "Измайловский Лес"
+    ],
+    "zu": null,
+    "stage": "sales"
+   },
+   {
+    "slug": "amurskiy-park",
+    "name": "Амурский парк",
+    "aliases": [
+     "Амурский Парк",
+     "промзона Калошино",
+     "Левел Амурская"
+    ],
+    "zu": "Амурская, 2",
+    "stage": "sales"
+   },
+   {
+    "slug": "irtyshskiy-park",
+    "name": "Иртышский парк",
+    "aliases": [
+     "Иртышский квартал",
+     "2-й Иртышский",
+     "2-й Иртышский, 6, 8"
+    ],
+    "zu": "2-й Иртышский, 8",
+    "stage": "sales"
+   },
+   {
+    "slug": "krasnokazarmennaya-15",
+    "name": "Красноказарменная, 15",
+    "aliases": [
+     "Красноказарменная ул., вл.15",
+     "Хлебозавод №12"
+    ],
+    "zu": "Красноказарменная, 15",
+    "stage": "sales"
+   },
+   {
+    "slug": "era",
+    "name": "ERA",
+    "aliases": [
+     "Кожевники",
+     "Era",
+     "Эра",
+     "Дербеневка"
+    ],
+    "zu": "Дербеневская, 20",
+    "stage": "sales"
+   },
+   {
+    "slug": "holland-park",
+    "name": "Holland Park",
+    "aliases": [
+     "Покровское",
+     "Тушинский Парк",
+     "Хохланд"
+    ],
+    "zu": null,
+    "stage": "sales"
+   },
+   {
+    "slug": "pik",
+    "name": "ПИК+",
+    "aliases": [],
+    "zu": "Плеханова, 11",
+    "stage": "sales"
+   },
+   {
+    "slug": "novokhokhlovskaya-15",
+    "name": "Новохохловская, 15",
+    "aliases": [],
+    "zu": "Новохохловская, 15",
+    "stage": "sales"
+   },
+   {
+    "slug": "businovskiy-park",
+    "name": "Бусиновский парк",
+    "aliases": [
+     "Бусиновский Парк",
+     "Московский трубозаготовительный комбинат"
+    ],
+    "zu": "Ижорская, 6",
+    "stage": "sales"
+   },
+   {
+    "slug": "filit",
+    "name": "Филит",
+    "aliases": [
+     "Филевский парк"
+    ],
+    "zu": "Барклая, 6",
+    "stage": "sales"
+   },
+   {
+    "slug": "kronshtadtskiy-9",
+    "name": "Кронштадтский, 9",
+    "aliases": [
+     "КР9",
+     "новый продукт ПИК на Кронштадтском бульваре",
+     "Среда"
+    ],
+    "zu": "Кронштадтский, 9",
+    "stage": "sales"
+   },
+   {
+    "slug": "rusich-kantemirovskiy",
+    "name": "РУСИЧ-Кантемировский",
+    "aliases": [
+     "Русич Кантемировский",
+     "КБ51",
+     "Кавказский, 51"
+    ],
+    "zu": "Кавказский бульвар, 51",
+    "stage": "sales"
+   },
+   {
+    "slug": "odintsovo-1",
+    "name": "Одинцово-1",
+    "aliases": [],
+    "zu": null,
+    "stage": "sales"
+   },
+   {
+    "slug": "dom-xxii",
+    "name": "Дом XXII",
+    "aliases": [],
+    "zu": "Погодинская, 22",
+    "stage": "sales"
+   },
+   {
+    "slug": "matveevskiy-park",
+    "name": "Матвеевский парк",
+    "aliases": [
+     "Матвеевский Парк"
+    ],
+    "zu": null,
+    "stage": "sales"
+   },
+   {
+    "slug": "polar",
+    "name": "Полар",
+    "aliases": [],
+    "zu": "Полярная, 39",
+    "stage": "sales"
+   },
+   {
+    "slug": "otkrytyy-park",
+    "name": "Открытый парк",
+    "aliases": [],
+    "zu": null,
+    "stage": "sales"
+   },
+   {
+    "slug": "moskvoreche",
+    "name": "Москворечье",
+    "aliases": [
+     "1-й Варшавский, 1А, стр 1"
+    ],
+    "zu": "1-й Варшавский проезд, 1А",
+    "stage": "sales"
+   },
+   {
+    "slug": "altufevskoe-53",
+    "name": "Алтуфьевское 53",
+    "aliases": [],
+    "zu": null,
+    "stage": "sales"
+   },
+   {
+    "slug": "2-y-paveletskiy-4-6",
+    "name": "2-й Павелецкий, 4/6",
+    "aliases": [
+     "Хлебозавод №7",
+     "PAVE",
+     "2-й Павелецкий, 7",
+     "хлебозавод №7",
+     "2-й Павелецкий проезд, 4/6"
+    ],
+    "zu": "2-й Павелецкий, 4/6",
+    "stage": "sales"
+   },
+   {
+    "slug": "yauza-park",
+    "name": "Яуза парк",
+    "aliases": [],
+    "zu": null,
+    "stage": "sales"
+   },
+   {
+    "slug": "yaroslavskiy-kvartal",
+    "name": "Ярославский квартал",
+    "aliases": [
+     "Ярославский"
+    ],
+    "zu": null,
+    "stage": "sales"
+   },
+   {
+    "slug": "volokolamskoe-32",
+    "name": "Волоколамское, 32",
+    "aliases": [
+     "Авиационная, 17-22",
+     "КРТ Волоколамское, 32"
+    ],
+    "zu": "Волоколамское, 32",
+    "stage": "sales"
+   },
+   {
+    "slug": "aviatsionnaya-17-22",
+    "name": "Авиационная, 17-22",
+    "aliases": [],
+    "zu": "Авиационная, 17-22",
+    "stage": "sales"
+   },
+   {
+    "slug": "omni-tower",
+    "name": "Omni_tower",
+    "aliases": [
+     "Алексея Свиридова, 5А"
+    ],
+    "zu": "Алексея Свиридова, 7",
+    "stage": "sales"
+   },
+   {
+    "slug": "buninskaya-naberezhnaya",
+    "name": "Бунинская набережная",
+    "aliases": [
+     "Бунинские луга"
+    ],
+    "zu": null,
+    "stage": "sales"
+   },
+   {
+    "slug": "michurinskiy-park",
+    "name": "Мичуринский парк",
+    "aliases": [
+     "офисно-торговое здание у Мичуринского парка и Страны Озерной"
+    ],
+    "zu": "Озерная, 42-46",
+    "stage": "sales"
+   },
+   {
+    "slug": "strogino-360",
+    "name": "Строгино 360",
+    "aliases": [
+     "Маршала Жукова, 17-63"
+    ],
+    "zu": null,
+    "stage": "sales"
+   }
+  ]
+ },
+ {
+  "developer": "mr-group",
+  "developer_name": "MR Group",
+  "objects": [
+   {
+    "slug": "l-club",
+    "name": "L-club",
+    "aliases": [
+     "ТПУ Люблино"
+    ],
+    "zu": null,
+    "stage": "sales"
+   },
+   {
+    "slug": "cherry-city",
+    "name": "Cherry City",
+    "aliases": [
+     "Eniteo"
+    ],
+    "zu": "Большая Черемушкинская, 25",
+    "stage": "permit"
+   },
+   {
+    "slug": "set",
+    "name": "SET",
+    "aliases": [
+     "VEER",
+     "СЕТ",
+     "Московский радиотехнический завод",
+     "офисник SET",
+     "Веер"
+    ],
+    "zu": "Верейская, 29",
+    "stage": "sales"
+   },
+   {
+    "slug": "seliger-siti",
+    "name": "Селигер Сити",
+    "aliases": [
+     "Селигер сити",
+     "3 очередь Селигер Сити",
+     "Дмитровское, 87"
+    ],
+    "zu": "Дмитровское шоссе, 87",
+    "stage": "sales"
+   },
+   {
+    "slug": "k7-11",
+    "name": "К7/11",
+    "aliases": [
+     "дом Нирнзее"
+    ],
+    "zu": "Климашкина, 7/11",
+    "stage": "sales"
+   },
+   {
+    "slug": "nicole",
+    "name": "Nicole",
+    "aliases": [],
+    "zu": null,
+    "stage": "permit"
+   },
+   {
+    "slug": "26-parkvyu",
+    "name": "26 ПаркВью",
+    "aliases": [
+     "Дом Гиппиуса",
+     "дом Гиппиуса"
+    ],
+    "zu": "Тимирязевская, 26",
+    "stage": "sales"
+   },
+   {
+    "slug": "icity",
+    "name": "iCity",
+    "aliases": [
+     "TOP TOWER",
+     "iCITY",
+     "TOP Tower",
+     "iCity, вторая очередь",
+     "Шелепихинский, 17/1",
+     "Шелепихинский тупик, 17"
+    ],
+    "zu": "Шелепихинский, 17",
+    "stage": "sales"
+   },
+   {
+    "slug": "link",
+    "name": "LINK",
+    "aliases": [
+     "NEO",
+     "RUNE"
+    ],
+    "zu": null,
+    "stage": "sales"
+   }
+  ]
+ },
+ {
+  "developer": "ingrad",
+  "developer_name": "Инград",
+  "objects": [
+   {
+    "slug": "filatov-lug",
+    "name": "Филатов Луг",
+    "aliases": [
+     "Филатов луг",
+     "Картмазово"
+    ],
+    "zu": null,
+    "stage": "sales"
+   },
+   {
+    "slug": "lesoparkovyy",
+    "name": "Лесопарковый",
+    "aliases": [],
+    "zu": null,
+    "stage": "sales"
+   },
+   {
+    "slug": "odingrad",
+    "name": "Одинград",
+    "aliases": [
+     "Одинград Центральный",
+     "Одинград Лесной",
+     "квартал Семейный"
+    ],
+    "zu": null,
+    "stage": "completed"
+   },
+   {
+    "slug": "zelenaya-vertikal",
+    "name": "Зеленая вертикаль",
+    "aliases": [
+     "Зелёная вертикаль",
+     "Зелёная Вертикаль"
+    ],
+    "zu": null,
+    "stage": "sales"
+   },
+   {
+    "slug": "odingrad-lesnoy",
+    "name": "Одинград Лесной",
+    "aliases": [
+     "Одинград квартал Лесной",
+     "Одинград"
+    ],
+    "zu": null,
+    "stage": "completed"
+   },
+   {
+    "slug": "belyy-mys",
+    "name": "Белый мыс",
+    "aliases": [
+     "Белый Мыс",
+     "Челобитьево"
+    ],
+    "zu": null,
+    "stage": "sales"
+   },
+   {
+    "slug": "riversky",
+    "name": "RiverSky",
+    "aliases": [],
+    "zu": "Восточная, 4А",
+    "stage": "completed"
+   },
+   {
+    "slug": "preobrazhenie",
+    "name": "Преображение",
+    "aliases": [],
+    "zu": "Тюменская, 5",
+    "stage": "completed"
+   }
+  ]
+ },
+ {
+  "developer": "rg",
+  "developer_name": "РГ",
+  "objects": [
+   {
+    "slug": "petrovskiy-park",
+    "name": "Петровский парк",
+    "aliases": [
+     "Петровский парк 2",
+     "Петровский Парк",
+     "Петровский парк РГ"
+    ],
+    "zu": null,
+    "stage": "sales"
+   },
+   {
+    "slug": "varshavskie-vorota",
+    "name": "Варшавские ворота",
+    "aliases": [
+     "Варшавские Ворота",
+     "Варшавское, 141"
+    ],
+    "zu": "Варшавское шоссе, 141",
+    "stage": "sales"
+   },
+   {
+    "slug": "mikhalkovskiy",
+    "name": "Михалковский",
+    "aliases": [],
+    "zu": null,
+    "stage": "sales"
+   },
+   {
+    "slug": "oktyabrskoe-pole",
+    "name": "Октябрьское поле",
+    "aliases": [],
+    "zu": null,
+    "stage": "sales"
+   },
+   {
+    "slug": "semenovskiy-park-2",
+    "name": "Семеновский парк 2",
+    "aliases": [
+     "Семёновский парк",
+     "Семеновский Парк",
+     "Семеновский парк"
+    ],
+    "zu": null,
+    "stage": "completed"
+   },
+   {
+    "slug": "orient-ekspress",
+    "name": "Ориент Экспресс",
+    "aliases": [
+     "шоссе Энтузиастов, 46/2",
+     "НПО Орион",
+     "промзона Прожектор"
+    ],
+    "zu": "Энтузиастов, 46/2",
+    "stage": "sales"
+   }
+  ]
+ },
+ {
+  "developer": "gals",
+  "developer_name": "Галс",
+  "objects": [
+   {
+    "slug": "dubininskaya-39-41",
+    "name": "Дубининская, 39-41",
+    "aliases": [],
+    "zu": "Дубининская, 39-41",
+    "stage": "completed"
+   },
+   {
+    "slug": "admiral",
+    "name": "Адмирал",
+    "aliases": [],
+    "zu": "Шоссейная, 4",
+    "stage": "sales"
+   },
+   {
+    "slug": "dom56",
+    "name": "Дом56",
+    "aliases": [],
+    "zu": "Фридриха Энгельса, 58-60",
+    "stage": "sales"
+   },
+   {
+    "slug": "shlyuzovaya-2",
+    "name": "Шлюзовая, 2",
+    "aliases": [
+     "Эволюция",
+     "Монблан",
+     "контора комплекса автобазы Наркомтяжпрома"
+    ],
+    "zu": "Шлюзовая, 2",
+    "stage": "sales"
+   },
+   {
+    "slug": "dom-56",
+    "name": "Дом 56",
+    "aliases": [],
+    "zu": null,
+    "stage": "sales"
+   }
+  ]
+ },
+ {
+  "developer": "forma",
+  "developer_name": "Forma",
+  "objects": [
+   {
+    "slug": "pave",
+    "name": "PAVE",
+    "aliases": [
+     "Pave",
+     "Хлебозавод №7"
+    ],
+    "zu": "2-й Павелецкий, 7",
+    "stage": "sales"
+   },
+   {
+    "slug": "soul-yuzhnoportovaya-42",
+    "name": "Соул",
+    "aliases": [
+     "SOUL"
+    ],
+    "zu": "Южнопортовая, 42",
+    "stage": "sales"
+   },
+   {
+    "slug": "porta",
+    "name": "Porta",
+    "aliases": [
+     "PORTA",
+     "Forma"
+    ],
+    "zu": "Заречная, 2",
+    "stage": "sales"
+   },
+   {
+    "slug": "tatum",
+    "name": "Татум",
+    "aliases": [
+     "Обручева, 27 корпус 2"
+    ],
+    "zu": "Обручева, 27",
+    "stage": "sales"
+   }
+  ]
+ },
+ {
+  "developer": "vesper",
+  "developer_name": "Vesper",
+  "objects": [
+   {
+    "slug": "brodsky",
+    "name": "Brodsky",
+    "aliases": [
+     "BRODSKY",
+     "Кутузовский проспект",
+     "2-й Вражский переулок"
+    ],
+    "zu": null,
+    "stage": "sales"
+   },
+   {
+    "slug": "levensona",
+    "name": "Левенсона",
+    "aliases": [
+     "типография Левенсона"
+    ],
+    "zu": null,
+    "stage": "sales"
+   },
+   {
+    "slug": "pogodinskaya-24",
+    "name": "Погодинская, 24",
+    "aliases": [
+     "Погодинская, 22"
+    ],
+    "zu": "Погодинская, 24",
+    "stage": "sales"
+   },
+   {
+    "slug": "lucky",
+    "name": "Lucky",
+    "aliases": [
+     "Lucky 2.0",
+     "Новый Lucky",
+     "Лаки 2.0"
+    ],
+    "zu": "2-я Звенигородская / Костикова",
+    "stage": "completed"
+   }
+  ]
+ },
+ {
+  "developer": "pioner",
+  "developer_name": "Пионер",
+  "objects": [
+   {
+    "slug": "ostankino-business-park",
+    "name": "Ostankino Business Park",
+    "aliases": [],
+    "zu": null,
+    "stage": "completed"
+   },
+   {
+    "slug": "botanica-plaza",
+    "name": "Botanica Plaza",
+    "aliases": [
+     "Plaza Botanica"
+    ],
+    "zu": null,
+    "stage": "completed"
+   },
+   {
+    "slug": "botanika",
+    "name": "Ботаника",
+    "aliases": [],
+    "zu": null,
+    "stage": "completed"
+   },
+   {
+    "slug": "biznes-park-ostankino",
+    "name": "Бизнес-парк Останкино",
+    "aliases": [
+     "Останкино бизнес парк"
+    ],
+    "zu": null,
+    "stage": "completed"
+   }
+  ]
+ },
+ {
+  "developer": "akvilon",
+  "developer_name": "Аквилон",
+  "objects": [
+   {
+    "slug": "tpu-novopeschanaya",
+    "name": "ТПУ Новопесчаная",
+    "aliases": [
+     "ТПУ Зорге / Новопесчаная",
+     "INDY Towers",
+     "ТПУ Новопесчаная / Зорге",
+     "ТПУ Зорге",
+     "проект на Сахарова",
+     "Новопесчаная"
+    ],
+    "zu": "Куусинена, 21",
+    "stage": "permit"
+   },
+   {
+    "slug": "akvilon-signal",
+    "name": "Аквилон Сигнал",
+    "aliases": [
+     "Аквилон SIGNAL"
+    ],
+    "zu": "Сигнальный, 12",
+    "stage": "sales"
+   },
+   {
+    "slug": "the-lot",
+    "name": "THE LOT",
+    "aliases": [
+     "The Lot"
+    ],
+    "zu": "Жуков, 21",
+    "stage": "sales"
+   },
+   {
+    "slug": "beside",
+    "name": "Beside",
+    "aliases": [
+     "Среда",
+     "КМЗ",
+     "Бисайд",
+     "офисный проект Аквилона на Рязанском коридоре",
+     "офисный проект Аквилона на Рязанском проспекте"
+    ],
+    "zu": "Рязанский, 2",
+    "stage": "sales"
+   }
+  ]
+ },
+ {
+  "developer": "krost",
+  "developer_name": "Крост",
+  "objects": [
+   {
+    "slug": "teatralnyy-kvartal",
+    "name": "Театральный квартал",
+    "aliases": [],
+    "zu": null,
+    "stage": "completed"
+   },
+   {
+    "slug": "malevich",
+    "name": "Малевич",
+    "aliases": [],
+    "zu": "Отрадная, 8А",
+    "stage": "sales"
+   },
+   {
+    "slug": "vysotka-na-zhukova",
+    "name": "Высотка на Жукова",
+    "aliases": [
+     "Октябрьский радиоцентр",
+     "Октод",
+     "Демьяна Бедного, 24, стр. 2"
+    ],
+    "zu": "Демьяна Бедного, 24",
+    "stage": "sales"
+   },
+   {
+    "slug": "nevskiy",
+    "name": "Невский",
+    "aliases": [],
+    "zu": null,
+    "stage": "completed"
+   }
+  ]
+ },
+ {
+  "developer": "dominanta",
+  "developer_name": "Dominanta",
+  "objects": [
+   {
+    "slug": "hide",
+    "name": "Hide",
+    "aliases": [
+     "hide",
+     "Сетуньский проезд",
+     "проект на месте завода Казакова",
+     "проект на Хорошевке",
+     "1-й Сетуньский",
+     "1-й Сетуньский проезд, 6-10"
+    ],
+    "zu": "1-й Сетуньский, 6-10",
+    "stage": "completed"
+   },
+   {
+    "slug": "hideout",
+    "name": "hideOUT",
+    "aliases": [
+     "Hideout",
+     "HideOUT",
+     "улица Сафоновская"
+    ],
+    "zu": "3-й Сетуньский, 10",
+    "stage": "sales"
+   },
+   {
+    "slug": "svet",
+    "name": "Свет",
+    "aliases": [
+     "Селигер Сити"
+    ],
+    "zu": "Дмитровское, 83А",
+    "stage": "sales"
+   },
+   {
+    "slug": "qoob",
+    "name": "QOOB",
+    "aliases": [
+     "Qoob"
+    ],
+    "zu": "Алексея Свиридова, 17",
+    "stage": "sales"
+   }
+  ]
+ },
+ {
+  "developer": "granel",
+  "developer_name": "Гранель",
+  "objects": [
+   {
+    "slug": "kashirskiy-dvor-2",
+    "name": "Каширский двор-2",
+    "aliases": [
+     "MyPriority Каширка",
+     "Be Luck Коломенское",
+     "BeLuck Коломенское",
+     "Каширский двор",
+     "Каширское шоссе, 1",
+     "Каширское, 15"
+    ],
+    "zu": "Каширское, 1",
+    "stage": "sales"
+   },
+   {
+    "slug": "beluck-kolomenskoe",
+    "name": "BeLuck Коломенское",
+    "aliases": [
+     "beLuck Коломенское"
+    ],
+    "zu": null,
+    "stage": "sales"
+   },
+   {
+    "slug": "triniti",
+    "name": "Тринити",
+    "aliases": [],
+    "zu": "Дмитровское, 75",
+    "stage": "sales"
+   }
+  ]
+ },
+ {
+  "developer": "capital-group",
+  "developer_name": "Capital Group",
+  "objects": [
+   {
+    "slug": "capital-towers",
+    "name": "Capital Towers",
+    "aliases": [],
+    "zu": null,
+    "stage": "permit"
+   },
+   {
+    "slug": "ekotauer",
+    "name": "Экотауэр",
+    "aliases": [],
+    "zu": "Крылатская, 33",
+    "stage": "permit"
+   },
+   {
+    "slug": "mig",
+    "name": "МиГ",
+    "aliases": [
+     "МИГ",
+     "КРТ №125",
+     "МИГ на Динамо",
+     "территория завода МиГ",
+     "площадка МиГ на Ленинградке",
+     "застройка МиГа"
+    ],
+    "zu": "1-й Боткинский проезд, 7",
+    "stage": "sales"
+   }
+  ]
+ },
+ {
+  "developer": "tsentr-invest",
+  "developer_name": "Центр Инвест",
+  "objects": [
+   {
+    "slug": "nastoyashchee",
+    "name": "Настоящее",
+    "aliases": [
+     "территория НИИМостроя",
+     "Мичуринский"
+    ],
+    "zu": "Винницкая, 8",
+    "stage": "completed"
+   },
+   {
+    "slug": "novyy-titul",
+    "name": "Новый Титул",
+    "aliases": [],
+    "zu": "Тимура Фрунзе, 10",
+    "stage": "permit"
+   },
+   {
+    "slug": "titul",
+    "name": "Титул",
+    "aliases": [
+     "Верде"
+    ],
+    "zu": "Докучаев, 10",
+    "stage": "sales"
+   }
+  ]
+ },
+ {
+  "developer": "r4s",
+  "developer_name": "R4S",
+  "objects": [
+   {
+    "slug": "r4s",
+    "name": "R4S",
+    "aliases": [],
+    "zu": "Никитский, 6/20",
+    "stage": "sales"
+   },
+   {
+    "slug": "dom-kuptsa-buloshnikova",
+    "name": "Дом купца Булошникова",
+    "aliases": [
+     "Дом Булошникова",
+     "Большая Никитская, 17 стр 1"
+    ],
+    "zu": "Большая Никитская, 17",
+    "stage": "sales"
+   },
+   {
+    "slug": "nikitskiy-6",
+    "name": "Никитский, 6",
+    "aliases": [],
+    "zu": "Никитский, 6",
+    "stage": "sales"
+   }
+  ]
+ },
+ {
+  "developer": "sense",
+  "developer_name": "Sense",
+  "objects": [
+   {
+    "slug": "coin-house",
+    "name": "Coin House",
+    "aliases": [],
+    "zu": "Подольское шоссе, 3",
+    "stage": "permit"
+   },
+   {
+    "slug": "logos",
+    "name": "Logos",
+    "aliases": [],
+    "zu": null,
+    "stage": "sales"
+   },
+   {
+    "slug": "dom-belyy",
+    "name": "Дом Белый",
+    "aliases": [
+     "Нижний Кисловский, 7 стр 1, 2",
+     "Нижний Кисловский переулок"
+    ],
+    "zu": "Нижний Кисловский, 7",
+    "stage": "sales"
+   }
+  ]
+ },
+ {
+  "developer": "upside",
+  "developer_name": "Upside",
+  "objects": [
+   {
+    "slug": "tpu-kuntsevskaya",
+    "name": "ТПУ Кунцевская",
+    "aliases": [],
+    "zu": null,
+    "stage": "permit"
+   },
+   {
+    "slug": "upside-kuntsev",
+    "name": "Upside Kuntsev",
+    "aliases": [
+     "ТПУ Кунцевская"
+    ],
+    "zu": null,
+    "stage": "sales"
+   },
+   {
+    "slug": "mosfilmovskaya-74-78",
+    "name": "Мосфильмовская, 74-78",
+    "aliases": [
+     "Upside Мосфильмовская",
+     "Золотые крылья"
+    ],
+    "zu": "Мосфильмовская, 74-78",
+    "stage": "sales"
+   }
+  ]
+ },
+ {
+  "developer": "psn",
+  "developer_name": "ПСН",
+  "objects": [
+   {
+    "slug": "domashniy",
+    "name": "Домашний",
+    "aliases": [],
+    "zu": null,
+    "stage": "completed"
+   },
+   {
+    "slug": "pravda",
+    "name": "Правда",
+    "aliases": [
+     "Soho+Noho"
+    ],
+    "zu": "Правда, 24",
+    "stage": "sales"
+   }
+  ]
+ },
+ {
+  "developer": "aeon",
+  "developer_name": "АЕОН",
+  "objects": [
+   {
+    "slug": "river-park",
+    "name": "Ривер Парк",
+    "aliases": [
+     "Ривер парк",
+     "Фили кровля",
+     "Фили Кровли",
+     "Ривер парк Кутузовский",
+     "River Park Towers",
+     "Филикровля"
+    ],
+    "zu": "Кутузовский проезд, 16",
+    "stage": "sales"
+   },
+   {
+    "slug": "river-park-kutuzovskiy",
+    "name": "River Park Кутузовский",
+    "aliases": [
+     "Ривер Парк Кутузовский",
+     "Ривер парк Кутузовский",
+     "Lazur"
+    ],
+    "zu": null,
+    "stage": "sales"
+   }
+  ]
+ },
+ {
+  "developer": "st-michael",
+  "developer_name": "St Michael",
+  "objects": [
+   {
+    "slug": "dacha-tolbukhina",
+    "name": "Дача Толбухина",
+    "aliases": [],
+    "zu": "Толбухина, 3",
+    "stage": "sales"
+   },
+   {
+    "slug": "kvartal-serebryanyy-bor",
+    "name": "Квартал Серебряный бор",
+    "aliases": [
+     "Серебряный бор",
+     "Берзарина, 39/1"
+    ],
+    "zu": "Берзарина, 37",
+    "stage": "sales"
+   }
+  ]
+ },
+ {
+  "developer": "sber",
+  "developer_name": "Сбер",
+  "objects": [
+   {
+    "slug": "sbersiti",
+    "name": "СберСити",
+    "aliases": [
+     "Сберсити",
+     "Рублево-Архангельское"
+    ],
+    "zu": null,
+    "stage": "completed"
+   },
+   {
+    "slug": "sber-siti",
+    "name": "Сбер Сити",
+    "aliases": [],
+    "zu": null,
+    "stage": "sales"
+   }
+  ]
+ },
+ {
+  "developer": "bms-development",
+  "developer_name": "BMS Development",
+  "objects": [
+   {
+    "slug": "dom-s-atlantami",
+    "name": "Дом с Атлантами",
+    "aliases": [
+     "Дом с атлантами"
+    ],
+    "zu": null,
+    "stage": "sales"
+   },
+   {
+    "slug": "fenomen-goroda",
+    "name": "Феномен города",
+    "aliases": [
+     "ТПУ Минская"
+    ],
+    "zu": null,
+    "stage": "sales"
+   }
+  ]
+ },
+ {
+  "developer": "3s",
+  "developer_name": "3S",
+  "objects": [
+   {
+    "slug": "talisman-na-rokossovskogo",
+    "name": "Талисман на Рокоссовского",
+    "aliases": [
+     "Талисман на Рокосовского",
+     "Талисман"
+    ],
+    "zu": "Открытое шоссе, 14Д",
+    "stage": "sales"
+   },
+   {
+    "slug": "voice-towers",
+    "name": "Voice Towers",
+    "aliases": [
+     "Войс",
+     "ЖК «Войс»",
+     "Voice"
+    ],
+    "zu": "1-й Грайвороновский, 2/2",
+    "stage": "sales"
+   }
+  ]
+ },
+ {
+  "developer": "sezar-group",
+  "developer_name": "Sezar Group",
+  "objects": [
+   {
+    "slug": "dolina-mgu",
+    "name": "Долина МГУ",
+    "aliases": [
+     "V12",
+     "пересечение Вернадского и Коштоянца",
+     "территория между Вернадского и Мичуринским проспектами"
+    ],
+    "zu": "Вернадского, 12Б",
+    "stage": "sales"
+   },
+   {
+    "slug": "krasnaya-presnya",
+    "name": "Красная Пресня",
+    "aliases": [
+     "Сезар Сити",
+     "Sezar Future",
+     "Sezar City",
+     "Плодоовощная база «Красная Пресня",
+     "овощебаза Красная Пресня",
+     "2-й Хорошевский проезд, 7"
+    ],
+    "zu": "2-й Хорошевский, 7",
+    "stage": "sales"
+   }
+  ]
+ },
+ {
+  "developer": "grad",
+  "developer_name": "Град",
+  "objects": [
+   {
+    "slug": "ice-tower",
+    "name": "Ice Tower",
+    "aliases": [
+     "Ice Towers",
+     "ООО Таймслот"
+    ],
+    "zu": "Лобачевского, 3-5",
+    "stage": "sales"
+   },
+   {
+    "slug": "aurum-taym",
+    "name": "Аурум Тайм",
+    "aliases": [
+     "4-й Подбельского, 3"
+    ],
+    "zu": "4-й проезд Подбельского, 3",
+    "stage": "sales"
+   }
+  ]
+ },
+ {
+  "developer": "capital-alliance",
+  "developer_name": "Capital Alliance",
+  "objects": [
+   {
+    "slug": "uzory",
+    "name": "Узоры",
+    "aliases": [
+     "2-й Вражский, 8, стр. 2",
+     "2-й Вражский переулок, 8",
+     "представительство Карачаево-Черкесской Республики",
+     "2-й Вражский, 8"
+    ],
+    "zu": "2-й Вражский, 8 стр 2",
+    "stage": "sales"
+   },
+   {
+    "slug": "3-ya-khoroshevskaya-18-2",
+    "name": "3-я Хорошевская, 18/2",
+    "aliases": [
+     "Авиум",
+     "Avium",
+     "AVIUM",
+     "ТПУ Зорге"
+    ],
+    "zu": "3-я Хорошевская, 18/2",
+    "stage": "permit"
+   }
+  ]
+ },
+ {
+  "developer": "osnova",
+  "developer_name": "Основа",
+  "objects": [
+   {
+    "slug": "tpu-rostokino",
+    "name": "ТПУ Ростокино",
+    "aliases": [
+     "Основы",
+     "проспект Мира, 222/2",
+     "Мира, вл. 222/2"
+    ],
+    "zu": "Проспект Мира, 222",
+    "stage": "permit"
+   }
+  ]
+ },
+ {
+  "developer": "mangazeya",
+  "developer_name": "Мангазея",
+  "objects": [
+   {
+    "slug": "mangazeya-na-rechnom",
+    "name": "Мангазея на Речном",
+    "aliases": [
+     "Северный порт"
+    ],
+    "zu": null,
+    "stage": "sales"
+   }
+  ]
+ },
+ {
+  "developer": "asterus",
+  "developer_name": "Asterus",
+  "objects": [
+   {
+    "slug": "alia",
+    "name": "Alia",
+    "aliases": [
+     "ALIA",
+     "ÁЛИA",
+     "АЛИА",
+     "Тушинский аэродром",
+     "детский сад Alia"
+    ],
+    "zu": null,
+    "stage": "sales"
+   }
+  ]
+ },
+ {
+  "developer": "seven-sans",
+  "developer_name": "Севен санс",
+  "objects": [
+   {
+    "slug": "stremlenie-k-svetu",
+    "name": "Стремление к свету",
+    "aliases": [
+     "Илимская, 3/5"
+    ],
+    "zu": "Илимская, 3",
+    "stage": "permit"
+   }
+  ]
+ },
+ {
+  "developer": "rastsvetay",
+  "developer_name": "Расцветай",
+  "objects": [
+   {
+    "slug": "40-let-oktyabrya-7",
+    "name": "40 лет Октября, 7",
+    "aliases": [],
+    "zu": "40 лет Октября, 7",
+    "stage": "sales"
+   }
+  ]
+ },
+ {
+  "developer": "tashir",
+  "developer_name": "Ташир",
+  "objects": [
+   {
+    "slug": "malaya-tulskaya-2",
+    "name": "Малая Тульская, 2",
+    "aliases": [
+     "Серпуховский Вал"
+    ],
+    "zu": "Малая Тульская, 2",
+    "stage": "permit"
+   }
+  ]
+ },
+ {
+  "developer": "gravion",
+  "developer_name": "Gravion",
+  "objects": [
+   {
+    "slug": "cult",
+    "name": "CULT",
+    "aliases": [
+     "гостиница Варшава"
+    ],
+    "zu": null,
+    "stage": "permit"
+   }
+  ]
+ },
+ {
+  "developer": "stroy-kompleks",
+  "developer_name": "Строй-комплекс",
+  "objects": [
+   {
+    "slug": "neskuchnyy",
+    "name": "Нескучный",
+    "aliases": [
+     "Five",
+     "Нескучный хоум энд наеб"
+    ],
+    "zu": null,
+    "stage": "completed"
+   }
+  ]
+ },
+ {
+  "developer": "plyus-development",
+  "developer_name": "Плюс Девелопмент",
+  "objects": [
+   {
+    "slug": "aktsenty",
+    "name": "Акценты",
+    "aliases": [
+     "Вагоноремонт",
+     "Детали"
+    ],
+    "zu": "Дубнинская, 83",
+    "stage": "sales"
+   }
+  ]
+ },
+ {
+  "developer": "ava-grupp",
+  "developer_name": "АВА Групп",
+  "objects": [
+   {
+    "slug": "proezd-607-21",
+    "name": "Проезд №607, 21",
+    "aliases": [
+     "Проезд 607, 21"
+    ],
+    "zu": "Проезд №607, 21",
+    "stage": "sales"
+   }
+  ]
+ },
+ {
+  "developer": "unikey",
+  "developer_name": "Unikey",
+  "objects": [
+   {
+    "slug": "l67",
+    "name": "L67",
+    "aliases": [
+     "Московский винно-коньячный завод КиН"
+    ],
+    "zu": "Ленинградское, 65-67",
+    "stage": "sales"
+   }
+  ]
+ },
+ {
+  "developer": "foresight",
+  "developer_name": "Foresight",
+  "objects": [
+   {
+    "slug": "dom-soboleva",
+    "name": "Дом Соболева",
+    "aliases": [
+     "MR Private"
+    ],
+    "zu": "Машкова, 18",
+    "stage": "sales"
+   }
+  ]
+ },
+ {
+  "developer": "magnum-development",
+  "developer_name": "Magnum Development",
+  "objects": [
+   {
+    "slug": "magnum-solo",
+    "name": "Magnum Solo",
+    "aliases": [],
+    "zu": "Александра Солженицына, 23Б",
+    "stage": "sales"
+   }
+  ]
+ },
+ {
+  "developer": "guta",
+  "developer_name": "Гута",
+  "objects": [
+   {
+    "slug": "krasnyy-oktyabr",
+    "name": "Красный Октябрь",
+    "aliases": [
+     "Стрелка",
+     "Болотная, 15",
+     "проект Гуты"
+    ],
+    "zu": "Берсеневская, 6",
+    "stage": "sales"
+   }
+  ]
+ },
+ {
+  "developer": "novaya-era",
+  "developer_name": "Новая Эра",
+  "objects": [
+   {
+    "slug": "kod-sokolniki",
+    "name": "Код Сокольники",
+    "aliases": [
+     "Митьково"
+    ],
+    "zu": null,
+    "stage": "sales"
+   }
+  ]
+ },
+ {
+  "developer": "etalon",
+  "developer_name": "Эталон",
+  "objects": [
+   {
+    "slug": "elektrozavodskaya-60",
+    "name": "Электрозаводская, 60",
+    "aliases": [],
+    "zu": "Электрозаводская, 60",
+    "stage": "permit"
+   }
+  ]
+ },
+ {
+  "developer": "bel-development",
+  "developer_name": "БЭЛ Девелопмент",
+  "objects": [
+   {
+    "slug": "dolgorukovskaya-25",
+    "name": "Долгоруковская, 25",
+    "aliases": [
+     "Дом в три окна"
+    ],
+    "zu": "Долгоруковская, 25",
+    "stage": "sales"
+   }
+  ]
+ },
+ {
+  "developer": "fibonacci-group",
+  "developer_name": "Fibonacci Group",
+  "objects": [
+   {
+    "slug": "fantastic-house",
+    "name": "Fantastic House",
+    "aliases": [
+     "FH"
+    ],
+    "zu": null,
+    "stage": "completed"
+   }
+  ]
+ },
+ {
+  "developer": "talan",
+  "developer_name": "Талан",
+  "objects": [
+   {
+    "slug": "injoy",
+    "name": "INJOY",
+    "aliases": [
+     "Injoy",
+     "Яркий квартал Инджой",
+     "Инжой",
+     "Яркий квартал «Инжой"
+    ],
+    "zu": "Адмирала Макарова, 2",
+    "stage": "completed"
+   }
+  ]
+ },
+ {
+  "developer": "galaxy-group",
+  "developer_name": "Galaxy Group",
+  "objects": [
+   {
+    "slug": "dosflota-10",
+    "name": "Досфлота, 10",
+    "aliases": [
+     "гостиница Трудовые резервы"
+    ],
+    "zu": "Досфлота, 10",
+    "stage": "sales"
+   }
+  ]
+ },
+ {
+  "developer": "touch",
+  "developer_name": "Touch",
+  "objects": [
+   {
+    "slug": "champine",
+    "name": "Champine",
+    "aliases": [
+     "Фабрика-кухня №8",
+     "Touch",
+     "фабрика-кухня № 8 Микояновского мясокомбината",
+     "Сосинская",
+     "фабрика-кухня №8",
+     "Шампайн"
+    ],
+    "zu": "Сосинская, 43",
+    "stage": "sales"
+   }
+  ]
+ },
+ {
+  "developer": "tach",
+  "developer_name": "Тач",
+  "objects": [
+   {
+    "slug": "dom-gorizontov",
+    "name": "Дом горизонтов",
+    "aliases": [],
+    "zu": "Крылатская, 23",
+    "stage": "sales"
+   }
+  ]
+ },
+ {
+  "developer": "neometriya",
+  "developer_name": "Неометрия",
+  "objects": [
+   {
+    "slug": "vern",
+    "name": "Верн",
+    "aliases": [],
+    "zu": "Вернадского, 10",
+    "stage": "sales"
+   }
+  ]
+ },
+ {
+  "developer": "balchug-estate",
+  "developer_name": "Balchug Estate",
+  "objects": [
+   {
+    "slug": "sadovnicheskaya-76-71",
+    "name": "Садовническая, 76/71",
+    "aliases": [
+     "Садовническая, 69"
+    ],
+    "zu": "Садовническая, 76/71",
+    "stage": "permit"
+   }
+  ]
+ },
+ {
+  "developer": "hitech",
+  "developer_name": "Hitech",
+  "objects": [
+   {
+    "slug": "friday-villas",
+    "name": "Friday Villas",
+    "aliases": [
+     "Пятницкая, 37с2"
+    ],
+    "zu": "Пятницкая, 37",
+    "stage": "sales"
+   }
+  ]
+ },
+ {
+  "developer": "palladio-group",
+  "developer_name": "Palladio Group",
+  "objects": [
+   {
+    "slug": "pentagram",
+    "name": "Pentagram",
+    "aliases": [
+     "Большой Козихинский, 31, стр. 1"
+    ],
+    "zu": "Большой Козихинский, 31",
+    "stage": "sales"
+   }
+  ]
+ },
+ {
+  "developer": "gruppa-regiony",
+  "developer_name": "Группа Регионы",
+  "objects": [
+   {
+    "slug": "dream-riva",
+    "name": "Dream Riva",
+    "aliases": [],
+    "zu": null,
+    "stage": "sales"
+   }
+  ]
+ },
+ {
+  "developer": "siti-21",
+  "developer_name": "Сити-21",
+  "objects": [
+   {
+    "slug": "vavilova-64-1",
+    "name": "Вавилова, 64/1",
+    "aliases": [
+     "Черемушкинский рынок"
+    ],
+    "zu": "Вавилова, 64/1",
+    "stage": "permit"
+   }
+  ]
+ },
+ {
+  "developer": "granard",
+  "developer_name": "Гранард",
+  "objects": [
+   {
+    "slug": "grand-fili",
+    "name": "Гранд Фили",
+    "aliases": [],
+    "zu": "Большая Филевская, 2Б",
+    "stage": "sales"
+   }
+  ]
+ },
+ {
+  "developer": "foresight-development",
+  "developer_name": "Foresight development",
+  "objects": [
+   {
+    "slug": "pushkarev-12",
+    "name": "Пушкарев, 12",
+    "aliases": [
+     "проект Foresight development в Кузьминках"
+    ],
+    "zu": "Пушкарев, 12",
+    "stage": "sales"
+   }
+  ]
+ }
+]

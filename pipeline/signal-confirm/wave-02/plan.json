@@ -1,0 +1,119 @@
+{
+ "wave": 2,
+ "units": [
+  {
+   "unit": 2647,
+   "notes": [
+    2647
+   ],
+   "dossier": "homecity",
+   "date": "2019-10-29",
+   "signals": 1
+  },
+  {
+   "unit": 2680,
+   "notes": [
+    2680
+   ],
+   "dossier": "level-baumanskaya",
+   "date": "2019-10-31",
+   "signals": 1
+  },
+  {
+   "unit": 2876,
+   "notes": [
+    2876
+   ],
+   "dossier": "luzhniki-collection",
+   "date": "2019-11-19",
+   "signals": 2
+  },
+  {
+   "unit": 2927,
+   "notes": [
+    2927
+   ],
+   "dossier": "varshavskoe-9-1",
+   "date": "2019-11-26",
+   "signals": 1
+  },
+  {
+   "unit": 2940,
+   "notes": [
+    2940
+   ],
+   "dossier": "salarevo",
+   "date": "2019-11-27",
+   "signals": 1
+  },
+  {
+   "unit": 2943,
+   "notes": [
+    2943
+   ],
+   "dossier": "paveletskaya-siti",
+   "date": "2019-11-27",
+   "signals": 1
+  },
+  {
+   "unit": 2955,
+   "notes": [
+    2955
+   ],
+   "dossier": "varshavskoe-14",
+   "date": "2019-11-29",
+   "signals": 1
+  },
+  {
+   "unit": 2990,
+   "notes": [
+    2990
+   ],
+   "dossier": "talisman-na-rokossovskogo",
+   "date": "2019-12-04",
+   "signals": 1
+  },
+  {
+   "unit": 3076,
+   "notes": [
+    3076
+   ],
+   "dossier": "orient-ekspress",
+   "date": "2019-12-12",
+   "signals": 1
+  },
+  {
+   "unit": 3118,
+   "notes": [
+    3118
+   ],
+   "dossier": "sokolinn-park",
+   "date": "2019-12-15",
+   "signals": 2
+  },
+  {
+   "unit": 3158,
+   "notes": [
+    3158
+   ],
+   "dossier": "butyrskaya-1-2",
+   "date": "2019-12-18",
+   "signals": 1
+  },
+  {
+   "unit": 3163,
+   "notes": [
+    3163
+   ],
+   "dossier": "lyublinskiy-park",
+   "date": "2019-12-19",
+   "signals": 1
+  }
+ ],
+ "excluded": [
+  {
+   "unit": 2991,
+   "reason": "покупка недвижимости частным лицом (знаменитостью) — не тема для подтверждения"
+  }
+ ]
+}

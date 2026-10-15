@@ -1,0 +1,167 @@
+{
+ "wave": 1,
+ "units": [
+  {
+   "unit": 2057,
+   "notes": [
+    2057
+   ],
+   "dossier": "lumin",
+   "date": "2019-06-05",
+   "signals": 1
+  },
+  {
+   "unit": 2072,
+   "notes": [
+    2072
+   ],
+   "dossier": "ilmenskiy-17",
+   "date": "2019-06-10",
+   "signals": 1
+  },
+  {
+   "unit": 2088,
+   "notes": [
+    2088
+   ],
+   "dossier": "dvizhenie-tushino",
+   "date": "2019-06-11",
+   "signals": 1
+  },
+  {
+   "unit": 2109,
+   "notes": [
+    2109
+   ],
+   "dossier": "volzhskiy-park",
+   "date": "2019-06-18",
+   "signals": 2
+  },
+  {
+   "unit": 2128,
+   "notes": [
+    2128
+   ],
+   "dossier": "amarant",
+   "date": "2019-06-19",
+   "signals": 2
+  },
+  {
+   "unit": 2174,
+   "notes": [
+    2174
+   ],
+   "dossier": "varshavskoe-shosse-170e",
+   "date": "2019-06-26",
+   "signals": 1
+  },
+  {
+   "unit": 2217,
+   "notes": [
+    2217
+   ],
+   "dossier": "level-streshnevo",
+   "date": "2019-07-04",
+   "signals": 2
+  },
+  {
+   "unit": 2226,
+   "notes": [
+    2226
+   ],
+   "dossier": "mainstreet",
+   "date": "2019-07-10",
+   "signals": 1
+  },
+  {
+   "unit": 2402,
+   "notes": [
+    2402
+   ],
+   "dossier": "nametkina-10d",
+   "date": "2019-09-02",
+   "signals": 1
+  },
+  {
+   "unit": 2419,
+   "notes": [
+    2419
+   ],
+   "dossier": "repablik",
+   "date": "2019-09-10",
+   "signals": 1
+  },
+  {
+   "unit": 2426,
+   "notes": [
+    2426
+   ],
+   "dossier": "dobrolyubova-3",
+   "date": "2019-09-10",
+   "signals": 1
+  },
+  {
+   "unit": 2439,
+   "notes": [
+    2439
+   ],
+   "dossier": "betskoy",
+   "date": "2019-09-11",
+   "signals": 1
+  },
+  {
+   "unit": 2449,
+   "notes": [
+    2449
+   ],
+   "dossier": "tpu-verkhnie-likhobory",
+   "date": "2019-09-12",
+   "signals": 1
+  },
+  {
+   "unit": 2490,
+   "notes": [
+    2490
+   ],
+   "dossier": "varshavskoe-shosse-170e",
+   "date": "2019-09-21",
+   "signals": 1
+  },
+  {
+   "unit": 2512,
+   "notes": [
+    2512
+   ],
+   "dossier": "l-club",
+   "date": "2019-10-02",
+   "signals": 1
+  },
+  {
+   "unit": 2553,
+   "notes": [
+    2553
+   ],
+   "dossier": "talisman-na-rokossovskogo",
+   "date": "2019-10-10",
+   "signals": 1
+  },
+  {
+   "unit": 2564,
+   "notes": [
+    2564
+   ],
+   "dossier": "lyublinskiy-park",
+   "date": "2019-10-12",
+   "signals": 1
+  },
+  {
+   "unit": 2638,
+   "notes": [
+    2638
+   ],
+   "dossier": "filatov-lug",
+   "date": "2019-10-28",
+   "signals": 1
+  }
+ ]
+}

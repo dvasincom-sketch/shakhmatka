@@ -1,0 +1,286 @@
+{
+ "sources": [
+  "https://en.wikipedia.org/wiki/Arbat_District",
+  "https://en.wikipedia.org/wiki/Basmanny_District",
+  "https://en.wikipedia.org/wiki/Krasnoselsky_District,_Moscow",
+  "https://en.wikipedia.org/wiki/Presnensky_District",
+  "https://en.wikipedia.org/wiki/Tverskoy_District",
+  "https://en.wikipedia.org/wiki/Yakimanka_District",
+  "https://en.wikipedia.org/wiki/Aeroport_District",
+  "https://en.wikipedia.org/wiki/Begovoy_District",
+  "https://en.wikipedia.org/wiki/Beskudnikovsky_District",
+  "https://en.wikipedia.org/wiki/Voykovsky_District",
+  "https://en.wikipedia.org/wiki/Vostochnoye_Degunino_District",
+  "https://en.wikipedia.org/wiki/Golovinsky_District",
+  "https://en.wikipedia.org/wiki/Dmitrovsky_District,_Moscow",
+  "https://en.wikipedia.org/wiki/Zapadnoye_Degunino_District",
+  "https://en.wikipedia.org/wiki/Koptevo_District",
+  "https://en.wikipedia.org/wiki/Levoberezhny_District,_Moscow",
+  "https://en.wikipedia.org/wiki/Molzhaninovsky_District",
+  "https://en.wikipedia.org/wiki/Savyolovsky_District",
+  "https://en.wikipedia.org/wiki/Sokol_District",
+  "https://en.wikipedia.org/wiki/Timiryazevsky_District",
+  "https://en.wikipedia.org/wiki/Khovrino_District",
+  "https://en.wikipedia.org/wiki/Khoroshyovsky_District"
+ ],
+ "places": {
+  "arbat": [],
+  "basmannyy": [],
+  "zamoskvorechye": null,
+  "krasnoselskiy": [],
+  "meshchanskiy": null,
+  "presnenskiy": [],
+  "taganskiy": null,
+  "tverskoy": [
+   {
+    "name": "Театральная",
+    "system": "metro",
+    "lines": [
+     "2 Замоскворецкая"
+    ],
+    "status": "open",
+    "source": "https://en.wikipedia.org/wiki/Tverskoy_District"
+   },
+   {
+    "name": "Охотный Ряд",
+    "system": "metro",
+    "lines": [
+     "1 Сокольническая"
+    ],
+    "status": "open",
+    "source": "https://en.wikipedia.org/wiki/Tverskoy_District"
+   },
+   {
+    "name": "Кузнецкий Мост",
+    "system": "metro",
+    "lines": [
+     "7 Таганско-Краснопресненская"
+    ],
+    "status": "open",
+    "source": "https://en.wikipedia.org/wiki/Tverskoy_District"
+   },
+   {
+    "name": "Пушкинская",
+    "system": "metro",
+    "lines": [
+     "7 Таганско-Краснопресненская"
+    ],
+    "status": "open",
+    "source": "https://en.wikipedia.org/wiki/Tverskoy_District"
+   },
+   {
+    "name": "Чеховская",
+    "system": "metro",
+    "lines": [
+     "9 Серпуховско-Тимирязевская"
+    ],
+    "status": "open",
+    "source": "https://en.wikipedia.org/wiki/Tverskoy_District"
+   },
+   {
+    "name": "Тверская",
+    "system": "metro",
+    "lines": [
+     "2 Замоскворецкая"
+    ],
+    "status": "open",
+    "source": "https://en.wikipedia.org/wiki/Tverskoy_District"
+   },
+   {
+    "name": "Маяковская",
+    "system": "metro",
+    "lines": [
+     "2 Замоскворецкая"
+    ],
+    "status": "open",
+    "source": "https://en.wikipedia.org/wiki/Tverskoy_District"
+   },
+   {
+    "name": "Белорусская",
+    "system": "metro",
+    "lines": [
+     "2 Замоскворецкая",
+     "5 Кольцевая"
+    ],
+    "status": "open",
+    "source": "https://en.wikipedia.org/wiki/Tverskoy_District"
+   },
+   {
+    "name": "Менделеевская",
+    "system": "metro",
+    "lines": [
+     "9 Серпуховско-Тимирязевская"
+    ],
+    "status": "open",
+    "source": "https://en.wikipedia.org/wiki/Tverskoy_District"
+   },
+   {
+    "name": "Новослободская",
+    "system": "metro",
+    "lines": [
+     "5 Кольцевая"
+    ],
+    "status": "open",
+    "source": "https://en.wikipedia.org/wiki/Tverskoy_District"
+   },
+   {
+    "name": "Цветной бульвар",
+    "system": "metro",
+    "lines": [
+     "9 Серпуховско-Тимирязевская"
+    ],
+    "status": "open",
+    "source": "https://en.wikipedia.org/wiki/Tverskoy_District"
+   }
+  ],
+  "khamovniki": null,
+  "yakimanka": [
+   {
+    "name": "Полянка",
+    "system": "metro",
+    "lines": [
+     "9 Серпуховско-Тимирязевская"
+    ],
+    "status": "open",
+    "source": "https://en.wikipedia.org/wiki/Yakimanka_District"
+   },
+   {
+    "name": "Третьяковская",
+    "system": "metro",
+    "lines": [
+     "6 Калужско-Рижская",
+     "8 Калининская"
+    ],
+    "status": "open",
+    "source": "https://en.wikipedia.org/wiki/Yakimanka_District"
+   },
+   {
+    "name": "Октябрьская",
+    "system": "metro",
+    "lines": [
+     "5 Кольцевая",
+     "6 Калужско-Рижская"
+    ],
+    "status": "open",
+    "source": "https://en.wikipedia.org/wiki/Yakimanka_District"
+   },
+   {
+    "name": "Добрынинская",
+    "system": "metro",
+    "lines": [
+     "5 Кольцевая"
+    ],
+    "status": "open",
+    "source": "https://en.wikipedia.org/wiki/Yakimanka_District"
+   },
+   {
+    "name": "Серпуховская",
+    "system": "metro",
+    "lines": [
+     "9 Серпуховско-Тимирязевская"
+    ],
+    "status": "open",
+    "source": "https://en.wikipedia.org/wiki/Yakimanka_District"
+   }
+  ],
+  "aeroport": [
+   {
+    "name": "Аэропорт",
+    "system": "metro",
+    "lines": [
+     "2 Замоскворецкая"
+    ],
+    "status": "open",
+    "source": "https://en.wikipedia.org/wiki/Aeroport_District"
+   }
+  ],
+  "begovoy": [],
+  "beskudnikovskiy": [],
+  "voykovskiy": [],
+  "vostochnoe-degunino": [],
+  "golovinskiy": [],
+  "dmitrovskiy": [],
+  "zapadnoe-degunino": [],
+  "koptevo": [],
+  "levoberezhnyy": [],
+  "molzhaninovskiy": [],
+  "savelovskiy": [],
+  "sokol": [
+   {
+    "name": "Сокол",
+    "system": "metro",
+    "lines": [
+     "2 Замоскворецкая"
+    ],
+    "status": "open",
+    "source": "https://en.wikipedia.org/wiki/Sokol_District"
+   }
+  ],
+  "timiryazevskiy": [],
+  "khovrino": [],
+  "khoroshevskiy": [],
+  "alekseevskiy": null,
+  "altufevskiy": null,
+  "babushkinskiy": null,
+  "bibirevo": null,
+  "butyrskiy": null,
+  "lianozovo": null,
+  "losinoostrovskiy": null,
+  "marfino": null,
+  "marina-roshcha": null,
+  "ostankinskiy": null,
+  "otradnoe": null,
+  "rostokino": null,
+  "sviblovo": null,
+  "severnoe-medvedkovo": null,
+  "severnyy": null,
+  "yuzhnoe-medvedkovo": null,
+  "yaroslavskiy": null,
+  "bogorodskoe": null,
+  "veshnyaki": null,
+  "vostochnoe-izmaylovo": null,
+  "vostochnyy": null,
+  "golyanovo": null,
+  "ivanovskoe": null,
+  "izmaylovo": null,
+  "kosino-ukhtomskiy": null,
+  "metrogorodok": null,
+  "novogireevo": null,
+  "novokosino": null,
+  "perovo": null,
+  "preobrazhenskoe": null,
+  "severnoe-izmaylovo": null,
+  "sokolinaya-gora": null,
+  "sokolniki": null,
+  "vykhino-zhulebino": null,
+  "kapotnya": null,
+  "kuzminki": null,
+  "lefortovo": null,
+  "lyublino": null,
+  "marino": null,
+  "nekrasovka": null,
+  "nizhegorodskiy": null,
+  "pechatniki": null,
+  "ryazanskiy": null,
+  "tekstilshchiki": null,
+  "yuzhnoportovyy": null
+ },
+ "unassigned": [
+  {
+   "name": "Савёловская",
+   "note": "Tverskoy_District article lists it under Tverskoy, but the station is not plausibly in Tverskoy; left unassigned, unverified",
+   "source": "https://en.wikipedia.org/wiki/Tverskoy_District"
+  },
+  {
+   "name": "Электрозаводская",
+   "note": "Basmanny_District article only says old Basmannaya Sloboda remains lie 'in the area of' the station; not stated as in district",
+   "source": "https://en.wikipedia.org/wiki/Basmanny_District"
+  },
+  {
+   "name": "Войковская",
+   "note": "Voykovsky_District article mentions it only for the origin of its name; not stated as located in the district",
+   "source": "https://en.wikipedia.org/wiki/Voykovsky_District"
+  }
+ ],
+ "status": "Partial: CAO (6/10 articles), SAO (16/16). Empty list = article names no station in district. null = no source page reachable. SVAO/VAO/YuVAO not filled."
+}

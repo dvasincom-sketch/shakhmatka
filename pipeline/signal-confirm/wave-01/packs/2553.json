@@ -1,0 +1,2129 @@
+{
+ "unit": 2553,
+ "notes": [
+  {
+   "id": 2553,
+   "date": "2019-10-10",
+   "text": "Портфель проектов 3S активно пополняется, к Талисманам на Водном и Дмитровском скоро добавятся: \n\"Талисман на Рокосовского\" (Открытое ш., вл. 14Д) - выход в ближайщие полгода. Старт - 150 тыс. руб./кв. м\n\"Талисман в Некрасовке\" (ТПУ Некрасовка) - выход в ближайщий год. Старт - 100 тыс. руб./кв. м\n\nПока в пуле 3S стабильный комфорт-класс.\n\n#перспективныйпроект",
+   "images": []
+  }
+ ],
+ "date_published": "2019-10-10",
+ "date_modified": "2026-10-15",
+ "earlier_notes": [],
+ "signals": [
+  {
+   "object": "talisman-na-rokossovskogo",
+   "object_name": "Талисман на Рокоссовского",
+   "date": "2019-10-10",
+   "kind": "sales",
+   "title": "«Талисман на Рокоссовского» выйдет в продажу в ближайшие полгода со стартом от 150 тыс. руб./кв. м"
+  }
+ ],
+ "dossier": {
+  "url": "/obekty/talisman-na-rokossovskogo/",
+  "slug": "talisman-na-rokossovskogo",
+  "name": "Талисман на Рокоссовского",
+  "zu": "Открытое шоссе, 14Д",
+  "aliases": [
+   "Талисман на Рокосовского",
+   "Талисман"
+  ],
+  "developer": {
+   "slug": "3s",
+   "name": "3S",
+   "url": "/zastroyshchiki/3s/"
+  },
+  "region": "moscow",
+  "district": {
+   "name": "Богородское",
+   "url": "/novostroyki/bogorodskoe/"
+  },
+  "stage": "sales",
+  "timeline": [
+   {
+    "date": "2019-10-10",
+    "kind": "sales",
+    "certainty": "signal",
+    "title": "«Талисман на Рокоссовского» выйдет в продажу в ближайшие полгода со стартом от 150 тыс. руб./кв. м",
+    "note": 2553
+   },
+   {
+    "date": "2019-12-04",
+    "kind": "sales",
+    "certainty": "signal",
+    "title": "Старт продаж «Талисмана на Рокоссовского» назначен на 20 января, средняя цена около 150 тыс. руб./кв. м",
+    "note": 2990
+   },
+   {
+    "date": "2020-01-23",
+    "kind": "land",
+    "certainty": "fact",
+    "title": "Получено ГПЗУ на Открытое шоссе, вл. 14Д под жилые дома",
+    "note": 3376
+   },
+   {
+    "date": "2020-07-16",
+    "kind": "sales",
+    "certainty": "signal",
+    "title": "3S готовит старт продаж Талисмана на Рокоссовского по 205 тыс. руб./кв. м без отделки, старт перенесён на август",
+    "note": 4773
+   },
+   {
+    "date": "2020-10-07",
+    "kind": "sales",
+    "certainty": "fact",
+    "title": "3SGroup открыл шахматку Талисмана на Рокоссовского на 20-30 квартир по цене 185-220 тыс. руб./кв. м",
+    "note": 6016
+   },
+   {
+    "date": "2020-10-09",
+    "kind": "other",
+    "certainty": "fact",
+    "title": "Талисман на Рокоссовского: 3 башни по 28-29 этажей, 803 квартиры, 206 машиномест, класс комфорт+",
+    "note": 5771
+   },
+   {
+    "date": "2020-10-30",
+    "kind": "sales",
+    "certainty": "fact",
+    "title": "3SGroup не успел зарегистрировать первый ДДУ в Талисмане и вернул клиентам брони по 50 тыс. руб.",
+    "note": 6016
+   }
+  ]
+ },
+ "other_objects": [],
+ "links_allowed": {
+  "terms": [
+   "/slovar/ddu/",
+   "/slovar/proektnaya-deklaratsiya/",
+   "/slovar/klyuchevaya-stavka/",
+   "/slovar/semeynaya-ipoteka/",
+   "/slovar/mashino-mesto/",
+   "/slovar/krt/",
+   "/slovar/gzk/",
+   "/slovar/tep/",
+   "/slovar/agr/",
+   "/slovar/mpt/",
+   "/slovar/vri/",
+   "/slovar/skb/",
+   "/slovar/uvk/",
+   "/slovar/okn/",
+   "/slovar/dkpbn/",
+   "/slovar/vla/",
+   "/slovar/gpzu/",
+   "/slovar/tpu/",
+   "/slovar/koeffitsient-d/",
+   "/slovar/ofisnyy-osobnyak/",
+   "/slovar/master-developer/",
+   "/slovar/gradusnik/",
+   "/slovar/proektnoe-finansirovanie/",
+   "/slovar/eskrou-schet/",
+   "/slovar/klass-zhilya/"
+  ],
+  "topics": [
+   "/temy/ceny/",
+   "/temy/rynok/",
+   "/temy/regulirovanie/",
+   "/temy/ipoteka/",
+   "/temy/premium/",
+   "/temy/krt/",
+   "/temy/signaly/"
+  ],
+  "landings": [
+   "/novostroyki/moskva/",
+   "/novostroyki/start-prodazh/",
+   "/novostroyki/budushchie-proekty/"
+  ],
+  "articles": [
+   {
+    "url": "/novosti/u2-lodochnaya-27-k2-tochno-ceny-sdacha/",
+    "title": "U2 на Лодочной, 27/2: студии от 16,9 млн ₽, сдача в I квартале 2028 года"
+   },
+   {
+    "url": "/novosti/sokolinn-park-etalon-start-prodazh/",
+    "title": "Sokolinn Park от Эталона на 3-й Гражданской: старт продаж, цены, сдача в 2028-м"
+   },
+   {
+    "url": "/novosti/mr-group-tverskaya-30-2-dom-perova/",
+    "title": "'MR Group выкупила дом Перова на Тверской: что известно о проекте'"
+   },
+   {
+    "url": "/novosti/kutuzovskaya-sloboda-upside-143-tys-ne-podtverzhdeno/",
+    "title": "Кутузовская слобода: проект Upside на 143 тыс. кв. м не подтвердился"
+   },
+   {
+    "url": "/novosti/upside-yamskaya-2-ya-yamskaya-9-ofisy-ceny/",
+    "title": "Upside Ямская на 2-й Ямской, 9: офисы от 26,5 млн ₽, сдача в 2028-м"
+   },
+   {
+    "url": "/novosti/demidov-26-novaya-basmannaya-protest-zhiteley/",
+    "title": "'«Демидов, 26» на Новой Басманной: разрешение выдано, жители против'"
+   },
+   {
+    "url": "/novosti/tpu-suvorovskaya-granard-koncepciya-soho/",
+    "title": "ТПУ «Суворовская»: третья концепция Гранарда от бюро СОХО не подтвердилась"
+   },
+   {
+    "url": "/novosti/26-parkvyu-timiryazevskaya-dom-gippiusa/",
+    "title": "'«26 ПаркВью» на Тимирязевской: MR Group ужала проект и оставила дом Гиппиуса'"
+   },
+   {
+    "url": "/novosti/3-ya-mytishchinskaya-16-kvant-auktsion-dom-rf/",
+    "title": "3-я Мытищинская, 16: участок «Кванта» ушёл с торгов ДОМ.РФ за 2,58 млрд ₽"
+   },
+   {
+    "url": "/novosti/kotlyakovskaya-4-6-dogma-agr-start-prodazh/",
+    "title": "Котляковская, 4 и 6: согласование АГР и старт продаж Догмы не подтверждены"
+   },
+   {
+    "url": "/novosti/2-ya-magistralnaya-18-ofisnyy-krt/",
+    "title": "КРТ на 2-й Магистральной, 18: офисы на 35 тыс. м² вместо складов у Большого Сити"
+   },
+   {
+    "url": "/novosti/arkhitektora-vlasova-59-krt-ne-podtverzhdeno/",
+    "title": "Архитектора Власова, 59: сокращение границ КРТ до 3,66 га не подтвердилось"
+   },
+   {
+    "url": "/novosti/yuzhnoportovaya-3-15-krt-nezhiloy-zastroyki/",
+    "title": "КРТ на Южнопортовой, 3-15: 22 га и 328,5 тыс. м² — и ни метра жилья"
+   },
+   {
+    "url": "/novosti/kuskovskaya-26a-26b-prodazha-uchastkov/",
+    "title": "Кусковская, 26А и 26Б: продажа участков за 190 млн ₽ не подтвердилась"
+   },
+   {
+    "url": "/novosti/wow-nagatino-strana-start-prodazh-ceny/",
+    "title": "ЖК WOW в Нагатино от Страны Девелопмент: старт с 13,4 млн ₽ и сдача с опозданием"
+   },
+   {
+    "url": "/novosti/dom-soboleva-foresight-mr-private/",
+    "title": "Дом Соболева на Машкова, 18: партнёрство MR и Foresight не подтвердилось"
+   },
+   {
+    "url": "/novosti/preobrazhenskiy-val-24k2-galaxy-torgi-ne-podtverzhdeno/",
+    "title": "Преображенский вал, 24 к2: покупка дома-авангарда Galaxy Group за 453 млн ₽ не подтвердилась"
+   },
+   {
+    "url": "/novosti/yuzhnyy-port-ultima-city-ceny-sroki/",
+    "title": "Ultima City в Печатниках: вход подорожал до 19,1 млн ₽, ключи — в 2029"
+   },
+   {
+    "url": "/novosti/level-zvenigorodskaya-vtoroy-etap-ne-podtverzhdeno/",
+    "title": "Level Звенигородская: запуск второго этапа и новая концепция не подтвердились"
+   },
+   {
+    "url": "/novosti/legenda-severnyy-port-lot-6-ceny/",
+    "title": "'«Северный порт» от LEGENDA: лот 6 в продаже, а первая очередь уже +48%'"
+   },
+   {
+    "url": "/novosti/kirpichnye-ulitsy-mangazeya-krt-torgi-ne-podtverzhdeno/",
+    "title": "КРТ «Кирпичные улицы»: торги с участием Мангазеи не подтвердились"
+   },
+   {
+    "url": "/novosti/shabolovka-35-lsr-koncepciya-bashni-shabolovskaya/",
+    "title": "Шаболовка, 35 от ЛСР: башни вместо долгостроя-телецентра — пока на рендерах"
+   },
+   {
+    "url": "/novosti/tsandera-14-soglasovanie-ne-podtverzhdeno/",
+    "title": "Цандера, 14: согласование жилого дома 2024 года не подтвердилось"
+   },
+   {
+    "url": "/novosti/one-tower-mr-group-moskva-siti-vysota/",
+    "title": "One Tower в Москва-Сити: башню срезали на 65 м, теперь 90 этажей и 379 м"
+   },
+   {
+    "url": "/novosti/upside-ostankino-ogorodnyy-20a-2-agr-ne-podtverzhdeno/",
+    "title": "Upside Останкино на Огородном, 20А/2: получение АГР в марте 2026 года не подтвердилось"
+   },
+   {
+    "url": "/novosti/vtoroy-nagatinskiy-pik-rost-cen-ne-podtverzhden/",
+    "title": "Второй Нагатинский от ПИК: рост цены с 215 до 400 тыс. ₽/м² не подтвердился"
+   },
+   {
+    "url": "/novosti/foriver-kak-menyalsya-proekt/",
+    "title": "Foriver Residence на Симоновской, 1: шесть домов, пять корпусов, третий хозяин"
+   },
+   {
+    "url": "/novosti/bestseller-baza-prezentaciya-perovskoe-21-sdacha-2028/",
+    "title": "ЖК «Бестселлер» от BAZA на Перовском шоссе: презентация и сдача в 2028-м"
+   },
+   {
+    "url": "/novosti/wave-lsr-vtoraya-ochered-ceny-sroki/",
+    "title": "ЖК Wave от ЛСР: первая очередь сдана, вторая — от 16,6 млн ₽"
+   },
+   {
+    "url": "/novosti/tpu-minskaya-bms-massing-9-zdaniy/",
+    "title": "ТПУ «Минская»: BMS Development показала 9 зданий до 280 м — и не остановилась"
+   },
+   {
+    "url": "/novosti/tpu-minskaya-bms-development-aukcion/",
+    "title": "ТПУ «Минская»: BMS взяла участок за 26,7 млрд ₽ — в 3,5 раза дороже старта"
+   },
+   {
+    "url": "/novosti/krasnolimanskaya-19a-aukcion-dom-rf-ne-podtverzhdeno/",
+    "title": "Краснолиманская, 19А: аукцион ДОМ.РФ в 2019 году не подтверждён"
+   },
+   {
+    "url": "/novosti/pave-forma-temp-prodazh-cena-2025/",
+    "title": "PAVE от Forma: темп 2,5 тыс. м² в месяц и цена 420–430 тыс. ₽/м² не подтвердились"
+   },
+   {
+    "url": "/novosti/krt-vykhino-akvilon-promzona/",
+    "title": "КРТ «Выхино»: Аквилон забрал промзону на 7,31 га под 150 тыс. кв. м жилья"
+   },
+   {
+    "url": "/novosti/krt-teplyy-stan-akvilon-aukcion-24-mln/",
+    "title": "КРТ «Тёплый Стан»: Аквилон забрал 17 га за 24,66 млн ₽ — и без жилья"
+   },
+   {
+    "url": "/novosti/kristall-kak-menyalsya-proekt/",
+    "title": "'«Кристалл» на Самокатной, 4: как менялся проект — жильё ушло, памятник остался'"
+   },
+   {
+    "url": "/novosti/ice-towers-lobachevskogo-3-5-ceny-sroki/",
+    "title": "'ЖК Ice Towers на Лобачевского: три «ледяные» башни ГРАД со сдачей в 2028-м'"
+   },
+   {
+    "url": "/novosti/veshnikh-vod-8-aukcion-24-mlrd/",
+    "title": "Вешних вод, 8: торги на 159 га за 24,2 млрд ₽ выросли в проект на 3 млн м²"
+   },
+   {
+    "url": "/novosti/shukhovskaya-bashnya-razborka-oktyabr-2026/",
+    "title": "Шуховскую башню начнут разбирать в октябре: проект на три года"
+   },
+   {
+    "url": "/novosti/akvilon-signal-rynok-apartamentov-rekord-prodazh/",
+    "title": "Аквилон Сигнал: рекорд продаж апартаментов в октябре 2025 не подтвердился"
+   },
+   {
+    "url": "/novosti/krasnokazarmennaya-15-rve-eskrou-ne-podtverzhdeno/",
+    "title": "Красноказарменная, 15: раскрытие эскроу по корпусу 1.2 не подтвердилось"
+   },
+   {
+    "url": "/novosti/elektrozavod-etalon-snos-sohranenie-fasadov/",
+    "title": "Электрозавод Эталона: ГЗК одобрила снос, фасады обещают оставить"
+   },
+   {
+    "url": "/novosti/2-ya-zvenigorodskaya-13-krt-ultima-ne-podtverzhdeno/",
+    "title": "2-я Звенигородская, 13: КРТ вместо офисов Ultima не подтверждено"
+   },
+   {
+    "url": "/novosti/krasnyy-oktyabr-kak-menyalsya-proekt/",
+    "title": "'«Красный Октябрь» на Берсеневской, 6: как 1 млн м² сжался до 300 резиденций'"
+   },
+   {
+    "url": "/novosti/dom-na-chasovoy-dd-oo-mm-dar-neoklassika/",
+    "title": "«Дом на Часовой» (ДД:ОО:ММ) от DAR: неоклассика СПИЧ вместо трёх башен"
+   },
+   {
+    "url": "/novosti/businovskiy-park-prodazhi-fevral-2025-ne-podtverzhdeno/",
+    "title": "Бусиновский парк и продажи Москвы в феврале 2025: рост из-за демпинга ПИК не подтверждён"
+   },
+   {
+    "url": "/novosti/dushinskaya-7-touch-krt-delovoy-centr-lefortovo/",
+    "title": "'Душинская, 7 в Лефортове: TOUCH встроит Институт стекла в деловой центр'"
+   },
+   {
+    "url": "/novosti/tsvetnoy-30-32-34-sezar-kupil-nedostroy/",
+    "title": "Цветной, 30 32 34: Sezar Group купила недострой Быстрицкой — и снесла его"
+   },
+   {
+    "url": "/novosti/loran-leninskiy-11-stone-lp-holding/",
+    "title": "«Лоран» на Ленинском, 11: клубный дом на 31 квартиру и Stone в доле"
+   },
+   {
+    "url": "/novosti/krt-prospekt-mira-220a-rostokino-gostinica/",
+    "title": "КРТ в Ростокине на проспекте Мира, 220А: гостиница на 72 тыс. м² вместо квартир"
+   },
+   {
+    "url": "/novosti/manufaktura-xix-sminex-ofisy-petra-alekseeva/",
+    "title": "«Мануфактура XIX» от Sminex: офисы в фабрике-памятнике на Петра Алексеева"
+   },
+   {
+    "url": "/novosti/ostankino-business-park-pioner-korpusa-2-3-vvod/",
+    "title": "Ostankino Business Park: «Пионер» ввёл корпуса 2 и 3 — и парк заработал"
+   },
+   {
+    "url": "/novosti/krt-kurskaya-pik-spv-ne-podtverzhdeno/",
+    "title": "КРТ «Верхняя Сыромятническая, 7»: реализацию через ПИК не подтвердили"
+   },
+   {
+    "url": "/novosti/kharkovskiy-1-9-krt-torgi-ne-podtverzhdeno/",
+    "title": "КРТ «Харьковский проезд, 1–9»: торги на 22,79 га в Бирюлёве Западном не подтвердились"
+   },
+   {
+    "url": "/novosti/proektiruemyy-4062-8-aukcion-uchastok-1-6-ga/",
+    "title": "Проектируемый проезд № 4062, 8: 200 тыс. м² на 1,6 га — и тишина после торгов"
+   },
+   {
+    "url": "/novosti/mig-krt-125-aukcion-boktinskiy-proezd-7/",
+    "title": "МиГ на Ленинградке: КРТ № 125 на 63,55 га за 988 млн ₽ — дёшево лишь на бумаге"
+   },
+   {
+    "url": "/novosti/level-voykovskaya-staropetrovskiy-ceny-sroki/",
+    "title": "Level Войковская на Старопетровском: студии дорожают быстрее, чем растут башни"
+   },
+   {
+    "url": "/novosti/akademika-skryabina-21-syntaxspace-koncepciya/",
+    "title": "Академика Скрябина, 21: концепция бюро syntaxspace с башней на 75 этажей"
+   },
+   {
+    "url": "/novosti/mitinskiy-les-korpus-14-pik-ceny/",
+    "title": "«Митинский лес», корпус 14: студии от 10,9 млн ₽, сдача в IV квартале 2028-го"
+   },
+   {
+    "url": "/novosti/dosflota-10-kak-menyalsya-proekt/",
+    "title": "Досфлота, 10: как менялся проект в Северном Тушине с 2021 по 2026 год"
+   },
+   {
+    "url": "/novosti/ever-obrucheva-23-start-prodazh-ne-podtverzhdeno/",
+    "title": "EVER на Обручева, 23: старт продаж 29 марта 2021 года не подтвердился"
+   },
+   {
+    "url": "/novosti/onezhskiy-val-pik-start-prodazh-ceny/",
+    "title": "ЖК «Онежский вал» от ПИК: за год вход подорожал с 11,9 до 17,1 млн ₽"
+   },
+   {
+    "url": "/novosti/dom-na-dzhalilya-a101-zyablikovo-ceny/",
+    "title": "Дом на Джалиля от А101 в Зябликове: студии от 18,7 млн ₽ и замах на бизнес-класс"
+   },
+   {
+    "url": "/novosti/icity-ofisy-povyshenie-cen-aprel-2024/",
+    "title": "iCity и другие офисные проекты Москвы: повышение цен в апреле 2024 года"
+   },
+   {
+    "url": "/novosti/krylatskaya-2-granard-ofisy-190-tys-ne-podtverzhdeno/",
+    "title": "Крылатская, 2: офисный комплекс «Гранарда» на 190 тыс. м² не подтвердился"
+   },
+   {
+    "url": "/novosti/kashirskoe-shosse-transyuzhstroy-tabachnaya-fabrika/",
+    "title": "Трансюжстрой на Каширке: кристалл на 123,5 тыс. м² вместо табачной фабрики"
+   },
+   {
+    "url": "/novosti/mangazeya-na-rechnom-severnyy-port-ceny-apex/",
+    "title": "«Мангазея на Речном» в Северном порту: метр подорожал с 364 до 584 тыс. ₽"
+   },
+   {
+    "url": "/novosti/seliger-siti-finalnaya-ochered-razreshenie/",
+    "title": "Селигер Сити: MR Group получила разрешение на последние три башни"
+   },
+   {
+    "url": "/novosti/rozhdestvenka-8-start-prodazh-2027-ne-podtverzhdeno/",
+    "title": "Рождественка, 8: перенос старта продаж на 2027 год не подтвердился"
+   },
+   {
+    "url": "/novosti/ddu-moskva-yanvar-2026-ipoteka-luchi/",
+    "title": "'Новостройки Москвы в январе 2026: ДДУ вдвое меньше, ипотека — 67%'"
+   },
+   {
+    "url": "/novosti/avtozavodskaya-22-a22-konsol-start-prodazh/",
+    "title": "ЖК А22 на Автозаводской, 22 стал «Даниловским от Гранель»: ввод — в 2030-м"
+   },
+   {
+    "url": "/novosti/malyy-levshinskiy-7-coldy-klubnyy-dom/",
+    "title": "Малый Левшинский, 7: клубный дом КОЛДИ на 15 квартир — теперь официально"
+   },
+   {
+    "url": "/novosti/pentagram-bolshoy-kozihinskiy-31-palladio/",
+    "title": "'Pentagram на Большом Козихинском, 31: четыре резиденции у Патриарших'"
+   },
+   {
+    "url": "/novosti/novaya-11-element-development-ceny-sroki/",
+    "title": "'«Новая, 11» от Element Development: цены и сроки — Петербург выходит на Яузу'"
+   },
+   {
+    "url": "/novosti/legenda-severnyy-port-vhod-v-proekt-2022/",
+    "title": "'LEGENDA в «Северном порту»: как петербуржцы вошли в проект'"
+   },
+   {
+    "url": "/novosti/dom-na-chasovoy-dar-ceny-sroki/",
+    "title": "ЖК «Дом на Часовой» (DD:OO:MM) от Dar: студии от 21,8 млн ₽ и три версии срока"
+   },
+   {
+    "url": "/novosti/publitsist-ddu-noyabr-2025-ne-podtverzhdeno/",
+    "title": "Публицист: 204 ДДУ в ноябре 2025 года и цена 190 тыс. ₽/м² не подтвердились"
+   },
+   {
+    "url": "/novosti/beregovoy-glavstroy-rost-cen-130-ne-podtverzhdeno/",
+    "title": "Береговой от Главстроя: рост цены на 130% и разбор рассылки не подтвердились"
+   },
+   {
+    "url": "/novosti/geliymash-sminex-koncepciya-ne-podtverzhdena/",
+    "title": "Гелиймаш, Автозаводская, 25: согласование концепции Sminex не подтвердилось"
+   },
+   {
+    "url": "/novosti/marilnn-park-etalon-start-prodazh-ceny/",
+    "title": "Marilnn Park от «Эталона»: на месте АТС в Марьиной Роще — метр за 711 тысяч"
+   },
+   {
+    "url": "/novosti/meteor-capital-group-zdaniya-stadiona/",
+    "title": "Стадион «Метеор» на Генерала Ермолова: Capital Group купила здания, но не поле"
+   },
+   {
+    "url": "/novosti/kashirskoe-shosse-76a-krt-renovaciya/",
+    "title": "'КРТ на Каширском шоссе, 76а: та же земля, реновации — 45,9 тыс. м² вместо 37'"
+   },
+   {
+    "url": "/novosti/mira-cena-700-tys-candera-14-3s-group/",
+    "title": "Цандера, 14: проект перешёл от «Трансстройинвеста» к 3S Group, МИRA от MR Group — 700 тыс. ₽/м²"
+   },
+   {
+    "url": "/novosti/tpu-lianozovo-torgi-561-tys-m2/",
+    "title": "ТПУ Лианозово: торги на 561 тыс. м² жилья не подтвердились"
+   },
+   {
+    "url": "/novosti/hamovniki-12-truzhenikov-12-coldy-neoklassika/",
+    "title": "«Хамовники 12» от Coldy: неоклассика Герасимова на 1-м Тружеников, 12"
+   },
+   {
+    "url": "/novosti/presnenskiy-val-27-okn-isklyuchenie-ne-podtverzhdeno/",
+    "title": "Пресненский вал, 27: массовое исключение зданий завода из перечня ОКН не подтвердилось"
+   },
+   {
+    "url": "/novosti/mangazeya-v-bogorodskom-blagoustroystvo-dvora/",
+    "title": "«Мангазея в Богородском»: согласование благоустройства двора не подтвердилось"
+   },
+   {
+    "url": "/novosti/bolshaya-ordynka-25-snos-ats-ne-podtverzhden/",
+    "title": "Большая Ордынка, 25: снос АТС в сентябре 2025 года не подтвердился"
+   },
+   {
+    "url": "/novosti/baumanskaya-53-rks-auktsion-2-9-mlrd/",
+    "title": "Бауманская, 53: РКС продаёт три участка с 16 зданиями за 2,9 млрд ₽"
+   },
+   {
+    "url": "/novosti/mangazeya-severnyy-port-fasady-ne-podtverzhdeno/",
+    "title": "Северный порт: фасады «Мангазеи» и продажи по 590 тыс. ₽/м² не подтвердились"
+   },
+   {
+    "url": "/novosti/skuratov-ramenki-gsk-pyat-vysotok-ne-podtverzhdeno/",
+    "title": "Раменки: пять проектов Скуратова на месте ГСК, башня на Мичуринском, 54 — без подтверждения"
+   },
+   {
+    "url": "/novosti/elektrozavod-afk-sistema-kupila-gruppu/",
+    "title": "Электрозавод: АФК «Система» купила группу за 24,7 млрд ₽, а в 2026-м там снос"
+   },
+   {
+    "url": "/novosti/brateevo-krt-221-tys-kvartir-ledovaya-arena/",
+    "title": "КРТ в Братеево: 25,6 га, 222 тыс. м² квартир и ледовая арена"
+   },
+   {
+    "url": "/novosti/semeynaya-ipoteka-s-1-oktyabrya-stavki-limity/",
+    "title": "'Семейная ипотека с 1 октября 2026: от 2% до 12% — смотря сколько детей'"
+   },
+   {
+    "url": "/novosti/pavlovskaya-18-krt-sr-development-ne-podtverzhdeno/",
+    "title": "Павловская, 18 и 27/29: победитель торгов по КРТ — не подтверждено"
+   },
+   {
+    "url": "/novosti/kostomarovskiy-3-kleinewelt-variant-zastroyki/",
+    "title": "'Костомаровский, 3: третий вариант застройки участка Balchug Estate'"
+   },
+   {
+    "url": "/novosti/moskva-ddu-sentyabr-2025-shagal-lider/",
+    "title": "Регистрации ДДУ в Москве в сентябре 2025: лидер «Шагал» не подтверждён"
+   },
+   {
+    "url": "/novosti/zhk-svet-dominanta-dmitrovskoe-83a-ceny-sroki/",
+    "title": "ЖК «Свет» от Dominanta: башня 180 м и 99 машино-мест на 662 квартиры"
+   },
+   {
+    "url": "/novosti/starosyrovo-mcd-ostafevo-proekt-zastroyki/",
+    "title": "Старосырово у МЦД Остафьево: проект застройки на 45 га"
+   },
+   {
+    "url": "/novosti/nekrasovka-ppt-gzk-ne-podtverzhdeno/",
+    "title": "Некрасовка: обновление ППТ на ГЗК в марте 2023 года и 1,9 млн м² жилья не подтвердились"
+   },
+   {
+    "url": "/novosti/strogino-360-pik-ceny-sroki/",
+    "title": "«Строгино 360» от ПИК: квартиры от 17 млн ₽, сдача в 2028–2029 годах"
+   },
+   {
+    "url": "/novosti/legenda-severnyy-port-start-prodazh/",
+    "title": "«Северный порт» от LEGENDA: дебют в Москве у воды и 70% первой очереди продано"
+   },
+   {
+    "url": "/novosti/mangazeya-pioner-otkrytoe-shosse-9-sdelka/",
+    "title": "«Мангазея» купила у «Пионера» ТПУ на Открытом шоссе, 9: сумма осталась за кадром"
+   },
+   {
+    "url": "/novosti/river-park-kak-menyalsya-proekt/",
+    "title": "Ривер Парк на Кутузовском проезде, 16: как менялся проект, не подтвердилось"
+   },
+   {
+    "url": "/novosti/varshavskoe-37-nagatinskaya-3a-6-krt-torgi/",
+    "title": "Варшавское, 37 и Нагатинская, 3А/6: город продаёт КРТ на 443,7 тыс. кв. м"
+   },
+   {
+    "url": "/novosti/shagal-etalon-zil-ceny-sroki-sdachi/",
+    "title": "ЖК Шагал от Эталона на ЗИЛе: цены от 17,5 млн ₽ и сроки сдачи"
+   },
+   {
+    "url": "/novosti/tankovyy-4-proekt-zastroyki-lefortovo/",
+    "title": "Танковый, 4 в Лефортове: проект застройки не подтверждён"
+   },
+   {
+    "url": "/novosti/yuzhnoportovaya-3-15-pik-master-plany-ne-podtverzhdeno/",
+    "title": "Южнопортовая, 3-15: четыре мастер-плана ПИК на 400 тыс. м² жилья не подтвердились"
+   },
+   {
+    "url": "/novosti/sev-novyy-arbat-golosovanie-itogi/",
+    "title": "СЭВ на Новом Арбате: москвичи выбрали дом-книжку и небоскрёб-свиток"
+   },
+   {
+    "url": "/novosti/otkrytyy-park-bazis-kupil-chast-pik/",
+    "title": "«Открытый парк»: покупка двух домов у ПИК челябинским «Базисом» не подтверждена"
+   },
+   {
+    "url": "/novosti/levshinskiy-19-tsi-klubnyy-dom-ceny/",
+    "title": "'Клубный дом «Левшинский, 19»: 16 квартир от 200 млн ₽ вместо дома Духовских'"
+   },
+   {
+    "url": "/novosti/krasnyy-oktyabr-koncepciya-kvartala-bashnya-otel/",
+    "title": "«Красный Октябрь» от Гуты: пять бюро, башня и отель Savoy на Балчуге"
+   },
+   {
+    "url": "/novosti/kutuzovskiy-36-zavod-kazakova-gpzu-ne-podtverzhdeno/",
+    "title": "Кутузовский, 36: ГПЗУ на 12 тыс. м² и АГР не подтвердились"
+   },
+   {
+    "url": "/novosti/fenomen-goroda-opovergenie-goroda-ne-podtverzhdeno/",
+    "title": "«Феномен города»: опровержение проекта городом не подтверждено"
+   },
+   {
+    "url": "/novosti/mig-leningradka-35-mlrd-prodazha-2021/",
+    "title": "МиГ на Ленинградке: лот за 35,5 млрд ₽ никто не купил, площадка ушла в КРТ"
+   },
+   {
+    "url": "/novosti/pik-rustaveli-14-novaya-ochered-ceny/",
+    "title": "'«Руставели, 14» от ПИК: новая очередь, метр под 600 тыс. ₽ и сдача в 2029-м'"
+   },
+   {
+    "url": "/novosti/level-work-svobody-light-industrial-tushino/",
+    "title": "'Level work Свободы: на месте Тушинского завода сначала продают лайт-индастриал'"
+   },
+   {
+    "url": "/novosti/aristarkhovskiy-6-megabudka-vtoraya-koncepciya/",
+    "title": "Аристарховский переулок, 6: Megabudka перерисовала клубный дом на Таганке"
+   },
+   {
+    "url": "/novosti/gasheka-12-2-october-group-mr-ne-podtverzhdeno/",
+    "title": "Гашека, 12/2: возврат участка от October Group к MR Group не подтвердился"
+   },
+   {
+    "url": "/novosti/desnareche-kpln-kvartal-bashnya-mayak/",
+    "title": "Деснаречье: квартал бюро KPLN с башней-маяком и восемью корпусами"
+   },
+   {
+    "url": "/novosti/tpu-kosino-biryulevo-passazhirskaya-2-torgi-ne-podtverzhdeno/",
+    "title": "ТПУ «Косино» в Бирюлеве: торги за 56,9 млн ₽ не подтвердились"
+   },
+   {
+    "url": "/novosti/paveletskaya-siti-rns-2020-ne-podtverzhdeno/",
+    "title": "Павелецкая сити: разрешение на строительство в феврале 2020 года не подтвердилось"
+   },
+   {
+    "url": "/novosti/lyalin-18-str-1-pokupka-ne-podtverzhdeno/",
+    "title": "Лялин переулок, 18, стр. 1: покупка здания за 450 млн ₽ не подтвердилась"
+   },
+   {
+    "url": "/novosti/obrucheva-27-tatum-snos-ne-podtverzhden/",
+    "title": "Обручева, 27: снос здания и цена участка в 4,1 млрд ₽ не подтверждены"
+   },
+   {
+    "url": "/novosti/bolshaya-pirogovskaya-51-vesper-348-kvartir-ne-podtverzhdeno/",
+    "title": "Большая Пироговская, 51: проект Vesper на 348 квартир не подтверждён"
+   },
+   {
+    "url": "/novosti/zaozernaya-15a-stadion-lokomotiv-rzhd-prodazha/",
+    "title": "Стадион «Локомотив» на Заозёрной: РЖД отдала участок вдвое дешевле старта"
+   },
+   {
+    "url": "/novosti/tpu-minskaya-prichiny-rosta-cen-dubl/",
+    "title": "'ТПУ «Минская» в заметке о причинах роста цен: торги на 26,7 млрд ₽ уже описаны'"
+   },
+   {
+    "url": "/novosti/milashenkova-2-krt-msu-1-ne-podtverdilos/",
+    "title": "Милашенкова, 2: победитель аукциона по КРТ — МСУ-1 не подтвердился"
+   },
+   {
+    "url": "/novosti/dom-soboleva-mr-peredala-foresight/",
+    "title": "Дом Соболева на Машкова, 18: MR Group ушла, инвестор Foresight достраивает сам"
+   },
+   {
+    "url": "/novosti/repablik-kak-menyalsya-proekt/",
+    "title": "Republic на Пресненском валу, 27: сменился застройщик, а ансамбль устоял"
+   },
+   {
+    "url": "/novosti/siti-2-strana-development-aukcion/",
+    "title": "«Сити-2»: Страна Девелопмент взяла участок за 18,6 млрд ₽ — на 38% выше старта"
+   },
+   {
+    "url": "/novosti/tpu-aviamotornaya-prodazha-proekta-ne-podtverzhdeno/",
+    "title": "ТПУ «Авиамоторная»: продажа проекта за 1 млрд ₽ в декабре 2023 года не подтвердилась"
+   },
+   {
+    "url": "/novosti/2-y-irtyshskiy-dogma-l-bilding-ne-podtverzhdeno/",
+    "title": "2-й Иртышский: покупка части проекта ПИК Догмой не подтвердилась"
+   },
+   {
+    "url": "/novosti/krt-derbenevskaya-pioner-358-tys-zhilya/",
+    "title": "КРТ «Дербеневская» у Павелецкой: «Пионер» строит 358 тыс. м² жилья"
+   },
+   {
+    "url": "/novosti/sreda-pik-otkaz-ot-brenda-forma/",
+    "title": "ПИК отказывается от бренда «Среда»: проекты с 1 августа 2026 года переходят в Forma"
+   },
+   {
+    "url": "/novosti/ogorodnyy-proezd-mr-group-koncepciya-ne-podtverdilas/",
+    "title": "Огородный проезд: концепция MR Group под новое КРТ не подтвердилась"
+   },
+   {
+    "url": "/novosti/volokolamskoe-32-forma-ofis-krt/",
+    "title": "Волоколамское, 32 в Щукине: офисная башня Forma вышла на продажи"
+   },
+   {
+    "url": "/novosti/kod-savelovskiy-novaya-era-start-ne-podtverzhden/",
+    "title": "«Код Савеловский»: подготовка старта продаж «Новой Эры» не подтвердилась"
+   },
+   {
+    "url": "/novosti/prokshino-a101-start-prodazh-2020-ceny/",
+    "title": "Прокшино от А101: старт в 2020 году со студиями от 3,95 млн ₽ — дальше дороже"
+   },
+   {
+    "url": "/novosti/dk-metrostroya-kostomarovskiy-3-sud-nadstroyka/",
+    "title": "'ДК Метростроя в Костомаровском, 3: мансарду — под снос, здание — за 20 тыс. ₽'"
+   },
+   {
+    "url": "/novosti/level-zvenigorodskaya-start-prodazh-ceny/",
+    "title": "Level Звенигородская: 64 этажа комфорт+, сдача в 2028-м и последние 112 квартир"
+   },
+   {
+    "url": "/novosti/foriver-residence-sminex-prodal-sibpromstroy/",
+    "title": "'Foriver Residence на Симоновской набережной: Sminex продал, строит Сибпромстрой'"
+   },
+   {
+    "url": "/novosti/hamovniki-parki-i-skvery/",
+    "title": "'Парки и скверы Хамовников: зелень вдоль реки, Лужники и усадьба Трубецких'"
+   },
+   {
+    "url": "/novosti/rassvet-korolev-ofisy-fabrika-kleyna-kr-properties/",
+    "title": "БЦ «Королёв» в квартале «Рассвет»: офисы на продажу в фабрике Клейна 1912 года"
+   },
+   {
+    "url": "/novosti/rizhskiy-gruzovoy-dvor-strana-ne-podtverzhdeno/",
+    "title": "Рижский грузовой двор: передача проекта «Стране Девелопмент» не подтвердилась"
+   },
+   {
+    "url": "/novosti/sberbank-vesper-50-lucky-fairmont-vesper/",
+    "title": "Сбербанк купил 50% в Lucky и Fairmont & Vesper: банк стал совладельцем"
+   },
+   {
+    "url": "/novosti/wave-snizhenie-cen-278-tys-ne-podtverzhdeno/",
+    "title": "Wave на Борисовских прудах: падение цены до 278 тыс. ₽/м² не подтвердилось"
+   },
+   {
+    "url": "/novosti/razryv-cen-novostroek-moskva-podmoskove/",
+    "title": "'Цены на новостройки Москвы и области: столица дороже в 2,5 раза и не тормозит'"
+   },
+   {
+    "url": "/novosti/nays-loft-avtomobilnyy-4-parametry-start-stroyki/",
+    "title": "N'ICE LOFT на Автомобильном, 4: 87,8 тыс. м² апартаментов и две ледовые арены"
+   },
+   {
+    "url": "/novosti/ostrov-donstroy-shestoy-kvartal-start-prodazh/",
+    "title": "'ЖК «Остров»: Донстрой вывел в продажу шестой квартал'"
+   },
+   {
+    "url": "/novosti/dmitrovskoe-nebo-nov-ochered-vizualy-ne-podtverzhdeno/",
+    "title": "«Дмитровское небо»: визуализации новой очереди ЛСР не подтверждены"
+   },
+   {
+    "url": "/novosti/stremlenie-k-svetu-ilimskaya-3-vtoraya-ochered-prodazha/",
+    "title": "Стремление к свету: Севен санс продаёт вторую очередь на Илимской, 3"
+   },
+   {
+    "url": "/novosti/paveletskaya-naberezhnaya-6-am-development/",
+    "title": "Павелецкая набережная, 6: «АМ Девелопмент» взяла больницу №56 втрое дороже"
+   },
+   {
+    "url": "/novosti/vagonoremont-osnova-krt-aukcion/",
+    "title": "КРТ «Вагоноремонт» в Дегунине: «Основа» выиграла 15 га, цену город не назвал"
+   },
+   {
+    "url": "/novosti/frunzenskaya-30-sminex-ceny-ocheredi-sroki/",
+    "title": "«Фрунзенский» от Sminex: вход от 159,2 млн ₽ и ключи с разницей в два года"
+   },
+   {
+    "url": "/novosti/ridzh-strana-start-prodazh-ne-podtverdilsya/",
+    "title": "Страна Девелопмент: цифры продаж в «Аурус Резиденции» и «Ридже» не подтвердились"
+   },
+   {
+    "url": "/novosti/kod-sokolniki-novaya-era-ceny-sroki/",
+    "title": "Код Сокольники от «Новой Эры»: бизнес-класс на грузовом дворе, от 20,6 млн ₽"
+   },
+   {
+    "url": "/novosti/starovagankovskiy-17-mr-prodazha-proekta/",
+    "title": "Староваганьковский, 17: продажа проекта MR Group за 3,5 млрд ₽ не подтвердилась"
+   },
+   {
+    "url": "/novosti/siti-2-strana-agr-dve-bashni/",
+    "title": "Сити-2: Страна Девелопмент согласовала АГР двух башен до 384 м — пока без цен"
+   },
+   {
+    "url": "/novosti/hideout-coldy-dominanta-sdelka/",
+    "title": "hideOUT: продажа Coldy не состоялась, проект ведёт Dominanta"
+   },
+   {
+    "url": "/novosti/slobodskoy-6-granel-mr-sdelka-ne-podtverzhdena/",
+    "title": "Слободской, 6: покупка проекта «Гранелью» у MR не подтверждена"
+   },
+   {
+    "url": "/novosti/mnevniki-8-sever-r4s-sdelka-ne-podtverzhdena/",
+    "title": "Мнёвники, 8: покупка проекта «Севером» у R4S не подтвердилась"
+   },
+   {
+    "url": "/novosti/moskva-ddu-oktyabr-noyabr-2025-prodazhi/",
+    "title": "Продажи новостроек Москвы: 5,7 тыс. ДДУ в октябре и 6,1 тыс. в ноябре 2025"
+   },
+   {
+    "url": "/novosti/merzlyakovskiy-22-3-otmena-proekta-ne-podtverzhdena/",
+    "title": "Мерзляковский, 22/3: отмена проекта после протестов не подтверждена"
+   },
+   {
+    "url": "/novosti/stadion-torpedo-vostochnaya-sminex-7-mlrd/",
+    "title": "Стадион «Торпедо» на Восточной: Sminex доплатил 7 млрд ₽ — и арену открыли"
+   },
+   {
+    "url": "/novosti/severnyy-port-capital-kortros-legenda-istoriya/",
+    "title": "Северный порт: от 70 млрд ₽ Capital и «Кортроса» к продажам LEGENDA"
+   },
+   {
+    "url": "/novosti/torzhok-brusnika-vizualizacii-ne-podtverzheno/",
+    "title": "'«Торжок» на МКАД: проект Брусники с башней до 51 этажа не подтверждён'"
+   },
+   {
+    "url": "/novosti/tankovyy-4-lefortovo-fas-isk-minoborony/",
+    "title": "'Танковый, 4 в Лефортове: покупатель идёт в ФАС, а за землю судится Минобороны'"
+   },
+   {
+    "url": "/novosti/tankovyy-4-arest-zemli-sud-dubl/",
+    "title": "Танковый, 4: арест земли по иску Минобороны — событие уже описано"
+   },
+   {
+    "url": "/novosti/sbersiti-ofis-srednerusskogo-banka-ne-podtverzhdeno/",
+    "title": "СберСити: офис Среднерусского банка высотой 80 м не подтвердился"
+   },
+   {
+    "url": "/novosti/vesper-berezhkovskaya-20-fee-developer-ne-podtverzhdeno/",
+    "title": "Vesper, Бережковская, 20: fee-девелопер для офисов не подтверждён"
+   },
+   {
+    "url": "/novosti/artkvartal-169-ga-tri-rayona-ne-podtverzhdeno/",
+    "title": "АртКвартал: 169 га в Басманном, Таганском и Лефортово не подтвердились"
+   },
+   {
+    "url": "/novosti/luzhnetskaya-10a-sminex-prodazha-ofisa-ne-podtverzhdena/",
+    "title": "Лужнецкая, 10А: продажа офиса Sminex целиком за 40 млрд ₽ не подтверждена"
+   },
+   {
+    "url": "/novosti/festivalnaya-4a-capital-group-opcion-krt/",
+    "title": "КРТ на Фестивальной, 4А: невнесённый платёж Capital Group не подтвердился"
+   },
+   {
+    "url": "/novosti/dom-kupca-buloshnikova-bolshaya-nikitskaya-17/",
+    "title": "Дом купца Булошникова на Большой Никитской, 17: реконструкция в жильё"
+   },
+   {
+    "url": "/novosti/tpu-suvorovskaya-konkurs-364-mln/",
+    "title": "ТПУ «Суворовская»: участок на Дурова выставили за 364 млн ₽ — жилья в планах нет"
+   },
+   {
+    "url": "/novosti/molodogvardeyskaya-64-9-mr-plan-ne-podtverzhden/",
+    "title": "Молодогвардейская, 64/9: проект MR на 168 тыс. кв. м и 100 м не подтверждён"
+   },
+   {
+    "url": "/novosti/industrialnye-kvartaly-tri-krt-158-mlrd-ne-podtverzhdeno/",
+    "title": "Индустриальные кварталы: три КРТ на 158 млрд ₽ в апреле 2022 года не подтвердились"
+   },
+   {
+    "url": "/novosti/level-svobody-tushino-list-ozhidaniya/",
+    "title": "Level Свободы в Южном Тушине: год в листе ожидания, а продаж всё нет"
+   },
+   {
+    "url": "/novosti/selskokhozyaystvennaya-5-golos-kupil-proekt-etalona/",
+    "title": "Сельскохозяйственная, 5: «Эталон» передал проект ЖК группе «Голос»"
+   },
+   {
+    "url": "/novosti/gostinitsa-berlin-malaya-yushunskaya-torgi-185-tys-m2/",
+    "title": "Гостиница «Берлин» на Малой Юшуньской: торги за 5,5 млрд ₽ и 185 тыс. м²"
+   },
+   {
+    "url": "/novosti/krt-olenij-val-24-ne-podtverzhdeno/",
+    "title": "КРТ на Оленьем Валу, 24: параметры 1,85 га и 28,7 тыс. м² жилья не подтвердились"
+   },
+   {
+    "url": "/novosti/molzhaninovo-arhsovet-masterplan-ne-podtverzhdeno/",
+    "title": "Молжаниново: утверждение мастерплана Самолёта на архсовете в сентябре 2022 года не подтвердилось"
+   },
+   {
+    "url": "/novosti/fantastic-house-malaya-gruzinskaya-doxodnyy-dom/",
+    "title": "Fantastic House на Малой Грузинской: доходный дом 1908 года стал клубным"
+   },
+   {
+    "url": "/novosti/ilovayskaya-3-fsk-a1-sdelka-sorvalas/",
+    "title": "ФСК на Иловайской, 3: сделка с А1 на 75% проекта сорвалась"
+   },
+   {
+    "url": "/novosti/kombinat-gazety-pravda-rekonstrukciya-sroki/",
+    "title": "Комбинат газеты «Правда» на Правды, 24: реставрация затянулась до 2028 года"
+   },
+   {
+    "url": "/novosti/cityzen-vishnevaya-7-mr-group-ceny-sroki/",
+    "title": "Cityzen на Вишневой, 7 от MR Group: метр в каталогах уже до 736 тыс. ₽"
+   },
+   {
+    "url": "/novosti/vernissage-schipok-start-prodazh-ne-podtverzhdeno/",
+    "title": "VERNISSAGE на Щипке: старт закрытых продаж в марте 2022 года от 570 тыс. ₽/м² не подтвердился"
+   },
+   {
+    "url": "/novosti/kinoteatr-pravda-lyusinovskaya-57-tashir/",
+    "title": "Люсиновская, 57: «Ташир» рисует третью концепцию на месте кинотеатра «Правда»"
+   },
+   {
+    "url": "/novosti/biznes-park-ramenki-razreshenie-ne-podtverzhdeno/",
+    "title": "Бизнес-парк «Раменки» от Донстроя: выдача разрешения на строительство не подтвердилась"
+   },
+   {
+    "url": "/novosti/1-ya-karacharovskaya-8-krt-karacharovo-ne-podtverzhdeno/",
+    "title": "1-я Карачаровская, 8: вхождение участка Основы в КРТ «Карачарово» не подтвердилось"
+   },
+   {
+    "url": "/novosti/era-kak-menyalsya-proekt/",
+    "title": "ERA на Дербеневской, 20: как менялся проект с 2020 по 2026 год"
+   },
+   {
+    "url": "/novosti/vorontsovo-pole-10-auktsion-ne-podtverzhdeno/",
+    "title": "Воронцово Поле, 10: аукцион на участок НИФХИ от 3,3 млрд ₽ не подтвердился"
+   },
+   {
+    "url": "/novosti/river-park-kutuzovskiy-razreshenie-ne-podtverzhdeno/",
+    "title": "River Park Кутузовский: разрешение на строительство 2022 года не подтвердилось"
+   },
+   {
+    "url": "/novosti/apartamenty-moskvy-prodazhi-polugodie-2026/",
+    "title": "Апартаменты Москвы в 1 полугодии 2026 года: продажи упали вдвое, цены — вверх"
+   },
+   {
+    "url": "/novosti/stone-rise-zolotorozhskiy-val-start-prodazh/",
+    "title": "Stone Rise на Золоторожском Валу: студии от 20,5 млн ₽, сдача в 2028 году"
+   },
+   {
+    "url": "/novosti/aktsenty-plus-development-ceny-sroki/",
+    "title": "ЖК «Акценты» в Восточном Дегунине: 598 тыс. ₽ за метр на стадии котлована"
+   },
+   {
+    "url": "/novosti/glorax-business-rimskaya-perovskiy-54/",
+    "title": "Glorax Business Римская: офисы B+ на Перовском проезде, продажи всё ещё «скоро»"
+   },
+   {
+    "url": "/novosti/rechnikov-13-29-krt-ne-podtverzhdeno/",
+    "title": "Речников, 13–29: решение о КРТ на 248 тыс. м² не подтвердилось"
+   },
+   {
+    "url": "/novosti/vern-vernadskogo-10-koncepciya-archivista/",
+    "title": "Верн на Вернадского, 10: концепция Archivista не подтвердилась"
+   },
+   {
+    "url": "/novosti/zatsepa-21-izmenenie-pzz-transstroyinvest/",
+    "title": "Зацепа, 21: смена ПЗЗ и покупка участка Трансстройинвестом не подтвердились"
+   },
+   {
+    "url": "/novosti/krt-derbenevskaya-pioner-14-7-ga-2034/",
+    "title": "КРТ «Дербеневская» от Пионера: 14,7 га у Павелецкой и стройка до 2034 года"
+   },
+   {
+    "url": "/novosti/adts-kommunarka-konkurs-samolet-prizovoy-fond/",
+    "title": "'АДЦ «Коммунарка»: опрос архитекторов о призовом фонде конкурса Самолёта'"
+   },
+   {
+    "url": "/novosti/dom-7-danilovskiy-coldy-ceny-sroki/",
+    "title": "Дом 7 Даниловский от Coldy: 207 квартир, сдача в 2027-м, вход от 39,3 млн ₽"
+   },
+   {
+    "url": "/novosti/veshnikh-vod-8-capital-alliance-ne-podtverzhdeno/",
+    "title": "Вешних вод, 8: передача проекта в Capital Alliance не подтвердилась"
+   },
+   {
+    "url": "/novosti/krt-marshala-zhukova-17-63-ne-podtverzhdeno/",
+    "title": "КРТ «Маршала Жукова, 17-63» в Строгино на 1 млн кв. м: не подтвердилось"
+   },
+   {
+    "url": "/novosti/khamovniki-12-coldy-51-kvartira/",
+    "title": "Хамовники 12 от Coldy: 51 квартира делюкс-класса — дом сдан, продавать нечего"
+   },
+   {
+    "url": "/novosti/sreda-forma-pik-indivo-kutuzovskiy/",
+    "title": "'ПИК растворил «Среду» в Forma: «Среда на Кутузовском» стала «Индиво»'"
+   },
+   {
+    "url": "/novosti/adts-kommunarka-kak-menyalsya-proekt/",
+    "title": "'АДЦ «Коммунарка»: как менялся проект — от единого лота к россыпи зданий'"
+   },
+   {
+    "url": "/novosti/krt-krekshino-vnukovo-aukcion-5-37-mlrd/",
+    "title": "КРТ у Крёкшина во Внуково: город просит 5,37 млрд ₽ за 628 тыс. м²"
+   },
+   {
+    "url": "/novosti/1-y-krasnokursantskiy-3-5-proekt-ne-podtverzhden/",
+    "title": "1-й Краснокурсантский, 3/5: проект с 92 тыс. м² жилья у Екатерининского дворца не подтвердился"
+   },
+   {
+    "url": "/novosti/vern-vernadskogo-10-vizualizacii-bashni/",
+    "title": "ЖК «Верн» на Вернадского, 10: башни 190 и 230 м и шпиль в придачу"
+   },
+   {
+    "url": "/novosti/siti-2-450-m-agr-ne-podtverzhdeno/",
+    "title": "Сити-2: согласование АГР 450-метровой жилой башни не подтвердилось"
+   },
+   {
+    "url": "/novosti/kotlyakovskaya-4-pik-saburovo-2-mln-m2/",
+    "title": "Котляковская, 4: проект ПИК на 2 млн м² в Сабурове не подтвердился"
+   },
+   {
+    "url": "/novosti/zil-vostok-lsr-krt-29-ga/",
+    "title": "«ЗИЛ Восток» от ЛСР: КРТ на 29 га и 525 тыс. м² жилья — пока без продаж"
+   },
+   {
+    "url": "/novosti/aviamotornaya-24-esve-group-ne-podtverzhdeno/",
+    "title": "Авиамоторная, 24: передача офиса ESVE GROUP не подтвердилась"
+   },
+   {
+    "url": "/novosti/ilinskie-luga-pik-top-20-polugodie-2025-ne-podtverzhdeno/",
+    "title": "«Ильинские луга» от ПИК: первое место в ТОП-20 проектов за полугодие 2025 не подтвердилось"
+   },
+   {
+    "url": "/novosti/hamovniki-istoriya-usachevka/",
+    "title": "'История Хамовников: от ткацкой слободы до Усачёвки и клубных домов'"
+   },
+   {
+    "url": "/novosti/kvartal-gertsena-brusnika-vmesto-samoleta/",
+    "title": "Квартал Герцена в Бирюлёве: «Самолёт» начал, «Брусника» достраивает"
+   },
+   {
+    "url": "/novosti/ogorodnyy-20-hutton-ogorodnyy-10-ne-podtverzhdeno/",
+    "title": "Hutton на Огородном, 10: проект на 71 тыс. м² не подтверждён"
+   },
+   {
+    "url": "/novosti/rodina-park-vereyskaya-12-cena-sroki/",
+    "title": "Родина Парк на Верейской, 12: прогноз был 700 тыс. ₽/м², рынок дал 515"
+   },
+   {
+    "url": "/novosti/yuzhnyy-port-krt-27-949-tys-ne-podtverzhdeno/",
+    "title": "Южный порт: КРТ № 27 с 949 тыс. м² жилья в июне 2023 года не подтвердилось"
+   },
+   {
+    "url": "/novosti/republic-presnya-prodazhi-750-tys/",
+    "title": "Republic на Пресненском валу: продажи по 750 тыс. ₽/м² не подтверждены"
+   },
+   {
+    "url": "/novosti/mangazeya-na-tulskoy-aura-ceny-sroki/",
+    "title": "«Мангазея на Тульской», теперь АУРА: из бизнес-класса в премиум за год"
+   },
+   {
+    "url": "/novosti/glorax-status-na-zaozernoy-omsk-krt/",
+    "title": "'GloraX в Омске: «СТАТУС на Заозерной» на Иртыше — ключи раньше школы'"
+   },
+   {
+    "url": "/novosti/tessinskiy-v-element-ceny-sroki/",
+    "title": "'«Тессинский V» от Element: четыре дома, от 85 млн ₽ и сдача в 2029 году'"
+   },
+   {
+    "url": "/novosti/dubininskaya-17-ofis-granel-ne-podtverzhdeno/",
+    "title": "'Дубининская, 17: офисное здание «Гранели» на 21 тыс. м² не подтверждено'"
+   },
+   {
+    "url": "/novosti/sminex-bernikovskaya-12-tagansky-uchastok/",
+    "title": "Sminex на Берниковской, 12: школа на Таганке уступит место клубным домам"
+   },
+   {
+    "url": "/novosti/level-svobody-35-tushino-krt/",
+    "title": "Level Group на Свободы, 35: КРТ в Тушине на 1,1 млн м², половина — не жильё"
+   },
+   {
+    "url": "/novosti/varshavskoe-37-krt-aukcion-duplikat/",
+    "title": "Варшавское, 37 и Нагатинская, 3А/6: торги по КРТ уже описаны в другой статье"
+   },
+   {
+    "url": "/novosti/novaya-ipatovka-23a-krt-koptevo/",
+    "title": "КРТ на Новой Ипатовке, 23А в Коптеве: 67 тыс. кв. м жилья вместо гаражей"
+   },
+   {
+    "url": "/novosti/dorozhnaya-3-krt-chertanovo-promparki/",
+    "title": "КРТ на Дорожной, 3 в Чертанове: 165 тыс. м² под лёгкую промышленность"
+   },
+   {
+    "url": "/novosti/rizhskiy-gruzovoy-dvor-kontseptsiya-kamen/",
+    "title": "Рижский грузовой двор: KAMEN нарисовало «Колизей» и башню на 240 м"
+   },
+   {
+    "url": "/novosti/tishinskiy-bulvar-sminex-ceny-sroki/",
+    "title": "«Тишинский бульвар» от Sminex: от 69 млн ₽ за вход, ключи в 2027–2028 годах"
+   },
+   {
+    "url": "/novosti/staropetrovskiy-gals-biznes-centr-ariada/",
+    "title": "Старопетровский проезд: Галс и Ariada нарисовали четыре башни у Войковской"
+   },
+   {
+    "url": "/novosti/admiral-gals-yuzhnyy-port-fasady-bashen/",
+    "title": "ЖК «Адмирал» от Галса: башни в Южном порту пустили волну"
+   },
+   {
+    "url": "/novosti/rasskazovka-204-sanatoriy-14-torgi-ne-podtverzhdeno/",
+    "title": "Рассказовка, 204: продажу санатория №14 за 971 млн ₽ не подтвердили"
+   },
+   {
+    "url": "/novosti/26-parkvyu-start-prodazh-ceny/",
+    "title": "«26 ПаркВью» на Тимирязевской: MR Group открыла продажи, вход от 30,5 млн ₽"
+   },
+   {
+    "url": "/novosti/amurskiy-park-pik-novaya-ochered-fasady/",
+    "title": "«Амурский парк» от ПИК: упрощение фасадов новой очереди не подтверждено"
+   },
+   {
+    "url": "/novosti/tpu-minskaya-krnt-300-tys-kv-m/",
+    "title": "ТПУ «Минская»: город разрешил 170 м, BMS рисует 333 м"
+   },
+   {
+    "url": "/novosti/sokolnicheskiy-val-1k-aukcion-ne-podtverzhdeno/",
+    "title": "Сокольнический вал, 1К: торги 2022 года и снос академии Спартака не подтвердились"
+   },
+   {
+    "url": "/novosti/akvilon-nexus-yarcevskaya-21-1-ceny-sroki/",
+    "title": "Nexus от Аквилона у «Молодёжной»: вместо офисного узла — жилая башня в 46 этажей"
+   },
+   {
+    "url": "/novosti/mig-zakrytyy-start-prodazh-capital-group/",
+    "title": "МиГ у ТТК: закрытый старт продаж Capital Group не подтверждён"
+   },
+   {
+    "url": "/novosti/slava-zakrytoe-bronirovanie-230-tys-ne-podtverzhdeno/",
+    "title": "Slava: закрытое бронирование по 230 тыс. ₽/м² в 2020 году не подтвердилось"
+   },
+   {
+    "url": "/novosti/bc-pole-leningradskiy-37-dar-ofisy/",
+    "title": "БЦ «Поле» на Ленинградском, 37: Dar меняет ТЦ «Старт» на две офисные башни"
+   },
+   {
+    "url": "/novosti/wave-prognozy-registracii-2022-ne-podtverzhdeno/",
+    "title": "Wave на Борисовских прудах: цены регистраций 2022 года не подтвердились"
+   },
+   {
+    "url": "/novosti/savelovskiy-gruzovoy-dvor-rg-development-ne-podtverzhdeno/",
+    "title": "Грузовой двор у Савеловского: «РГ-Девелопмент» как девелопер жилой части не подтвердился"
+   },
+   {
+    "url": "/novosti/danilovskaya-8-sever-glavstroy-sdelka-ne-podtverzhdena/",
+    "title": "Даниловская набережная, 8: покупка проекта «Севером» у Главстроя не подтвердилась"
+   },
+   {
+    "url": "/novosti/demidov-26-usadba-glavnyy-dom-lot/",
+    "title": "Усадьба Демидова на Новой Басманной: продажа главного дома за 2 млрд ₽ не подтверждена"
+   },
+   {
+    "url": "/novosti/kutuzovskiy-12-14a-kievskaya-ploshchad-bashni/",
+    "title": "Кутузовский, 12, 14А: паруса «Киевской площади» до 250 м и на 370 тыс. м²"
+   },
+   {
+    "url": "/novosti/1-ya-yamskogo-polya-17-ofis-valode-pistre/",
+    "title": "1-я Ямского Поля, 17: офисное здание Valode & Pistre от Вперёд ДВЛ"
+   },
+   {
+    "url": "/novosti/2-ya-zvenigorodskaya-13-krt-shkola-ne-podtverzhdeno/",
+    "title": "2-я Звенигородская, 13: КРТ под школу на 1,5 тыс. мест не подтверждено"
+   },
+   {
+    "url": "/novosti/vysotka-na-zhukova-krost-ceny/",
+    "title": "«Высотка на Жукова» от Кроста: сталинский шпиль, цена выше, сдача — в 2029-м"
+   },
+   {
+    "url": "/novosti/vorontsovo-pole-10-aton-pokupka-ne-podtverzhdena/",
+    "title": "Воронцово Поле, 10: покупка участка Атоном за 3,2 млрд ₽ не подтвердилась"
+   },
+   {
+    "url": "/novosti/kursovoy-12-5-annabels-koncepciya-ne-podtverzhdena/",
+    "title": "Курсовой, 12/5: выбор первой из пяти концепций Annabel's не подтверждён"
+   },
+   {
+    "url": "/novosti/uno-golovinskie-prudy-osnova-start-prodazh/",
+    "title": "UNO.Головинские пруды от Основы: от студий за 7,6 млн ₽ до выдачи ключей"
+   },
+   {
+    "url": "/novosti/promzona-butovo-krt-81-ga-472-tys-zhilya/",
+    "title": "КРТ в промзоне Южное Бутово: 81 га и 472 тыс. м² жилья — без инвестора"
+   },
+   {
+    "url": "/novosti/s5-mr-group-seregina-start-prodazh-2026/",
+    "title": "С5 от MR Group на Серегина: обещали в 2025-м, продают с 2026-го"
+   },
+   {
+    "url": "/novosti/prokshino-a101-prodazhi-noyabr-2025-ne-podtverzhdeny/",
+    "title": "Прокшино от А101: продажи ноября 2025 и цена 400 тыс. ₽/м² не подтверждены"
+   },
+   {
+    "url": "/novosti/zolotye-krylya-mosfilmovskaya-74-78-upside/",
+    "title": "'«Золотые крылья» на Мосфильмовской, 74–78: башни до 42 этажей, цен пока нет'"
+   },
+   {
+    "url": "/novosti/oda-gallery-kutuzovskiy-12-rns-ne-podtverzhdeno/",
+    "title": "oda gallery на Кутузовском, 12: разрешение на строительство для Абсолюта в июле 2023 года не подтвердилось"
+   },
+   {
+    "url": "/novosti/proezd-shlomina-8-prodazha-uchastka-ne-podtverzhdena/",
+    "title": "Проезд Шломина, 8: повторная продажа участка за 350 млн ₽ не подтвердилась"
+   },
+   {
+    "url": "/novosti/eon-varshavskoe-36-pld-start-prodazh/",
+    "title": "ЭОН на Варшавском шоссе, 36: технопарк на 120,8 тыс. кв. м, продажи без цен"
+   },
+   {
+    "url": "/novosti/dom-kino-vasilevskaya-13-terrakotovaya-bashnya/",
+    "title": "«Дом кино» на Васильевской, 13: 28 этажей, 135 м и цены от 1,7 млн ₽/м²"
+   },
+   {
+    "url": "/novosti/kvartal-izdanie-brusnika-perovskoe-shosse-21/",
+    "title": "Квартал «Издание» Брусники на Перовском шоссе, 21: три застройщика, три срока"
+   },
+   {
+    "url": "/novosti/tatum-forma-obrucheva-27-start-prodazh/",
+    "title": "ЖК «Татум» от Forma на Обручева, 27: от 20,6 млн ₽ за вход, ключи в 2029–2030"
+   },
+   {
+    "url": "/novosti/tolbukhina-10-hutton-krt-pegas/",
+    "title": "КРТ на Толбухина, 10: договор Пегаса и роль Hutton не подтверждены"
+   },
+   {
+    "url": "/novosti/rubtsovskaya-3-krt-teps-sokrashcheny/",
+    "title": "Рубцовская, 3: сокращение ТЭП в КРТ не подтвердилось"
+   },
+   {
+    "url": "/novosti/opus-840-tys-9-lotov-ne-podtverzhdeno/",
+    "title": "OPUS на Дербеневской: цена 840 тыс. ₽/м² и 9 зарегистрированных лотов в марте 2023 года не подтвердились"
+   },
+   {
+    "url": "/novosti/kobzon-city-october-group-bauman-11-ofisy/",
+    "title": "KOBZON CITY на Бауманской, 11: October Group продаёт офисы, ввод в 2028 году"
+   },
+   {
+    "url": "/novosti/l67-unikey-leningradskoe-65-67-forma/",
+    "title": "'L67 на Ленинградском шоссе, 65-67: Forma продала завод «КиН» новичку Unikey'"
+   },
+   {
+    "url": "/novosti/akademika-skryabina-21-stroymir/",
+    "title": "Академика Скрябина, 21: покупка участка «СтройМиром» у бывших акционеров МИЦ"
+   },
+   {
+    "url": "/novosti/top-tower-blok-18-etazhey-ne-podtverzhdeno/",
+    "title": "TOP TOWER в Москва-Сити: блок 18 этажей по 930 тыс. ₽/м² не подтверждён"
+   },
+   {
+    "url": "/novosti/one-tower-vysota-376-ne-podtverzhdeno/",
+    "title": "One Tower в Москва-Сити: высота 376 м и поиск покупателя не подтвердились"
+   },
+   {
+    "url": "/novosti/soul-forma-chasovaya-28-start-prodazh/",
+    "title": "Soul от Forma на Часовой, 28: изофабрика Гольца, цены и сроки сдачи до 2029 года"
+   },
+   {
+    "url": "/novosti/yamskogo-polya-30-biznes-centr-wall-agr/",
+    "title": "БЦ на 1-й Ямского Поля, 30: шестигранник Wall над железной дорогой"
+   },
+   {
+    "url": "/novosti/set-veer-verejskaya-29-novaya-ochered/",
+    "title": "'VEER на Верейской, 29: новая очередь MR Group с 72-этажной башней'"
+   },
+   {
+    "url": "/novosti/nagatino-iland-etalon-restart-prodazh/",
+    "title": "Nagatino i-Land: Эталон вывела бывший Central Park в продажу"
+   },
+   {
+    "url": "/novosti/desnarechye-a101-start-prodazh-ne-podtverzhdeno/",
+    "title": "Деснаречье от А101: условия старта продаж 2023 года не подтвердились"
+   },
+   {
+    "url": "/novosti/shabolovka-35-arhitektor-metropolis-ne-podtverzhden/",
+    "title": "Шаболовка, 35: авторство проекта бюро «Метрополис» не подтверждено"
+   },
+   {
+    "url": "/novosti/rozhdestvenka-8-sminex-sdelka-dekabr-2025/",
+    "title": "Рождественка, 8: покупка проекта Галса Sminex уже описана"
+   },
+   {
+    "url": "/novosti/starty-prodazh-2026-s5-masters-muza-ne-podtverzhdeno/",
+    "title": "«С5» на Серегина, 5-7: 138 сделок в июле 2026 года не подтвердились"
+   },
+   {
+    "url": "/novosti/champine-touch-dovzhenko-12-ne-podtverzhdeno/",
+    "title": "Touch и «Довженко, 12»: пополнение портфеля девелопера не подтверждено"
+   },
+   {
+    "url": "/novosti/kristall-samokatnaya-4-bashnya-300-m-ne-podtverzhdeno/",
+    "title": "«Кристалл» на Самокатной, 4: башня 300 м и 260 тыс. м² не подтверждены"
+   },
+   {
+    "url": "/novosti/slava-bank-rossii-100-tys-m2-dubl/",
+    "title": "Слава на Белорусской: три башни под Банк России — событие уже описано"
+   },
+   {
+    "url": "/novosti/bestseller-baza-perovskoe-shosse-21-ceny-sroki/",
+    "title": "ЖК «Бестселлер» от BAZA на Перовском шоссе, 21: студия подорожала до 19,1 млн ₽"
+   },
+   {
+    "url": "/novosti/set-veer-vereyskaya-29-ceny-sroki/",
+    "title": "SET и VEER на Верейской, 29: один участок, две вывески MR Group"
+   },
+   {
+    "url": "/novosti/shabolovka-34-itogi-golosovaniya-bashnya/",
+    "title": "Шаболовка, 34: итоги голосования за архитектуру не подтверждены"
+   },
+   {
+    "url": "/novosti/seliger-siti-tretya-ochered-start-prodazh/",
+    "title": "Селигер Сити, 3-я очередь: MR Group ушла в бизнес-класс, студии от 7,5 млн ₽"
+   },
+   {
+    "url": "/novosti/adc-kommunarka-aukcion-edinym-lotom-3-5-mlrd/",
+    "title": "АДЦ «Коммунарка»: офисы и жильё поровну, одним лотом за 3,5 млрд ₽"
+   },
+   {
+    "url": "/novosti/symphony-34-start-prodazh-252-tys-ne-podtverzhdeno/",
+    "title": "Symphony 34: старт продаж по 250–260 тыс. ₽/м² в 2020 году не подтвердился"
+   },
+   {
+    "url": "/novosti/mig-krt-125-capital-group-dubl/",
+    "title": "МиГ: итог аукциона на КРТ № 125 для Capital Group уже описан"
+   },
+   {
+    "url": "/novosti/strana-zarechnaya-ilovayskaya-ceny-sroki/",
+    "title": "«Страна.Заречная» на Иловайской, 3 в Марьино: десять домов и сдача с 2028 года"
+   },
+   {
+    "url": "/novosti/nice-loft-coldy-dom-sdan-ceny/",
+    "title": "'N''ICE LOFT от Coldy: дом сдан, апартаменты 43,5 м² — за 15 млн ₽'"
+   },
+   {
+    "url": "/novosti/betskoy-vanke-kitaygorodskiy-9-5-ne-podtverzhdeno/",
+    "title": "Китайгородский проезд, 9/5: выход Vanke в Москву через «Бецкой» не подтвердился"
+   },
+   {
+    "url": "/novosti/mig-dinamo-masterplan-krt-capital-group/",
+    "title": "МИГ на Динамо: Capital Group получила КРТ на 1,4 млн м² жилья"
+   },
+   {
+    "url": "/novosti/krt-prospekt-mira-82-92-aukcion/",
+    "title": "КРТ на проспекте Мира, 82–92: билет на 3,21 га у «Рижской» стоит от 155,4 млн ₽"
+   },
+   {
+    "url": "/novosti/kvartal-mons-brusnika-start-prodazh/",
+    "title": "Квартал «МОНС» Брусники на Огородном проезде, 20: старт по 379,9 тыс. ₽/м² не подтверждён"
+   },
+   {
+    "url": "/novosti/tpu-aviamotornaya-torgi-mosinzhproekt/",
+    "title": "ТПУ «Авиамоторная»: торги по проекту и планы Мосинжпроекта"
+   },
+   {
+    "url": "/novosti/novaya-moskva-cena-300-tys-salarevo-park/",
+    "title": "Новая Москва перешла 300 тыс. ₽/м²: цены новостроек и лидерство Саларьево парка"
+   },
+   {
+    "url": "/novosti/ostrov-sber-siti-lidery-prodazh-mart-2026/",
+    "title": "Лидеры продаж новостроек Москвы в марте 2026 года: рейтинг не подтверждён"
+   },
+   {
+    "url": "/novosti/sminex-kupila-inteko-frunzenskaya-30/",
+    "title": "Sminex купила «Интеко» за 38 млрд ₽: как Фрунзенская, 30 сменила хозяина"
+   },
+   {
+    "url": "/novosti/k31-unstudio-glavstroy-konkurs/",
+    "title": "Кржижановского, 31: башни UNStudio для Главстроя стали «Новыми Академиками»"
+   },
+   {
+    "url": "/novosti/kuznechiki-podolsk-torgi-domrf-cena/",
+    "title": "«Кузнечики» в Подольске: ДОМ.РФ уценил долгострой до 2,63 млрд ₽"
+   },
+   {
+    "url": "/novosti/buninskaya-naberezhnaya-pik-start-prodazh-ceny/",
+    "title": "«Бунинская набережная» от ПИК: квартиры у пруда от 12,1 млн ₽, сдача в 2027-м"
+   },
+   {
+    "url": "/novosti/rizhskiy-vokzal-prodazha-rzhd-4-mlrd/",
+    "title": "Рижский вокзал за 4 млрд ₽: РЖД трижды выставила памятник, покупателей ноль"
+   },
+   {
+    "url": "/novosti/2-ya-zvenigorodskaya-13-krt-bez-zhilya-ne-podtverzhdeno/",
+    "title": "2-я Звенигородская, 13: проект КРТ без жилья не подтверждён"
+   },
+   {
+    "url": "/novosti/adts-kommunarka-rascvetay-72-tys-ne-podtverzhdeno/",
+    "title": "АДЦ «Коммунарка»: 72 тыс. м² у «Расцветай» по МаИП не подтверждены"
+   },
+   {
+    "url": "/novosti/krt-renovaciya-letchika-babushkina-ne-podtverzhdeno/",
+    "title": "КРТ на Лётчика Бабушкина, 30: реновационный проект не подтвердился"
+   },
+   {
+    "url": "/novosti/tpu-kaluzhskaya-torgi-212-mln-ne-podtverzhdeno/",
+    "title": "ТПУ «Калужская»: торги за 212 млн ₽ в октябре 2022 года не подтвердились"
+   },
+   {
+    "url": "/novosti/novostroyki-moskvy-aprel-2026-prodazhi-ipoteka/",
+    "title": "Продажи новостроек Москвы в апреле 2026: плюс 4% к марту, минус 30% к году"
+   },
+   {
+    "url": "/novosti/tpu-fili-pobeditel-konkursa-bashkaev-rrg/",
+    "title": "ТПУ «Фили»: Башкаев и RRG выиграли конкурс с небоскрёбом и садами над путями"
+   },
+   {
+    "url": "/novosti/adts-kommunarka-osnova-uchastok-700-tys/",
+    "title": "АДЦ «Коммунарка»: покупка участка ГК «Основа» за 700 тыс. ₽ не подтверждена"
+   },
+   {
+    "url": "/novosti/zhukovka-r4s-uchastok-domrf-aukcion/",
+    "title": "R4S и участок в Жуковке: покупка на аукционе ДОМ.РФ не подтверждена"
+   },
+   {
+    "url": "/novosti/vilyuyskaya-3-monarkh-mr-ne-podtverzhdeno/",
+    "title": "Вилюйская, 3: покупка участка «МонАрхом» у MR не подтвердилась"
+   },
+   {
+    "url": "/novosti/talan-vyshel-v-moskvu-injoy-voykovskiy/",
+    "title": "'Талан вышел в Москву: купил ЖК Injoy на Адмирала Макарова — и сразу в топ-10'"
+   },
+   {
+    "url": "/novosti/krasnyy-oktyabr-guta-cena-1-5-mln-ne-podtverzhdeno/",
+    "title": "Красный Октябрь: официальный выход проекта Гуты и цена до 1,5 млн ₽/м² не подтвердились"
+   },
+   {
+    "url": "/novosti/level-group-sz-volynskaya-aukcion-otkloneno/",
+    "title": "Level Group отклонили на торгах СЗ «Волынская»: старт 4,9 млрд ₽"
+   },
+   {
+    "url": "/novosti/kievskiy-gruzovoy-dvor-ind-oblik-200-m/",
+    "title": "Киевский грузовой двор: согласован облик квартала с башней 200 м"
+   },
+   {
+    "url": "/novosti/nicole-nikolskaya-mr-group-ceny-sroki/",
+    "title": "Nicole на Никольской: от разрешения MR Group до цен от 192 млн ₽"
+   },
+   {
+    "url": "/novosti/bolshaya-ordynka-25-aurix-koncepciya-gzk/",
+    "title": "'«Большая Ордынка, 25»: первую московскую АТС снесут ради клубного дома AURIX'"
+   },
+   {
+    "url": "/novosti/vishnevaya-7-gike-pervaya-ochered-ne-podtverzhdeno/",
+    "title": "Вишнёвая, 7: акт ГИКЭ на первую очередь и «перепродажа проекта» не подтвердились"
+   },
+   {
+    "url": "/novosti/mr-office-cityzen-start-ne-podtverzhden/",
+    "title": "MR Office и офисы Cityzen: объявленный в апреле 2026 года старт не подтвердился"
+   },
+   {
+    "url": "/novosti/klyuchevaya-stavka-za-pyat-let-novostroyki/",
+    "title": "Ключевая ставка с 2021 года: от 6,75% до 21% и 14% — пять лет качелей для новостроек"
+   },
+   {
+    "url": "/novosti/danilovskiy-ot-granel-ceny-sroki-sdachi/",
+    "title": "'«Даниловский от Гранель»: бывший А22 вернулся в продажу от 17,6 млн ₽'"
+   },
+   {
+    "url": "/novosti/kapitalisty-prodali-dubninskaya-83-plyus-development-ne-podtverzhdeno/",
+    "title": "Дубнинская, 83: продажа проекта «Капиталистов» компании «Плюс Девелопмент» не подтвердилась"
+   },
+   {
+    "url": "/novosti/very-miklukho-maklaya-start-prodazh-yurlitsam/",
+    "title": "Very на Миклухо-Маклая: старт продаж юрлицам, а сегодня студии от 18,9 млн ₽"
+   },
+   {
+    "url": "/novosti/volgogradskiy-32-otmena-krt-ne-podtverzhdena/",
+    "title": "Волгоградский, 32: отмена КРТ в марте 2025 года не подтвердилась"
+   },
+   {
+    "url": "/novosti/nizhnyaya-maslovka-17-kak-menyalsya-proekt/",
+    "title": "Нижняя Масловка, 17: как менялся проект с 2019 по 2026 год, не подтвердилось"
+   },
+   {
+    "url": "/novosti/now-tekta-nagatinskaya-poyma-start-ne-podtverzhden/",
+    "title": "Now от Текты в Нагатинской пойме: старт в августе 2019 года не подтвердился"
+   },
+   {
+    "url": "/novosti/kvartal-gertsena-citizenstudio-novaya-ochered/",
+    "title": "Квартал Герцена: архитектура новой очереди от Citizenstudio не подтвердилась"
+   },
+   {
+    "url": "/novosti/cult-varshava-gravion-apartamenty/",
+    "title": "CULT на Ленинском, 2: гостиница «Варшава» стала апартаментами от 44,6 млн ₽"
+   },
+   {
+    "url": "/novosti/rodina-park-vereyskaya-12-start-prodazh-ceny/",
+    "title": "«Родина Парк» на Верейской, 12: метр уже от 515,4 тыс. ₽, сдача уехала в 2028"
+   },
+   {
+    "url": "/novosti/tpu-park-pobedy-tashir-meganom-arhsovet/",
+    "title": "ТПУ «Парк Победы» от Ташира: башня Меганома в 300 м прошла архсовет — и затихла"
+   },
+   {
+    "url": "/novosti/zareche-kak-menyalsya-proekt/",
+    "title": "'Заречье на Шоссейной, 90: сменили владельца и вывеску, вода осталась'"
+   },
+   {
+    "url": "/novosti/bolshoy-tolmachevskiy-5-sminex-aukcion-3-68-mlrd/",
+    "title": "Большой Толмачёвский, 5: Sminex купил участок Гиредмета за 3,68 млрд ₽"
+   },
+   {
+    "url": "/novosti/izdanie-brusnika-perovskoe-shosse-ceny-sroki/",
+    "title": "«Издание» Брусники на Перовском шоссе: первый дом почти продан, второй — к 2030"
+   },
+   {
+    "url": "/novosti/varshavskoe-37-krt-itogi-aukciona-ne-podtverzhdeny/",
+    "title": "Варшавское, 37: итоги аукциона по КРТ (5,4 млрд ₽) не подтвердились"
+   },
+   {
+    "url": "/novosti/bolshaya-bronnaya-23-palladio-ne-podtverzhdeno/",
+    "title": "Большая Бронная, 23: покупка проекта Palladio Group не подтвердилась"
+   },
+   {
+    "url": "/novosti/republic-presnenskiy-val-strana-development/",
+    "title": "'Republic на Пресненском валу: начинала Forma, достраивает «Страна Девелопмент»'"
+   },
+   {
+    "url": "/novosti/s5-bronirovanie-fevral-2026-ne-podtverzhdeno/",
+    "title": "ЖК «С5» на Серегина: открытое бронирование в феврале 2026 не подтвердилось"
+   },
+   {
+    "url": "/novosti/vesper-shabolovka-31-novyy-kvartal-45-mlrd/",
+    "title": "Vesper на Шаболовке, 31: квартал на месте ГПЗ-2, которого всё ещё нет"
+   },
+   {
+    "url": "/novosti/aurum-taym-grad-podbelskogo-start/",
+    "title": "'«Аурум Тайм» от «Града»: старт проекта на 4-м проезде Подбельского, 3'"
+   },
+   {
+    "url": "/novosti/shabolovka-35-kak-menyalsya-proekt/",
+    "title": "Телецентр на Шаболовке: как менялся проект на Шаболовке, 35 с 2024 по 2026"
+   },
+   {
+    "url": "/novosti/krt-grayvoronovo-granel-aukcion/",
+    "title": "КРТ «Грайвороново»: Гранель взяла промзону за 2 млрд ₽ после жаркого торга"
+   },
+   {
+    "url": "/novosti/rozhdestvenka-8-sminex-kupil-proekt-galsa/",
+    "title": "Рождественка, 8: клубный квартал Галса у Кузнецкого Моста перешёл к Sminex"
+   },
+   {
+    "url": "/novosti/yasenevo-krt-golubinskaya-22-karamzina-1/",
+    "title": "КРТ в Ясенево на Голубинской, 22: 230 тыс. м² жилья вместо гаражей"
+   },
+   {
+    "url": "/novosti/shift-pioner-donskoy-start-prodazh-ceny/",
+    "title": "ЖК «Шифт» от Пионера на 2-м Донском: от 0,77 до 1,19 млн ₽ за метр, сдача 2028"
+   },
+   {
+    "url": "/novosti/le-dome-soymonovskiy-3-arhsovet-ne-podtverzhdeno/",
+    "title": "Le Dome на Соймоновском, 3: рассмотрение проекта на Архсовете в декабре 2021 года не подтвердилось"
+   },
+   {
+    "url": "/novosti/salarevo-park-pik-novyy-korpus-353-ne-podtverzhdeno/",
+    "title": "«Саларьево парк» от ПИК: старт корпуса по 353 тыс. ₽/м² не подтверждён"
+   },
+   {
+    "url": "/novosti/michurinskiy-54-k4-renovaciya-47-etazhey-ne-podtverzhdeno/",
+    "title": "Мичуринский, 54, к. 4: реновационная высотка на 47 этажей не подтвердилась"
+   },
+   {
+    "url": "/novosti/ostrov-donstroy-mnevnikovskaya-poyma-ceny/",
+    "title": "'ЖК «Остров» в Мнёвниковской пойме: вход от 21,4 млн ₽, мост и цирк на подходе'"
+   },
+   {
+    "url": "/novosti/sreda-na-kutuzovskom-indivo-forma-ceny/",
+    "title": "«Среда на Кутузовском» стала «Индиво»: проект ПИК переехал к Forma"
+   },
+   {
+    "url": "/novosti/stanciya-l-lyublino-dostroyka-sroki/",
+    "title": "«Станция Л» в Люблине: долгострой Seven Suns сменил достройщика и сроки"
+   },
+   {
+    "url": "/novosti/kombinat-kosmos-grad-novozavodskaya-ne-podtverzhdeno/",
+    "title": "Новозаводская, 12/11: покупка участка «Космос» Градом не подтвердилась"
+   },
+   {
+    "url": "/novosti/sikret-garden-kortros-profsoyuznaya-78/",
+    "title": "«Сикрет Гарден» от Кортроса на Профсоюзной, 78: цены обогнали обещания"
+   },
+   {
+    "url": "/novosti/krt-borovskoe-shosse-novo-peredelkino/",
+    "title": "КРТ у метро «Боровское шоссе»: 8,77 га под квартал, но без оператора и цен"
+   },
+   {
+    "url": "/novosti/uno-gorbunova-osnova-ceny-sroki/",
+    "title": "UNO.Горбунова от Основы: 35 этажей у МЦД «Сетунь», цены от 14,5 млн ₽"
+   },
+   {
+    "url": "/novosti/rublevskaya-rivera-spor-rosimushchestva-ne-podtverzhden/",
+    "title": "Рублёвская Ривьера: суд Росимущества с «БТС-Сервис» из-за участка 7,3 га не подтвердился"
+   },
+   {
+    "url": "/novosti/vagonoremont-osnova-variant-posadki-ne-podtverzhden/",
+    "title": "КРТ «Вагоноремонт»: новый вариант посадки от «Основы» не подтвердился"
+   },
+   {
+    "url": "/novosti/nice-loft-coldy-start-prodazh-apartamentov/",
+    "title": "N'ICE LOFT от Coldy: ночной старт продаж в 2021-м и дом, сданный к 2026-му"
+   },
+   {
+    "url": "/novosti/degunino-likhobory-krt-15-ga-239-tys-zhilya/",
+    "title": "Дегунино-Лихоборы: КРТ на 15,34 га и 239 тыс. м² жилья дошло до котлована"
+   },
+   {
+    "url": "/novosti/omega-residence-fotievoy-5-ceny-sroki/",
+    "title": "Omega Residence на Фотиевой, 5: клубный дом Эталона по 2 млн за метр"
+   },
+   {
+    "url": "/novosti/saltykovskaya-24-hutton-above-ne-podtverzhdeno/",
+    "title": "Салтыковская, 24: проект бюро ABOVE для Hutton не подтверждён"
+   },
+   {
+    "url": "/novosti/zhivopisnaya-27-krt-ne-podtverzhdeno/",
+    "title": "Живописная, 27: включение в КРТ и 127 тыс. м² жилья не подтверждены"
+   },
+   {
+    "url": "/novosti/zorge-30a-krt-shkola-ne-podtverzhdeno/",
+    "title": "Зорге, 30А: КРТ со школой на 1000 мест вместо жилья не подтвердилось"
+   },
+   {
+    "url": "/novosti/strana-ilovayskaya-3-pokupka-8-8-mlrd/",
+    "title": "«Страна» на Иловайской, 3: 13,62 га в Марьино с потолком цены 8,8 млрд ₽"
+   },
+   {
+    "url": "/novosti/pravdy-24-dars-agr-ne-podtverzhden/",
+    "title": "Правды, 24: получение АГР от DARS не подтвердилось"
+   },
+   {
+    "url": "/novosti/ultima-city-kak-menyalsya-proekt/",
+    "title": "'Ultima City на Южнопортовой, 21: девять корпусов в анонсе, две башни в продаже'"
+   },
+   {
+    "url": "/novosti/nizhegorodskaya-level-start-prodazh-ne-podtverzhdeno/",
+    "title": "Level Нижегородская: цены старта продаж в октябре 2023 года не подтвердились"
+   },
+   {
+    "url": "/novosti/soyuz-kak-menyalsya-proekt/",
+    "title": "'«Союз» на Сельскохозяйственной, 26: гостиницы для спортсменов стали жильём'"
+   },
+   {
+    "url": "/novosti/level-zvenigorodskaya-199-m-65-etazhey-ne-podtverzhdeno/",
+    "title": "Level Звенигородская: согласование 82 тыс. м² и башни в 199 м не подтвердилось"
+   },
+   {
+    "url": "/novosti/govorili-ranshe-vsekh-oktyabr-2026/",
+    "title": "Говорили раньше всех: из 13 сигналов рынка новостроек сбылись три"
+   },
+   {
+    "url": "/novosti/obrucheva-30-lsr-start-prodazh-ceny/",
+    "title": "Обручева, 30 от ЛСР: две башни до 197 м и вход в продажи от 9,45 млн ₽"
+   },
+   {
+    "url": "/novosti/capital-alias-razdel-proektov-ne-podtverzhden/",
+    "title": "Capital Group и Alias Group: раздел проектов не подтвердился"
+   },
+   {
+    "url": "/novosti/elektrozavod-etalon-kontseptsiya-fort-ploshchadi/",
+    "title": "'Электрозавод Эталона: «Форт» на 800 тыс. м², а корпуса уже идут под снос'"
+   },
+   {
+    "url": "/novosti/malyy-levshinskiy-7-start-prodazh-ne-podtverzhden/",
+    "title": "Малый Левшинский, 7: старт продаж по 3 млн ₽/м² не подтвердился"
+   },
+   {
+    "url": "/novosti/mig-krt-125-dogovor-capital-group-dubl/",
+    "title": "МиГ: заключение договора о КРТ № 125 уже описано в опубликованных статьях"
+   },
+   {
+    "url": "/novosti/salarevo-park-pik-korpusa-56-68-ne-podtverzhdeno/",
+    "title": "«Саларьево парк» от ПИК: распродажа корпусов 56 и 68 с дисконтом не подтверждена"
+   },
+   {
+    "url": "/novosti/vishnevaya-7-zavod-chernysheva-torgi-cityzen/",
+    "title": "Вишнёвая, 7: завод Чернышева ушёл с торгов за 11 млрд ₽ и стал Cityzen"
+   },
+   {
+    "url": "/novosti/literaturnyy-kvartal-samolet-rasskazovka-ceny-sroki/",
+    "title": "«Литературный квартал» Самолёта в Рассказовке: от 12,9 млн ₽, сдача в 2028-м"
+   },
+   {
+    "url": "/novosti/ddu-moskva-dekabr-2025-spros-semeynaya-ipoteka/",
+    "title": "'ДДУ в Москве в декабре 2025: спрос на 32% вверх, к осени 2026 — откат'"
+   },
+   {
+    "url": "/novosti/5-y-donskoy-21b-dominanty-69-84-etazha/",
+    "title": "5-й Донской, 21Б: две доминанты на 69 и 84 этажа от партнёров Блажко и ГК «Рота»"
+   },
+   {
+    "url": "/novosti/smirnovskaya-1-mr-pokupka-ne-podtverzhdeno/",
+    "title": "Смирновская, 1: покупка здания бывшего факультета МИСИ структурой MR за 228 млн ₽ не подтвердилась"
+   },
+   {
+    "url": "/novosti/nizhegorodskaya-94-4-auktsion-ne-podtverzhdeno/",
+    "title": "Нижегородская, 94/4: аукцион «Единства» со стартом 1,5 млрд ₽ не подтвердился"
+   },
+   {
+    "url": "/novosti/timura-frunze-11-sminex-kupila-kr-plyus/",
+    "title": "Sminex купила у «КР Плюс» проект на Тимура Фрунзе, 11 в Хамовниках"
+   },
+   {
+    "url": "/novosti/mig-kak-menyalsya-proekt/",
+    "title": "МиГ у Динамо: как менялся проект с 2023 по 2026 год, не подтвердилось"
+   },
+   {
+    "url": "/novosti/bts-12-entuziastov-pf-ddu-ne-podtverzhdeno/",
+    "title": "БЦ 12 на Энтузиастов, 12: проектное финансирование и ДДУ не подтвердились"
+   },
+   {
+    "url": "/novosti/novoe-ochakovo-dogma-agr-ne-podtverzhdeno/",
+    "title": "Новое Очаково: АГР участка Догмы на 140 тыс. м² не подтвердился"
+   },
+   {
+    "url": "/novosti/perovskiy-54-glorax-ekspertiza-ne-podtverzhdena/",
+    "title": "Перовский, 54: заключение экспертизы на офисы GloraX не подтверждено"
+   },
+   {
+    "url": "/novosti/savvinskaya-17-kak-menyalsya-proekt/",
+    "title": "Саввинская, 17: как менялся проект, не подтвердилось"
+   },
+   {
+    "url": "/novosti/repablik-36-sdelok-pervyy-mesyac-ne-podtverzhdeno/",
+    "title": "Репаблик на Пресненском валу: 36 сделок за первый месяц продаж не подтвердились"
+   },
+   {
+    "url": "/novosti/luzhniki-collection-absolyut-arhitektory-sroki/",
+    "title": "Luzhniki Collection от Абсолюта: семь бюро, 1,98 млн ₽ за метр, сдача в 2027-м"
+   },
+   {
+    "url": "/novosti/wave-kak-menyalsya-proekt/",
+    "title": "'Wave на Борисовских прудах, 1: четыре башни MR Group выросли в 11 корпусов ЛСР'"
+   },
+   {
+    "url": "/novosti/ofisnye-razrabotchiki-rbk-2025-stone-fsk/",
+    "title": "'Офисные девелоперы Москвы по версии РБК: Stone первый, ФСК — лидер на двух лотах'"
+   },
+   {
+    "url": "/novosti/klimashkina-7-11-mr-group-nirnzee-ceny/",
+    "title": "Климашкина, 7/11 от MR Group: 46 резиденций за фасадом Нирнзее"
+   },
+   {
+    "url": "/novosti/telegraf-vos-hod-prodazhi-ne-podtverzhdeny/",
+    "title": "Телеграф на Тверской, 7: старт продаж апартаментов не подтверждён"
+   },
+   {
+    "url": "/novosti/skladochnaya-1-sport-razvlecheniya-ne-podtverzhdeno/",
+    "title": "Складочная, 1: проект без жилья со спортом и развлечениями не подтвердился"
+   },
+   {
+    "url": "/novosti/molodogvardeyskaya-64-auktsion-ne-podtverzhdeno/",
+    "title": "Молодогвардейская, 64: продажа участка за 1,7 млрд ₽ не подтвердилась"
+   },
+   {
+    "url": "/novosti/avtomotornaya-krt-77-ga-mr-group-874-mln/",
+    "title": "Автомоторная: MR Group взяла КРТ на 77 га в Головинском за 874 млн ₽"
+   },
+   {
+    "url": "/novosti/4-ya-tverskaya-yamskaya-10-klubnyy-dom/",
+    "title": "4-я Тверская-Ямская, 10 и 12: клубный дом вместо медцентра"
+   },
+   {
+    "url": "/novosti/klyuchevaya-stavka-semeynaya-ipoteka-oktyabr-2026/",
+    "title": "Ключевая ставка 14% и новая семейная ипотека: ЦБ притормозил, льгота подорожала"
+   },
+   {
+    "url": "/novosti/krt-avtomotornaya-mr-group-proekt-ne-podtverzhdeno/",
+    "title": "КРТ Автомоторная: проект MR Group со стартом на Войкова, 6 не подтвердился"
+   },
+   {
+    "url": "/novosti/mangazeya-v-bogorodskom-nazare-ceny-sroki/",
+    "title": "'«Мангазея в Богородском», ныне «НАЗАРÉ»: вход подорожал с 8,9 до 15,2 млн ₽'"
+   },
+   {
+    "url": "/novosti/luzhnetskaya-10a-sminex-neoklassika-ofis-faberzhe/",
+    "title": "Лужнецкая, 10А от Sminex: неоклассика с колоннами и офис-яйцо Фаберже"
+   },
+   {
+    "url": "/novosti/yartsevskaya-21-pzz-ofisy-zhile-molodezhnaya/",
+    "title": "Ярцевская, 21: офисы у «Молодёжной» сменили на жильё, строит Аквилон"
+   },
+   {
+    "url": "/novosti/skuratov-vyshel-iz-severnogo-porta-optimizaciya/",
+    "title": "Скуратов ушёл из «Северного порта»: против комфорт-класса и урезанных квартир"
+   },
+   {
+    "url": "/novosti/radio-16s4-ofis-dirizhabl-koncepciya/",
+    "title": "Радио, 16с4: офис-«дирижабль» на участке за 16,2 млн ₽ так и не взлетел"
+   },
+   {
+    "url": "/novosti/bolshaya-pirogovskaya-51-tender-na-snos-ne-podtverzhden/",
+    "title": "Большая Пироговская, 51: тендер на снос общежитий не подтвердился"
+   },
+   {
+    "url": "/novosti/betskoy-rrpk-investor-unverified/",
+    "title": "Betskoy на Китайгородском, 9/5: новый инвестор не подтверждён"
+   },
+   {
+    "url": "/novosti/perovskoe-21-ppt-i-vizualizacii-ne-podtverzhdeny/",
+    "title": "Перовское, 21: ППТ на 700 тыс. м² и башня 175 м от Arch-e-type не подтвердились"
+   },
+   {
+    "url": "/novosti/uzory-capital-alliance-vrazhskiy-ceny/",
+    "title": "Клубный дом «Узоры» в Хамовниках: лоты от 280 млн ₽ и сдача в 2027-м"
+   },
+   {
+    "url": "/novosti/ilinskie-luga-pik-834-ddu-fevral-2025/",
+    "title": "Ильинские луга от ПИК: 834 ДДУ за февраль 2025-го — в 6,4 раза больше соседа"
+   },
+   {
+    "url": "/novosti/demidov-26-basmannyy-bashnya-36-etazhey/",
+    "title": "ЖК «Демидов, 26» на Новой Басманной: 36 этажей у усадьбы, строит «Отрада»"
+   },
+   {
+    "url": "/novosti/1-ya-karacharovskaya-8-osnova-auktsion-ne-podtverzhden/",
+    "title": "1-я Карачаровская, 8: покупка 14 га группой «Основа» не подтвердилась"
+   },
+   {
+    "url": "/novosti/krt-vagonoremont-dubninskaya-torgi-15-ga/",
+    "title": "КРТ «Вагоноремонт» на Дубнинской: 15 га промзоны ушли с молотка под жильё"
+   },
+   {
+    "url": "/novosti/baltiyskaya-8-biomedicinskiy-kampus-muza-form/",
+    "title": "Балтийская, 8 на Соколе: кампус MUZA FORM выиграл конкурс ДОМ.РФ"
+   },
+   {
+    "url": "/novosti/premium-lidery-prodazh-2025-luzhniki-collection/",
+    "title": "Лидеры продаж премиума в 2025 году: рейтинг по числу сделок не подтверждён"
+   },
+   {
+    "url": "/novosti/zil-vostok-lsr-torgi-3-8-mlrd/",
+    "title": "ЛСР купила «ЗИЛ Восток»: 12 га на Автозаводской за 3,78 млрд ₽"
+   },
+   {
+    "url": "/novosti/paveletskaya-siti-tretya-ochered-bashnya-sroki/",
+    "title": "«Павелецкая Сити» на Дубининской, 59: обещали башню в 207 м, продают 29 этажей"
+   },
+   {
+    "url": "/novosti/kuznechiki-podolsk-torgi-dom-rf-ne-sostoyalis/",
+    "title": "Кузнечики под Подольском: торги ДОМ.РФ снова не состоялись — пришли, но молчали"
+   },
+   {
+    "url": "/novosti/shkola-budushchego-2-ya-frunzenskaya-7a-ne-podtverzhdeno/",
+    "title": "Школа будущего на 2-й Фрунзенской, 7А: визуализации и ПИК не подтверждены"
+   },
+   {
+    "url": "/novosti/luzhnetskaya-10a-sminex-kvartal-koncepciya/",
+    "title": "Лужнецкая, 10А: Sminex готовит у «Лужников» неоклассику и офис-«яйцо»"
+   },
+   {
+    "url": "/novosti/zvenigorodskaya-vtoroy-etap-biznes-ne-podtverzhdeno/",
+    "title": "Звенигородская: второй этап Level в бизнес-классе не подтвердился"
+   },
+   {
+    "url": "/novosti/shabolovka-34-kak-menyalsya-proekt/",
+    "title": "Дом-молоток: как менялся проект на Шаболовке, 34 с 2024 по 2026"
+   },
+   {
+    "url": "/novosti/nagornyy-proezd-3-akvilon-ofis-verhnie-kotly/",
+    "title": "Нагорный проезд, 3: мэрия одобрила офис Аквилона на 27 тыс. м² — дальше тишина"
+   },
+   {
+    "url": "/novosti/dmitrovskoe-nebo-lsr-rns-ne-podtverzhdeno/",
+    "title": "«Дмитровское небо»: разрешение на строительство от ЛСР не подтверждено"
+   },
+   {
+    "url": "/novosti/avtozavodskaya-22-koefficient-d-apex-granel/",
+    "title": "'Автозаводская, 22: версия о «коэффициенте Д» и споре с проектировщиком не подтверждена'"
+   },
+   {
+    "url": "/novosti/bolshaya-cherkizovskaya-32b-irga-ne-podtverzhdeno/",
+    "title": "Большая Черкизовская, 32Б: концепция бюро ИРГА с башнями не подтверждена"
+   },
+   {
+    "url": "/novosti/degunino-likhobory-pik-1-035-mlrd-ne-podtverzhdeno/",
+    "title": "Дегунино-Лихоборы: покупка КРТ структурой ПИК за 1,035 млрд ₽ не подтвердилась"
+   },
+   {
+    "url": "/novosti/demidov-26-otrada-novaya-basmannaya-stroyka/",
+    "title": "'«Демидов, 26» на Новой Басманной: MR продала проект «Отраде», башни разрешены'"
+   },
+   {
+    "url": "/novosti/veshnikh-vod-8-capital-group-ppt/",
+    "title": "Вешних Вод, 8: Capital Group готовит ППТ на 176,6 га у Лосиного острова"
+   },
+   {
+    "url": "/novosti/demidov-26-otrada-pokupka-dubl/",
+    "title": "«Демидов, 26»: передача проекта MR Group «Отраде» уже описана"
+   },
+   {
+    "url": "/novosti/om-botanicheskiy-ceny-sroki/",
+    "title": "'«ОМ Ботанический» на Сельскохозяйственной: от 19,3 млн ₽ и котлован до 2029 года'"
+   },
+   {
+    "url": "/novosti/hide-ramenki-razreshenie-na-vvod-ceny/",
+    "title": "ЖК hide в Раменках сдан: три башни по 150 м и метр почти вдвое дороже старта"
+   },
+   {
+    "url": "/novosti/2-y-irtyshskiy-apex-koncepciya-dogma/",
+    "title": "2-й Иртышский: концепция APEX с перепадом высот 18–150 м"
+   },
+   {
+    "url": "/novosti/kristall-samokatnaya-4-bashni-ind/",
+    "title": "Завод «Кристалл» на Самокатной, 4: четыре упрощённые башни вместо проекта IND"
+   },
+   {
+    "url": "/novosti/champine-sosinskaya-43-fabrika-kuhnya-snos/",
+    "title": "ЖК Champine на Сосинской, 43: фабрику-кухню снесли, бизнес-класс сдали"
+   },
+   {
+    "url": "/novosti/mira-mr-group-start-prodazh-ceny/",
+    "title": "ЖК МИRA от MR Group у ВДНХ: метр уже выше старта, сдача — в 2027 году"
+   },
+   {
+    "url": "/novosti/tsvetnoy-30-32-34-sezar-zhk-soglasovanie/",
+    "title": "Цветной, 30-32-34: согласование ЖК Sezar Group (дубль)"
+   },
+   {
+    "url": "/novosti/vorontsov-obukha-3-gk-razvitie-smena-zastroyshchika/",
+    "title": "«Воронцовъ» на Обуха, 3: Sun Development передала проект ГК «Развитие»"
+   },
+   {
+    "url": "/novosti/soyuz-krt-selskokhozyaystvennaya-4-rusanova/",
+    "title": "КРТ на Сельскохозяйственной, 4 и проезде Русанова, 2-6: связь с «Родиной» не подтверждена"
+   },
+   {
+    "url": "/novosti/rizhskiy-gruzovoy-dvor-strana-51-ne-podtverzhdeno/",
+    "title": "Рижский грузовой двор: переход 51% к «Стране Девелопмент» не подтвердился"
+   },
+   {
+    "url": "/novosti/hutorskaya-38a-coldy-krt-ne-podtverzhdeno/",
+    "title": "2-я Хуторская, 38А: покупка участка Coldy и КРТ на 320 тыс. м² не подтвердились"
+   },
+   {
+    "url": "/novosti/krt-beskudnikovo-ilimskaya-standartnaya-77-ga/",
+    "title": "КРТ «Бескудниково» у Илимской: 77 га промзоны превращают в 744 тыс. м² жилья"
+   },
+   {
+    "url": "/novosti/zolotye-krylya-mosfilmovskaya-start-prodazh/",
+    "title": "«Золотые крылья» на Мосфильмовской, 74–78: старт продаж не подтверждён"
+   },
+   {
+    "url": "/novosti/obshchezhitiya-krasnoy-professury-nadstroyka/",
+    "title": "'Общежития красной профессуры на Большой Пироговской: вместо сноса — надстройка'"
+   },
+   {
+    "url": "/novosti/kr-properties-stolyarnyy-3k6-klubnyy-dom/",
+    "title": "Столярный, 3к6: чёрный клубный дом KR Properties на 92 квартиры и 6 пентхаусов"
+   },
+   {
+    "url": "/novosti/mnevnikovskaya-poyma-zastroyka-73-ga/",
+    "title": "Мнёвниковская пойма: 73 га под 1,8 млн м², а мост и академия всё ещё в лесах"
+   },
+   {
+    "url": "/novosti/rizhskiy-vokzal-chetvertye-torgi-ne-podtverzhdeno/",
+    "title": "Рижский вокзал: итог четвёртых торгов не подтвердился"
+   },
+   {
+    "url": "/novosti/city-bay-pacific-mr-group-6-ochered/",
+    "title": "City Bay от MR Group: финальный квартал Pacific — две башни по 59 этажей у воды"
+   },
+   {
+    "url": "/novosti/mayprioriti-paveletskaya-granel-start-prodazh-ceny/",
+    "title": "Майприорити Павелецкая от Гранель: стартовали с 17 млн ₽, срок сдачи не сдвинули"
+   },
+   {
+    "url": "/novosti/symphony-34-mr-group-start-prodazh-sejchas/",
+    "title": "Symphony 34: от 14,6 млн ₽ в 2021-м, а теперь готовые башни у «Дмитровской»"
+   },
+   {
+    "url": "/novosti/kvartal-gertsena-samolet-start-310-tys-ne-podtverzhden/",
+    "title": "Квартал Герцена: старт продаж «Самолёта» по 310 тыс. ₽/м² в декабре 2023 не подтвердился"
+   },
+   {
+    "url": "/novosti/bolshoy-savvinskiy-2-str-7-vektorstroyfinans/",
+    "title": "Большой Саввинский, 2, стр. 7: участок в Хамовниках купила «ВекторСтройФинанс»"
+   },
+   {
+    "url": "/novosti/level-nizhegorodskaya-vtoraya-ochered-ne-podtverzhdeno/",
+    "title": "Level Нижегородская: отказ города по двум башням в 62 этажа не подтверждён"
+   },
+   {
+    "url": "/novosti/rizhskiy-gruzovoy-dvor-strana-ofisy-dkpbv/",
+    "title": "Рижский грузовой двор: офисы Страны от 435 тыс. ₽/м² по ДКПБВ"
+   },
+   {
+    "url": "/novosti/beluck-kolomenskoe-ceny-ne-podtverzhdeno/",
+    "title": "beLuck Коломенское: снижение цен с 411 до 280 тыс. ₽/м² не подтвердилось"
+   },
+   {
+    "url": "/novosti/myur-i-meriliz-stolyarnyy-razreshenie-ne-podtverzhdeno/",
+    "title": "«Мюр и Мерилиз» на Столярном, 3к6: разрешение на стройку и цена от 780 тыс. ₽/м² не подтвердились"
+   },
+   {
+    "url": "/novosti/nametkin-tower-osnova-apartamenty-ceny-sroki/",
+    "title": "Nametkin Tower от Основы на Наметкина, 10: апартаменты подорожали, сдача уехала"
+   },
+   {
+    "url": "/novosti/serp-i-molot-krt-perovskiy-proezd-torgi/",
+    "title": "КРТ на Перовском проезде: 1,7 га «Серпа и Молота» под офисы, инвестор инкогнито"
+   },
+   {
+    "url": "/novosti/starty-prodazh-sentyabr-2026-ddu-ne-podtverzhdeny/",
+    "title": "Старты продаж сентября 2026: рейтинг по числу ДДУ не подтвердился"
+   },
+   {
+    "url": "/novosti/losinoostrovskiy-park-pik-novaya-ochered/",
+    "title": "Лосиноостровский парк: новая очередь ПИК и цена 340 тыс. ₽/м²"
+   },
+   {
+    "url": "/novosti/masters-capital-group-viktorenko-16-ceny/",
+    "title": "'«МАСТЕРС» от Capital Group у «Аэропорта»: продажи идут, прайса нет'"
+   },
+   {
+    "url": "/novosti/demidov-26-novaya-basmannaya-otrada-ceny-sroki/",
+    "title": "«Демидов, 26» на Новой Басманной: «Отрада» вышла в Москву с метром от 1 млн ₽"
+   },
+   {
+    "url": "/novosti/kristall-samokatnaya-4-dominanty-ne-podtverzhdeno/",
+    "title": "Завод «Кристалл» на Самокатной, 4: четыре башни и УВК не подтверждены"
+   },
+   {
+    "url": "/novosti/enigmiya-novoslobodskaya-19-ceny-sroki/",
+    "title": "ЖК «Энигмия» на Новослободской: от 81 млн ₽ за вход и сад на мосту"
+   },
+   {
+    "url": "/novosti/bolshaya-tatarskaya-35-torgi-rosteh-ne-podtverzhdeno/",
+    "title": "Большая Татарская, 35: несостоявшиеся торги Ростеха в августе 2022 года не подтвердились"
+   },
+   {
+    "url": "/novosti/lunar-ceny-do-500-tys-ne-podtverzhdeno/",
+    "title": "Lunar на Ленинском, 38: «цены на стопе» в июле 2022 года не подтвердились"
+   },
+   {
+    "url": "/novosti/elektrozavod-etalon-otvety-sohranenie-fasadov/",
+    "title": "Электрозавод: ответы Эталона о сносе и сохранении фасадов"
+   },
+   {
+    "url": "/novosti/mikoyan-talalikhina-41-krt-zhile/",
+    "title": "КРТ «Талалихина, 41»: вместо Микояновского мясокомбината — 4,3 тыс. квартир"
+   },
+   {
+    "url": "/novosti/stolyarnyy-3-6-october-group-kr-properties/",
+    "title": "Столярный, 3/6: переход проекта от KR Properties к October Group не подтвердился"
+   },
+   {
+    "url": "/novosti/pik-delisting-vykup-aktsiy-551-rubl/",
+    "title": "'ПИК уходит с Мосбиржи: мажоритарий забирает остаток акций по 551,4 ₽'"
+   },
+   {
+    "url": "/novosti/dom-pravdy-pravdy-24-rekonstrukciya-kombinata/",
+    "title": "'Дом Правды на Правды, 24: конструктивизм отреставрируют под отель к 2028 году'"
+   },
+   {
+    "url": "/novosti/krasnolimanskaya-19a-fsk-aukcion-874-mln-ne-podtverzhdeno/",
+    "title": "Краснолиманская, 19А: победа ФСК на торгах ДОМ.РФ за 874 млн ₽ не подтвердилась"
+   },
+   {
+    "url": "/novosti/mnevniki-gpzu-100-tys-kv-m-ne-podtverzhdeno/",
+    "title": "Мневники на Народного Ополчения, 34: ГПЗУ Гранели на 100 тыс. м² не подтвердился"
+   },
+   {
+    "url": "/novosti/pavlovskaya-18-krt-iskra-ne-podtverzhdeno/",
+    "title": "Павловская, 18 и 27/29: КРТ на 54,5 тыс. кв. м — подтверждение не найдено"
+   },
+   {
+    "url": "/novosti/dd-oo-mm-dar-chasovaya-6-start-prodazh/",
+    "title": "'ЖК «Дом на Часовой» (DD:OO:MM) от Dar: СПИЧ, цены от 21,8 млн ₽'"
+   },
+   {
+    "url": "/novosti/novodanilovskaya-8-samolet-start-prodazh/",
+    "title": "Новоданиловская, 8 от Самолёта: 661 апартамент и первый бизнес-класс компании"
+   },
+   {
+    "url": "/novosti/krt-malakhitovaya-16-6-sviblovo-ne-podtverzhdeno/",
+    "title": "КРТ на Малахитовой, 16/6: реновационный проект на 187 тыс. м² не подтвердился"
+   },
+   {
+    "url": "/novosti/bolshaya-pirogovskaya-51-vesper-pokupka-ne-podtverzhdena/",
+    "title": "Большая Пироговская, 51: покупка участка Vesper не подтверждена"
+   },
+   {
+    "url": "/novosti/metronom-kaloshino-start-prodazh-ne-podtverzhdeno/",
+    "title": "Метроном от Брусники в Метрогородке: старт продаж в октябре 2023 года не подтвердился"
+   },
+   {
+    "url": "/novosti/slava-bank-rossii-ofisy-belorusskaya/",
+    "title": "SLAVA у Белорусской: Банк России купил три офисных здания у ВЭБ.РФ"
+   },
+   {
+    "url": "/novosti/normativy-mashino-mest-moskva-2118-pp/",
+    "title": "'Нормативы машино-мест в Москве по 2118-ПП: парковка почти на каждую квартиру'"
+   },
+   {
+    "url": "/novosti/brusnika-ogorodnyy-20-regionaly-ne-podtverzhdeno/",
+    "title": "Региональные застройщики в Москве: обзор марта 2023 года не подтвердился"
+   },
+   {
+    "url": "/novosti/blik-stone-novodanilovskaya-12-start-prodazh/",
+    "title": "ЖК «Блик» от Stone на Новоданиловской: первый премиум и вход от 22,7 млн ₽"
+   },
+   {
+    "url": "/novosti/sezar-silika-start-prodazh-ceny-sroki/",
+    "title": "'«Сезар Силика» после старта продаж: от 22,7 млн ₽, ключи только в 2030 году'"
+   },
+   {
+    "url": "/novosti/avtozavodskaya-22-lsr-konsol-prodazha-ne-podtverzhdena/",
+    "title": "Автозаводская, 22: продажа проекта ЛСР «Консоли» не подтверждена"
+   },
+   {
+    "url": "/novosti/grand-fili-granard-bolshaya-filevskaya-2b/",
+    "title": "«Гранд Фили» от Гранарда на Большой Филевской, 2Б: квартиры от 31 млн ₽"
+   },
+   {
+    "url": "/novosti/tpu-michurinskiy-prospekt-paket-torgov/",
+    "title": "ТПУ «Мичуринский проспект»: Level Group забрал два узла почти по стартовой цене"
+   },
+   {
+    "url": "/novosti/1-ya-frezernaya-2-1-granel-ne-podtverzhdeno/",
+    "title": "1-я Фрезерная, 2/1: продажа участка MR Group Гранели в январе 2023 года не подтвердилась"
+   },
+   {
+    "url": "/novosti/ostrov-prodazhi-pervogo-kvartala-ne-podtverzhdeny/",
+    "title": "«Остров»: 40 тыс. м² продаж и цены от 450 тыс. ₽/м² в квартале 3 не подтвердились"
+   },
+   {
+    "url": "/novosti/slava-kak-menyalsya-proekt/",
+    "title": "'Slava на Ленинградском проспекте, 8: от 17 этажей к 310 метрам за четыре года'"
+   },
+   {
+    "url": "/novosti/molodogvardeyskaya-64-9-kleinewelt-ne-podtverzhdeno/",
+    "title": "Молодогвардейская, 64/9: концепция Kleinewelt для MR с домом в 57 этажей не подтвердилась"
+   },
+   {
+    "url": "/novosti/pravdy-24-voshod-sdelka-ne-podtverzhdena/",
+    "title": "Правды, 24: переход площадки «Правда» к Vos'hod не подтверждён"
+   },
+   {
+    "url": "/novosti/golubinskaya-22-karamzina-1-krt-fond-renovatsii/",
+    "title": "Голубинская, 22 и Карамзина, 1: КРТ в Ясенево перешло Фонду реновации"
+   },
+   {
+    "url": "/novosti/monblan-gals-shlyuzovaya-2-ceny-sroki/",
+    "title": "«Монблан» Галса на Шлюзовой, 2: конструктивизм сохранили, сдачу сдвинули на 2028"
+   }
+  ]
+ }
+}

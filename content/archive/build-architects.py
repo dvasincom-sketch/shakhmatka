@@ -13,6 +13,8 @@ TS = os.path.join(ROOT, 'web', 'src', 'lib', 'architects.ts')
 
 DROP = {'kso', 'ucd', 'severin-group', 'severin', 'tpo-reserv', 'tpo-rezerv'}  # не бюро или связь с проектом не подтверждена текстом
 RENAME = {}  # key → новое название
+# ручные связи для ручных досье (content/objects/dossiers): ключ бюро → [(объект, роль)]
+MANUAL_LINKS = {'adm': [('citi-mix', 'архитектура комплекса')]}
 
 norm = lambda s: re.sub(r'[^a-zа-я0-9]+', '', (s or '').lower().replace('ё', 'е').replace('architects', '').replace('architekten', '').replace('бюро', '').replace('мастерская', ''))
 
@@ -73,6 +75,9 @@ for s in src:
             if ev and not any(e['date'] == ev['date'] and e['title'] == ev['title'] for e in x['events']):
                 x['events'].append({'date': ev['date'], 'title': ev['title'], 'signal': ev.get('certainty') == 'signal'})
 
+for k, links in MANUAL_LINKS.items():
+    if find(k) in merged:
+        for slug, role in links: merged[find(k)]['objects'].setdefault(slug, {'role': role, 'events': []})
 out = []
 for k, m in merged.items():
     if k in DROP or not (m['objects'] or m['articles']): continue

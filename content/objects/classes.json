@@ -905,6 +905,422 @@
    "kind": "каталог",
    "checked": "15.10.2026"
   },
+  "2-y-paveletskiy-4-6": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://novostroy-m.ru/baza/jk_pave",
+   "site": "Новострой-М",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "set": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva/zastroyschik/mr-268784/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "nicole": {
+   "class": "premium",
+   "basis": "catalog",
+   "source": "https://www.cian.ru/novostroyki-premium-klassa-ot-zastroyschika-mr-group-6008-RLTM/",
+   "site": "ЦИАН",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "26-parkvyu": {
+   "class": "premium",
+   "basis": "catalog",
+   "source": "https://www.cian.ru/novostroyki-premium-klassa-ot-zastroyschika-mr-group-6008-RLTM/",
+   "site": "ЦИАН",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "belyy-mys": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://www.novostroy-m.ru/baza/jk_v_chelobitevo_mytischi",
+   "site": "Новострой-М",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "shlyuzovaya-2": {
+   "class": "deluxe",
+   "basis": "catalog",
+   "source": "https://www.sostav.ru/publication/gk-gals-development-predstavila-aromat-elitnogo-zhk-monblan-70758.html",
+   "site": "sostav.ru",
+   "kind": "СМИ",
+   "checked": "15.10.2026"
+  },
+  "pave": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://novostroy-m.ru/baza/jk_pave",
+   "site": "Новострой-М",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "tatum": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://novostroy-m.ru/baza/jk_obrucheva_27",
+   "site": "Новострой-М",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "levensona": {
+   "class": "deluxe",
+   "basis": "catalog",
+   "source": "https://www.novostroy-m.ru/baza/jk_na_trehprudnom_pereulke",
+   "site": "Новострой-М",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "pogodinskaya-24": {
+   "class": "premium",
+   "basis": "catalog",
+   "source": "https://www.novostroy-m.ru/analitika/starty_prodaj_iyun_2026",
+   "site": "Новострой-М",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "akvilon-signal": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://www.novostroy-m.ru/baza/mfk_akvilon_signal",
+   "site": "Новострой-М",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "the-lot": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://www.novostroy-m.ru/panoramy_novostroek/panorama_jk_lot_ot",
+   "site": "Новострой-М",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "triniti": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://www.novostroy-m.ru/kvartiry/trehkomnatnaya-kvartira-v-zhk-triniti-440c1c93bb7b7a275e71132f6e5510",
+   "site": "Новострой-М",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "r4s": {
+   "class": "deluxe",
+   "basis": "catalog",
+   "source": "https://www.novostroy-m.ru/baza/jk_nikitskiy_6",
+   "site": "Новострой-М",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "nikitskiy-6": {
+   "class": "deluxe",
+   "basis": "catalog",
+   "source": "https://www.novostroy-m.ru/baza/jk_nikitskiy_6",
+   "site": "Новострой-М",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "logos": {
+   "class": "premium",
+   "basis": "catalog",
+   "source": "https://www.novostroy-m.ru/baza/klubnyy_dom_logos_logos",
+   "site": "Новострой-М",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "river-park": {
+   "class": "premium",
+   "basis": "catalog",
+   "source": "https://www.novostroy-m.ru/baza/jk_river_park_towers",
+   "site": "Новострой-М",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "river-park-kutuzovskiy": {
+   "class": "premium",
+   "basis": "catalog",
+   "source": "https://www.novostroy-m.ru/baza/jk_river_park_towers",
+   "site": "Новострой-М",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "sbersiti": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://novostroy-m.ru/baza/rublevoarhangelskoe",
+   "site": "Новострой-М",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "sber-siti": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://novostroy-m.ru/baza/rublevoarhangelskoe",
+   "site": "Новострой-М",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "krasnaya-presnya": {
+   "class": "premium",
+   "basis": "catalog",
+   "source": "https://www.novostroy-m.ru/analitika/starty_prodaj_iyun_2026",
+   "site": "Новострой-М",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "novodanilovskaya-8": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://www.cian.ru/novostroyki-biznes-klassa-ot-zastroyschika-gruppa-samolet-6399-RLTM/",
+   "site": "ЦИАН",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "palashevskiy-11": {
+   "class": "deluxe",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/z-sminex-269155/bez-otdelky/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "lavrushinskiy": {
+   "class": "deluxe",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/z-sminex-269155/bez-otdelky/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "frunzenskaya-30": {
+   "class": "deluxe",
+   "basis": "catalog",
+   "source": "https://www.novostroy-m.ru/baza/jk_na_frunzenskoy_30",
+   "site": "Новострой-М",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "chistye-prudy": {
+   "class": "deluxe",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/z-sminex-269155/bez-otdelky/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "obydenskiy-1": {
+   "class": "deluxe",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/z-sminex-269155/bez-otdelky/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "nays-loft": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/z-koldi-319063/s-ipotekoy/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "khamovniki-xii": {
+   "class": "deluxe",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/z-koldi-319063/s-ipotekoy/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "dom-7-danilovskiy": {
+   "class": "deluxe",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/z-koldi-319063/s-ipotekoy/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "level-streshnevo": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://www.novostroy-m.ru/expertise/jk_level_streshnevo",
+   "site": "Новострой-М",
+   "kind": "СМИ",
+   "checked": "15.10.2026"
+  },
+  "streshnevo": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://www.novostroy-m.ru/expertise/jk_level_streshnevo",
+   "site": "Новострой-М",
+   "kind": "СМИ",
+   "checked": "15.10.2026"
+  },
+  "level-michurinskogo": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/z-level-group-521490/stroyashayasya/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "tate": {
+   "class": "premium",
+   "basis": "catalog",
+   "source": "https://www.cian.ru/novostroyki-premium-klassa-ot-zastroyschika-kortros-7043-RLTM/",
+   "site": "ЦИАН",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "profsoyuznaya-78": {
+   "class": "premium",
+   "basis": "catalog",
+   "source": "https://www.novostroy-m.ru/kompanii/gk_kortros",
+   "site": "Новострой-М",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "yuzhnyy-port": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://www.novostroy-m.ru/novosti/masshtabnyy_proekt_v_yujnom",
+   "site": "Новострой-М",
+   "kind": "СМИ",
+   "checked": "15.10.2026"
+  },
+  "rodina-park": {
+   "class": "deluxe",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/z-gruppa-rodina-2226649/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "soyuz": {
+   "class": "deluxe",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/z-gruppa-rodina-2226649/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "rodina-peredelkino": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/z-gruppa-rodina-2226649/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "wow": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://www.novostroy-m.ru/kompanii/strana_development/news/ryadom_wow_blagoustroennayanaberejnaya",
+   "site": "Новострой-М",
+   "kind": "СМИ",
+   "checked": "15.10.2026"
+  },
+  "aura-belorusskaya": {
+   "class": "deluxe",
+   "basis": "catalog",
+   "source": "https://novostroy-m.ru/baza/klubnyy_dom_glorax_aura",
+   "site": "Новострой-М",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "aura-na-belorusskoy": {
+   "class": "deluxe",
+   "basis": "catalog",
+   "source": "https://novostroy-m.ru/baza/klubnyy_dom_glorax_aura",
+   "site": "Новострой-М",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "kami": {
+   "class": "deluxe",
+   "basis": "catalog",
+   "source": "https://www.novostroy-m.ru/analitika/starty_prodaj_aprel_2026",
+   "site": "Новострой-М",
+   "kind": "СМИ",
+   "checked": "15.10.2026"
+  },
+  "vesterdam": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://www.novostroy-m.ru/expertise/jk_vesterdam_ot_inteko",
+   "site": "Новострой-М",
+   "kind": "СМИ",
+   "checked": "15.10.2026"
+  },
+  "sobytie": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-donstroj-21331/semeynaya-ipoteka/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "nachalo": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-donstroj-21331/semeynaya-ipoteka/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "ogorodnyy-20": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-brusnika-285658/bez-otdelky/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "metronom": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-brusnika-285658/bez-otdelky/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "aquatoria": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://www.novostroy-m.ru/baza/jk_aquatoria",
+   "site": "Новострой-М",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "tessinskiy-v": {
+   "class": "deluxe",
+   "basis": "catalog",
+   "source": "https://www.novostroy-m.ru/analitika/starty_prodaj_aprel_2026",
+   "site": "Новострой-М",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "publitsist": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/z-koldi-319063/s-ipotekoy/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "tatarskaya-35": {
+   "class": "deluxe",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-donstroj-21331/semeynaya-ipoteka/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
   "silika": {
    "class": "premium",
    "basis": "article",

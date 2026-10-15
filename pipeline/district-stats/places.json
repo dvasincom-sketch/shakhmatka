@@ -1,0 +1,620 @@
+[
+{
+"key": "moscow",
+"name": "Москва",
+"group": null,
+"okrug": null
+},
+{
+"key": "omskaya-oblast",
+"name": "Омская область",
+"group": null,
+"okrug": null
+},
+{
+"key": "moskovskaya-oblast",
+"name": "Московская область",
+"group": null,
+"okrug": null
+},
+{
+"key": "khoroshevo-mnevniki",
+"name": "Хорошёво-Мнёвники",
+"group": null,
+"okrug": "СЗАО"
+},
+{
+"key": "danilovskiy",
+"name": "Даниловский",
+"group": null,
+"okrug": "ЮАО"
+},
+{
+"key": "zamoskvorechye",
+"name": "Замоскворечье",
+"group": null,
+"okrug": "ЦАО"
+},
+{
+"key": "levoberezhnyy",
+"name": "Левобережный",
+"group": null,
+"okrug": "САО"
+},
+{
+"key": "tekstilshchiki",
+"name": "Текстильщики",
+"group": null,
+"okrug": "ЮВАО"
+},
+{
+"key": "khamovniki",
+"name": "Хамовники",
+"group": null,
+"okrug": "ЦАО"
+},
+{
+"key": "presnenskiy",
+"name": "Пресненский район",
+"group": null,
+"okrug": "ЦАО"
+},
+{
+"key": "basmannyy",
+"name": "Басманный",
+"group": null,
+"okrug": "ЦАО"
+},
+{
+"key": "taganskiy",
+"name": "Таганский район",
+"group": null,
+"okrug": "ЦАО"
+},
+{
+"key": "ramenki",
+"name": "Раменки",
+"group": null,
+"okrug": "ЗАО"
+},
+{
+"key": "ochakovo-matveevskoe",
+"name": "Очаково-Матвеевское",
+"group": null,
+"okrug": "ЗАО"
+},
+{
+"key": "fili-davydkovo",
+"name": "Фили-Давыдково",
+"group": null,
+"okrug": "ЗАО"
+},
+{
+"key": "dorogomilovo",
+"name": "Дорогомилово",
+"group": null,
+"okrug": "ЗАО"
+},
+{
+"key": "ostankinskiy",
+"name": "Останкинский район",
+"group": null,
+"okrug": "СВАО"
+},
+{
+"key": "marina-roshcha",
+"name": "Марьина Роща",
+"group": null,
+"okrug": "СВАО"
+},
+{
+"key": "sokolniki",
+"name": "Сокольники",
+"group": null,
+"okrug": "ВАО"
+},
+{
+"key": "otradnoe",
+"name": "Отрадное",
+"group": null,
+"okrug": "СВАО"
+},
+{
+"key": "lefortovo",
+"name": "Лефортово",
+"group": null,
+"okrug": "ЮВАО"
+},
+{
+"key": "yuzhnoportovyy",
+"name": "Южнопортовый",
+"group": null,
+"okrug": "ЮВАО"
+},
+{
+"key": "donskoy",
+"name": "Донской",
+"group": null,
+"okrug": "ЮАО"
+},
+{
+"key": "lyublino",
+"name": "Люблино",
+"group": null,
+"okrug": "ЮВАО"
+},
+{
+"key": "shchukino",
+"name": "Щукино",
+"group": null,
+"okrug": "СЗАО"
+},
+{
+"key": "aeroport",
+"name": "Аэропорт",
+"group": null,
+"okrug": "САО"
+},
+{
+"key": "alekseevskiy",
+"name": "Алексеевский",
+"group": null,
+"okrug": "СВАО"
+},
+{
+"key": "bibirevo",
+"name": "Бибирево",
+"group": null,
+"okrug": "СВАО"
+},
+{
+"key": "biryulevo-vostochnoe",
+"name": "Бирюлёво Восточное",
+"group": null,
+"okrug": "ЮАО"
+},
+{
+"key": "biryulevo-zapadnoe",
+"name": "Бирюлёво Западное",
+"group": null,
+"okrug": "ЮАО"
+},
+{
+"key": "bogorodskoe",
+"name": "Богородское",
+"group": null,
+"okrug": "ВАО"
+},
+{
+"key": "golovinskiy",
+"name": "Головинский",
+"group": null,
+"okrug": "САО"
+},
+{
+"key": "golyanovo",
+"name": "Гольяново",
+"group": null,
+"okrug": "ВАО"
+},
+{
+"key": "khoroshevskiy",
+"name": "Хорошёвский",
+"group": null,
+"okrug": "САО"
+},
+{
+"key": "kuntsevo",
+"name": "Кунцево",
+"group": null,
+"okrug": "ЗАО"
+},
+{
+"key": "kurkino",
+"name": "Куркино",
+"group": null,
+"okrug": "СЗАО"
+},
+{
+"key": "marino",
+"name": "Марьино",
+"group": null,
+"okrug": "ЮВАО"
+},
+{
+"key": "mitino",
+"name": "Митино",
+"group": null,
+"okrug": "СЗАО"
+},
+{
+"key": "moskovskiy",
+"name": "Московский",
+"group": null,
+"okrug": "НАО"
+},
+{
+"key": "moskvoreche-saburovo",
+"name": "Москворечье-Сабурово",
+"group": null,
+"okrug": "ЮАО"
+},
+{
+"key": "nagatinskiy-zaton",
+"name": "Нагатинский Затон",
+"group": null,
+"okrug": "ЮАО"
+},
+{
+"key": "novo-peredelkino",
+"name": "Ново-Переделкино",
+"group": null,
+"okrug": "ЗАО"
+},
+{
+"key": "obruchevskiy",
+"name": "Обручевский",
+"group": null,
+"okrug": "ЮЗАО"
+},
+{
+"key": "pechatniki",
+"name": "Печатники",
+"group": null,
+"okrug": "ЮВАО"
+},
+{
+"key": "perovo",
+"name": "Перово",
+"group": null,
+"okrug": "ВАО"
+},
+{
+"key": "pokrovskoe-streshnevo",
+"name": "Покровское-Стрешнево",
+"group": null,
+"okrug": "СЗАО"
+},
+{
+"key": "rostokino",
+"name": "Ростокино",
+"group": null,
+"okrug": "СВАО"
+},
+{
+"key": "savelovskiy",
+"name": "Савёловский",
+"group": null,
+"okrug": "САО"
+},
+{
+"key": "severnoe-butovo",
+"name": "Северное Бутово",
+"group": null,
+"okrug": "ЮЗАО"
+},
+{
+"key": "strogino",
+"name": "Строгино",
+"group": null,
+"okrug": "СЗАО"
+},
+{
+"key": "sviblovo",
+"name": "Свиблово",
+"group": null,
+"okrug": "СВАО"
+},
+{
+"key": "teplyy-stan",
+"name": "Тёплый Стан",
+"group": null,
+"okrug": "ЮЗАО"
+},
+{
+"key": "vnukovo",
+"name": "Внуково",
+"group": null,
+"okrug": "ЗАО"
+},
+{
+"key": "vykhino-zhulebino",
+"name": "Выхино-Жулебино",
+"group": null,
+"okrug": "ЮВАО"
+},
+{
+"key": "yasenevo",
+"name": "Ясенево",
+"group": null,
+"okrug": "ЮЗАО"
+},
+{
+"key": "zyablikovo",
+"name": "Зябликово",
+"group": null,
+"okrug": "ЮАО"
+},
+{
+"key": "arbat",
+"name": "Арбат",
+"group": null,
+"okrug": "ЦАО"
+},
+{
+"key": "butyrskiy",
+"name": "Бутырский",
+"group": null,
+"okrug": "СВАО"
+},
+{
+"key": "cheremushki",
+"name": "Черёмушки",
+"group": null,
+"okrug": "ЮЗАО"
+},
+{
+"key": "chertanovo-yuzhnoe",
+"name": "Чертаново Южное",
+"group": null,
+"okrug": "ЮАО"
+},
+{
+"key": "filevskiy-park",
+"name": "Филёвский Парк",
+"group": null,
+"okrug": "ЗАО"
+},
+{
+"key": "gagarinskiy",
+"name": "Гагаринский",
+"group": null,
+"okrug": "ЮЗАО"
+},
+{
+"key": "izmaylovo",
+"name": "Измайлово",
+"group": null,
+"okrug": "ВАО"
+},
+{
+"key": "krasnoselskiy",
+"name": "Красносельский",
+"group": null,
+"okrug": "ЦАО"
+},
+{
+"key": "krylatskoe",
+"name": "Крылатское",
+"group": null,
+"okrug": "ЗАО"
+},
+{
+"key": "kuzminki",
+"name": "Кузьминки",
+"group": null,
+"okrug": "ЮВАО"
+},
+{
+"key": "lianozovo",
+"name": "Лианозово",
+"group": null,
+"okrug": "СВАО"
+},
+{
+"key": "meshchanskiy",
+"name": "Мещанский",
+"group": null,
+"okrug": "ЦАО"
+},
+{
+"key": "mozhayskiy",
+"name": "Можайский",
+"group": null,
+"okrug": "ЗАО"
+},
+{
+"key": "nagatino-sadovniki",
+"name": "Нагатино-Садовники",
+"group": null,
+"okrug": "ЮАО"
+},
+{
+"key": "nagornyy",
+"name": "Нагорный",
+"group": null,
+"okrug": "ЮАО"
+},
+{
+"key": "nizhegorodskiy",
+"name": "Нижегородский",
+"group": null,
+"okrug": "ЮВАО"
+},
+{
+"key": "novogireevo",
+"name": "Новогиреево",
+"group": null,
+"okrug": "ВАО"
+},
+{
+"key": "preobrazhenskoe",
+"name": "Преображенское",
+"group": null,
+"okrug": "ВАО"
+},
+{
+"key": "ryazanskiy",
+"name": "Рязанский",
+"group": null,
+"okrug": "ЮВАО"
+},
+{
+"key": "severnoe-tushino",
+"name": "Северное Тушино",
+"group": null,
+"okrug": "СЗАО"
+},
+{
+"key": "shcherbinka",
+"name": "Щербинка",
+"group": null,
+"okrug": "НАО"
+},
+{
+"key": "sokolinaya-gora",
+"name": "Соколиная Гора",
+"group": null,
+"okrug": "ВАО"
+},
+{
+"key": "solntsevo",
+"name": "Солнцево",
+"group": null,
+"okrug": "ЗАО"
+},
+{
+"key": "sosenskoe",
+"name": "Сосенское",
+"group": null,
+"okrug": "НАО"
+},
+{
+"key": "timiryazevskiy",
+"name": "Тимирязевский",
+"group": null,
+"okrug": "САО"
+},
+{
+"key": "troitsk",
+"name": "Троицк",
+"group": null,
+"okrug": "ТАО"
+},
+{
+"key": "tsaritsyno",
+"name": "Царицыно",
+"group": null,
+"okrug": "ЮАО"
+},
+{
+"key": "tverskoy",
+"name": "Тверской",
+"group": null,
+"okrug": "ЦАО"
+},
+{
+"key": "voykovskiy",
+"name": "Войковский",
+"group": null,
+"okrug": "САО"
+},
+{
+"key": "yakimanka",
+"name": "Якиманка",
+"group": null,
+"okrug": "ЦАО"
+},
+{
+"key": "yaroslavskiy",
+"name": "Ярославский",
+"group": null,
+"okrug": "СВАО"
+},
+{
+"key": "yuzhnoe-butovo",
+"name": "Южное Бутово",
+"group": null,
+"okrug": "ЮЗАО"
+},
+{
+"key": "yuzhnoe-medvedkovo",
+"name": "Южное Медведково",
+"group": null,
+"okrug": "СВАО"
+},
+{
+"key": "yuzhnoe-tushino",
+"name": "Южное Тушино",
+"group": null,
+"okrug": "СЗАО"
+},
+{
+"key": "zapadnoe-degunino",
+"name": "Западное Дегунино",
+"group": null,
+"okrug": "САО"
+},
+{
+"key": "zyuzino",
+"name": "Зюзино",
+"group": null,
+"okrug": "ЮЗАО"
+},
+{
+"key": "begovoy",
+"name": "Беговой",
+"group": null,
+"okrug": "САО"
+},
+{
+"key": "akademicheskiy",
+"name": "Академический",
+"group": null,
+"okrug": "ЮЗАО"
+},
+{
+"key": "babushkinskiy",
+"name": "Бабушкинский",
+"group": null,
+"okrug": "СВАО"
+},
+{
+"key": "nekrasovka",
+"name": "Некрасовка",
+"group": null,
+"okrug": "ЮВАО"
+},
+{
+"key": "koptevo",
+"name": "Коптево",
+"group": null,
+"okrug": "САО"
+},
+{
+"key": "desenovskoe",
+"name": "Десёновское",
+"group": null,
+"okrug": "НАО"
+},
+{
+"key": "ryazanovskoe",
+"name": "Рязановское",
+"group": null,
+"okrug": "НАО"
+},
+{
+"key": "vnukovskoe",
+"name": "Внуковское",
+"group": null,
+"okrug": "НАО"
+},
+{
+"key": "vostochnoe-degunino",
+"name": "Восточное Дегунино",
+"group": null,
+"okrug": "САО"
+},
+{
+"key": "molzhaninovskiy",
+"name": "Молжаниновский",
+"group": null,
+"okrug": "САО"
+},
+{
+"key": "orekhovo-borisovo-yuzhnoe",
+"name": "Орехово-Борисово Южное",
+"group": null,
+"okrug": "ЮАО"
+}
+]

@@ -29,7 +29,14 @@ if status != 'skip':
     if not 140 <= len(d) <= 160: err.append(f'seo.description {len(d)} знаков, нужно 140–160')
     if len(fm.get('title') or '') > 80: err.append('title (H1) длиннее 80 знаков')
     if not re.fullmatch(r'[a-z0-9]+(-[a-z0-9]+){2,7}', str(fm.get('slug') or '')): err.append('slug: латиница через дефис, 3–8 слов')
-    if str(fm.get('date_published'))[:10] != P['date_published']: err.append(f"date_published должна быть {P['date_published']} (дата заметки)")
+    cs = fm.get('confirms_signal') or None
+    if cs:  # статья-подтверждение сигнала: датируется днём первой публикации, подтвердившей сигнал
+        for k in ('note', 'said_on', 'confirmed_on', 'source'):
+            if not cs.get(k): err.append(f'confirms_signal.{k} не заполнено')
+        if str(fm.get('date_published'))[:10] != str(cs.get('confirmed_on'))[:10]: err.append('date_published должна совпадать с confirms_signal.confirmed_on (дата первой подтверждающей публикации)')
+        if str(cs.get('confirmed_on'))[:10] < P['date_published']: err.append('confirmed_on раньше даты сигнала — это не подтверждение, а уже известный факт')
+        if not str(cs.get('source', '')).startswith('http'): err.append('confirms_signal.source — ссылка на подтверждающую публикацию')
+    elif str(fm.get('date_published'))[:10] != P['date_published']: err.append(f"date_published должна быть {P['date_published']} (дата заметки)")
     if str(fm.get('date_modified'))[:10] != P['date_modified']: err.append(f"date_modified должна быть {P['date_modified']}")
     if not 3 <= len(fm.get('faq') or []) <= 5: err.append('FAQ: 3–5 вопросов')
     try:

@@ -7,6 +7,7 @@ import { districtName, plural, priceText, regionName } from './geo'
 import { ThemeToggle } from './client'
 import * as LOGO from './logo-paths'
 
+import { TROUBLE, TROUBLE_BADGE } from './trouble'
 export const SITE = process.env.NEXT_PUBLIC_SITE_URL || 'https://шахматка.москва'
 /** Open Graph для страницы: openGraph страницы целиком заменяет layout-овый, поэтому повторяем общие поля и добавляем og:url */
 export const ogFor = (url: string, title?: string, description?: string) => ({
@@ -152,6 +153,7 @@ export function ObjectCard({ o, im: fallback }: { o: Obj & { cover?: Media }; im
       <div className="tx">
         <div className="row"><StageStrip stage={o.stage} /><span className="st">{stageLabel(o.stage)}</span>{last ? <span className="st when">{MONTHS_SHORT[last.getUTCMonth()]} {last.getUTCFullYear()}</span> : null}</div>
         <h3>{o.name}</h3>
+        {TROUBLE[o.slug] && TROUBLE[o.slug].status !== 'resolved' ? <p className={`tr-badge tr-${TROUBLE[o.slug].status}`}>{TROUBLE_BADGE[TROUBLE[o.slug].status]}</p> : null}
         <p>{[devName(dev?.name), where].filter(Boolean).join(' · ')}</p>
         {price || o.completion ? <p className="facts">{price ? <b>{price}</b> : null}{o.completion ? <span>ввод {o.completion}</span> : null}</p> : null}
         {o.signalCount ? <p className="sig">{o.signalCount} {plural(o.signalCount, 'сигнал', 'сигнала', 'сигналов')} до официальных новостей</p> : null}

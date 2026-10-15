@@ -1023,3 +1023,33 @@ a.pill-q:hover, a.zu:hover { background: var(--line); }
 .arch-card:hover b { text-decoration: underline; text-underline-offset: 3px; }
 .obj-arch { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin-top: 10px; }
 .obj-arch > span { font-size: var(--s-2); text-transform: uppercase; letter-spacing: .06em; color: var(--muted); font-weight: 600; margin-right: 4px; }
+
+.sig-proof { margin-top: 6px; font-weight: 500; color: var(--ink) !important; }
+.sig-proof a { text-decoration: underline; text-underline-offset: 3px; }
+.sig-proof small { color: var(--muted); font-weight: 400; }
+
+/* проблемные проекты */
+.trouble { margin-top: 14px; padding: 16px 18px; display: grid; gap: 8px; border-left: 4px solid var(--coral); background: var(--coral-soft); }
+.trouble.tr-rescue { border-left-color: var(--orange); background: var(--sun-soft); }
+.trouble.tr-resolved { border-left-color: var(--grey); background: var(--soft); }
+.tr-h { display: flex; flex-wrap: wrap; gap: 4px 12px; align-items: baseline; }
+.tr-h b { font-weight: 700; text-transform: uppercase; letter-spacing: .05em; font-size: var(--s-1); color: var(--coral); }
+.tr-rescue .tr-h b { color: var(--orange); }
+.tr-resolved .tr-h b { color: var(--muted); }
+.tr-h span { font-weight: 500; }
+.tr-sum { line-height: 1.5; }
+.tr-facts { list-style: none; margin: 2px 0 0; padding: 0; display: grid; gap: 6px; font-size: var(--s-1); }
+.tr-facts li { display: grid; grid-template-columns: 64px 1fr; gap: 10px; }
+.tr-facts time { color: var(--muted); font-variant-numeric: tabular-nums; }
+.trouble small { color: var(--muted); font-size: var(--s-2); }
+.tr-badge { display: inline-block; font-style: normal; font-size: var(--s-2); font-weight: 600; padding: 2px 8px; border-radius: 999px; background: var(--coral-soft); color: var(--coral); white-space: nowrap; width: fit-content; }
+.tr-badge.tr-rescue { background: var(--sun-soft); color: var(--orange); }
+
+/* район в цифрах */
+.dfig { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 10px; }
+.dfig > .card { padding: 14px 16px; display: grid; gap: 6px; align-content: start; }
+.dfig-n { font-family: var(--f-display); font-size: var(--s2, 26px); line-height: 1.1; }
+.dfig small { color: var(--muted); font-size: var(--s-1); line-height: 1.4; }
+.dfig-list ol { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+.dfig-list li { display: flex; justify-content: space-between; gap: 10px; align-items: baseline; }
+.dfig-list li b { font-variant-numeric: tabular-nums; color: var(--muted); font-weight: 500; }

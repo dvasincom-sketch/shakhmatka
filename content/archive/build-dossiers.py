@@ -139,6 +139,22 @@ for nid, r in M.items():
     for a in r.get('confirms') or []:
         if a in ND and nid in ND and ND[nid] > ND[a]:
             confirmed_by[a] = min(confirmed_by.get(a, ND[nid]), ND[nid])
+# подтверждение сигнала внешним источником — статья с confirms_signal (pipeline/signal-confirm/BRIEF.md)
+import glob as _g, yaml as _y
+CONFIRM_ART = {}
+CONFIRM_OBJ = {}
+for _f in _g.glob(os.path.join(HERE, '..', 'articles', '*.md')):
+    _s = open(_f, encoding='utf-8').read()
+    if 'confirms_signal' not in _s: continue
+    _m = re.match(r'^---\n(.*?)\n---', _s, re.S)
+    try: _fm = _y.safe_load(_m.group(1)) if _m else {}
+    except Exception: continue
+    _cs = _fm.get('confirms_signal') or {}
+    if _fm.get('status') == 'skip' or not _cs.get('note') or not _cs.get('confirmed_on'): continue
+    confirmed_by[int(_cs['note'])] = str(_cs['confirmed_on'])[:10]
+    CONFIRM_ART[int(_cs['note'])] = _fm.get('slug')
+    # подтверждается сигнал только у главного объекта статьи (в заметке могло быть несколько проектов)
+    CONFIRM_OBJ[int(_cs['note'])] = {o.get('id') for o in (_fm.get('objects') or []) if isinstance(o, dict) and o.get('main')}
 
 def plural(n, one, few, many):
     a, b = n % 10, n % 100
@@ -355,6 +371,11 @@ for pf in _glob.glob(os.path.join(HERE, '..', '..', 'pipeline', 'batch-*', 'plan
             for nid in u['notes']: UNCONF.setdefault(nid, UNCONF[u['unit']])
 for nid in CORR.get('_unconfirmed', []): UNCONF.setdefault(int(nid), '2026-10-13')
 REFUTED = {int(x) for x in CORR.get('_refuted', [])}  # не просто не подтвердилось, а опровергнуто источником
+for rec in objects:
+    for t in rec['timeline']:
+        objs_ok = CONFIRM_OBJ.get(t['sourceNote'])
+        if objs_ok and rec['slug'] not in objs_ok and t.get('confirmedOn') == confirmed_by.get(t['sourceNote']) and t['sourceNote'] in CONFIRM_ART:
+            t.pop('confirmedOn', None)
 n_unc = 0
 for rec in objects:
     for t in rec['timeline']:

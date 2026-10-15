@@ -371,6 +371,168 @@
   },
   "nexus": {
    "class": "business"
+  },
+  "citi-mix": {
+   "priceFrom": 10.78,
+   "priceAsOf": "24.08.2026",
+   "priceSource": "Новострой-М, каталог проекта",
+   "completion": "IV кв. 2026"
+  },
+  "2-y-paveletskiy-4-6": {
+   "class": "business"
+  },
+  "set": {
+   "class": "business"
+  },
+  "nicole": {
+   "class": "premium"
+  },
+  "26-parkvyu": {
+   "class": "premium"
+  },
+  "belyy-mys": {
+   "class": "comfort"
+  },
+  "shlyuzovaya-2": {
+   "class": "deluxe"
+  },
+  "pave": {
+   "class": "business"
+  },
+  "tatum": {
+   "class": "business"
+  },
+  "levensona": {
+   "class": "deluxe"
+  },
+  "pogodinskaya-24": {
+   "class": "premium"
+  },
+  "akvilon-signal": {
+   "class": "business"
+  },
+  "the-lot": {
+   "class": "business"
+  },
+  "triniti": {
+   "class": "comfort"
+  },
+  "r4s": {
+   "class": "deluxe"
+  },
+  "nikitskiy-6": {
+   "class": "deluxe"
+  },
+  "logos": {
+   "class": "premium"
+  },
+  "river-park": {
+   "class": "premium"
+  },
+  "river-park-kutuzovskiy": {
+   "class": "premium"
+  },
+  "sbersiti": {
+   "class": "business"
+  },
+  "sber-siti": {
+   "class": "business"
+  },
+  "krasnaya-presnya": {
+   "class": "premium"
+  },
+  "novodanilovskaya-8": {
+   "class": "business"
+  },
+  "palashevskiy-11": {
+   "class": "deluxe"
+  },
+  "lavrushinskiy": {
+   "class": "deluxe"
+  },
+  "frunzenskaya-30": {
+   "class": "deluxe"
+  },
+  "chistye-prudy": {
+   "class": "deluxe"
+  },
+  "obydenskiy-1": {
+   "class": "deluxe"
+  },
+  "nays-loft": {
+   "class": "business"
+  },
+  "khamovniki-xii": {
+   "class": "deluxe"
+  },
+  "dom-7-danilovskiy": {
+   "class": "deluxe"
+  },
+  "level-streshnevo": {
+   "class": "business"
+  },
+  "streshnevo": {
+   "class": "business"
+  },
+  "level-michurinskogo": {
+   "class": "business"
+  },
+  "tate": {
+   "class": "premium"
+  },
+  "profsoyuznaya-78": {
+   "class": "premium"
+  },
+  "yuzhnyy-port": {
+   "class": "comfort"
+  },
+  "rodina-park": {
+   "class": "deluxe"
+  },
+  "soyuz": {
+   "class": "deluxe"
+  },
+  "rodina-peredelkino": {
+   "class": "business"
+  },
+  "wow": {
+   "class": "business"
+  },
+  "aura-belorusskaya": {
+   "class": "deluxe"
+  },
+  "aura-na-belorusskoy": {
+   "class": "deluxe"
+  },
+  "kami": {
+   "class": "deluxe"
+  },
+  "vesterdam": {
+   "class": "comfort"
+  },
+  "sobytie": {
+   "class": "business"
+  },
+  "nachalo": {
+   "class": "business"
+  },
+  "ogorodnyy-20": {
+   "class": "business"
+  },
+  "metronom": {
+   "class": "comfort"
+  },
+  "aquatoria": {
+   "class": "business"
+  },
+  "tessinskiy-v": {
+   "class": "deluxe"
+  },
+  "publitsist": {
+   "class": "comfort"
+  },
+  "tatarskaya-35": {
+   "class": "deluxe"
   }
  }
 }
