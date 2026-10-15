@@ -1,0 +1,306 @@
+{
+ "batch": 10,
+ "units": [
+  {
+   "unit": 34053,
+   "notes": [
+    34053
+   ],
+   "dossier": "yuzhnoportovyy-siti",
+   "developer": "pik",
+   "date": "2026-04-28",
+   "images": 5
+  },
+  {
+   "unit": 21875,
+   "notes": [
+    21875
+   ],
+   "dossier": "vishnevaya-7",
+   "developer": "mr-group",
+   "date": "2024-02-19",
+   "images": 0
+  },
+  {
+   "unit": 36089,
+   "notes": [
+    36089
+   ],
+   "dossier": "vilyuyskaya-3",
+   "developer": "mr-group",
+   "date": "2026-10-08",
+   "images": 8
+  },
+  {
+   "unit": 34012,
+   "notes": [
+    34012
+   ],
+   "dossier": "cityzen",
+   "developer": "mr-group",
+   "date": "2026-04-24",
+   "images": 9
+  },
+  {
+   "unit": 30847,
+   "notes": [
+    30847
+   ],
+   "dossier": "onezhskiy-val",
+   "developer": "pik",
+   "date": "2025-08-26",
+   "images": 6
+  },
+  {
+   "unit": 35939,
+   "notes": [
+    35939
+   ],
+   "dossier": "varshavskoe-37",
+   "developer": "prime-life-development",
+   "date": "2026-09-29",
+   "images": 6
+  },
+  {
+   "unit": 19037,
+   "notes": [
+    19037
+   ],
+   "dossier": "mig",
+   "developer": "capital-group",
+   "date": "2023-08-22",
+   "images": 3
+  },
+  {
+   "unit": 19918,
+   "notes": [
+    19918
+   ],
+   "dossier": "nizhegorodskaya",
+   "developer": "level-group",
+   "date": "2023-10-19",
+   "images": 5
+  },
+  {
+   "unit": 16966,
+   "notes": [
+    16966
+   ],
+   "dossier": "ogorodnyy-20",
+   "developer": "brusnika",
+   "date": "2023-03-17",
+   "images": 0
+  },
+  {
+   "unit": 7638,
+   "notes": [
+    7638
+   ],
+   "dossier": "nays-loft",
+   "developer": "coldy",
+   "date": "2021-04-12",
+   "images": 0
+  },
+  {
+   "unit": 17063,
+   "notes": [
+    17063
+   ],
+   "dossier": "nekrasovka",
+   "developer": "lider-grupp",
+   "date": "2023-03-27",
+   "images": 1
+  },
+  {
+   "unit": 10348,
+   "notes": [
+    10348
+   ],
+   "dossier": "le-dome",
+   "developer": "lsr",
+   "date": "2021-12-10",
+   "images": 3
+  },
+  {
+   "unit": 12002,
+   "notes": [
+    12002
+   ],
+   "dossier": "tushinskiy-mashinostroitelnyy-zavod",
+   "developer": "level-group",
+   "date": "2022-04-27",
+   "images": 3
+  },
+  {
+   "unit": 19959,
+   "notes": [
+    19959
+   ],
+   "dossier": "aktsenty",
+   "developer": "plyus-development",
+   "date": "2023-10-24",
+   "images": 1
+  },
+  {
+   "unit": 5056,
+   "notes": [
+    5056
+   ],
+   "dossier": "prokshino",
+   "developer": "a101",
+   "date": "2020-08-10",
+   "images": 0
+  },
+  {
+   "unit": 11210,
+   "notes": [
+    11210
+   ],
+   "dossier": "nametkin-tower",
+   "developer": "osnova",
+   "date": "2022-02-24",
+   "images": 6
+  },
+  {
+   "unit": 13650,
+   "notes": [
+    13650
+   ],
+   "dossier": "dmitrovskoe-nebo",
+   "developer": "lsr",
+   "date": "2022-07-21",
+   "images": 3
+  },
+  {
+   "unit": 4136,
+   "notes": [
+    4136
+   ],
+   "dossier": "lucky",
+   "developer": "vesper",
+   "date": "2020-05-15",
+   "images": 0
+  },
+  {
+   "unit": 8712,
+   "notes": [
+    8712
+   ],
+   "dossier": "vesper",
+   "developer": "vesper",
+   "date": "2021-07-26",
+   "images": 0
+  },
+  {
+   "unit": 12048,
+   "notes": [
+    12048
+   ],
+   "dossier": "champine",
+   "developer": "udevelopment",
+   "date": "2022-05-04",
+   "images": 5
+  },
+  {
+   "unit": 2769,
+   "notes": [
+    2769
+   ],
+   "dossier": "krasnolimanskaya-19a",
+   "developer": "dom-rf",
+   "date": "2019-11-13",
+   "images": 1
+  },
+  {
+   "unit": 7490,
+   "notes": [
+    7490
+   ],
+   "dossier": "ever",
+   "developer": "tekta",
+   "date": "2021-03-29",
+   "images": 0
+  },
+  {
+   "unit": 12247,
+   "notes": [
+    12247
+   ],
+   "dossier": "veshnikh-vod-8",
+   "developer": "kapitalisty",
+   "date": "2022-05-16",
+   "images": 10
+  },
+  {
+   "unit": 17868,
+   "notes": [
+    17868
+   ],
+   "dossier": "vagonoremont",
+   "developer": "osnova",
+   "date": "2023-05-29",
+   "images": 5
+  },
+  {
+   "unit": 20362,
+   "notes": [
+    20362
+   ],
+   "dossier": "telegraf",
+   "developer": "vos-hod",
+   "date": "2023-11-22",
+   "images": 6
+  },
+  {
+   "unit": 9378,
+   "notes": [
+    9378,
+    9420
+   ],
+   "dossier": "cult",
+   "developer": "gravion",
+   "date": "2021-09-17",
+   "images": 5
+  },
+  {
+   "unit": 9976,
+   "notes": [
+    9976
+   ],
+   "dossier": "k31",
+   "developer": "glavstroy",
+   "date": "2021-11-09",
+   "images": 4
+  },
+  {
+   "unit": 12033,
+   "notes": [
+    12033
+   ],
+   "dossier": "river-park-kutuzovskiy",
+   "developer": "rns",
+   "date": "2022-05-04",
+   "images": 1
+  },
+  {
+   "unit": 12466,
+   "notes": [
+    12466
+   ],
+   "dossier": "solos",
+   "developer": "bestkon",
+   "date": "2022-05-26",
+   "images": 1
+  },
+  {
+   "unit": 14250,
+   "notes": [
+    14250
+   ],
+   "dossier": "soul",
+   "developer": "pik",
+   "date": "2022-08-29",
+   "images": 2
+  }
+ ]
+}

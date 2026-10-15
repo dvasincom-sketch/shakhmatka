@@ -14,6 +14,7 @@ ap = argparse.ArgumentParser()
 ap.add_argument('--batch', type=int, required=True)
 ap.add_argument('--size', type=int, default=30)
 ap.add_argument('--notes', default=os.path.join(HERE, '..', '..', 'pipeline', 'notes-text.json'), help='тексты заметок: {id: {date, text, links, media}}')
+ap.add_argument('--no-triage', action='store_true', help='не применять отсев pipeline/triage')
 ap.add_argument('--since', default='2024-01-01', help='сначала берём свежие кластеры')
 A = ap.parse_args()
 
@@ -78,6 +79,16 @@ def weight(u):
     fresh = N[u[1][-1]]['date'] >= A.since
     return (fresh, len(o['timeline']) + 2 * sig + 3 * len(u[1]))
 units.sort(key=weight, reverse=True)
+# отсев (pipeline/triage/out-*.json): C — почти наверняка не подтвердится (закрытые цены, рассылки, «говорят»), в партии не берём; A — вперёд
+TRI = {}
+for f in glob.glob(os.path.join(ROOT, '..', 'pipeline', 'triage', 'out-*.json')):
+    for r in json.load(open(f)): TRI[r['unit']] = r['grade']
+def grade(u): return next((TRI[i] for i in u[1] if i in TRI), 'B')
+if TRI and not A.no_triage:
+    dropped = [u for u in units if grade(u) == 'C']
+    units = [u for u in units if grade(u) != 'C']
+    units.sort(key=lambda u: grade(u) != 'A')  # устойчивая сортировка: внутри A/B порядок по весу
+    print(f'отсев: убрано C {len(dropped)}, A {sum(grade(u) == "A" for u in units)}, B {sum(grade(u) == "B" for u in units)}')
 pick, per_dev, per_obj = [], collections.Counter(), set()
 for u in units:
     o = D[u[0]]

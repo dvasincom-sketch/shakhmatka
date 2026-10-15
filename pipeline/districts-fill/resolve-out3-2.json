@@ -1,0 +1,362 @@
+[
+ {
+  "slug": "bauman-khaus",
+  "district": null,
+  "region": null,
+  "source": "https://www.novostroy.ru/buildings/na-ulitse-novaya-doroga/",
+  "evidence": "",
+  "reason": "страница источника не открылась (WebFetch error), район не подтверждён"
+ },
+ {
+  "slug": "filatov-lug",
+  "district": "moskovskiy",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/kompanii/ooo_sz_filatov_lug",
+  "evidence": "Район: Саларьево, Новомосковский АО, Москва (застройщик ООО СЗ Филатов Луг); Саларьево относится к поселению Московский",
+  "reason": null
+ },
+ {
+  "slug": "nametkina-10d",
+  "district": "cheremushki",
+  "region": null,
+  "source": "https://www.cian.ru/kupit-kvartiru-studiu-zhiloy-kompleks-kompleks-apartamentov-aist-residence-4142290/",
+  "evidence": "улица Намёткина, 10Д, р-н Черёмушки, ЮЗАО (Aist Residence)",
+  "reason": null
+ },
+ {
+  "slug": "din-haus",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "nagatino-i-land",
+  "district": "danilovskiy",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/expertise/jk_nagatino_iland_ot",
+  "evidence": "Даниловский район ЮАО, территория бывшего АМО ЗИЛ, затон Новинки",
+  "reason": null
+ },
+ {
+  "slug": "amurskaya-1",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "поиск не дал источника с районом по Амурская, 1"
+ },
+ {
+  "slug": "sputnik",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "страница не открылась"
+ },
+ {
+  "slug": "veresk",
+  "district": null,
+  "region": null,
+  "source": "https://www.novostroy-m.ru/baza/jk_veresk",
+  "evidence": "3-я Хорошёвская, Хорошёво-Мнёвники (застройщик на странице Самолёт)",
+  "reason": "источник (3-я Хорошёвская, вл.19 стр.3, Хорошёво-Мнёвники) указывает застройщика Самолёт, не МИЦ - не тот объект/неоднозначно"
+ },
+ {
+  "slug": "level-nagatinskaya",
+  "district": "nagatino-sadovniki",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/baza/jk_level_nagatinskaya",
+  "evidence": "Нагатинская наб., вл. 10, ЮАО, Нагатино-Садовники",
+  "reason": null
+ },
+ {
+  "slug": "petrovskiy-park",
+  "district": "savelovskiy",
+  "region": null,
+  "source": "https://www.cian.ru/kupit-2-komnatnuyu-kvartiru-vtorichka-zhiloy-kompleks-petrovskiy-park-49360/",
+  "evidence": "САО, Савёловский район, ЖК Петровский Парк, РГ-Девелопмент",
+  "reason": null
+ },
+ {
+  "slug": "zelenaya-vertikal",
+  "district": null,
+  "region": null,
+  "source": "https://www.novostroy.ru/buildings/zelenaya-vertikal/",
+  "evidence": "",
+  "reason": "найденная карточка (Варшавское ш., 170Е, Чертаново Южное) - застройщик Э.К. Девелопмент, не Инград; не тот объект"
+ },
+ {
+  "slug": "perovskoe-2",
+  "district": null,
+  "region": null,
+  "source": "https://www.novostroy.ru/buildings/perovskoe-shosse-2/",
+  "evidence": "",
+  "reason": "страница источника не открылась, район не подтверждён"
+ },
+ {
+  "slug": "nametkin-tower",
+  "district": "cheremushki",
+  "region": null,
+  "source": "https://www.cian.ru/kupit-kvartiru-studiu-zhiloy-kompleks-kompleks-apartamentov-aist-residence-4142290/",
+  "evidence": "Намёткина, 10Д (соседний номер того же участка) - р-н Черёмушки, ЮЗАО; по Наметкина, 10 прямого источника нет",
+  "reason": null
+ },
+ {
+  "slug": "manufaktura-xix",
+  "district": "mozhayskiy",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/baza/biznestsentr_manufaktura_xix",
+  "evidence": "ул. Петра Алексеева, 12с1, Можайский район, ЗАО, Sminex",
+  "reason": null
+ },
+ {
+  "slug": "oktyabrskoe-pole",
+  "district": null,
+  "region": null,
+  "source": "https://www.novostroy-m.ru/novosti/v_promzone_oktyabrskoe_pole",
+  "evidence": "ул. Берзарина, промзона на территории Щукино и Хорошёво-Мнёвники",
+  "reason": "источник называет промзону на территории двух районов (Щукино и Хорошёво-Мнёвники), ул. Берзарина, номер дома не указан"
+ },
+ {
+  "slug": "shagal",
+  "district": "danilovskiy",
+  "region": null,
+  "source": "https://www.cian.ru/kupit-1-komnatnuyu-kvartiru-vtorichka-zhiloy-kompleks-shagal-2528281/",
+  "evidence": "набережная Марка Шагала, Даниловский район, ЮАО, Эталон",
+  "reason": null
+ },
+ {
+  "slug": "staryy-petrovsko-razumovskiy-1-23",
+  "district": "savelovskiy",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/kvartiry/studiya-v-zhk-petrovskii-park-ii-f1027551e2191d28cfa2f9da1f6d46",
+  "evidence": "пр-д Старый Петровско-Разумовский, д.1, Савёловский район, САО (Петровский парк II, РГ-Девелопмент)",
+  "reason": null
+ },
+ {
+  "slug": "siti-2",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "arkhitektora-vlasova-57",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "поиск и mos.ru не дали района"
+ },
+ {
+  "slug": "ice-tower",
+  "district": null,
+  "region": null,
+  "source": "https://www.novostroy-m.ru/kvartiry/odnokomnatnaya-kvartira-v-zhk-ice-towers-ais-tauiers-1d306a58dc9bfd905f09a283ee7f1d",
+  "evidence": "",
+  "reason": "страница не открылась, район не подтверждён"
+ },
+ {
+  "slug": "promzona-butovo",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "kremenchugskaya-42",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "поиск не дал источника по проекту"
+ },
+ {
+  "slug": "botanica",
+  "district": "rostokino",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/baza/plaza_botanica_plaza_botanika",
+  "evidence": "1-я улица Леонова, 22, Ростокино, СВАО, ГК Пионер (Botanica Plaza)",
+  "reason": null
+ },
+ {
+  "slug": "botanica-plaza",
+  "district": "rostokino",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/baza/plaza_botanica_plaza_botanika",
+  "evidence": "1-я улица Леонова, 22, Ростокино, СВАО, ГК Пионер",
+  "reason": null
+ },
+ {
+  "slug": "hideout",
+  "district": "ramenki",
+  "region": null,
+  "source": "https://d-a.ru/en/news/startuet-stroitelstvo-zhilogo-kompleksa-hideout-v-ramenkakh/",
+  "evidence": "3-й Сетуньский проезд, участок 10, Раменки, Dominanta",
+  "reason": null
+ },
+ {
+  "slug": "silika",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "kvartal-zapadnyy",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "поиск не дал результатов"
+ },
+ {
+  "slug": "malaya-nikitskaya-27",
+  "district": null,
+  "region": null,
+  "source": "https://www.novostroy-m.ru/novosti/pik_mojet_postroit_elitnoe",
+  "evidence": "ул. Малая Никитская, Пресненский р-н (без номера дома, рядом с ЦДЛ)",
+  "reason": "источник даёт Пресненский без номера дома; улица рядом с ЦДЛ, район сомнителен (возможно Арбат) - не подтверждено"
+ },
+ {
+  "slug": "vavilova-5",
+  "district": null,
+  "region": null,
+  "source": "https://www.novostroy-m.ru/baza/jk_vavilova_4",
+  "evidence": "Вавилова, вл.4 - Донской",
+  "reason": "источник про Вавилова, 4 (Донской); дом 5 не подтверждён"
+ },
+ {
+  "slug": "kirpichnye-vyemki-2s1",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "адрес не подтверждён источником"
+ },
+ {
+  "slug": "qoob",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "Алексея Свиридова, 17 (из досье)",
+  "reason": "в источнике нет адреса/района"
+ },
+ {
+  "slug": "level-michurinskogo",
+  "district": "ochakovo-matveevskoe",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/kvartiry/dvuhkomnatnaya-kvartira-v-level-michurinskii-a5e0ae0074024414c973bd434eda7a",
+  "evidence": "Озёрная ул., вл. 6, ЗАО, Очаково-Матвеевское, Level Group",
+  "reason": null
+ },
+ {
+  "slug": "south-gate",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "Андропова пр-т, Даниловский (другой ЖК)",
+  "reason": "источник не про этот проект; район не подтверждён"
+ },
+ {
+  "slug": "your-majesty",
+  "district": null,
+  "region": null,
+  "source": "https://www.novostroy-m.ru/baza/jk_levshinskiy_19",
+  "evidence": "Большой Левшинский, 19 - Пресненский р-н (novostroy-m, сомнительно)",
+  "reason": "источник называет Пресненский район, что противоречит положению Большого Левшинского пер. (Арбат/Хамовники) - не принимаю без второго источника"
+ },
+ {
+  "slug": "setun-tolbukhina-10",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "источник про дачу Толбухина (Можайский), без адреса и ДК Сетунь - не то же самое"
+ },
+ {
+  "slug": "parshina-2",
+  "district": "khoroshevo-mnevniki",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/novosti/na_ulitse_parshina_v",
+  "evidence": "ул. Паршина, вл. 2, Хорошёво-Мнёвники, СЗАО (КРТ)",
+  "reason": null
+ },
+ {
+  "slug": "zavod-fereyn",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "источник даёт только Нагатинскую ул., район не назван"
+ },
+ {
+  "slug": "arkhitektora-vlasova-59",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "поиск не дал района"
+ },
+ {
+  "slug": "2-y-irtyshskiy",
+  "district": "golyanovo",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/baza/2y_irtyshskiy",
+  "evidence": "2-й Иртышский пр-д, вл. 6/8, Гольяново, ВАО, бренд ПИК",
+  "reason": null
+ },
+ {
+  "slug": "saltykovskaya-24",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "страница не открылась"
+ },
+ {
+  "slug": "bolshoy-kharitonevskiy-13a-s10",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "нет данных об адресе в источнике"
+ },
+ {
+  "slug": "loran",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "источник про Вавилова, 11, не про Лоран; район не назван"
+ },
+ {
+  "slug": "one",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "страница не открылась"
+ },
+ {
+  "slug": "planetnaya-3",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "поиск не дал источника по проекту"
+ },
+ {
+  "slug": "sreda-na-varshavskom",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено"
+ }
+]

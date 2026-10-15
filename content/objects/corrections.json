@@ -1,1980 +1,2218 @@
 {
- "_readme": "Ручные поправки к авто-досье (применяет content/archive/build-dossiers.py). Источник — фактчекинг статей конвейера. developer / previousDevelopers — slug застройщика; name нужен, если застройщика ещё нет в базе; district — ключ района.",
- "repablik": {
-  "developer": "strana",
-  "note": "по novostroy-m.ru застройщик — «Страна Девелопмент» (АО СЗ «Пресненский вал 27»), статья 27570",
-  "owners": [
-   {
-    "developer": "forma",
-    "name": "Forma",
-    "since": "2022",
-    "how": "Republic — второй премиальный проект Forma",
-    "source": "https://www.novostroy-m.ru/statyi/kvartal_repablik"
-   },
-   {
+  "_readme": "Ручные поправки к авто-досье (применяет content/archive/build-dossiers.py). Источник — фактчекинг статей конвейера. developer / previousDevelopers — slug застройщика; name нужен, если застройщика ещё нет в базе; district — ключ района.",
+  "repablik": {
     "developer": "strana",
-    "name": "Страна Девелопмент",
-    "how": "застройщик — АО СЗ «Пресненский вал 27»",
-    "source": "https://novostroy-m.ru/baza/jk_presnenskiy_val_27"
-   },
-   {
-    "developer": "strana",
-    "name": "Страна Девелопмент",
-    "since": "январь 2025",
-    "how": "проект перешёл от Forma к «Страна Девелопмент»; по обзору novostroy-m.ru, Forma вышла из проекта и исчезла из своего портфеля",
-    "source": "https://www.novostroy-m.ru/expertise/jk_repablik_svoimi_glazami"
-   }
-  ],
-  "previousDevelopers": [
-   "forma"
-  ],
-  "developerName": "Страна Девелопмент"
- },
- "luzhnetskaya-10a": {
-  "developer": "sminex",
-  "previousDevelopers": [
-   "ingrad"
-  ],
-  "note": "Sminex купил землю у Инграда в январе 2022 (AB News), статья 23511",
-  "owners": [
-   {
-    "developer": "ingrad",
-    "name": "Инград",
-    "until": "январь 2022"
-   },
-   {
+    "note": "по novostroy-m.ru застройщик — «Страна Девелопмент» (АО СЗ «Пресненский вал 27»), статья 27570",
+    "owners": [
+      {
+        "developer": "forma",
+        "name": "Forma",
+        "since": "2022",
+        "how": "Republic — второй премиальный проект Forma",
+        "source": "https://www.novostroy-m.ru/statyi/kvartal_repablik"
+      },
+      {
+        "developer": "strana",
+        "name": "Страна Девелопмент",
+        "how": "застройщик — АО СЗ «Пресненский вал 27»",
+        "source": "https://novostroy-m.ru/baza/jk_presnenskiy_val_27"
+      },
+      {
+        "developer": "strana",
+        "name": "Страна Девелопмент",
+        "since": "январь 2025",
+        "how": "проект перешёл от Forma к «Страна Девелопмент»; по обзору novostroy-m.ru, Forma вышла из проекта и исчезла из своего портфеля",
+        "source": "https://www.novostroy-m.ru/expertise/jk_repablik_svoimi_glazami"
+      }
+    ],
+    "previousDevelopers": [
+      "forma"
+    ],
+    "developerName": "Страна Девелопмент"
+  },
+  "luzhnetskaya-10a": {
     "developer": "sminex",
-    "name": "Sminex",
-    "since": "январь 2022",
-    "how": "участок купила структура Sminex — ООО «СЗ «Второй»",
-    "source": "https://abnews.ru/2022/1/10/developer-sminex-postroit-delovoj-kvartal-v-luzhnikah"
-   }
-  ]
- },
- "frunzenskaya-30": {
-  "developer": "sminex",
-  "note": "застройщик по источникам — Sminex, статья 25025",
-  "owners": [
-   {
+    "previousDevelopers": [
+      "ingrad"
+    ],
+    "note": "Sminex купил землю у Инграда в январе 2022 (AB News), статья 23511",
+    "owners": [
+      {
+        "developer": "ingrad",
+        "name": "Инград",
+        "until": "январь 2022"
+      },
+      {
+        "developer": "sminex",
+        "name": "Sminex",
+        "since": "январь 2022",
+        "how": "участок купила структура Sminex — ООО «СЗ «Второй»",
+        "source": "https://abnews.ru/2022/1/10/developer-sminex-postroit-delovoj-kvartal-v-luzhnikah"
+      }
+    ]
+  },
+  "frunzenskaya-30": {
     "developer": "sminex",
-    "name": "Sminex",
-    "since": "август 2024",
-    "how": "открыл продажи клубного квартала «Фрунзенская набережная»",
-    "source": "https://www.novostroy-m.ru/novosti/frunzenskaya_naberejnaya_i_novye"
-   }
-  ]
- },
- "foriver": {
-  "developer": "sibpromstroy",
-  "developerName": "Сибпромстрой",
-  "previousDevelopers": [
-   "sminex",
-   "ingrad"
-  ],
-  "district": "danilovskiy",
-  "note": "Sminex продал проект структуре «Сибпромстроя», июнь 2025, статья 29921",
-  "owners": [
-   {
-    "developer": "ingrad",
-    "name": "Инград",
-    "until": "осень 2024"
-   },
-   {
-    "developer": "sminex",
-    "name": "Sminex",
-    "since": "осень 2024",
-    "until": "июнь 2025",
-    "how": "Sminex купил Инград вместе с проектом",
-    "source": "https://www.novostroy-m.ru/novosti/sminex_prodal_esche_odin"
-   },
-   {
+    "note": "застройщик по источникам — Sminex, статья 25025",
+    "owners": [
+      {
+        "developer": "sminex",
+        "name": "Sminex",
+        "since": "август 2024",
+        "how": "открыл продажи клубного квартала «Фрунзенская набережная»",
+        "source": "https://www.novostroy-m.ru/novosti/frunzenskaya_naberejnaya_i_novye"
+      }
+    ]
+  },
+  "foriver": {
     "developer": "sibpromstroy",
-    "name": "Сибпромстрой",
-    "since": "24 июня 2025",
-    "how": "владение застройщиком ООО «СЗ «Симоновская коллекшн» перешло к ССК, связанной с ГК «Сибпромстрой»",
-    "source": "https://www.novostroy-m.ru/novosti/sminex_prodal_esche_odin"
-   }
-  ]
- },
- "ice-tower": {
-  "developer": "grad",
-  "developerName": "ГРАД Девелопмент",
-  "note": "застройщик ООО «СЗ Град Плаза», статья 28467",
-  "owners": [
-   {
+    "developerName": "Сибпромстрой",
+    "previousDevelopers": [
+      "sminex",
+      "ingrad"
+    ],
+    "district": "danilovskiy",
+    "note": "Sminex продал проект структуре «Сибпромстроя», июнь 2025, статья 29921",
+    "owners": [
+      {
+        "developer": "ingrad",
+        "name": "Инград",
+        "until": "осень 2024"
+      },
+      {
+        "developer": "sminex",
+        "name": "Sminex",
+        "since": "осень 2024",
+        "until": "июнь 2025",
+        "how": "Sminex купил Инград вместе с проектом",
+        "source": "https://www.novostroy-m.ru/novosti/sminex_prodal_esche_odin"
+      },
+      {
+        "developer": "sibpromstroy",
+        "name": "Сибпромстрой",
+        "since": "24 июня 2025",
+        "how": "владение застройщиком ООО «СЗ «Симоновская коллекшн» перешло к ССК, связанной с ГК «Сибпромстрой»",
+        "source": "https://www.novostroy-m.ru/novosti/sminex_prodal_esche_odin"
+      }
+    ]
+  },
+  "ice-tower": {
     "developer": "grad",
-    "name": "ГРАД Девелопмент",
-    "how": "застройщик — ООО «СЗ Град Плаза», проект на сайте ГРАД Девелопмент",
-    "source": "https://www.novostroy-m.ru/baza/jk_na_lobachevskogo_35"
-   }
-  ]
- },
- "mosfilmovskaya-74-78": {
-  "developer": "upside",
-  "previousDevelopers": [
-   "samolet"
-  ],
-  "note": "«Золотые крылья», застройщик по агрегатору — Upside, статья 33738",
-  "owners": [
-   {
-    "developer": "samolet",
-    "name": "Самолёт",
-    "until": "2026",
-    "how": "по данным архива редакции; смена застройщика независимо не подтверждена"
-   },
-   {
+    "developerName": "ГРАД Девелопмент",
+    "note": "застройщик ООО «СЗ Град Плаза», статья 28467",
+    "owners": [
+      {
+        "developer": "grad",
+        "name": "ГРАД Девелопмент",
+        "how": "застройщик — ООО «СЗ Град Плаза», проект на сайте ГРАД Девелопмент",
+        "source": "https://www.novostroy-m.ru/baza/jk_na_lobachevskogo_35"
+      }
+    ]
+  },
+  "mosfilmovskaya-74-78": {
     "developer": "upside",
-    "name": "Upside",
-    "since": "2026",
-    "how": "застройщик ЖК «Золотые крылья» по каталогу новостроек",
-    "source": "https://www.novostroy-m.ru/baza/jk_na_mosfilmovskoy_7478"
-   }
-  ]
- },
- "demidov-26": {
-  "developer": "otrada",
-  "developerName": "Отрада",
-  "previousDevelopers": [
-   "mr-group"
-  ],
-  "note": "MR Group продала проект «Отраде» 8 июля 2026 (Ведомости), статья 34126 | проверка 14.10.2026: разрешение на строительство «Отраде» 28.09.2026 (mos.ru), продажи ещё не стартовали",
-  "owners": [
-   {
-    "developer": "mr-group",
-    "name": "MR Group",
-    "until": "июль 2026"
-   },
-   {
+    "previousDevelopers": [
+      "samolet"
+    ],
+    "note": "«Золотые крылья», застройщик по агрегатору — Upside, статья 33738",
+    "owners": [
+      {
+        "developer": "samolet",
+        "name": "Самолёт",
+        "until": "2026",
+        "how": "по данным архива редакции; смена застройщика независимо не подтверждена"
+      },
+      {
+        "developer": "upside",
+        "name": "Upside",
+        "since": "2026",
+        "how": "застройщик ЖК «Золотые крылья» по каталогу новостроек",
+        "source": "https://www.novostroy-m.ru/baza/jk_na_mosfilmovskoy_7478"
+      }
+    ]
+  },
+  "demidov-26": {
     "developer": "otrada",
-    "name": "Отрада",
-    "since": "8 июля 2026",
-    "how": "структуры MR Group продали компанию «Оникс-холдинг», которой принадлежат права на проект, структуре «Отрады»",
-    "source": "https://www.vedomosti.ru/realty/articles/2026/07/10/1212613-otrada-priobrel-pervii-proekt-v-moskve"
-   }
-  ],
-  "stage": "permit"
- },
- "wave": {
-  "district": "moskvoreche-saburovo",
-  "note": "Борисовские пруды, 1 — Москворечье-Сабурово, статья 21313",
-  "owners": [
-   {
-    "developer": "mr-group",
-    "name": "MR Group",
-    "until": "август 2021"
-   },
-   {
+    "developerName": "Отрада",
+    "previousDevelopers": [
+      "mr-group"
+    ],
+    "note": "MR Group продала проект «Отраде» 8 июля 2026 (Ведомости), статья 34126 | проверка 14.10.2026: разрешение на строительство «Отраде» 28.09.2026 (mos.ru), продажи ещё не стартовали",
+    "owners": [
+      {
+        "developer": "mr-group",
+        "name": "MR Group",
+        "until": "июль 2026"
+      },
+      {
+        "developer": "otrada",
+        "name": "Отрада",
+        "since": "8 июля 2026",
+        "how": "структуры MR Group продали компанию «Оникс-холдинг», которой принадлежат права на проект, структуре «Отрады»",
+        "source": "https://www.vedomosti.ru/realty/articles/2026/07/10/1212613-otrada-priobrel-pervii-proekt-v-moskve"
+      }
+    ],
+    "stage": "permit"
+  },
+  "wave": {
+    "district": "moskvoreche-saburovo",
+    "note": "Борисовские пруды, 1 — Москворечье-Сабурово, статья 21313",
+    "owners": [
+      {
+        "developer": "mr-group",
+        "name": "MR Group",
+        "until": "август 2021"
+      },
+      {
+        "developer": "lsr",
+        "name": "ЛСР",
+        "since": "август 2021",
+        "how": "ФАС одобрила ходатайство ЛСР о приобретении ООО «Оникс», связанного с MR Group; через него группе принадлежал МЗРТА с участком 22 га на Борисовских прудах",
+        "source": "https://www.vedomosti.ru/realty/articles/2021/08/17/882336-mr-group"
+      }
+    ],
     "developer": "lsr",
-    "name": "ЛСР",
-    "since": "август 2021",
-    "how": "ФАС одобрила ходатайство ЛСР о приобретении ООО «Оникс», связанного с MR Group; через него группе принадлежал МЗРТА с участком 22 га на Борисовских прудах",
-    "source": "https://www.vedomosti.ru/realty/articles/2021/08/17/882336-mr-group"
-   }
-  ],
-  "developer": "lsr",
-  "developerName": "ЛСР",
-  "previousDevelopers": [
-   "mr-group"
-  ]
- },
- "soyuz": {
-  "district": "rostokino",
-  "note": "Сельскохозяйственная улица — СВАО, не Хамовники (статья 24740)"
- },
- "badaevskiy": {
-  "matchName": "Бадаевский",
-  "name": "Бадаевский",
-  "zu": "Кутузовский, 12",
-  "aliases": [
-   "Badaevsky",
-   "Бадаевский пивзавод"
-  ],
-  "developer": "capital-group",
-  "district": "dorogomilovo",
-  "note": "в архиве под одним адресом склеились три проекта: «Бадаевский» (Capital Group), oda gallery («Абсолют») и башни «Киевской площади» на Кутузовском, 12, 14А",
-  "split": [
-   {
-    "slug": "kutuzovskiy-12-14a",
-    "name": "Кутузовский, 12, 14А",
-    "zu": "Кутузовский, 12, 14А",
+    "developerName": "ЛСР",
+    "previousDevelopers": [
+      "mr-group"
+    ]
+  },
+  "soyuz": {
+    "district": "rostokino",
+    "note": "Сельскохозяйственная улица — СВАО, не Хамовники (статья 24740)"
+  },
+  "badaevskiy": {
+    "matchName": "Бадаевский",
+    "name": "Бадаевский",
+    "zu": "Кутузовский, 12",
     "aliases": [
-     "бывшая карандашная фабрика имени Сакко и Ванцетти",
-     "башни «Киевской площади» на Кутузовском"
+      "Badaevsky",
+      "Бадаевский пивзавод"
     ],
-    "match": "14А|Киевск|карандаш|Сакко|парус",
-    "developer": "kievskaya-ploshchad",
-    "district": "dorogomilovo"
-   },
-   {
-    "slug": "oda-gallery",
-    "name": "oda gallery",
-    "zu": null,
-    "aliases": [
-     "Бадаевский Абсолюта"
-    ],
-    "match": "oda|Абсолют",
-    "developer": "absolyut",
-    "district": "dorogomilovo"
-   }
-  ]
- },
- "tpu-minskaya": {
-  "owners": [
-   {
-    "developer": "bms-development",
-    "name": "BMS Development Group (ООО «Девелопмент энд ритейл груп»)",
-    "since": "апрель 2024 года",
-    "how": "BMS выиграла городской аукцион на право заключить договор комплексного развития незастроенной территории с участком ТПУ «Минская» 7,94 га; цена — 26,677 млрд ₽",
-    "source": "https://realty.rbc.ru/news/67d2859f9a794757f892e2dd"
-   }
-  ],
-  "developer": "bms-development",
-  "developerName": "BMS Development Group (ООО «Девелопмент энд ритейл груп»)"
- },
- "nizhegorodskaya": {
-  "owners": [
-   {
-    "developer": "level-group",
-    "name": "Level Group",
-    "how": "проект «Левел Нижегородская» на территории бывшего завода «Фрезер»"
-   },
-   {
-    "developer": "brusnika",
-    "name": "Брусника",
-    "since": "июль 2023",
-    "how": "Брусника договорилась с Level Group о покупке половины проекта (около 4 га) — квартал «Издание»",
-    "source": "https://www.novostroy-m.ru/novosti/brusnika_pokupaet_u_level"
-   }
-  ],
-  "developer": "level-group",
-  "developerName": "Брусника",
-  "previousDevelopers": [],
-  "note": "территория на Перовском шоссе, 21: Level Group («Левел Нижегородская»), Брусника («Издание») и BAZA («Бестселлер»)"
- },
- "sreda-na-kutuzovskom": {
-  "developer": "forma",
-  "developerName": "Forma",
-  "previousDevelopers": [
-   "pik"
-  ],
-  "note": "застройщик по фактчекингу статьи 24280"
- },
- "paveletskaya-siti": {
-  "developer": "level-group",
-  "developerName": "Level Group",
-  "previousDevelopers": [
-   "mr-group"
-  ],
-  "note": "застройщик по фактчекингу статьи 25008",
-  "district": "danilovskiy",
-  "districtSource": "https://www.novostroy-m.ru/kvartiry/dvuhkomnatnaya-kvartira-v-level-paveleckaya-siti-5c89d66cc8a108f1dea7bab82d671d"
- },
- "injoy": {
-  "owners": [
-   {
-    "developer": "talan",
-    "name": "Талан",
-    "since": "27 июня 2025",
-    "how": "Талан купил жилой квартал бизнес-класса Injoy на севере Москвы; общие вложения в проект с учётом сделки и развития компания оценила в 102 млрд ₽.",
-    "source": "https://realty.rbc.ru/news/685d3f949a7947e939c9ede6"
-   }
-  ],
-  "developer": "talan",
-  "developerName": "Талан"
- },
- "staropetrovskiy-atrium": {
-  "developer": "level-group",
-  "developerName": "Level Group",
-  "note": "на Старопетровском проезде два проекта: жильё Level Group и бизнес-центр Галса на месте «Старопетровского атриума» (куплен в 2024) — досье стоит разделить",
-  "owners": [
-   {
-    "developer": "gals-development",
-    "name": "Галс-Девелопмент",
-    "since": "2024",
-    "how": "купила бизнес-центр «Старопетровский атриум» около 15 тыс. м² с участком около 1,7 га",
-    "source": "https://msk1.ru/text/gorod/2026/05/28/76446715/"
-   }
-  ]
- },
- "pole": {
-  "owners": [
-   {
-    "developer": "bestkon",
-    "name": "Бэсткон",
-    "since": "2023 год",
-    "how": "Холдинг «Бэсткон» выкупил у Евгения Гинера, бывшего основного акционера ЦСКА, здание ТЦ «Старт» на участке 1,8 га; сейчас собственник здания — ООО «Премиум Эстейт»",
-    "source": "https://msk1.ru/text/gorod/2026/02/07/76237165/"
-   }
-  ],
-  "developer": "bestkon",
-  "developerName": "Бэсткон"
- },
- "radio-16s4": {
-  "owners": [
-   {
-    "developer": "reka-rezort",
-    "name": "Река Резорт",
-    "since": "июль 2023",
-    "how": "компания купила участок на торгах за 16,2 млн ₽",
-    "source": "https://moskvichmag.ru/?p=346559"
-   }
-  ],
-  "developer": "reka-rezort",
-  "developerName": "Река Резорт"
- },
- "nexus": {
-  "owners": [
-   {
-    "developer": "akvilon",
-    "name": "Аквилон (через ООО «Титул»)",
-    "since": "2023 год",
-    "how": "К августу 2023 года учредителями ООО «Титул», владеющего правом на проект на месте кинотеатра «Брест», стали компании «Брик» и «Норд-Строй», связанные с группой «Аквилон»; до того «Титул» связывали с Capital Group",
-    "source": "https://moskvichmag.ru/gorod/poyavilsya-proekt-tpu-molodezhnaya-v-kuntsevo-na-meste-modernistskogo-kinoteatra-brest/"
-   }
-  ],
-  "developer": "akvilon",
-  "developerName": "Аквилон (через ООО «Титул»)",
-  "district": "kuntsevo",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Ярцевская, 21/1, ТПУ Молодёжная → Кунцево"
- },
- "hide": {
-  "developer": "dominanta",
-  "developerName": "Dominanta",
-  "note": "застройщик по фактчекингу статьи 24729"
- },
- "novaya-11": {
-  "owners": [
-   {
-    "developer": "element-development",
-    "name": "Element Development",
-    "since": "июль 2023",
-    "how": "Петербургская Element Development вышла на московский рынок с участком около 0,5 га на Новой дороге, 11б, который ранее принадлежал Государственному научному центру лесопромышленного комплекса",
-    "source": "https://www.dp.ru/a/2023/07/20/peterburgskij-zastrojshhik-vihodit"
-   }
-  ],
-  "developer": "element-development",
-  "developerName": "Element Development"
- },
- "l67": {
-  "owners": [
-   {
-    "developer": "unikey",
-    "name": "Unikey",
-    "since": "конец 2025 года",
-    "how": "Unikey купила у Forma участок бывшего Московского винно-коньячного завода «КиН» на Ленинградском шоссе",
-    "source": "https://kommersant.ru/doc/8974479"
-   }
-  ],
-  "developer": "unikey",
-  "developerName": "Unikey",
-  "district": "levoberezhnyy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Ленинградское ш., 65-67, Северный порт → Левобережный"
- },
- "om-botanicheskiy": {
-  "owners": [
-   {
-    "developer": "om-development",
-    "name": "ОМ Девелопмент",
-    "since": "апрель 2024",
-    "how": "«ОМ Девелопмент» купила у «Пионера» два участка, в том числе площадку на Сельскохозяйственной улице (около 1,37 га); покупку подтвердил покупатель.",
-    "source": "https://www.kommersant.ru/doc/6663730"
-   }
-  ],
-  "developer": "om-development",
-  "developerName": "ОМ Девелопмент"
- },
- "vern": {
-  "developer": "neometriya",
-  "developerName": "Неометрия",
-  "previousDevelopers": [
-   "capital-group"
-  ],
-  "note": "застройщик по фактчекингу статьи 35908"
- },
- "rozhdestvenka-8": {
-  "owners": [
-   {
-    "developer": "sminex",
-    "name": "Sminex",
-    "since": "декабрь 2025",
-    "how": "Sminex купил у «Галс-Девелопмента» проект «Рождественка 8» в Мещанском районе",
-    "source": "https://www.novostroy-m.ru/novosti/sminex_kupil_u_galsdevelopment"
-   }
-  ],
-  "developer": "sminex",
-  "developerName": "Sminex",
-  "district": "meshchanskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Рождественка → Мещанский"
- },
- "siti-2": {
-  "owners": [
-   {
-    "developer": "strana",
-    "name": "Страна Девелопмент",
-    "since": "18 апреля 2024 года",
-    "how": "Страна Девелопмент выиграла городской аукцион на право заключить договор купли-продажи объектов недвижимости, формирующих лот 3 проекта «Сити-2»; победное предложение — 18,63 млрд ₽",
-    "source": "https://realty.rbc.ru/news/6661ca619a7947670a4e1706"
-   }
-  ],
-  "developer": "strana",
-  "developerName": "Страна Девелопмент"
- },
- "stantsiya-l": {
-  "developer": "dars",
-  "developerName": "Dars",
-  "previousDevelopers": [
-   "seven-suns-development"
-  ],
-  "note": "застройщик по фактчекингу статьи 25712"
- },
- "kvartal-gertsena": {
-  "owners": [
-   {
-    "developer": "brusnika",
-    "name": "Брусника",
-    "since": "конец 2024 года",
-    "how": "Брусника выкупила у ГК «Самолёт» проект «Квартал Герцена» в Бирюлёве Восточном",
-    "source": "https://www.novostroy-m.ru/baza/jk_kvartal_gertsena"
-   }
-  ],
-  "developer": "brusnika",
-  "developerName": "Брусника",
-  "district": "biryulevo-vostochnoe"
- },
- "meteor": {
-  "owners": [
-   {
-    "developer": "sz-filevskiy-park",
-    "name": "СЗ «Филевский парк»",
-    "since": "декабрь 2021",
-    "how": "СЗ «Филевский парк» выиграла аукцион на спорткомплекс «Метеор» у Новикомбанка при стартовой цене 3,01 млрд ₽",
-    "source": "https://www.vedomosti.ru/realty/articles/2021/12/22/901927-rosteh-prodal"
-   },
-   {
-    "developer": "dgi",
-    "name": "Департамент городского имущества Москвы",
-    "since": "декабрь 2023",
-    "how": "Участок стадиона перешёл к городу; о продаже сообщалось в декабре 2023 года",
-    "source": "https://moskvichmag.ru/?p=334791"
-   },
-   {
     "developer": "capital-group",
-    "name": "Capital Group",
-    "since": "18 декабря 2024",
-    "how": "Capital Group купила два административных здания на территории стадиона у ЦУГИ",
-    "source": "https://www.novostroy-m.ru/novosti/na_territorii_stadiona_meteor"
-   }
-  ],
-  "developer": "sz-filevskiy-park",
-  "developerName": "СЗ «Филевский парк»",
-  "district": "dorogomilovo",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Генерала Ермолова, 1 (стадион Метеор) у Кутузовского пр. → Дорогомилово"
- },
- "vorontsov": {
-  "owners": [
-   {
-    "developer": "sun-development",
-    "name": "Sun Development",
-    "until": "конец 2025 года"
-   },
-   {
-    "developer": "gk-razvitie",
-    "name": "ГК «Развитие»",
-    "since": "конец 2025 года",
-    "how": "ГК «Развитие» выкупила у Sun Development проект «Воронцовъ» на участке в переулке Обуха, 3",
-    "source": "https://novostroy-m.ru/baza/jk_v_per_obuha"
-   }
-  ],
-  "developer": "gk-razvitie",
-  "developerName": "ГК «Развитие»",
-  "previousDevelopers": [
-   "sun-development"
-  ],
-  "district": "taganskiy",
-  "districtSource": "https://novostroy-m.ru/baza/jk_v_per_obuha"
- },
- "_refuted": [
-  29336
- ],
- "_refuted_note": "29336: Dominanta отказалась продавать hideOUT и QOOB Coldy (Ведомости, CRE.ru, 20.06.2025)",
- "tsvetnoy-30-32-34": {
-  "owners": [
-   {
-    "developer": "sezar-group",
-    "name": "Sezar Group (через СЗ «Рассказово»)",
-    "since": "февраль 2024",
-    "how": "Специализированный застройщик «Рассказово», связанный с Sezar Group, купил на торгах участок с недостроенным женским центром за 1,413 млрд ₽",
-    "source": "https://msk1.ru/text/realty/2024/11/28/74367674/"
-   }
-  ],
-  "developer": "sezar-group",
-  "developerName": "Sezar Group (через СЗ «Рассказово»)",
-  "district": "meshchanskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Цветной бульвар, 30 → Мещанский"
- },
- "tpu-michurinskiy-prospekt": {
-  "owners": [
-   {
+    "district": "dorogomilovo",
+    "note": "в архиве под одним адресом склеились три проекта: «Бадаевский» (Capital Group), oda gallery («Абсолют») и башни «Киевской площади» на Кутузовском, 12, 14А",
+    "split": [
+      {
+        "slug": "kutuzovskiy-12-14a",
+        "name": "Кутузовский, 12, 14А",
+        "zu": "Кутузовский, 12, 14А",
+        "aliases": [
+          "бывшая карандашная фабрика имени Сакко и Ванцетти",
+          "башни «Киевской площади» на Кутузовском"
+        ],
+        "match": "14А|Киевск|карандаш|Сакко|парус",
+        "developer": "kievskaya-ploshchad",
+        "district": "dorogomilovo"
+      },
+      {
+        "slug": "oda-gallery",
+        "name": "oda gallery",
+        "zu": null,
+        "aliases": [
+          "Бадаевский Абсолюта"
+        ],
+        "match": "oda|Абсолют",
+        "developer": "absolyut",
+        "district": "dorogomilovo"
+      }
+    ]
+  },
+  "tpu-minskaya": {
+    "owners": [
+      {
+        "developer": "bms-development",
+        "name": "BMS Development Group (ООО «Девелопмент энд ритейл груп»)",
+        "since": "апрель 2024 года",
+        "how": "BMS выиграла городской аукцион на право заключить договор комплексного развития незастроенной территории с участком ТПУ «Минская» 7,94 га; цена — 26,677 млрд ₽",
+        "source": "https://realty.rbc.ru/news/67d2859f9a794757f892e2dd"
+      }
+    ],
+    "developer": "bms-development",
+    "developerName": "BMS Development Group (ООО «Девелопмент энд ритейл груп»)"
+  },
+  "nizhegorodskaya": {
+    "owners": [
+      {
+        "developer": "level-group",
+        "name": "Level Group",
+        "how": "проект «Левел Нижегородская» на территории бывшего завода «Фрезер»"
+      },
+      {
+        "developer": "brusnika",
+        "name": "Брусника",
+        "since": "июль 2023",
+        "how": "Брусника договорилась с Level Group о покупке половины проекта (около 4 га) — квартал «Издание»",
+        "source": "https://www.novostroy-m.ru/novosti/brusnika_pokupaet_u_level"
+      }
+    ],
     "developer": "level-group",
-    "name": "Level Group",
-    "since": "октябрь 2024 года",
-    "how": "Level Group выиграл торги на 99% долей ООО «ТПУ «Мичуринский проспект» и ООО «ТПУ «Тимирязевская» за 997 млн ₽ у АО «Мосинжпроект»",
-    "source": "https://realty.ria.ru/20241029/tpu-1980743697.html"
-   }
-  ],
-  "developer": "level-group",
-  "developerName": "Level Group",
-  "district": "ramenki",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Мичуринский пр., 45, у метро Мичуринский проспект -> Раменки"
- },
- "kombinat-gazety-pravda": {
-  "owners": [
-   {
-    "developer": "tekhkomplekt",
-    "name": "Техкомплект",
-    "since": "конец 2023 года",
-    "how": "Здание бывшего комбината газеты «Правда» куплено на торгах ДОМ.РФ за 625 млн ₽ с третьей попытки",
-    "source": "https://rg.ru/2024/01/09/reg-cfo/zhdite-svezhij-nomer.html"
-   }
-  ],
-  "developer": "tekhkomplekt",
-  "developerName": "Техкомплект",
-  "district": "begovoy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): ул. Правды, 24 → Беговой"
- },
- "kod-sokolniki": {
-  "developer": "novaya-era",
-  "developerName": "Новая Эра",
-  "note": "проверка 14.10.2026: застройщик «Новая Эра» (Мосгосстройнадзор, BFM); компания продана РЖД в 2022, с 2023 — у фонда AAA Capital (Коммерсантъ)"
- },
- "rizhskiy-gruzovoy-dvor": {
-  "district": "marina-roshcha",
-  "note": "проверка 14.10.2026: на площадке два проекта — «РГД Сити» (РГ-Девелопмент) и «Страна Рижская» (СЗ «Рижский-1»); застройщика досье уточнить по проектной декларации"
- },
- "nastoyashchee": {
-  "stage": "completed",
-  "note": "проверка 14.10.2026: все 4 корпуса сданы (IV кв. 2022, каталоги), продаж от застройщика нет"
- },
- "l-club": {
-  "note": "проверка 14.10.2026: застройщик — ООО «ТПУ Люблино», партнёр «Центр-Инвест»; связь с MR Group не подтверждена — проверить"
- },
- "tatarskaya-35": {
-  "note": "проверка 14.10.2026: по каталогу застройщик «Донстрой» (котлован, сдача I кв. 2028); не подтверждено первичкой"
- },
- "krt-grayvoronovo": {
-  "developer": "granel",
-  "developerName": "Гранель",
-  "note": "застройщик по фактчекингу статьи 22476"
- },
- "paveletskaya-naberezhnaya-6": {
-  "owners": [
-   {
-    "developer": "am-development",
-    "name": "АМ Девелопмент",
-    "since": "апрель 2025",
-    "how": "АО СЗ «АМ ПРОЕКТ», связанная с «АМ Девелопмент», выиграло аукцион на комплекс из семи зданий бывшей больницы с участком около 2,1 га при стартовой цене около 2,1 млрд ₽",
-    "source": "https://msk1.ru/text/gorod/2026/09/30/76669633/"
-   }
-  ],
-  "developer": "am-development",
-  "developerName": "АМ Девелопмент"
- },
- "dom-soboleva": {
-  "developer": "foresight",
-  "developerName": "Foresight",
-  "previousDevelopers": [
-   "mr-group"
-  ],
-  "note": "застройщик по фактчекингу статьи 33062"
- },
- "zaozernaya-15a": {
-  "owners": [
-   {
-    "developer": "telekom-montazh-yug",
-    "name": "Телеком-монтаж-юг",
-    "since": "май 2024",
-    "how": "Бывшую тренировочную базу «Локомотива» на Заозёрной улице купила краснодарская группа компаний на торгах на понижение за 221 млн ₽ при начальной цене 441,93 млн ₽",
-    "source": "https://moskvichmag.ru/?p=361090"
-   }
-  ],
-  "developer": "telekom-montazh-yug",
-  "developerName": "Телеком-монтаж-юг"
- },
- "3-ya-mytishchinskaya-16-str-51-52-60-61": {
-  "owners": [
-   {
-    "developer": "dom-rf",
-    "name": "ДОМ.РФ",
-    "until": "май 2024"
-   },
-   {
-    "developer": "signum",
-    "name": "Сигнум",
-    "since": "май 2024",
-    "how": "компания купила участок 4,2 га на торгах ДОМ.РФ за 2,58 млрд ₽",
-    "source": "https://www.novostroy-m.ru/novosti/kvartal_na_meste_zavoda"
-   }
-  ],
-  "developer": "signum",
-  "developerName": "Сигнум",
-  "previousDevelopers": [
-   "dom-rf"
-  ],
-  "district": "alekseevskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): 3-я Мытищинская, 16, пешком до Алексеевской → Алексеевский"
- },
- "stadion-torpedo": {
-  "owners": [
-   {
-    "developer": "ingrad",
-    "name": "Инград",
-    "until": "2024"
-   },
-   {
+    "developerName": "Брусника",
+    "previousDevelopers": [],
+    "note": "территория на Перовском шоссе, 21: Level Group («Левел Нижегородская»), Брусника («Издание») и BAZA («Бестселлер»)"
+  },
+  "sreda-na-kutuzovskom": {
+    "developer": "forma",
+    "developerName": "Forma",
+    "previousDevelopers": [
+      "pik"
+    ],
+    "note": "застройщик по фактчекингу статьи 24280"
+  },
+  "paveletskaya-siti": {
+    "developer": "level-group",
+    "developerName": "Level Group",
+    "previousDevelopers": [
+      "mr-group"
+    ],
+    "note": "застройщик по фактчекингу статьи 25008",
+    "district": "danilovskiy",
+    "districtSource": "https://www.novostroy-m.ru/kvartiry/dvuhkomnatnaya-kvartira-v-level-paveleckaya-siti-5c89d66cc8a108f1dea7bab82d671d"
+  },
+  "injoy": {
+    "owners": [
+      {
+        "developer": "talan",
+        "name": "Талан",
+        "since": "27 июня 2025",
+        "how": "Талан купил жилой квартал бизнес-класса Injoy на севере Москвы; общие вложения в проект с учётом сделки и развития компания оценила в 102 млрд ₽.",
+        "source": "https://realty.rbc.ru/news/685d3f949a7947e939c9ede6"
+      }
+    ],
+    "developer": "talan",
+    "developerName": "Талан"
+  },
+  "staropetrovskiy-atrium": {
+    "developer": "level-group",
+    "developerName": "Level Group",
+    "note": "на Старопетровском проезде два проекта: жильё Level Group и бизнес-центр Галса на месте «Старопетровского атриума» (куплен в 2024) — досье стоит разделить",
+    "owners": [
+      {
+        "developer": "gals-development",
+        "name": "Галс-Девелопмент",
+        "since": "2024",
+        "how": "купила бизнес-центр «Старопетровский атриум» около 15 тыс. м² с участком около 1,7 га",
+        "source": "https://msk1.ru/text/gorod/2026/05/28/76446715/"
+      }
+    ]
+  },
+  "pole": {
+    "owners": [
+      {
+        "developer": "bestkon",
+        "name": "Бэсткон",
+        "since": "2023 год",
+        "how": "Холдинг «Бэсткон» выкупил у Евгения Гинера, бывшего основного акционера ЦСКА, здание ТЦ «Старт» на участке 1,8 га; сейчас собственник здания — ООО «Премиум Эстейт»",
+        "source": "https://msk1.ru/text/gorod/2026/02/07/76237165/"
+      }
+    ],
+    "developer": "bestkon",
+    "developerName": "Бэсткон",
+    "district": "khoroshevskiy",
+    "districtSource": "https://www.novostroy-m.ru/baza/biznestsentr_pole"
+  },
+  "radio-16s4": {
+    "owners": [
+      {
+        "developer": "reka-rezort",
+        "name": "Река Резорт",
+        "since": "июль 2023",
+        "how": "компания купила участок на торгах за 16,2 млн ₽",
+        "source": "https://moskvichmag.ru/?p=346559"
+      }
+    ],
+    "developer": "reka-rezort",
+    "developerName": "Река Резорт"
+  },
+  "nexus": {
+    "owners": [
+      {
+        "developer": "akvilon",
+        "name": "Аквилон (через ООО «Титул»)",
+        "since": "2023 год",
+        "how": "К августу 2023 года учредителями ООО «Титул», владеющего правом на проект на месте кинотеатра «Брест», стали компании «Брик» и «Норд-Строй», связанные с группой «Аквилон»; до того «Титул» связывали с Capital Group",
+        "source": "https://moskvichmag.ru/gorod/poyavilsya-proekt-tpu-molodezhnaya-v-kuntsevo-na-meste-modernistskogo-kinoteatra-brest/"
+      }
+    ],
+    "developer": "akvilon",
+    "developerName": "Аквилон (через ООО «Титул»)",
+    "district": "kuntsevo",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Ярцевская, 21/1, ТПУ Молодёжная → Кунцево"
+  },
+  "hide": {
+    "developer": "dominanta",
+    "developerName": "Dominanta",
+    "note": "застройщик по фактчекингу статьи 24729"
+  },
+  "novaya-11": {
+    "owners": [
+      {
+        "developer": "element-development",
+        "name": "Element Development",
+        "since": "июль 2023",
+        "how": "Петербургская Element Development вышла на московский рынок с участком около 0,5 га на Новой дороге, 11б, который ранее принадлежал Государственному научному центру лесопромышленного комплекса",
+        "source": "https://www.dp.ru/a/2023/07/20/peterburgskij-zastrojshhik-vihodit"
+      }
+    ],
+    "developer": "element-development",
+    "developerName": "Element Development"
+  },
+  "l67": {
+    "owners": [
+      {
+        "developer": "unikey",
+        "name": "Unikey",
+        "since": "конец 2025 года",
+        "how": "Unikey купила у Forma участок бывшего Московского винно-коньячного завода «КиН» на Ленинградском шоссе",
+        "source": "https://kommersant.ru/doc/8974479"
+      }
+    ],
+    "developer": "unikey",
+    "developerName": "Unikey",
+    "district": "levoberezhnyy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Ленинградское ш., 65-67, Северный порт → Левобережный"
+  },
+  "om-botanicheskiy": {
+    "owners": [
+      {
+        "developer": "om-development",
+        "name": "ОМ Девелопмент",
+        "since": "апрель 2024",
+        "how": "«ОМ Девелопмент» купила у «Пионера» два участка, в том числе площадку на Сельскохозяйственной улице (около 1,37 га); покупку подтвердил покупатель.",
+        "source": "https://www.kommersant.ru/doc/6663730"
+      }
+    ],
+    "developer": "om-development",
+    "developerName": "ОМ Девелопмент"
+  },
+  "vern": {
+    "developer": "neometriya",
+    "developerName": "Неометрия",
+    "previousDevelopers": [
+      "capital-group"
+    ],
+    "note": "застройщик по фактчекингу статьи 35908"
+  },
+  "rozhdestvenka-8": {
+    "owners": [
+      {
+        "developer": "sminex",
+        "name": "Sminex",
+        "since": "декабрь 2025",
+        "how": "Sminex купил у «Галс-Девелопмента» проект «Рождественка 8» в Мещанском районе",
+        "source": "https://www.novostroy-m.ru/novosti/sminex_kupil_u_galsdevelopment"
+      }
+    ],
     "developer": "sminex",
-    "name": "Sminex",
-    "since": "2024",
-    "how": "Sminex приобрёл компанию Ingrad вместе с её проектами, в том числе со стадионом «Торпедо»",
-    "source": "https://moskvichmag.ru/?p=412548"
-   }
+    "developerName": "Sminex",
+    "district": "meshchanskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Рождественка → Мещанский"
+  },
+  "siti-2": {
+    "owners": [
+      {
+        "developer": "strana",
+        "name": "Страна Девелопмент",
+        "since": "18 апреля 2024 года",
+        "how": "Страна Девелопмент выиграла городской аукцион на право заключить договор купли-продажи объектов недвижимости, формирующих лот 3 проекта «Сити-2»; победное предложение — 18,63 млрд ₽",
+        "source": "https://realty.rbc.ru/news/6661ca619a7947670a4e1706"
+      }
+    ],
+    "developer": "strana",
+    "developerName": "Страна Девелопмент"
+  },
+  "stantsiya-l": {
+    "developer": "dars",
+    "developerName": "Dars",
+    "previousDevelopers": [
+      "seven-suns-development"
+    ],
+    "note": "застройщик по фактчекингу статьи 25712"
+  },
+  "kvartal-gertsena": {
+    "owners": [
+      {
+        "developer": "brusnika",
+        "name": "Брусника",
+        "since": "конец 2024 года",
+        "how": "Брусника выкупила у ГК «Самолёт» проект «Квартал Герцена» в Бирюлёве Восточном",
+        "source": "https://www.novostroy-m.ru/baza/jk_kvartal_gertsena"
+      }
+    ],
+    "developer": "brusnika",
+    "developerName": "Брусника",
+    "district": "biryulevo-vostochnoe"
+  },
+  "meteor": {
+    "owners": [
+      {
+        "developer": "sz-filevskiy-park",
+        "name": "СЗ «Филевский парк»",
+        "since": "декабрь 2021",
+        "how": "СЗ «Филевский парк» выиграла аукцион на спорткомплекс «Метеор» у Новикомбанка при стартовой цене 3,01 млрд ₽",
+        "source": "https://www.vedomosti.ru/realty/articles/2021/12/22/901927-rosteh-prodal"
+      },
+      {
+        "developer": "dgi",
+        "name": "Департамент городского имущества Москвы",
+        "since": "декабрь 2023",
+        "how": "Участок стадиона перешёл к городу; о продаже сообщалось в декабре 2023 года",
+        "source": "https://moskvichmag.ru/?p=334791"
+      },
+      {
+        "developer": "capital-group",
+        "name": "Capital Group",
+        "since": "18 декабря 2024",
+        "how": "Capital Group купила два административных здания на территории стадиона у ЦУГИ",
+        "source": "https://www.novostroy-m.ru/novosti/na_territorii_stadiona_meteor"
+      }
+    ],
+    "developer": "sz-filevskiy-park",
+    "developerName": "СЗ «Филевский парк»",
+    "district": "dorogomilovo",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Генерала Ермолова, 1 (стадион Метеор) у Кутузовского пр. → Дорогомилово"
+  },
+  "vorontsov": {
+    "owners": [
+      {
+        "developer": "sun-development",
+        "name": "Sun Development",
+        "until": "конец 2025 года"
+      },
+      {
+        "developer": "gk-razvitie",
+        "name": "ГК «Развитие»",
+        "since": "конец 2025 года",
+        "how": "ГК «Развитие» выкупила у Sun Development проект «Воронцовъ» на участке в переулке Обуха, 3",
+        "source": "https://novostroy-m.ru/baza/jk_v_per_obuha"
+      }
+    ],
+    "developer": "gk-razvitie",
+    "developerName": "ГК «Развитие»",
+    "previousDevelopers": [
+      "sun-development"
+    ],
+    "district": "taganskiy",
+    "districtSource": "https://novostroy-m.ru/baza/jk_v_per_obuha"
+  },
+  "_refuted": [
+    29336
   ],
-  "developer": "sminex",
-  "developerName": "Sminex",
-  "previousDevelopers": [
-   "ingrad"
-  ],
-  "district": "danilovskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Восточная ул., стадион Торпедо у Автозаводской → Даниловский"
- },
- "orient-ekspress": {
-  "district": "perovo",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): шоссе Энтузиастов, 46/2, промзона Прожектор → Перово"
- },
- "kombinat-pitaniya-kosmos": {
-  "district": "fili-davydkovo",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Новозаводская, 12/11, «в Филях» → Фили-Давыдково"
- },
- "literaturnyy-kvartal": {
-  "district": "vnukovskoe",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Рассказовка → поселение Внуковское"
- },
- "begovaya-alleya-7a": {
-  "district": "begovoy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Беговая аллея у ипподрома → Беговой"
- },
- "kanatchikovskiy-4a": {
-  "district": "donskoy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Канатчиковский пр., 5-й Донской, Загородное ш. → Донской"
- },
- "molodogvardeyskaya-64": {
-  "district": "kuntsevo",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Молодогвардейская, 64, престижный запад → Кунцево"
- },
- "shtab-kvartira-yandeksa": {
-  "district": "ramenki",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Косыгина, 15 (бывший Корстон) → Раменки"
- },
- "dovzhenko-12": {
-  "district": "ramenki",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Довженко, 12, локация Мосфильма → Раменки"
- },
- "4-y-verkhnemikhaylovskiy-5": {
-  "district": "donskoy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): 4-й Верхний Михайловский, рядом Level Донской → Донской"
- },
- "upside-kuntsev": {
-  "district": "kuntsevo",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): ТПУ Кунцевская → Кунцево"
- },
- "tpu-aviamotornaya": {
-  "district": "lefortovo",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Авиамоторная, 39 → Лефортово"
- },
- "riversky": {
-  "district": "danilovskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Восточная ул., Нагатинская пойма, Торпедо → Даниловский"
- },
- "imperium": {
-  "district": "khamovniki",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): 2-й Обыденский пер., Остоженка → Хамовники"
- },
- "andropova-22": {
-  "district": "nagatino-sadovniki",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): проспект Андропова, 22, БЦ Нагатинский → Нагатино-Садовники"
- },
- "pentagram": {
-  "district": "presnenskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Большой Козихинский, Патриаршие → Пресненский"
- },
- "nizhnyaya-maslovka-3": {
-  "district": "savelovskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Нижняя Масловка, Бумажный проезд → Савёловский"
- },
- "kazakov-grand-loft": {
-  "district": "basmannyy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Казакова ул. у Садового → Басманный"
- },
- "bolshoy-afanasevskiy-7-str-2-3": {
-  "district": "arbat",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Большой Афанасьевский пер. → Арбат"
- },
- "vorontsovo-pole-10": {
-  "district": "basmannyy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Воронцово Поле, внутри Садового → Басманный"
- },
- "ryabovskaya-manufaktura": {
-  "district": "danilovskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Холодильный пер., у Тульской → Даниловский"
- },
- "sivtsev-vrazhek-36-18": {
-  "district": "arbat",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Сивцев Вражек → Арбат"
- },
- "khokhlovskiy-13-str-2": {
-  "district": "basmannyy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Хохловский пер., у Покровки → Басманный"
- },
- "ordzhonikidze-11": {
-  "district": "donskoy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Орджоникидзе, 11/52, ТЦ Гагаринский → Донской"
- },
- "dius": {
-  "district": "khoroshevskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Академика Ильюшина → Хорошёвский"
- },
- "preobrazhenie": {
-  "district": "bogorodskoe",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): «реновация для района Богородское», Тюменская → Богородское"
- },
- "layf-varshavskaya": {
-  "district": "nagornyy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Котляковский пер., Варшавское ш. → Нагорный"
- },
- "4-ya-magistralnaya-4-10": {
-  "district": "khoroshevskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): 4-я Магистральная, ТПУ Хорошевская → Хорошёвский"
- },
- "one-tower": {
-  "district": "presnenskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Москва-Сити, 1-й Красногвардейский → Пресненский"
- },
- "dom-belyy": {
-  "district": "arbat",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Нижний Кисловский пер. → Арбат"
- },
- "starovagankovskiy": {
-  "district": "arbat",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Староваганьковский пер. → Арбат"
- },
- "shmitovskiy-34": {
-  "district": "presnenskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Шмитовский проезд, Большое Сити → Пресненский"
- },
- "zvenigorodskaya": {
-  "district": "presnenskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Звенигородская у границы ЦАО, Большой Сити (Звенигородское шоссе) -> Пресненский"
- },
- "4-ya-tverskaya-yamskaya-10-i-12-str-1": {
-  "district": "tverskoy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): 4-я Тверская-Ямская, 10 и 12 у Маяковской (заметка: ЦАО) -> Тверской"
- },
- "profsoyuznaya-4-12": {
-  "district": "akademicheskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Профсоюзная 4-12, заметка: долгострой у метро Академическая -> Академический"
- },
- "chernyy-kub": {
-  "district": "presnenskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Участок 4 Москва-Сити, Чёрный куб -> Пресненский"
- },
- "krt-ogorodnyy-proezd-proekt-2": {
-  "district": "butyrskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Складочная, 1 (Савёловский сити у Савёловского вокзала, Огородный проезд) -> Бутырский"
- },
- "paveletskaya-8": {
-  "district": "zamoskvorechye",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Павелецкая ул., 8 у Павелецкого вокзала (Резиденции Композиторов) -> Замоскворечье"
- },
- "26-parkvyu": {
-  "district": "timiryazevskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Тимирязевская ул., 26 (Дом Гиппиуса, общежитие Тимирязевской академии) -> Тимирязевский"
- },
- "level-donskoy": {
-  "district": "donskoy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): 4-й Верхний Михайловский пер., Level Донской -> Донской"
- },
- "stoun-park-pobedy": {
-  "district": "dorogomilovo",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Неверовского, 8 у Кутузовского проспекта -> Дорогомилово"
- },
- "light-city": {
-  "district": "khoroshevskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): 2-я Магистральная, 3 (рядом с Большим Сити) -> Хорошёвский"
- },
- "akademika-oparina-2": {
-  "district": "teplyy-stan",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Академика Опарина, 2 -> Тёплый Стан"
- },
- "tatum": {
-  "district": "obruchevskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Обручева, 27 к2 -> Обручевский"
- },
- "tpu-timiryazevskaya": {
-  "district": "timiryazevskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): ТПУ Тимирязевская, Яблочкова, 9 -> Тимирязевский"
- },
- "leningradskoe-63a-3": {
-  "district": "levoberezhnyy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Ленинградское, 63А/3, Северный порт у Северного речного вокзала -> Левобережный"
- },
- "1-ya-karacharovskaya-8": {
-  "district": "nizhegorodskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): 1-я Карачаровская, 8, треугольник Перовского шоссе (Карачарово) -> Нижегородский"
- },
- "ofisnyy-proekt-stone-na-khodynke": {
-  "district": "khoroshevskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Ходынка (Ходынское поле), офисный проект Stone -> Хорошёвский"
- },
- "zatsepa-21": {
-  "district": "zamoskvorechye",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Зацепа, 21 -> Замоскворечье"
- },
- "eon": {
-  "district": "nagornyy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Варшавское шоссе, 36 у Нагатинской -> Нагорный"
- },
- "novoostapovskaya-12": {
-  "district": "yuzhnoportovyy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Новоостаповская, 12 (хлебозавод Пролетарец) -> Южнопортовый"
- },
- "kosmonavta-volkova-2-4": {
-  "district": "voykovskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Космонавта Волкова, 2-4 -> Войковский"
- },
- "simonovskiy-val-9-k2": {
-  "district": "danilovskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Симоновский Вал, 9 к2 -> Даниловский"
- },
- "avtozavodskaya-23": {
-  "district": "danilovskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Автозаводская, 23 (ЗИЛ) -> Даниловский"
- },
- "festivalnaya-4a": {
-  "district": "levoberezhnyy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Фестивальная, 4А и Лавочкина, 19 -> Левобережный"
- },
- "krasnyy-oktyabr": {
-  "district": "yakimanka",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Берсеневская, 6, Красный Октябрь -> Якиманка"
- },
- "petroverigskiy-6-8-10-str-1a-7": {
-  "district": "basmannyy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Петроверигский пер., 6-8-10 (Китай-город) -> Басманный"
- },
- "mnevniki-8": {
-  "district": "khoroshevo-mnevniki",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Мневники, 8 -> Хорошёво-Мнёвники"
- },
- "3-ya-khoroshevskaya-18-2": {
-  "district": "khoroshevskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): 3-я Хорошёвская, 18/2 (ТПУ Зорге) -> Хорошёвский"
- },
- "gerasima-kurina-10-str-1-str-2": {
-  "district": "fili-davydkovo",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Герасима Курина, 10 (у Кутузовского, Маршала Жукова) -> Фили-Давыдково"
- },
- "neverovskogo-9": {
-  "district": "dorogomilovo",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Неверовского, 9 -> Дорогомилово"
- },
- "bolshoy-kozikhinskiy-22-str-1-2": {
-  "district": "presnenskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Большой Козихинский, 22; заметка: пределы Пресни, Патриаршие -> Пресненский"
- },
- "icity": {
-  "district": "presnenskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Шелепихинский тупик, 17 рядом с ТПУ Сити-2 -> Пресненский"
- },
- "letchika-babushkina-30-str-1": {
-  "district": "losinoostrovskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Лётчика Бабушкина, 30 -> Бабушкинский; район по официальному документу КРТ (статья 28797), 15.10.2026"
- },
- "buninskaya-naberezhnaya": {
-  "district": "sosenskoe",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Бунинские луга (Бунинская набережная) - Новая Москва, Сосенское"
- },
- "mangazeya-na-rechnom": {
-  "district": "levoberezhnyy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Северный порт (Мангазея на Речном) -> Левобережный"
- },
- "kvartal-mit": {
-  "district": "mitino",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Митинский лес -> Митино"
- },
- "onezhskiy-val": {
-  "district": "zapadnoe-degunino",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Онежский вал, КРТ Дегунино-Лихоборы -> Западное Дегунино"
- },
- "michurinskiy-park": {
-  "district": "ochakovo-matveevskoe",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Озёрная, 42-46 -> Очаково-Матвеевское"
- },
- "work-nizhegorodskaya": {
-  "district": "nizhegorodskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Work Нижегородская, рядом КРТ Карачарово -> Нижегородский"
- },
- "level-nizhegorodskaya": {
-  "district": "nizhegorodskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Level Нижегородская, Нижегородская ул. -> Нижегородский"
- },
- "krt-na-ulitse-krzhizhanovskogo": {
-  "district": "akademicheskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): ул. Кржижановского -> Академический"
- },
- "2-ya-magistralnaya-18": {
-  "district": "khoroshevskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): 2-я Магистральная, 18 -> Хорошёвский"
- },
- "nizhnie-mnevniki-20": {
-  "district": "khoroshevo-mnevniki",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Нижние Мневники, 20 -> Хорошёво-Мнёвники"
- },
- "blik": {
-  "district": "donskoy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Новоданиловская, 12 -> Даниловский; район по статье 35184 (каталоги называют Донской), 15.10.2026"
- },
- "rizhskiy-vokzal": {
-  "district": "alekseevskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Рижский вокзал, Рижская площадь -> Алексеевский"
- },
- "ryazanovskoe": {
-  "district": "ryazanovskoe",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): проект в поселении Рязановское, Новая Москва"
- },
- "parkside": {
-  "district": "chertanovo-yuzhnoe",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Красного Маяка, 26, Чертаново -> Чертаново Южное"
- },
- "rumyantsevo": {
-  "district": "moskovskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Румянцево (станция метро), Новая Москва -> поселение Московский"
- },
- "elektrozavod": {
-  "district": "basmannyy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Электрозавод на Электрозаводской ул. -> Басманный"
- },
- "moskovskiy": {
-  "district": "moskovskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): проект в Московском, дорога до метро Филатов Луг (НАО)"
- },
- "ozernaya": {
-  "district": "ochakovo-matveevskoe",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Озёрная, 7 (Мичуринский) -> Очаково-Матвеевское"
- },
- "kasatkina-11": {
-  "district": "rostokino",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Касаткина, 11 у ВДНХ -> Ростокино"
- },
- "dosflota-10": {
-  "district": "severnoe-tushino",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Досфлота, 10, парк Северное Тушино -> Северное Тушино"
- },
- "level-michurinskiy": {
-  "district": "ochakovo-matveevskoe",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Озёрная, 7 -> Очаково-Матвеевское"
- },
- "tpu-novopeschanaya": {
-  "district": "khoroshevskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Куусинена, 21, ТПУ Новопесчаная/Зорге -> Хорошёвский"
- },
- "levensona": {
-  "district": "presnenskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): типография Левенсона у Патриарших прудов -> Пресненский"
- },
- "malaya-tulskaya-2": {
-  "district": "donskoy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Малая Тульская, 2 -> Донской"
- },
- "zorge": {
-  "district": "khoroshevskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): ул. Зорге, 9 -> Хорошёвский"
- },
- "postnikovo": {
-  "district": "vnukovskoe",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Постниково сразу за Внуково, А101 -> поселение Внуковское"
- },
- "kampus": {
-  "district": "khoroshevskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): 1-я Магистральная, 2 и 8 -> Хорошёвский"
- },
- "zavod-kazakova": {
-  "district": "dorogomilovo",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Кутузовский пр., 36 -> Дорогомилово"
- },
- "saburovo": {
-  "region": "moskovskaya-oblast",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Заметка: Сабурово в Московской области, не район Москворечье-Сабурово"
- },
- "zorge-3": {
-  "district": "khoroshevskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): ул. Зорге, 3 -> Хорошёвский"
- },
- "zikkurat-preobrazhenskiy": {
-  "district": "preobrazhenskoe",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Большая Черкизовская, 4 -> Преображенское"
- },
- "omega-residence": {
-  "district": "gagarinskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Фотиевой, 5 (Ленинский) -> Гагаринский"
- },
- "krauze": {
-  "district": "khoroshevo-mnevniki",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): ул. Мнёвники, 1, Большой Сити -> Хорошёво-Мнёвники"
- },
- "adts-kommunarka": {
-  "district": "sosenskoe",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): АДЦ Коммунарка; Коммунарка -> Сосенское"
- },
- "titul-kostomarovskiy-15": {
-  "district": "taganskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Костомаровская наб./переулок → Таганский"
- },
- "luce": {
-  "district": "arbat",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Крестовоздвиженский пер., 4 → район Арбат"
- },
- "mod": {
-  "district": "marina-roshcha",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): 4-я Марьиной Рощи, 12/1 → Марьина Роща"
- },
- "vernissage": {
-  "district": "zamoskvorechye",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Щипок, 26 стр. 2 → Замоскворечье"
- },
- "n-ice-river": {
-  "district": "danilovskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Автозаводская, 16, КРТ ЗИЛ Восток рядом → Даниловский"
- },
- "geliymash": {
-  "district": "danilovskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Автозаводская, 25, рядом с ЗИЛом → Даниловский"
- },
- "gintsvetmet": {
-  "district": "ostankinskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Академика Королева, 13 (Останкино) → Останкинский"
- },
- "rzhd-siti": {
-  "district": "marina-roshcha",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Рижский грузовой двор, вплотную к MOD (4-я Марьиной Рощи) → Марьина Роща"
- },
- "champine": {
-  "district": "tekstilshchiki",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Сосинская, 43, у метро Волгоградский проспект → Текстильщики"
- },
- "mayprioriti-paveletskaya": {
-  "district": "zamoskvorechye",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Дубининская, 17А у метро Павелецкая → Замоскворечье"
- },
- "dk-metrostroya": {
-  "district": "taganskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Костомаровский, 3 → Таганский"
- },
- "1-ya-frezernaya-2-1": {
-  "district": "nizhegorodskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): 1-я Фрезерная, 2/1 → Нижегородский"
- },
- "vauxhall": {
-  "district": "zamoskvorechye",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Летниковская ул. → Замоскворечье"
- },
- "tts-yuzhnyy": {
-  "district": "chertanovo-yuzhnoe",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Кировоградская, 9 (ТЦ Южный), у метро Южная → Чертаново Южное"
- },
- "high-life": {
-  "district": "zamoskvorechye",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Летниковская, 11 → Замоскворечье"
- },
- "mantulinskaya-5": {
-  "district": "presnenskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Мантулинская ул., 5 (усадьба Студенец) → Пресненский"
- },
- "emotion": {
-  "district": "khoroshevo-mnevniki",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): 2-й Силикатный пр., 8; в заметке Хорошёво-Мнёвники рядом с Большим Сити"
- },
- "moz-art": {
-  "district": "tverskoy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Малая Дмитровка, 23/15 → Тверской"
- },
- "zagorevskaya-4": {
-  "district": "biryulevo-zapadnoe",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Загорьевская, 4, Загорье → Бирюлёво Западное"
- },
- "woods": {
-  "district": "ramenki",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): 2-я Мосфильмовская, рядом гольф-клуб → Раменки"
- },
- "tpu-park-pobedy": {
-  "district": "dorogomilovo",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): ТПУ Парк Победы на Кутузовском → Дорогомилово"
- },
- "tpu-lukhmanovskaya": {
-  "district": "nekrasovka",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Лухмановская, 2, у метро Лухмановская → Некрасовка"
- },
- "milyutinskiy-5": {
-  "district": "meshchanskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Милютинский пер., 5 → Мещанский"
- },
- "ogorodnyy-proezd": {
-  "district": "butyrskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Огородный проезд, промзона у ул. Руставели → Бутырский"
- },
- "milyutinskiy-18": {
-  "district": "meshchanskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Милютинский пер., 18А → Мещанский"
- },
- "nizhniy-kiselnyy-7-21": {
-  "district": "meshchanskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Нижний Кисельный пер., 7/21 → Мещанский"
- },
- "chistye-prudy": {
-  "district": "basmannyy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Потаповский пер., 5 стр. 4 (Чистые пруды) → Басманный"
- },
- "vilyuyskaya-3": {
-  "district": "yuzhnoe-medvedkovo",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Вилюйская, 3, промзона Медведково рядом с Полярной → Южное Медведково"
- },
- "stone-leninskiy": {
-  "district": "gagarinskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Вавилова, 11 у Ленинского пр. → Гагаринский"
- },
- "novospasskiy": {
-  "district": "danilovskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Дербеневская наб., 7 → Даниловский"
- },
- "polar": {
-  "district": "yuzhnoe-medvedkovo",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Полярная, 39, промзона Медведково → Южное Медведково"
- },
- "obruchev": {
-  "district": "obruchevskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Обручева, 30А → Обручевский"
- },
- "kirovogradskaya-9k4": {
-  "district": "chertanovo-yuzhnoe",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Кировоградская, 9к4 (ТЦ Южный) → Чертаново Южное"
- },
- "streshnevo": {
-  "district": "pokrovskoe-streshnevo",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Level Стрешнево → Покровское-Стрешнево по названию"
- },
- "paveletskaya": {
-  "district": "zamoskvorechye",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Павелецкая, Летниковская 13 / Шлюзовая → Замоскворечье"
- },
- "mypriority-nizhegorodskaya": {
-  "district": "nizhegorodskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Рязанский пр., 4А у метро Нижегородская → Нижегородский"
- },
- "pervyy-dubrovskiy": {
-  "district": "yuzhnoportovyy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): 1-я Дубровская ул. → Южнопортовый"
- },
- "pik-lermontovskiy-54": {
-  "region": "sankt-peterburg",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Лермонтовский пр., 54 в Санкт-Петербурге по заметке"
- },
- "serp-i-molot": {
-  "district": "lefortovo",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Золоторожский вал, 11 (Серп и Молот) → Лефортово"
- },
- "uchastok-20-v-moskva-siti": {
-  "district": "presnenskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): 20-й участок Москва-Сити → Пресненский"
- },
- "oro": {
-  "district": "krasnoselskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): 1-й Красносельский пер., 15/17 → Красносельский"
- },
- "springs": {
-  "district": "filevskiy-park",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Малая Филёвская, 46 → Филёвский Парк"
- },
- "21-19": {
-  "district": "ryazanskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Заметка: ТЦ у метро Стахановская заменили жилым корпусом; Стахановская на Рязанском пр. → Рязанский"
- },
- "dom-s-atlantami": {
-  "district": "basmannyy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Заметки: старые дворы Хитровки, рядом Китай-город → Хитровка относится к Басманному"
- },
- "mfk-na-1-oy-ulitse-yamskogo-polya-vl-30": {
-  "district": "begovoy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): 1-я Ямского Поля, 30, кластер Белорусская-Савёловская → Беговой"
- },
- "dvizhenie-tushino": {
-  "district": "pokrovskoe-streshnevo",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Заметки: проект на Тушинском аэродроме (рядом ПИК Покровское) → Покровское-Стрешнево"
- },
- "zil-yug": {
-  "district": "danilovskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): ЗИЛ-ЮГ на территории ЗИЛа у Нагатинской поймы → Даниловский"
- },
- "ostrov-mechty": {
-  "district": "nagatinskiy-zaton",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Остров Мечты в Нагатинской пойме → Нагатинский Затон"
- },
- "varshavskoe-shosse-170e": {
-  "district": "yuzhnoe-butovo",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Варшавское ш., 170е у МКАД рядом с ЖК Лесопарковый → Южное Бутово"
- },
- "1-y-dubrovskiy-78-14": {
-  "district": "yuzhnoportovyy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): 1-й Дубровский пр. → Южнопортовый"
- },
- "dolgorukovskaya-25": {
-  "district": "tverskoy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Долгоруковская ул., 25 → Тверской"
- },
- "alia": {
-  "district": "pokrovskoe-streshnevo",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Заметки: Alia — соседи Primavera на Тушинском поле → Покровское-Стрешнево"
- },
- "ever": {
-  "district": "obruchevskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Обручева, 23 → Обручевский"
- },
- "tpu-shelepikha": {
-  "district": "presnenskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Шмитовский пр., 40, станция Шелепиха → Пресненский"
- },
- "zilart": {
-  "district": "danilovskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): ЗИЛАРТ на территории ЗИЛа → Даниловский"
- },
- "salarevo": {
-  "district": "moskovskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Саларьево (Самолёт/ПИК) — Новая Москва, поселение Московский"
- },
- "pravda": {
-  "district": "savelovskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): ул. Правды, 24 у Савёловского вокзала → Савёловский"
- },
- "tushino-2018": {
-  "district": "pokrovskoe-streshnevo",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Заметка: ПЗЗ по Тушино — функциональные зоны района Покровское-Стрешнево"
- },
- "tipografiya-levensona": {
-  "district": "presnenskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Трёхпрудный пер. (заметка) → Пресненский"
- },
- "obrucheva-30": {
-  "district": "obruchevskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Обручева, 30 → Обручевский"
- },
- "lesoparkovyy": {
-  "district": "yuzhnoe-butovo",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): ЖК Лесопарковый на Варшавском шоссе у МКАД → Южное Бутово"
- },
- "red7": {
-  "district": "krasnoselskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Заметка: RED7 на пересечении Садового и Сахарова → Красносельский"
- },
- "krasnokazarmennaya-15": {
-  "district": "lefortovo",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Красноказарменная ул., 15 (Хлебозавод №12) → Лефортово"
- },
- "soul": {
-  "district": "aeroport",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Часовая ул., 28 (Всекохудожник) → Аэропорт"
- },
- "cherry-city": {
-  "district": "akademicheskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Большая Черёмушкинская, 25 → Академический"
- },
- "symphony-34": {
-  "district": "savelovskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): 2-я Хуторская, 34 → Савёловский"
- },
- "city-bay": {
-  "district": "pokrovskoe-streshnevo",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Волоколамское ш., 95-97 у Химкинского водохранилища → Покровское-Стрешнево"
- },
- "forum": {
-  "district": "dorogomilovo",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Редевелопмент кинотеатра Форум, участок на Кутузовском → Дорогомилово"
- },
- "butyrskaya-1-2": {
-  "district": "savelovskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Бутырская, 1/2, ТПУ Савёловская → Савёловский"
- },
- "stremlenie-k-svetu": {
-  "district": "lianozovo",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Илимская, 3 → Лианозово"
- },
- "nizhnyaya-maslovka-17": {
-  "district": "savelovskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Нижняя Масловка, 17 → Савёловский"
- },
- "era": {
-  "district": "danilovskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Дербеневская, 20 → Даниловский"
- },
- "novodanilovskaya-8": {
-  "district": "danilovskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Новоданиловская наб., 8 → Даниловский"
- },
- "holland-park": {
-  "district": "pokrovskoe-streshnevo",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Holland Park = ПИК Покровское на Тушинском поле → Покровское-Стрешнево"
- },
- "novyy-arbat-2": {
-  "district": "arbat",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Новый Арбат, 2 → Арбат"
- },
- "palashevskiy-11": {
-  "district": "tverskoy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Большой Палашёвский пер., 11-13 → Тверской"
- },
- "novokhokhlovskaya-15": {
-  "district": "nizhegorodskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Новохохловская ул., 15 → Нижегородский"
- },
- "volokolamskoe-shosse-24": {
-  "district": "pokrovskoe-streshnevo",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Волоколамское ш., 24, 1-й Красногорский пр. → Покровское-Стрешнево"
- },
- "perets": {
-  "district": "mitino",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Пятницкое шоссе, 3 → Митино"
- },
- "soho-noho": {
-  "district": "savelovskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Soho+Noho — проект на ул. Правды у Савёловского вокзала → Савёловский"
- },
- "bolshaya-akademicheskaya-85": {
-  "district": "timiryazevskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): 3-й Нижнелихоборский пр., 1 / Большая Академическая → Тимирязевский"
- },
- "serednevskiy-les": {
-  "district": "vnukovskoe",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Заметка: Середнево, Новая Москва, рядом Внуково → Внуковское"
- },
- "dubininskaya-17-27-29": {
-  "district": "zamoskvorechye",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Дубининская ул., 17, 27-29 у Павелецкой → Замоскворечье"
- },
- "k31": {
-  "district": "akademicheskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Кржижановского, 31 → Академический"
- },
- "tsnii-delfin": {
-  "district": "ochakovo-matveevskoe",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Озёрная ул., 42-44 → Очаково-Матвеевское"
- },
- "poklonnaya-7": {
-  "district": "dorogomilovo",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Поклонная ул., 7 → Дорогомилово"
- },
- "tpu-petrovsko-razumovskaya": {
-  "district": "timiryazevskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): ТПУ у станции Петровско-Разумовская, Дмитровское шоссе -> Тимирязевский"
- },
- "sidney-siti": {
-  "district": "khoroshevskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Шеногина, 2 / Магистральная, 12, 3-й Хорошёвский пр. -> Хорошёвский (САО)"
- },
- "rodina-park": {
-  "district": "mozhayskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Верейская, 12, долина Сетуни, рядом Верейская 29/41 -> Можайский"
- },
- "dom-narkomfina": {
-  "district": "presnenskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Дом Наркомфина, Новинский бул., 25 (известный объект) -> Пресненский; адрес в заметках не указан"
- },
- "prokshino": {
-  "district": "sosenskoe",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Прокшино с метро, А101, Новая Москва -> поселение Сосенское"
- },
- "aviatika": {
-  "district": "khoroshevskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Хорошёвское шоссе, 40 -> Хорошёвский (САО)"
- },
- "tpu-suvorovskaya": {
-  "district": "meshchanskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): пересечение ул. Дурова и Олимпийского пр. у Олимпийского -> Мещанский"
- },
- "mypriority-dubrovka": {
-  "district": "yuzhnoportovyy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Шарикоподшипниковская, 11, рынок Дубровка -> Южнопортовый"
- },
- "zhukov-8": {
-  "district": "danilovskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Жуков проезд, 8, рядом Дербеневская, 20 у Павелецкой -> Даниловский"
- },
- "intonatsiya": {
-  "district": "shchukino",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Щукинская, 7 -> Щукино"
- },
- "arkhitektor": {
-  "district": "obruchevskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): ул. Волгина (акад. Волгина), рядом Веллхаус на Ленинском -> Обручевский"
- },
- "businovskiy-park": {
-  "district": "zapadnoe-degunino",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Ижорская, 6, Бусиново -> Западное Дегунино"
- },
- "ilinka": {
-  "district": "tverskoy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Ильинка (Китай-город) -> Тверской"
- },
- "d8": {
-  "district": "danilovskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Даниловская наб., 8, рядом ЗИЛ и RiverSky -> Даниловский"
- },
- "filit": {
-  "district": "filevskiy-park",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Барклая, 6, район Филёвского парка у метро Багратионовская -> Филёвский Парк"
- },
- "kronshtadtskiy-9": {
-  "district": "golovinskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Кронштадтский бул., 9, рядом Головинское кладбище -> Головинский"
- },
- "mikhalkovskaya-48": {
-  "district": "koptevo",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Михалковская ул., 48 -> Коптево"
- },
- "mikhalkovskaya-50": {
-  "district": "koptevo",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Михалковская ул., 50 -> Коптево"
- },
- "narvin": {
-  "district": "golovinskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Кронштадтский бул., 14, за забором Головинское кладбище -> Головинский"
- },
- "insayder": {
-  "district": "danilovskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Автозаводская ул., 24, Симоновская наб. -> Даниловский"
- },
- "entuziast": {
-  "district": "lefortovo",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): ТПУ Авиамоторная, Авиамоторная ул. -> Лефортово"
- },
- "kutuzovskiy-29": {
-  "district": "dorogomilovo",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Кутузовский пр., 29 -> Дорогомилово"
- },
- "vishnevyy-sad": {
-  "district": "ramenki",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Мосфильмовская, 1 -> Раменки"
- },
- "ryabinovyy-park": {
-  "district": "mozhayskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Верейская, 41 -> Можайский"
- },
- "ahead": {
-  "district": "fili-davydkovo",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Василисы Кожиной, 25/1 → Фили-Давыдково"
- },
- "shlyuzovaya-2": {
-  "district": "zamoskvorechye",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Шлюзовая наб., 2 (Павелецкая) → Замоскворечье"
- },
- "tushinskiy-mashinostroitelnyy-zavod": {
-  "district": "yuzhnoe-tushino",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): в заметке: Южное Тушино (Свободы, 35)"
- },
- "veshnikh-vod-8": {
-  "district": "yaroslavskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Вешних вод, 8: заметка рядом с Ярославским ш., Хибинским, Северянином → Ярославский"
- },
- "chasovaya-6": {
-  "district": "aeroport",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Часовая ул. → район Аэропорт"
- },
- "pave": {
-  "district": "danilovskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): 2-й Павелецкий пр., 7 (Павелецкая, хлебозавод №7) → Даниловский"
- },
- "krt-kurskaya": {
-  "district": "basmannyy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Верхняя Сыромятническая, 7 у Курского вокзала → Басманный"
- },
- "kirpichnye-ulitsy": {
-  "district": "sokolinaya-gora",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): улицы Вольная и Кирпичная → Соколиная Гора"
- },
- "moskvoreche": {
-  "district": "moskvoreche-saburovo",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): 1-й Варшавский пр., 1А, проект Москворечье → Москворечье-Сабурово"
- },
- "kaloshin-6": {
-  "district": "arbat",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Калошин пер., 6 → Арбат"
- },
- "strana-ozernaya": {
-  "district": "ochakovo-matveevskoe",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Страна Озерная, часть Мичуринского парка ПИК на Озёрной ул. → Очаково-Матвеевское"
- },
- "dm-tower": {
-  "district": "danilovskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): DM Tower, Даниловская мануфактура → Даниловский"
- },
- "kirpichnaya-41": {
-  "district": "sokolinaya-gora",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Кирпичная, 41, примыкает к КРТ Кирпичные улицы → Соколиная Гора"
- },
- "soul-yuzhnoportovaya-42": {
-  "district": "yuzhnoportovyy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Южнопортовая, 42, освоение Южного порта → Южнопортовый"
- },
- "level-zvenigorodskaya": {
-  "district": "presnenskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): 3-й Силикатный пр., 6 (Level Звенигородская) → Пресненский"
- },
- "borets": {
-  "district": "marina-roshcha",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): завод Борец, Шереметьевская ул. → Марьина Роща"
- },
- "upside-towers": {
-  "district": "butyrskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Огородный пр., 2-4 → Бутырский"
- },
- "5-ya-magistralnaya-15": {
-  "district": "khoroshevskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): 5-я Магистральная, 15 → Хорошёвский (САО)"
- },
- "aurum-taym": {
-  "district": "bogorodskoe",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): 4-й пр. Подбельского, 3 → Богородское"
- },
- "novaya-ipatovka-23a": {
-  "district": "timiryazevskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Новая Ипатовка, 23а, примыкает к парку МСХА Тимирязева → Тимирязевский"
- },
- "tpu-molodezhnaya": {
-  "district": "kuntsevo",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Ярцевская, 21 (ТПУ Молодёжная, кинотеатр Брест) → Кунцево"
- },
- "elektrolitnyy-10": {
-  "district": "nagornyy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Электролитный пр., 10 → Нагорный"
- },
- "leningradskiy-36": {
-  "district": "begovoy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Ленинградский пр., 36 к13 (Динамо) → Беговой"
- },
- "1-ya-brestskaya-64": {
-  "district": "tverskoy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): 1-я Брестская, 64 у Белорусской → Тверской"
- },
- "tverskaya-10": {
-  "district": "tverskoy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Тверская ул., 10 → Тверской"
- },
- "telegraf": {
-  "district": "tverskoy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Тверская ул., 7, Центральный телеграф → Тверской"
- },
- "rumyantsevo-park": {
-  "district": "moskovskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Румянцево, поселение Московский (НАО)"
- },
- "portland": {
-  "district": "yuzhnoportovyy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Южнопортовая, 42 → Южнопортовый"
- },
- "dubninskaya-79": {
-  "district": "zapadnoe-degunino",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Дубнинская, 79 рядом с КРТ Вагоноремонт → Западное Дегунино"
- },
- "ofisnaya-bashnya-stone": {
-  "district": "danilovskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Новоданиловская наб. (Новоданиловка) → Даниловский"
- },
- "stories": {
-  "district": "ramenki",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): пр. Генерала Дорохова, район реки Раменки → Раменки"
- },
- "ofisnaya-bashnya-gals-v-siti": {
-  "district": "presnenskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Москва-Сити → Пресненский"
- },
- "nagornyy-proezd-3-str-4": {
-  "district": "nagornyy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Нагорный пр., 3 → Нагорный"
- },
- "krt-vagonoremont": {
-  "district": "zapadnoe-degunino",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): КРТ Вагоноремонт на Дубнинской ул. → Западное Дегунино"
- },
- "zdanie-naprotiv-bashni-imperiya": {
-  "district": "presnenskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): напротив башни Империя в Сити → Пресненский"
- },
- "tpu-mamyri": {
-  "district": "moskovskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): ТПУ Мамыри → поселение Московский"
- },
- "dom-franka": {
-  "district": "meshchanskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Большой Кисельный пер., 11 → Мещанский"
- },
- "sense": {
-  "district": "arbat",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Мерзляковский пер., 22/3 у Никитского бульвара → Арбат"
- },
- "rakurs": {
-  "district": "shchukino",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): ул. Маршала Бирюзова, 1 → Щукино"
- },
- "vozdvizhenka-7-6-str-6": {
-  "district": "arbat",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Воздвиженка, 7/6 → Арбат"
- },
- "zorge-25": {
-  "district": "khoroshevskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): ул. Зорге, 25 → Хорошёвский"
- },
- "noon": {
-  "district": "kuzminki",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Окская ул., 9 → Кузьминки"
- },
- "r4s": {
-  "district": "arbat",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Никитский, 6/20 в начале Нового Арбата → Арбат"
- },
- "sadovnicheskaya-69": {
-  "district": "zamoskvorechye",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Садовническая наб., 69 (Балчуг) → Замоскворечье"
- },
- "2-y-paveletskiy-4-6": {
-  "district": "danilovskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): 2-й Павелецкий пр., 4/6 → Даниловский"
- },
- "mfk-okolo-aviaparka": {
-  "district": "khoroshevskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Ходынка у Авиапарка → Хорошёвский"
- },
- "sadovnicheskaya-76-71": {
-  "district": "zamoskvorechye",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Садовническая, 76/71, Балчуг → Замоскворечье"
- },
- "kapelskiy-7a-str-1": {
-  "district": "meshchanskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Капельский пер., 7А у Олимпийского → Мещанский"
- },
- "shabolovka-26s10": {
-  "district": "donskoy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Шаболовка, 26с10 → Донской"
- },
- "ermakova-roshcha-7as1": {
-  "district": "presnenskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Ермакова Роща, 7АС1, Сити → Пресненский"
- },
- "bolshaya-filevskaya-1": {
-  "district": "fili-davydkovo",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Большая Филёвская, 1, Западный порт → Фили-Давыдково"
- },
- "uno-gorbunova": {
-  "district": "kuntsevo",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Горбунова, 27; промзона Кунцево рядом (Горбунова, 2) → Кунцево"
- },
- "novoe-letovo": {
-  "district": "sosenskoe",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Новая Москва, рядом дер. Летово → Сосенское"
- },
- "safonovskaya-13": {
-  "district": "mozhayskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Сафоновская, Сетуньская земская школа, начало Можайки → Можайский"
- },
- "nagatinskaya-5": {
-  "district": "nagatino-sadovniki",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Нагатинская ул./набережная рядом с Level Нагатинская → Нагатино-Садовники"
- },
- "nicole": {
-  "district": "tverskoy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Никольская ул. → Тверской"
- },
- "krt-yuzhnyy-port-territoriya-4": {
-  "district": "yuzhnoportovyy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Остаповский проезд, Южный порт → Южнопортовый"
- },
- "geolog": {
-  "district": "obruchevskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): БЦ на ул. Обручева → Обручевский"
- },
- "uspenskiy-5": {
-  "district": "tverskoy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Успенский пер., сад Эрмитаж → Тверской"
- },
- "mig": {
-  "district": "begovoy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): 1-й Боткинский проезд, завод МиГ на Ленинградке → Беговой"
- },
- "sbersiti": {
-  "district": "krylatskoe",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Рублёво-Архангельское → Крылатское"
- },
- "prozhektor": {
-  "district": "perovo",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): промзона Прожектор, Плеханова/Перовская/Электродная → Перово"
- },
- "desnareche": {
-  "district": "desenovskoe",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): рядом Новые Ватутинки, метро Десна → Десёновское"
- },
- "1-ya-yamskogo-polya-17": {
-  "district": "begovoy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): 1-я Ямского Поля, кластер Белорусская-Савеловская → Беговой"
- },
- "neverovskogo-10": {
-  "district": "dorogomilovo",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Неверовского ул., вилка Барклая и Кутузовского → Дорогомилово"
- },
- "zdanie-sev": {
-  "district": "arbat",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Новый Арбат, 36 → Арбат"
- },
- "evopark-sokolniki": {
-  "district": "sokolniki",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Потешная ул., название Сокольники → Сокольники"
- },
- "ryabinovaya-44-1": {
-  "district": "ochakovo-matveevskoe",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Рябиновая, 44/1, у комбината Очаково → Очаково-Матвеевское"
- },
- "stakhanovskaya": {
-  "district": "ryazanskiy",
-  "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Стахановская ул., промзона Грайвороново → Рязанский"
- },
- "dd-oo-mm": {
-  "district": "aeroport",
-  "note": "Часовая, 6/3 — район Аэропорт по проверенной статье (правка 14.10.2026)"
- },
- "pushkarev-12": {
-  "district": "meshchanskiy",
-  "note": "Пушкарёв переулок — Мещанский район, не Кузьминки (правка 14.10.2026)"
- },
- "letnaya-71": {
-  "district": "pokrovskoe-streshnevo",
-  "note": "район по источнику (https://www.novostroy-m.ru/baza/arhitekturnyy_proekt_na_letnoy): «ул. Летная, вл. 71, 98», район «Покровское-Стрешнево», СЗАО"
- },
- "stone-savelovskaya": {
-  "district": "marina-roshcha",
-  "note": "район по источнику (https://www.novostroy-m.ru/baza/biznestsentr_stone_savelovskaya_stoun): «ул. Двинцев, 3 с1», «Москва, СВАО, Марьина Роща»"
- },
- "paveletskaya-naberezhnaya-2": {
-  "district": "danilovskiy",
-  "note": "район по источнику (https://www.cian.ru/delovoy-kvartal-loft-ville-moskva-4774/): «Москва, Павелецкая набережная, 2С2»; бизнес-центр Loft Ville в Даниловском районе ЮАО"
- },
- "vysokaya-zhizn": {
-  "district": "danilovskiy",
-  "note": "район по источнику (https://www.novostroy-m.ru/baza/jk_high_life_hay): ЖК High Life (Хай Лайф, Пионер): ул. Летниковская, 11/10с22, Даниловский район ЮАО («на стыке Даниловского района и Замоскворечья»). Адрес не по назва"
- },
- "dmitrovskoe-nebo": {
-  "district": "zapadnoe-degunino",
-  "note": "район по источнику (https://www.novostroy-m.ru/baza/jk_dmitrovskoe_nebo): «Ильменский пр-д, д. 4, корп. 2», Западное Дегунино, САО"
- },
- "vishnevaya-7": {
-  "district": "pokrovskoe-streshnevo",
-  "note": "район по источнику (https://snob.ru/news/mr-group-pristupaet-k-stroitelstvu-peredovogo-multikvartala-v-raione-pokrovskoe-streshnevo/): «улица Вишневая, владение 7», район «Покровское-Стрешнево»"
- },
- "seliger-siti": {
-  "district": "zapadnoe-degunino",
-  "note": "район по источнику (https://www.novostroy-m.ru/baza/mfk_seliger_siti): «ш. Дмитровское, вл. 87», Западное Дегунино, САО"
- },
- "bolshaya-tulskaya-10": {
-  "district": "danilovskiy",
-  "note": "район по источнику (https://www.novostroy-m.ru/baza/jk_ul_bolshaya_tulskaya): «ул. Большая Тульская, вл. 10», «Москва, ЮАО, Даниловский»"
- },
- "bolshoy-tolmachevskiy-5": {
-  "district": "yakimanka",
-  "note": "район по источнику (https://www.novostroy-m.ru/kvartiry/chetirehkomnatnaya-kvartira-v-dom-lavrushinskii-e4be863300ad3234d5c30e298bcb7a): «Москва, ЦАО, Якиманка, Большой Толмачевский пер., вл. 5, к.3»"
- },
- "serdtse-stolitsy": {
-  "district": "khoroshevo-mnevniki",
-  "note": "район по источнику (https://www.novostroy-m.ru/novosti/polucheno_razreshenie_na_stroitelstvo_2_ocheredi_jk_serdtse_stolitsy): Район прямо назван: ЖК в Хорошево-Мневники (СЗАО); почтового адреса на странице нет"
- },
- "ostafevo": {
-  "district": "ryazanovskoe",
-  "note": "район по источнику (https://www.novostroy-m.ru/expertise/ekspertiza_proekta_jk_ostafevo): ЖК в селе Остафьево, «Рязановского поселения, в которое входит село Остафьево» (Новая Москва); почтового адреса нет"
- },
- "setun": {
-  "district": "ramenki",
-  "note": "район по источнику (https://www.novostroy-m.ru/kvartiry/studiya-v-zhk-nova-nova-d5a8c0b7ca4bd60e92f0fcec37ea81): «Москва, ЗАО, Раменки, ул. Братьев Фонченко, влд. 19»"
- },
- "district-39": {
-  "district": "ryazanskiy",
-  "note": "район по источнику (https://www.novostroy-m.ru/kvartiry/trehkomnatnaya-kvartira-v-zhk-prospekt-39-district-39-db41a1d98e51370eb55fd063cd78d9): ЖК «Проспект 39» (district-39): «Рязанский проспект, 39к4», Рязанский район ЮВАО"
- },
- "dream-towers": {
-  "district": "nagatinskiy-zaton",
-  "note": "район по источнику (https://www.novostroy-m.ru/kvartiry/trehkomnatnaya-kvartira-v-zhk-dream-towers-drim-tauiers-c9071bfe6149b55d36d2726ea088ac): «Пр-т Андропова, вл.9/1, корп. 1», ЮАО, район Нагатинский Затон"
- },
- "saltykovskaya-8": {
-  "district": "novokosino",
-  "note": "район по источнику (https://www.novostroy-m.ru/baza/mkr_megapolis): мкр. Мегаполис, ул. Салтыковская, корп. 1 (номер дома 8 на странице не указан), район Новокосино, ВАО"
- },
- "vtoroy-nagatinskiy": {
-  "district": "nagatino-sadovniki",
-  "note": "район по источнику (https://www.novostroy-m.ru/baza/jiloy_rayon_vtoroy_nagatinskiy): «2-ой Нагатинский пр-д, вл. 2», Нагатино-Садовники, ЮАО"
- },
- "dmitrovskiy-proezd-1g": {
-  "district": "timiryazevskiy",
-  "note": "район по источнику (https://www.novostroy-m.ru/baza/biznestsentr_stone_dmitrovskaya_stoun): «Дмитровский проезд, вл. 1Г», «Москва, САО, Тимирязевский»"
- },
- "level-seligerskaya": {
-  "district": "zapadnoe-degunino",
-  "note": "район по источнику (https://www.novostroy-m.ru/kvartiry/trehkomnatnaya-kvartira-v-level-seligerskaya-043c74e1b180e5b4799f814d1c0abf): «Ильменский проезд, вл. 8, 12, корп. 3», Западное Дегунино, САО"
- },
- "prichalnyy-6": {
-  "district": "khoroshevo-mnevniki",
-  "note": "район по источнику (https://www.novostroy-m.ru/baza/jk_level_prichalnyy_level): ЖК Level Причальный: «Причальный проезд, вл. 8», «Москва, СЗАО, Хорошево-Мневники» (соседний номер, дом 6 не указан)"
- },
- "the-lot": {
-  "district": "danilovskiy",
-  "note": "район по источнику (https://www.novostroy-m.ru/kvartiry/dvuhkomnatnaya-kvartira-v-zhk-the-lot-lot-ee2866306c3d838513eb4d30f0d381): «Жуков пр-д, вл. 21», Даниловский, ЮАО"
- },
- "tpu-lianozovo": {
-  "district": "lianozovo",
-  "note": "район по источнику (https://www.mos.ru/news/item/124798073/): ТПУ «Лианозово», раздел «Район»: Лианозово, СВАО; Дубнинская ул. упомянута без номера"
- },
- "upside-ostankino": {
-  "district": "butyrskiy",
-  "note": "район по статье 33394 (novostroy-m.ru: Бутырский), 15.10.2026"
- },
- "zareche": {
-  "owners": [
-   {
-    "developer": "mits",
-    "name": "МИЦ",
-    "until": "октябрь 2023"
-   },
-   {
+  "_refuted_note": "29336: Dominanta отказалась продавать hideOUT и QOOB Coldy (Ведомости, CRE.ru, 20.06.2025)",
+  "tsvetnoy-30-32-34": {
+    "owners": [
+      {
+        "developer": "sezar-group",
+        "name": "Sezar Group (через СЗ «Рассказово»)",
+        "since": "февраль 2024",
+        "how": "Специализированный застройщик «Рассказово», связанный с Sezar Group, купил на торгах участок с недостроенным женским центром за 1,413 млрд ₽",
+        "source": "https://msk1.ru/text/realty/2024/11/28/74367674/"
+      }
+    ],
+    "developer": "sezar-group",
+    "developerName": "Sezar Group (через СЗ «Рассказово»)",
+    "district": "meshchanskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Цветной бульвар, 30 → Мещанский"
+  },
+  "tpu-michurinskiy-prospekt": {
+    "owners": [
+      {
+        "developer": "level-group",
+        "name": "Level Group",
+        "since": "октябрь 2024 года",
+        "how": "Level Group выиграл торги на 99% долей ООО «ТПУ «Мичуринский проспект» и ООО «ТПУ «Тимирязевская» за 997 млн ₽ у АО «Мосинжпроект»",
+        "source": "https://realty.ria.ru/20241029/tpu-1980743697.html"
+      }
+    ],
+    "developer": "level-group",
+    "developerName": "Level Group",
+    "district": "ramenki",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Мичуринский пр., 45, у метро Мичуринский проспект -> Раменки"
+  },
+  "kombinat-gazety-pravda": {
+    "owners": [
+      {
+        "developer": "tekhkomplekt",
+        "name": "Техкомплект",
+        "since": "конец 2023 года",
+        "how": "Здание бывшего комбината газеты «Правда» куплено на торгах ДОМ.РФ за 625 млн ₽ с третьей попытки",
+        "source": "https://rg.ru/2024/01/09/reg-cfo/zhdite-svezhij-nomer.html"
+      }
+    ],
+    "developer": "tekhkomplekt",
+    "developerName": "Техкомплект",
+    "district": "begovoy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): ул. Правды, 24 → Беговой"
+  },
+  "kod-sokolniki": {
+    "developer": "novaya-era",
+    "developerName": "Новая Эра",
+    "note": "проверка 14.10.2026: застройщик «Новая Эра» (Мосгосстройнадзор, BFM); компания продана РЖД в 2022, с 2023 — у фонда AAA Capital (Коммерсантъ)"
+  },
+  "rizhskiy-gruzovoy-dvor": {
+    "district": "marina-roshcha",
+    "note": "проверка 14.10.2026: на площадке два проекта — «РГД Сити» (РГ-Девелопмент) и «Страна Рижская» (СЗ «Рижский-1»); застройщика досье уточнить по проектной декларации"
+  },
+  "nastoyashchee": {
+    "stage": "completed",
+    "note": "проверка 14.10.2026: все 4 корпуса сданы (IV кв. 2022, каталоги), продаж от застройщика нет"
+  },
+  "l-club": {
+    "note": "проверка 14.10.2026: застройщик — ООО «ТПУ Люблино», партнёр «Центр-Инвест»; связь с MR Group не подтверждена — проверить"
+  },
+  "tatarskaya-35": {
+    "note": "проверка 14.10.2026: по каталогу застройщик «Донстрой» (котлован, сдача I кв. 2028); не подтверждено первичкой"
+  },
+  "krt-grayvoronovo": {
+    "developer": "granel",
+    "developerName": "Гранель",
+    "note": "застройщик по фактчекингу статьи 22476"
+  },
+  "paveletskaya-naberezhnaya-6": {
+    "owners": [
+      {
+        "developer": "am-development",
+        "name": "АМ Девелопмент",
+        "since": "апрель 2025",
+        "how": "АО СЗ «АМ ПРОЕКТ», связанная с «АМ Девелопмент», выиграло аукцион на комплекс из семи зданий бывшей больницы с участком около 2,1 га при стартовой цене около 2,1 млрд ₽",
+        "source": "https://msk1.ru/text/gorod/2026/09/30/76669633/"
+      }
+    ],
+    "developer": "am-development",
+    "developerName": "АМ Девелопмент"
+  },
+  "dom-soboleva": {
+    "developer": "foresight",
+    "developerName": "Foresight",
+    "previousDevelopers": [
+      "mr-group"
+    ],
+    "note": "застройщик по фактчекингу статьи 33062"
+  },
+  "zaozernaya-15a": {
+    "owners": [
+      {
+        "developer": "telekom-montazh-yug",
+        "name": "Телеком-монтаж-юг",
+        "since": "май 2024",
+        "how": "Бывшую тренировочную базу «Локомотива» на Заозёрной улице купила краснодарская группа компаний на торгах на понижение за 221 млн ₽ при начальной цене 441,93 млн ₽",
+        "source": "https://moskvichmag.ru/?p=361090"
+      }
+    ],
+    "developer": "telekom-montazh-yug",
+    "developerName": "Телеком-монтаж-юг"
+  },
+  "3-ya-mytishchinskaya-16-str-51-52-60-61": {
+    "owners": [
+      {
+        "developer": "dom-rf",
+        "name": "ДОМ.РФ",
+        "until": "май 2024"
+      },
+      {
+        "developer": "signum",
+        "name": "Сигнум",
+        "since": "май 2024",
+        "how": "компания купила участок 4,2 га на торгах ДОМ.РФ за 2,58 млрд ₽",
+        "source": "https://www.novostroy-m.ru/novosti/kvartal_na_meste_zavoda"
+      }
+    ],
+    "developer": "signum",
+    "developerName": "Сигнум",
+    "previousDevelopers": [
+      "dom-rf"
+    ],
+    "district": "alekseevskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): 3-я Мытищинская, 16, пешком до Алексеевской → Алексеевский"
+  },
+  "stadion-torpedo": {
+    "owners": [
+      {
+        "developer": "ingrad",
+        "name": "Инград",
+        "until": "2024"
+      },
+      {
+        "developer": "sminex",
+        "name": "Sminex",
+        "since": "2024",
+        "how": "Sminex приобрёл компанию Ingrad вместе с её проектами, в том числе со стадионом «Торпедо»",
+        "source": "https://moskvichmag.ru/?p=412548"
+      }
+    ],
+    "developer": "sminex",
+    "developerName": "Sminex",
+    "previousDevelopers": [
+      "ingrad"
+    ],
+    "district": "danilovskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Восточная ул., стадион Торпедо у Автозаводской → Даниловский"
+  },
+  "orient-ekspress": {
+    "district": "perovo",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): шоссе Энтузиастов, 46/2, промзона Прожектор → Перово"
+  },
+  "kombinat-pitaniya-kosmos": {
+    "district": "fili-davydkovo",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Новозаводская, 12/11, «в Филях» → Фили-Давыдково"
+  },
+  "literaturnyy-kvartal": {
+    "district": "vnukovskoe",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Рассказовка → поселение Внуковское"
+  },
+  "begovaya-alleya-7a": {
+    "district": "begovoy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Беговая аллея у ипподрома → Беговой"
+  },
+  "kanatchikovskiy-4a": {
+    "district": "donskoy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Канатчиковский пр., 5-й Донской, Загородное ш. → Донской"
+  },
+  "molodogvardeyskaya-64": {
+    "district": "kuntsevo",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Молодогвардейская, 64, престижный запад → Кунцево"
+  },
+  "shtab-kvartira-yandeksa": {
+    "district": "ramenki",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Косыгина, 15 (бывший Корстон) → Раменки"
+  },
+  "dovzhenko-12": {
+    "district": "ramenki",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Довженко, 12, локация Мосфильма → Раменки"
+  },
+  "4-y-verkhnemikhaylovskiy-5": {
+    "district": "donskoy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): 4-й Верхний Михайловский, рядом Level Донской → Донской"
+  },
+  "upside-kuntsev": {
+    "district": "kuntsevo",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): ТПУ Кунцевская → Кунцево"
+  },
+  "tpu-aviamotornaya": {
+    "district": "lefortovo",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Авиамоторная, 39 → Лефортово"
+  },
+  "riversky": {
+    "district": "danilovskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Восточная ул., Нагатинская пойма, Торпедо → Даниловский"
+  },
+  "imperium": {
+    "district": "khamovniki",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): 2-й Обыденский пер., Остоженка → Хамовники"
+  },
+  "andropova-22": {
+    "district": "nagatino-sadovniki",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): проспект Андропова, 22, БЦ Нагатинский → Нагатино-Садовники"
+  },
+  "pentagram": {
+    "district": "presnenskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Большой Козихинский, Патриаршие → Пресненский"
+  },
+  "nizhnyaya-maslovka-3": {
+    "district": "savelovskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Нижняя Масловка, Бумажный проезд → Савёловский"
+  },
+  "kazakov-grand-loft": {
+    "district": "basmannyy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Казакова ул. у Садового → Басманный"
+  },
+  "bolshoy-afanasevskiy-7-str-2-3": {
+    "district": "arbat",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Большой Афанасьевский пер. → Арбат"
+  },
+  "vorontsovo-pole-10": {
+    "district": "basmannyy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Воронцово Поле, внутри Садового → Басманный"
+  },
+  "ryabovskaya-manufaktura": {
+    "district": "danilovskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Холодильный пер., у Тульской → Даниловский"
+  },
+  "sivtsev-vrazhek-36-18": {
+    "district": "arbat",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Сивцев Вражек → Арбат"
+  },
+  "khokhlovskiy-13-str-2": {
+    "district": "basmannyy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Хохловский пер., у Покровки → Басманный"
+  },
+  "ordzhonikidze-11": {
+    "district": "donskoy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Орджоникидзе, 11/52, ТЦ Гагаринский → Донской"
+  },
+  "dius": {
+    "district": "khoroshevskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Академика Ильюшина → Хорошёвский"
+  },
+  "preobrazhenie": {
+    "district": "bogorodskoe",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): «реновация для района Богородское», Тюменская → Богородское"
+  },
+  "layf-varshavskaya": {
+    "district": "nagornyy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Котляковский пер., Варшавское ш. → Нагорный"
+  },
+  "4-ya-magistralnaya-4-10": {
+    "district": "khoroshevskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): 4-я Магистральная, ТПУ Хорошевская → Хорошёвский"
+  },
+  "one-tower": {
+    "district": "presnenskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Москва-Сити, 1-й Красногвардейский → Пресненский"
+  },
+  "dom-belyy": {
+    "district": "arbat",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Нижний Кисловский пер. → Арбат"
+  },
+  "starovagankovskiy": {
+    "district": "arbat",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Староваганьковский пер. → Арбат"
+  },
+  "shmitovskiy-34": {
+    "district": "presnenskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Шмитовский проезд, Большое Сити → Пресненский"
+  },
+  "zvenigorodskaya": {
+    "district": "presnenskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Звенигородская у границы ЦАО, Большой Сити (Звенигородское шоссе) -> Пресненский"
+  },
+  "4-ya-tverskaya-yamskaya-10-i-12-str-1": {
+    "district": "tverskoy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): 4-я Тверская-Ямская, 10 и 12 у Маяковской (заметка: ЦАО) -> Тверской"
+  },
+  "profsoyuznaya-4-12": {
+    "district": "akademicheskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Профсоюзная 4-12, заметка: долгострой у метро Академическая -> Академический"
+  },
+  "chernyy-kub": {
+    "district": "presnenskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Участок 4 Москва-Сити, Чёрный куб -> Пресненский"
+  },
+  "krt-ogorodnyy-proezd-proekt-2": {
+    "district": "butyrskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Складочная, 1 (Савёловский сити у Савёловского вокзала, Огородный проезд) -> Бутырский"
+  },
+  "paveletskaya-8": {
+    "district": "zamoskvorechye",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Павелецкая ул., 8 у Павелецкого вокзала (Резиденции Композиторов) -> Замоскворечье"
+  },
+  "26-parkvyu": {
+    "district": "timiryazevskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Тимирязевская ул., 26 (Дом Гиппиуса, общежитие Тимирязевской академии) -> Тимирязевский"
+  },
+  "level-donskoy": {
+    "district": "donskoy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): 4-й Верхний Михайловский пер., Level Донской -> Донской"
+  },
+  "stoun-park-pobedy": {
+    "district": "dorogomilovo",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Неверовского, 8 у Кутузовского проспекта -> Дорогомилово"
+  },
+  "light-city": {
+    "district": "khoroshevskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): 2-я Магистральная, 3 (рядом с Большим Сити) -> Хорошёвский"
+  },
+  "akademika-oparina-2": {
+    "district": "teplyy-stan",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Академика Опарина, 2 -> Тёплый Стан"
+  },
+  "tatum": {
+    "district": "obruchevskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Обручева, 27 к2 -> Обручевский"
+  },
+  "tpu-timiryazevskaya": {
+    "district": "timiryazevskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): ТПУ Тимирязевская, Яблочкова, 9 -> Тимирязевский"
+  },
+  "leningradskoe-63a-3": {
+    "district": "levoberezhnyy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Ленинградское, 63А/3, Северный порт у Северного речного вокзала -> Левобережный"
+  },
+  "1-ya-karacharovskaya-8": {
+    "district": "nizhegorodskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): 1-я Карачаровская, 8, треугольник Перовского шоссе (Карачарово) -> Нижегородский"
+  },
+  "ofisnyy-proekt-stone-na-khodynke": {
+    "district": "khoroshevskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Ходынка (Ходынское поле), офисный проект Stone -> Хорошёвский"
+  },
+  "zatsepa-21": {
+    "district": "zamoskvorechye",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Зацепа, 21 -> Замоскворечье"
+  },
+  "eon": {
+    "district": "nagornyy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Варшавское шоссе, 36 у Нагатинской -> Нагорный"
+  },
+  "novoostapovskaya-12": {
+    "district": "yuzhnoportovyy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Новоостаповская, 12 (хлебозавод Пролетарец) -> Южнопортовый"
+  },
+  "kosmonavta-volkova-2-4": {
+    "district": "voykovskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Космонавта Волкова, 2-4 -> Войковский"
+  },
+  "simonovskiy-val-9-k2": {
+    "district": "danilovskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Симоновский Вал, 9 к2 -> Даниловский"
+  },
+  "avtozavodskaya-23": {
+    "district": "danilovskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Автозаводская, 23 (ЗИЛ) -> Даниловский"
+  },
+  "festivalnaya-4a": {
+    "district": "levoberezhnyy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Фестивальная, 4А и Лавочкина, 19 -> Левобережный"
+  },
+  "krasnyy-oktyabr": {
+    "district": "yakimanka",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Берсеневская, 6, Красный Октябрь -> Якиманка"
+  },
+  "petroverigskiy-6-8-10-str-1a-7": {
+    "district": "basmannyy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Петроверигский пер., 6-8-10 (Китай-город) -> Басманный"
+  },
+  "mnevniki-8": {
+    "district": "khoroshevo-mnevniki",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Мневники, 8 -> Хорошёво-Мнёвники"
+  },
+  "3-ya-khoroshevskaya-18-2": {
+    "district": "khoroshevskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): 3-я Хорошёвская, 18/2 (ТПУ Зорге) -> Хорошёвский"
+  },
+  "gerasima-kurina-10-str-1-str-2": {
+    "district": "fili-davydkovo",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Герасима Курина, 10 (у Кутузовского, Маршала Жукова) -> Фили-Давыдково"
+  },
+  "neverovskogo-9": {
+    "district": "dorogomilovo",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Неверовского, 9 -> Дорогомилово"
+  },
+  "bolshoy-kozikhinskiy-22-str-1-2": {
+    "district": "presnenskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Большой Козихинский, 22; заметка: пределы Пресни, Патриаршие -> Пресненский"
+  },
+  "icity": {
+    "district": "presnenskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Шелепихинский тупик, 17 рядом с ТПУ Сити-2 -> Пресненский"
+  },
+  "letchika-babushkina-30-str-1": {
+    "district": "losinoostrovskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Лётчика Бабушкина, 30 -> Бабушкинский; район по официальному документу КРТ (статья 28797), 15.10.2026"
+  },
+  "buninskaya-naberezhnaya": {
+    "district": "sosenskoe",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Бунинские луга (Бунинская набережная) - Новая Москва, Сосенское"
+  },
+  "mangazeya-na-rechnom": {
+    "district": "levoberezhnyy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Северный порт (Мангазея на Речном) -> Левобережный"
+  },
+  "kvartal-mit": {
+    "district": "mitino",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Митинский лес -> Митино"
+  },
+  "onezhskiy-val": {
+    "district": "zapadnoe-degunino",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Онежский вал, КРТ Дегунино-Лихоборы -> Западное Дегунино"
+  },
+  "michurinskiy-park": {
+    "district": "ochakovo-matveevskoe",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Озёрная, 42-46 -> Очаково-Матвеевское"
+  },
+  "work-nizhegorodskaya": {
+    "district": "nizhegorodskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Work Нижегородская, рядом КРТ Карачарово -> Нижегородский"
+  },
+  "level-nizhegorodskaya": {
+    "district": "nizhegorodskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Level Нижегородская, Нижегородская ул. -> Нижегородский"
+  },
+  "krt-na-ulitse-krzhizhanovskogo": {
+    "district": "akademicheskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): ул. Кржижановского -> Академический"
+  },
+  "2-ya-magistralnaya-18": {
+    "district": "khoroshevskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): 2-я Магистральная, 18 -> Хорошёвский"
+  },
+  "nizhnie-mnevniki-20": {
+    "district": "khoroshevo-mnevniki",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Нижние Мневники, 20 -> Хорошёво-Мнёвники"
+  },
+  "blik": {
+    "district": "donskoy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Новоданиловская, 12 -> Даниловский; район по статье 35184 (каталоги называют Донской), 15.10.2026"
+  },
+  "rizhskiy-vokzal": {
+    "district": "alekseevskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Рижский вокзал, Рижская площадь -> Алексеевский"
+  },
+  "ryazanovskoe": {
+    "district": "ryazanovskoe",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): проект в поселении Рязановское, Новая Москва"
+  },
+  "parkside": {
+    "district": "chertanovo-yuzhnoe",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Красного Маяка, 26, Чертаново -> Чертаново Южное"
+  },
+  "rumyantsevo": {
+    "district": "moskovskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Румянцево (станция метро), Новая Москва -> поселение Московский"
+  },
+  "elektrozavod": {
+    "district": "basmannyy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Электрозавод на Электрозаводской ул. -> Басманный"
+  },
+  "moskovskiy": {
+    "district": "moskovskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): проект в Московском, дорога до метро Филатов Луг (НАО)"
+  },
+  "ozernaya": {
+    "district": "ochakovo-matveevskoe",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Озёрная, 7 (Мичуринский) -> Очаково-Матвеевское"
+  },
+  "kasatkina-11": {
+    "district": "rostokino",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Касаткина, 11 у ВДНХ -> Ростокино"
+  },
+  "dosflota-10": {
+    "district": "severnoe-tushino",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Досфлота, 10, парк Северное Тушино -> Северное Тушино"
+  },
+  "level-michurinskiy": {
+    "district": "ochakovo-matveevskoe",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Озёрная, 7 -> Очаково-Матвеевское"
+  },
+  "tpu-novopeschanaya": {
+    "district": "khoroshevskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Куусинена, 21, ТПУ Новопесчаная/Зорге -> Хорошёвский"
+  },
+  "levensona": {
+    "district": "presnenskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): типография Левенсона у Патриарших прудов -> Пресненский"
+  },
+  "malaya-tulskaya-2": {
+    "district": "donskoy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Малая Тульская, 2 -> Донской"
+  },
+  "zorge": {
+    "district": "khoroshevskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): ул. Зорге, 9 -> Хорошёвский"
+  },
+  "postnikovo": {
+    "district": "vnukovskoe",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Постниково сразу за Внуково, А101 -> поселение Внуковское"
+  },
+  "kampus": {
+    "district": "khoroshevskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): 1-я Магистральная, 2 и 8 -> Хорошёвский"
+  },
+  "zavod-kazakova": {
+    "district": "dorogomilovo",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Кутузовский пр., 36 -> Дорогомилово"
+  },
+  "saburovo": {
+    "region": "moskovskaya-oblast",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Заметка: Сабурово в Московской области, не район Москворечье-Сабурово"
+  },
+  "zorge-3": {
+    "district": "khoroshevskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): ул. Зорге, 3 -> Хорошёвский"
+  },
+  "zikkurat-preobrazhenskiy": {
+    "district": "preobrazhenskoe",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Большая Черкизовская, 4 -> Преображенское"
+  },
+  "omega-residence": {
+    "district": "gagarinskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Фотиевой, 5 (Ленинский) -> Гагаринский"
+  },
+  "krauze": {
+    "district": "khoroshevo-mnevniki",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): ул. Мнёвники, 1, Большой Сити -> Хорошёво-Мнёвники"
+  },
+  "adts-kommunarka": {
+    "district": "sosenskoe",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): АДЦ Коммунарка; Коммунарка -> Сосенское"
+  },
+  "titul-kostomarovskiy-15": {
+    "district": "taganskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Костомаровская наб./переулок → Таганский"
+  },
+  "luce": {
+    "district": "arbat",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Крестовоздвиженский пер., 4 → район Арбат"
+  },
+  "mod": {
+    "district": "marina-roshcha",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): 4-я Марьиной Рощи, 12/1 → Марьина Роща"
+  },
+  "vernissage": {
+    "district": "zamoskvorechye",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Щипок, 26 стр. 2 → Замоскворечье"
+  },
+  "n-ice-river": {
+    "district": "danilovskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Автозаводская, 16, КРТ ЗИЛ Восток рядом → Даниловский"
+  },
+  "geliymash": {
+    "district": "danilovskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Автозаводская, 25, рядом с ЗИЛом → Даниловский"
+  },
+  "gintsvetmet": {
+    "district": "ostankinskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Академика Королева, 13 (Останкино) → Останкинский"
+  },
+  "rzhd-siti": {
+    "district": "marina-roshcha",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Рижский грузовой двор, вплотную к MOD (4-я Марьиной Рощи) → Марьина Роща"
+  },
+  "champine": {
+    "district": "tekstilshchiki",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Сосинская, 43, у метро Волгоградский проспект → Текстильщики"
+  },
+  "mayprioriti-paveletskaya": {
+    "district": "zamoskvorechye",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Дубининская, 17А у метро Павелецкая → Замоскворечье"
+  },
+  "dk-metrostroya": {
+    "district": "taganskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Костомаровский, 3 → Таганский"
+  },
+  "1-ya-frezernaya-2-1": {
+    "district": "nizhegorodskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): 1-я Фрезерная, 2/1 → Нижегородский"
+  },
+  "vauxhall": {
+    "district": "zamoskvorechye",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Летниковская ул. → Замоскворечье"
+  },
+  "tts-yuzhnyy": {
+    "district": "chertanovo-yuzhnoe",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Кировоградская, 9 (ТЦ Южный), у метро Южная → Чертаново Южное"
+  },
+  "high-life": {
+    "district": "zamoskvorechye",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Летниковская, 11 → Замоскворечье"
+  },
+  "mantulinskaya-5": {
+    "district": "presnenskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Мантулинская ул., 5 (усадьба Студенец) → Пресненский"
+  },
+  "emotion": {
+    "district": "khoroshevo-mnevniki",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): 2-й Силикатный пр., 8; в заметке Хорошёво-Мнёвники рядом с Большим Сити"
+  },
+  "moz-art": {
+    "district": "tverskoy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Малая Дмитровка, 23/15 → Тверской"
+  },
+  "zagorevskaya-4": {
+    "district": "biryulevo-zapadnoe",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Загорьевская, 4, Загорье → Бирюлёво Западное"
+  },
+  "woods": {
+    "district": "ramenki",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): 2-я Мосфильмовская, рядом гольф-клуб → Раменки"
+  },
+  "tpu-park-pobedy": {
+    "district": "dorogomilovo",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): ТПУ Парк Победы на Кутузовском → Дорогомилово"
+  },
+  "tpu-lukhmanovskaya": {
+    "district": "nekrasovka",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Лухмановская, 2, у метро Лухмановская → Некрасовка"
+  },
+  "milyutinskiy-5": {
+    "district": "meshchanskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Милютинский пер., 5 → Мещанский"
+  },
+  "ogorodnyy-proezd": {
+    "district": "butyrskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Огородный проезд, промзона у ул. Руставели → Бутырский"
+  },
+  "milyutinskiy-18": {
+    "district": "meshchanskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Милютинский пер., 18А → Мещанский"
+  },
+  "nizhniy-kiselnyy-7-21": {
+    "district": "meshchanskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Нижний Кисельный пер., 7/21 → Мещанский"
+  },
+  "chistye-prudy": {
+    "district": "basmannyy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Потаповский пер., 5 стр. 4 (Чистые пруды) → Басманный"
+  },
+  "vilyuyskaya-3": {
+    "district": "yuzhnoe-medvedkovo",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Вилюйская, 3, промзона Медведково рядом с Полярной → Южное Медведково"
+  },
+  "stone-leninskiy": {
+    "district": "gagarinskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Вавилова, 11 у Ленинского пр. → Гагаринский"
+  },
+  "novospasskiy": {
+    "district": "danilovskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Дербеневская наб., 7 → Даниловский"
+  },
+  "polar": {
+    "district": "yuzhnoe-medvedkovo",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Полярная, 39, промзона Медведково → Южное Медведково"
+  },
+  "obruchev": {
+    "district": "obruchevskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Обручева, 30А → Обручевский"
+  },
+  "kirovogradskaya-9k4": {
+    "district": "chertanovo-yuzhnoe",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Кировоградская, 9к4 (ТЦ Южный) → Чертаново Южное"
+  },
+  "streshnevo": {
+    "district": "pokrovskoe-streshnevo",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Level Стрешнево → Покровское-Стрешнево по названию"
+  },
+  "paveletskaya": {
+    "district": "zamoskvorechye",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Павелецкая, Летниковская 13 / Шлюзовая → Замоскворечье"
+  },
+  "mypriority-nizhegorodskaya": {
+    "district": "nizhegorodskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Рязанский пр., 4А у метро Нижегородская → Нижегородский"
+  },
+  "pervyy-dubrovskiy": {
+    "district": "yuzhnoportovyy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): 1-я Дубровская ул. → Южнопортовый"
+  },
+  "pik-lermontovskiy-54": {
+    "region": "sankt-peterburg",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Лермонтовский пр., 54 в Санкт-Петербурге по заметке"
+  },
+  "serp-i-molot": {
+    "district": "lefortovo",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Золоторожский вал, 11 (Серп и Молот) → Лефортово"
+  },
+  "uchastok-20-v-moskva-siti": {
+    "district": "presnenskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): 20-й участок Москва-Сити → Пресненский"
+  },
+  "oro": {
+    "district": "krasnoselskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): 1-й Красносельский пер., 15/17 → Красносельский"
+  },
+  "springs": {
+    "district": "filevskiy-park",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Малая Филёвская, 46 → Филёвский Парк"
+  },
+  "21-19": {
+    "district": "ryazanskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Заметка: ТЦ у метро Стахановская заменили жилым корпусом; Стахановская на Рязанском пр. → Рязанский"
+  },
+  "dom-s-atlantami": {
+    "district": "basmannyy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Заметки: старые дворы Хитровки, рядом Китай-город → Хитровка относится к Басманному"
+  },
+  "mfk-na-1-oy-ulitse-yamskogo-polya-vl-30": {
+    "district": "begovoy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): 1-я Ямского Поля, 30, кластер Белорусская-Савёловская → Беговой"
+  },
+  "dvizhenie-tushino": {
+    "district": "pokrovskoe-streshnevo",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Заметки: проект на Тушинском аэродроме (рядом ПИК Покровское) → Покровское-Стрешнево"
+  },
+  "zil-yug": {
+    "district": "danilovskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): ЗИЛ-ЮГ на территории ЗИЛа у Нагатинской поймы → Даниловский"
+  },
+  "ostrov-mechty": {
+    "district": "nagatinskiy-zaton",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Остров Мечты в Нагатинской пойме → Нагатинский Затон"
+  },
+  "varshavskoe-shosse-170e": {
+    "district": "yuzhnoe-butovo",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Варшавское ш., 170е у МКАД рядом с ЖК Лесопарковый → Южное Бутово"
+  },
+  "1-y-dubrovskiy-78-14": {
+    "district": "yuzhnoportovyy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): 1-й Дубровский пр. → Южнопортовый"
+  },
+  "dolgorukovskaya-25": {
+    "district": "tverskoy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Долгоруковская ул., 25 → Тверской"
+  },
+  "alia": {
+    "district": "pokrovskoe-streshnevo",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Заметки: Alia — соседи Primavera на Тушинском поле → Покровское-Стрешнево"
+  },
+  "ever": {
+    "district": "obruchevskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Обручева, 23 → Обручевский"
+  },
+  "tpu-shelepikha": {
+    "district": "presnenskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Шмитовский пр., 40, станция Шелепиха → Пресненский"
+  },
+  "zilart": {
+    "district": "danilovskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): ЗИЛАРТ на территории ЗИЛа → Даниловский"
+  },
+  "salarevo": {
+    "district": "moskovskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Саларьево (Самолёт/ПИК) — Новая Москва, поселение Московский"
+  },
+  "pravda": {
+    "district": "savelovskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): ул. Правды, 24 у Савёловского вокзала → Савёловский"
+  },
+  "tushino-2018": {
+    "district": "pokrovskoe-streshnevo",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Заметка: ПЗЗ по Тушино — функциональные зоны района Покровское-Стрешнево"
+  },
+  "tipografiya-levensona": {
+    "district": "presnenskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Трёхпрудный пер. (заметка) → Пресненский"
+  },
+  "obrucheva-30": {
+    "district": "obruchevskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Обручева, 30 → Обручевский"
+  },
+  "lesoparkovyy": {
+    "district": "yuzhnoe-butovo",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): ЖК Лесопарковый на Варшавском шоссе у МКАД → Южное Бутово"
+  },
+  "red7": {
+    "district": "krasnoselskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Заметка: RED7 на пересечении Садового и Сахарова → Красносельский"
+  },
+  "krasnokazarmennaya-15": {
+    "district": "lefortovo",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Красноказарменная ул., 15 (Хлебозавод №12) → Лефортово"
+  },
+  "soul": {
+    "district": "aeroport",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Часовая ул., 28 (Всекохудожник) → Аэропорт"
+  },
+  "cherry-city": {
+    "district": "akademicheskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Большая Черёмушкинская, 25 → Академический"
+  },
+  "symphony-34": {
+    "district": "savelovskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): 2-я Хуторская, 34 → Савёловский"
+  },
+  "city-bay": {
+    "district": "pokrovskoe-streshnevo",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Волоколамское ш., 95-97 у Химкинского водохранилища → Покровское-Стрешнево"
+  },
+  "forum": {
+    "district": "dorogomilovo",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Редевелопмент кинотеатра Форум, участок на Кутузовском → Дорогомилово"
+  },
+  "butyrskaya-1-2": {
+    "district": "savelovskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Бутырская, 1/2, ТПУ Савёловская → Савёловский"
+  },
+  "stremlenie-k-svetu": {
+    "district": "lianozovo",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Илимская, 3 → Лианозово"
+  },
+  "nizhnyaya-maslovka-17": {
+    "district": "savelovskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Нижняя Масловка, 17 → Савёловский"
+  },
+  "era": {
+    "district": "danilovskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Дербеневская, 20 → Даниловский"
+  },
+  "novodanilovskaya-8": {
+    "district": "danilovskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Новоданиловская наб., 8 → Даниловский"
+  },
+  "holland-park": {
+    "district": "pokrovskoe-streshnevo",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Holland Park = ПИК Покровское на Тушинском поле → Покровское-Стрешнево"
+  },
+  "novyy-arbat-2": {
+    "district": "arbat",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Новый Арбат, 2 → Арбат"
+  },
+  "palashevskiy-11": {
+    "district": "tverskoy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Большой Палашёвский пер., 11-13 → Тверской"
+  },
+  "novokhokhlovskaya-15": {
+    "district": "nizhegorodskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Новохохловская ул., 15 → Нижегородский"
+  },
+  "volokolamskoe-shosse-24": {
+    "district": "pokrovskoe-streshnevo",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Волоколамское ш., 24, 1-й Красногорский пр. → Покровское-Стрешнево"
+  },
+  "perets": {
+    "district": "mitino",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Пятницкое шоссе, 3 → Митино"
+  },
+  "soho-noho": {
+    "district": "savelovskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Soho+Noho — проект на ул. Правды у Савёловского вокзала → Савёловский"
+  },
+  "bolshaya-akademicheskaya-85": {
+    "district": "timiryazevskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): 3-й Нижнелихоборский пр., 1 / Большая Академическая → Тимирязевский"
+  },
+  "serednevskiy-les": {
+    "district": "vnukovskoe",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Заметка: Середнево, Новая Москва, рядом Внуково → Внуковское"
+  },
+  "dubininskaya-17-27-29": {
+    "district": "zamoskvorechye",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Дубининская ул., 17, 27-29 у Павелецкой → Замоскворечье"
+  },
+  "k31": {
+    "district": "akademicheskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Кржижановского, 31 → Академический"
+  },
+  "tsnii-delfin": {
+    "district": "ochakovo-matveevskoe",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Озёрная ул., 42-44 → Очаково-Матвеевское"
+  },
+  "poklonnaya-7": {
+    "district": "dorogomilovo",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Поклонная ул., 7 → Дорогомилово"
+  },
+  "tpu-petrovsko-razumovskaya": {
+    "district": "timiryazevskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): ТПУ у станции Петровско-Разумовская, Дмитровское шоссе -> Тимирязевский"
+  },
+  "sidney-siti": {
+    "district": "khoroshevskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Шеногина, 2 / Магистральная, 12, 3-й Хорошёвский пр. -> Хорошёвский (САО)"
+  },
+  "rodina-park": {
+    "district": "mozhayskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Верейская, 12, долина Сетуни, рядом Верейская 29/41 -> Можайский"
+  },
+  "dom-narkomfina": {
+    "district": "presnenskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Дом Наркомфина, Новинский бул., 25 (известный объект) -> Пресненский; адрес в заметках не указан"
+  },
+  "prokshino": {
+    "district": "sosenskoe",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Прокшино с метро, А101, Новая Москва -> поселение Сосенское"
+  },
+  "aviatika": {
+    "district": "khoroshevskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Хорошёвское шоссе, 40 -> Хорошёвский (САО)"
+  },
+  "tpu-suvorovskaya": {
+    "district": "meshchanskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): пересечение ул. Дурова и Олимпийского пр. у Олимпийского -> Мещанский"
+  },
+  "mypriority-dubrovka": {
+    "district": "yuzhnoportovyy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Шарикоподшипниковская, 11, рынок Дубровка -> Южнопортовый"
+  },
+  "zhukov-8": {
+    "district": "danilovskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Жуков проезд, 8, рядом Дербеневская, 20 у Павелецкой -> Даниловский"
+  },
+  "intonatsiya": {
+    "district": "shchukino",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Щукинская, 7 -> Щукино"
+  },
+  "arkhitektor": {
+    "district": "obruchevskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): ул. Волгина (акад. Волгина), рядом Веллхаус на Ленинском -> Обручевский"
+  },
+  "businovskiy-park": {
+    "district": "zapadnoe-degunino",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Ижорская, 6, Бусиново -> Западное Дегунино"
+  },
+  "ilinka": {
+    "district": "tverskoy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Ильинка (Китай-город) -> Тверской"
+  },
+  "d8": {
+    "district": "danilovskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Даниловская наб., 8, рядом ЗИЛ и RiverSky -> Даниловский"
+  },
+  "filit": {
+    "district": "filevskiy-park",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Барклая, 6, район Филёвского парка у метро Багратионовская -> Филёвский Парк"
+  },
+  "kronshtadtskiy-9": {
+    "district": "golovinskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Кронштадтский бул., 9, рядом Головинское кладбище -> Головинский"
+  },
+  "mikhalkovskaya-48": {
+    "district": "koptevo",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Михалковская ул., 48 -> Коптево"
+  },
+  "mikhalkovskaya-50": {
+    "district": "koptevo",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Михалковская ул., 50 -> Коптево"
+  },
+  "narvin": {
+    "district": "golovinskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Кронштадтский бул., 14, за забором Головинское кладбище -> Головинский"
+  },
+  "insayder": {
+    "district": "danilovskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Автозаводская ул., 24, Симоновская наб. -> Даниловский"
+  },
+  "entuziast": {
+    "district": "lefortovo",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): ТПУ Авиамоторная, Авиамоторная ул. -> Лефортово"
+  },
+  "kutuzovskiy-29": {
+    "district": "dorogomilovo",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Кутузовский пр., 29 -> Дорогомилово"
+  },
+  "vishnevyy-sad": {
+    "district": "ramenki",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Мосфильмовская, 1 -> Раменки"
+  },
+  "ryabinovyy-park": {
+    "district": "mozhayskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Верейская, 41 -> Можайский"
+  },
+  "ahead": {
+    "district": "fili-davydkovo",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Василисы Кожиной, 25/1 → Фили-Давыдково"
+  },
+  "shlyuzovaya-2": {
+    "district": "zamoskvorechye",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Шлюзовая наб., 2 (Павелецкая) → Замоскворечье"
+  },
+  "tushinskiy-mashinostroitelnyy-zavod": {
+    "district": "yuzhnoe-tushino",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): в заметке: Южное Тушино (Свободы, 35)"
+  },
+  "veshnikh-vod-8": {
+    "district": "yaroslavskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Вешних вод, 8: заметка рядом с Ярославским ш., Хибинским, Северянином → Ярославский"
+  },
+  "chasovaya-6": {
+    "district": "aeroport",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Часовая ул. → район Аэропорт"
+  },
+  "pave": {
+    "district": "danilovskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): 2-й Павелецкий пр., 7 (Павелецкая, хлебозавод №7) → Даниловский"
+  },
+  "krt-kurskaya": {
+    "district": "basmannyy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Верхняя Сыромятническая, 7 у Курского вокзала → Басманный"
+  },
+  "kirpichnye-ulitsy": {
+    "district": "sokolinaya-gora",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): улицы Вольная и Кирпичная → Соколиная Гора"
+  },
+  "moskvoreche": {
+    "district": "moskvoreche-saburovo",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): 1-й Варшавский пр., 1А, проект Москворечье → Москворечье-Сабурово"
+  },
+  "kaloshin-6": {
+    "district": "arbat",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Калошин пер., 6 → Арбат"
+  },
+  "strana-ozernaya": {
+    "district": "ochakovo-matveevskoe",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Страна Озерная, часть Мичуринского парка ПИК на Озёрной ул. → Очаково-Матвеевское"
+  },
+  "dm-tower": {
+    "district": "danilovskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): DM Tower, Даниловская мануфактура → Даниловский"
+  },
+  "kirpichnaya-41": {
+    "district": "sokolinaya-gora",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Кирпичная, 41, примыкает к КРТ Кирпичные улицы → Соколиная Гора"
+  },
+  "soul-yuzhnoportovaya-42": {
+    "district": "yuzhnoportovyy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Южнопортовая, 42, освоение Южного порта → Южнопортовый"
+  },
+  "level-zvenigorodskaya": {
+    "district": "presnenskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): 3-й Силикатный пр., 6 (Level Звенигородская) → Пресненский"
+  },
+  "borets": {
+    "district": "marina-roshcha",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): завод Борец, Шереметьевская ул. → Марьина Роща"
+  },
+  "upside-towers": {
+    "district": "butyrskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Огородный пр., 2-4 → Бутырский"
+  },
+  "5-ya-magistralnaya-15": {
+    "district": "khoroshevskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): 5-я Магистральная, 15 → Хорошёвский (САО)"
+  },
+  "aurum-taym": {
+    "district": "bogorodskoe",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): 4-й пр. Подбельского, 3 → Богородское"
+  },
+  "novaya-ipatovka-23a": {
+    "district": "timiryazevskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Новая Ипатовка, 23а, примыкает к парку МСХА Тимирязева → Тимирязевский"
+  },
+  "tpu-molodezhnaya": {
+    "district": "kuntsevo",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Ярцевская, 21 (ТПУ Молодёжная, кинотеатр Брест) → Кунцево"
+  },
+  "elektrolitnyy-10": {
+    "district": "nagornyy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Электролитный пр., 10 → Нагорный"
+  },
+  "leningradskiy-36": {
+    "district": "begovoy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Ленинградский пр., 36 к13 (Динамо) → Беговой"
+  },
+  "1-ya-brestskaya-64": {
+    "district": "tverskoy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): 1-я Брестская, 64 у Белорусской → Тверской"
+  },
+  "tverskaya-10": {
+    "district": "tverskoy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Тверская ул., 10 → Тверской"
+  },
+  "telegraf": {
+    "district": "tverskoy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Тверская ул., 7, Центральный телеграф → Тверской"
+  },
+  "rumyantsevo-park": {
+    "district": "moskovskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Румянцево, поселение Московский (НАО)"
+  },
+  "portland": {
+    "district": "yuzhnoportovyy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Южнопортовая, 42 → Южнопортовый"
+  },
+  "dubninskaya-79": {
+    "district": "zapadnoe-degunino",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Дубнинская, 79 рядом с КРТ Вагоноремонт → Западное Дегунино"
+  },
+  "ofisnaya-bashnya-stone": {
+    "district": "danilovskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Новоданиловская наб. (Новоданиловка) → Даниловский"
+  },
+  "stories": {
+    "district": "ramenki",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): пр. Генерала Дорохова, район реки Раменки → Раменки"
+  },
+  "ofisnaya-bashnya-gals-v-siti": {
+    "district": "presnenskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Москва-Сити → Пресненский"
+  },
+  "nagornyy-proezd-3-str-4": {
+    "district": "nagornyy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Нагорный пр., 3 → Нагорный"
+  },
+  "krt-vagonoremont": {
+    "district": "zapadnoe-degunino",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): КРТ Вагоноремонт на Дубнинской ул. → Западное Дегунино"
+  },
+  "zdanie-naprotiv-bashni-imperiya": {
+    "district": "presnenskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): напротив башни Империя в Сити → Пресненский"
+  },
+  "tpu-mamyri": {
+    "district": "moskovskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): ТПУ Мамыри → поселение Московский"
+  },
+  "dom-franka": {
+    "district": "meshchanskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Большой Кисельный пер., 11 → Мещанский"
+  },
+  "sense": {
+    "district": "arbat",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Мерзляковский пер., 22/3 у Никитского бульвара → Арбат"
+  },
+  "rakurs": {
+    "district": "shchukino",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): ул. Маршала Бирюзова, 1 → Щукино"
+  },
+  "vozdvizhenka-7-6-str-6": {
+    "district": "arbat",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Воздвиженка, 7/6 → Арбат"
+  },
+  "zorge-25": {
+    "district": "khoroshevskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): ул. Зорге, 25 → Хорошёвский"
+  },
+  "noon": {
+    "district": "kuzminki",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Окская ул., 9 → Кузьминки"
+  },
+  "r4s": {
+    "district": "arbat",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Никитский, 6/20 в начале Нового Арбата → Арбат"
+  },
+  "sadovnicheskaya-69": {
+    "district": "zamoskvorechye",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Садовническая наб., 69 (Балчуг) → Замоскворечье"
+  },
+  "2-y-paveletskiy-4-6": {
+    "district": "danilovskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): 2-й Павелецкий пр., 4/6 → Даниловский"
+  },
+  "mfk-okolo-aviaparka": {
+    "district": "khoroshevskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Ходынка у Авиапарка → Хорошёвский"
+  },
+  "sadovnicheskaya-76-71": {
+    "district": "zamoskvorechye",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Садовническая, 76/71, Балчуг → Замоскворечье"
+  },
+  "kapelskiy-7a-str-1": {
+    "district": "meshchanskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Капельский пер., 7А у Олимпийского → Мещанский"
+  },
+  "shabolovka-26s10": {
+    "district": "donskoy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Шаболовка, 26с10 → Донской"
+  },
+  "ermakova-roshcha-7as1": {
+    "district": "presnenskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Ермакова Роща, 7АС1, Сити → Пресненский"
+  },
+  "bolshaya-filevskaya-1": {
+    "district": "fili-davydkovo",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Большая Филёвская, 1, Западный порт → Фили-Давыдково"
+  },
+  "uno-gorbunova": {
+    "district": "kuntsevo",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Горбунова, 27; промзона Кунцево рядом (Горбунова, 2) → Кунцево"
+  },
+  "novoe-letovo": {
+    "district": "sosenskoe",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Новая Москва, рядом дер. Летово → Сосенское"
+  },
+  "safonovskaya-13": {
+    "district": "mozhayskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Сафоновская, Сетуньская земская школа, начало Можайки → Можайский"
+  },
+  "nagatinskaya-5": {
+    "district": "nagatino-sadovniki",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Нагатинская ул./набережная рядом с Level Нагатинская → Нагатино-Садовники"
+  },
+  "nicole": {
+    "district": "tverskoy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Никольская ул. → Тверской"
+  },
+  "krt-yuzhnyy-port-territoriya-4": {
+    "district": "yuzhnoportovyy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Остаповский проезд, Южный порт → Южнопортовый"
+  },
+  "geolog": {
+    "district": "obruchevskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): БЦ на ул. Обручева → Обручевский"
+  },
+  "uspenskiy-5": {
+    "district": "tverskoy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Успенский пер., сад Эрмитаж → Тверской"
+  },
+  "mig": {
+    "district": "begovoy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): 1-й Боткинский проезд, завод МиГ на Ленинградке → Беговой"
+  },
+  "sbersiti": {
+    "district": "krylatskoe",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Рублёво-Архангельское → Крылатское"
+  },
+  "prozhektor": {
+    "district": "perovo",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): промзона Прожектор, Плеханова/Перовская/Электродная → Перово"
+  },
+  "desnareche": {
+    "district": "desenovskoe",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): рядом Новые Ватутинки, метро Десна → Десёновское"
+  },
+  "1-ya-yamskogo-polya-17": {
+    "district": "begovoy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): 1-я Ямского Поля, кластер Белорусская-Савеловская → Беговой"
+  },
+  "neverovskogo-10": {
+    "district": "dorogomilovo",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Неверовского ул., вилка Барклая и Кутузовского → Дорогомилово"
+  },
+  "zdanie-sev": {
+    "district": "arbat",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Новый Арбат, 36 → Арбат"
+  },
+  "evopark-sokolniki": {
+    "district": "sokolniki",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Потешная ул., название Сокольники → Сокольники"
+  },
+  "ryabinovaya-44-1": {
+    "district": "ochakovo-matveevskoe",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Рябиновая, 44/1, у комбината Очаково → Очаково-Матвеевское"
+  },
+  "stakhanovskaya": {
+    "district": "ryazanskiy",
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Стахановская ул., промзона Грайвороново → Рязанский"
+  },
+  "dd-oo-mm": {
+    "district": "aeroport",
+    "note": "Часовая, 6/3 — район Аэропорт по проверенной статье (правка 14.10.2026)"
+  },
+  "pushkarev-12": {
+    "district": "meshchanskiy",
+    "note": "Пушкарёв переулок — Мещанский район, не Кузьминки (правка 14.10.2026)"
+  },
+  "letnaya-71": {
+    "district": "pokrovskoe-streshnevo",
+    "note": "район по источнику (https://www.novostroy-m.ru/baza/arhitekturnyy_proekt_na_letnoy): «ул. Летная, вл. 71, 98», район «Покровское-Стрешнево», СЗАО"
+  },
+  "stone-savelovskaya": {
+    "district": "marina-roshcha",
+    "note": "район по источнику (https://www.novostroy-m.ru/baza/biznestsentr_stone_savelovskaya_stoun): «ул. Двинцев, 3 с1», «Москва, СВАО, Марьина Роща»"
+  },
+  "paveletskaya-naberezhnaya-2": {
+    "district": "danilovskiy",
+    "note": "район по источнику (https://www.cian.ru/delovoy-kvartal-loft-ville-moskva-4774/): «Москва, Павелецкая набережная, 2С2»; бизнес-центр Loft Ville в Даниловском районе ЮАО"
+  },
+  "vysokaya-zhizn": {
+    "district": "danilovskiy",
+    "note": "район по источнику (https://www.novostroy-m.ru/baza/jk_high_life_hay): ЖК High Life (Хай Лайф, Пионер): ул. Летниковская, 11/10с22, Даниловский район ЮАО («на стыке Даниловского района и Замоскворечья»). Адрес не по назва"
+  },
+  "dmitrovskoe-nebo": {
+    "district": "zapadnoe-degunino",
+    "note": "район по источнику (https://www.novostroy-m.ru/baza/jk_dmitrovskoe_nebo): «Ильменский пр-д, д. 4, корп. 2», Западное Дегунино, САО"
+  },
+  "vishnevaya-7": {
+    "district": "pokrovskoe-streshnevo",
+    "note": "район по источнику (https://snob.ru/news/mr-group-pristupaet-k-stroitelstvu-peredovogo-multikvartala-v-raione-pokrovskoe-streshnevo/): «улица Вишневая, владение 7», район «Покровское-Стрешнево»"
+  },
+  "seliger-siti": {
+    "district": "zapadnoe-degunino",
+    "note": "район по источнику (https://www.novostroy-m.ru/baza/mfk_seliger_siti): «ш. Дмитровское, вл. 87», Западное Дегунино, САО"
+  },
+  "bolshaya-tulskaya-10": {
+    "district": "danilovskiy",
+    "note": "район по источнику (https://www.novostroy-m.ru/baza/jk_ul_bolshaya_tulskaya): «ул. Большая Тульская, вл. 10», «Москва, ЮАО, Даниловский»"
+  },
+  "bolshoy-tolmachevskiy-5": {
+    "district": "yakimanka",
+    "note": "район по источнику (https://www.novostroy-m.ru/kvartiry/chetirehkomnatnaya-kvartira-v-dom-lavrushinskii-e4be863300ad3234d5c30e298bcb7a): «Москва, ЦАО, Якиманка, Большой Толмачевский пер., вл. 5, к.3»"
+  },
+  "serdtse-stolitsy": {
+    "district": "khoroshevo-mnevniki",
+    "note": "район по источнику (https://www.novostroy-m.ru/novosti/polucheno_razreshenie_na_stroitelstvo_2_ocheredi_jk_serdtse_stolitsy): Район прямо назван: ЖК в Хорошево-Мневники (СЗАО); почтового адреса на странице нет"
+  },
+  "ostafevo": {
+    "district": "ryazanovskoe",
+    "note": "район по источнику (https://www.novostroy-m.ru/expertise/ekspertiza_proekta_jk_ostafevo): ЖК в селе Остафьево, «Рязановского поселения, в которое входит село Остафьево» (Новая Москва); почтового адреса нет"
+  },
+  "setun": {
+    "district": "ramenki",
+    "note": "район по источнику (https://www.novostroy-m.ru/kvartiry/studiya-v-zhk-nova-nova-d5a8c0b7ca4bd60e92f0fcec37ea81): «Москва, ЗАО, Раменки, ул. Братьев Фонченко, влд. 19»"
+  },
+  "district-39": {
+    "district": "ryazanskiy",
+    "note": "район по источнику (https://www.novostroy-m.ru/kvartiry/trehkomnatnaya-kvartira-v-zhk-prospekt-39-district-39-db41a1d98e51370eb55fd063cd78d9): ЖК «Проспект 39» (district-39): «Рязанский проспект, 39к4», Рязанский район ЮВАО"
+  },
+  "dream-towers": {
+    "district": "nagatinskiy-zaton",
+    "note": "район по источнику (https://www.novostroy-m.ru/kvartiry/trehkomnatnaya-kvartira-v-zhk-dream-towers-drim-tauiers-c9071bfe6149b55d36d2726ea088ac): «Пр-т Андропова, вл.9/1, корп. 1», ЮАО, район Нагатинский Затон"
+  },
+  "saltykovskaya-8": {
+    "district": "novokosino",
+    "note": "район по источнику (https://www.novostroy-m.ru/baza/mkr_megapolis): мкр. Мегаполис, ул. Салтыковская, корп. 1 (номер дома 8 на странице не указан), район Новокосино, ВАО"
+  },
+  "vtoroy-nagatinskiy": {
+    "district": "nagatino-sadovniki",
+    "note": "район по источнику (https://www.novostroy-m.ru/baza/jiloy_rayon_vtoroy_nagatinskiy): «2-ой Нагатинский пр-д, вл. 2», Нагатино-Садовники, ЮАО"
+  },
+  "dmitrovskiy-proezd-1g": {
+    "district": "timiryazevskiy",
+    "note": "район по источнику (https://www.novostroy-m.ru/baza/biznestsentr_stone_dmitrovskaya_stoun): «Дмитровский проезд, вл. 1Г», «Москва, САО, Тимирязевский»"
+  },
+  "level-seligerskaya": {
+    "district": "zapadnoe-degunino",
+    "note": "район по источнику (https://www.novostroy-m.ru/kvartiry/trehkomnatnaya-kvartira-v-level-seligerskaya-043c74e1b180e5b4799f814d1c0abf): «Ильменский проезд, вл. 8, 12, корп. 3», Западное Дегунино, САО"
+  },
+  "prichalnyy-6": {
+    "district": "khoroshevo-mnevniki",
+    "note": "район по источнику (https://www.novostroy-m.ru/baza/jk_level_prichalnyy_level): ЖК Level Причальный: «Причальный проезд, вл. 8», «Москва, СЗАО, Хорошево-Мневники» (соседний номер, дом 6 не указан)"
+  },
+  "the-lot": {
+    "district": "danilovskiy",
+    "note": "район по источнику (https://www.novostroy-m.ru/kvartiry/dvuhkomnatnaya-kvartira-v-zhk-the-lot-lot-ee2866306c3d838513eb4d30f0d381): «Жуков пр-д, вл. 21», Даниловский, ЮАО"
+  },
+  "tpu-lianozovo": {
+    "district": "lianozovo",
+    "note": "район по источнику (https://www.mos.ru/news/item/124798073/): ТПУ «Лианозово», раздел «Район»: Лианозово, СВАО; Дубнинская ул. упомянута без номера"
+  },
+  "upside-ostankino": {
+    "district": "butyrskiy",
+    "note": "район по статье 33394 (novostroy-m.ru: Бутырский), 15.10.2026"
+  },
+  "zareche": {
+    "owners": [
+      {
+        "developer": "mits",
+        "name": "МИЦ",
+        "until": "октябрь 2023"
+      },
+      {
+        "developer": "samolet",
+        "name": "Самолёт",
+        "since": "октябрь 2023",
+        "how": "Самолёт купил 100% группы компаний МИЦ; по карточке проекта на агрегаторе, проект перешёл к Самолёту в октябре 2023 года",
+        "source": "https://finance.rambler.ru/business/51598803-gruppa-samolet-kupila-developera-mits/"
+      }
+    ],
     "developer": "samolet",
-    "name": "Самолёт",
-    "since": "октябрь 2023",
-    "how": "Самолёт купил 100% группы компаний МИЦ; по карточке проекта на агрегаторе, проект перешёл к Самолёту в октябре 2023 года",
-    "source": "https://finance.rambler.ru/business/51598803-gruppa-samolet-kupila-developera-mits/"
-   }
-  ],
-  "developer": "samolet",
-  "developerName": "Самолёт",
-  "previousDevelopers": [
-   "mits"
-  ]
- },
- "loran": {
-  "owners": [
-   {
+    "developerName": "Самолёт",
+    "previousDevelopers": [
+      "mits"
+    ]
+  },
+  "loran": {
+    "owners": [
+      {
+        "developer": "stone",
+        "name": "Stone (АО «Стоунхедж», 51%)",
+        "since": "2 июня 2026",
+        "how": "АО «Стоунхедж» получило 51% в ООО «СЗ ЛП Холдинг», владеющем участком на Ленинском проспекте, 11; доля «Лесной Капитал» снизилась до 49%",
+        "source": "https://www.kommersant.ru/doc/8726557"
+      }
+    ],
     "developer": "stone",
-    "name": "Stone (АО «Стоунхедж», 51%)",
-    "since": "2 июня 2026",
-    "how": "АО «Стоунхедж» получило 51% в ООО «СЗ ЛП Холдинг», владеющем участком на Ленинском проспекте, 11; доля «Лесной Капитал» снизилась до 49%",
-    "source": "https://www.kommersant.ru/doc/8726557"
-   }
-  ],
-  "developer": "stone",
-  "developerName": "Stone (АО «Стоунхедж», 51%)"
- },
- "malyy-levshinskiy-7": {
-  "district": "khamovniki",
-  "districtSource": "https://www.novostroy-m.ru/baza/jk_malyy_lyovshinskiy_7"
- },
- "enigmiya": {
-  "district": "tverskoy",
-  "districtSource": "https://www.novostroy-m.ru/baza/arhitekturnyy_proekt_enigmiya"
- },
- "balans": {
-  "district": "ryazanskiy",
-  "districtSource": "https://www.novostroy-m.ru/baza/jk_balans"
- },
- "tushinskiy-aerodrom": {
-  "district": "pokrovskoe-streshnevo",
-  "districtSource": "https://www.mos.ru/news/article/4029073"
- },
- "stone-hedge-na-savelovskoy": {
-  "district": "marina-roshcha",
-  "districtSource": "https://www.novostroy-m.ru/baza/biznestsentr_stone_savelovskaya_stoun"
- },
- "stone-towers": {
-  "district": "savelovskiy",
-  "districtSource": "https://www.novostroy-m.ru/baza/biznestsentr_stone_towers_"
- },
- "seligerskaya": {
-  "district": "zapadnoe-degunino",
-  "districtSource": "https://www.novostroy-m.ru/kvartiry/trehkomnatnaya-kvartira-v-level-seligerskaya-3b89be946a47e1bd7be6cff48f9b62"
- },
- "tate": {
-  "district": "marina-roshcha",
-  "districtSource": "https://www.novostroy-m.ru/kvartiry/dvuhkomnatnaya-kvartira-v-zhk-tate-teit-3cdda0f01e4c48d02f3004276059d2"
- },
- "tessinskiy-v": {
-  "district": "taganskiy",
-  "districtSource": "https://www.novostroy-m.ru/baza/jk_tessinskiy_5"
- },
- "level-paveletskaya": {
-  "district": "danilovskiy",
-  "districtSource": "https://www.novostroy-m.ru/baza/jk_level_paveletskaya"
- },
- "kvartal-serebryanyy-bor": {
-  "district": "khoroshevo-mnevniki",
-  "districtSource": "https://www.cian.ru/kupit-1-komnatnuyu-kvartiru-novostroyki-moskva-ulica-berzarina-02687/"
- },
- "dubininskaya-39-41": {
-  "district": "zamoskvorechye",
-  "districtSource": "https://moskvichmag.ru/?p=320868"
- },
- "akvilon-signal": {
-  "district": "otradnoe",
-  "districtSource": "https://www.novostroy-m.ru/kvartiry/apartamenti-v-akvilon-signal-6906739a803d749e822084e06f546d"
- },
- "now-kvartal-na-naberezhnoy": {
-  "district": "danilovskiy",
-  "districtSource": "https://realty.rbc.ru/amp/news/6422977f9a79473deac5eef8"
- },
- "now": {
-  "district": "danilovskiy",
-  "districtSource": "https://realty.rbc.ru/amp/news/6422977f9a79473deac5eef8"
- },
- "miklukho-maklaya-23": {
-  "district": "obruchevskiy",
-  "districtSource": "https://www.novostroy-m.ru/baza/jk_na_mikluhomaklaya_23"
- },
- "sobytie": {
-  "district": "ramenki",
-  "districtSource": "https://www.novostroy-m.ru/baza/jk_sobytie"
- },
- "taller": {
-  "district": "zamoskvorechye",
-  "districtSource": "https://moskvichmag.ru/?p=320868"
- },
- "proektiruemyy-4062-y-8": {
-  "district": "nagatinskiy-zaton",
-  "districtSource": "https://www.novostroy-m.ru/kvartiry/studiya-v-zhk-dream-riva-drim-riva-a71eba01e7bab3d734a5c58a19a56e"
- },
- "kremenchugskaya-19": {
-  "district": "fili-davydkovo",
-  "districtSource": "https://www.novostroy-m.ru/baza/jk_na_kremenchugskoy_19"
- },
- "mnevniki": {
-  "district": "khoroshevo-mnevniki",
-  "note": "ул. Народного Ополчения, вл. 34 — район Хорошево-Мневники по карточке ЖК на novostroy-m.ru (фактчекинг статьи 18131)"
- },
- "mangazeya-v-bogorodskom": {
-  "owners": [
-   {
+    "developerName": "Stone (АО «Стоунхедж», 51%)"
+  },
+  "malyy-levshinskiy-7": {
+    "district": "khamovniki",
+    "districtSource": "https://www.novostroy-m.ru/baza/jk_malyy_lyovshinskiy_7"
+  },
+  "enigmiya": {
+    "district": "tverskoy",
+    "districtSource": "https://www.novostroy-m.ru/baza/arhitekturnyy_proekt_enigmiya"
+  },
+  "balans": {
+    "district": "ryazanskiy",
+    "districtSource": "https://www.novostroy-m.ru/baza/jk_balans"
+  },
+  "tushinskiy-aerodrom": {
+    "district": "pokrovskoe-streshnevo",
+    "districtSource": "https://www.mos.ru/news/article/4029073"
+  },
+  "stone-hedge-na-savelovskoy": {
+    "district": "marina-roshcha",
+    "districtSource": "https://www.novostroy-m.ru/baza/biznestsentr_stone_savelovskaya_stoun"
+  },
+  "stone-towers": {
+    "district": "savelovskiy",
+    "districtSource": "https://www.novostroy-m.ru/baza/biznestsentr_stone_towers_"
+  },
+  "seligerskaya": {
+    "district": "zapadnoe-degunino",
+    "districtSource": "https://www.novostroy-m.ru/kvartiry/trehkomnatnaya-kvartira-v-level-seligerskaya-3b89be946a47e1bd7be6cff48f9b62"
+  },
+  "tate": {
+    "district": "marina-roshcha",
+    "districtSource": "https://www.novostroy-m.ru/kvartiry/dvuhkomnatnaya-kvartira-v-zhk-tate-teit-3cdda0f01e4c48d02f3004276059d2"
+  },
+  "tessinskiy-v": {
+    "district": "taganskiy",
+    "districtSource": "https://www.novostroy-m.ru/baza/jk_tessinskiy_5"
+  },
+  "level-paveletskaya": {
+    "district": "danilovskiy",
+    "districtSource": "https://www.novostroy-m.ru/baza/jk_level_paveletskaya"
+  },
+  "kvartal-serebryanyy-bor": {
+    "district": "khoroshevo-mnevniki",
+    "districtSource": "https://www.cian.ru/kupit-1-komnatnuyu-kvartiru-novostroyki-moskva-ulica-berzarina-02687/"
+  },
+  "dubininskaya-39-41": {
+    "district": "zamoskvorechye",
+    "districtSource": "https://moskvichmag.ru/?p=320868"
+  },
+  "akvilon-signal": {
+    "district": "otradnoe",
+    "districtSource": "https://www.novostroy-m.ru/kvartiry/apartamenti-v-akvilon-signal-6906739a803d749e822084e06f546d"
+  },
+  "now-kvartal-na-naberezhnoy": {
+    "district": "danilovskiy",
+    "districtSource": "https://realty.rbc.ru/amp/news/6422977f9a79473deac5eef8"
+  },
+  "now": {
+    "district": "danilovskiy",
+    "districtSource": "https://realty.rbc.ru/amp/news/6422977f9a79473deac5eef8"
+  },
+  "miklukho-maklaya-23": {
+    "district": "obruchevskiy",
+    "districtSource": "https://www.novostroy-m.ru/baza/jk_na_mikluhomaklaya_23"
+  },
+  "sobytie": {
+    "district": "ramenki",
+    "districtSource": "https://www.novostroy-m.ru/baza/jk_sobytie"
+  },
+  "taller": {
+    "district": "zamoskvorechye",
+    "districtSource": "https://moskvichmag.ru/?p=320868"
+  },
+  "proektiruemyy-4062-y-8": {
+    "district": "nagatinskiy-zaton",
+    "districtSource": "https://www.novostroy-m.ru/kvartiry/studiya-v-zhk-dream-riva-drim-riva-a71eba01e7bab3d734a5c58a19a56e"
+  },
+  "kremenchugskaya-19": {
+    "district": "fili-davydkovo",
+    "districtSource": "https://www.novostroy-m.ru/baza/jk_na_kremenchugskoy_19"
+  },
+  "mnevniki": {
+    "district": "khoroshevo-mnevniki",
+    "note": "ул. Народного Ополчения, вл. 34 — район Хорошево-Мневники по карточке ЖК на novostroy-m.ru (фактчекинг статьи 18131)"
+  },
+  "mangazeya-v-bogorodskom": {
+    "owners": [
+      {
+        "developer": "mangazeya",
+        "name": "Мангазея",
+        "since": "2022 год",
+        "how": "Мангазея выкупила у группы «Пионер» проект транспортно-пересадочного узла «Открытое шоссе»; сумма в открытых источниках не названа",
+        "source": "https://www.vedomosti.ru/realty/articles/2023/08/18/990738-gruppa-mangazeya-postroit-zhiloi-kompleks"
+      }
+    ],
     "developer": "mangazeya",
-    "name": "Мангазея",
-    "since": "2022 год",
-    "how": "Мангазея выкупила у группы «Пионер» проект транспортно-пересадочного узла «Открытое шоссе»; сумма в открытых источниках не названа",
-    "source": "https://www.vedomosti.ru/realty/articles/2023/08/18/990738-gruppa-mangazeya-postroit-zhiloi-kompleks"
-   }
-  ],
-  "developer": "mangazeya",
-  "developerName": "Мангазея"
- }
+    "developerName": "Мангазея"
+  },
+  "mainstreet": {
+    "district": "fili-davydkovo",
+    "districtSource": "https://www.novostroy-m.ru/baza/jk_mainstreet/otzyvy"
+  },
+  "cult": {
+    "district": "yakimanka",
+    "districtSource": "https://www.novostroy-m.ru/baza/kompleks_apartamentov_cult"
+  },
+  "varshavskie-vorota": {
+    "district": "chertanovo-yuzhnoe",
+    "districtSource": "https://www.novostroy-m.ru/baza/zhk_varshavskoe_shosse_141/vopros-otvet"
+  },
+  "izmaylovskiy-les": {
+    "region": "moscow-oblast",
+    "note": "регион по https://www.novostroy-m.ru/novosti/v_jk_izmaylovskiy_les"
+  },
+  "lumin": {
+    "district": "taganskiy",
+    "districtSource": "https://www.novostroy-m.ru/baza/klubnyy_dom_lumin_lyumin"
+  },
+  "vesterdam": {
+    "district": "ochakovo-matveevskoe",
+    "districtSource": "https://novostroy-m.ru/baza/jk_vesterdam"
+  },
+  "alkhimovo": {
+    "district": "ryazanovskoe",
+    "districtSource": "https://www.novostroy-m.ru/baza/jk_alhimovo"
+  },
+  "eleven": {
+    "district": "presnenskiy",
+    "districtSource": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/eleven-1792283/"
+  },
+  "tophills": {
+    "district": "nagornyy",
+    "districtSource": "https://www.novostroy-m.ru/baza/jk_na_elektrolitnom_proezde"
+  },
+  "lunar": {
+    "district": "gagarinskiy",
+    "districtSource": "https://www.novostroy-m.ru/baza/jk_lunar_lunar"
+  },
+  "kutuzovgrad": {
+    "district": "mozhayskiy",
+    "districtSource": "https://www.novostroy-m.ru/baza/jk_kutuzovgrad_kutuzovgrad"
+  },
+  "stone-grain": {
+    "district": "obruchevskiy",
+    "districtSource": "https://www.novostroy-m.ru/baza/biznestsentr_stone_kalujskaya"
+  },
+  "semenovskiy-park-2": {
+    "district": "sokolinaya-gora",
+    "districtSource": "https://www.novostroy-m.ru/baza/jk_na_kirpichnoy_ulitse"
+  },
+  "symphony-38a": {
+    "district": "savelovskiy",
+    "districtSource": "https://moskvichmag.ru/?p=423627"
+  },
+  "ilmenskiy-17": {
+    "district": "zapadnoe-degunino",
+    "districtSource": "https://www.novostroy-m.ru/baza/jiloy_kompleks_ilmenskiy_17"
+  },
+  "volzhskiy-park": {
+    "district": "tekstilshchiki",
+    "districtSource": "https://www.novostroy-m.ru/kvartiry/odnokomnatnaya-kvartira-v-volzhskii-park-2171bb46ec12fa3e5d3101a91f80c7"
+  },
+  "teatralnyy-kvartal": {
+    "district": "shchukino",
+    "districtSource": "https://novostroy-m.ru/baza/jk_teatralnyy_kvartal"
+  },
+  "simvol": {
+    "district": "lefortovo",
+    "districtSource": "https://www.novostroy-m.ru/baza/jiloy_kvartal_simvol"
+  },
+  "fantastic-house": {
+    "district": "presnenskiy",
+    "districtSource": "https://www.novostroy-m.ru/baza/klubnyy_dom_fantastic_house"
+  },
+  "varshavskoe-9-1": {
+    "district": "danilovskiy",
+    "districtSource": "https://riamo.ru/news/nedvizhimost/biznes-kompleks-postroyat-v-rajone-danilovskoj-manufaktury-v-moskve-xl/"
+  },
+  "cameo": {
+    "district": "tverskoy",
+    "districtSource": "https://www.novostroy-m.ru/baza/jk_cmeo"
+  },
+  "prichalnyy": {
+    "district": "khoroshevo-mnevniki",
+    "districtSource": "https://www.novostroy-m.ru/baza/jk_level_prichalnyy_level"
+  },
+  "profit": {
+    "district": "nizhegorodskiy",
+    "districtSource": "https://www.novostroy-m.ru/novosti/nachalis_prodaji_ot_52"
+  },
+  "dacha-tolbukhina": {
+    "district": "mozhayskiy",
+    "districtSource": "https://www.novostroy-m.ru/baza/tolbuhina_3"
+  },
+  "forst": {
+    "district": "danilovskiy",
+    "districtSource": "https://novostroy-m.ru/baza/jk_forst"
+  },
+  "ferst": {
+    "district": "danilovskiy",
+    "districtSource": "https://www.novostroy-m.ru/expertise/jk_frst_ot_forma"
+  },
+  "otkrytyy-park": {
+    "district": "metrogorodok",
+    "districtSource": "https://www.novostroy-m.ru/baza/otkrytyy_park"
+  },
+  "ostankino-business-park": {
+    "district": "butyrskiy",
+    "districtSource": "https://pioneer.ru/en/project/ostankino-bp"
+  },
+  "nametkina-10a": {
+    "district": "cheremushki",
+    "districtSource": "https://www.cian.ru/biznes-centr-na-ul-nametkinad-10a-moskva-13356/"
+  },
+  "butlerova-12": {
+    "district": "konkovo",
+    "districtSource": "https://vm.ru/news/1231012-otdelochnye-raboty-nachalis-v-novostrojke-po-renovacii-na-ulice-butlerova"
+  },
+  "nauchnyy-11a": {
+    "district": "cheremushki",
+    "districtSource": "https://www.novostroy-m.ru/novosti/v_nauchnom_proezde_v"
+  },
+  "dream-riva": {
+    "district": "nagatinskiy-zaton",
+    "districtSource": "https://www.novostroy-m.ru/baza/arhitekturnyy_proekt_dream_riva"
+  },
+  "filatov-lug": {
+    "district": "moskovskiy",
+    "districtSource": "https://www.novostroy-m.ru/kompanii/ooo_sz_filatov_lug"
+  },
+  "nametkina-10d": {
+    "district": "cheremushki",
+    "districtSource": "https://www.cian.ru/kupit-kvartiru-studiu-zhiloy-kompleks-kompleks-apartamentov-aist-residence-4142290/"
+  },
+  "nagatino-i-land": {
+    "district": "danilovskiy",
+    "districtSource": "https://www.novostroy-m.ru/expertise/jk_nagatino_iland_ot"
+  },
+  "level-nagatinskaya": {
+    "district": "nagatino-sadovniki",
+    "districtSource": "https://www.novostroy-m.ru/baza/jk_level_nagatinskaya"
+  },
+  "petrovskiy-park": {
+    "district": "savelovskiy",
+    "districtSource": "https://www.cian.ru/kupit-2-komnatnuyu-kvartiru-vtorichka-zhiloy-kompleks-petrovskiy-park-49360/"
+  },
+  "nametkin-tower": {
+    "district": "cheremushki",
+    "districtSource": "https://www.cian.ru/kupit-kvartiru-studiu-zhiloy-kompleks-kompleks-apartamentov-aist-residence-4142290/"
+  },
+  "manufaktura-xix": {
+    "district": "mozhayskiy",
+    "districtSource": "https://www.novostroy-m.ru/baza/biznestsentr_manufaktura_xix"
+  },
+  "shagal": {
+    "district": "danilovskiy",
+    "districtSource": "https://www.cian.ru/kupit-1-komnatnuyu-kvartiru-vtorichka-zhiloy-kompleks-shagal-2528281/"
+  },
+  "staryy-petrovsko-razumovskiy-1-23": {
+    "district": "savelovskiy",
+    "districtSource": "https://www.novostroy-m.ru/kvartiry/studiya-v-zhk-petrovskii-park-ii-f1027551e2191d28cfa2f9da1f6d46"
+  },
+  "botanica": {
+    "district": "rostokino",
+    "districtSource": "https://www.novostroy-m.ru/baza/plaza_botanica_plaza_botanika"
+  },
+  "botanica-plaza": {
+    "district": "rostokino",
+    "districtSource": "https://www.novostroy-m.ru/baza/plaza_botanica_plaza_botanika"
+  },
+  "hideout": {
+    "district": "ramenki",
+    "districtSource": "https://d-a.ru/en/news/startuet-stroitelstvo-zhilogo-kompleksa-hideout-v-ramenkakh/"
+  },
+  "level-michurinskogo": {
+    "district": "ochakovo-matveevskoe",
+    "districtSource": "https://www.novostroy-m.ru/kvartiry/dvuhkomnatnaya-kvartira-v-level-michurinskii-a5e0ae0074024414c973bd434eda7a"
+  },
+  "parshina-2": {
+    "district": "khoroshevo-mnevniki",
+    "districtSource": "https://www.novostroy-m.ru/novosti/na_ulitse_parshina_v"
+  },
+  "2-y-irtyshskiy": {
+    "district": "golyanovo",
+    "districtSource": "https://www.novostroy-m.ru/baza/2y_irtyshskiy"
+  },
+  "meshcherskiy-les": {
+    "district": "solntsevo",
+    "districtSource": "https://www.novostroy-m.ru/baza/jk_mescherskiy_les"
+  },
+  "will-towers": {
+    "district": "ramenki",
+    "districtSource": "https://www.novostroy-m.ru/kvartiry/dvuhkomnatnaya-kvartira-v-zhk-will-towers-vill-tauiers-b85e670d20cb0398b94d6b878302d5"
+  },
+  "irtyshskiy-park": {
+    "district": "golyanovo",
+    "districtSource": "https://www.novostroy-m.ru/baza/2y_irtyshskiy"
+  },
+  "aquatoria": {
+    "district": "levoberezhnyy",
+    "districtSource": "https://www.novostroy-m.ru/baza/jk_aquatoria"
+  },
+  "losinoostrovskiy-park": {
+    "district": "metrogorodok",
+    "districtSource": "https://www.novostroy-m.ru/baza/jk_na_otkrytom_shosse"
+  },
+  "wow": {
+    "district": "nagatino-sadovniki",
+    "districtSource": "https://www.novostroy-m.ru/kompanii/strana_development/news/jk_wow_predlagaet_tselyy"
+  },
+  "nevskiy": {
+    "district": "voykovskiy",
+    "districtSource": "https://www.novostroy-m.ru/baza/jk_nevskiy"
+  },
+  "kalibr": {
+    "district": "ostankinskiy",
+    "districtSource": "https://www.mos.ru/news/item/125722073"
+  },
+  "milashenkova-2": {
+    "district": "butyrskiy",
+    "districtSource": "https://www.novostroy-m.ru/novosti/v_butyrskom_rayone_39"
+  },
+  "metronom": {
+    "district": "metrogorodok",
+    "districtSource": "https://novostroy-m.ru/baza/jk_metronom"
+  },
+  "beside": {
+    "district": "nizhegorodskiy",
+    "districtSource": "https://www.novostroy-m.ru/novosti/jk_akvilon_beside_20"
+  },
+  "triniti": {
+    "district": "zapadnoe-degunino",
+    "districtSource": "https://www.novostroy-m.ru/kvartiry/dvuhkomnatnaya-kvartira-v-zhk-triniti-571d1dfc0234bf8e48351723447329"
+  }
 }

@@ -1,0 +1,370 @@
+[
+ {
+  "slug": "lumin",
+  "district": "taganskiy",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/baza/klubnyy_dom_lumin_lyumin",
+  "evidence": "Славянская площадь, 2/5 стр.1, Таганский (ЦАО)",
+  "reason": null
+ },
+ {
+  "slug": "vesterdam",
+  "district": "ochakovo-matveevskoe",
+  "region": null,
+  "source": "https://novostroy-m.ru/baza/jk_vesterdam",
+  "evidence": "Аминьевское шоссе, 4Д к.3, Очаково-Матвеевское (ЗАО)",
+  "reason": null
+ },
+ {
+  "slug": "mainstreet",
+  "district": "fili-davydkovo",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/baza/jk_mainstreet/otzyvy",
+  "evidence": "Москва, ЗАО, Фили-Давыдково; метро Кунцевская (точного адреса нет)",
+  "reason": null
+ },
+ {
+  "slug": "alkhimovo",
+  "district": "ryazanovskoe",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/baza/jk_alhimovo",
+  "evidence": "вблизи д. Алхимово; Москва, ТиНАО, Рязановское С/П",
+  "reason": null
+ },
+ {
+  "slug": "eleven",
+  "district": "presnenskiy",
+  "region": null,
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/eleven-1792283/",
+  "evidence": "Звенигородское ш., 11, Пресненский район (ЦАО)",
+  "reason": null
+ },
+ {
+  "slug": "tpu-elektrozavodskaya",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "не проверено"
+ },
+ {
+  "slug": "varshavskoe-14",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "поиск не дал карточки; найденный Варшавское ш. 141 — другой адрес"
+ },
+ {
+  "slug": "volgogradskiy-32",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "поиск без релевантного источника"
+ },
+ {
+  "slug": "tophills",
+  "district": "nagornyy",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/baza/jk_na_elektrolitnom_proezde",
+  "evidence": "Электролитный проезд, 7, Нагорный (ЮАО)",
+  "reason": null
+ },
+ {
+  "slug": "sreda",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "в выдаче поиска нет подходящего источника"
+ },
+ {
+  "slug": "lunar",
+  "district": "gagarinskiy",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/baza/jk_lunar_lunar",
+  "evidence": "Ленинский пр-т, 38, Гагаринский (ЮЗАО)",
+  "reason": null
+ },
+ {
+  "slug": "kutuzovgrad",
+  "district": "mozhayskiy",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/baza/jk_kutuzovgrad_kutuzovgrad",
+  "evidence": "ул. Петра Алексеева, 14, Можайский (ЗАО)",
+  "reason": null
+ },
+ {
+  "slug": "rublevo-arkhangelskoe",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "не проверено"
+ },
+ {
+  "slug": "yuzhnye-sady",
+  "district": "yuzhnoe-butovo",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/kvartiry/odnokomnatnaya-kvartira-v-zhk-yuzhnie-sadi-2da637c615994395f242e34be892ec",
+  "evidence": "ул. Бартеневская, 16 к.3.1.1, Южное Бутово (ЮЗАО), А101; алиас Гавриково — совпадение проекта не подтверждено",
+  "reason": null
+ },
+ {
+  "slug": "river-park-kutuzovskiy",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "найденная карточка River Park Кутузовский — застройщик AEON (Кутузовский пр-д, 16А/1, Дорогомилово), не РнС; не взято"
+ },
+ {
+  "slug": "nii-delta",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "источник (moskvichmag) называет только «Измайлово» в заголовках, адрес Щелковское ш. 2А не подтверждён; ключ района неоднозначен"
+ },
+ {
+  "slug": "cult",
+  "district": "yakimanka",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/baza/kompleks_apartamentov_cult",
+  "evidence": "Ленинский пр-т, 2, Якиманка (ЦАО); застройщик Gravion",
+  "reason": null
+ },
+ {
+  "slug": "1-y-nagatinskiy",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "карточка novostroy.ru не загрузилась"
+ },
+ {
+  "slug": "aura-belorusskaya",
+  "district": "begovoy",
+  "region": null,
+  "source": "https://novostroy-m.ru/baza/klubnyy_dom_glorax_aura",
+  "evidence": "1-я ул. Ямского Поля, 26, Беговой (САО); GloraX Premium Белорусская (бывш. Айм)",
+  "reason": null
+ },
+ {
+  "slug": "stone-grain",
+  "district": "obruchevskiy",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/baza/biznestsentr_stone_kalujskaya",
+  "evidence": "Старокалужское ш., вл. 64, Обручевский (ЮЗАО)",
+  "reason": null
+ },
+ {
+  "slug": "leningradskiy-80",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "в выдаче поиска нет подходящего источника"
+ },
+ {
+  "slug": "krasnyy-bogatyr-vitebskaya-9",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "источник даёт только «Витебская улица» без района"
+ },
+ {
+  "slug": "dokukina-10",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "в выдаче поиска нет подходящего источника"
+ },
+ {
+  "slug": "promzona-48-degunino-likhobory",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "в выдаче поиска нет подходящего источника"
+ },
+ {
+  "slug": "aura-na-belorusskoy",
+  "district": "begovoy",
+  "region": null,
+  "source": "https://novostroy-m.ru/baza/klubnyy_dom_glorax_aura",
+  "evidence": "1-я ул. Ямского Поля, 26, Беговой (САО); GloraX Premium Белорусская",
+  "reason": null
+ },
+ {
+  "slug": "mishina-56",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "источник (Ведомости): рядом с Петровским парком/метро, район не назван"
+ },
+ {
+  "slug": "five",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "не проверено"
+ },
+ {
+  "slug": "twist",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "не проверено"
+ },
+ {
+  "slug": "romanov-7",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "в выдаче поиска нет подходящего источника"
+ },
+ {
+  "slug": "gavrikova-11",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "в выдаче поиска нет подходящего источника"
+ },
+ {
+  "slug": "semenovskiy-park-2",
+  "district": "sokolinaya-gora",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/baza/jk_na_kirpichnoy_ulitse",
+  "evidence": "пер. 1-й Кирпичный, 15А, Соколиная Гора (ВАО); РГ-Девелопмент",
+  "reason": null
+ },
+ {
+  "slug": "porta",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "не проверено"
+ },
+ {
+  "slug": "lodochnaya-27k2",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "в выдаче поиска нет подходящего источника"
+ },
+ {
+  "slug": "krt-ogorodnyy-proezd",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "в выдаче поиска нет подходящего источника"
+ },
+ {
+  "slug": "voice-towers",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "в выдаче поиска нет подходящего источника"
+ },
+ {
+  "slug": "vavilova-9a-str-1-2",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "в выдаче поиска нет подходящего источника"
+ },
+ {
+  "slug": "zaozernaya-15a",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "в выдаче поиска нет подходящего источника"
+ },
+ {
+  "slug": "krt-poklonnaya",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "не проверено"
+ },
+ {
+  "slug": "kutuzov-siti",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "в выдаче поиска нет подходящего источника"
+ },
+ {
+  "slug": "gate-one",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "в выдаче поиска нет подходящего источника"
+ },
+ {
+  "slug": "1-y-volokolamskiy-10",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "в выдаче поиска нет подходящего источника"
+ },
+ {
+  "slug": "symphony-38a",
+  "district": "savelovskiy",
+  "region": null,
+  "source": "https://moskvichmag.ru/?p=423627",
+  "evidence": "2-я Хуторская ул., БЦ Мирланд, заголовок «в Савеловском»",
+  "reason": null
+ },
+ {
+  "slug": "molodogvardeyskaya-64-9",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "в выдаче поиска нет подходящего источника"
+ },
+ {
+  "slug": "sber-siti",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "не проверено"
+ },
+ {
+  "slug": "lomonosov",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "не проверено"
+ },
+ {
+  "slug": "aurus-rezidentsii",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "не проверено"
+ }
+]

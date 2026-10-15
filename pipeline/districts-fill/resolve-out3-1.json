@@ -1,0 +1,370 @@
+[
+ {
+  "slug": "ilmenskiy-17",
+  "district": "zapadnoe-degunino",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/baza/jiloy_kompleks_ilmenskiy_17",
+  "evidence": "Ильменский пр-д, вл. 17; район Западное Дегунино, САО, м. Селигерская",
+  "reason": null
+ },
+ {
+  "slug": "volzhskiy-park",
+  "district": "tekstilshchiki",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/kvartiry/odnokomnatnaya-kvartira-v-volzhskii-park-2171bb46ec12fa3e5d3101a91f80c7",
+  "evidence": "1-й Грайвороновский пр-д, вл. 3; район Текстильщики, ЮВАО",
+  "reason": null
+ },
+ {
+  "slug": "teatralnyy-kvartal",
+  "district": "shchukino",
+  "region": null,
+  "source": "https://novostroy-m.ru/baza/jk_teatralnyy_kvartal",
+  "evidence": "ул. Расплетина (офис продаж д. 2); район Щукино, СЗАО",
+  "reason": null
+ },
+ {
+  "slug": "simvol",
+  "district": "lefortovo",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/baza/jiloy_kvartal_simvol",
+  "evidence": "ш. Энтузиастов, 1-3; пр-д Невельского, 3; район Лефортово, ЮВАО",
+  "reason": null
+ },
+ {
+  "slug": "fantastic-house",
+  "district": "presnenskiy",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/baza/klubnyy_dom_fantastic_house",
+  "evidence": "ул. Малая Грузинская, 44/30 стр. 1; Пресненский район, ЦАО",
+  "reason": null
+ },
+ {
+  "slug": "varshavskoe-9-1",
+  "district": "danilovskiy",
+  "region": null,
+  "source": "https://riamo.ru/news/nedvizhimost/biznes-kompleks-postroyat-v-rajone-danilovskoj-manufaktury-v-moskve-xl/",
+  "evidence": "Самолёт Две Столицы, участок 1,6 га между Москвой-рекой, Варшавским шоссе и ТТК, «район Даниловской мануфактуры» (Даниловский); номер дома в статье не указан, вывод умеренной уверенности",
+  "reason": null
+ },
+ {
+  "slug": "cameo",
+  "district": "tverskoy",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/baza/jk_cmeo",
+  "evidence": "ул. Долгоруковская, 23А стр. 1; Тверской район, ЦАО (застройщик на странице Stone, в досье не указан)",
+  "reason": null
+ },
+ {
+  "slug": "skazochnyy-les",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "novostroy-m: только #СВАО, район не назван",
+  "reason": "поиск выполнен, район по найденным источникам не подтверждён"
+ },
+ {
+  "slug": "prichalnyy",
+  "district": "khoroshevo-mnevniki",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/baza/jk_level_prichalnyy_level",
+  "evidence": "Причальный пр-д, вл. 8; Хорошёво-Мнёвники, СЗАО",
+  "reason": null
+ },
+ {
+  "slug": "krasnyy-bogatyr",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "поиск выполнен, район по найденным источникам не подтверждён"
+ },
+ {
+  "slug": "profit",
+  "district": "nizhegorodskiy",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/novosti/nachalis_prodaji_ot_52",
+  "evidence": "ул. Газгольдерная; Нижегородский район, ЮВАО, у ТПУ Рязанская",
+  "reason": null
+ },
+ {
+  "slug": "b-aires",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "cian: Большой Волоколамский пр-д, 23, указан Щукино — противоречит ожиданию (Покровское-Стрешнево), не принято",
+  "reason": "поиск выполнен, район по найденным источникам не подтверждён"
+ },
+ {
+  "slug": "derbenevskaya",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "поиск выполнен, район по найденным источникам не подтверждён"
+ },
+ {
+  "slug": "varshavskie-vorota",
+  "district": "chertanovo-yuzhnoe",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/baza/zhk_varshavskoe_shosse_141/vopros-otvet",
+  "evidence": "ЖК Варшавское шоссе 141: «Москва, ЮАО, Чертаново Южное» (адрес без точного номера на странице)",
+  "reason": null
+ },
+ {
+  "slug": "shosse-entuziastov-46",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "поиск выполнен, район по найденным источникам не подтверждён"
+ },
+ {
+  "slug": "dacha-tolbukhina",
+  "district": "mozhayskiy",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/baza/tolbuhina_3",
+  "evidence": "ул. Толбухина, 3; Можайский район, ЗАО",
+  "reason": null
+ },
+ {
+  "slug": "forst",
+  "district": "danilovskiy",
+  "region": null,
+  "source": "https://novostroy-m.ru/baza/jk_forst",
+  "evidence": "ул. Автозаводская, 26/1; Даниловский район, ЮАО",
+  "reason": null
+ },
+ {
+  "slug": "siti-2a",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "не проверено"
+ },
+ {
+  "slug": "ferst",
+  "district": "danilovskiy",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/expertise/jk_frst_ot_forma",
+  "evidence": "Автозаводская ул., у Симоновской наб.; Даниловский район, ЮАО",
+  "reason": null
+ },
+ {
+  "slug": "sportivnye-obekty-khrunicheva",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "не проверено"
+ },
+ {
+  "slug": "otkrytyy-park",
+  "district": "metrogorodok",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/baza/otkrytyy_park",
+  "evidence": "ул. Николая Химушина, вл. 2/7с8; Метрогородок, ВАО",
+  "reason": null
+ },
+ {
+  "slug": "neskuchnyy",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "поиск выполнен, район по найденным источникам не подтверждён"
+ },
+ {
+  "slug": "kashirskiy-dvor-2",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "не проверено"
+ },
+ {
+  "slug": "ostankino-business-park",
+  "district": "butyrskiy",
+  "region": null,
+  "source": "https://pioneer.ru/en/project/ostankino-bp",
+  "evidence": "Огородный пр-д, 16/1; у м. Бутырская; район Бутырский указан в новости https://www.novostroy-m.ru/kompanii/upside_development_apsayd_development/news/nachalas_podgotovka_uchastka_dlya (вдоль Огородного пр-да, Бутырский район)",
+  "reason": null
+ },
+ {
+  "slug": "krivokolennyy-12",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "поиск выполнен, район по найденным источникам не подтверждён"
+ },
+ {
+  "slug": "kashirskoe-78",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "адрес в найденных источниках не подтверждён",
+  "reason": "поиск выполнен, район по найденным источникам не подтверждён"
+ },
+ {
+  "slug": "tpu-kuntsevskaya",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "поиск выполнен, район по найденным источникам не подтверждён"
+ },
+ {
+  "slug": "botanika",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "поиск выполнен, район по найденным источникам не подтверждён"
+ },
+ {
+  "slug": "tpu-borovskoe-shosse",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "поиск выполнен, район по найденным источникам не подтверждён"
+ },
+ {
+  "slug": "danilovskiy-ot-granel",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "не проверено"
+ },
+ {
+  "slug": "nametkina-10a",
+  "district": "cheremushki",
+  "region": null,
+  "source": "https://www.cian.ru/biznes-centr-na-ul-nametkinad-10a-moskva-13356/",
+  "evidence": "Москва, ул. Наметкина, 10А; район Черёмушки, ЮЗАО",
+  "reason": null
+ },
+ {
+  "slug": "butlerova-12",
+  "district": "konkovo",
+  "region": null,
+  "source": "https://vm.ru/news/1231012-otdelochnye-raboty-nachalis-v-novostrojke-po-renovacii-na-ulice-butlerova",
+  "evidence": "ул. Бутлерова (дом Бутлерова, уч. 34/2) — район Коньково; Бутлерова, 12 и Введенского, 13 (Беляево) — по улице, умеренная уверенность",
+  "reason": null
+ },
+ {
+  "slug": "nauchnyy-11a",
+  "district": "cheremushki",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/novosti/v_nauchnom_proezde_v",
+  "evidence": "Научный пр-д, вл. 11А; район Черёмушки, ЮЗАО (м. Калужская/Воронцовская)",
+  "reason": null
+ },
+ {
+  "slug": "monema",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "поиск выполнен, район по найденным источникам не подтверждён"
+ },
+ {
+  "slug": "dom-kuptsa-buloshnikova",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "novostroy-m: Б. Никитская, 17 стр.1, указан Тверской; улица делится между Арбатом и Тверским, не принято",
+  "reason": "поиск выполнен, район по найденным источникам не подтверждён"
+ },
+ {
+  "slug": "dream-riva",
+  "district": "nagatinskiy-zaton",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/baza/arhitekturnyy_proekt_dream_riva",
+  "evidence": "Проектируемый пр-д № 4062; Нагатинский Затон, ЮАО",
+  "reason": null
+ },
+ {
+  "slug": "dmitrovskoe-62",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "поиск выполнен, район по найденным источникам не подтверждён"
+ },
+ {
+  "slug": "tpu-nikolaevskaya",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "поиск выполнен, район по найденным источникам не подтверждён"
+ },
+ {
+  "slug": "rublevskaya-rivera",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "не проверено"
+ },
+ {
+  "slug": "khavskaya-9-1",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "не проверено"
+ },
+ {
+  "slug": "bolshoy-moskovskiy-tsirk-na-prospekte-vernadskogo",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "не проверено"
+ },
+ {
+  "slug": "paveletskaya-naberezhnaya-6",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "msk1.ru: Павелецкая наб., 6; район не назван",
+  "reason": "поиск выполнен, район по найденным источникам не подтверждён"
+ },
+ {
+  "slug": "kashirskoe-61-korp-4-str-1-9",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "не проверено"
+ },
+ {
+  "slug": "krt-avtomotornaya",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "поиск выполнен, район по найденным источникам не подтверждён"
+ },
+ {
+  "slug": "om-botanicheskiy",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "не проверено"
+ },
+ {
+  "slug": "bolshaya-ordynka-25",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "не проверено"
+ }
+]

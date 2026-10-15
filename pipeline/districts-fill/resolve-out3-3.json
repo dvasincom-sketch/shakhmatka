@@ -1,0 +1,362 @@
+[
+ {
+  "slug": "meshcherskiy-les",
+  "district": "solntsevo",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/baza/jk_mescherskiy_les",
+  "evidence": "Боровское ш., д. 2А...; Москва, ЗАО, Солнцево",
+  "reason": null
+ },
+ {
+  "slug": "will-towers",
+  "district": "ramenki",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/kvartiry/dvuhkomnatnaya-kvartira-v-zhk-will-towers-vill-tauiers-b85e670d20cb0398b94d6b878302d5",
+  "evidence": "пр-кт Генерала Дорохова, д.49; ЗАО Раменки",
+  "reason": null
+ },
+ {
+  "slug": "tpu-verkhnie-likhobory",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "источник: ТПУ на территории двух районов (Западное Дегунино и Бескудниковский), район не однозначен"
+ },
+ {
+  "slug": "izmaylovskiy-les",
+  "district": null,
+  "region": "moscow-oblast",
+  "source": "https://www.novostroy-m.ru/novosti/v_jk_izmaylovskiy_les",
+  "evidence": "ЖК расположен в Балашихе (Московская область), 800 м до МКАД по шоссе Энтузиастов",
+  "reason": null
+ },
+ {
+  "slug": "coin-house",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "источник с адресом Подольское шоссе, 3 не найден"
+ },
+ {
+  "slug": "irtyshskiy-park",
+  "district": "golyanovo",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/baza/2y_irtyshskiy",
+  "evidence": "2-й Иртышский пр-д, вл. 6/8; Гольяново, ВАО",
+  "reason": null
+ },
+ {
+  "slug": "severnyy-port",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "yuzhnaya-bittsa",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "very",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "Ботаническая, 29 - районов в источнике не найдено (novostroy.ru не открылся)"
+ },
+ {
+  "slug": "pole",
+  "district": "khoroshevskiy",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/baza/biznestsentr_pole",
+  "evidence": "Ленинградский пр-кт, 37Б; Хорошевский район, САО",
+  "reason": null
+ },
+ {
+  "slug": "kalinovka",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "aquatoria",
+  "district": "levoberezhnyy",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/baza/jk_aquatoria",
+  "evidence": "Ленинградское шоссе, 69к2; Левобережный, САО",
+  "reason": null
+ },
+ {
+  "slug": "elektrozavodskaya-60",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "в найденной статье адреса 60 нет, только Электрозавод в Преображенском районе"
+ },
+ {
+  "slug": "2-ya-rybinskaya-21",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "источник не найден (поиск дал Петербург)"
+ },
+ {
+  "slug": "elizarovo",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "losinoostrovskiy-park",
+  "district": "metrogorodok",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/baza/jk_na_otkrytom_shosse",
+  "evidence": "Открытое шоссе, вл. 18/1; Метрогородок, ВАО",
+  "reason": null
+ },
+ {
+  "slug": "moskva-siti-2",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "район не подтверждён"
+ },
+ {
+  "slug": "tpu-siti-2",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "район не подтверждён"
+ },
+ {
+  "slug": "staroobryadcheskaya-28a",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "источник не найден"
+ },
+ {
+  "slug": "fereyn",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "в источнике район не назван (проект 1-й Нагатинский на месте завода)"
+ },
+ {
+  "slug": "wow",
+  "district": "nagatino-sadovniki",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/kompanii/strana_development/news/jk_wow_predlagaet_tselyy",
+  "evidence": "ЖК WOW располагается в районе Нагатино, 7 мин до метро Технопарк",
+  "reason": null
+ },
+ {
+  "slug": "rublevskoe-shosse-68",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "источник района не найден"
+ },
+ {
+  "slug": "nevskiy",
+  "district": "voykovskiy",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/baza/jk_nevskiy",
+  "evidence": "Выборгская ул., 7; Крост в Войковском районе",
+  "reason": null
+ },
+ {
+  "slug": "tpu-kaluzhskaya",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "источник не найден"
+ },
+ {
+  "slug": "kalibr",
+  "district": "ostankinskiy",
+  "region": null,
+  "source": "https://www.mos.ru/news/item/125722073",
+  "evidence": "промзона Калибр в Останкинском районе СВАО",
+  "reason": null
+ },
+ {
+  "slug": "starosyrovo",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "univer",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "источник не найден"
+ },
+ {
+  "slug": "tpu-minskaya",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "поиск не дал релевантных результатов"
+ },
+ {
+  "slug": "khapilovka",
+  "district": "preobrazhenskoe",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/novosti/jile_v_promzone_hapilovka",
+  "evidence": "участки промзоны Хапиловка (М. Семеновская, Б. Черкизовская, 1-я Пугачевская) в районе Преображенское",
+  "reason": null
+ },
+ {
+  "slug": "krestovskiy",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "найденная статья про другое КРТ на пр. Мира (Ростокино), 82-92 не подтверждён"
+ },
+ {
+  "slug": "milashenkova-2",
+  "district": "butyrskiy",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/novosti/v_butyrskom_rayone_39",
+  "evidence": "участки на улице Милашенкова 2,68 га в Бутырском районе (СВАО) по КРТ; номер дома в статье не указан",
+  "reason": null
+ },
+ {
+  "slug": "metronom",
+  "district": "metrogorodok",
+  "region": null,
+  "source": "https://novostroy-m.ru/baza/jk_metronom",
+  "evidence": "ул. Тагильская, 6/1, 6/5; Метрогородок, ВАО; застройщик Брусника",
+  "reason": null
+ },
+ {
+  "slug": "beside",
+  "district": "nizhegorodskiy",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/novosti/jk_akvilon_beside_20",
+  "evidence": "на Рязанском проспекте в Нижегородском районе (ЮВАО)",
+  "reason": null
+ },
+ {
+  "slug": "pavlovskaya-bolnitsa",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "район в источнике не назван"
+ },
+ {
+  "slug": "dk-serp-i-molot",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "район в источнике не назван"
+ },
+ {
+  "slug": "2-y-tushinskiy-12",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "найденная статья относится к Аэродромной, 12, район не подтверждён для 2-го Тушинского"
+ },
+ {
+  "slug": "zil-vostok",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "источник: участок на Автозаводской ул., район не назван"
+ },
+ {
+  "slug": "pavlovskaya-18",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "источник не найден"
+ },
+ {
+  "slug": "kashirskoe-14",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "источник не открылся"
+ },
+ {
+  "slug": "leningradskoe-71a",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "отдельного источника по 71А нет (Акватория - Ленинградское, 69к2, но это другой адрес)"
+ },
+ {
+  "slug": "kolskaya-18",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "источник: Кольская ул. на северо-востоке, район не назван"
+ },
+ {
+  "slug": "vetkina-2v",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "источник района не найден"
+ },
+ {
+  "slug": "triniti",
+  "district": "zapadnoe-degunino",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/kvartiry/dvuhkomnatnaya-kvartira-v-zhk-triniti-571d1dfc0234bf8e48351723447329",
+  "evidence": "Дмитровское шоссе, вл. 75; САО, Западное Дегунино",
+  "reason": null
+ },
+ {
+  "slug": "kutuzovskaya-sloboda",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "fenomen-goroda",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "поиск не дал релевантных результатов (= ТПУ Минская)"
+ }
+]
