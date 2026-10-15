@@ -15,3 +15,4 @@ notes.tgz
 pipeline/batch-*/packs/
 pipeline/batch-*/media/
 pipeline/notes-text.json
+_sync/

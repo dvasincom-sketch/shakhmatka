@@ -139,7 +139,13 @@ export default async function LandingPage({ params }: { params: Promise<{ slug: 
       {same.length || other.length ? (
         <nav className="sec land-links" aria-label="Другие подборки">
           {same.length ? <><p className="f-k">{l.group === 'district' ? 'Другие районы' : l.group === 'region' ? 'Другие регионы' : l.group === 'class' ? 'Другие классы' : 'Другие стадии'}</p>
-            <div className="chips wrap">{same.map((x) => <Link key={x.slug} className="chip" href={`/novostroyki/${x.slug}/`}>{x.label}<i>{count(x)}</i></Link>)}</div></> : null}
+            <div className="chips wrap">{same.slice(0, 12).map((x) => <Link key={x.slug} className="chip" href={`/novostroyki/${x.slug}/`}>{x.label}<i>{count(x)}</i></Link>)}</div>
+            {same.length > 12 ? (
+              <details className="more-chips">
+                <summary>Ещё {same.length - 12} {l.group === 'district' ? 'районов' : 'подборок'}</summary>
+                <div className="chips wrap">{same.slice(12).map((x) => <Link key={x.slug} className="chip" href={`/novostroyki/${x.slug}/`}>{x.label}<i>{count(x)}</i></Link>)}</div>
+              </details>
+            ) : null}</> : null}
           {other.length ? <><p className="f-k">Ещё подборки</p>
             <div className="chips wrap">{other.map((x) => <Link key={x.slug} className="chip" href={`/novostroyki/${x.slug}/`}>{cap(x.subject)}<i>{count(x)}</i></Link>)}</div></> : null}
           <Link className="note link" href="/novostroyki/">Все подборки и районы</Link>

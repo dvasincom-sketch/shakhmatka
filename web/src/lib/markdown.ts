@@ -4,6 +4,14 @@ import { domainToUnicode } from 'url'
 marked.setOptions({ gfm: true })
 
 /** Markdown статьи → HTML для сайта: убирает H1 (он в шапке), пути к фото, блок «Коротко», фигуры, таблицы. */
+const COMMERCIAL = /(^|\.)(novostroy-m\.ru|novostroy\.ru|cian\.ru|domclick\.ru|avito\.ru|realty\.yandex\.ru|m2\.ru|whitewill\.ru|kalinka-realty\.ru|incom\.ru|etagi\.com|move\.ru|domofond\.ru|irr\.ru|bnmap\.pro|erzrf\.ru|pik\.ru|samolet\.ru|level\.ru|sminex\.com|mr-group\.ru|donstroy\.com|a101\.ru|kortros\.ru|lsr\.ru|glorax\.com|fsk\.ru|granelle\.ru|etalongroup\.ru|brusnika\.ru|osnova\.ru|capitalgroup\.ru|stone\.ru|pioneer\.ru|forma\.ru)$/i
+/** rel для внешней ссылки: noopener всегда, nofollow — для коммерческих сайтов (каталоги, застройщики) */
+export function relFor(href: string) {
+  let host = ''
+  try { host = new URL(href).hostname.replace(/^www\./, '') } catch { return 'noopener nofollow' }
+  return COMMERCIAL.test(host) ? 'noopener nofollow' : 'noopener'
+}
+
 export function renderArticle(md: string, opts: { skipImage?: string; resolve?: (href: string) => string | null } = {}): string {
   let src = md.replace(/^\s*# .+\n/, '')
   src = src.replace(/\]\(media\/([\w-]+\.(?:jpe?g|png|webp))\)/g, '](/api/media/file/$1)')
@@ -30,7 +38,9 @@ export function renderArticle(md: string, opts: { skipImage?: string; resolve?: 
     try { host = domainToUnicode(new URL(url).hostname).replace(/^www\./, '') } catch {}
     return `${pre}<a href="${url}">${host}</a>`
   })
-  html = html.replace(/<a href="(https?:\/\/[^"]+)"/g, '<a href="$1" target="_blank" rel="noopener"')
+  // внешние ссылки: новая вкладка; коммерческим каталогам и агрегаторам — nofollow (не передаём им вес и не выглядим как обмен ссылками),
+  // официальным источникам и СМИ — обычная ссылка: цитирование первоисточников поисковики считают признаком качества
+  html = html.replace(/<a href="(https?:\/\/[^"]+)"/g, (_m, href: string) => `<a href="${href}" target="_blank" rel="${relFor(href)}"`)
   // внутренние ссылки: старые адреса → новые, несуществующие страницы → обычный текст
   if (opts.resolve) {
     html = html.replace(/<a href="(\/[^"]*)"([^>]*)>([\s\S]*?)<\/a>/g, (_m, href: string, rest: string, text: string) => {

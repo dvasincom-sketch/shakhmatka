@@ -13,6 +13,8 @@ import { typo } from '@/lib/markdown'
 import { JsonLd } from '@/lib/jsonld'
 import { getUser } from '@/lib/auth'
 import { GalleryEditor } from '@/lib/staff'
+import { ObjGallery } from '@/lib/obj-gallery'
+import { relFor } from '@/lib/markdown'
 import { signalHref, signalSlugs } from '@/lib/signals'
 
 // Страницы собираются на запрос: в Docker-сборке нет доступа к базе, а данные должны быть свежими
@@ -64,6 +66,8 @@ export default async function ObjectPage({ params }: { params: Promise<{ slug: s
   const prev = (o.previousDevelopers || []) as Developer[]
   const i = STAGES.findIndex((s) => s.value === o.stage)
   const gallery = ((o.gallery || []) as Media[]).filter((m) => m?.url)
+  const heroPick = gallery.length ? gallery : [coverOf(arts.find((a) => coverOf(a.heroImage))?.heroImage)].filter((m): m is Media => !!m?.url)
+  const pics = heroPick.map((m) => ({ id: m.id, url: m.url!, thumb: m.sizes?.card?.url || m.url!, alt: m.alt, caption: m.caption, width: m.width, height: m.height }))
   const hero = gallery[0] || coverOf(arts.find((a) => coverOf(a.heroImage))?.heroImage)
   const price = priceText(o)
   const sp = START_PRICES.find((r) => r.slug === o.slug)
@@ -101,8 +105,8 @@ export default async function ObjectPage({ params }: { params: Promise<{ slug: s
           <h1 className="page-h tt">{o.name}{dev ? <span>{devName(dev.name)}</span> : null}</h1>
           {o.summary ? <p className="obj-sum">{typo(o.summary)}</p> : null}
           <div className="zus">
-            {o.zu ? <span className="zu"><b>ЗУ</b>{o.zu}</span> : null}
-            {(o.aliases || []).filter((a) => a.value !== o.zu && a.value !== o.name).map((a) => <span key={a.id} className="pill">{a.value}</span>)}
+            {o.zu ? <Link className="zu" href={`/poisk/?q=${encodeURIComponent(o.zu)}`} title="Найти всё по адресу участка"><b>ЗУ</b>{o.zu}</Link> : null}
+            {(o.aliases || []).filter((a) => a.value && a.value !== o.zu && a.value !== o.name).map((a) => <Link key={a.id} className="pill pill-q" href={`/poisk/?q=${encodeURIComponent(a.value!)}`} title="Другое название — найти упоминания">{a.value}</Link>)}
             {dev ? <Link className="pill" href={`/zastroyshchiki/${dev.slug}/`}>{devName(dev.name)}</Link> : null}
             {prev.map((p) => <Link key={p.id} className="pill" href={`/zastroyshchiki/${p.slug}/`}>ранее {devName(p.name)}</Link>)}
           </div>
@@ -116,20 +120,11 @@ export default async function ObjectPage({ params }: { params: Promise<{ slug: s
             {o.completion ? <div><dt>Ввод</dt><dd>{o.completion}</dd></div> : null}
             {o.class ? <div><dt>Класс</dt><dd>{CLASS_LABELS[o.class] || o.class}</dd></div> : null}
             <div><dt>Где</dt><dd>{place ? <Link href={`/novostroyki/${place.slug}/`}>{where}</Link> : where}</dd>{o.region === 'moscow' && o.district ? <small>{place?.okrug ? `${place.okrug}, ` : ''}Москва</small> : null}</div>
-            {signals.length ? <div><dt>Сигналы</dt><dd>{signals.length}</dd><small>{confirmed ? `${confirmed} уже подтвердились` : 'до официальных новостей'}</small></div> : null}
+            {signals.length ? <div><dt>Сигналы</dt><dd><a href="#sig">{signals.length}</a></dd><small><a className="muted-link" href="#sig">{confirmed ? `${confirmed} уже подтвердились` : 'до официальных новостей'} →</a></small></div> : null}
             {o.legalEntity ? <div><dt>Застройщик по документам</dt><dd className="sm">{o.legalEntity}</dd></div> : null}
           </dl>
         </div>
-        {hero?.url ? (
-          <div className="obj-gal">
-            <figure className="fig obj-fig"><img src={hero.url} alt={hero.alt} width={hero.width || undefined} height={hero.height || undefined} />{hero.caption ? <figcaption>{hero.caption}</figcaption> : null}</figure>
-            {gallery.length > 1 ? (
-              <div className="thumbs" aria-label="Фото проекта">
-                {gallery.slice(1, 6).map((m) => <a key={m.id} href={m.url!} target="_blank" rel="noopener"><img src={m.sizes?.card?.url || m.url!} alt={m.alt} loading="lazy" /></a>)}
-              </div>
-            ) : null}
-          </div>
-        ) : null}
+        {pics.length ? <ObjGallery pics={pics} /> : null}
       </div>
 
       {owners.length ? (
@@ -144,10 +139,21 @@ export default async function ObjectPage({ params }: { params: Promise<{ slug: s
                   <p className="ow-when">{[w.since && `с ${monthGen(w.since)}`, w.until && `по ${w.until}`].filter(Boolean).join(' ') || (now ? 'сейчас' : '')}{now ? <span className="pill sun">сейчас</span> : null}</p>
                   <p className="ow-who">{d?.slug ? <Link href={`/zastroyshchiki/${d.slug}/`}>{devName(d.name)}</Link> : devName(d?.name)}</p>
                   {w.how ? <p className="ow-how">{typo(w.how)}</p> : null}
-                  {w.source?.startsWith('http') ? <a className="ow-src" href={w.source} target="_blank" rel="noopener">источник</a> : null}
+                  {w.source?.startsWith('http') ? <a className="ow-src" href={w.source} target="_blank" rel={relFor(w.source)}>источник</a> : null}
                 </li>
               )
             })}
+          </ol>
+        </section>
+      ) : null}
+
+      {signals.length ? (
+        <section className="sec" id="sig" aria-labelledby="h-sig">
+          <div className="sec-h"><h2 id="h-sig" className="tt">Сигналы<span>{confirmed ? `${confirmed} из ${signals.length} подтвердились` : 'что говорили до официальных новостей'}</span></h2><Link className="more" href="/signaly/">Все сигналы</Link></div>
+          <ol className="sig-mini">
+            {[...signals].reverse().map((t) => (
+              <li key={t.id}><Link href={signalHref(sigSlugs.get(t.id!) || '')}><time dateTime={t.date.slice(0, 10)}>{dayMonth(t.date)} {year(t.date)}</time><span>{t.outcome ? 'Участники рынка говорили: ' : ''}{typo(t.title)}</span>{t.confirmedOn ? <em className="tl-conf">подтвердилось</em> : t.outcome ? <em className="tl-unc">не подтвердилось</em> : null}</Link></li>
+            ))}
           </ol>
         </section>
       ) : null}
@@ -197,7 +203,7 @@ export default async function ObjectPage({ params }: { params: Promise<{ slug: s
               const ref = n.object as Obj | undefined
               const inner = (
                 <>
-                  {im?.url ? <div className="ph"><img src={im.url} alt={im.alt} loading="lazy" /></div> : null}
+                  <div className={`ph${im?.url ? '' : ' ph-empty'}`}>{im?.url ? <img src={im.url} alt={im.alt} loading="lazy" /> : null}</div>
                   <div className="tx">
                     {n.date ? <time dateTime={n.date.slice(0, 10)}>{dayMonth(n.date)} {year(n.date)}</time> : null}
                     <h3>{n.name}</h3>

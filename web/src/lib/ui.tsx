@@ -147,8 +147,8 @@ export function ObjectCard({ o, im: fallback }: { o: Obj & { cover?: Media }; im
   const where = o.region === 'moscow' ? (o.district ? districtName(o.district) : 'Москва') : regionName(o.region)
   const last = o.lastEventAt ? new Date(o.lastEventAt) : null
   return (
-    <Link className={`ocard card${im?.url ? '' : ' noph'}`} href={`/obekty/${o.slug}/`}>
-      {im?.url ? <div className="ph"><img src={im.url} alt={im.alt} loading="lazy" /></div> : null}
+    <Link className="ocard card" href={`/obekty/${o.slug}/`}>
+      <div className={`ph${im?.url ? '' : ' ph-empty'}`}>{im?.url ? <img src={im.url} alt={im.alt} loading="lazy" /> : null}</div>
       <div className="tx">
         <div className="row"><StageStrip stage={o.stage} /><span className="st">{stageLabel(o.stage)}</span>{last ? <span className="st when">{MONTHS_SHORT[last.getUTCMonth()]} {last.getUTCFullYear()}</span> : null}</div>
         <h3>{o.name}</h3>
