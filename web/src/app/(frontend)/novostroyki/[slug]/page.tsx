@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { getPayload, type Where } from 'payload'
 import config from '@payload-config'
-import { ArticleCard, ObjectCard, SITE, STAGES, StageStrip, stageLabel } from '@/lib/ui'
+import { ArticleCard, ObjectCard, SITE, STAGES, StageStrip, stageLabel, coverOf } from '@/lib/ui'
 import { plural } from '@/lib/geo'
 import { cap, faqFor, getAllObjects, getLandings, indexable, metaFor, stats } from '@/lib/landings'
 import { pub } from '@/lib/public'
@@ -52,7 +52,7 @@ export default async function LandingPage({ params }: { params: Promise<{ slug: 
   const districtKey = l.group === 'district' ? l.slug : undefined
   const stories = districtKey ? (await payload.find({ collection: 'articles', where: pub({ 'topics.value': { equals: `rayon-${districtKey}` } }), sort: '-datePublished', limit: 6, depth: 1 })).docs : []
   const arts = or.length ? (await payload.find({ collection: 'articles', where: pub({ or }), sort: '-datePublished', limit: 12, depth: 1 })).docs : []
-  const img = (id: number) => arts.find((a) => (a.objects || []).some((o) => (typeof o === 'object' ? o.id : o) === id) && a.heroImage)?.heroImage as Media | undefined
+  const img = (id: number) => coverOf(arts.find((a) => (a.objects || []).some((o) => (typeof o === 'object' ? o.id : o) === id) && coverOf(a.heroImage))?.heroImage)
   const { cheapest, priced, soonest } = stats(objs)
   const faq = faqFor(l, objs, stageLabel)
   const H = cap(l.subject)

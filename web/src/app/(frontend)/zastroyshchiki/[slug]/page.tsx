@@ -6,6 +6,7 @@ import { getPayload } from 'payload'
 import config from '@payload-config'
 import { ArticleCard, SITE, STAGES, StageStrip, devName, stageLabel, ogFor } from '@/lib/ui'
 import { pub } from '@/lib/public'
+import { signalHref, signalSlugs } from '@/lib/signals'
 import { districtName, plural, regionName } from '@/lib/geo'
 import { typo } from '@/lib/markdown'
 import { JsonLd } from '@/lib/jsonld'
@@ -67,6 +68,8 @@ export default async function DeveloperPage({ params }: { params: Promise<{ slug
   // события всех проектов компании
   const events: Ev[] = objs.flatMap((o) => (o.timeline || []).map((t) => ({ ...t, id: t.id!, o }))).sort((a, b) => b.date.localeCompare(a.date))
   const signals = events.filter((e) => e.certainty === 'signal')
+  const sigUrl = new Map<string, string>()
+  objs.forEach((o) => signalSlugs(o.slug, o.timeline).forEach((v, k) => sigUrl.set(k, signalHref(v))))
   const confirmed = signals.filter((e) => e.confirmedOn).length
   const unconfirmed = signals.filter((e) => e.outcome).length
   const recent = events.slice(0, 12)
@@ -193,7 +196,7 @@ export default async function DeveloperPage({ params }: { params: Promise<{ slug
                   {e.outcome ? <span className="tl-unc">{e.outcome === 'refuted' ? 'опровергнуто' : 'не подтвердилось'}</span> : null}
                 </div>
                 <div className="tl-body">
-                  <p className="tl-t">{e.outcome ? <span className="tl-said">Участники рынка говорили: </span> : null}{typo(e.title)}</p>
+                  <p className="tl-t">{e.outcome ? <span className="tl-said">Участники рынка говорили: </span> : null}{sigUrl.get(e.id) ? <Link href={sigUrl.get(e.id)!}>{typo(e.title)}</Link> : typo(e.title)}</p>
                   <p className="tl-x"><Link href={`/obekty/${e.o.slug}/`}>{e.o.name}</Link></p>
                 </div>
               </li>

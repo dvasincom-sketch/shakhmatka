@@ -3,6 +3,15 @@
 set -e
 cd "$(dirname "$0")"
 
+# поиск: встроенный Meilisearch, если внешний не задан. Индекс в контейнере временный — собирается заново при каждом старте (несколько секунд).
+if [ -z "$MEILI_HOST" ] && [ "${MEILI_EMBEDDED:-1}" = "1" ] && command -v meilisearch >/dev/null 2>&1; then
+  export MEILI_MASTER_KEY="${MEILI_MASTER_KEY:-$(head -c 32 /dev/urandom | od -An -tx1 | tr -d ' \n')}"
+  mkdir -p /tmp/meili
+  meilisearch --db-path /tmp/meili/data --dump-dir /tmp/meili/dumps --http-addr 127.0.0.1:7700 --master-key "$MEILI_MASTER_KEY" --env production --no-analytics > /tmp/meili/log.txt 2>&1 &
+  export MEILI_HOST=http://127.0.0.1:7700
+  echo "→ поиск: встроенный Meilisearch (127.0.0.1:7700)"
+fi
+
 echo "→ миграции базы"
 npx payload migrate
 

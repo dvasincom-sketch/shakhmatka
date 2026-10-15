@@ -22,6 +22,9 @@ RUN npx next build
 
 FROM node:22-bookworm-slim AS run
 WORKDIR /app/web
+# Встроенный поисковый движок Meilisearch (запускается в том же контейнере, если не задан внешний MEILI_HOST; MEILI_EMBEDDED=0 — выключить)
+ADD https://github.com/meilisearch/meilisearch/releases/download/v1.12.8/meilisearch-linux-amd64 /usr/local/bin/meilisearch
+RUN chmod 755 /usr/local/bin/meilisearch
 ENV NODE_ENV=production NEXT_TELEMETRY_DISABLED=1 PORT=3000 HOSTNAME=0.0.0.0
 # Полные node_modules и исходники нужны, чтобы в контейнере работали миграции и импорт контента (payload run).
 # --chown при копировании вместо chown -R по всему /app: тот занимал ~9 минут на каждом деплое

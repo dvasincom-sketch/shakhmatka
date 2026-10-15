@@ -3,7 +3,7 @@ import { getPayload } from 'payload'
 import config from '@payload-config'
 import { ruDate, typo } from '@/lib/markdown'
 import type { Metadata } from 'next'
-import { ArticleCard, StageStrip, TYPES, devName, stageLabel, cardImg, SITE, ogFor } from '@/lib/ui'
+import { ArticleCard, StageStrip, TYPES, devName, stageLabel, cardImg, SITE, ogFor, coverOf } from '@/lib/ui'
 import { JsonLd } from '@/lib/jsonld'
 import type { Developer, Media } from '@/payload-types'
 import { pub } from '@/lib/public'
@@ -24,12 +24,15 @@ export default async function Home() {
   const { docs } = await payload.find({ collection: 'articles', where: pub(), sort: '-datePublished', limit: 40, depth: 1 })
   const objects = (await payload.find({ collection: 'objects', limit: 8, depth: 1, sort: '-lastEventAt' })).docs
   const topDevs = await developerBoard(payload)
-  const objImg = (id: number | string) => docs.find((a) => (a.objects || []).some((o) => (typeof o === 'object' ? o.id : o) === id) && a.heroImage)?.heroImage as Media | undefined
+  const objImg = (id: number | string) => coverOf(docs.find((a) => (a.objects || []).some((o) => (typeof o === 'object' ? o.id : o) === id) && coverOf(a.heroImage))?.heroImage)
 
-  const [lead, ...rest] = docs
+  // главная карточка — самый свежий материал с читаемой обложкой; без фото она пустеет
+  const li = Math.max(0, docs.findIndex((a) => coverOf(a.heroImage)))
+  const lead = docs[li]
+  const rest = docs.filter((_, i) => i !== li)
   const side = rest.slice(0, 5)
   const grid = rest.slice(5)
-  const leadImg = lead?.heroImage as Media | undefined
+  const leadImg = coverOf(lead?.heroImage)
   if (!lead) return <p className="empty">Статей пока нет. Запустите импорт: npm run seed</p>
 
   const ld = [

@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { getPayload } from 'payload'
 import config from '@payload-config'
-import { ArticleCard, SITE, STAGES, StageTrack, devName } from '@/lib/ui'
+import { ArticleCard, SITE, STAGES, StageTrack, devName, coverOf } from '@/lib/ui'
 import type { Developer, Media, Object as Obj } from '@/payload-types'
 import { pub } from '@/lib/public'
 import { CLASS_LABELS, districtName, priceText, regionName } from '@/lib/geo'
@@ -45,7 +45,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const d = await load((await params).slug)
   if (!d) return {}
   const { o } = d
-  const hero = (o.gallery?.[0] as Media | undefined) || (d.arts.find((a) => a.heroImage)?.heroImage as Media | undefined)
+  const hero = (o.gallery?.[0] as Media | undefined) || coverOf(d.arts.find((a) => coverOf(a.heroImage))?.heroImage)
   const description = o.summary || `Досье проекта «${o.name}»${o.zu ? ` (ЗУ «${o.zu}»)` : ''}: стадия, история, проверенные материалы Шахматки.`
   return {
     title: isPlot(o) ? `${titleOf(o)}: что строят, история проекта` : `${titleOf(o)}: история проекта, цены и сроки`,
@@ -64,7 +64,7 @@ export default async function ObjectPage({ params }: { params: Promise<{ slug: s
   const prev = (o.previousDevelopers || []) as Developer[]
   const i = STAGES.findIndex((s) => s.value === o.stage)
   const gallery = ((o.gallery || []) as Media[]).filter((m) => m?.url)
-  const hero = gallery[0] || (arts.find((a) => a.heroImage)?.heroImage as Media | undefined)
+  const hero = gallery[0] || coverOf(arts.find((a) => coverOf(a.heroImage))?.heroImage)
   const price = priceText(o)
   const sp = START_PRICES.find((r) => r.slug === o.slug)
   const where = place?.name || (o.region === 'moscow' ? districtName(o.district) || 'Москва' : regionName(o.region))

@@ -298,7 +298,7 @@ a.pill:hover { box-shadow: 0 0 0 1px var(--ink); }
   .dev-grid { grid-template-columns: repeat(2, 1fr); }
   .feat-grid { grid-template-columns: 1fr 1fr; }
   .art h1 { font-size: 36px; }
-  .foot-in { grid-template-columns: 2fr 1fr 1fr; }
+
   .pro-band { grid-template-columns: 1fr 1fr; align-items: center; padding: 36px; }
   .pro-band .btn { grid-column: 1; }
 }
@@ -352,7 +352,7 @@ a.pill:hover { box-shadow: 0 0 0 1px var(--ink); }
   .body > p:first-child { font-size: 22px; }
   .body h2 { font-size: 26px; margin-top: 48px; }
   .art-side { position: sticky; top: calc(var(--header) + 20px); margin-top: 30px; max-height: calc(100vh - var(--header) - 40px); overflow: auto; scrollbar-width: thin; padding: 2px 2px 8px; }
-  .foot-in { grid-template-columns: 2fr 1fr 1fr; }
+
 }
 @media (min-width: 1200px) { .art-grid { grid-template-columns: minmax(0, 1fr) 340px; gap: 64px; } }
 @media (min-width: 1400px) { .art-grid { grid-template-columns: minmax(0, 1fr) 360px; gap: 88px; } }
@@ -929,3 +929,20 @@ html { scroll-padding-top: 90px; }
 .srch-list small { color: var(--muted); font-size: var(--s-1); }
 .srch-list p { margin: 0; color: var(--muted); font-size: var(--s-1); line-height: 1.5; }
 .srch-list mark { background: var(--sun-soft); color: inherit; border-radius: 3px; padding: 0 1px; }
+
+/* плашка «Ключевая ставка»: ссылка внутри ленты не должна терять отступы .feed a */
+.feed a.fact { padding: 18px 20px; gap: 6px; border-radius: var(--r-m); }
+.feed a.fact .note { margin: 0; }
+.feed a.fact .link { margin-top: 4px; }
+
+/* воздух между блоками */
+.land-stats + .chips, .land-stats + nav, .land-stats + .dev-places, .land-stats + div { margin-top: 18px; }
+.a-grid + .note, .sec + .note, .sec + p.note, ol + .note, .krt + .krt-links { margin-top: 28px; }
+.sec-h + .chips { margin-top: 4px; }
+.chips + .a-grid, .chips + .obj-grid, .chips + .rows { margin-top: 16px; }
+
+/* подвал: логотип · Новостройки · Аналитика и проект · Принципы */
+.foot-in > nav { display: grid; align-content: start; line-height: 1.4; }
+.foot-in > nav > a { padding: 3px 0; }
+@media (min-width: 760px) { .foot-in { grid-template-columns: 1fr 1fr; } }
+@media (min-width: 1100px) { .foot-in { grid-template-columns: 1.4fr 1fr 1fr 1.2fr; gap: 32px; } }

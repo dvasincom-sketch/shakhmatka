@@ -3,7 +3,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { getPayload } from 'payload'
 import config from '@payload-config'
-import { ObjectCard, SITE, STAGES, ogFor } from '@/lib/ui'
+import { ObjectCard, SITE, STAGES, ogFor, coverOf } from '@/lib/ui'
 import { CLASS_LABELS, districtName, plural } from '@/lib/geo'
 import { FilterToggle } from '@/lib/client'
 import type { Media, Object as Obj } from '@/payload-types'
@@ -50,7 +50,7 @@ export default async function Objects({ searchParams }: { searchParams: Promise<
   const arts = (await payload.find({ collection: 'articles', where: pub({ heroImage: { exists: true } }), limit: 2000, depth: 1, select: { objects: true, heroImage: true } })).docs
   const places = (await payload.find({ collection: 'places', limit: 1000, pagination: false })).docs
   const landing = sp.district ? places.find((p) => p.key === sp.district) : sp.geo === 'moscow' && !sp.district ? places.find((p) => p.key === 'moscow') : undefined
-  const img = (id: number | string) => arts.find((a) => (a.objects || []).some((o) => (typeof o === 'object' ? o.id : o) === id) && a.heroImage)?.heroImage as Media | undefined
+  const img = (id: number | string) => coverOf(arts.find((a) => (a.objects || []).some((o) => (typeof o === 'object' ? o.id : o) === id) && coverOf(a.heroImage))?.heroImage)
 
   const href = (patch: Partial<SP>) => {
     const q = new URLSearchParams()

@@ -94,10 +94,14 @@ export function Footer() {
           <Wordmark />
           <p>Независимое медиа о новостройках. В фокусе Москва, в охвате вся Россия.</p>
         </div>
-        <div>
-          <b>Разделы</b>
-          <Link href="/">Лента</Link><Link href="/obekty/">Объекты</Link><Link href="/signaly/">Сигналы</Link><Link href="/novostroyki/">Новостройки по районам</Link><Link href="/krt/">Трекер КРТ</Link><Link href="/ceny-na-starte/">Цены на старте и сейчас</Link><Link href="/zastroyshchiki/">Застройщики</Link><Link href="/pro/">Шахматка Про</Link><Link href="/o-proekte/">О проекте</Link><Link href="/kabinet/">Вход для редакции</Link>
-        </div>
+        <nav aria-label="Новостройки">
+          <b>Новостройки</b>
+          <Link href="/">Лента</Link><Link href="/obekty/">Объекты</Link><Link href="/novostroyki/">Новостройки по районам</Link><Link href="/zastroyshchiki/">Застройщики</Link><Link href="/ceny-na-starte/">Цены на старте и сейчас</Link>
+        </nav>
+        <nav aria-label="Аналитика и проект">
+          <b>Аналитика и проект</b>
+          <Link href="/signaly/">Сигналы</Link><Link href="/krt/">Трекер КРТ</Link><Link href="/pro/">Шахматка Про</Link><Link href="/o-proekte/">О проекте</Link><Link href="/kabinet/">Вход для редакции</Link>
+        </nav>
         <div>
           <b>Принципы</b>
           <p>Не публикуем партнёрские материалы.</p><p>Каждая цифра проверена по источнику.</p><p>Не даём инвестиционных рекомендаций.</p><Link className="foot-more" href="/o-proekte/#principy">Редакционные принципы →</Link>
@@ -108,9 +112,13 @@ export function Footer() {
   )
 }
 
+/** Скан документа, схема или таблица — плохая обложка: в карточке не читается */
+export const isDocImage = (m?: Media | null) => !!m && /скан|документ|приложени|постановлени|протокол|выписк|схем|границ|карт[аеуы]\b|ГПЗУ|таблиц|чертёж|чертеж|план участ|параметр/i.test(`${m.alt || ''} ${m.caption || ''}`)
+export const coverOf = (m?: Media | number | null) => (m && typeof m === 'object' && m.url && !isDocImage(m) ? m : undefined)
+
 /** Карточка материала для сеток */
 export function ArticleCard({ a, size = 'm' }: { a: Article; size?: 'l' | 'm' | 's' }) {
-  const img = a.heroImage as Media | undefined
+  const img = coverOf(a.heroImage)
   return (
     <Link className={`acard card acard-${size}`} href={`/novosti/${a.slug}/`}>
       {size !== 's' ? (img?.url
