@@ -1,0 +1,23 @@
+{
+  "_readme": "Ручное досье (15.10.2026) по карточкам каталогов: https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/zhk-sirenevyj-b-r-z-u-4-12a-uch-6-1-4163635/, https://zhk-sirenevyy-b-r-d-412-i.cian.ru/",
+  "slug": "mk-sirenevyy-b-r-4-12a",
+  "name": "Сиреневый б-р, 4/12А",
+  "zu": "Сиреневый б-р, 4/12А",
+  "aliases": [
+    "ЖК Сиреневый б-р, з/у 4/12А (уч. 6.1)",
+    "Московские кварталы, Сиреневый б-р, 4/12А"
+  ],
+  "region": "moscow",
+  "district": "izmaylovo",
+  "stage": "completed",
+  "developer": "fond-renovatsii",
+  "summary": "Жилой дом Московского фонда реновации по адресу Сиреневый б-р, 4/12А. По данным каталога — 416 квартир, 10–17 этажей. Каталоги относят дом к линейке «Московские кварталы»; продажа квартир самим фондом на дату проверки не подтверждена.",
+  "timeline": [
+    {
+      "date": "2025-12-29",
+      "kind": "construction",
+      "title": "Дом введён в эксплуатацию (корпус по адресу Сиреневый б-р, 4/12А)",
+      "certainty": "fact"
+    }
+  ]
+}

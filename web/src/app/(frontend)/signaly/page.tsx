@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import { FollowButton } from '@/lib/follow-button'
 import { getPayload } from 'payload'
 import config from '@payload-config'
 import { SITE, ogFor } from '@/lib/ui'
@@ -57,6 +58,7 @@ export default async function Signals() {
       <JsonLd data={ld} />
       <nav className="crumbs" aria-label="Путь"><Link href="/">Лента</Link><span>/</span><span>Сигналы</span></nav>
       <h1 className="page-h tt">Сигналы<span>раньше официальных новостей</span></h1>
+      <FollowButton kind="signals" id="all" label="Все сигналы" hint="Новые сигналы и подтверждения — раньше официальных новостей." />
       <p className="hello-sub">Сигнал — то, о чём на рынке говорят до пресс-релизов: участок присматривают, проект готовят к продажам, меняется девелопер. Мы отмечаем такие пункты в досье объектов, проверяем и честно показываем, что сбылось, а что нет.</p>
 
       <dl className="land-stats sig-stats">

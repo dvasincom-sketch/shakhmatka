@@ -1,0 +1,23 @@
+{
+  "_readme": "Ручное досье (15.10.2026) по карточкам каталогов: https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/zhk-novocheryomushkinskaya-ul-z-u-41-1a-4195418/, https://realty.yandex.ru/moskva/kupit/novostrojka/z-moskovskie-kvartaly-4209811/",
+  "slug": "mk-novocheremushkinskaya-z-u-41-1a",
+  "name": "Новочерёмушкинская, з/у 41/1А",
+  "zu": "Новочерёмушкинская, з/у 41/1А",
+  "aliases": [
+    "ЖК Новочерёмушкинская ул., з/у 41/1А",
+    "Московские кварталы, Новочерёмушкинская, з/у 41/1А"
+  ],
+  "region": "moscow",
+  "stage": "permit",
+  "developer": "fond-renovatsii",
+  "summary": "Жилой дом Московского фонда реновации по адресу ул. Новочерёмушкинская, з/у 41/1А. По данным каталога — 544 квартиры, до 22 этажей. Каталоги относят дом к линейке «Московские кварталы»; продажа квартир самим фондом на дату проверки не подтверждена.",
+  "timeline": [
+    {
+      "date": "2026-10-15",
+      "dateLabel": "октябрь 2026",
+      "kind": "other",
+      "title": "Дом Фонда реновации значится в каталогах в линейке «Московские кварталы»",
+      "certainty": "fact"
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+ "batch": 15,
+ "units": [
+  {
+   "unit": 27870,
+   "notes": [
+    27870
+   ],
+   "dossier": "bolshoy-kharitonevskiy-13a-s10",
+   "developer": "mr-group",
+   "date": "2025-02-13",
+   "images": 10
+  },
+  {
+   "unit": 30501,
+   "notes": [
+    30501
+   ],
+   "dossier": "one",
+   "developer": "mr-group",
+   "date": "2025-07-30",
+   "images": 0
+  },
+  {
+   "unit": 28888,
+   "notes": [
+    28888
+   ],
+   "dossier": "bell",
+   "developer": "mr-group",
+   "date": "2025-04-16",
+   "images": 0
+  },
+  {
+   "unit": 35229,
+   "notes": [
+    35229
+   ],
+   "dossier": "timura-frunze-11",
+   "developer": "sminex",
+   "date": "2026-08-03",
+   "images": 9
+  },
+  {
+   "unit": 14249,
+   "notes": [
+    14249
+   ],
+   "dossier": "opus",
+   "developer": "pioner",
+   "date": "2022-08-29",
+   "images": 1
+  },
+  {
+   "unit": 16206,
+   "notes": [
+    16206
+   ],
+   "dossier": "frunzenskaya-30",
+   "developer": "sminex",
+   "date": "2023-01-09",
+   "images": 1
+  },
+  {
+   "unit": 16973,
+   "notes": [
+    16632,
+    16973
+   ],
+   "dossier": "era",
+   "developer": "pik",
+   "date": "2023-02-19",
+   "images": 0
+  },
+  {
+   "unit": 14885,
+   "notes": [
+    14885
+   ],
+   "dossier": "tankovyy-4",
+   "developer": "inteko",
+   "date": "2022-10-06",
+   "images": 2
+  },
+  {
+   "unit": 20170,
+   "notes": [
+    20170
+   ],
+   "dossier": "akademicheskaya",
+   "developer": "level-group",
+   "date": "2023-11-11",
+   "images": 8
+  },
+  {
+   "unit": 9413,
+   "notes": [
+    9413
+   ],
+   "dossier": "le-dome",
+   "developer": "lsr",
+   "date": "2021-09-22",
+   "images": 1
+  },
+  {
+   "unit": 17810,
+   "notes": [
+    17810
+   ],
+   "dossier": "tushinskiy-mashinostroitelnyy-zavod",
+   "developer": "level-group",
+   "date": "2023-05-25",
+   "images": 2
+  },
+  {
+   "unit": 3290,
+   "notes": [
+    3290
+   ],
+   "dossier": "nays-loft",
+   "developer": "coldy",
+   "date": "2020-01-10",
+   "images": 0
+  },
+  {
+   "unit": 16692,
+   "notes": [
+    16692
+   ],
+   "dossier": "kutuzovskiy-12-14a",
+   "developer": "kievskaya-ploshchad",
+   "date": "2023-02-22",
+   "images": 4
+  },
+  {
+   "unit": 14026,
+   "notes": [
+    13420,
+    14026
+   ],
+   "dossier": "insayder",
+   "developer": "rks",
+   "date": "2022-07-13",
+   "images": 3
+  },
+  {
+   "unit": 17247,
+   "notes": [
+    17247
+   ],
+   "dossier": "zareche",
+   "developer": "samolet",
+   "date": "2023-04-11",
+   "images": 0
+  },
+  {
+   "unit": 8081,
+   "notes": [
+    8081
+   ],
+   "dossier": "vesper",
+   "developer": "vesper",
+   "date": "2021-05-26",
+   "images": 0
+  },
+  {
+   "unit": 11160,
+   "notes": [
+    11160
+   ],
+   "dossier": "prokshino",
+   "developer": "a101",
+   "date": "2022-02-18",
+   "images": 7
+  },
+  {
+   "unit": 9913,
+   "notes": [
+    9913
+   ],
+   "dossier": "pogodinskaya-24",
+   "developer": "vesper",
+   "date": "2021-11-03",
+   "images": 1
+  }
+ ]
+}

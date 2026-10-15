@@ -1,0 +1,178 @@
+[
+ {
+  "slug": "uzory",
+  "status": null,
+  "label": null,
+  "since": null,
+  "resolved_on": null,
+  "summary": null,
+  "facts": [],
+  "reason": "на участке недостроенное здание представительства, но проект Узоры новый, проблем у самого проекта не найдено"
+ },
+ {
+  "slug": "nays-loft",
+  "status": null,
+  "label": null,
+  "since": null,
+  "resolved_on": null,
+  "summary": null,
+  "facts": [],
+  "reason": "срок ключей сдвинулся с апреля 2025, но разрешение на ввод получено в июне 2025 (по досье); срыв срока менее года, дом сдан"
+ },
+ {
+  "slug": "tushino-2018",
+  "status": null,
+  "label": null,
+  "since": null,
+  "resolved_on": null,
+  "summary": null,
+  "facts": [],
+  "reason": "признаков проблем у самого проекта нет; упоминание суда/долгостроя не про объект"
+ },
+ {
+  "slug": "lavrushinskiy",
+  "status": null,
+  "label": null,
+  "since": null,
+  "resolved_on": null,
+  "summary": null,
+  "facts": [],
+  "reason": "признаков проблем у самого проекта нет; упоминание суда/долгостроя не про объект"
+ },
+ {
+  "slug": "afialt",
+  "status": null,
+  "label": null,
+  "since": null,
+  "resolved_on": null,
+  "summary": null,
+  "facts": [],
+  "reason": "признаков проблем у самого проекта нет; упоминание суда/долгостроя не про объект"
+ },
+ {
+  "slug": "5-y-donskoy-21b",
+  "status": null,
+  "label": null,
+  "since": null,
+  "resolved_on": null,
+  "summary": null,
+  "facts": [],
+  "reason": "признаков проблем у самого проекта нет; упоминание суда/долгостроя не про объект"
+ },
+ {
+  "slug": "bolshaya-cherkizovskaya-32b",
+  "status": null,
+  "label": null,
+  "since": null,
+  "resolved_on": null,
+  "summary": null,
+  "facts": [],
+  "reason": "признаков проблем у самого проекта нет; упоминание суда/долгостроя не про объект"
+ },
+ {
+  "slug": "baumanskaya-53",
+  "status": null,
+  "label": null,
+  "since": null,
+  "resolved_on": null,
+  "summary": null,
+  "facts": [],
+  "reason": "торги участка РКС, победитель не оплатил; покупателей жилья нет"
+ },
+ {
+  "slug": "king-sons",
+  "status": null,
+  "label": null,
+  "since": null,
+  "resolved_on": null,
+  "summary": null,
+  "facts": [],
+  "reason": "признаков проблем у самого проекта нет; упоминание суда/долгостроя не про объект"
+ },
+ {
+  "slug": "kremenchugskaya-19",
+  "status": null,
+  "label": null,
+  "since": null,
+  "resolved_on": null,
+  "summary": null,
+  "facts": [],
+  "reason": "признаков проблем у самого проекта нет; упоминание суда/долгостроя не про объект"
+ },
+ {
+  "slug": "dmitriya-donskogo-17",
+  "status": "problem",
+  "label": "Долгострой",
+  "since": "2018",
+  "resolved_on": null,
+  "summary": "Недостроенный объект метрополитена на участке 1,6 га у д. 17 на бульваре Дмитрия Донского в 2018 году был продан городом частному инвестору под МФЦ. По досье редакции (не подтверждено источником), в 2023 и 2025 годах участок снова продавался, торги в 2025 году покупателя не нашли, то есть объект остаётся недостроенным. Статус выставлен с низкой уверенностью: актуальное состояние на 2026 год по открытым источникам не проверено (страница retail.ru не открылась).",
+  "facts": [
+   {
+    "date": "2018-02-20",
+    "text": "Недостроенный объект на участке 1,6 га у д. 17 на бульваре Дмитрия Донского назван долгостроем; инвестор Алексей Шепель купил его у города за 75 млн руб. под МФЦ около 33 тыс. кв. м",
+    "source": "https://news.rambler.ua/moscow_city/39188838-v-severnom-butove-na-meste-dolgostroya-budet-mnogofunktsionalnyy-tsentr/amp/"
+   }
+  ],
+  "reason": null
+ },
+ {
+  "slug": "elektronika-na-presne",
+  "status": null,
+  "label": null,
+  "since": null,
+  "resolved_on": null,
+  "summary": null,
+  "facts": [],
+  "reason": "признаков проблем у самого проекта нет; упоминание суда/долгостроя не про объект"
+ },
+ {
+  "slug": "leningradskoe-63a-3",
+  "status": null,
+  "label": null,
+  "since": null,
+  "resolved_on": null,
+  "summary": null,
+  "facts": [],
+  "reason": "признаков проблем у самого проекта нет; упоминание суда/долгостроя не про объект"
+ },
+ {
+  "slug": "planetnaya-3",
+  "status": null,
+  "label": null,
+  "since": null,
+  "resolved_on": null,
+  "summary": null,
+  "facts": [],
+  "reason": "признаков проблем у самого проекта нет; упоминание суда/долгостроя не про объект"
+ },
+ {
+  "slug": "tts-tishinka",
+  "status": null,
+  "label": null,
+  "since": null,
+  "resolved_on": null,
+  "summary": null,
+  "facts": [],
+  "reason": "торговый комплекс; споры собственников с ДГИ и девелопером Element Development не затрагивают покупателей жилья (в 2024 ДГИ добивался банкротства владельца ТВК, в 2025 суд отказал владельцам в иске к девелоперу о заключении договора купли-продажи)"
+ },
+ {
+  "slug": "milyutinskiy-18",
+  "status": null,
+  "label": null,
+  "since": null,
+  "resolved_on": null,
+  "summary": null,
+  "facts": [],
+  "reason": "суд 2021 года о передаче здания костёла церкви, не проблема проекта; спор между сторонами"
+ },
+ {
+  "slug": "krt-zyuzino",
+  "status": null,
+  "label": null,
+  "since": null,
+  "resolved_on": null,
+  "summary": null,
+  "facts": [],
+  "reason": "спор о цене изъятия участка в КРТ с частным владельцем, не проблемный жилой проект"
+ }
+]

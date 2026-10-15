@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { getPayload } from 'payload'
 import config from '@payload-config'
 import { ObjectCard, SITE, STAGES, ogFor, coverOf } from '@/lib/ui'
+import { TROUBLE } from '@/lib/trouble'
 import { CLASS_LABELS, districtName, plural } from '@/lib/geo'
 import { FilterToggle } from '@/lib/client'
 import type { Media, Object as Obj } from '@/payload-types'
@@ -13,8 +14,9 @@ import { getAllObjects } from '@/lib/landings'
 // Страницы собираются на запрос: в Docker-сборке нет доступа к базе, а данные должны быть свежими
 export const dynamic = 'force-dynamic'
 
-type SP = { stage?: string; geo?: string; district?: string; price?: string; class?: string; sort?: string; page?: string }
-const KEYS: (keyof SP)[] = ['stage', 'geo', 'district', 'price', 'class', 'sort', 'page']
+type SP = { stage?: string; geo?: string; district?: string; price?: string; class?: string; risk?: string; sort?: string; page?: string }
+const KEYS: (keyof SP)[] = ['stage', 'geo', 'district', 'price', 'class', 'risk', 'sort', 'page']
+const RISK = [{ v: 'problem', label: 'Проблемные сейчас', test: (s: string) => s === 'problem' || s === 'rescue' }, { v: 'former', label: 'Бывшие долгострои', test: (s: string) => s === 'resolved' }]
 const PER_PAGE = 48
 const TOP_DISTRICTS = 16
 
@@ -46,6 +48,7 @@ export async function generateMetadata({ searchParams }: { searchParams: Promise
 export default async function Objects({ searchParams }: { searchParams: Promise<SP> }) {
   const sp = await searchParams
   const payload = await getPayload({ config })
+  const troubleTerm = (await payload.find({ collection: 'terms', where: { and: [{ slug: { equals: 'problemnyy-proekt' } }, { published: { equals: true } }] }, limit: 1, depth: 0 })).docs[0]
   const classTerm = (await payload.find({ collection: 'terms', where: { and: [{ slug: { equals: 'klass-zhilya' } }, { published: { equals: true } }] }, limit: 1, depth: 0 })).docs[0]
   const all = await getAllObjects()
   const arts = (await payload.find({ collection: 'articles', where: pub({ heroImage: { exists: true } }), limit: 2000, depth: 1, select: { objects: true, heroImage: true } })).docs
@@ -70,7 +73,8 @@ export default async function Objects({ searchParams }: { searchParams: Promise<
     (skip === 'geo' || !sp.geo || (sp.geo === 'moscow' ? o.region === 'moscow' : o.region !== 'moscow')) &&
     (skip === 'district' || !sp.district || o.district === sp.district) &&
     (skip === 'price' || !sp.price || (o.priceFrom != null && !!PRICES.find((p) => p.v === sp.price)?.test(o.priceFrom))) &&
-    (skip === 'class' || !sp.class || o.class === sp.class)
+    (skip === 'class' || !sp.class || o.class === sp.class) &&
+    (skip === 'risk' || !sp.risk || (!!TROUBLE[o.slug] && !!RISK.find((r) => r.v === sp.risk)?.test(TROUBLE[o.slug].status)))
   const count = (k: keyof SP, test: (o: Obj) => boolean) => all.filter((o) => pass(o, k) && test(o)).length
 
   const objs = all.filter((o) => pass(o))
@@ -133,12 +137,16 @@ export default async function Objects({ searchParams }: { searchParams: Promise<
                 <div className="chips">{classes.map((c) => <Chip key={c} k="class" v={c} label={CLASS_LABELS[c] || c} n={count('class', (o) => o.class === c)} />)}</div>
               </div>
             ) : null}
+            <div className="f-group">
+              <p className="f-k">Риски{troubleTerm ? <Link className="f-help" href="/slovar/problemnyy-proekt/" title="Как «Шахматка» отмечает проблемные проекты">как отмечаем</Link> : null}</p>
+              <div className="chips">{RISK.map((r) => <Chip key={r.v} k="risk" v={r.v} label={r.label} n={count('risk', (o) => !!TROUBLE[o.slug] && r.test(TROUBLE[o.slug].status))} />)}</div>
+            </div>
           </FilterToggle>
         </section>
 
         <div className="cat-main">
           <div className="cat-bar">
-            <p className="found" aria-live="polite">{objs.length ? `${objs.length} ${plural(objs.length, 'объект', 'объекта', 'объектов')}` : 'Ничего не нашлось'}{anyFilter ? <Link href={href({ stage: undefined, geo: undefined, district: undefined, price: undefined, class: undefined })} scroll={false}>Сбросить</Link> : null}</p>
+            <p className="found" aria-live="polite">{objs.length ? `${objs.length} ${plural(objs.length, 'объект', 'объекта', 'объектов')}` : 'Ничего не нашлось'}{anyFilter ? <Link href={href({ stage: undefined, geo: undefined, district: undefined, price: undefined, class: undefined, risk: undefined })} scroll={false}>Сбросить</Link> : null}</p>
             <nav className="sorts" aria-label="Сортировка">{SORTS.map((s) => <Link key={s.v} className={(sp.sort || '') === s.v ? 'on' : ''} href={href({ sort: s.v || undefined })} scroll={false}>{s.label}</Link>)}</nav>
           </div>
 

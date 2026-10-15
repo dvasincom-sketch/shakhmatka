@@ -1,0 +1,77 @@
+[
+ {
+  "slug": "akadem-palas",
+  "status": "resolved",
+  "label": "Банкротство застройщика",
+  "since": null,
+  "resolved_on": "2025-11",
+  "summary": "Застройщик обанкротился, 272 дольщика остались без квартир. Дом достроил Московский фонд защиты прав дольщиков за счёт бюджета, ввод — ноябрь 2025 года, объект исключён из реестра проблемных.",
+  "facts": [
+   {
+    "date": "2021-06-29",
+    "text": "Объект среди семи, которые достроит Фонд защиты прав дольщиков",
+    "source": "https://www.novostroy-m.ru/novosti/v_moskve_dostroyat_dva"
+   },
+   {
+    "date": "2025-12-24",
+    "text": "Введён в ноябре 2025 года, исключён из реестра проблемных",
+    "source": "https://www.mos.ru/news/item/164299073/"
+   }
+  ]
+ },
+ {
+  "slug": "kvartal-triumfalnyy",
+  "status": "resolved",
+  "label": "Долгострой",
+  "since": null,
+  "resolved_on": "2025-12",
+  "summary": "Проблемный дом (179 дольщиков) достроил Московский фонд защиты прав дольщиков; сдан в декабре 2025 года.",
+  "facts": [
+   {
+    "date": "2021-06-29",
+    "text": "Фонд достроит объект",
+    "source": "https://www.novostroy-m.ru/novosti/v_moskve_dostroyat_dva"
+   },
+   {
+    "date": "2025-12-24",
+    "text": "Введён, исключён из реестра",
+    "source": "https://www.mos.ru/news/item/164299073/"
+   }
+  ]
+ },
+ {
+  "slug": "terletskiy-park",
+  "status": "resolved",
+  "label": "Долгострой",
+  "since": "2004",
+  "resolved_on": "2025-04",
+  "summary": "Стройку начали в 2004 году; объект сдан в апреле 2025 года в рамках городской дорожной карты проблемных объектов.",
+  "facts": [
+   {
+    "date": "2025-12-24",
+    "text": "Сдан в апреле 2025 года",
+    "source": "https://realty.rbc.ru/amp/news/694b97f69a794708ee2e1815"
+   }
+  ]
+ },
+ {
+  "slug": "voskresenskoe-dolgostroy",
+  "status": "resolved",
+  "label": "Долгострой",
+  "since": null,
+  "resolved_on": "2025-07",
+  "summary": "Долгострой около 20 лет; город достроил его за свой счёт, ввод — июль 2025 года.",
+  "facts": [
+   {
+    "date": "2024-06-29",
+    "text": "Город достраивает в числе девяти ЖК",
+    "source": "https://www.novostroy-m.ru/novosti/v_moskve_dostraivayut_devyat"
+   },
+   {
+    "date": "2025-12-24",
+    "text": "Введён в июле 2025 года",
+    "source": "https://realty.rbc.ru/amp/news/694b97f69a794708ee2e1815"
+   }
+  ]
+ }
+]

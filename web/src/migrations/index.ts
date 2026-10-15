@@ -1,6 +1,8 @@
 import * as migration_20261013_180516_initial from './20261013_180516_initial';
 import * as migration_20261013_185717_roles_owners_outcome from './20261013_185717_roles_owners_outcome';
 import * as migration_20261014_012522_media_card_size from './20261014_012522_media_card_size';
+import * as migration_20261015_103653_readers_follows from './20261015_103653_readers_follows';
+import * as migration_20261015_115421_leads from './20261015_115421_leads';
 
 export const migrations = [
   {
@@ -16,6 +18,16 @@ export const migrations = [
   {
     up: migration_20261014_012522_media_card_size.up,
     down: migration_20261014_012522_media_card_size.down,
-    name: '20261014_012522_media_card_size'
+    name: '20261014_012522_media_card_size',
+  },
+  {
+    up: migration_20261015_103653_readers_follows.up,
+    down: migration_20261015_103653_readers_follows.down,
+    name: '20261015_103653_readers_follows',
+  },
+  {
+    up: migration_20261015_115421_leads.up,
+    down: migration_20261015_115421_leads.down,
+    name: '20261015_115421_leads'
   },
 ];

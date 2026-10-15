@@ -1,0 +1,903 @@
+{
+ "developer": "pik",
+ "sources": [
+  "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/",
+  "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?page=2",
+  "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?page=3",
+  "https://cian.ru/novostroyki-ot-zastroyschika-pik-9/",
+  "https://www.novostroy-m.ru/kompanii/gk_pik",
+  "https://www.novostroy-m.ru/baza/jk_marshala_zaharova_7",
+  "https://www.novostroy-m.ru/kompanii/ooo_veystoun",
+  "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/s-kluchami/",
+  "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/s-kluchami/?page=2",
+  "https://www.mirkvartir.ru/novostroyki/chernyakhovsky-19/",
+  "https://www.novostroy-m.ru/kompanii/pao_pikspetsializirovannyy_zastroyschik"
+ ],
+ "total_in_catalog": 45,
+ "projects": [
+  {
+   "name": "Зелёный парк",
+   "address": "Зеленоград, Крюково",
+   "zu": null,
+   "district": "kryukovo",
+   "stage": "sales",
+   "completion": "2027-2028 (часть сдана)",
+   "class": "Комфорт",
+   "buildings": "11-28 этажей",
+   "price_from_mln": 11.0,
+   "price_as_of": null,
+   "our_slug": "zelenyy-park",
+   "sources": [
+    "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/",
+    "https://cian.ru/novostroyki-ot-zastroyschika-pik-9/"
+   ],
+   "notes": "Цена: студия."
+  },
+  {
+   "name": "Митинский лес",
+   "address": "Митино",
+   "zu": null,
+   "district": "mitino",
+   "stage": "sales",
+   "completion": "4 кв. 2028 (часть сдана)",
+   "class": "Комфорт",
+   "buildings": null,
+   "price_from_mln": 10.6,
+   "price_as_of": null,
+   "our_slug": "mitinskiy-les",
+   "sources": [
+    "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/",
+    "https://cian.ru/novostroyki-ot-zastroyschika-pik-9/"
+   ],
+   "notes": "Цена: студия."
+  },
+  {
+   "name": "Саларьево парк",
+   "address": "ул. Большое Понизовье, 8 (по Циан)",
+   "zu": null,
+   "district": null,
+   "stage": "sales",
+   "completion": "2027-2028 (часть сдана)",
+   "class": "Бизнес",
+   "buildings": null,
+   "price_from_mln": 13.2,
+   "price_as_of": null,
+   "our_slug": "salarevo-park",
+   "sources": [
+    "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/",
+    "https://cian.ru/novostroyki-ot-zastroyschika-pik-9/"
+   ],
+   "notes": "Район не назван однозначно (Циан: Сосенское, НАО); цена: студия."
+  },
+  {
+   "name": "Полар",
+   "address": "Полярная ул., 39Ак1",
+   "zu": "Полярная, 39",
+   "district": null,
+   "stage": "sales",
+   "completion": "2 кв. 2027 (часть сдана)",
+   "class": "Бизнес",
+   "buildings": "6 корпусов, башня 50 этажей",
+   "price_from_mln": 13.6,
+   "price_as_of": null,
+   "our_slug": "polar",
+   "sources": [
+    "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/",
+    "https://cian.ru/novostroyki-ot-zastroyschika-pik-9/"
+   ],
+   "notes": "Каталоги расходятся по району (Циан: Северное Медведково; наша база: Южное Медведково) - district не заполнен; цена: студия."
+  },
+  {
+   "name": "Люблинский парк",
+   "address": "Люблино, м. Перерва",
+   "zu": null,
+   "district": "lyublino",
+   "stage": "sales",
+   "completion": "3 кв. 2028 (часть сдана)",
+   "class": "Комфорт",
+   "buildings": "54 корпуса",
+   "price_from_mln": 12.8,
+   "price_as_of": null,
+   "our_slug": "lyublinskiy-park",
+   "sources": [
+    "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/",
+    "https://cian.ru/novostroyki-ot-zastroyschika-pik-9/"
+   ],
+   "notes": "Цена: студия."
+  },
+  {
+   "name": "Середневский лес",
+   "address": "Новая Москва, Пыхтино",
+   "zu": null,
+   "district": null,
+   "stage": "sales",
+   "completion": "часть сдана (срок не указан)",
+   "class": "Комфорт",
+   "buildings": null,
+   "price_from_mln": 11.3,
+   "price_as_of": null,
+   "our_slug": "serednevskiy-les",
+   "sources": [
+    "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/"
+   ],
+   "notes": "Цена: студия."
+  },
+  {
+   "name": "Большая Академическая 85",
+   "address": "1-й Нижнелихоборский пр-д, 3с1",
+   "zu": "1-й Нижнелихоборский, 3",
+   "district": "timiryazevskiy",
+   "stage": "completed",
+   "completion": null,
+   "class": "Комфорт",
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": "bolshaya-akademicheskaya-85",
+   "sources": [
+    "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/",
+    "https://cian.ru/novostroyki-ot-zastroyschika-pik-9/"
+   ],
+   "notes": "Год сдачи в каталоге не указан. Адрес по Циан; в нашей базе zu '3-й Нижнелихоборский, 1' - совпадение по названию."
+  },
+  {
+   "name": "Квартал Мит",
+   "address": "Митино, к3.2 (по Циан)",
+   "zu": null,
+   "district": "mitino",
+   "stage": "sales",
+   "completion": "2 кв. 2029",
+   "class": "Бизнес",
+   "buildings": null,
+   "price_from_mln": 12.3,
+   "price_as_of": null,
+   "our_slug": "kvartal-mit",
+   "sources": [
+    "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/",
+    "https://cian.ru/novostroyki-ot-zastroyschika-pik-9/"
+   ],
+   "notes": "Цена: студия."
+  },
+  {
+   "name": "Лосиноостровский парк",
+   "address": "м. Бульвар Рокоссовского",
+   "zu": null,
+   "district": null,
+   "stage": "sales",
+   "completion": "часть сдана (срок не указан)",
+   "class": "Бизнес",
+   "buildings": null,
+   "price_from_mln": 15.1,
+   "price_as_of": null,
+   "our_slug": "losinoostrovskiy-park",
+   "sources": [
+    "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/"
+   ],
+   "notes": "Цена: студия."
+  },
+  {
+   "name": "Бунинская набережная",
+   "address": "Новая Москва, у м. Потапово",
+   "zu": null,
+   "district": null,
+   "stage": "sales",
+   "completion": null,
+   "class": "Бизнес",
+   "buildings": null,
+   "price_from_mln": 11.8,
+   "price_as_of": null,
+   "our_slug": "buninskaya-naberezhnaya",
+   "sources": [
+    "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/"
+   ],
+   "notes": "Цена: студия (11.8 Яндекс; на странице застройщика Яндекса 10.7)."
+  },
+  {
+   "name": "Кавказский бульвар 51",
+   "address": "Кавказский бульвар, 51 (по названию)",
+   "zu": "Кавказский бульвар, 51",
+   "district": "tsaritsyno",
+   "stage": "sales",
+   "completion": "август 2026 (по novostroy-m, значение даты не подписано)",
+   "class": "Бизнес",
+   "buildings": null,
+   "price_from_mln": 14.8,
+   "price_as_of": null,
+   "our_slug": "rusich-kantemirovskiy",
+   "sources": [
+    "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/",
+    "https://www.novostroy-m.ru/kompanii/gk_pik"
+   ],
+   "notes": "Цена: студия."
+  },
+  {
+   "name": "Алтуфьевское 53",
+   "address": "Алтуфьевское ш., 53 (по названию)",
+   "zu": "Алтуфьевское, 53",
+   "district": "altufevskiy",
+   "stage": "sales",
+   "completion": "4 кв. 2028 (часть сдана)",
+   "class": "Бизнес",
+   "buildings": null,
+   "price_from_mln": 15.8,
+   "price_as_of": null,
+   "our_slug": "altufevskoe-53",
+   "sources": [
+    "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/",
+    "https://cian.ru/novostroyki-ot-zastroyschika-pik-9/"
+   ],
+   "notes": "Цена: студия. В нашей базе два слага: altufevskoe-53 и altufevskoe-53-24443."
+  },
+  {
+   "name": "Амурский парк",
+   "address": "Гольяново",
+   "zu": "Амурская, 2",
+   "district": "golyanovo",
+   "stage": "sales",
+   "completion": "2 кв. 2029 (часть сдана)",
+   "class": "Бизнес",
+   "buildings": null,
+   "price_from_mln": 13.1,
+   "price_as_of": null,
+   "our_slug": "amurskiy-park",
+   "sources": [
+    "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?page=2",
+    "https://cian.ru/novostroyki-ot-zastroyschika-pik-9/"
+   ],
+   "notes": "Цена: студия."
+  },
+  {
+   "name": "2-й Иртышский",
+   "address": "2-й Иртышский, м. Локомотив",
+   "zu": null,
+   "district": null,
+   "stage": "sales",
+   "completion": "2027-2028",
+   "class": "Бизнес",
+   "buildings": null,
+   "price_from_mln": 13.4,
+   "price_as_of": null,
+   "our_slug": "irtyshskiy-park",
+   "sources": [
+    "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?page=2",
+    "https://cian.ru/novostroyki-ot-zastroyschika-pik-9/"
+   ],
+   "notes": "Совпадение по алиасу '2-й Иртышский'; в индексе есть также слаг 2-y-irtyshskiy. Район: Циан - 'Гольяново area', не однозначно."
+  },
+  {
+   "name": "Мичуринский парк",
+   "address": "ул. Озёрная",
+   "zu": "Озёрная, 42-46",
+   "district": "ochakovo-matveevskoe",
+   "stage": "sales",
+   "completion": "2026-2028 (часть сдана)",
+   "class": "Бизнес",
+   "buildings": null,
+   "price_from_mln": 14.7,
+   "price_as_of": null,
+   "our_slug": "michurinskiy-park",
+   "sources": [
+    "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?page=2",
+    "https://cian.ru/novostroyki-ot-zastroyschika-pik-9/"
+   ],
+   "notes": "Цена: студия. В нашей базе также tsnii-delfin (алиас Мичуринский парк)."
+  },
+  {
+   "name": "Нарвин",
+   "address": "Кронштадтский бульвар, корп. 1.3 (по Циан)",
+   "zu": "Кронштадтский, 14",
+   "district": "golovinskiy",
+   "stage": "sales",
+   "completion": "4 кв. 2028",
+   "class": "Бизнес",
+   "buildings": "3 башни",
+   "price_from_mln": 15.3,
+   "price_as_of": null,
+   "our_slug": "narvin",
+   "sources": [
+    "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?page=2",
+    "https://cian.ru/novostroyki-ot-zastroyschika-pik-9/"
+   ],
+   "notes": "Цена: студия."
+  },
+  {
+   "name": "Москворечье",
+   "address": "ул. Котляковская, 9 (по Циан)",
+   "zu": null,
+   "district": "moskvoreche-saburovo",
+   "stage": "sales",
+   "completion": "2027-2028",
+   "class": "Бизнес",
+   "buildings": null,
+   "price_from_mln": 14.4,
+   "price_as_of": null,
+   "our_slug": "moskvoreche",
+   "sources": [
+    "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?page=2",
+    "https://cian.ru/novostroyki-ot-zastroyschika-pik-9/"
+   ],
+   "notes": "Цена: студия. В нашей базе zu '1-й Варшавский проезд, 1А' - адрес расходится, совпадение по названию."
+  },
+  {
+   "name": "Кронштадтский 9",
+   "address": "Кронштадтский бульвар, 9 (по названию)",
+   "zu": "Кронштадтский, 9",
+   "district": "golovinskiy",
+   "stage": "sales",
+   "completion": "1 кв. 2028 (часть сдана)",
+   "class": "Бизнес",
+   "buildings": "10 корпусов, 21-32 этажа",
+   "price_from_mln": 18.0,
+   "price_as_of": null,
+   "our_slug": "kronshtadtskiy-9",
+   "sources": [
+    "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?page=2",
+    "https://cian.ru/novostroyki-ot-zastroyschika-pik-9/"
+   ],
+   "notes": "Цена: студия."
+  },
+  {
+   "name": "Бусиновский парк",
+   "address": "м. Ховрино, Западное Дегунино",
+   "zu": null,
+   "district": "zapadnoe-degunino",
+   "stage": "sales",
+   "completion": "2026-2027 (часть сдана)",
+   "class": "Бизнес",
+   "buildings": null,
+   "price_from_mln": 14.9,
+   "price_as_of": null,
+   "our_slug": "businovskiy-park",
+   "sources": [
+    "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?page=2",
+    "https://cian.ru/novostroyki-ot-zastroyschika-pik-9/"
+   ],
+   "notes": "Цена: студия."
+  },
+  {
+   "name": "Онежский вал",
+   "address": "м. Селигерская, Западное Дегунино",
+   "zu": null,
+   "district": "zapadnoe-degunino",
+   "stage": "sales",
+   "completion": "4 кв. 2028",
+   "class": "Комфорт",
+   "buildings": null,
+   "price_from_mln": 17.3,
+   "price_as_of": null,
+   "our_slug": "onezhskiy-val",
+   "sources": [
+    "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?page=2",
+    "https://cian.ru/novostroyki-ot-zastroyschika-pik-9/"
+   ],
+   "notes": "Цена: студия (17.3 Яндекс; Циан 17.14)."
+  },
+  {
+   "name": "Сигнальный 16",
+   "address": "Сигнальный проезд, 16 (по названию)",
+   "zu": "Сигнальный, 16",
+   "district": "otradnoe",
+   "stage": "sales",
+   "completion": "часть сдана (срок не указан)",
+   "class": "Комфорт",
+   "buildings": null,
+   "price_from_mln": 19.6,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?page=2"
+   ],
+   "notes": "НОВЫЙ. Цена: 1-комн. В индексе есть 'Аквилон Сигнал' (Сигнальный, 12) - другой объект."
+  },
+  {
+   "name": "Руставели 14",
+   "address": "Руставели, 14 (по названию)",
+   "zu": "Руставели, 14",
+   "district": null,
+   "stage": "sales",
+   "completion": "1 кв. 2029 (часть сдана)",
+   "class": "Бизнес",
+   "buildings": "16 корпусов",
+   "price_from_mln": 18.4,
+   "price_as_of": null,
+   "our_slug": "rustaveli-14",
+   "sources": [
+    "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?page=2",
+    "https://cian.ru/novostroyki-ot-zastroyschika-pik-9/"
+   ],
+   "notes": "Цена: студия. Район: Циан - 'Останкино / Бутырский', не однозначно."
+  },
+  {
+   "name": "Строгино 360",
+   "address": "Строгино, корп. 1.2 (по Циан)",
+   "zu": null,
+   "district": "strogino",
+   "stage": "sales",
+   "completion": "2028-2029",
+   "class": "Бизнес",
+   "buildings": null,
+   "price_from_mln": 17.4,
+   "price_as_of": null,
+   "our_slug": "strogino-360",
+   "sources": [
+    "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?page=2",
+    "https://cian.ru/novostroyki-ot-zastroyschika-pik-9/"
+   ],
+   "notes": "Цена: студия."
+  },
+  {
+   "name": "Плеханова 11",
+   "address": "ул. Плеханова, 11Б",
+   "zu": "Плеханова, 11",
+   "district": "perovo",
+   "stage": "sales",
+   "completion": "3-4 кв. 2026",
+   "class": "Бизнес",
+   "buildings": "5 корпусов",
+   "price_from_mln": 17.5,
+   "price_as_of": null,
+   "our_slug": "pik",
+   "sources": [
+    "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?page=2",
+    "https://cian.ru/novostroyki-ot-zastroyschika-pik-9/"
+   ],
+   "notes": "Цена: студия. В нашей базе слаг 'pik' (ПИК+, Плеханова, 11) - совпадение по адресу."
+  },
+  {
+   "name": "Большая Очаковская 2",
+   "address": "м. Аминьевская",
+   "zu": "Большая Очаковская, 2",
+   "district": null,
+   "stage": "completed",
+   "completion": null,
+   "class": "Комфорт",
+   "buildings": "6 корпусов",
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": "bolshaya-ochakovskaya-2",
+   "sources": [
+    "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?page=3"
+   ],
+   "notes": "Год сдачи не указан; совпадение по названию."
+  },
+  {
+   "name": "Полярная 25",
+   "address": "Полярная, 25 (по названию)",
+   "zu": "Полярная, 25",
+   "district": null,
+   "stage": "completed",
+   "completion": null,
+   "class": "Комфорт",
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?page=3"
+   ],
+   "notes": "НОВЫЙ. Север Москвы, м. Медведково; год сдачи не указан. Не путать с Полар (Полярная, 39)."
+  },
+  {
+   "name": "Ютаново",
+   "address": "м. Красный Строитель, Южное Чертаново",
+   "zu": null,
+   "district": "chertanovo-yuzhnoe",
+   "stage": "completed",
+   "completion": null,
+   "class": "Комфорт",
+   "buildings": "7 корпусов",
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?page=3",
+    "https://www.novostroy-m.ru/kompanii/gk_pik"
+   ],
+   "notes": "НОВЫЙ. Год сдачи не указан; novostroy-m датирует запись июнем/сентябрём 2024 (значение не подписано)."
+  },
+  {
+   "name": "Никольские луга",
+   "address": "м. Щербинка",
+   "zu": null,
+   "district": null,
+   "stage": "sales",
+   "completion": "4 кв. 2026 (часть сдана)",
+   "class": "Комфорт",
+   "buildings": null,
+   "price_from_mln": 16.0,
+   "price_as_of": null,
+   "our_slug": "nikolskie-luga",
+   "sources": [
+    "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?page=3",
+    "https://cian.ru/novostroyki-ot-zastroyschika-pik-9/"
+   ],
+   "notes": "Цена: 1-комн. (Циан: студия 12.03). Район: каталоги расходятся (Южное Бутово / Щербинка)."
+  },
+  {
+   "name": "Второй Нагатинский",
+   "address": "м. Коломенская",
+   "zu": "2-й Нагатинский проезд, 2",
+   "district": "nagatino-sadovniki",
+   "stage": "completed",
+   "completion": null,
+   "class": "Комфорт",
+   "buildings": "17 корпусов",
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": "vtoroy-nagatinskiy",
+   "sources": [
+    "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?page=3"
+   ],
+   "notes": "Год сдачи не указан."
+  },
+  {
+   "name": "Кольская 8",
+   "address": "м. Свиблово",
+   "zu": "Кольская, 8",
+   "district": null,
+   "stage": "completed",
+   "completion": null,
+   "class": "Комфорт",
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": "kolskaya-8",
+   "sources": [
+    "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?page=3"
+   ],
+   "notes": "Год сдачи не указан; совпадение по названию."
+  },
+  {
+   "name": "Первый Дубровский",
+   "address": "м. Волгоградский проспект",
+   "zu": "1-й Дубровский, 78",
+   "district": "yuzhnoportovyy",
+   "stage": "completed",
+   "completion": null,
+   "class": "Комфорт",
+   "buildings": "4 корпуса, 28/33/38 этажей",
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": "pervyy-dubrovskiy",
+   "sources": [
+    "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?page=3"
+   ],
+   "notes": "Год сдачи не указан."
+  },
+  {
+   "name": "Матвеевский парк",
+   "address": "м. Аминьевская",
+   "zu": "Большая Очаковская / Очаковское ш.",
+   "district": "ochakovo-matveevskoe",
+   "stage": "sales",
+   "completion": "2027-2028 (часть сдана)",
+   "class": "Бизнес",
+   "buildings": null,
+   "price_from_mln": 16.9,
+   "price_as_of": null,
+   "our_slug": "matveevskiy-park",
+   "sources": [
+    "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?page=3",
+    "https://cian.ru/novostroyki-ot-zastroyschika-pik-9/"
+   ],
+   "notes": "Цена: студия."
+  },
+  {
+   "name": "Волжский парк",
+   "address": "м. Новохохловская",
+   "zu": null,
+   "district": null,
+   "stage": "sales",
+   "completion": "4 кв. 2026 (часть сдана)",
+   "class": "Комфорт",
+   "buildings": null,
+   "price_from_mln": 15.1,
+   "price_as_of": null,
+   "our_slug": "volzhskiy-park",
+   "sources": [
+    "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?page=3",
+    "https://cian.ru/novostroyki-ot-zastroyschika-pik-9/"
+   ],
+   "notes": "Цена: студия. our_slug volzhskiy-park есть в индексе, но без имени/zu - сверить вручную. Район: Циан - Текстильщики, Яндекс - у Новохохловской (в нашей базе Нижегородский)."
+  },
+  {
+   "name": "Кутузовский квартал",
+   "address": "м. Кунцевская",
+   "zu": null,
+   "district": null,
+   "stage": "completed",
+   "completion": null,
+   "class": "Бизнес",
+   "buildings": "2 корпуса, 23 и 30 этажей",
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": "sreda-na-kutuzovskom",
+   "sources": [
+    "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?page=3",
+    "https://www.novostroy-m.ru/kompanii/gk_pik"
+   ],
+   "notes": "Год сдачи не указан; совпадение по алиасу 'Кутузовский квартал' - проверить."
+  },
+  {
+   "name": "Маршала Захарова, 7",
+   "address": "ул. Маршала Захарова, д. 3",
+   "zu": "Маршала Захарова, 3",
+   "district": "orekhovo-borisovo-severnoe",
+   "stage": "completed",
+   "completion": null,
+   "class": null,
+   "buildings": "корпус 1 (д. 3) сдан",
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://www.novostroy-m.ru/baza/jk_marshala_zaharova_7",
+    "https://www.novostroy-m.ru/kompanii/ooo_veystoun"
+   ],
+   "notes": "НОВЫЙ. Каталог называет ЖК 'Маршала Захарова, 7', адрес объекта - Маршала Захарова, д. 3; застройщик ПИК / ООО Вейстоун; все квартиры проданы; год сдачи не указан."
+  },
+  {
+   "name": "Холланд парк",
+   "address": "Берег Москвы-реки, м. Спартак",
+   "zu": null,
+   "district": null,
+   "stage": "completed",
+   "completion": null,
+   "class": "Комфорт",
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": "holland-park",
+   "sources": [
+    "https://www.novostroy-m.ru/kompanii/gk_pik",
+    "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/s-kluchami/"
+   ],
+   "notes": "Только название в списке novostroy-m (slug tushinskiy_park); адрес, стадия не проверены. Стадия Сдан по Яндекс (s-kluchami)."
+  },
+  {
+   "name": "Новое Очаково",
+   "address": "не указан",
+   "zu": null,
+   "district": null,
+   "stage": null,
+   "completion": null,
+   "class": null,
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": "novoe-ochakovo",
+   "sources": [
+    "https://www.novostroy-m.ru/kompanii/gk_pik"
+   ],
+   "notes": "Только название в списке novostroy-m; адрес, стадия не проверены."
+  },
+  {
+   "name": "Барклая 6",
+   "address": "Барклая, 6 (по названию)",
+   "zu": "Барклая, 6",
+   "district": null,
+   "stage": "completed",
+   "completion": null,
+   "class": "Бизнес",
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": "filit",
+   "sources": [
+    "https://www.novostroy-m.ru/kompanii/gk_pik",
+    "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/s-kluchami/?page=2"
+   ],
+   "notes": "Только название в списке novostroy-m; совпадение по адресу с 'Филит'. Стадия Сдан по Яндекс (s-kluchami p2)."
+  },
+  {
+   "address": "ул. Александры Монаховой, 97, Новомосковский АО, Сосенское",
+   "zu": "Александры Монаховой, 97",
+   "district": "sosenskoe",
+   "stage": "completed",
+   "completion": "корпуса сданы 2017-2020+ (годы по декларациям, на странице не указаны)",
+   "class": "Комфорт",
+   "buildings": "46-48 корпусов",
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://www.novostroy-m.ru/baza/jk_buninskie_luga",
+    "https://www.novostroy-m.ru/kompanii/pao_pikspetsializirovannyy_zastroyschik"
+   ],
+   "notes": "Статус Сдан по novostroy-m. Не путать с Бунинской набережной (Потапово, buninskaya-naberezhnaya) - отдельный проект. Год сдачи не указан, в декларациях корпусов 2017 и 2020.",
+   "name": "Бунинские луга"
+  },
+  {
+   "address": "ул. Олонецкая, 6, СВАО, Останкинский район",
+   "zu": "Олонецкая, 6",
+   "district": "ostankinskiy",
+   "stage": "completed",
+   "completion": "2016-2023 (8 корпусов, годы по декларациям)",
+   "class": "Бизнес",
+   "buildings": "8 корпусов, 11-22 этажа",
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://www.novostroy-m.ru/baza/grin_park",
+    "https://www.novostroy-m.ru/kompanii/pao_pikspetsializirovannyy_zastroyschik"
+   ],
+   "notes": "Статус Сдан; на странице противоречие: корпус 8 ещё в продаже. Даты - проектные декларации, не ввод. РБК 2019 (realty.rbc.ru/news/5d4a8de69a79470204955910) - завершение в 2023.",
+   "name": "Грин парк"
+  },
+  {
+   "address": "ул. Римского-Корсакова, 11, СВАО, Отрадное",
+   "zu": "Римского-Корсакова, 11",
+   "district": "otradnoe",
+   "stage": "completed",
+   "completion": "2016-2023 (годы по декларациям)",
+   "class": "Комфорт",
+   "buildings": "10 корпусов, 13-25 этажей",
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://www.novostroy-m.ru/baza/jk_rimskogokorsakova_11",
+    "https://www.novostroy-m.ru/kompanii/pao_pikspetsializirovannyy_zastroyschik"
+   ],
+   "notes": "Статус Сдан; описание противоречиво (8 из 10 корпусов).",
+   "name": "Римского-Корсакова 11"
+  },
+  {
+   "address": "ул. Черняховского, 19, САО (м. Аэропорт, 12 мин)",
+   "zu": "Черняховского, 19",
+   "district": null,
+   "stage": "completed",
+   "completion": "1 кв. 2019",
+   "class": null,
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://www.mirkvartir.ru/novostroyki/chernyakhovsky-19/"
+   ],
+   "notes": "Мирквартир: комплекс сдан, срок по каталогу 1 кв. 2019, застройщик ПИК. Район каталог не называет.",
+   "name": "Черняховского 19"
+  },
+  {
+   "address": "ул. Чехова, 4, Щербинка, Новомосковский АО",
+   "zu": "Чехова, 4",
+   "district": "shcherbinka",
+   "stage": "completed",
+   "completion": null,
+   "class": null,
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://www.novostroy-m.ru/baza/zhk_na_ul_chehova_4"
+   ],
+   "notes": "Сдан и заселён, продажи закрыты; год сдачи не указан (фото 2015-2016, отзыв про 2013 - противоречие). Застройщик ПИК.",
+   "name": "ЖК на ул. Чехова, 4"
+  },
+  {
+   "address": "17-й пр-д Марьиной Рощи, 1, СВАО",
+   "zu": "17-й проезд Марьиной Рощи, 1",
+   "district": "marina-roshcha",
+   "stage": "completed",
+   "completion": "2014",
+   "class": "Стандарт",
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://www.novostroy-m.ru/baza/zhd_na_17_y_pr_d_marinoy"
+   ],
+   "notes": "Сдан в 2014 (novostroy-m), продажи завершены. В нашей базе рядом только EDEL (17-й проезд, 9) - другой объект.",
+   "name": "17-й проезд Марьиной Рощи, 1"
+  },
+  {
+   "address": "Волоколамское ш., 24, Покровское-Стрешнево",
+   "zu": "Волоколамское шоссе, 24",
+   "district": "pokrovskoe-streshnevo",
+   "stage": "completed",
+   "completion": null,
+   "class": null,
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": "volokolamskoe-shosse-24",
+   "sources": [
+    "https://hh.ru/vacancy/135941870"
+   ],
+   "notes": "Низкая достоверность: ЖК назван в вакансии ПИК-Комфорт (эксплуатация дома), номер дома взят из нашей базы по названию. Год сдачи неизвестен; стадия completed - вывод из факта эксплуатации. Проверить по каталогу.",
+   "name": "Волоколамское 24"
+  }
+ ],
+ "excluded_not_moscow_or_unverified": [
+  {
+   "name": "Кузьминский лес",
+   "reason": "Котельники, Московская область (Яндекс), не Москва"
+  },
+  {
+   "name": "Белая Дача парк",
+   "reason": "нет подтверждения Москвы в открытых страницах; по списку novostroy-m, регион не указан"
+  },
+  {
+   "name": "Томилинский бульвар",
+   "reason": "регион не указан на открытых страницах; не включён"
+  },
+  {
+   "name": "Восточное Бутово",
+   "reason": "регион на открытых страницах неоднозначен (Яндекс: в 5 км от МКАД); в московский список Яндекса не входит"
+  },
+  {
+   "name": "Ильинские луга",
+   "reason": "есть в нашей базе (ilinskie-luga); в московский список Яндекса не входит, в каталогах регион не подтверждён"
+  },
+  {
+   "name": "Яуза парк",
+   "reason": "есть в нашей базе (yauza-park); в московский список Яндекса не входит, регион не подтверждён"
+  },
+  {
+   "name": "Ярославский квартал / Ярославский",
+   "reason": "есть в нашей базе (yaroslavskiy-kvartal); в московский список Яндекса не входит, регион не подтверждён"
+  }
+ ],
+ "coverage_note": "Каталоги отдали только ЖК с идущими продажами и часть сданных (Яндекс: 35 ЖК в Москве; novostroy-m заявляет 133, Яндекс - 129 ЖК за всё время). Полный список сданных проектов 2010-х недоступен: страницы novostroy-m /objects, novostroy.ru и pik.ru не отдают список через WebFetch. Портфель неполный, скорее всего пропущены десятки старых сданных ЖК. Второй проход (сданные): добавлено 7 ЖК; полный список старых сданных проектов по-прежнему недоступен (novostroy.ru закрыт прокси, pik.ru и novostroy-m /objects отдают пустую выдачу).",
+ "unverified_completed_candidates": [
+  {
+   "name": "Дом на Пресне",
+   "address": "Шмитовский пр-д, ЦАО",
+   "note": "в стройке на 2008 (РБК 577d2caf9a7947a78ce95110); сдача/адрес не подтверждены"
+  },
+  {
+   "name": "Английский квартал",
+   "address": "Мытная ул., ЦАО",
+   "note": "РБК 2008 + novostroy-m; сдача не подтверждена"
+  },
+  {
+   "name": "Рублевские огни",
+   "address": "Рублёвское ш., ЗАО",
+   "note": "РБК 2008"
+  },
+  {
+   "name": "NewПеределкино",
+   "address": "ЗАО",
+   "note": "РБК 2008"
+  },
+  {
+   "name": "Тёплый край",
+   "address": "ул. Академика Виноградова, ЮЗАО",
+   "note": "РБК 2008"
+  },
+  {
+   "name": "Волгоградский",
+   "address": "ЮВАО",
+   "note": "РБК 2008"
+  },
+  {
+   "name": "Вавилова 4",
+   "address": "Донской, ЮАО",
+   "note": "отзыв: дом сдан в конце 2018, но novostroy-m называет застройщиком 3-й таксомоторный парк; застройщик не подтверждён"
+  },
+  {
+   "name": "Vander Park, Петр I, Мосфильмовская",
+   "address": null,
+   "note": "упомянуты в статье novostroy-m как проекты ПИК, адреса/стадия не указаны"
+  },
+  {
+   "name": "МФС-ПИК, Дмитровское ш., вл. 167",
+   "address": "Дмитровское ш., вл. 167, Алтуфьево",
+   "note": "5 корпусов, срок по ДДУ не позднее 10.12.2015 (novostroy-m/novosti/pik_postroit_na_severe); название и факт сдачи не подтверждены"
+  },
+  {
+   "name": "Бунинский (корп. 8, 11, 14)",
+   "address": "Москва",
+   "note": "РБК 2013; вероятно Бунинские луга"
+  },
+  {
+   "name": "Ясеневая, Говорово, Вангарден (вакансии ПИК-Комфорт)",
+   "address": null,
+   "note": "только названия из hh.ru; адреса/стадия не проверены"
+  }
+ ]
+}

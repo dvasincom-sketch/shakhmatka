@@ -80,6 +80,7 @@ export function Header() {
         <SearchBox />
         <div className="top-tools">
           <Link className="round only-m" href="/poisk/" aria-label="Поиск"><SearchIcon /></Link>
+          <Link className="round" href="/akkaunt/" aria-label="Личный кабинет" title="Личный кабинет: за чем вы следите"><svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><circle cx="9" cy="6.5" r="3" fill="none" stroke="currentColor" strokeWidth="1.6" /><path d="M3.5 15.5c.8-2.8 3-4.2 5.5-4.2s4.7 1.4 5.5 4.2" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" /></svg></Link>
           <ThemeToggle />
         </div>
       </div>
@@ -97,7 +98,7 @@ export function Footer() {
         </div>
         <nav aria-label="Новостройки">
           <b>Новостройки</b>
-          <Link href="/">Лента</Link><Link href="/obekty/">Объекты</Link><Link href="/novostroyki/">Новостройки по районам</Link><Link href="/zastroyshchiki/">Застройщики</Link><Link href="/arhitektory/">Архитектурные бюро</Link><Link href="/ceny-na-starte/">Цены на старте и сейчас</Link>
+          <Link href="/">Лента</Link><Link href="/obekty/">Объекты</Link><Link href="/novostroyki/">Новостройки по районам</Link><Link href="/zastroyshchiki/">Застройщики</Link><Link href="/arhitektory/">Архитектурные бюро</Link><Link href="/akkaunt/">Личный кабинет</Link><Link href="/ceny-na-starte/">Цены на старте и сейчас</Link>
         </nav>
         <nav aria-label="Аналитика и проект">
           <b>Аналитика и проект</b>

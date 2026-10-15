@@ -1,0 +1,44 @@
+[
+ {
+  "slug": "pik-signalnyy-16",
+  "class": "comfort",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?page=2",
+  "evidence": "класс в каталоге: Комфорт"
+ },
+ {
+  "slug": "pik-polyarnaya-25",
+  "class": "comfort",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?page=3",
+  "evidence": "класс в каталоге: Комфорт"
+ },
+ {
+  "slug": "pik-yutanovo",
+  "class": "comfort",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?page=3",
+  "evidence": "класс в каталоге: Комфорт"
+ },
+ {
+  "slug": "pik-buninskie-luga",
+  "class": "comfort",
+  "basis": "catalog",
+  "source": "https://www.novostroy-m.ru/baza/jk_buninskie_luga",
+  "evidence": "класс в каталоге: Комфорт"
+ },
+ {
+  "slug": "pik-grin-park",
+  "class": "business",
+  "basis": "catalog",
+  "source": "https://www.novostroy-m.ru/baza/grin_park",
+  "evidence": "класс в каталоге: Бизнес"
+ },
+ {
+  "slug": "pik-rimskogo-korsakova-11",
+  "class": "comfort",
+  "basis": "catalog",
+  "source": "https://www.novostroy-m.ru/baza/jk_rimskogokorsakova_11",
+  "evidence": "класс в каталоге: Комфорт"
+ }
+]

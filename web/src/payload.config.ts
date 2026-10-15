@@ -9,6 +9,9 @@ import { fileURLToPath } from 'url'
 import sharp from 'sharp'
 
 import { Users } from './collections/Users'
+import { Readers } from './collections/Readers'
+import { Follows } from './collections/Follows'
+import { Leads } from './collections/Leads'
 import { Media } from './collections/Media'
 import { Articles } from './collections/Articles'
 import { Objects } from './collections/Objects'
@@ -41,7 +44,7 @@ export default buildConfig({
     components: { graphics: { Logo: '/components/admin/Graphics#Logo', Icon: '/components/admin/Graphics#Icon' } },
   },
   i18n: { supportedLanguages: { ru }, fallbackLanguage: 'ru' },
-  collections: [Articles, Objects, Developers, Places, Terms, Media, Users],
+  collections: [Articles, Objects, Developers, Places, Terms, Media, Users, Readers, Follows, Leads],
   editor: lexicalEditor(),
   secret: process.env.PAYLOAD_SECRET || '',
   typescript: { outputFile: path.resolve(dirname, 'payload-types.ts') },

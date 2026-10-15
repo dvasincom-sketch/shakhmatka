@@ -1,0 +1,185 @@
+{
+ "batch": 16,
+ "units": [
+  {
+   "unit": 33376,
+   "notes": [
+    33376
+   ],
+   "dossier": "bolshoy-kharitonevskiy-13a-s10",
+   "developer": "mr-group",
+   "date": "2026-03-10",
+   "images": 8
+  },
+  {
+   "unit": 28889,
+   "notes": [
+    28889
+   ],
+   "dossier": "mind",
+   "developer": "mr-group",
+   "date": "2025-04-16",
+   "images": 5
+  },
+  {
+   "unit": 29089,
+   "notes": [
+    29089
+   ],
+   "dossier": "mys",
+   "developer": "mr-group",
+   "date": "2025-04-23",
+   "images": 10
+  },
+  {
+   "unit": 18987,
+   "notes": [
+    18987
+   ],
+   "dossier": "vesper",
+   "developer": "vesper",
+   "date": "2023-08-15",
+   "images": 1
+  },
+  {
+   "unit": 14718,
+   "notes": [
+    14718
+   ],
+   "dossier": "insayder",
+   "developer": "rks",
+   "date": "2022-09-27",
+   "images": 3
+  },
+  {
+   "unit": 18716,
+   "notes": [
+    18716
+   ],
+   "dossier": "sukharevka",
+   "developer": "sense",
+   "date": "2023-07-20",
+   "images": 0
+  },
+  {
+   "unit": 16761,
+   "notes": [
+    16761
+   ],
+   "dossier": "arkhitektora-vlasova-57",
+   "developer": "kortros",
+   "date": "2023-03-02",
+   "images": 1
+  },
+  {
+   "unit": 19480,
+   "notes": [
+    19480
+   ],
+   "dossier": "krasnyy-bogatyr-vitebskaya-9",
+   "developer": "pioner",
+   "date": "2023-09-19",
+   "images": 1
+  },
+  {
+   "unit": 3302,
+   "notes": [
+    3302
+   ],
+   "dossier": "dubininskaya-17-27-29",
+   "developer": "granel",
+   "date": "2020-01-15",
+   "images": 0
+  },
+  {
+   "unit": 13509,
+   "notes": [
+    13509
+   ],
+   "dossier": "level-baumanskaya",
+   "developer": "level-group",
+   "date": "2022-07-17",
+   "images": 1
+  },
+  {
+   "unit": 17739,
+   "notes": [
+    17739
+   ],
+   "dossier": "tpu-presnya",
+   "developer": "granel",
+   "date": "2023-05-18",
+   "images": 1
+  },
+  {
+   "unit": 11578,
+   "notes": [
+    11578
+   ],
+   "dossier": "filatov-lug",
+   "developer": "ingrad",
+   "date": "2022-03-22",
+   "images": 0
+  },
+  {
+   "unit": 14356,
+   "notes": [
+    14356
+   ],
+   "dossier": "krasnokazarmennaya-15",
+   "developer": "pik",
+   "date": "2022-09-05",
+   "images": 4
+  },
+  {
+   "unit": 15789,
+   "notes": [
+    15789
+   ],
+   "dossier": "1-ya-frezernaya-2-1",
+   "developer": "granel",
+   "date": "2022-12-05",
+   "images": 2
+  },
+  {
+   "unit": 17327,
+   "notes": [
+    17327
+   ],
+   "dossier": "dacha-tolbukhina",
+   "developer": "st-michael",
+   "date": "2023-04-19",
+   "images": 0
+  },
+  {
+   "unit": 16921,
+   "notes": [
+    16921
+   ],
+   "dossier": "tpu-minskaya",
+   "developer": "bms-development",
+   "date": "2023-03-15",
+   "images": 1
+  },
+  {
+   "unit": 17692,
+   "notes": [
+    17692
+   ],
+   "dossier": "kirovogradskaya-9k4",
+   "developer": "osnova",
+   "date": "2023-05-16",
+   "images": 0
+  },
+  {
+   "unit": 19773,
+   "notes": [
+    19773
+   ],
+   "dossier": "vorontsov",
+   "developer": "gk-razvitie",
+   "date": "2023-10-11",
+   "images": 0
+  }
+ ]
+}

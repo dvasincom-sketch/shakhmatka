@@ -11,11 +11,15 @@ const FILE = path.resolve(process.env.CONTENT_DIR ? path.join(process.env.CONTEN
 
 async function run() {
   const payload = await initPayload()
-  const { profiles } = JSON.parse(fs.readFileSync(FILE, 'utf8')) as { profiles: { slug: string; about: string }[] }
+  const { profiles } = JSON.parse(fs.readFileSync(FILE, 'utf8')) as { profiles: { slug: string; about: string; aliases?: string[] }[] }
   let set = 0
   for (const p of profiles) {
     const found = (await payload.find({ collection: 'developers', where: { slug: { equals: p.slug } }, limit: 1, depth: 0 })).docs[0] as unknown as { id: number; about?: string | null } | undefined
     if (!found) { console.log('нет в базе', p.slug); continue }
+    // другие названия (бренды, юрлица) — в «Юрлица», чтобы их находил поиск; дописываем недостающие
+    const legal = ((found as unknown as { legalNames?: { value?: string | null }[] }).legalNames || []).map((x) => x.value || '')
+    const add = (p.aliases || []).filter((a) => !legal.includes(a))
+    if (add.length) await payload.update({ collection: 'developers', id: found.id, data: { legalNames: [...legal.filter(Boolean), ...add].map((value) => ({ value })) } as never })
     if (found.about?.trim()) { console.log('есть', p.slug); continue }
     await payload.update({ collection: 'developers', id: found.id, data: { about: p.about } as never })
     set++

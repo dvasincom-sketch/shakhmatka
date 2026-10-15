@@ -1,0 +1,24 @@
+{
+  "_readme": "Ручное досье (15.10.2026) по каталогам новостроек: https://www.novostroy-m.ru/baza/jk_rimskogokorsakova_11, https://www.novostroy-m.ru/kompanii/pao_pikspetsializirovannyy_zastroyschik. Добавлено, чтобы портфель застройщика в базе был полным; в архиве редакции о проекте не писали.",
+  "slug": "pik-rimskogo-korsakova-11",
+  "name": "Римского-Корсакова 11",
+  "zu": "Римского-Корсакова, 11",
+  "aliases": [
+    "ЖК Римского-Корсакова 11",
+    "Римского-Корсакова, 11"
+  ],
+  "region": "moscow",
+  "district": "otradnoe",
+  "stage": "completed",
+  "developer": "pik",
+  "summary": "Жилой комплекс ПИК по адресу ул. Римского-Корсакова, 11, СВАО, Отрадное. По данным каталогов: 10 корпусов, 13-25 этажей. Проект сдан.",
+  "timeline": [
+    {
+      "date": "2023-12-31",
+      "dateLabel": "2016–2023 годы",
+      "kind": "construction",
+      "title": "Дома проекта введены в эксплуатацию",
+      "certainty": "fact"
+    }
+  ]
+}

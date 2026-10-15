@@ -1,0 +1,24 @@
+{
+  "_readme": "Ручное досье (15.10.2026) по карточкам каталогов: https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/zhk-gorodskaya-ul-d-12-14-4534803/, https://realty.yandex.ru/moskva/kupit/novostrojka/z-moskovskie-kvartaly-4209811/",
+  "slug": "mk-gorodskaya-12-14",
+  "name": "Городская, 12, 14",
+  "zu": "Городская, 12, 14",
+  "aliases": [
+    "ЖК Городская ул., д. 12, 14",
+    "Московские кварталы, Городская, 12, 14"
+  ],
+  "region": "moscow",
+  "district": "troitsk",
+  "stage": "completed",
+  "developer": "fond-renovatsii",
+  "summary": "Жилой дом Московского фонда реновации по адресу Москва (Троицк), ул. Городская, 12, 14. По данным каталога — 736 квартир, 19–20 этажей. Каталоги относят дом к линейке «Московские кварталы»; продажа квартир самим фондом на дату проверки не подтверждена.",
+  "timeline": [
+    {
+      "date": "2026-10-15",
+      "dateLabel": "октябрь 2026",
+      "kind": "other",
+      "title": "Дом Фонда реновации значится в каталогах в линейке «Московские кварталы»",
+      "certainty": "fact"
+    }
+  ]
+}

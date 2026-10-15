@@ -2147,7 +2147,10 @@
  },
  "butlerova-12": {
   "district": "konkovo",
-  "districtSource": "https://vm.ru/news/1231012-otdelochnye-raboty-nachalis-v-novostrojke-po-renovacii-na-ulice-butlerova"
+  "districtSource": "https://vm.ru/news/1231012-otdelochnye-raboty-nachalis-v-novostrojke-po-renovacii-na-ulice-butlerova",
+  "developer": "fond-renovatsii",
+  "developerName": "Фонд реновации",
+  "note": "Фонд реновации — реализует КРТ по https://riamo.ru/news/nedvizhimost/ovchinskij-opredeleny-podrjadchiki-dlja-rabot-po-renovatsii-po-4-proektam-krt/; Фонд реновации — реализует КРТ по https://riamo.ru/news/nedvizhimost/ovchinskij-opredeleny-podrjadchiki-dlja-rabot-po-renovatsii-po-4-proektam-krt/; Фонд реновации — реализует КРТ по https://riamo.ru/news/nedvizhimost/ovchinskij-opredeleny-podrjadchiki-dlja-rabot-po-renovatsii-po-4-proektam-krt/"
  },
  "nauchnyy-11a": {
   "district": "cheremushki",
@@ -2222,7 +2225,10 @@
  },
  "parshina-2": {
   "district": "khoroshevo-mnevniki",
-  "districtSource": "https://www.novostroy-m.ru/novosti/na_ulitse_parshina_v"
+  "districtSource": "https://www.novostroy-m.ru/novosti/na_ulitse_parshina_v",
+  "developer": "fond-renovatsii",
+  "developerName": "Фонд реновации",
+  "note": "Фонд реновации — реализует КРТ по https://www.mos.ru/news/item/168693073/; Фонд реновации — реализует КРТ по https://www.mos.ru/news/item/168693073/; Фонд реновации — реализует КРТ по https://www.mos.ru/news/item/168693073/"
  },
  "2-y-irtyshskiy": {
   "district": "golyanovo",
@@ -2664,5 +2670,32 @@
  "palaty-kozhevennoy-slobody": {
   "district": "zamoskvorechye",
   "districtSource": "https://moskvichmag.ru/?p=516046"
+ },
+ "tankovyy-4": {
+  "developer": "sz-tankovyy",
+  "developerName": "СЗ «Танковый»",
+  "note": "застройщик по фактчекингу статьи 14885"
+ },
+ "vesper": {
+  "owners": [
+   {
+    "developer": "vesper",
+    "name": "Vesper",
+    "since": "май 2021",
+    "how": "Vesper приобрёл промзону на Бережковской набережной, 20 (26,5 га); в декабре 2021 года правообладатель — АО «Лираль-индустрия пластмасс» — назван частью группы Vesper",
+    "source": "https://moskvichmag.ru/?p=167553"
+   }
+  ],
+  "developer": "vesper",
+  "developerName": "Vesper"
+ },
+ "kuskovskaya-12": {
+  "developer": "fond-renovatsii",
+  "developerName": "Фонд реновации",
+  "previousDevelopers": [
+   "pik"
+  ],
+  "note": "дом Фонда реновации («Московские кварталы») по карточке Яндекс Недвижимости, https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/zhk-kuskovskaya-ul-d-12-1-4012105/; дом Фонда реновации («Московские кварталы») по карточке Яндекс Недвижимости, https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/zhk-kuskovskaya-ul-d-12-1-4012105/; дом Фонда реновации («Московские кварталы») по карточке Яндекс Недвижимости, https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/zhk-kuskovskaya-ul-d-12-1-4012105/",
+  "stage": "sales"
  }
 }

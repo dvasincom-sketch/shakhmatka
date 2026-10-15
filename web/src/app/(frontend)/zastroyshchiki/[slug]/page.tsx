@@ -1,6 +1,7 @@
 import { monthGen } from '@/lib/months'
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import { FollowButton } from '@/lib/follow-button'
 import { notFound } from 'next/navigation'
 import { getPayload } from 'payload'
 import config from '@payload-config'
@@ -122,6 +123,7 @@ export default async function DeveloperPage({ params }: { params: Promise<{ slug
       <JsonLd data={[ld, crumbs]} />
       <nav className="crumbs" aria-label="Путь"><Link href="/">Лента</Link><span>/</span><Link href="/zastroyshchiki/">Застройщики</Link><span>/</span><span>{name}</span></nav>
       <h1 className="page-h tt">{name}<span>застройщик</span></h1>
+      <FollowButton kind="developer" id={d.slug} label={name} hint="Новые проекты, сделки с участками, сигналы и материалы о компании." />
       {about.length ? (
         <div className="dev-about">
           <p>{typo(about[0])}</p>

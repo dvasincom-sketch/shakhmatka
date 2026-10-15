@@ -1,0 +1,22 @@
+{
+  "_readme": "Ручное досье (15.10.2026) по карточкам каталогов: https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/zhk-polyarnaya-ul-d-3-3568796/, https://realty.yandex.ru/moskva/kupit/novostrojka/z-moskovskie-kvartaly-4209811/",
+  "slug": "mk-polyarnaya-3",
+  "name": "Полярная, 3",
+  "zu": "Полярная, 3",
+  "aliases": [
+    "ЖК Полярная ул., д. 3",
+    "Московские кварталы, Полярная, 3"
+  ],
+  "region": "moscow",
+  "stage": "completed",
+  "developer": "fond-renovatsii",
+  "summary": "Жилой дом Московского фонда реновации по адресу ул. Полярная, 3. По данным каталога — 170 квартир, 18 этажей. Каталоги относят дом к линейке «Московские кварталы»; продажа квартир самим фондом на дату проверки не подтверждена.",
+  "timeline": [
+    {
+      "date": "2025-07-24",
+      "kind": "construction",
+      "title": "Дом введён в эксплуатацию (корпус по адресу Полярная, 3)",
+      "certainty": "fact"
+    }
+  ]
+}

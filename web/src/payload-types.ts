@@ -74,6 +74,9 @@ export interface Config {
     terms: Term;
     media: Media;
     users: User;
+    readers: Reader;
+    follows: Follow;
+    leads: Lead;
     'payload-kv': PayloadKv;
     'payload-locked-documents': PayloadLockedDocument;
     'payload-preferences': PayloadPreference;
@@ -88,6 +91,9 @@ export interface Config {
     terms: TermsSelect<false> | TermsSelect<true>;
     media: MediaSelect<false> | MediaSelect<true>;
     users: UsersSelect<false> | UsersSelect<true>;
+    readers: ReadersSelect<false> | ReadersSelect<true>;
+    follows: FollowsSelect<false> | FollowsSelect<true>;
+    leads: LeadsSelect<false> | LeadsSelect<true>;
     'payload-kv': PayloadKvSelect<false> | PayloadKvSelect<true>;
     'payload-locked-documents': PayloadLockedDocumentsSelect<false> | PayloadLockedDocumentsSelect<true>;
     'payload-preferences': PayloadPreferencesSelect<false> | PayloadPreferencesSelect<true>;
@@ -512,6 +518,64 @@ export interface User {
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "readers".
+ */
+export interface Reader {
+  id: number;
+  email: string;
+  confirmed?: boolean | null;
+  frequency?: ('weekly' | 'daily' | 'off') | null;
+  follows?: number | null;
+  lastDigestAt?: string | null;
+  /**
+   * Страница, где нажал «Следить» впервые
+   */
+  source?: string | null;
+  loginTokenHash?: string | null;
+  loginTokenExpires?: string | null;
+  unsubscribeKey?: string | null;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "follows".
+ */
+export interface Follow {
+  id: number;
+  reader: number | Reader;
+  kind: 'object' | 'developer' | 'place' | 'bureau' | 'signals';
+  key: string;
+  label?: string | null;
+  status?: ('pending' | 'active') | null;
+  page?: string | null;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "leads".
+ */
+export interface Lead {
+  id: number;
+  name: string;
+  company?: string | null;
+  role?: ('private' | 'developer' | 'broker' | 'investor' | 'architect' | 'owner' | 'other') | null;
+  product?: ('invest' | 'pro' | 'land' | 'data')[] | null;
+  email: string;
+  phone?: string | null;
+  /**
+   * Районы, площадь участка или ТЭП, бюджет, класс, сроки
+   */
+  request?: string | null;
+  page?: string | null;
+  status?: ('new' | 'work' | 'pilot' | 'client' | 'lost') | null;
+  notes?: string | null;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "payload-kv".
  */
 export interface PayloadKv {
@@ -561,6 +625,18 @@ export interface PayloadLockedDocument {
     | ({
         relationTo: 'users';
         value: number | User;
+      } | null)
+    | ({
+        relationTo: 'readers';
+        value: number | Reader;
+      } | null)
+    | ({
+        relationTo: 'follows';
+        value: number | Follow;
+      } | null)
+    | ({
+        relationTo: 'leads';
+        value: number | Lead;
       } | null);
   globalSlug?: string | null;
   user: {
@@ -853,6 +929,55 @@ export interface UsersSelect<T extends boolean = true> {
         createdAt?: T;
         expiresAt?: T;
       };
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "readers_select".
+ */
+export interface ReadersSelect<T extends boolean = true> {
+  email?: T;
+  confirmed?: T;
+  frequency?: T;
+  follows?: T;
+  lastDigestAt?: T;
+  source?: T;
+  loginTokenHash?: T;
+  loginTokenExpires?: T;
+  unsubscribeKey?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "follows_select".
+ */
+export interface FollowsSelect<T extends boolean = true> {
+  reader?: T;
+  kind?: T;
+  key?: T;
+  label?: T;
+  status?: T;
+  page?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "leads_select".
+ */
+export interface LeadsSelect<T extends boolean = true> {
+  name?: T;
+  company?: T;
+  role?: T;
+  product?: T;
+  email?: T;
+  phone?: T;
+  request?: T;
+  page?: T;
+  status?: T;
+  notes?: T;
+  updatedAt?: T;
+  createdAt?: T;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema

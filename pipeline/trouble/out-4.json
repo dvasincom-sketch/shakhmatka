@@ -1,0 +1,199 @@
+[
+ {
+  "status": "resolved",
+  "label": "Долгострой",
+  "since": "2005",
+  "resolved_on": "2026-03",
+  "summary": "Недостроенный женский центр Элины Быстрицкой (участок выделен в 1993, стройка с конца 1990-х) стоял заброшенным с 2005 года из-за проблем инвесторов с деньгами и законом. В октябре 2022 лот (здание 2528 кв. м и право аренды 0,42 га) выставлен на торги через реестр банкротств с начальной ценой 2 млрд руб. К апрелю 2026 здание снесено.",
+  "facts": [
+   {
+    "date": "2005",
+    "text": "Строительство женского центра остановилось из-за проблем с деньгами и законом у инвесторов",
+    "source": "https://moskvichmag.ru/?p=490480"
+   },
+   {
+    "date": "2022-10",
+    "text": "Недострой выставлен на торги, организатор — «Женский центр», объявление в ЕФРСБ; начальная цена 2 млрд руб., аукцион в середине ноября 2022",
+    "source": "https://moskvichmag.ru/?p=259338"
+   },
+   {
+    "date": "2026-04-07",
+    "text": "Москвич Mag сообщает, что центр, простоявший заброшенным около 20 лет, снесён (демонтаж начат в 2024)",
+    "source": "https://moskvichmag.ru/?p=490480"
+   }
+  ],
+  "reason": null,
+  "slug": "tsvetnoy-30-32-34"
+ },
+ {
+  "status": "rescue",
+  "label": "Долгострой",
+  "since": "2018",
+  "resolved_on": null,
+  "summary": "Стройка ЖК «Нескучный Home & SPA» (5-й Донской пр., 21 к.6) остановлена в мае 2018, застройщик «Строй-Комплекс» признан банкротом в октябре 2020, объект в реестре проблемных с 2021 (около 70-90 проданных квартир). Город рассматривал достройку через Фонд защиты прав дольщиков, но арбитраж утвердил мировое соглашение, летом 2022 у застройщика новый владелец (ООО «Арго»), АГР скорректирован; срок сдачи переносился на 1 кв.-апрель 2025. Дом не сдан (по досье редакции в ноябре 2024 возведено 9 этажей), текущий статус по официальным источникам не подтверждён; stage=completed во входе, по-видимому, ошибочен.",
+  "facts": [
+   {
+    "date": "2018-05",
+    "text": "Строительство остановлено на уровне второго этажа без консервации, готовность около 10%",
+    "source": "https://realty.rbc.ru/news/5fc7822d9a79478b74be2438"
+   },
+   {
+    "date": "2020-10",
+    "text": "ООО «Строй-Комплекс» признано банкротом; в феврале 2021 объект включён в Единый реестр проблемных объектов, в апреле 2021 — в дорожную карту Москвы",
+    "source": "https://realty.rbc.ru/news/5fc7822d9a79478b74be2438"
+   },
+   {
+    "date": "2021-06-24",
+    "text": "Объект передан в ведение Московского фонда защиты прав дольщиков; достройка одной башни оценивалась в 4-5 млрд руб.",
+    "source": "https://www.kommersant.ru/doc/4869210"
+   },
+   {
+    "date": "2022-09-16",
+    "text": "Арбитраж утвердил мировое соглашение с кредиторами и дольщиками, у застройщика новый владелец («Арго»), утверждён новый АГР, сдача перенесена на 2025",
+    "source": "https://realty.ria.ru/20220916/neboskreb-1817377381.html"
+   }
+  ],
+  "reason": null,
+  "slug": "neskuchnyy"
+ },
+ {
+  "status": null,
+  "label": null,
+  "since": null,
+  "resolved_on": null,
+  "summary": null,
+  "facts": [],
+  "reason": "проблем (суды, срыв сроков) не найдено; поиск результатов не дал",
+  "slug": "akademicheskaya"
+ },
+ {
+  "status": null,
+  "label": null,
+  "since": null,
+  "resolved_on": null,
+  "summary": null,
+  "facts": [],
+  "reason": "долгострой рядом, не сам объект",
+  "slug": "saburovo"
+ },
+ {
+  "status": null,
+  "label": null,
+  "since": null,
+  "resolved_on": null,
+  "summary": null,
+  "facts": [],
+  "reason": "долгострой рядом, не сам объект",
+  "slug": "mayprioriti-paveletskaya"
+ },
+ {
+  "status": null,
+  "label": null,
+  "since": null,
+  "resolved_on": null,
+  "summary": null,
+  "facts": [],
+  "reason": "долгострой рядом, не сам объект",
+  "slug": "zelenyy-park"
+ },
+ {
+  "status": null,
+  "label": null,
+  "since": null,
+  "resolved_on": null,
+  "summary": null,
+  "facts": [],
+  "reason": "смена владельца проекта (October Group забрала у KR Properties), признаков остановки или судов по источникам не найдено",
+  "slug": "fly-tower"
+ },
+ {
+  "status": null,
+  "label": null,
+  "since": null,
+  "resolved_on": null,
+  "summary": null,
+  "facts": [],
+  "reason": "поиск не выявил переносов или проблем; по досье монолит доведён до 28 этажей, леса сняты в 2025",
+  "slug": "stories"
+ },
+ {
+  "status": null,
+  "label": null,
+  "since": null,
+  "resolved_on": null,
+  "summary": null,
+  "facts": [],
+  "reason": "долгострой рядом, не сам объект",
+  "slug": "safonovskaya-13"
+ },
+ {
+  "status": null,
+  "label": null,
+  "since": null,
+  "resolved_on": null,
+  "summary": null,
+  "facts": [],
+  "reason": "долгострой рядом, не сам объект",
+  "slug": "podolskaya-22"
+ },
+ {
+  "status": null,
+  "label": null,
+  "since": null,
+  "resolved_on": null,
+  "summary": null,
+  "facts": [],
+  "reason": "долгострой рядом, не сам объект; дом сдан в 2023, проблем не найдено",
+  "slug": "riversky"
+ },
+ {
+  "status": null,
+  "label": null,
+  "since": null,
+  "resolved_on": null,
+  "summary": null,
+  "facts": [],
+  "reason": "долгострой рядом, не сам объект",
+  "slug": "dmitrovskoe-62"
+ },
+ {
+  "status": null,
+  "label": null,
+  "since": null,
+  "resolved_on": null,
+  "summary": null,
+  "facts": [],
+  "reason": "банкротство «АПРЭО» — продавца земли; сам проект R4S/«Север» не проблемный, подтверждений не найдено",
+  "slug": "mnevniki-8"
+ },
+ {
+  "status": null,
+  "label": null,
+  "since": null,
+  "resolved_on": null,
+  "summary": null,
+  "facts": [],
+  "reason": "спор между компаниями (ЛСР и Домарф) за участок под зданием, ЛСР выиграла суд в 2023; последствий для покупателей нет",
+  "slug": "zubovskaya-14-2"
+ },
+ {
+  "status": null,
+  "label": null,
+  "since": null,
+  "resolved_on": null,
+  "summary": null,
+  "facts": [],
+  "reason": "дом сдан в 2022-2023, ключи выданы всем дольщикам; проблем не найдено",
+  "slug": "lumin"
+ },
+ {
+  "status": null,
+  "label": null,
+  "since": null,
+  "resolved_on": null,
+  "summary": null,
+  "facts": [],
+  "reason": "долгострой рядом, не сам объект",
+  "slug": "zil-vostok"
+ }
+]

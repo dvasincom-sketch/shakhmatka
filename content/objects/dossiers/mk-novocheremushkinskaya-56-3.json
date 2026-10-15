@@ -1,0 +1,24 @@
+{
+  "_readme": "Ручное досье (15.10.2026) по карточкам каталогов: https://zhk-novocheremushkinskaya-ul-d-563-i.cian.ru/, https://www.cian.ru/novostroyki-komfort-klassa-ot-zastroyschika-moskovskie-kvartaly-20036-moskva-yuzao-0410-RLTM/",
+  "slug": "mk-novocheremushkinskaya-56-3",
+  "name": "Новочеремушкинская, 56/3",
+  "zu": "Новочеремушкинская, 56/3",
+  "aliases": [
+    "Новочеремушкинская ул., д. 56/3",
+    "Московские кварталы, Новочеремушкинская, 56/3"
+  ],
+  "region": "moscow",
+  "district": "cheremushki",
+  "stage": "completed",
+  "developer": "fond-renovatsii",
+  "summary": "Жилой дом Московского фонда реновации по адресу Новочеремушкинская ул., 56/3. Каталоги относят дом к линейке «Московские кварталы»; продажа квартир самим фондом на дату проверки не подтверждена.",
+  "timeline": [
+    {
+      "date": "2026-10-15",
+      "dateLabel": "октябрь 2026",
+      "kind": "other",
+      "title": "Дом Фонда реновации значится в каталогах в линейке «Московские кварталы»",
+      "certainty": "fact"
+    }
+  ]
+}

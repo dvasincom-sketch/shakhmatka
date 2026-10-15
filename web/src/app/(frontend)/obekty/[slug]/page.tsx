@@ -1,6 +1,7 @@
 import { monthGen } from '@/lib/months'
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import { FollowButton } from '@/lib/follow-button'
 import { notFound } from 'next/navigation'
 import { getPayload } from 'payload'
 import config from '@payload-config'
@@ -45,7 +46,8 @@ async function load(slug: string) {
   const place = (await payload.find({ collection: 'places', where: { key: { equals: key } }, limit: 1 })).docs[0]
   const clsSrc = o.class ? CLASS_SOURCES[o.slug] : undefined
   const classTerm = o.class ? (await payload.find({ collection: 'terms', where: { and: [{ slug: { equals: 'klass-zhilya' } }, { published: { equals: true } }] }, limit: 1, depth: 0 })).docs[0] : undefined
-  return { o, arts, place, clsSrc, classTerm }
+  const troubleTerm = (await payload.find({ collection: 'terms', where: { and: [{ slug: { equals: 'problemnyy-proekt' } }, { published: { equals: true } }] }, limit: 1, depth: 0 })).docs[0]
+  return { o, arts, place, clsSrc, classTerm, troubleTerm }
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
@@ -65,7 +67,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 export default async function ObjectPage({ params }: { params: Promise<{ slug: string }> }) {
   const d = await load((await params).slug)
   if (!d) notFound()
-  const { o, arts, place, clsSrc, classTerm } = d
+  const { o, arts, place, clsSrc, classTerm, troubleTerm } = d
   const user = await getUser()
   const dev = o.developer as Developer | undefined
   const prev = (o.previousDevelopers || []) as Developer[]
@@ -108,6 +110,7 @@ export default async function ObjectPage({ params }: { params: Promise<{ slug: s
       <div className="obj-head">
         <div>
           <h1 className="page-h tt">{o.name}{dev ? <span>{devName(dev.name)}</span> : null}</h1>
+          <FollowButton kind="object" id={o.slug} label={o.name} hint="Пришлём письмо, когда в досье появятся новые события, сигналы или материалы." />
           {o.summary ? <p className="obj-sum">{typo(o.summary)}</p> : null}
           <div className="zus">
             {o.zu ? <Link className="zu" href={`/poisk/?q=${encodeURIComponent(o.zu)}`} title="Найти всё по адресу участка"><b>ЗУ</b>{o.zu}</Link> : null}
@@ -128,7 +131,7 @@ export default async function ObjectPage({ params }: { params: Promise<{ slug: s
                     {tr.facts.map((f, k) => <li key={k}><time>{f.date.length > 4 ? f.date.slice(0, 7).split('-').reverse().join('.') : f.date}</time><span>{typo(f.text)} <a className="muted-link" href={f.source} target="_blank" rel={relFor(f.source)}>источник</a></span></li>)}
                   </ol>
                 ) : null}
-                <small>Проверено по открытым источникам {tr.checked.split('-').reverse().join('.')}</small>
+                <small>Проверено по открытым источникам {tr.checked.split('-').reverse().join('.')}{troubleTerm ? <> · <Link className="muted-link" href="/slovar/problemnyy-proekt/">как мы отмечаем</Link></> : null}</small>
               </section>
             )
           })()}

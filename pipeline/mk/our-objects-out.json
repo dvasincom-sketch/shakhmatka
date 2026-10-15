@@ -1,0 +1,218 @@
+[
+ {
+  "slug": "butlerova-12",
+  "developer": "fond-renovatsii",
+  "role": "реализует КРТ",
+  "evidence": "Столичный фонд реновации жилой застройки как оператор четырех проектов комплексного развития территорий (КРТ): ул. Бутлерова, вл. 12, ул. Введенского, вл. 13, ул. Каховка, вл. 20А, Волгоградский проспект, вл. 130 (РИАМО, 10.03.2025); mos.ru 11.04.2026: выдан ГПЗУ для дома в целях реализации программы реновации на ул. Бутлерова, з/у 12",
+  "source": "https://riamo.ru/news/nedvizhimost/ovchinskij-opredeleny-podrjadchiki-dlja-rabot-po-renovatsii-po-4-proektam-krt/",
+  "stage_now": "architecture",
+  "reason": null
+ },
+ {
+  "slug": "eniseyskaya-2a",
+  "developer": null,
+  "role": null,
+  "evidence": null,
+  "source": null,
+  "stage_now": null,
+  "reason": "Открытых источников с застройщиком/правообладателем по этому адресу не найдено; в проверенных материалах mos.ru/novostroy-m адрес не упомянут; в 'проектах планировки' упомянут лишь паркинг на Енисейской ул. без застройщика. Закрепление за фондом не подтверждено"
+ },
+ {
+  "slug": "shipilovskaya-42-44",
+  "developer": null,
+  "role": null,
+  "evidence": null,
+  "source": null,
+  "stage_now": null,
+  "reason": "Открытых источников с застройщиком/правообладателем по этому адресу не найдено; mos.ru 14.02.2025 (https://mos.ru/news/item/150076073/): проект КРТ на Шипиловской, 42-44 для реновации, но фонд/победитель торгов не названы; итогов торгов в открытых источниках не найдено"
+ },
+ {
+  "slug": "borisovskaya-9",
+  "developer": null,
+  "role": null,
+  "evidence": null,
+  "source": null,
+  "stage_now": null,
+  "reason": "Открытых источников с застройщиком/правообладателем по этому адресу не найдено; mos.ru (14.04.2026) называет фонд реализующим 4 проекта КРТ в районе Соколиной Горы, но дом Борисовская, 9 и привязка к проектам фонда в тексте не указаны"
+ },
+ {
+  "slug": "letchika-babushkina-30-str-1",
+  "developer": null,
+  "role": null,
+  "evidence": null,
+  "source": null,
+  "stage_now": null,
+  "reason": "Открытых источников с застройщиком/правообладателем по этому адресу не найдено; победитель 'МонАрх' известен только из черновика timeline редакции, открытого подтверждения не найдено; за фондом тоже не подтверждено"
+ },
+ {
+  "slug": "fedosino",
+  "developer": null,
+  "role": null,
+  "evidence": null,
+  "source": null,
+  "stage_now": null,
+  "reason": "Открытых источников с застройщиком/правообладателем по этому адресу не найдено; 'СЗ Реновация' из timeline не подтверждена открытым источником; ни фонд, ни другой застройщик не подтверждены"
+ },
+ {
+  "slug": "fabritsiusa-19a",
+  "developer": null,
+  "role": null,
+  "evidence": null,
+  "source": null,
+  "stage_now": null,
+  "reason": "Открытых источников с застройщиком/правообладателем по этому адресу не найдено; найденная публикация РИАМО (27.02.2026) относится к ул. Окружной, вл. 17, а не к Фабрициуса, 19А"
+ },
+ {
+  "slug": "avtozavodskaya-21",
+  "developer": null,
+  "role": null,
+  "evidence": null,
+  "source": null,
+  "stage_now": null,
+  "reason": "Открытых источников с застройщиком/правообладателем по этому адресу не найдено; РИАМО 25.02.2026: КРТ на Автозаводской, вл. 21, 'построят 47 тыс. кв. м жилья для реализации реновации', застройщик/фонд не названы; финальное постановление не найдено"
+ },
+ {
+  "slug": "sky-city-business-park",
+  "developer": null,
+  "role": null,
+  "evidence": null,
+  "source": null,
+  "stage_now": null,
+  "reason": "Открытых источников с застройщиком/правообладателем по этому адресу не найдено; поиск по объекту не проводился из-за лимита; источников нет"
+ },
+ {
+  "slug": "khibinskiy-3",
+  "developer": null,
+  "role": null,
+  "evidence": null,
+  "source": null,
+  "stage_now": null,
+  "reason": "Открытых источников с застройщиком/правообладателем по этому адресу не найдено; поиск не проводился из-за лимита; источников нет"
+ },
+ {
+  "slug": "prozhektor",
+  "developer": null,
+  "role": null,
+  "evidence": null,
+  "source": null,
+  "stage_now": null,
+  "reason": "mos.ru 01.10.2025 (https://www.mos.ru/news/item/160399073/) и 26.05.2026: аукционы по КРТ Прожектор, победитель/застройщик не названы; итогов нет"
+ },
+ {
+  "slug": "stakhanovskaya",
+  "developer": null,
+  "role": null,
+  "evidence": null,
+  "source": null,
+  "stage_now": null,
+  "reason": "Найденный материал novostroy-m (19.06.2024) о победителе 'СЗ Стройкапитал' (ГК Гранель) относится к участкам вдоль Окской ул., привязка к Стахановской, 18 не подтверждена; покупатель ЗУ в открытых источниках не найден"
+ },
+ {
+  "slug": "vavilova-66",
+  "developer": null,
+  "role": null,
+  "evidence": null,
+  "source": null,
+  "stage_now": null,
+  "reason": "novostroy-m 11.12.2024: участки Вавилова, вл. 48В, 66, 68 - назначен оператор КРТ, имя не названо, 18,7 тыс. кв. м жилья по реновации; застройщик не установлен"
+ },
+ {
+  "slug": "parshina-2",
+  "developer": "fond-renovatsii",
+  "role": "реализует КРТ",
+  "evidence": "Реорганизацией площадок по всем трем адресам занимается Московский фонд реновации. (Овчинский, mos.ru 15.04.2026; адреса: улица Паршина, владение 2 и владение 2 (территория 2))",
+  "source": "https://www.mos.ru/news/item/168693073/",
+  "stage_now": null,
+  "reason": "стадия в источнике не указана (проекты 'сегодня реализуются'), разрешение на строительство не найдено"
+ },
+ {
+  "slug": "2-y-tushinskiy-12",
+  "developer": null,
+  "role": null,
+  "evidence": null,
+  "source": null,
+  "stage_now": null,
+  "reason": "Открытых источников с застройщиком/правообладателем по этому адресу не найдено;"
+ },
+ {
+  "slug": "kashirskoe-76a",
+  "developer": null,
+  "role": null,
+  "evidence": null,
+  "source": null,
+  "stage_now": null,
+  "reason": "Открытых источников с застройщиком/правообладателем по этому адресу не найдено;"
+ },
+ {
+  "slug": "malenkovskaya-30",
+  "developer": null,
+  "role": null,
+  "evidence": null,
+  "source": null,
+  "stage_now": null,
+  "reason": "Открытых источников с застройщиком/правообладателем по этому адресу не найдено;"
+ },
+ {
+  "slug": "udaltsova-85a",
+  "developer": null,
+  "role": null,
+  "evidence": null,
+  "source": null,
+  "stage_now": null,
+  "reason": "Открытых источников с застройщиком/правообладателем по этому адресу не найдено;"
+ },
+ {
+  "slug": "nizhegorodskaya-63-65",
+  "developer": null,
+  "role": null,
+  "evidence": null,
+  "source": null,
+  "stage_now": null,
+  "reason": "moskvichmag 29.05.2025: дом в рамках реновации кварталов 78-80 Нижегородского района, концепция МЭИ согласована; адрес с номерами и застройщик не названы, источник сведений - Telegram"
+ },
+ {
+  "slug": "krt-krekshino",
+  "developer": null,
+  "role": null,
+  "evidence": null,
+  "source": null,
+  "stage_now": null,
+  "reason": "Открытых источников с застройщиком/правообладателем по этому адресу не найдено;"
+ },
+ {
+  "slug": "bolshaya-butovskaya-11",
+  "developer": null,
+  "role": null,
+  "evidence": null,
+  "source": null,
+  "stage_now": null,
+  "reason": "Открытых источников с застройщиком/правообладателем по этому адресу не найдено;"
+ },
+ {
+  "slug": "krt-prozhektor-territoriya-2",
+  "developer": null,
+  "role": null,
+  "evidence": null,
+  "source": null,
+  "stage_now": null,
+  "reason": "mos.ru 01.10.2025: КРТ Прожектор (11,74 га), торги объявлены 26.05.2026; победитель не найден"
+ },
+ {
+  "slug": "yunosti-9-15",
+  "developer": null,
+  "role": null,
+  "evidence": null,
+  "source": null,
+  "stage_now": null,
+  "reason": "Открытых источников с застройщиком/правообладателем по этому адресу не найдено;"
+ },
+ {
+  "slug": "oleniy-val-24",
+  "developer": null,
+  "role": null,
+  "evidence": null,
+  "source": null,
+  "stage_now": null,
+  "reason": "Открытых источников с застройщиком/правообладателем по этому адресу не найдено;"
+ }
+]

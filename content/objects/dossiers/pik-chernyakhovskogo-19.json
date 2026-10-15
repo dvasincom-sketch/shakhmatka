@@ -1,0 +1,24 @@
+{
+  "_readme": "Ручное досье (15.10.2026) по каталогам новостроек: https://www.mirkvartir.ru/novostroyki/chernyakhovsky-19/. Добавлено, чтобы портфель застройщика в базе был полным; в архиве редакции о проекте не писали.",
+  "slug": "pik-chernyakhovskogo-19",
+  "name": "Черняховского 19",
+  "zu": "Черняховского, 19",
+  "aliases": [
+    "ЖК Черняховского 19",
+    "Черняховского, 19"
+  ],
+  "region": "moscow",
+  "district": "aeroport",
+  "stage": "completed",
+  "developer": "pik",
+  "summary": "Жилой комплекс ПИК по адресу ул. Черняховского, 19, САО. Проект сдан.",
+  "timeline": [
+    {
+      "date": "2019-12-31",
+      "dateLabel": "2019 год",
+      "kind": "construction",
+      "title": "Проект сдан",
+      "certainty": "fact"
+    }
+  ]
+}

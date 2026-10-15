@@ -1,0 +1,16 @@
+{
+  "_readme": "Ручное досье (15.10.2026) по каталогам новостроек: https://www.novostroy-m.ru/baza/jk_marshala_zaharova_7, https://www.novostroy-m.ru/kompanii/ooo_veystoun. Добавлено, чтобы портфель застройщика в базе был полным; в архиве редакции о проекте не писали.",
+  "slug": "pik-marshala-zakharova-7",
+  "name": "Маршала Захарова, 7",
+  "zu": "Маршала Захарова, 3",
+  "aliases": [
+    "ЖК Маршала Захарова, 7",
+    "Маршала Захарова, 3"
+  ],
+  "region": "moscow",
+  "district": "orekhovo-borisovo-severnoe",
+  "stage": "completed",
+  "developer": "pik",
+  "summary": "Жилой комплекс ПИК по адресу ул. Маршала Захарова, д. 3. По данным каталогов: корпус 1 сдан. Проект сдан.",
+  "timeline": []
+}

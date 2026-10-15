@@ -802,6 +802,10 @@
    "name": "СЗ Проезд Шломина"
   },
   {
+   "slug": "sz-tankovyy",
+   "name": "СЗ «Танковый»"
+  },
+  {
    "slug": "tach",
    "name": "Тач"
   },
@@ -2971,15 +2975,19 @@
      "date": "2022-03-22",
      "kind": "construction",
      "title": "Инград завершает заселение Филатова Луга: ключи получили 90% клиентов",
-     "certainty": "fact",
-     "sourceNote": 11578
+     "certainty": "signal",
+     "sourceNote": 11578,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2022-03-22",
      "kind": "price",
      "title": "Инград допродаёт лоты в Филатовом Лугу по средней цене 220+ тыс. руб./кв. м при старте с 82 тыс.",
-     "certainty": "fact",
-     "sourceNote": 11578
+     "certainty": "signal",
+     "sourceNote": 11578,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     }
    ],
    "notes": [
@@ -6599,8 +6607,10 @@
      "date": "2022-07-17",
      "kind": "deal",
      "title": "Площадка на Большой Почтовой, 18, которую долго держал Prinzip, перешла к Level",
-     "certainty": "fact",
-     "sourceNote": 13509
+     "certainty": "signal",
+     "sourceNote": 13509,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2022-09-17",
@@ -8155,8 +8165,10 @@
      "date": "2022-09-05",
      "kind": "permit",
      "title": "РВЭ получено сразу на две очереди Красноказарменной, 15, средства дольщиков списаны с эскроу",
-     "certainty": "fact",
-     "sourceNote": 14356
+     "certainty": "signal",
+     "sourceNote": 14356,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2022-09-05",
@@ -10232,8 +10244,10 @@
      "date": "2023-11-11",
      "kind": "price",
      "title": "В Level Академическая цена выросла с 400 до 650+ тыс. руб./кв. м, продаётся 10-15 квартир в месяц",
-     "certainty": "fact",
-     "sourceNote": 20170
+     "certainty": "signal",
+     "sourceNote": 20170,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2023-12-06",
@@ -10517,8 +10531,10 @@
      "date": "2023-02-19",
      "kind": "permit",
      "title": "Tekta прошла экспертизу проекта Дербеневская, 20; проектировщик GAFA",
-     "certainty": "fact",
-     "sourceNote": 16632
+     "certainty": "signal",
+     "sourceNote": 16632,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2023-02-23",
@@ -10531,8 +10547,10 @@
      "date": "2023-03-20",
      "kind": "deal",
      "title": "Проектом на Дербеневской, 20 после ПИК занимается Tekta",
-     "certainty": "fact",
-     "sourceNote": 16973
+     "certainty": "signal",
+     "sourceNote": 16973,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2023-03-27",
@@ -12609,7 +12627,16 @@
     24105
    ],
    "district": "khamovniki",
-   "developer": "vesper"
+   "developer": "vesper",
+   "owners": [
+    {
+     "developer": "vesper",
+     "name": "Vesper",
+     "since": "май 2021",
+     "how": "Vesper приобрёл промзону на Бережковской набережной, 20 (26,5 га); в декабре 2021 года правообладатель — АО «Лираль-индустрия пластмасс» — назван частью группы Vesper",
+     "source": "https://moskvichmag.ru/?p=167553"
+    }
+   ]
   },
   {
    "slug": "injoy",
@@ -12757,8 +12784,10 @@
      "date": "2020-01-15",
      "kind": "land",
      "title": "«Регион» продал участок на Дубининской, 17, что означает отмену проекта Инград",
-     "certainty": "fact",
-     "sourceNote": 3302
+     "certainty": "signal",
+     "sourceNote": 3302,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2020-03-01",
@@ -14112,8 +14141,10 @@
      "date": "2022-02-18",
      "kind": "architecture",
      "title": "А101 подготовила проект у метро Прокшино на 1,7 млн кв. м жилья; архитектор Master's plan",
-     "certainty": "fact",
-     "sourceNote": 11160
+     "certainty": "signal",
+     "sourceNote": 11160,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2022-02-28",
@@ -15817,8 +15848,8 @@
     "Утренняя, 8А; Кусковская, 12"
    ],
    "region": "moscow",
-   "stage": "architecture",
-   "summary": "«Кусковская, 12» — проект застройщика ПИК (район Новогиреево). В досье 8 событий с 2020 по 2025 год, из них 1 — сигнал до официальных новостей.",
+   "stage": "sales",
+   "summary": "«Кусковская, 12» — проект застройщика Фонд реновации (район Новогиреево). В досье 8 событий с 2020 по 2025 год, из них 1 — сигнал до официальных новостей.",
    "timeline": [
     {
      "date": "2020-09-08",
@@ -15898,7 +15929,10 @@
     31463
    ],
    "district": "novogireevo",
-   "developer": "pik"
+   "developer": "fond-renovatsii",
+   "previousDevelopers": [
+    "pik"
+   ]
   },
   {
    "slug": "mikhalkovskaya-48",
@@ -16293,15 +16327,19 @@
      "date": "2021-09-22",
      "kind": "tender",
      "title": "ЛСР проводит тендер на генподрядчика для Соймоновского, 3: 68 квартир средней площадью 236 кв. м",
-     "certainty": "fact",
-     "sourceNote": 9413
+     "certainty": "signal",
+     "sourceNote": 9413,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2021-09-22",
      "kind": "deal",
      "title": "Проект на Соймоновском, 3 передан MR Group в ЛСР",
-     "certainty": "fact",
-     "sourceNote": 9413
+     "certainty": "signal",
+     "sourceNote": 9413,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2021-12-10",
@@ -17754,7 +17792,7 @@
    "aliases": [],
    "region": "moscow",
    "stage": "architecture",
-   "summary": "«Танковый, 4» — проект застройщика Интеко (район Лефортово). В досье 15 событий с 2020 по 2026 год, из них 3 — сигнала до официальных новостей.",
+   "summary": "«Танковый, 4» — проект застройщика СЗ «Танковый» (район Лефортово). В досье 15 событий с 2020 по 2026 год, из них 3 — сигнала до официальных новостей.",
    "timeline": [
     {
      "date": "2020-11-11",
@@ -17891,7 +17929,7 @@
     35385
    ],
    "district": "lefortovo",
-   "developer": "inteko"
+   "developer": "sz-tankovyy"
   },
   {
    "slug": "lva-tolstogo-14-16",
@@ -19968,8 +20006,10 @@
      "date": "2020-01-10",
      "kind": "deal",
      "title": "Coldy взяла участок на Автомобильном проезде, 4",
-     "certainty": "fact",
-     "sourceNote": 3290
+     "certainty": "signal",
+     "sourceNote": 3290,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2020-09-27",
@@ -21973,8 +22013,10 @@
      "date": "2023-01-09",
      "kind": "tender",
      "title": "Интеко провело тендер на проектирование участка на Фрунзенской, 30, победило бюро АТП ТЛП (182 млн руб.)",
-     "certainty": "fact",
-     "sourceNote": 16206
+     "certainty": "signal",
+     "sourceNote": 16206,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2024-08-12",
@@ -23654,8 +23696,10 @@
      "date": "2023-05-18",
      "kind": "other",
      "title": "Вновь меняют проект планировки территории ТПУ Пресня и прилегающих участков",
-     "certainty": "fact",
-     "sourceNote": 17739
+     "certainty": "signal",
+     "sourceNote": 17739,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2024-04-26",
@@ -25169,8 +25213,10 @@
      "date": "2023-04-19",
      "kind": "architecture",
      "title": "Проект апартаментов St. Michael на участке Толбухина, 3 прошёл экспертизу",
-     "certainty": "fact",
-     "sourceNote": 17327
+     "certainty": "signal",
+     "sourceNote": 17327,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2024-11-02",
@@ -26478,7 +26524,9 @@
      "kind": "deal",
      "title": "MR Group, вероятно, продал участок 1-я Фрезерная, 2/1 Гранели, создавшей СЗ Фрезерный",
      "certainty": "signal",
-     "sourceNote": 15789
+     "sourceNote": 15789,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2023-01-13",
@@ -28014,8 +28062,10 @@
      "date": "2023-10-11",
      "kind": "deal",
      "title": "Prinzip продала участок Обуха, 3 мастер-девелоперу MR Group; ранее участок рассматривал ПИК",
-     "certainty": "fact",
-     "sourceNote": 19773
+     "certainty": "signal",
+     "sourceNote": 19773,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2024-07-15",
@@ -29684,7 +29734,9 @@
      "kind": "deal",
      "title": "Кортрос готовит к выходу проект на Архитектора Власова, 57: высотность до 120 м, участок перешёл от Капитал Групп",
      "certainty": "signal",
-     "sourceNote": 16761
+     "sourceNote": 16761,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     }
    ],
    "notes": [
@@ -30430,8 +30482,10 @@
      "date": "2023-05-16",
      "kind": "architecture",
      "title": "Основа согласовала проект на месте ТЦ Южный на Кировоградской, 9к4: 50 тыс. кв. м жилья и 40 тыс. кв. м коммерции",
-     "certainty": "fact",
-     "sourceNote": 17692
+     "certainty": "signal",
+     "sourceNote": 17692,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2024-05-24",
@@ -32989,8 +33043,10 @@
      "date": "2023-03-20",
      "kind": "concept",
      "title": "На Шлюзовой, 2 вместо офисного здания решено строить жильё, авангардное здание сохраняется",
-     "certainty": "fact",
-     "sourceNote": 16973
+     "certainty": "signal",
+     "sourceNote": 16973,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2023-05-19",
@@ -34122,8 +34178,10 @@
      "date": "2023-09-19",
      "kind": "other",
      "title": "Получен акт ГИКЭ на проект приспособления с элементами реставрации на участке Витебская, 9",
-     "certainty": "fact",
-     "sourceNote": 19480
+     "certainty": "signal",
+     "sourceNote": 19480,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2025-08-04",
@@ -52347,7 +52405,7 @@
    "aliases": [],
    "region": "moscow",
    "stage": "architecture",
-   "summary": "«Паршина, 2» (район Хорошёво-Мнёвники). В досье 3 события с 2024 по 2025 год.",
+   "summary": "«Паршина, 2» — проект застройщика Фонд реновации (район Хорошёво-Мнёвники). В досье 3 события с 2024 по 2025 год.",
    "timeline": [
     {
      "date": "2024-05-04",
@@ -52378,6 +52436,7 @@
     26769,
     29794
    ],
+   "developer": "fond-renovatsii",
    "district": "khoroshevo-mnevniki"
   },
   {
@@ -57652,15 +57711,19 @@
      "date": "2025-02-13",
      "kind": "architecture",
      "title": "Veil от Рубена из WALL — 9-этажный клубный дом на Большом Харитоньевском, 13А, С10",
-     "certainty": "fact",
-     "sourceNote": 27870
+     "certainty": "signal",
+     "sourceNote": 27870,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2026-03-10",
      "kind": "architecture",
      "title": "Проект «Роден» (ранее VEIL) уменьшен с 9 до 7 этажей, фасады упрощены",
-     "certainty": "fact",
-     "sourceNote": 33376
+     "certainty": "signal",
+     "sourceNote": 33376,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     }
    ],
    "notes": [
@@ -58242,8 +58305,10 @@
      "date": "2025-04-23",
      "kind": "sales",
      "title": "MR Group начала продажи проекта «Мыс» за Одинцово: от 11,1 млн руб., средняя цена 250 тыс. руб./кв. м",
-     "certainty": "fact",
-     "sourceNote": 29089
+     "certainty": "signal",
+     "sourceNote": 29089,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     }
    ],
    "notes": [
@@ -60379,15 +60444,19 @@
      "date": "2025-07-30",
      "kind": "sales",
      "title": "MR Group открыл бронирование квартир в One по средней цене около 810–830 тыс. руб./кв. м без опубликованных документов",
-     "certainty": "fact",
-     "sourceNote": 30501
+     "certainty": "signal",
+     "sourceNote": 30501,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2025-07-30",
      "kind": "price",
      "title": "Бронирование в One приостановлено, цены повышены",
-     "certainty": "fact",
-     "sourceNote": 30501
+     "certainty": "signal",
+     "sourceNote": 30501,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2026-04-29",
@@ -63968,7 +64037,9 @@
      "kind": "concept",
      "title": "На Кутузовском проспекте, 12, 14А планируются башни 155 м, жильё 230 тыс. кв. м и торговля 43 тыс. кв. м",
      "certainty": "signal",
-     "sourceNote": 16692
+     "sourceNote": 16692,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2023-03-01",

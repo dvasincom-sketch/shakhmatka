@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import { FollowButton } from '@/lib/follow-button'
 import { notFound } from 'next/navigation'
 import { getPayload, type Where } from 'payload'
 import config from '@payload-config'
@@ -91,6 +92,7 @@ export default async function LandingPage({ params }: { params: Promise<{ slug: 
       <JsonLd data={ld} />
       <nav className="crumbs" aria-label="Путь"><Link href="/">Лента</Link><span>/</span><Link href="/novostroyki/">Новостройки</Link><span>/</span>{l.group === 'district' ? <><Link href="/novostroyki/moskva/">Москва</Link><span>/</span></> : null}<span>{l.label}</span></nav>
       <h1 className="page-h tt">{H}{l.note ? <span>{l.note}</span> : null}</h1>
+      {l.group === 'district' || l.group === 'region' ? <FollowButton kind="place" id={l.key || l.slug} label={l.label} hint="Новые проекты, старты продаж, КРТ и сигналы в этом районе." /> : null}
       {l.intro ? <div className="land-intro">{l.intro.split(/\n\s*\n/).map((p, i) => <p key={i}>{p}</p>)}</div> : null}
 
       {objs.length ? <dl className="land-stats">

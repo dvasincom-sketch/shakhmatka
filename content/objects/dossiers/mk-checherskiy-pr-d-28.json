@@ -1,0 +1,24 @@
+{
+  "_readme": "Ручное досье (15.10.2026) по карточкам каталогов: https://zhk-checherskiy-pr-d-d-28-k-1-2-i.cian.ru/, https://www.cian.ru/novostroyki-komfort-klassa-ot-zastroyschika-moskovskie-kvartaly-20036-moskva-yuzao-0410-RLTM/",
+  "slug": "mk-checherskiy-pr-d-28",
+  "name": "Чечёрский пр-д, 28",
+  "zu": "Чечёрский пр-д, 28",
+  "aliases": [
+    "Чечёрский пр-д, д. 28, к. 1, 2",
+    "Московские кварталы, Чечёрский пр-д, 28"
+  ],
+  "region": "moscow",
+  "district": "yuzhnoe-butovo",
+  "stage": "completed",
+  "developer": "fond-renovatsii",
+  "summary": "Жилой дом Московского фонда реновации по адресу проезд Чечёрский, 28к2. Каталоги относят дом к линейке «Московские кварталы»; продажа квартир самим фондом на дату проверки не подтверждена.",
+  "timeline": [
+    {
+      "date": "2026-10-15",
+      "dateLabel": "октябрь 2026",
+      "kind": "other",
+      "title": "Дом Фонда реновации значится в каталогах в линейке «Московские кварталы»",
+      "certainty": "fact"
+    }
+  ]
+}

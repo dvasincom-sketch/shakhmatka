@@ -1,0 +1,23 @@
+{
+  "_readme": "Ручное досье (15.10.2026) по каталогам новостроек: https://www.novostroy-m.ru/baza/zhd_na_17_y_pr_d_marinoy. Добавлено, чтобы портфель застройщика в базе был полным; в архиве редакции о проекте не писали.",
+  "slug": "pik-17-y-proezd-marinoy-roshchi-1",
+  "name": "17-й проезд Марьиной Рощи, 1",
+  "zu": "17-й проезд Марьиной Рощи, 1",
+  "aliases": [
+    "ЖК 17-й проезд Марьиной Рощи, 1"
+  ],
+  "region": "moscow",
+  "district": "marina-roshcha",
+  "stage": "completed",
+  "developer": "pik",
+  "summary": "Жилой комплекс ПИК по адресу 17-й пр-д Марьиной Рощи, 1, СВАО. Проект сдан.",
+  "timeline": [
+    {
+      "date": "2014-12-31",
+      "dateLabel": "2014 год",
+      "kind": "construction",
+      "title": "Проект сдан",
+      "certainty": "fact"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "_readme": "Ручное досье (15.10.2026) по карточкам каталогов: https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/zhk-3-ya-pryadilnaya-ul-vl-4-4175173/, https://realty.yandex.ru/moskva/kupit/novostrojka/z-moskovskie-kvartaly-4209811/",
+  "slug": "mk-3-ya-pryadilnaya-vl-4",
+  "name": "3-я Прядильная, вл. 4",
+  "zu": "3-я Прядильная, вл. 4",
+  "aliases": [
+    "ЖК 3-я Прядильная ул., вл. 4",
+    "Московские кварталы, 3-я Прядильная, вл. 4"
+  ],
+  "region": "moscow",
+  "district": "izmaylovo",
+  "stage": "sales",
+  "developer": "fond-renovatsii",
+  "summary": "Жилой дом Московского фонда реновации по адресу ул. 3-я Прядильная, вл. 4. По данным каталога — 235 квартир, 15–16 этажей. Часть квартир фонд продаёт на открытом рынке под брендом «Московские кварталы».",
+  "timeline": [
+    {
+      "date": "2025-08-13",
+      "kind": "permit",
+      "title": "Выдано разрешение на строительство",
+      "certainty": "fact"
+    },
+    {
+      "date": "2026-10-15",
+      "dateLabel": "октябрь 2026",
+      "kind": "sales",
+      "title": "Квартиры продаются на открытом рынке под брендом «Московские кварталы», от 13,6 млн ₽",
+      "certainty": "fact"
+    }
+  ]
+}

@@ -1053,3 +1053,66 @@ a.pill-q:hover, a.zu:hover { background: var(--line); }
 .dfig-list ol { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
 .dfig-list li { display: flex; justify-content: space-between; gap: 10px; align-items: baseline; }
 .dfig-list li b { font-variant-numeric: tabular-nums; color: var(--muted); font-weight: 500; }
+
+/* «Следить» */
+.follow { position: relative; display: inline-block; margin: 10px 0 4px; }
+.follow-btn { display: inline-flex; align-items: center; gap: 8px; padding: 9px 16px; border-radius: 999px; border: 1px solid var(--ink); background: var(--ink); color: var(--bg); font: inherit; font-weight: 600; font-size: var(--s-1); cursor: pointer; transition: transform .12s ease, background .15s ease; }
+.follow-btn:hover { transform: translateY(-1px); }
+.follow-btn.on { background: transparent; color: var(--ink); border-color: var(--line); }
+.follow-btn.on:hover span::after { content: ' · отписаться'; font-weight: 400; color: var(--muted); }
+.follow-btn:disabled { opacity: .6; cursor: default; transform: none; }
+.follow-pop { position: absolute; z-index: 30; top: calc(100% + 8px); left: 0; width: min(360px, calc(100vw - 32px)); padding: 16px; display: grid; gap: 10px; box-shadow: var(--shadow); }
+.follow-h { font-weight: 600; }
+.follow-sub { color: var(--muted); font-size: var(--s-1); line-height: 1.45; }
+.follow-pop input, .acc-login input { width: 100%; padding: 11px 14px; border-radius: 12px; border: 1px solid var(--line); background: var(--bg); color: var(--ink); font: inherit; }
+.follow-pop input:focus, .acc-login input:focus { outline: none; box-shadow: 0 0 0 2px var(--sun); }
+.follow-ok { color: var(--ok); font-size: var(--s-1); line-height: 1.45; }
+.follow-err { color: var(--coral); font-size: var(--s-1); }
+.follow-legal { color: var(--muted); font-size: var(--s-2); line-height: 1.4; }
+.follow-legal a { color: inherit; }
+/* личный кабинет читателя */
+.acc { display: grid; gap: 14px; }
+.acc-note { padding: 12px 16px; border-radius: 14px; background: var(--ok-soft); }
+.acc-login { padding: 18px; display: grid; gap: 10px; max-width: 560px; }
+.acc-login label { font-weight: 600; }
+.acc-row { display: flex; gap: 8px; flex-wrap: wrap; }
+.acc-row input { flex: 1 1 220px; }
+.acc-bar { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+.acc-list { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 8px; }
+.acc-list li { padding: 12px 14px; display: flex; align-items: center; gap: 10px; }
+.acc-list li a { flex: 1; font-weight: 500; text-decoration: none; }
+.acc-list li a:hover { text-decoration: underline; text-underline-offset: 3px; }
+.acc-list small { color: var(--muted); font-size: var(--s-2); }
+.acc-x { border: 0; background: transparent; color: var(--muted); font-size: 20px; line-height: 1; cursor: pointer; padding: 2px 6px; border-radius: 8px; }
+.acc-x:hover { background: var(--soft); color: var(--coral); }
+.prose-page { max-width: 720px; display: grid; gap: 12px; }
+.prose-page h2 { font-family: var(--f-display); font-weight: 500; font-size: var(--s1); margin-top: 10px; }
+.prose-page p { line-height: var(--lh-text); }
+
+/* Шахматка Про */
+.pro-hero .btn { margin-top: 14px; }
+.pro-stats { grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
+.pro-sample td { vertical-align: middle; }
+.pro-sig, .pro-fact { display: inline-block; font-size: var(--s-2); font-weight: 600; padding: 1px 7px; border-radius: 999px; }
+.pro-sig { background: var(--sun-soft); color: var(--orange); }
+.pro-fact { background: var(--ok-soft); color: var(--ok); }
+.pro-plans { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 12px; }
+.pro-plan { padding: 22px; display: grid; gap: 10px; align-content: start; }
+.pro-plan.accent { box-shadow: 0 0 0 2px var(--orange), var(--shadow); }
+.pro-plan h3 { font-family: var(--f-display); font-weight: 500; font-size: var(--s2, 26px); }
+.pro-who { color: var(--muted); }
+.pro-plan ul { margin: 0; padding-left: 18px; display: grid; gap: 6px; line-height: 1.45; }
+.pro-plan .btn { justify-self: start; margin-top: 6px; }
+.pro-form { padding: 20px; display: grid; gap: 14px; max-width: 760px; }
+.pro-form label { display: grid; gap: 6px; font-weight: 500; font-size: var(--s-1); }
+.pro-form input, .pro-form textarea { padding: 11px 14px; border-radius: 12px; border: 1px solid var(--line); background: var(--bg); color: var(--ink); font: inherit; font-weight: 400; }
+.pro-form input:focus, .pro-form textarea:focus { outline: none; box-shadow: 0 0 0 2px var(--sun); }
+.pro-grid2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; }
+.pro-row { display: grid; gap: 8px; }
+.pro-form .btn { justify-self: start; }
+.pro-ok { font-weight: 500; color: var(--ok); }
+.hp { position: absolute; left: -9999px; width: 1px; height: 1px; opacity: 0; }
+
+.pro-hero .btn { justify-self: start; width: auto; }
+.pro-plans.three { grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
+.pro-note { font-size: var(--s-1); color: var(--orange); font-weight: 500; }

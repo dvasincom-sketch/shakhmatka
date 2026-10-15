@@ -1321,6 +1321,230 @@
    "kind": "каталог",
    "checked": "15.10.2026"
   },
+  "pik-signalnyy-16": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?page=2",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "pik-polyarnaya-25": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?page=3",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "pik-yutanovo": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?page=3",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "pik-buninskie-luga": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://www.novostroy-m.ru/baza/jk_buninskie_luga",
+   "site": "Новострой-М",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "pik-grin-park": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://www.novostroy-m.ru/baza/grin_park",
+   "site": "Новострой-М",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "pik-rimskogo-korsakova-11": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://www.novostroy-m.ru/baza/jk_rimskogokorsakova_11",
+   "site": "Новострой-М",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "mk-klinskaya-2a-k7": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/zhk-klinskaya-ul-d-2a-k-7-4535338/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "mk-lyublinskaya-76-k4": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/zhk-lyublinskaya-ul-d-76-k-4-4535577/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "kuskovskaya-12": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/zhk-kuskovskaya-ul-d-12-1-4012105/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "mk-rodnikovaya-4a": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/po-ul-rodnikovaya-4821204/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "mk-svetlanova-11-k2": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/zhk-svetlanova-ul-d-11-k-2-4075132/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "mk-3-ya-pryadilnaya-vl-4": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/zhk-3-ya-pryadilnaya-ul-vl-4-4175173/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "mk-3-ya-pryadilnaya-z-u-10": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/zhk-3-ya-pryadilnaya-ul-z-u-10-4164656/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "mk-3-ya-pryadilnaya-z-u-14": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/zhk-3-ya-pryadilnaya-ul-z-u-14-4163692/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "mk-novocheremushkinskaya-z-u-41-1a": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/zhk-novocheryomushkinskaya-ul-z-u-41-1a-4195418/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "mk-nikitinskaya-vl-21": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/zhk-nikitinskaya-ul-z-u-21-3-4196702/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "mk-polyarnaya-z-u-16": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/zhk-polyarnaya-ul-z-u-16-4164628/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "mk-polyarnaya-3": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/zhk-polyarnaya-ul-d-3-3568796/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "mk-polyarnaya-4-k1": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/zhk-polyarnaya-ul-z-u-4-4029707/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "mk-sirenevyy-b-r-4-12a": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/zhk-sirenevyj-b-r-z-u-4-12a-uch-6-1-4163635/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "mk-gorodskaya-12-14": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/zhk-gorodskaya-ul-d-12-14-4534803/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "mk-borovskiy-proezd-1": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/po-proezdu-borovskij-4870966/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "mk-checherskiy-pr-d-28": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://zhk-checherskiy-pr-d-d-28-k-1-2-i.cian.ru/",
+   "site": "zhk-checherskiy-pr-d-d-28-k-1-2-i.cian.ru",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "mk-remizova-11-k2": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://zhk-remizova-11k2-i.cian.ru/",
+   "site": "zhk-remizova-11k2-i.cian.ru",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "mk-garibaldi-26": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://zhk-garibaldi-ul-d-26-i.cian.ru/",
+   "site": "zhk-garibaldi-ul-d-26-i.cian.ru",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "mk-novocheremushkinskaya-56-3": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://zhk-novocheremushkinskaya-ul-d-563-i.cian.ru/",
+   "site": "zhk-novocheremushkinskaya-ul-d-563-i.cian.ru",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "mk-bolshaya-cheremushkinskaya-z-u-26-2": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://zhk-po-ul-bolshaya-cheremushkinskaya-i.cian.ru/",
+   "site": "zhk-po-ul-bolshaya-cheremushkinskaya-i.cian.ru",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "mk-kedrova-16-k3": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://zhk-kedrova-ul-d-16-k-3-i.cian.ru/",
+   "site": "zhk-kedrova-ul-d-16-k-3-i.cian.ru",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
   "silika": {
    "class": "premium",
    "basis": "article",

@@ -533,6 +533,123 @@
   },
   "tatarskaya-35": {
    "class": "deluxe"
+  },
+  "mk-klinskaya-2a-k7": {
+   "priceFrom": 14.1,
+   "priceAsOf": "октябрь 2026",
+   "priceSource": "Яндекс Недвижимость, лоты застройщика",
+   "class": "comfort"
+  },
+  "mk-lyublinskaya-76-k4": {
+   "priceFrom": 13.1,
+   "priceAsOf": "октябрь 2026",
+   "priceSource": "Яндекс Недвижимость, лоты застройщика",
+   "class": "comfort"
+  },
+  "kuskovskaya-12": {
+   "priceFrom": 25.1,
+   "priceAsOf": "октябрь 2026",
+   "priceSource": "Яндекс Недвижимость, лоты застройщика",
+   "class": "comfort"
+  },
+  "mk-rodnikovaya-4a": {
+   "priceFrom": 19.5,
+   "priceAsOf": "октябрь 2026",
+   "priceSource": "Яндекс Недвижимость, лоты застройщика",
+   "completion": "II кв. 2025",
+   "class": "comfort"
+  },
+  "mk-svetlanova-11-k2": {
+   "priceFrom": 38.8,
+   "priceAsOf": "октябрь 2026",
+   "priceSource": "Яндекс Недвижимость, лоты застройщика",
+   "class": "business"
+  },
+  "mk-3-ya-pryadilnaya-vl-4": {
+   "priceFrom": 13.6,
+   "priceAsOf": "октябрь 2026",
+   "priceSource": "Яндекс Недвижимость, лоты застройщика",
+   "completion": "III кв. 2027",
+   "class": "comfort"
+  },
+  "mk-3-ya-pryadilnaya-z-u-10": {
+   "priceFrom": 14.2,
+   "priceAsOf": "октябрь 2026",
+   "priceSource": "Яндекс Недвижимость, лоты застройщика",
+   "completion": "II кв. 2027",
+   "class": "comfort"
+  },
+  "mk-3-ya-pryadilnaya-z-u-14": {
+   "completion": "IV кв. 2027",
+   "class": "comfort"
+  },
+  "mk-2-ya-frezernaya-z-u-6": {
+   "completion": "IV кв. 2026"
+  },
+  "mk-novocheremushkinskaya-z-u-41-1a": {
+   "completion": "III кв. 2027",
+   "class": "comfort"
+  },
+  "mk-bolshaya-cheremushkinskaya-z-u-26-2": {
+   "completion": "III кв. 2027",
+   "class": "comfort"
+  },
+  "mk-nikitinskaya-vl-21": {
+   "class": "comfort"
+  },
+  "mk-polyarnaya-z-u-16": {
+   "class": "comfort"
+  },
+  "mk-polyarnaya-3": {
+   "class": "comfort"
+  },
+  "mk-polyarnaya-4-k1": {
+   "class": "comfort"
+  },
+  "mk-sirenevyy-b-r-4-12a": {
+   "class": "business"
+  },
+  "mk-gorodskaya-12-14": {
+   "class": "comfort"
+  },
+  "mk-borovskiy-proezd-1": {
+   "class": "comfort"
+  },
+  "mk-checherskiy-pr-d-28": {
+   "class": "comfort"
+  },
+  "mk-remizova-11-k2": {
+   "class": "comfort"
+  },
+  "mk-garibaldi-26": {
+   "class": "comfort"
+  },
+  "mk-novocheremushkinskaya-56-3": {
+   "class": "comfort"
+  },
+  "mk-kedrova-16-k3": {
+   "class": "comfort"
+  },
+  "pik-signalnyy-16": {
+   "priceFrom": 19.6,
+   "priceAsOf": "октябрь 2026",
+   "priceSource": "каталог новостроек",
+   "class": "comfort"
+  },
+  "pik-polyarnaya-25": {
+   "class": "comfort"
+  },
+  "pik-yutanovo": {
+   "class": "comfort"
+  },
+  "pik-buninskie-luga": {
+   "class": "comfort"
+  },
+  "pik-grin-park": {
+   "class": "business"
+  },
+  "pik-rimskogo-korsakova-11": {
+   "class": "comfort"
   }
  }
 }

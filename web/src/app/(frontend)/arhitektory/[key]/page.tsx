@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import { FollowButton } from '@/lib/follow-button'
 import { notFound } from 'next/navigation'
 import { getPayload } from 'payload'
 import config from '@payload-config'
@@ -59,6 +60,7 @@ export default async function Bureau({ params }: { params: Promise<{ key: string
       <JsonLd data={ld} />
       <nav className="crumbs" aria-label="Путь"><Link href="/">Лента</Link><span>/</span><Link href="/arhitektory/">Архитекторы</Link><span>/</span><span>{b.name}</span></nav>
       <h1 className="page-h tt">{b.name}<span>{KIND_W[b.kind] || 'бюро'}</span></h1>
+      <FollowButton kind="bureau" id={b.key} label={b.name} hint="Новые проекты и события с участием бюро." />
       {b.aliases.length ? <p className="hello-sub">Встречается как: {b.aliases.slice(0, 8).join(', ')}</p> : null}
 
       <dl className="land-stats dev-stats">

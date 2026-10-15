@@ -1,0 +1,173 @@
+[
+ {
+  "slug": "badaevskiy",
+  "status": null,
+  "label": null,
+  "since": null,
+  "resolved_on": null,
+  "summary": null,
+  "facts": [],
+  "reason": "признаков проблемного проекта нет"
+ },
+ {
+  "slug": "vinogradovskie-bani",
+  "status": null,
+  "label": null,
+  "since": null,
+  "resolved_on": null,
+  "summary": null,
+  "facts": [],
+  "reason": "признаков проблемного проекта нет"
+ },
+ {
+  "slug": "soho-noho",
+  "status": null,
+  "label": null,
+  "since": null,
+  "resolved_on": null,
+  "summary": null,
+  "facts": [],
+  "reason": "не подтверждено открытыми источниками: дом введён, доделка отделки без признаков проблемного проекта; «Ночлежка» рядом — не про проект"
+ },
+ {
+  "slug": "omega-residence",
+  "status": null,
+  "label": null,
+  "since": null,
+  "resolved_on": null,
+  "summary": null,
+  "facts": [],
+  "reason": "признаков проблемного проекта нет"
+ },
+ {
+  "slug": "dubininskaya-39-41",
+  "status": null,
+  "label": null,
+  "since": null,
+  "resolved_on": null,
+  "summary": null,
+  "facts": [],
+  "reason": "офисный проект, перенос срока ввода без дольщиков; признаков проблемы нет"
+ },
+ {
+  "slug": "vilyuyskaya-3",
+  "status": null,
+  "label": null,
+  "since": null,
+  "resolved_on": null,
+  "summary": null,
+  "facts": [],
+  "reason": "признаков проблемного проекта нет"
+ },
+ {
+  "status": "resolved",
+  "label": "Долгострой на продажу",
+  "since": "2006",
+  "resolved_on": "2024-01",
+  "summary": "Комбинат газеты «Правда» (ОКН) после пожара 2006 года стоял в запустении и аварийном состоянии; Дом.РФ дважды выставлял его на аукцион, на втором старт цены снижен на 25% до 564,8 млн руб. В начале 2024 года у здания появился новый владелец, с июня 2024 года идут научно-исследовательские работы перед реставрацией.",
+  "facts": [
+   {
+    "date": "2023-03-28",
+    "text": "Дом.РФ повторно выставил здание комбината на аукцион, стартовая цена снижена с 756,6 до 564,8 млн руб.",
+    "source": "https://realty.rbc.ru/news/6422a38c9a794744b34ae317"
+   },
+   {
+    "date": "2024-06-01",
+    "text": "После пожара 2006 года здание в запустении; в начале 2024 года обрело нового владельца, в июне 2024 начаты НИР перед реставрацией",
+    "source": "https://www.mos.ru/news/item/139611073/"
+   }
+  ],
+  "reason": null,
+  "slug": "kombinat-gazety-pravda"
+ },
+ {
+  "slug": "five",
+  "status": null,
+  "label": null,
+  "since": null,
+  "resolved_on": null,
+  "summary": null,
+  "facts": [],
+  "reason": "признаков проблемного проекта нет"
+ },
+ {
+  "slug": "dubininskaya-33b",
+  "status": null,
+  "label": null,
+  "since": null,
+  "resolved_on": null,
+  "summary": null,
+  "facts": [],
+  "reason": "признаков проблемного проекта нет"
+ },
+ {
+  "slug": "milashenkova-2",
+  "status": null,
+  "label": null,
+  "since": null,
+  "resolved_on": null,
+  "summary": null,
+  "facts": [],
+  "reason": "признаков проблемного проекта нет"
+ },
+ {
+  "slug": "andropova-22",
+  "status": null,
+  "label": null,
+  "since": null,
+  "resolved_on": null,
+  "summary": null,
+  "facts": [],
+  "reason": "признаков проблемного проекта нет"
+ },
+ {
+  "slug": "s5",
+  "status": null,
+  "label": null,
+  "since": null,
+  "resolved_on": null,
+  "summary": null,
+  "facts": [],
+  "reason": "признаков проблемного проекта нет"
+ },
+ {
+  "slug": "mind",
+  "status": null,
+  "label": null,
+  "since": null,
+  "resolved_on": null,
+  "summary": null,
+  "facts": [],
+  "reason": "признаков проблемного проекта нет"
+ },
+ {
+  "slug": "tpu-minskaya",
+  "status": null,
+  "label": null,
+  "since": null,
+  "resolved_on": null,
+  "summary": null,
+  "facts": [],
+  "reason": "иск ТД «Сетуньская» — спор между компаниями без последствий для покупателей; участок куплен"
+ },
+ {
+  "slug": "domashniy",
+  "status": null,
+  "label": null,
+  "since": null,
+  "resolved_on": null,
+  "summary": null,
+  "facts": [],
+  "reason": "проблема не подтверждена: за пределами досье источников о банкротстве/остановке ПСН и передаче достройки не найдено (сдача 2-й очереди в 2020 подтверждена только отзывами)"
+ },
+ {
+  "slug": "2-ya-magistralnaya-18",
+  "status": null,
+  "label": null,
+  "since": null,
+  "resolved_on": null,
+  "summary": null,
+  "facts": [],
+  "reason": "признаков проблемного проекта нет"
+ }
+]

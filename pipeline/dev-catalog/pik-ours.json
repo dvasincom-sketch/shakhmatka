@@ -1,0 +1,866 @@
+[
+ {
+  "slug": "ilmenskiy-17",
+  "name": "Ильменский, 17",
+  "zu": "Ильменский, 17",
+  "aliases": [],
+  "stage": "sales",
+  "district": "zapadnoe-degunino"
+ },
+ {
+  "slug": "meshcherskiy-les",
+  "name": "Мещерский лес",
+  "zu": null,
+  "aliases": [
+   "Мещерский Лес",
+   "Мещера"
+  ],
+  "stage": "sales",
+  "district": "solntsevo"
+ },
+ {
+  "slug": "salarevo-park",
+  "name": "Саларьево парк",
+  "zu": null,
+  "aliases": [
+   "Саларьево Парк",
+   "участок 0,8 га в Саларьево",
+   "Саларьево"
+  ],
+  "stage": "sales",
+  "district": "moskovskiy"
+ },
+ {
+  "slug": "bolshaya-ochakovskaya-2",
+  "name": "Большая Очаковская, 2",
+  "zu": "Большая Очаковская, 2",
+  "aliases": [],
+  "stage": "sales",
+  "district": "ochakovo-matveevskoe"
+ },
+ {
+  "slug": "1-y-dubrovskiy-78-14",
+  "name": "1-й Дубровский, 78/14",
+  "zu": "1-й Дубровский, 78/14",
+  "aliases": [
+   "1-й Дубровский проезд, 78/14"
+  ],
+  "stage": "architecture",
+  "district": "yuzhnoportovyy"
+ },
+ {
+  "slug": "rustaveli-14",
+  "name": "Руставели, 14",
+  "zu": "Руставели, 14",
+  "aliases": [
+   "Останкинский молочный комбинат",
+   "Останкинский молочный завод",
+   "проект на Руставели"
+  ],
+  "stage": "sales",
+  "district": "ostankinskiy"
+ },
+ {
+  "slug": "salarevo",
+  "name": "Саларьево",
+  "zu": null,
+  "aliases": [
+   "апартаменты Самолёта в Саларьево"
+  ],
+  "stage": "sales",
+  "district": "moskovskiy"
+ },
+ {
+  "slug": "lyublinskiy-park",
+  "name": "Люблинский парк",
+  "zu": null,
+  "aliases": [
+   "Люблинский Парк"
+  ],
+  "stage": "sales",
+  "district": "lyublino"
+ },
+ {
+  "slug": "izmaylovskiy-les",
+  "name": "Измайловский лес",
+  "zu": null,
+  "aliases": [
+   "Измайловский Лес"
+  ],
+  "stage": "sales",
+  "district": null
+ },
+ {
+  "slug": "amurskaya-1",
+  "name": "Амурская, 1",
+  "zu": "Амурская, 1",
+  "aliases": [],
+  "stage": "concept",
+  "district": null
+ },
+ {
+  "slug": "amurskiy-park",
+  "name": "Амурский парк",
+  "zu": "Амурская, 2",
+  "aliases": [
+   "Амурский Парк",
+   "промзона Калошино",
+   "Левел Амурская"
+  ],
+  "stage": "sales",
+  "district": "golyanovo"
+ },
+ {
+  "slug": "irtyshskiy-park",
+  "name": "Иртышский парк",
+  "zu": "2-й Иртышский, 8",
+  "aliases": [
+   "Иртышский квартал",
+   "2-й Иртышский",
+   "2-й Иртышский, 6, 8"
+  ],
+  "stage": "sales",
+  "district": "golyanovo"
+ },
+ {
+  "slug": "krasnokazarmennaya-15",
+  "name": "Красноказарменная, 15",
+  "zu": "Красноказарменная, 15",
+  "aliases": [
+   "Красноказарменная ул., вл.15",
+   "Хлебозавод №12"
+  ],
+  "stage": "sales",
+  "district": "lefortovo"
+ },
+ {
+  "slug": "kolskaya-8",
+  "name": "Кольская, 8",
+  "zu": "Кольская, 8",
+  "aliases": [],
+  "stage": "sales",
+  "district": "sviblovo"
+ },
+ {
+  "slug": "era",
+  "name": "ERA",
+  "zu": "Дербеневская, 20",
+  "aliases": [
+   "Кожевники",
+   "Era",
+   "Эра",
+   "Дербеневка"
+  ],
+  "stage": "sales",
+  "district": "danilovskiy"
+ },
+ {
+  "slug": "holland-park",
+  "name": "Holland Park",
+  "zu": null,
+  "aliases": [
+   "Покровское",
+   "Тушинский Парк",
+   "Хохланд"
+  ],
+  "stage": "sales",
+  "district": "pokrovskoe-streshnevo"
+ },
+ {
+  "slug": "pik",
+  "name": "ПИК+",
+  "zu": "Плеханова, 11",
+  "aliases": [],
+  "stage": "sales",
+  "district": "perovo"
+ },
+ {
+  "slug": "novokhokhlovskaya-15",
+  "name": "Новохохловская, 15",
+  "zu": "Новохохловская, 15",
+  "aliases": [],
+  "stage": "sales",
+  "district": "nizhegorodskiy"
+ },
+ {
+  "slug": "volokolamskoe-shosse-24",
+  "name": "Волоколамское шоссе, 24",
+  "zu": "Волоколамское шоссе, 24",
+  "aliases": [
+   "Волоколамское 24",
+   "Моментс",
+   "1-й Красногорский, 3",
+   "Волоколамское, 24"
+  ],
+  "stage": "sales",
+  "district": "pokrovskoe-streshnevo"
+ },
+ {
+  "slug": "bolshaya-akademicheskaya-85",
+  "name": "Большая Академическая 85",
+  "zu": "3-й Нижнелихоборский, 1",
+  "aliases": [
+   "автокомбинат №3"
+  ],
+  "stage": "sales",
+  "district": "timiryazevskiy"
+ },
+ {
+  "slug": "serednevskiy-les",
+  "name": "Середневский лес",
+  "zu": null,
+  "aliases": [
+   "Середневский Лес",
+   "Мортон - Середнево",
+   "деревня Марьино"
+  ],
+  "stage": "sales",
+  "district": "vnukovskoe"
+ },
+ {
+  "slug": "tsnii-delfin",
+  "name": "ЦНИИ Дельфин",
+  "zu": "Озерная, 42-44",
+  "aliases": [
+   "Мичуринский парк"
+  ],
+  "stage": "architecture",
+  "district": "ochakovo-matveevskoe"
+ },
+ {
+  "slug": "mitinskiy-les",
+  "name": "Митинский лес",
+  "zu": null,
+  "aliases": [
+   "Мир Митино"
+  ],
+  "stage": "sales",
+  "district": "mitino"
+ },
+ {
+  "slug": "vtoroy-nagatinskiy",
+  "name": "Второй Нагатинский",
+  "zu": "2-й Нагатинский проезд, 2",
+  "aliases": [
+   "2-й Нагатинский, 6А"
+  ],
+  "stage": "sales",
+  "district": "nagatino-sadovniki"
+ },
+ {
+  "slug": "businovskiy-park",
+  "name": "Бусиновский парк",
+  "zu": "Ижорская, 6",
+  "aliases": [
+   "Бусиновский Парк",
+   "Московский трубозаготовительный комбинат"
+  ],
+  "stage": "sales",
+  "district": "zapadnoe-degunino"
+ },
+ {
+  "slug": "filit",
+  "name": "Филит",
+  "zu": "Барклая, 6",
+  "aliases": [
+   "Филевский парк"
+  ],
+  "stage": "sales",
+  "district": "filevskiy-park"
+ },
+ {
+  "slug": "kronshtadtskiy-9",
+  "name": "Кронштадтский, 9",
+  "zu": "Кронштадтский, 9",
+  "aliases": [
+   "КР9",
+   "новый продукт ПИК на Кронштадтском бульваре",
+   "Среда"
+  ],
+  "stage": "sales",
+  "district": "golovinskiy"
+ },
+ {
+  "slug": "kuskovskaya-12",
+  "name": "Кусковская, 12",
+  "zu": "Кусковская, 12",
+  "aliases": [
+   "овощебаза",
+   "Утренняя, 8А; Кусковская, 12"
+  ],
+  "stage": "sales",
+  "district": "novogireevo"
+ },
+ {
+  "slug": "narvin",
+  "name": "Нарвин",
+  "zu": "Кронштадтский, 14",
+  "aliases": [
+   "КР14",
+   "Кронштадтский бульвар, 14"
+  ],
+  "stage": "sales",
+  "district": "golovinskiy"
+ },
+ {
+  "slug": "rusich-kantemirovskiy",
+  "name": "РУСИЧ-Кантемировский",
+  "zu": "Кавказский бульвар, 51",
+  "aliases": [
+   "Русич Кантемировский",
+   "КБ51",
+   "Кавказский, 51"
+  ],
+  "stage": "sales",
+  "district": "tsaritsyno"
+ },
+ {
+  "slug": "perovskoe-2",
+  "name": "Перовское, 2",
+  "zu": "Перовское, 2",
+  "aliases": [
+   "Перовское",
+   "Перовское шоссе, 2"
+  ],
+  "stage": "sales",
+  "district": null
+ },
+ {
+  "slug": "odintsovo-1",
+  "name": "Одинцово-1",
+  "zu": null,
+  "aliases": [],
+  "stage": "sales",
+  "district": null
+ },
+ {
+  "slug": "dom-xxii",
+  "name": "Дом XXII",
+  "zu": "Погодинская, 22",
+  "aliases": [],
+  "stage": "sales",
+  "district": "khamovniki"
+ },
+ {
+  "slug": "matveevskiy-park",
+  "name": "Матвеевский парк",
+  "zu": null,
+  "aliases": [
+   "Матвеевский Парк"
+  ],
+  "stage": "sales",
+  "district": "ochakovo-matveevskoe"
+ },
+ {
+  "slug": "losinoostrovskiy-park",
+  "name": "Лосиноостровский парк",
+  "zu": null,
+  "aliases": [],
+  "stage": "sales",
+  "district": "metrogorodok"
+ },
+ {
+  "slug": "nikolskie-luga",
+  "name": "Никольские луга",
+  "zu": null,
+  "aliases": [
+   "Никольские Луга",
+   "ООО Териберский Берег"
+  ],
+  "stage": "sales",
+  "district": "shcherbinka"
+ },
+ {
+  "slug": "verkhnyaya-radishchevskaya-5",
+  "name": "Верхняя Радищевская, 5",
+  "zu": "Верхняя Радищевская, 5",
+  "aliases": [],
+  "stage": "concept",
+  "district": "taganskiy"
+ },
+ {
+  "slug": "ilinskie-luga",
+  "name": "Ильинские луга",
+  "zu": null,
+  "aliases": [
+   "Ильинские Луга",
+   "Космопорт",
+   "Новорижские кварталы"
+  ],
+  "stage": "sales",
+  "district": null
+ },
+ {
+  "slug": "zelenyy-park",
+  "name": "Зеленый парк",
+  "zu": null,
+  "aliases": [
+   "Зелёный парк"
+  ],
+  "stage": "sales",
+  "district": null
+ },
+ {
+  "slug": "polar",
+  "name": "Полар",
+  "zu": "Полярная, 39",
+  "aliases": [],
+  "stage": "sales",
+  "district": "yuzhnoe-medvedkovo"
+ },
+ {
+  "slug": "metrovagonmash",
+  "name": "Метровагонмаш",
+  "zu": null,
+  "aliases": [],
+  "stage": null,
+  "district": null
+ },
+ {
+  "slug": "pervyy-dubrovskiy",
+  "name": "Первый Дубровский",
+  "zu": "1-й Дубровский, 78",
+  "aliases": [],
+  "stage": "sales",
+  "district": "yuzhnoportovyy"
+ },
+ {
+  "slug": "otkrytyy-park",
+  "name": "Открытый парк",
+  "zu": null,
+  "aliases": [],
+  "stage": "sales",
+  "district": "metrogorodok"
+ },
+ {
+  "slug": "pik-lermontovskiy-54",
+  "name": "ПИК+",
+  "zu": "Лермонтовский, 54",
+  "aliases": [
+   "Лермонтовский проспект, 54"
+  ],
+  "stage": "sales",
+  "district": null
+ },
+ {
+  "slug": "yuzhnoportovaya-3-3a",
+  "name": "Южнопортовая, 3 / 3А",
+  "zu": "Южнопортовая, 3 / 3А",
+  "aliases": [
+   "завод Топаз",
+   "КБ Аметист",
+   "Южнопортовая, 3"
+  ],
+  "stage": "concept",
+  "district": "yuzhnoportovyy"
+ },
+ {
+  "slug": "krt-kurskaya",
+  "name": "КРТ Курская",
+  "zu": "Верхняя Сыромятническая, 7",
+  "aliases": [
+   "СЗ КРТ Курская"
+  ],
+  "stage": "land",
+  "district": "basmannyy"
+ },
+ {
+  "slug": "novoe-ochakovo",
+  "name": "Новое Очаково",
+  "zu": null,
+  "aliases": [
+   "Очаково парк",
+   "Матвеевский кластер"
+  ],
+  "stage": "sales",
+  "district": "ochakovo-matveevskoe"
+ },
+ {
+  "slug": "moskvoreche",
+  "name": "Москворечье",
+  "zu": "1-й Варшавский проезд, 1А",
+  "aliases": [
+   "1-й Варшавский, 1А, стр 1"
+  ],
+  "stage": "sales",
+  "district": "moskvoreche-saburovo"
+ },
+ {
+  "slug": "borets",
+  "name": "Борец",
+  "zu": null,
+  "aliases": [
+   "Шереметьевский"
+  ],
+  "stage": "architecture",
+  "district": "marina-roshcha"
+ },
+ {
+  "slug": "altufevskoe-53",
+  "name": "Алтуфьевское 53",
+  "zu": null,
+  "aliases": [],
+  "stage": "sales",
+  "district": "altufevskiy"
+ },
+ {
+  "slug": "tpu-mamyri",
+  "name": "ТПУ Мамыри",
+  "zu": null,
+  "aliases": [
+   "ООО Щиброво"
+  ],
+  "stage": "land",
+  "district": "moskovskiy"
+ },
+ {
+  "slug": "sreda-na-kutuzovskom",
+  "name": "Среда на Кутузовском",
+  "zu": "Ивана Франко",
+  "aliases": [
+   "Кутузовский квартал",
+   "Индиво",
+   "Кутузовский"
+  ],
+  "stage": "sales",
+  "district": "kuntsevo"
+ },
+ {
+  "slug": "krasnoselskaya-32-29",
+  "name": "Красносельская, 32/29",
+  "zu": "Красносельская, 32/29",
+  "aliases": [
+   "Ольховская, 29/32"
+  ],
+  "stage": "architecture",
+  "district": "basmannyy"
+ },
+ {
+  "slug": "lefortovo-park",
+  "name": "Лефортово парк",
+  "zu": null,
+  "aliases": [
+   "Лефортово Парк",
+   "Петр 1"
+  ],
+  "stage": null,
+  "district": "lefortovo"
+ },
+ {
+  "slug": "malaya-nikitskaya-27",
+  "name": "Малая Никитская, 27",
+  "zu": "Малая Никитская, 27",
+  "aliases": [
+   "Mono",
+   "MONO"
+  ],
+  "stage": "architecture",
+  "district": null
+ },
+ {
+  "slug": "2-y-paveletskiy-4-6",
+  "name": "2-й Павелецкий, 4/6",
+  "zu": "2-й Павелецкий, 4/6",
+  "aliases": [
+   "Хлебозавод №7",
+   "PAVE",
+   "2-й Павелецкий, 7",
+   "хлебозавод №7",
+   "2-й Павелецкий проезд, 4/6"
+  ],
+  "stage": "sales",
+  "district": "danilovskiy"
+ },
+ {
+  "slug": "polesskiy-16",
+  "name": "Полесский, 16",
+  "zu": "Полесский, 16",
+  "aliases": [],
+  "stage": "land",
+  "district": "shchukino"
+ },
+ {
+  "slug": "rubtsovsko-dvortsovaya-1-3",
+  "name": "Рубцовско-Дворцовая, 1/3",
+  "zu": "Рубцовско-Дворцовая, 1/3",
+  "aliases": [
+   "детская городская клиническая больница им. святого Владимира"
+  ],
+  "stage": "architecture",
+  "district": "sokolniki"
+ },
+ {
+  "slug": "bolshaya-filevskaya-1",
+  "name": "Большая Филёвская, 1",
+  "zu": "Большая Филёвская, 1",
+  "aliases": [],
+  "stage": "concept",
+  "district": "fili-davydkovo"
+ },
+ {
+  "slug": "yauza-park",
+  "name": "Яуза парк",
+  "zu": null,
+  "aliases": [],
+  "stage": "sales",
+  "district": null
+ },
+ {
+  "slug": "abramtsevskaya-37",
+  "name": "Абрамцевская, 37",
+  "zu": "Абрамцевская, 37",
+  "aliases": [
+   "Территория 2"
+  ],
+  "stage": "architecture",
+  "district": "lianozovo"
+ },
+ {
+  "slug": "krt-yuzhnyy-port-territoriya-4",
+  "name": "КРТ Южный порт, территория 4",
+  "zu": "Остаповский, 6 стр 2",
+  "aliases": [
+   "Остаповский, 6",
+   "Остаповский, 9",
+   "Остаповский, 10",
+   "Остаповский, 11",
+   "Остаповский, 16А"
+  ],
+  "stage": "land",
+  "district": "yuzhnoportovyy"
+ },
+ {
+  "slug": "sreda-na-yuzhnoportovoy",
+  "name": "Среда на Южнопортовой",
+  "zu": "Южнопортовая, 3/3А",
+  "aliases": [
+   "Южнопортовая, 3-15"
+  ],
+  "stage": "architecture",
+  "district": null
+ },
+ {
+  "slug": "yaroslavskiy-kvartal",
+  "name": "Ярославский квартал",
+  "zu": null,
+  "aliases": [
+   "Ярославский"
+  ],
+  "stage": "sales",
+  "district": null
+ },
+ {
+  "slug": "krestovskiy",
+  "name": "Крестовский",
+  "zu": "Проспект Мира, 82-92",
+  "aliases": [
+   "универмаг Крестовский",
+   "рынок у метро Рижская"
+  ],
+  "stage": "architecture",
+  "district": "meshchanskiy"
+ },
+ {
+  "slug": "aviamotornaya-55",
+  "name": "Авиамоторная, 55",
+  "zu": "Авиамоторная, 55",
+  "aliases": [],
+  "stage": "architecture",
+  "district": "lefortovo"
+ },
+ {
+  "slug": "krt-marshala-zhukova-17-63",
+  "name": "КРТ Маршала Жукова, 17-63",
+  "zu": "Маршала Жукова, 17-63",
+  "aliases": [
+   "проезд 607, 26к3",
+   "Маршала Прошлякова, 20/6",
+   "МКАД, 64 км",
+   "2-я Лыковская, 63",
+   "Проезд 607, 5к4",
+   "Маршала Воробьева, 12"
+  ],
+  "stage": "land",
+  "district": "strogino"
+ },
+ {
+  "slug": "volokolamskoe-32",
+  "name": "Волоколамское, 32",
+  "zu": "Волоколамское, 32",
+  "aliases": [
+   "Авиационная, 17-22",
+   "КРТ Волоколамское, 32"
+  ],
+  "stage": "sales",
+  "district": "shchukino"
+ },
+ {
+  "slug": "aviatsionnaya-17-22",
+  "name": "Авиационная, 17-22",
+  "zu": "Авиационная, 17-22",
+  "aliases": [],
+  "stage": "sales",
+  "district": "shchukino"
+ },
+ {
+  "slug": "volgogradskiy-130",
+  "name": "Волгоградский, 130",
+  "zu": "Волгоградский, 130",
+  "aliases": [],
+  "stage": "land",
+  "district": "kuzminki"
+ },
+ {
+  "slug": "yuzhnoportovyy-siti",
+  "name": "Южнопортовый Сити",
+  "zu": "Южнопортовая, 3-15",
+  "aliases": [
+   "Южнопортовая, 3/3А",
+   "Южнопортовая, 9",
+   "Южнопортовая, 5",
+   "Южнопортовая, 3 / 3А"
+  ],
+  "stage": "architecture",
+  "district": "yuzhnoportovyy"
+ },
+ {
+  "slug": "altufevskoe-53-24443",
+  "name": "Алтуфьевское, 53",
+  "zu": "Алтуфьевское, 53",
+  "aliases": [],
+  "stage": "architecture",
+  "district": "altufevskiy"
+ },
+ {
+  "slug": "omni-tower",
+  "name": "Omni_tower",
+  "zu": "Алексея Свиридова, 7",
+  "aliases": [
+   "Алексея Свиридова, 5А"
+  ],
+  "stage": "sales",
+  "district": "fili-davydkovo"
+ },
+ {
+  "slug": "oma",
+  "name": "ОМА",
+  "zu": null,
+  "aliases": [
+   "комьюнити-центр в Матвеевском кластере",
+   "центр встречи и общения в Матвеевском кластере"
+  ],
+  "stage": null,
+  "district": "ochakovo-matveevskoe"
+ },
+ {
+  "slug": "neverovskogo-9",
+  "name": "Неверовского, 9",
+  "zu": "Неверовского, 9",
+  "aliases": [],
+  "stage": "land",
+  "district": "dorogomilovo"
+ },
+ {
+  "slug": "buninskaya-naberezhnaya",
+  "name": "Бунинская набережная",
+  "zu": null,
+  "aliases": [
+   "Бунинские луга"
+  ],
+  "stage": "sales",
+  "district": "sosenskoe"
+ },
+ {
+  "slug": "2-y-kvartal-33-str-1",
+  "name": "2-й квартал, 33, стр. 1",
+  "zu": "2-й квартал, 33, стр. 1",
+  "aliases": [
+   "Квартал Капотня"
+  ],
+  "stage": "land",
+  "district": "kapotnya"
+ },
+ {
+  "slug": "krt-golyanovo",
+  "name": "КРТ Гольяново",
+  "zu": null,
+  "aliases": [],
+  "stage": "land",
+  "district": "golyanovo"
+ },
+ {
+  "slug": "kvartal-mit",
+  "name": "Квартал Мит",
+  "zu": null,
+  "aliases": [
+   "Митинский лес"
+  ],
+  "stage": "sales",
+  "district": "mitino"
+ },
+ {
+  "slug": "onezhskiy-val",
+  "name": "Онежский вал",
+  "zu": null,
+  "aliases": [
+   "КРТ «Дегунино-Лихоборы",
+   "КРТ Дегунино-Лихоборы"
+  ],
+  "stage": "sales",
+  "district": "zapadnoe-degunino"
+ },
+ {
+  "slug": "michurinskiy-park",
+  "name": "Мичуринский парк",
+  "zu": "Озерная, 42-46",
+  "aliases": [
+   "офисно-торговое здание у Мичуринского парка и Страны Озерной"
+  ],
+  "stage": "sales",
+  "district": "ochakovo-matveevskoe"
+ },
+ {
+  "slug": "strogino-360",
+  "name": "Строгино 360",
+  "zu": null,
+  "aliases": [
+   "Маршала Жукова, 17-63"
+  ],
+  "stage": "sales",
+  "district": "strogino"
+ },
+ {
+  "slug": "shkola-budushchego",
+  "name": "Школа будущего",
+  "zu": "2-я Фрунзенская, 7А",
+  "aliases": [],
+  "stage": "architecture",
+  "district": "khamovniki"
+ },
+ {
+  "slug": "shkola-budushchego-rubtsov-10-14",
+  "name": "Школа будущего",
+  "zu": "Рубцов, 10/14",
+  "aliases": [
+   "Чешихинский, 5"
+  ],
+  "stage": "architecture",
+  "district": "basmannyy"
+ },
+ {
+  "slug": "volokolamskoe-71-22",
+  "name": "Волоколамское, 71/22",
+  "zu": "Волоколамское, 71/22",
+  "aliases": [],
+  "stage": "architecture",
+  "district": null
+ },
+ {
+  "slug": "river-city",
+  "name": "River City",
+  "zu": "Ленинградское, 65",
+  "aliases": [],
+  "stage": "land",
+  "district": null
+ }
+]

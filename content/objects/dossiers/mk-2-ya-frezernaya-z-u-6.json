@@ -1,0 +1,24 @@
+{
+  "_readme": "Ручное досье (15.10.2026) по карточкам каталогов: https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/zhk-2-ya-frezernaya-ul-z-u-6-4010116/, https://realty.yandex.ru/moskva/kupit/novostrojka/z-moskovskie-kvartaly-4209811/",
+  "slug": "mk-2-ya-frezernaya-z-u-6",
+  "name": "2-я Фрезерная, з/у 6",
+  "zu": "2-я Фрезерная, з/у 6",
+  "aliases": [
+    "ЖК 2-я Фрезерная ул., з/у 6",
+    "Московские кварталы, 2-я Фрезерная, з/у 6"
+  ],
+  "region": "moscow",
+  "district": "nizhegorodskiy",
+  "stage": "permit",
+  "developer": "fond-renovatsii",
+  "summary": "Жилой дом Московского фонда реновации по адресу ул. 2-я Фрезерная, 6. По данным каталога — 126 квартир, 19 этажей. Каталоги относят дом к линейке «Московские кварталы»; продажа квартир самим фондом на дату проверки не подтверждена.",
+  "timeline": [
+    {
+      "date": "2026-10-15",
+      "dateLabel": "октябрь 2026",
+      "kind": "other",
+      "title": "Дом Фонда реновации значится в каталогах в линейке «Московские кварталы»",
+      "certainty": "fact"
+    }
+  ]
+}

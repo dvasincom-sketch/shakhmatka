@@ -25,7 +25,8 @@
     "media:restore": "cross-env NODE_OPTIONS=--no-deprecation payload run src/seed/media-restore.ts",
     "seed:photos": "cross-env NODE_OPTIONS=--no-deprecation payload run src/seed/object-photos.ts",
     "media:sizes": "cross-env NODE_OPTIONS=--no-deprecation payload run src/seed/media-sizes.ts",
-    "search:index": "cross-env NODE_OPTIONS=--no-deprecation payload run src/seed/search-index.ts"
+    "search:index": "cross-env NODE_OPTIONS=--no-deprecation payload run src/seed/search-index.ts",
+    "digest": "cross-env NODE_OPTIONS=--no-deprecation payload run src/seed/digest.ts"
   },
   "dependencies": {
     "@fontsource/onest": "^5.1.0",
@@ -36,12 +37,14 @@
     "@payloadcms/richtext-lexical": "3.90.2",
     "@payloadcms/storage-s3": "3.90.2",
     "@payloadcms/ui": "3.90.2",
+    "@types/nodemailer": "^7.0.2",
     "cross-env": "^7.0.3",
     "dotenv": "16.4.7",
     "graphql": "^16.8.1",
     "gray-matter": "4.0.3",
     "marked": "15.0.12",
     "next": "16.3.3",
+    "nodemailer": "^7.0.9",
     "payload": "3.90.2",
     "react": "19.2.6",
     "react-dom": "19.2.6",

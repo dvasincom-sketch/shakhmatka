@@ -1,0 +1,22 @@
+{
+  "_readme": "Ручное досье (15.10.2026) по карточкам каталогов: https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/zhk-polyarnaya-ul-z-u-16-4164628/, https://realty.yandex.ru/moskva/kupit/novostrojka/z-moskovskie-kvartaly-4209811/",
+  "slug": "mk-polyarnaya-z-u-16",
+  "name": "Полярная, з/у 16",
+  "zu": "Полярная, з/у 16",
+  "aliases": [
+    "ЖК Полярная ул., з/у 16",
+    "Московские кварталы, Полярная, з/у 16"
+  ],
+  "region": "moscow",
+  "stage": "completed",
+  "developer": "fond-renovatsii",
+  "summary": "Жилой дом Московского фонда реновации по адресу ул. Полярная, 16. По данным каталога — 422 квартиры, 24–25 этажей. Каталоги относят дом к линейке «Московские кварталы»; продажа квартир самим фондом на дату проверки не подтверждена.",
+  "timeline": [
+    {
+      "date": "2026-06-30",
+      "kind": "construction",
+      "title": "Дом введён в эксплуатацию (корпус по адресу Полярная, з/у 16)",
+      "certainty": "fact"
+    }
+  ]
+}

@@ -12,11 +12,15 @@ OVERRIDE = {
     'stantsiya-l': {'status': 'rescue', 'label': 'Банкротство застройщика'},   # Seven Suns банкрот, достраивают Capital Group и ПИК, дом не сдан
     'skazochnyy-les': {'status': 'rescue'},                                     # та же история Seven Suns, ввод не подтверждён
     'saltykovskaya-8': {'status': 'rescue', 'label': 'Банкротство застройщика'},  # «Косинское» банкрот с 2017, компенсационный дом не сдан
-    'tankovyy-4': {'status': None},                                             # запрет на 18 участков в Танковом проезде, но привязки к дому 4 в источнике нет
+    'tankovyy-4': {'status': None},
+    'neskuchnyy': {'status': 'rescue'},       # стройка встала в 2018, застройщик банкрот (2020), проект у городского Фонда защиты дольщиков с 2021, ввод не подтверждён
+    'domashniy': {'status': 'rescue', 'label': 'Банкротство застройщика'},  # ПСН («Прогресс-Н») в наблюдении с 2023, 5 из 10 корпусов введены, остальное достраивает «Самолёт»
+    'dmitriya-donskogo-17': {'status': None},  # продажа недостроя частному инвестору 2018 года, дальнейшее не подтверждено — уверенность низкая                                             # запрет на 18 участков в Танковом проезде, но привязки к дому 4 в источнике нет
 }
 rows = {}
 for f in sorted(glob.glob(os.path.join(ROOT, 'pipeline', 'trouble', 'out-*.json'))):
-    for r in json.load(open(f, encoding='utf-8')):
+    data = json.load(open(f, encoding='utf-8'))
+    for r in (data['objects'] if isinstance(data, dict) else data):
         r = {**r, **OVERRIDE.get(r['slug'], {})}
         if not r.get('status'): continue
         facts = sorted([x for x in r.get('facts') or [] if x.get('source')], key=lambda x: str(x['date']))

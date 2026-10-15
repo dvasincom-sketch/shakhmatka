@@ -1,0 +1,24 @@
+{
+  "_readme": "Ручное досье (15.10.2026) по карточкам каталогов: https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/zhk-svetlanova-ul-d-11-k-2-4075132/, https://zhk-svetlanova-ul-d-11-k-2-i.cian.ru/",
+  "slug": "mk-svetlanova-11-k2",
+  "name": "Светланова, 11 к2",
+  "zu": "Светланова, 11 к2",
+  "aliases": [
+    "ЖК Светланова ул., д. 11, к. 2",
+    "Московские кварталы, Светланова, 11 к2"
+  ],
+  "region": "moscow",
+  "district": "ramenki",
+  "stage": "sales",
+  "developer": "fond-renovatsii",
+  "summary": "Жилой дом Московского фонда реновации по адресу ул. Светланова, 11, к. 2. По данным каталога — 457 квартир, 15 этажей. Часть квартир фонд продаёт на открытом рынке под брендом «Московские кварталы».",
+  "timeline": [
+    {
+      "date": "2026-10-15",
+      "dateLabel": "октябрь 2026",
+      "kind": "sales",
+      "title": "Квартиры продаются на открытом рынке под брендом «Московские кварталы», от 38,8 млн ₽",
+      "certainty": "fact"
+    }
+  ]
+}
