@@ -1,7 +1,9 @@
+import { removeDoc, syncDoc } from '../lib/search'
 import type { CollectionConfig } from 'payload'
 
 export const Developers: CollectionConfig = {
   slug: 'developers',
+  hooks: { afterChange: [({ doc, req }) => { syncDoc(req.payload, 'developers', doc as never); return doc }], afterDelete: [({ id }) => removeDoc('developers', id)], },
   labels: { singular: 'Застройщик', plural: 'Застройщики' },
   access: { read: () => true },
   admin: { useAsTitle: 'name', defaultColumns: ['name', 'slug', 'updatedAt'] },

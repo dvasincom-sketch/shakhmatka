@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { SearchBox } from './search-box'
 import { NavLinks } from './nav'
 import { ruDate, typo } from './markdown'
 import type { Article, Developer, Media, Object as Obj } from '@/payload-types'
@@ -75,11 +76,7 @@ export function Header() {
       <div className="top-in wrap">
         <Wordmark />
         <NavLinks />
-        <form className="search-top" action="/poisk/" role="search">
-          <SearchIcon />
-          <label htmlFor="q-top" className="sr">Поиск</label>
-          <input id="q-top" name="q" type="search" placeholder="ЖК, адрес участка, застройщик" autoComplete="off" />
-        </form>
+        <SearchBox />
         <div className="top-tools">
           <Link className="round only-m" href="/poisk/" aria-label="Поиск"><SearchIcon /></Link>
           <ThemeToggle />

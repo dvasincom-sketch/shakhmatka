@@ -1,8 +1,10 @@
+import { removeDoc, syncDoc } from '../lib/search'
 import type { CollectionConfig } from 'payload'
 
 /** Словарь терминов: /slovar/<slug>/. На сайте только опубликованные; ссылки на неопубликованные термины показываются простым текстом. */
 export const Terms: CollectionConfig = {
   slug: 'terms',
+  hooks: { afterChange: [({ doc, req }) => { syncDoc(req.payload, 'terms', doc as never); return doc }], afterDelete: [({ id }) => removeDoc('terms', id)], },
   labels: { singular: 'Термин', plural: 'Словарь' },
   access: { read: () => true },
   admin: { useAsTitle: 'term', defaultColumns: ['term', 'full', 'published', 'slug'], group: 'Справочники' },

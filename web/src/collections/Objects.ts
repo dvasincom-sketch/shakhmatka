@@ -1,3 +1,4 @@
+import { removeDoc, syncDoc } from '../lib/search'
 import type { CollectionConfig } from 'payload'
 import { admins, staff } from '../access'
 
@@ -43,6 +44,7 @@ export const Objects: CollectionConfig = {
   access: { read: () => true, create: staff, update: staff, delete: admins },
   admin: { useAsTitle: 'name', defaultColumns: ['name', 'zu', 'stage', 'priceFrom', 'region'] },
   hooks: {
+    afterChange: [({ doc, req }) => { syncDoc(req.payload, 'objects', doc as never); return doc }], afterDelete: [({ id }) => removeDoc('objects', id)],
     beforeChange: [({ data, originalDoc }) => {
       const tl = (data.timeline ?? originalDoc?.timeline ?? []) as { date?: string; certainty?: string }[]
       const now = new Date().toISOString()

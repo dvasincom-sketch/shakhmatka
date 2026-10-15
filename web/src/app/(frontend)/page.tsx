@@ -62,12 +62,12 @@ export default async function Home() {
               <li key={a.id}><Link href={`/novosti/${a.slug}/`}><span className="ft">{TYPES[a.type]} · {ruDate(a.datePublished)}</span><span className="fh">{typo(a.title)}</span></Link></li>
             ))}
           </ol>
-          <div className="fact">
+          <Link className="fact" href="/novosti/klyuchevaya-stavka-za-pyat-let-novostroyki/">
             <p className="side-k">Ключевая ставка</p>
             <p className="num">14<span className="fr">%</span></p>
-            <p className="note">Банк России, решение 24 июля 2026 года. Следующее заседание — 23 октября.</p>
-            <a className="note link" href="https://www.cbr.ru/hd_base/KeyRate/" target="_blank" rel="noopener">cbr.ru</a>
-          </div>
+            <p className="note">Банк России сохранил ставку 11 сентября 2026 года. Следующее заседание — 23 октября.</p>
+            <span className="note link">Как ставка менялась за пять лет →</span>
+          </Link>
         </aside>
       </section>
 

@@ -24,7 +24,8 @@
     "seed:developers": "cross-env NODE_OPTIONS=--no-deprecation payload run src/seed/developers.ts",
     "media:restore": "cross-env NODE_OPTIONS=--no-deprecation payload run src/seed/media-restore.ts",
     "seed:photos": "cross-env NODE_OPTIONS=--no-deprecation payload run src/seed/object-photos.ts",
-    "media:sizes": "cross-env NODE_OPTIONS=--no-deprecation payload run src/seed/media-sizes.ts"
+    "media:sizes": "cross-env NODE_OPTIONS=--no-deprecation payload run src/seed/media-sizes.ts",
+    "search:index": "cross-env NODE_OPTIONS=--no-deprecation payload run src/seed/search-index.ts"
   },
   "dependencies": {
     "@fontsource/onest": "^5.1.0",

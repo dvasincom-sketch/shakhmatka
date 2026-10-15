@@ -5,11 +5,77 @@ import config from '@payload-config'
 import { ArticleCard, StageStrip, devName } from '@/lib/ui'
 import type { Developer } from '@/payload-types'
 import { pub } from '@/lib/public'
+import { search, searchEnabled } from '@/lib/search'
 
-export const metadata: Metadata = { title: 'Поиск', robots: { index: false, follow: true } }
+export const metadata: Metadata = { title: 'Поиск по новостройкам, адресам и застройщикам', robots: { index: false, follow: true } }
 
-export default async function Search({ searchParams }: { searchParams: Promise<{ q?: string }> }) {
-  const q = ((await searchParams).q || '').trim()
+const TABS = [
+  { v: '', label: 'Всё' }, { v: 'object', label: 'Объекты' }, { v: 'article', label: 'Материалы' },
+  { v: 'developer', label: 'Застройщики' }, { v: 'place', label: 'Районы' }, { v: 'term', label: 'Словарь' },
+]
+const TYPE_LABEL: Record<string, string> = { object: 'Объект', article: 'Материал', developer: 'Застройщик', place: 'Район', term: 'Термин' }
+const PER = 20
+// подсветка от Meilisearch: экранируем всё, кроме наших <mark>
+const hl = (s?: string) => (s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/&lt;mark>/g, '<mark>').replace(/&lt;\/mark>/g, '</mark>')
+
+export default async function Search({ searchParams }: { searchParams: Promise<{ q?: string; t?: string; p?: string }> }) {
+  const sp = await searchParams
+  const q = (sp.q || '').trim()
+  if (searchEnabled()) {
+    const t = TABS.some((x) => x.v === sp.t) ? sp.t || '' : ''
+    const page = Math.max(1, Number(sp.p) || 1)
+    const r = q ? await search(q, { type: t || undefined, limit: PER, offset: (page - 1) * PER, highlight: true }).catch(() => null) : null
+    if (r || !q) {
+      const all = q ? await search(q, { limit: 0 }).catch(() => null) : null
+      const counts = all?.facetDistribution?.type || {}
+      const total = r?.estimatedTotalHits ?? r?.totalHits ?? 0
+      const pages = Math.ceil(total / PER)
+      const href = (o: { t?: string; p?: number }) => `/poisk/?q=${encodeURIComponent(q)}${o.t ? `&t=${o.t}` : ''}${o.p && o.p > 1 ? `&p=${o.p}` : ''}`
+      return (
+        <>
+          <h1 className="page-h tt">Поиск<span>{q ? `«${q}»` : 'по объектам, адресам и застройщикам'}</span></h1>
+          <form className="search-big" action="/poisk/" role="search">
+            <label htmlFor="q" className="sr">Что найти</label>
+            <input id="q" name="q" type="search" defaultValue={q} placeholder="Например: Автозаводская, Силика, ПИК, КРТ Хапиловка" autoFocus />
+            {t ? <input type="hidden" name="t" value={t} /> : null}
+            <button className="btn" type="submit">Найти</button>
+          </form>
+          {q ? (
+            <>
+              <nav className="chips srch-tabs" aria-label="Тип результатов">
+                {TABS.map((x) => {
+                  const n = x.v ? counts[x.v] || 0 : Object.values(counts).reduce((a, b) => a + b, 0)
+                  return x.v && !n ? null : <Link key={x.v} className={`chip${t === x.v ? ' on' : ''}`} href={href({ t: x.v })}>{x.label}<i>{n}</i></Link>
+                })}
+              </nav>
+              {r && r.hits.length ? (
+                <ol className="srch-list card">
+                  {r.hits.map((h) => (
+                    <li key={h.id}>
+                      <Link href={h.url}>
+                        <span className="srch-t">{TYPE_LABEL[h.type]}{h.type === 'object' && h.stage ? <> · <StageStrip stage={h.stage} /></> : null}</span>
+                        <b dangerouslySetInnerHTML={{ __html: hl(h._formatted?.title || h.title) }} />
+                        {h.type === 'object' ? <small>{[h.developer, h.zu && h.zu !== h.title ? `ЗУ «${h.zu}»` : null, h.district].filter(Boolean).join(' · ')}</small> : null}
+                        {h._formatted?.subtitle || h._formatted?.text ? <p dangerouslySetInnerHTML={{ __html: hl(h._formatted?.subtitle || h._formatted?.text) }} /> : null}
+                      </Link>
+                    </li>
+                  ))}
+                </ol>
+              ) : <p className="empty">Ничего не нашли. Попробуйте адрес участка, старое название проекта или застройщика — объект в базе часто записан по ним.</p>}
+              {pages > 1 ? (
+                <nav className="pager" aria-label="Страницы">
+                  {page > 1 ? <Link href={href({ t, p: page - 1 })}>← Назад</Link> : <span />}
+                  <span>{page} из {pages}</span>
+                  {page < pages ? <Link href={href({ t, p: page + 1 })}>Дальше →</Link> : <span />}
+                </nav>
+              ) : null}
+            </>
+          ) : null}
+        </>
+      )
+    }
+  }
+  // запасной поиск по базе — если Meilisearch не подключён или недоступен
   const payload = await getPayload({ config })
   const objs = q ? (await payload.find({ collection: 'objects', depth: 1, limit: 20, where: { or: [{ name: { like: q } }, { zu: { like: q } }, { 'aliases.value': { like: q } }] } })).docs : []
   const devs = q ? (await payload.find({ collection: 'developers', limit: 20, where: { name: { like: q } } })).docs : []

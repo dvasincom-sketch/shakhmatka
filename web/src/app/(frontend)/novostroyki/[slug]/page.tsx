@@ -48,6 +48,9 @@ export default async function LandingPage({ params }: { params: Promise<{ slug: 
     ...(l.mentions || []).map((m) => ({ body: { like: m } })),
     ...(l.articleRegion ? [{ region: { equals: l.articleRegion } }] : []),
   ]
+  // материалы о самом районе (серия «Районы»: история, парки) — по метке темы rayon-<ключ района>
+  const districtKey = l.group === 'district' ? l.slug : undefined
+  const stories = districtKey ? (await payload.find({ collection: 'articles', where: pub({ 'topics.value': { equals: `rayon-${districtKey}` } }), sort: '-datePublished', limit: 6, depth: 1 })).docs : []
   const arts = or.length ? (await payload.find({ collection: 'articles', where: pub({ or }), sort: '-datePublished', limit: 12, depth: 1 })).docs : []
   const img = (id: number) => arts.find((a) => (a.objects || []).some((o) => (typeof o === 'object' ? o.id : o) === id) && a.heroImage)?.heroImage as Media | undefined
   const { cheapest, priced, soonest } = stats(objs)
@@ -106,6 +109,13 @@ export default async function LandingPage({ params }: { params: Promise<{ slug: 
           <div className="empty card"><p>Таких проектов в базе пока нет. Каталог пополняется с каждым проверенным материалом.</p><Link className="btn ghost" href="/obekty/">Все объекты</Link></div>
         )}
       </section>
+      ) : null}
+
+      {stories.length ? (
+        <section className="sec" aria-labelledby="h-stories">
+          <div className="sec-h"><h2 id="h-stories" className="tt">О районе<span>история, парки и скверы</span></h2></div>
+          <div className="a-grid">{stories.map((a) => <ArticleCard key={a.id} a={a} />)}</div>
+        </section>
       ) : null}
 
       {arts.length ? (

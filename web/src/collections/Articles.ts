@@ -1,3 +1,4 @@
+import { removeDoc, syncDoc } from '../lib/search'
 import type { CollectionConfig } from 'payload'
 import { brokenReport, buildLinkIndex, findBroken } from '../lib/links'
 
@@ -19,6 +20,7 @@ export const Articles: CollectionConfig = {
     preview: (doc) => (doc?.slug ? `/novosti/${doc.slug}` : null),
   },
   hooks: {
+    afterChange: [({ doc, req }) => { syncDoc(req.payload, 'articles', doc as never); return doc }], afterDelete: [({ id }) => removeDoc('articles', id)],
     // При каждом сохранении проверяем внутренние ссылки. Сохранение не блокируем: на сайте битая ссылка
     // покажется простым текстом и оживёт сама, когда появится страница (например, термин в словаре).
     beforeChange: [

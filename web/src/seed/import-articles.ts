@@ -22,7 +22,7 @@ const iso = (v: unknown) => (v ? new Date(String(v instanceof Date ? v.toISOStri
 async function run() {
   const payload = await initPayload()
   const dir = path.resolve(process.cwd(), process.env.CONTENT_DIR || '../content/articles')
-  const files = fs.readdirSync(dir).filter((f) => /^(\d+|signaly-\d{4}-\d{2})-.+\.md$/.test(f)).sort()
+  const files = fs.readdirSync(dir).filter((f) => /^(\d+|(signaly|obzor|rayon)-\d{4}-\d{2})-.+\.md$/.test(f)).sort()
   payload.logger.info(`Импорт из ${dir}: ${files.length} файлов`)
 
   const upsert = async (collection: 'developers' | 'objects' | 'articles', slug: string, data: Record<string, unknown>): Promise<{ id: number | string }> => {
@@ -101,7 +101,7 @@ async function run() {
       region: fm.region,
       objects: objIds,
       developers: devIds,
-      topics: (fm.topics || []).map((value: string) => ({ value })),
+      topics: [...(fm.topics || []), ...(fm.places || []).map((p: string) => `rayon-${p}`)].map((value: string) => ({ value })), // places: материалы серии о районе
       sourceNoteId: fm.source?.id,
       metaTitle: fm.seo?.title,
       metaDescription: fm.seo?.description,
