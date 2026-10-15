@@ -11,9 +11,10 @@
   "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/s-kluchami/",
   "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/s-kluchami/?page=2",
   "https://www.mirkvartir.ru/novostroyki/chernyakhovsky-19/",
-  "https://www.novostroy-m.ru/kompanii/pao_pikspetsializirovannyy_zastroyschik"
+  "https://www.novostroy-m.ru/kompanii/pao_pikspetsializirovannyy_zastroyschik",
+  "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES"
  ],
- "total_in_catalog": 45,
+ "total_in_catalog": 106,
  "projects": [
   {
    "name": "Зелёный парк",
@@ -810,6 +811,654 @@
    ],
    "notes": "Низкая достоверность: ЖК назван в вакансии ПИК-Комфорт (эксплуатация дома), номер дома взят из нашей базы по названию. Год сдачи неизвестен; стадия completed - вывод из факта эксплуатации. Проверить по каталогу.",
    "name": "Волоколамское 24"
+  },
+  {
+   "name": "Мосфильмовская",
+   "address": "Москва, Мосфильмовская ул., 74Б",
+   "zu": null,
+   "district": "ramenki",
+   "stage": "completed",
+   "completion": null,
+   "class": "Бизнес",
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES"
+   ],
+   "yandex_site_id": "27100",
+   "notes": "Яндекс Недвижимость, раздел застройщика ПИК в Москве (с завершёнными проектами), 15.10.2026: статус «Сдан». Год сдачи в каталоге не указан."
+  },
+  {
+   "name": "Большое Кусково",
+   "address": "Москва, ул. Перовская",
+   "zu": null,
+   "district": null,
+   "stage": "completed",
+   "completion": null,
+   "class": "Элитный",
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES"
+   ],
+   "yandex_site_id": "62675",
+   "notes": "Яндекс Недвижимость, раздел застройщика ПИК в Москве (с завершёнными проектами), 15.10.2026: статус «Сдан». Год сдачи в каталоге не указан."
+  },
+  {
+   "name": "Мироновский",
+   "address": "Москва, ул. Мироновская, 46 и 46, к. 1",
+   "zu": null,
+   "district": "sokolinaya-gora",
+   "stage": "completed",
+   "completion": null,
+   "class": "Эконом",
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES"
+   ],
+   "yandex_site_id": "63973",
+   "notes": "Яндекс Недвижимость, раздел застройщика ПИК в Москве (с завершёнными проектами), 15.10.2026: статус «Сдан». Год сдачи в каталоге не указан."
+  },
+  {
+   "name": "Английский Квартал",
+   "address": "Москва, ул. Мытная, 7, стр. 1, 2",
+   "zu": null,
+   "district": "yakimanka",
+   "stage": "completed",
+   "completion": null,
+   "class": "Элитный",
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES"
+   ],
+   "yandex_site_id": "64084",
+   "notes": "Яндекс Недвижимость, раздел застройщика ПИК в Москве (с завершёнными проектами), 15.10.2026: статус «Сдан». Год сдачи в каталоге не указан."
+  },
+  {
+   "name": "Мичуринский",
+   "address": "Москва, ул. Мосфильмовская / ул. Столетова",
+   "zu": null,
+   "district": "ramenki",
+   "stage": "completed",
+   "completion": null,
+   "class": "Бизнес",
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES"
+   ],
+   "yandex_site_id": "64133",
+   "notes": "Яндекс Недвижимость, раздел застройщика ПИК в Москве (с завершёнными проектами), 15.10.2026: статус «Сдан». Год сдачи в каталоге не указан."
+  },
+  {
+   "name": "Солнцево Парк",
+   "address": "Москва, мкр. Солнцево-Парк, ул. Летчика Грицевца",
+   "zu": null,
+   "district": null,
+   "stage": "completed",
+   "completion": null,
+   "class": "Комфорт",
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES"
+   ],
+   "yandex_site_id": "69867",
+   "notes": "Яндекс Недвижимость, раздел застройщика ПИК в Москве (с завершёнными проектами), 15.10.2026: статус «Сдан». Год сдачи в каталоге не указан."
+  },
+  {
+   "name": "Афанасьевский",
+   "address": "Москва, Большой Афанасьевский пер., 28",
+   "zu": null,
+   "district": "arbat",
+   "stage": "completed",
+   "completion": null,
+   "class": "Элитный",
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES"
+   ],
+   "yandex_site_id": "83738",
+   "notes": "Яндекс Недвижимость, раздел застройщика ПИК в Москве (с завершёнными проектами), 15.10.2026: статус «Сдан». Год сдачи в каталоге не указан."
+  },
+  {
+   "name": "Теплый край",
+   "address": "Москва, ул. Академика Виноградова",
+   "zu": null,
+   "district": "teplyy-stan",
+   "stage": "completed",
+   "completion": null,
+   "class": "Бизнес",
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES"
+   ],
+   "yandex_site_id": "85327",
+   "notes": "Яндекс Недвижимость, раздел застройщика ПИК в Москве (с завершёнными проектами), 15.10.2026: статус «Сдан». Год сдачи в каталоге не указан."
+  },
+  {
+   "name": "Бунинский",
+   "address": "Москва, ул. Александры Монаховой",
+   "zu": null,
+   "district": "sosenskoe",
+   "stage": "completed",
+   "completion": null,
+   "class": "Эконом",
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES"
+   ],
+   "yandex_site_id": "102904",
+   "notes": "Яндекс Недвижимость, раздел застройщика ПИК в Москве (с завершёнными проектами), 15.10.2026: статус «Сдан». Год сдачи в каталоге не указан."
+  },
+  {
+   "name": "Новомосковский",
+   "address": "Щербинка, квартал Южный",
+   "zu": null,
+   "district": "shcherbinka",
+   "stage": "completed",
+   "completion": null,
+   "class": "Эконом",
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES"
+   ],
+   "yandex_site_id": "103555",
+   "notes": "Яндекс Недвижимость, раздел застройщика ПИК в Москве (с завершёнными проектами), 15.10.2026: статус «Сдан». Год сдачи в каталоге не указан."
+  },
+  {
+   "name": "Северный",
+   "address": "Москва, Северный район, СВАО, 2-й мкр.",
+   "zu": null,
+   "district": "severnyy",
+   "stage": "completed",
+   "completion": null,
+   "class": "Комфорт",
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES"
+   ],
+   "yandex_site_id": "107102",
+   "notes": "Яндекс Недвижимость, раздел застройщика ПИК в Москве (с завершёнными проектами), 15.10.2026: статус «Сдан». Год сдачи в каталоге не указан."
+  },
+  {
+   "name": "Жемчужина Зеленограда",
+   "address": "Зеленоград, пр. Георгиевский",
+   "zu": null,
+   "district": null,
+   "stage": "completed",
+   "completion": null,
+   "class": "Комфорт",
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES"
+   ],
+   "yandex_site_id": "119393",
+   "notes": "Яндекс Недвижимость, раздел застройщика ПИК в Москве (с завершёнными проектами), 15.10.2026: статус «Сдан». Год сдачи в каталоге не указан."
+  },
+  {
+   "name": "Соколиная Гора",
+   "address": "Москва, пр. Буденного, 26, к. 1-2",
+   "zu": null,
+   "district": "sokolinaya-gora",
+   "stage": "completed",
+   "completion": null,
+   "class": "Бизнес",
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES"
+   ],
+   "yandex_site_id": "173193",
+   "notes": "Яндекс Недвижимость, раздел застройщика ПИК в Москве (с завершёнными проектами), 15.10.2026: статус «Сдан». Год сдачи в каталоге не указан."
+  },
+  {
+   "name": "Ярцевская 24",
+   "address": "Москва, ул. Ярцевская, 24, к. 1, 2",
+   "zu": null,
+   "district": "kuntsevo",
+   "stage": "completed",
+   "completion": null,
+   "class": "Комфорт",
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES"
+   ],
+   "yandex_site_id": "181541",
+   "notes": "Яндекс Недвижимость, раздел застройщика ПИК в Москве (с завершёнными проектами), 15.10.2026: статус «Сдан». Год сдачи в каталоге не указан."
+  },
+  {
+   "name": "Ельнинская 14Б",
+   "address": "Москва, ул. Ельнинская, 14, к. 1-3",
+   "zu": null,
+   "district": "kuntsevo",
+   "stage": "completed",
+   "completion": null,
+   "class": "Эконом",
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES"
+   ],
+   "yandex_site_id": "182438",
+   "notes": "Яндекс Недвижимость, раздел застройщика ПИК в Москве (с завершёнными проектами), 15.10.2026: статус «Сдан». Год сдачи в каталоге не указан."
+  },
+  {
+   "name": "Пётр I",
+   "address": "Москва, ул. Красноказарменная, 14А, к. 2",
+   "zu": null,
+   "district": "lefortovo",
+   "stage": "completed",
+   "completion": null,
+   "class": "Бизнес",
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES"
+   ],
+   "yandex_site_id": "188812",
+   "notes": "Яндекс Недвижимость, раздел застройщика ПИК в Москве (с завершёнными проектами), 15.10.2026: статус «Сдан». Год сдачи в каталоге не указан."
+  },
+  {
+   "name": "Вандер Парк",
+   "address": "Москва, Рублёвское ш., 101",
+   "zu": null,
+   "district": null,
+   "stage": "completed",
+   "completion": null,
+   "class": "Бизнес",
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES"
+   ],
+   "yandex_site_id": "189594",
+   "notes": "Яндекс Недвижимость, раздел застройщика ПИК в Москве (с завершёнными проектами), 15.10.2026: статус «Сдан». Год сдачи в каталоге не указан."
+  },
+  {
+   "name": "Столичные поляны",
+   "address": "Москва, ул. Поляны, 5А, к. 1-5",
+   "zu": null,
+   "district": "yuzhnoe-butovo",
+   "stage": "completed",
+   "completion": null,
+   "class": "Комфорт",
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES"
+   ],
+   "yandex_site_id": "209321",
+   "notes": "Яндекс Недвижимость, раздел застройщика ПИК в Москве (с завершёнными проектами), 15.10.2026: статус «Сдан». Год сдачи в каталоге не указан."
+  },
+  {
+   "name": "Влюблино",
+   "address": "Москва, ул. Цимлянская",
+   "zu": null,
+   "district": "lyublino",
+   "stage": "completed",
+   "completion": null,
+   "class": "Комфорт",
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES"
+   ],
+   "yandex_site_id": "215092",
+   "notes": "Яндекс Недвижимость, раздел застройщика ПИК в Москве (с завершёнными проектами), 15.10.2026: статус «Сдан». Год сдачи в каталоге не указан."
+  },
+  {
+   "name": "Дом на Пресне",
+   "address": "Москва, Шмитовский проезд, 20",
+   "zu": null,
+   "district": "presnenskiy",
+   "stage": "completed",
+   "completion": null,
+   "class": "Бизнес",
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES"
+   ],
+   "yandex_site_id": "223200",
+   "notes": "Яндекс Недвижимость, раздел застройщика ПИК в Москве (с завершёнными проектами), 15.10.2026: статус «Сдан». Год сдачи в каталоге не указан."
+  },
+  {
+   "name": "Мякинино Парк",
+   "address": "Москва, ЗАО, Новорижское ш., вблизи Мякининской поймы",
+   "zu": null,
+   "district": null,
+   "stage": "completed",
+   "completion": null,
+   "class": "Комфорт",
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES"
+   ],
+   "yandex_site_id": "268486",
+   "notes": "Яндекс Недвижимость, раздел застройщика ПИК в Москве (с завершёнными проектами), 15.10.2026: статус «Сдан». Год сдачи в каталоге не указан."
+  },
+  {
+   "name": "Вавилова 4",
+   "address": "Москва, ул. Вавилова, 4",
+   "zu": null,
+   "district": "donskoy",
+   "stage": "completed",
+   "completion": null,
+   "class": "Бизнес",
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES"
+   ],
+   "yandex_site_id": "316734",
+   "notes": "Яндекс Недвижимость, раздел застройщика ПИК в Москве (с завершёнными проектами), 15.10.2026: статус «Сдан». Год сдачи в каталоге не указан."
+  },
+  {
+   "name": "Аннино парк",
+   "address": "Москва, Варшавское ш., 141А, к. 1-5",
+   "zu": null,
+   "district": "chertanovo-yuzhnoe",
+   "stage": "completed",
+   "completion": null,
+   "class": "Комфорт",
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES"
+   ],
+   "yandex_site_id": "382224",
+   "notes": "Яндекс Недвижимость, раздел застройщика ПИК в Москве (с завершёнными проектами), 15.10.2026: статус «Сдан». Год сдачи в каталоге не указан."
+  },
+  {
+   "name": "Пресненский вал 21",
+   "address": "Москва, ул. Пресненский Вал, 21",
+   "zu": null,
+   "district": "presnenskiy",
+   "stage": "completed",
+   "completion": null,
+   "class": "Бизнес",
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES"
+   ],
+   "yandex_site_id": "393246",
+   "notes": "Яндекс Недвижимость, раздел застройщика ПИК в Москве (с завершёнными проектами), 15.10.2026: статус «Сдан». Год сдачи в каталоге не указан."
+  },
+  {
+   "name": "Аннинский",
+   "address": "Москва, Варшавское ш., 160, к. 1-3",
+   "zu": null,
+   "district": null,
+   "stage": "completed",
+   "completion": null,
+   "class": "Комфорт",
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES"
+   ],
+   "yandex_site_id": "397075",
+   "notes": "Яндекс Недвижимость, раздел застройщика ПИК в Москве (с завершёнными проектами), 15.10.2026: статус «Сдан». Год сдачи в каталоге не указан."
+  },
+  {
+   "name": "Западный порт",
+   "address": "Москва, ул. Заречная, вл. 2/1",
+   "zu": null,
+   "district": "fili-davydkovo",
+   "stage": "completed",
+   "completion": null,
+   "class": "Бизнес",
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES"
+   ],
+   "yandex_site_id": "518323",
+   "notes": "Яндекс Недвижимость, раздел застройщика ПИК в Москве (с завершёнными проектами), 15.10.2026: статус «Сдан». Год сдачи в каталоге не указан."
+  },
+  {
+   "name": "Академика Павлова",
+   "address": "Москва, ул. Академика Павлова",
+   "zu": null,
+   "district": "kuntsevo",
+   "stage": "completed",
+   "completion": null,
+   "class": "Комфорт",
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES"
+   ],
+   "yandex_site_id": "699064",
+   "notes": "Яндекс Недвижимость, раздел застройщика ПИК в Москве (с завершёнными проектами), 15.10.2026: статус «Сдан». Год сдачи в каталоге не указан."
+  },
+  {
+   "name": "Ясеневая 14",
+   "address": "Москва, ул. Ясеневая, 14",
+   "zu": null,
+   "district": null,
+   "stage": "completed",
+   "completion": null,
+   "class": "Комфорт",
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES"
+   ],
+   "yandex_site_id": "746078",
+   "notes": "Яндекс Недвижимость, раздел застройщика ПИК в Москве (с завершёнными проектами), 15.10.2026: статус «Сдан». Год сдачи в каталоге не указан."
+  },
+  {
+   "name": "Измайловский 11",
+   "address": "Москва, проезд Измайловский, 5А",
+   "zu": null,
+   "district": "izmaylovo",
+   "stage": "completed",
+   "completion": null,
+   "class": "Комфорт",
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES"
+   ],
+   "yandex_site_id": "1669177",
+   "notes": "Яндекс Недвижимость, раздел застройщика ПИК в Москве (с завершёнными проектами), 15.10.2026: статус «Сдан». Год сдачи в каталоге не указан."
+  },
+  {
+   "name": "Михайловский парк",
+   "address": "Москва, ул. 2-я Институтская / ул. Михайлова",
+   "zu": null,
+   "district": "ryazanskiy",
+   "stage": "completed",
+   "completion": null,
+   "class": "Комфорт",
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES"
+   ],
+   "yandex_site_id": "1686421",
+   "notes": "Яндекс Недвижимость, раздел застройщика ПИК в Москве (с завершёнными проектами), 15.10.2026: статус «Сдан». Год сдачи в каталоге не указан."
+  },
+  {
+   "name": "Дмитровский парк",
+   "address": "Москва, ул. Лобненская",
+   "zu": null,
+   "district": "dmitrovskiy",
+   "stage": "completed",
+   "completion": null,
+   "class": "Комфорт",
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES"
+   ],
+   "yandex_site_id": "1761129",
+   "notes": "Яндекс Недвижимость, раздел застройщика ПИК в Москве (с завершёнными проектами), 15.10.2026: статус «Сдан». Год сдачи в каталоге не указан."
+  },
+  {
+   "name": "Молодогвардейская 36",
+   "address": "Москва, ул. Маршала Сергеева, 3",
+   "zu": null,
+   "district": "kuntsevo",
+   "stage": "completed",
+   "completion": null,
+   "class": "Комфорт",
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES"
+   ],
+   "yandex_site_id": "1924672",
+   "notes": "Яндекс Недвижимость, раздел застройщика ПИК в Москве (с завершёнными проектами), 15.10.2026: статус «Сдан». Год сдачи в каталоге не указан."
+  },
+  {
+   "name": "Просторная 7",
+   "address": "Москва, ул. Просторная, 7",
+   "zu": null,
+   "district": "bogorodskoe",
+   "stage": "completed",
+   "completion": null,
+   "class": "Комфорт",
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES"
+   ],
+   "yandex_site_id": "2106945",
+   "notes": "Яндекс Недвижимость, раздел застройщика ПИК в Москве (с завершёнными проектами), 15.10.2026: статус «Сдан». Год сдачи в каталоге не указан."
+  },
+  {
+   "name": "Сокольнический вал 1",
+   "address": "Москва, ул. Сокольнический Вал, 1Д",
+   "zu": null,
+   "district": "sokolniki",
+   "stage": "completed",
+   "completion": null,
+   "class": "Комфорт",
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES"
+   ],
+   "yandex_site_id": "2646215",
+   "notes": "Яндекс Недвижимость, раздел застройщика ПИК в Москве (с завершёнными проектами), 15.10.2026: статус «Сдан». Год сдачи в каталоге не указан."
+  },
+  {
+   "name": "Вангарден",
+   "address": "Москва, ш. Очаковское, 9А",
+   "zu": null,
+   "district": "ochakovo-matveevskoe",
+   "stage": "completed",
+   "completion": null,
+   "class": "Бизнес",
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES"
+   ],
+   "yandex_site_id": "2827771",
+   "notes": "Яндекс Недвижимость, раздел застройщика ПИК в Москве (с завершёнными проектами), 15.10.2026: статус «Сдан». Год сдачи в каталоге не указан."
+  },
+  {
+   "name": "Юнино",
+   "address": "Москва, ул. Мостотреста",
+   "zu": null,
+   "district": null,
+   "stage": "completed",
+   "completion": null,
+   "class": "Комфорт",
+   "buildings": null,
+   "price_from_mln": null,
+   "price_as_of": null,
+   "our_slug": null,
+   "sources": [
+    "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES"
+   ],
+   "yandex_site_id": "3235998",
+   "notes": "Яндекс Недвижимость, раздел застройщика ПИК в Москве (с завершёнными проектами), 15.10.2026: статус «Сдан». Год сдачи в каталоге не указан."
   }
  ],
  "excluded_not_moscow_or_unverified": [
@@ -842,7 +1491,7 @@
    "reason": "есть в нашей базе (yaroslavskiy-kvartal); в московский список Яндекса не входит, регион не подтверждён"
   }
  ],
- "coverage_note": "Каталоги отдали только ЖК с идущими продажами и часть сданных (Яндекс: 35 ЖК в Москве; novostroy-m заявляет 133, Яндекс - 129 ЖК за всё время). Полный список сданных проектов 2010-х недоступен: страницы novostroy-m /objects, novostroy.ru и pik.ru не отдают список через WebFetch. Портфель неполный, скорее всего пропущены десятки старых сданных ЖК. Второй проход (сданные): добавлено 7 ЖК; полный список старых сданных проектов по-прежнему недоступен (novostroy.ru закрыт прокси, pik.ru и novostroy-m /objects отдают пустую выдачу).",
+ "coverage_note": "Каталоги отдали только ЖК с идущими продажами и часть сданных (Яндекс: 35 ЖК в Москве; novostroy-m заявляет 133, Яндекс - 129 ЖК за всё время). Полный список сданных проектов 2010-х недоступен: страницы novostroy-m /objects, novostroy.ru и pik.ru не отдают список через WebFetch. Портфель неполный, скорее всего пропущены десятки старых сданных ЖК. Второй проход (сданные): добавлено 7 ЖК; полный список старых сданных проектов по-прежнему недоступен (novostroy.ru закрыт прокси, pik.ru и novostroy-m /objects отдают пустую выдачу). | 15.10.2026: сверено с полным списком ПИК в Москве на Яндекс Недвижимости (106 ЖК, из них 90 в Москве; 53 уже были у нас, добавлено 37 сданных).",
  "unverified_completed_candidates": [
   {
    "name": "Дом на Пресне",

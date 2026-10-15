@@ -40,5 +40,229 @@
   "basis": "catalog",
   "source": "https://www.novostroy-m.ru/baza/jk_rimskogokorsakova_11",
   "evidence": "класс в каталоге: Комфорт"
+ },
+ {
+  "slug": "pik-mosfilmovskaya",
+  "class": "business",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES",
+  "evidence": "класс в каталоге: Бизнес"
+ },
+ {
+  "slug": "pik-bolshoe-kuskovo",
+  "class": "deluxe",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES",
+  "evidence": "класс в каталоге: Элитный"
+ },
+ {
+  "slug": "pik-angliyskiy-kvartal",
+  "class": "deluxe",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES",
+  "evidence": "класс в каталоге: Элитный"
+ },
+ {
+  "slug": "pik-michurinskiy",
+  "class": "business",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES",
+  "evidence": "класс в каталоге: Бизнес"
+ },
+ {
+  "slug": "pik-solntsevo-park",
+  "class": "comfort",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES",
+  "evidence": "класс в каталоге: Комфорт"
+ },
+ {
+  "slug": "pik-afanasevskiy",
+  "class": "deluxe",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES",
+  "evidence": "класс в каталоге: Элитный"
+ },
+ {
+  "slug": "pik-teplyy-kray",
+  "class": "business",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES",
+  "evidence": "класс в каталоге: Бизнес"
+ },
+ {
+  "slug": "pik-severnyy",
+  "class": "comfort",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES",
+  "evidence": "класс в каталоге: Комфорт"
+ },
+ {
+  "slug": "pik-zhemchuzhina-zelenograda",
+  "class": "comfort",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES",
+  "evidence": "класс в каталоге: Комфорт"
+ },
+ {
+  "slug": "pik-sokolinaya-gora",
+  "class": "business",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES",
+  "evidence": "класс в каталоге: Бизнес"
+ },
+ {
+  "slug": "pik-yartsevskaya-24",
+  "class": "comfort",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES",
+  "evidence": "класс в каталоге: Комфорт"
+ },
+ {
+  "slug": "pik-petr-i",
+  "class": "business",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES",
+  "evidence": "класс в каталоге: Бизнес"
+ },
+ {
+  "slug": "pik-vander-park",
+  "class": "business",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES",
+  "evidence": "класс в каталоге: Бизнес"
+ },
+ {
+  "slug": "pik-stolichnye-polyany",
+  "class": "comfort",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES",
+  "evidence": "класс в каталоге: Комфорт"
+ },
+ {
+  "slug": "pik-vlyublino",
+  "class": "comfort",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES",
+  "evidence": "класс в каталоге: Комфорт"
+ },
+ {
+  "slug": "pik-dom-na-presne",
+  "class": "business",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES",
+  "evidence": "класс в каталоге: Бизнес"
+ },
+ {
+  "slug": "pik-myakinino-park",
+  "class": "comfort",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES",
+  "evidence": "класс в каталоге: Комфорт"
+ },
+ {
+  "slug": "pik-vavilova-4",
+  "class": "business",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES",
+  "evidence": "класс в каталоге: Бизнес"
+ },
+ {
+  "slug": "pik-annino-park",
+  "class": "comfort",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES",
+  "evidence": "класс в каталоге: Комфорт"
+ },
+ {
+  "slug": "pik-presnenskiy-val-21",
+  "class": "business",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES",
+  "evidence": "класс в каталоге: Бизнес"
+ },
+ {
+  "slug": "pik-anninskiy",
+  "class": "comfort",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES",
+  "evidence": "класс в каталоге: Комфорт"
+ },
+ {
+  "slug": "pik-zapadnyy-port",
+  "class": "business",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES",
+  "evidence": "класс в каталоге: Бизнес"
+ },
+ {
+  "slug": "pik-akademika-pavlova",
+  "class": "comfort",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES",
+  "evidence": "класс в каталоге: Комфорт"
+ },
+ {
+  "slug": "pik-yasenevaya-14",
+  "class": "comfort",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES",
+  "evidence": "класс в каталоге: Комфорт"
+ },
+ {
+  "slug": "pik-izmaylovskiy-11",
+  "class": "comfort",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES",
+  "evidence": "класс в каталоге: Комфорт"
+ },
+ {
+  "slug": "pik-mikhaylovskiy-park",
+  "class": "comfort",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES",
+  "evidence": "класс в каталоге: Комфорт"
+ },
+ {
+  "slug": "pik-dmitrovskiy-park",
+  "class": "comfort",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES",
+  "evidence": "класс в каталоге: Комфорт"
+ },
+ {
+  "slug": "pik-molodogvardeyskaya-36",
+  "class": "comfort",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES",
+  "evidence": "класс в каталоге: Комфорт"
+ },
+ {
+  "slug": "pik-prostornaya-7",
+  "class": "comfort",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES",
+  "evidence": "класс в каталоге: Комфорт"
+ },
+ {
+  "slug": "pik-sokolnicheskiy-val-1",
+  "class": "comfort",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES",
+  "evidence": "класс в каталоге: Комфорт"
+ },
+ {
+  "slug": "pik-vangarden",
+  "class": "business",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES",
+  "evidence": "класс в каталоге: Бизнес"
+ },
+ {
+  "slug": "pik-yunino",
+  "class": "comfort",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES",
+  "evidence": "класс в каталоге: Комфорт"
  }
 ]

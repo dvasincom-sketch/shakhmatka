@@ -650,6 +650,102 @@
   },
   "pik-rimskogo-korsakova-11": {
    "class": "comfort"
+  },
+  "pik-mosfilmovskaya": {
+   "class": "business"
+  },
+  "pik-bolshoe-kuskovo": {
+   "class": "deluxe"
+  },
+  "pik-angliyskiy-kvartal": {
+   "class": "deluxe"
+  },
+  "pik-michurinskiy": {
+   "class": "business"
+  },
+  "pik-solntsevo-park": {
+   "class": "comfort"
+  },
+  "pik-afanasevskiy": {
+   "class": "deluxe"
+  },
+  "pik-teplyy-kray": {
+   "class": "business"
+  },
+  "pik-severnyy": {
+   "class": "comfort"
+  },
+  "pik-zhemchuzhina-zelenograda": {
+   "class": "comfort"
+  },
+  "pik-sokolinaya-gora": {
+   "class": "business"
+  },
+  "pik-yartsevskaya-24": {
+   "class": "comfort"
+  },
+  "pik-petr-i": {
+   "class": "business"
+  },
+  "pik-vander-park": {
+   "class": "business"
+  },
+  "pik-stolichnye-polyany": {
+   "class": "comfort"
+  },
+  "pik-vlyublino": {
+   "class": "comfort"
+  },
+  "pik-dom-na-presne": {
+   "class": "business"
+  },
+  "pik-myakinino-park": {
+   "class": "comfort"
+  },
+  "pik-vavilova-4": {
+   "class": "business"
+  },
+  "pik-annino-park": {
+   "class": "comfort"
+  },
+  "pik-presnenskiy-val-21": {
+   "class": "business"
+  },
+  "pik-anninskiy": {
+   "class": "comfort"
+  },
+  "pik-zapadnyy-port": {
+   "class": "business"
+  },
+  "pik-akademika-pavlova": {
+   "class": "comfort"
+  },
+  "pik-yasenevaya-14": {
+   "class": "comfort"
+  },
+  "pik-izmaylovskiy-11": {
+   "class": "comfort"
+  },
+  "pik-mikhaylovskiy-park": {
+   "class": "comfort"
+  },
+  "pik-dmitrovskiy-park": {
+   "class": "comfort"
+  },
+  "pik-molodogvardeyskaya-36": {
+   "class": "comfort"
+  },
+  "pik-prostornaya-7": {
+   "class": "comfort"
+  },
+  "pik-sokolnicheskiy-val-1": {
+   "class": "comfort"
+  },
+  "pik-vangarden": {
+   "class": "business"
+  },
+  "pik-yunino": {
+   "class": "comfort"
   }
  }
 }

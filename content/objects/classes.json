@@ -1369,6 +1369,262 @@
    "kind": "каталог",
    "checked": "15.10.2026"
   },
+  "pik-mosfilmovskaya": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "pik-bolshoe-kuskovo": {
+   "class": "deluxe",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "pik-angliyskiy-kvartal": {
+   "class": "deluxe",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "pik-michurinskiy": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "pik-solntsevo-park": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "pik-afanasevskiy": {
+   "class": "deluxe",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "pik-teplyy-kray": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "pik-severnyy": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "pik-zhemchuzhina-zelenograda": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "pik-sokolinaya-gora": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "pik-yartsevskaya-24": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "pik-petr-i": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "pik-vander-park": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "pik-stolichnye-polyany": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "pik-vlyublino": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "pik-dom-na-presne": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "pik-myakinino-park": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "pik-vavilova-4": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "pik-annino-park": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "pik-presnenskiy-val-21": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "pik-anninskiy": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "pik-zapadnyy-port": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "pik-akademika-pavlova": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "pik-yasenevaya-14": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "pik-izmaylovskiy-11": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "pik-mikhaylovskiy-park": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "pik-dmitrovskiy-park": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "pik-molodogvardeyskaya-36": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "pik-prostornaya-7": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "pik-sokolnicheskiy-val-1": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "pik-vangarden": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "pik-yunino": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-pik-52308/?showOutdated=YES",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
   "mk-klinskaya-2a-k7": {
    "class": "comfort",
    "basis": "catalog",

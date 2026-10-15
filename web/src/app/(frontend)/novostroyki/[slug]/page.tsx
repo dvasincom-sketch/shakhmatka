@@ -4,7 +4,7 @@ import { FollowButton } from '@/lib/follow-button'
 import { notFound } from 'next/navigation'
 import { getPayload, type Where } from 'payload'
 import config from '@payload-config'
-import { DISTRICT_STATS } from '@/lib/district-stats'
+import { DISTRICT_STATS, LINE_NAMES } from '@/lib/district-stats'
 import { BUREAUS } from '@/lib/architects'
 import { TROUBLE, TROUBLE_BADGE } from '@/lib/trouble'
 import { CLASS_LABELS } from '@/lib/geo'
@@ -120,8 +120,8 @@ export default async function LandingPage({ params }: { params: Promise<{ slug: 
           <section className="sec" aria-labelledby="h-fig">
             <div className="sec-h"><h2 id="h-fig" className="tt">Район в цифрах<span>по базе Шахматки{ds?.population ? ' и открытым данным' : ''}</span></h2></div>
             <div className="dfig">
-              {ds?.population ? <div className="card"><p className="f-k">Население</p><p className="dfig-n">{ds.population.toLocaleString('ru-RU')}</p><small>{ds.populationYear}{ds.areaKm2 ? ` · ${String(ds.areaKm2).replace('.', ',')} км² · ${Math.round(ds.population / ds.areaKm2).toLocaleString('ru-RU')} чел./км²` : ''}{ds.populationSource ? <> · <a className="muted-link" href={ds.populationSource} target="_blank" rel="noopener">источник</a></> : null}</small></div> : null}
-              {ds?.stations?.length ? <div className="card"><p className="f-k">Метро, МЦК, МЦД</p><p className="dfig-n">{ds.stations.length} {plural(ds.stations.length, 'станция', 'станции', 'станций')}</p><small>{lines.length} {plural(lines.length, 'линия', 'линии', 'линий')}: {ds.stations.map((st) => st.name).join(', ')}</small></div> : null}
+              {ds?.population ? <div className="card"><p className="f-k">Население</p><p className="dfig-n">{ds.population.toLocaleString('ru-RU')}</p><small>{ds.populationYear}{ds.areaKm2 ? ` · ${String(ds.areaKm2).replace('.', ',')} км² · ${Math.round(ds.population / ds.areaKm2).toLocaleString('ru-RU')} чел./км²` : ''}{ds.populationSource ? <> · <a className="muted-link" href={ds.populationSource} target="_blank" rel="noopener">источник</a></> : null}{ds.note ? <><br />{ds.note}</> : null}</small></div> : null}
+              {ds?.stations?.length ? <div className="card"><p className="f-k">{ds.stations.some((st) => st.system === 'mck') ? (ds.stations.some((st) => st.system === 'metro') ? 'Метро и МЦК' : 'МЦК') : 'Метро'}</p><p className="dfig-n">{ds.stations.length} {plural(ds.stations.length, 'станция', 'станции', 'станций')}</p><small>{[...ds.stations.reduce((m, st) => m.set(st.name, [...(m.get(st.name) || []), ...st.lines]), new Map<string, string[]>())].map(([n, ls]) => `${n} (${ls.map((x) => x === '14' ? 'МЦК' : x).join(', ')})`).join(', ')}<br />{lines.length} {plural(lines.length, 'линия', 'линии', 'линий')}: {lines.map((x) => LINE_NAMES[x] || x).join(', ')}{ds.stationsSource ? <> · <a className="muted-link" href={ds.stationsSource} target="_blank" rel="noopener">источник</a></> : null}</small></div> : null}
               <div className="card"><p className="f-k">Будущие проекты</p><p className="dfig-n">{future}</p><small>участки, концепции, архитектура и разрешения — то, что ещё не продаётся</small></div>
               {sig ? <div className="card"><p className="f-k">Сигналы</p><p className="dfig-n">{sig}</p><small>сообщений о проектах района до официальных новостей</small></div> : null}
               {topDevs.length ? <div className="card dfig-list"><p className="f-k">Кто строит</p><ol>{topDevs.map((d) => <li key={d.slug}><Link href={`/zastroyshchiki/${d.slug}/`}>{d.name}</Link><b>{d.n}</b></li>)}</ol></div> : null}
