@@ -1,0 +1,348 @@
+[
+ {
+  "slug": "dream-riva",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "карточка Dream Riva не прочитана/адрес ЖК в источнике не подтверждён",
+  "reason": "не найдено"
+ },
+ {
+  "slug": "krt-poklonnaya",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "источник с адресом/районом не найден",
+  "reason": "не найдено"
+ },
+ {
+  "slug": "arkhitektora-vlasova-59",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "источник с адресом/районом не найден",
+  "reason": "не найдено"
+ },
+ {
+  "slug": "rublevskaya-rivera",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "источник с адресом/районом не найден",
+  "reason": "не найдено"
+ },
+ {
+  "slug": "leningradskoe-71a",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "источник с адресом/районом не найден",
+  "reason": "не найдено"
+ },
+ {
+  "slug": "malyy-levshinskiy-7",
+  "district": "khamovniki",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/baza/jk_malyy_lyovshinskiy_7",
+  "evidence": "Малый Левшинский пер., д. 7, ЦАО, район Хамовники"
+ },
+ {
+  "slug": "kolskaya-18",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "источник с адресом/районом не найден",
+  "reason": "не найдено"
+ },
+ {
+  "slug": "paveletskaya-naberezhnaya-6",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "источник с адресом/районом не найден",
+  "reason": "не найдено"
+ },
+ {
+  "slug": "enigmiya",
+  "district": "tverskoy",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/baza/arhitekturnyy_proekt_enigmiya",
+  "evidence": "ул. Новослободская, корп. 1,2 — Тверской, ЦАО (номер 19 в карточке не указан)"
+ },
+ {
+  "slug": "balans",
+  "district": "ryazanskiy",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/baza/jk_balans",
+  "evidence": "Рязанский пр-т, вл. 26 — район «Рязанский», ЮВАО (по карточке; возможна неточность портала)"
+ },
+ {
+  "slug": "derbenevskaya",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "источник с адресом/районом не найден",
+  "reason": "не найдено"
+ },
+ {
+  "slug": "nametkin-tower",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "источник с адресом/районом не найден",
+  "reason": "не найдено"
+ },
+ {
+  "slug": "tushinskiy-aerodrom",
+  "district": "pokrovskoe-streshnevo",
+  "region": null,
+  "source": "https://www.mos.ru/news/article/4029073",
+  "evidence": "проект планировки Тушинского аэродрома: функциональные зоны №4, 5, 32 района Покровское-Стрешнево"
+ },
+ {
+  "slug": "stone-hedge-na-savelovskoy",
+  "district": "marina-roshcha",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/baza/biznestsentr_stone_savelovskaya_stoun",
+  "evidence": "БЦ Stone Savelovskaya: ул. Двинцев, 3 с1, район Марьина Роща, СВАО"
+ },
+ {
+  "slug": "stone-towers",
+  "district": "savelovskiy",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/baza/biznestsentr_stone_towers_",
+  "evidence": "БЦ Stone Towers: ул. Нижняя Масловка, влд. 3, район Савёловский, САО"
+ },
+ {
+  "slug": "seligerskaya",
+  "district": "zapadnoe-degunino",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/kvartiry/trehkomnatnaya-kvartira-v-level-seligerskaya-3b89be946a47e1bd7be6cff48f9b62",
+  "evidence": "Level Селигерская: Ильменский пр., вл. 8, 12, корп. 3 — Западное Дегунино, САО"
+ },
+ {
+  "slug": "tate",
+  "district": "marina-roshcha",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/kvartiry/dvuhkomnatnaya-kvartira-v-zhk-tate-teit-3cdda0f01e4c48d02f3004276059d2",
+  "evidence": "ЖК TATE: ул. Веткина, вл. 2, корп. 2 — Марьина Роща, СВАО"
+ },
+ {
+  "slug": "2-ya-rybinskaya-21",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "источник с адресом/районом не найден",
+  "reason": "не найдено"
+ },
+ {
+  "slug": "oktyabrskoe-pole",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "источник с адресом/районом не найден",
+  "reason": "не найдено"
+ },
+ {
+  "slug": "tessinskiy-v",
+  "district": "taganskiy",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/baza/jk_tessinskiy_5",
+  "evidence": "Тессинский пер., д. 5 — Таганский, ЦАО"
+ },
+ {
+  "slug": "level-paveletskaya",
+  "district": "danilovskiy",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/baza/jk_level_paveletskaya",
+  "evidence": "Жуков пр-д, д. 21Б — Даниловский, ЮАО"
+ },
+ {
+  "slug": "kvartal-serebryanyy-bor",
+  "district": "khoroshevo-mnevniki",
+  "region": null,
+  "source": "https://www.cian.ru/kupit-1-komnatnuyu-kvartiru-novostroyki-moskva-ulica-berzarina-02687/",
+  "evidence": "Москва, СЗАО, р-н Хорошево-Мневники, ул. Берзарина, 37"
+ },
+ {
+  "slug": "dubininskaya-39-41",
+  "district": "zamoskvorechye",
+  "region": null,
+  "source": "https://moskvichmag.ru/?p=320868",
+  "evidence": "заголовок: «В районе Замоскворечья одобрили строительство ЖК с детским садом…», район Дубининской ул.; дом 39-41 в тексте не указан"
+ },
+ {
+  "slug": "vorontsov",
+  "district": "taganskiy",
+  "region": null,
+  "source": "https://novostroy-m.ru/baza/jk_v_per_obuha",
+  "evidence": "пер. Обуха, вл. 3 — Таганский, ЦАО"
+ },
+ {
+  "slug": "arkhitektora-vlasova-57",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "источник с адресом/районом не найден",
+  "reason": "не найдено"
+ },
+ {
+  "slug": "akvilon-signal",
+  "district": "otradnoe",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/kvartiry/apartamenti-v-akvilon-signal-6906739a803d749e822084e06f546d",
+  "evidence": "Москва, СВАО, Отрадное, Сигнальный проезд, корп. 1"
+ },
+ {
+  "slug": "now-kvartal-na-naberezhnoy",
+  "district": "danilovskiy",
+  "region": null,
+  "source": "https://realty.rbc.ru/amp/news/6422977f9a79473deac5eef8",
+  "evidence": "проект на Дербеневской ул., вл. 20 в Даниловском районе у набережной Москвы-реки; соответствие «Now» не подтверждено прямым названием проекта"
+ },
+ {
+  "slug": "simvol",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "источник с адресом/районом не найден",
+  "reason": "не найдено"
+ },
+ {
+  "slug": "paveletskaya-siti",
+  "district": "danilovskiy",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/kvartiry/dvuhkomnatnaya-kvartira-v-level-paveleckaya-siti-5c89d66cc8a108f1dea7bab82d671d",
+  "evidence": "ул. Дубининская, вл. 59-69, корп. 10 — Даниловский, ЮАО"
+ },
+ {
+  "slug": "sputnik",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "источник с адресом/районом не найден",
+  "reason": "не найдено"
+ },
+ {
+  "slug": "skazochnyy-les",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "источник с адресом/районом не найден",
+  "reason": "не найдено"
+ },
+ {
+  "slug": "now",
+  "district": "danilovskiy",
+  "region": null,
+  "source": "https://realty.rbc.ru/amp/news/6422977f9a79473deac5eef8",
+  "evidence": "то же: Дербеневская ул., вл. 20, Даниловский район (соответствие NOW не подтверждено прямым названием)"
+ },
+ {
+  "slug": "miklukho-maklaya-23",
+  "district": "obruchevskiy",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/baza/jk_na_mikluhomaklaya_23",
+  "evidence": "ул. Миклухо-Маклая, д. 23 — Обручевский, ЮЗАО"
+ },
+ {
+  "slug": "very",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "источник с адресом/районом не найден",
+  "reason": "не найдено"
+ },
+ {
+  "slug": "sobytie",
+  "district": "ramenki",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/baza/jk_sobytie",
+  "evidence": "ул. Лобачевского, вл. 114 — Раменки, ЗАО"
+ },
+ {
+  "slug": "profit",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "источник с адресом/районом не найден",
+  "reason": "не найдено"
+ },
+ {
+  "slug": "kalinovka",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "источник с адресом/районом не найден",
+  "reason": "не найдено"
+ },
+ {
+  "slug": "taller",
+  "district": "zamoskvorechye",
+  "region": null,
+  "source": "https://moskvichmag.ru/?p=320868",
+  "evidence": "тот же адрес, что dubininskaya-39-41 (офис Галса на Дубининской, 39-41): Замоскворечье по moskvichmag; дом не указан (слабое подтверждение)"
+ },
+ {
+  "slug": "kremenchugskaya-42",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "источник с адресом/районом не найден",
+  "reason": "не найдено"
+ },
+ {
+  "slug": "tpu-kaluzhskaya",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "источник с адресом/районом не найден",
+  "reason": "не найдено"
+ },
+ {
+  "slug": "univer",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "источник с адресом/районом не найден",
+  "reason": "не найдено"
+ },
+ {
+  "slug": "tpu-minskaya",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "источник с адресом/районом не найден",
+  "reason": "не найдено"
+ },
+ {
+  "slug": "proektiruemyy-4062-y-8",
+  "district": "nagatinskiy-zaton",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/kvartiry/studiya-v-zhk-dream-riva-drim-riva-a71eba01e7bab3d734a5c58a19a56e",
+  "evidence": "проектируемый пр-д №4062, корп. 2, секция 1 (ЮАО, Нагатинский Затон); номер дома 8 прямо не указан в карточке"
+ },
+ {
+  "slug": "kremenchugskaya-19",
+  "district": "fili-davydkovo",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/baza/jk_na_kremenchugskoy_19",
+  "evidence": "Кременчугская, 19 — Фили-Давыдково, ЗАО"
+ },
+ {
+  "slug": "gavrikova-11",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "источник с адресом/районом не найден",
+  "reason": "не найдено"
+ },
+ {
+  "slug": "krestovskiy",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "источник с адресом/районом не найден",
+  "reason": "не найдено"
+ }
+]

@@ -539,9 +539,9 @@
    "name": "Tate",
    "dossier": "TATE",
    "project": "TATE (Тейт), ЖК на ул. Веткина, Кортрос",
-   "district": null,
-   "districtName": null,
-   "okrug": null,
+   "district": "marina-roshcha",
+   "districtName": "Марьина Роща",
+   "okrug": "СВАО",
    "developer": "Кортрос",
    "start": {
     "date": "2024-01",
@@ -922,7 +922,7 @@
    "district": "pechatniki",
    "districtName": "Печатники",
    "okrug": "ЮВАО",
-   "developer": "МИЦ",
+   "developer": "Самолёт",
    "start": {
     "date": "2023-04",
     "lot_from": 9.5,
@@ -1337,8 +1337,8 @@
    "name": "MYPRIORITY Mnevniki",
    "dossier": "Mnevniki",
    "project": "MYPRIORITY Mnevniki (Мнёвники от Гранель), Народного ополчения, 34",
-   "district": "shchukino",
-   "districtName": "Щукино",
+   "district": "khoroshevo-mnevniki",
+   "districtName": "Хорошёво-Мнёвники",
    "okrug": "СЗАО",
    "developer": "Гранель",
    "start": {

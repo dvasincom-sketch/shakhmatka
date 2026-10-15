@@ -1,0 +1,279 @@
+{
+ "batch": 9,
+ "units": [
+  {
+   "unit": 35418,
+   "notes": [
+    35418
+   ],
+   "dossier": "s5",
+   "developer": "mr-group",
+   "date": "2026-08-14",
+   "images": 0
+  },
+  {
+   "unit": 34114,
+   "notes": [
+    34114
+   ],
+   "dossier": "molodogvardeyskaya-64-9",
+   "developer": "mr-group",
+   "date": "2026-04-30",
+   "images": 8
+  },
+  {
+   "unit": 33016,
+   "notes": [
+    33016
+   ],
+   "dossier": "gasheka-12-2",
+   "developer": "mr-group",
+   "date": "2026-02-05",
+   "images": 0
+  },
+  {
+   "unit": 30118,
+   "notes": [
+    30118
+   ],
+   "dossier": "ilinskie-luga",
+   "developer": "pik",
+   "date": "2025-07-08",
+   "images": 1
+  },
+  {
+   "unit": 32455,
+   "notes": [
+    32455
+   ],
+   "dossier": "salarevo",
+   "developer": "pik",
+   "date": "2025-12-11",
+   "images": 7
+  },
+  {
+   "unit": 31819,
+   "notes": [
+    31819
+   ],
+   "dossier": "yuzhnoportovyy-siti",
+   "developer": "pik",
+   "date": "2025-11-07",
+   "images": 7
+  },
+  {
+   "unit": 35447,
+   "notes": [
+    35447
+   ],
+   "dossier": "varshavskoe-37",
+   "developer": "prime-life-development",
+   "date": "2026-08-20",
+   "images": 4
+  },
+  {
+   "unit": 2418,
+   "notes": [
+    2418
+   ],
+   "dossier": "repablik",
+   "developer": "strana",
+   "date": "2019-09-09",
+   "images": 1
+  },
+  {
+   "unit": 3030,
+   "notes": [
+    3030
+   ],
+   "dossier": "severnyy-port",
+   "developer": "legenda",
+   "date": "2019-12-07",
+   "images": 1
+  },
+  {
+   "unit": 16939,
+   "notes": [
+    16939
+   ],
+   "dossier": "wave",
+   "developer": "lsr",
+   "date": "2023-03-15",
+   "images": 1
+  },
+  {
+   "unit": 18131,
+   "notes": [
+    18131
+   ],
+   "dossier": "mnevniki",
+   "developer": "granel",
+   "date": "2023-06-16",
+   "images": 0
+  },
+  {
+   "unit": 18035,
+   "notes": [
+    18035
+   ],
+   "dossier": "yuzhnyy-port",
+   "developer": "kortros",
+   "date": "2023-06-09",
+   "images": 2
+  },
+  {
+   "unit": 9911,
+   "notes": [
+    9911
+   ],
+   "dossier": "mig",
+   "developer": "capital-group",
+   "date": "2021-11-03",
+   "images": 0
+  },
+  {
+   "unit": 15599,
+   "notes": [
+    15599
+   ],
+   "dossier": "frunzenskaya-30",
+   "developer": "sminex",
+   "date": "2022-11-22",
+   "images": 0
+  },
+  {
+   "unit": 6551,
+   "notes": [
+    6551
+   ],
+   "dossier": "beregovoy",
+   "developer": "glavstroy",
+   "date": "2020-12-22",
+   "images": 0
+  },
+  {
+   "unit": 12786,
+   "notes": [
+    12786
+   ],
+   "dossier": "luzhniki-collection",
+   "developer": "absolyut",
+   "date": "2022-06-10",
+   "images": 6
+  },
+  {
+   "unit": 16972,
+   "notes": [
+    16972,
+    17244,
+    17516
+   ],
+   "dossier": "opus",
+   "developer": "pioner",
+   "date": "2023-03-20",
+   "images": 0
+  },
+  {
+   "unit": 17901,
+   "notes": [
+    17879,
+    17901
+   ],
+   "dossier": "serp-i-molot",
+   "developer": "stone",
+   "date": "2023-05-29",
+   "images": 3
+  },
+  {
+   "unit": 8622,
+   "notes": [
+    8622
+   ],
+   "dossier": "ostrov",
+   "developer": "donstroy",
+   "date": "2021-07-16",
+   "images": 3
+  },
+  {
+   "unit": 6585,
+   "notes": [
+    6585
+   ],
+   "dossier": "elektrozavod",
+   "developer": "etalon",
+   "date": "2020-12-25",
+   "images": 1
+  },
+  {
+   "unit": 18866,
+   "notes": [
+    18814,
+    18866
+   ],
+   "dossier": "nizhegorodskaya",
+   "developer": "level-group",
+   "date": "2023-07-27",
+   "images": 8
+  },
+  {
+   "unit": 2440,
+   "notes": [
+    2440
+   ],
+   "dossier": "betskoy",
+   "developer": "vanke",
+   "date": "2019-09-11",
+   "images": 0
+  },
+  {
+   "unit": 20954,
+   "notes": [
+    20954
+   ],
+   "dossier": "adts-kommunarka",
+   "developer": "samolet",
+   "date": "2023-12-18",
+   "images": 7
+  },
+  {
+   "unit": 13361,
+   "notes": [
+    13361
+   ],
+   "dossier": "lunar",
+   "developer": "hutton",
+   "date": "2022-07-08",
+   "images": 0
+  },
+  {
+   "unit": 14928,
+   "notes": [
+    14928
+   ],
+   "dossier": "mangazeya-v-bogorodskom",
+   "developer": "mangazeya",
+   "date": "2022-10-12",
+   "images": 4
+  },
+  {
+   "unit": 16856,
+   "notes": [
+    16856
+   ],
+   "dossier": "krasnyy-oktyabr",
+   "developer": "guta",
+   "date": "2023-03-09",
+   "images": 10
+  },
+  {
+   "unit": 3517,
+   "notes": [
+    3517
+   ],
+   "dossier": "paveletskaya-siti",
+   "developer": "level-group",
+   "date": "2020-02-12",
+   "images": 0
+  }
+ ]
+}

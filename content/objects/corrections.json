@@ -265,7 +265,9 @@
   "previousDevelopers": [
    "mr-group"
   ],
-  "note": "застройщик по фактчекингу статьи 25008"
+  "note": "застройщик по фактчекингу статьи 25008",
+  "district": "danilovskiy",
+  "districtSource": "https://www.novostroy-m.ru/kvartiry/dvuhkomnatnaya-kvartira-v-level-paveleckaya-siti-5c89d66cc8a108f1dea7bab82d671d"
  },
  "injoy": {
   "owners": [
@@ -487,7 +489,9 @@
   "developerName": "ГК «Развитие»",
   "previousDevelopers": [
    "sun-development"
-  ]
+  ],
+  "district": "taganskiy",
+  "districtSource": "https://novostroy-m.ru/baza/jk_v_per_obuha"
  },
  "_refuted": [
   29336
@@ -1875,5 +1879,102 @@
   ],
   "developer": "stone",
   "developerName": "Stone (АО «Стоунхедж», 51%)"
+ },
+ "malyy-levshinskiy-7": {
+  "district": "khamovniki",
+  "districtSource": "https://www.novostroy-m.ru/baza/jk_malyy_lyovshinskiy_7"
+ },
+ "enigmiya": {
+  "district": "tverskoy",
+  "districtSource": "https://www.novostroy-m.ru/baza/arhitekturnyy_proekt_enigmiya"
+ },
+ "balans": {
+  "district": "ryazanskiy",
+  "districtSource": "https://www.novostroy-m.ru/baza/jk_balans"
+ },
+ "tushinskiy-aerodrom": {
+  "district": "pokrovskoe-streshnevo",
+  "districtSource": "https://www.mos.ru/news/article/4029073"
+ },
+ "stone-hedge-na-savelovskoy": {
+  "district": "marina-roshcha",
+  "districtSource": "https://www.novostroy-m.ru/baza/biznestsentr_stone_savelovskaya_stoun"
+ },
+ "stone-towers": {
+  "district": "savelovskiy",
+  "districtSource": "https://www.novostroy-m.ru/baza/biznestsentr_stone_towers_"
+ },
+ "seligerskaya": {
+  "district": "zapadnoe-degunino",
+  "districtSource": "https://www.novostroy-m.ru/kvartiry/trehkomnatnaya-kvartira-v-level-seligerskaya-3b89be946a47e1bd7be6cff48f9b62"
+ },
+ "tate": {
+  "district": "marina-roshcha",
+  "districtSource": "https://www.novostroy-m.ru/kvartiry/dvuhkomnatnaya-kvartira-v-zhk-tate-teit-3cdda0f01e4c48d02f3004276059d2"
+ },
+ "tessinskiy-v": {
+  "district": "taganskiy",
+  "districtSource": "https://www.novostroy-m.ru/baza/jk_tessinskiy_5"
+ },
+ "level-paveletskaya": {
+  "district": "danilovskiy",
+  "districtSource": "https://www.novostroy-m.ru/baza/jk_level_paveletskaya"
+ },
+ "kvartal-serebryanyy-bor": {
+  "district": "khoroshevo-mnevniki",
+  "districtSource": "https://www.cian.ru/kupit-1-komnatnuyu-kvartiru-novostroyki-moskva-ulica-berzarina-02687/"
+ },
+ "dubininskaya-39-41": {
+  "district": "zamoskvorechye",
+  "districtSource": "https://moskvichmag.ru/?p=320868"
+ },
+ "akvilon-signal": {
+  "district": "otradnoe",
+  "districtSource": "https://www.novostroy-m.ru/kvartiry/apartamenti-v-akvilon-signal-6906739a803d749e822084e06f546d"
+ },
+ "now-kvartal-na-naberezhnoy": {
+  "district": "danilovskiy",
+  "districtSource": "https://realty.rbc.ru/amp/news/6422977f9a79473deac5eef8"
+ },
+ "now": {
+  "district": "danilovskiy",
+  "districtSource": "https://realty.rbc.ru/amp/news/6422977f9a79473deac5eef8"
+ },
+ "miklukho-maklaya-23": {
+  "district": "obruchevskiy",
+  "districtSource": "https://www.novostroy-m.ru/baza/jk_na_mikluhomaklaya_23"
+ },
+ "sobytie": {
+  "district": "ramenki",
+  "districtSource": "https://www.novostroy-m.ru/baza/jk_sobytie"
+ },
+ "taller": {
+  "district": "zamoskvorechye",
+  "districtSource": "https://moskvichmag.ru/?p=320868"
+ },
+ "proektiruemyy-4062-y-8": {
+  "district": "nagatinskiy-zaton",
+  "districtSource": "https://www.novostroy-m.ru/kvartiry/studiya-v-zhk-dream-riva-drim-riva-a71eba01e7bab3d734a5c58a19a56e"
+ },
+ "kremenchugskaya-19": {
+  "district": "fili-davydkovo",
+  "districtSource": "https://www.novostroy-m.ru/baza/jk_na_kremenchugskoy_19"
+ },
+ "mnevniki": {
+  "district": "khoroshevo-mnevniki",
+  "note": "ул. Народного Ополчения, вл. 34 — район Хорошево-Мневники по карточке ЖК на novostroy-m.ru (фактчекинг статьи 18131)"
+ },
+ "mangazeya-v-bogorodskom": {
+  "owners": [
+   {
+    "developer": "mangazeya",
+    "name": "Мангазея",
+    "since": "2022 год",
+    "how": "Мангазея выкупила у группы «Пионер» проект транспортно-пересадочного узла «Открытое шоссе»; сумма в открытых источниках не названа",
+    "source": "https://www.vedomosti.ru/realty/articles/2023/08/18/990738-gruppa-mangazeya-postroit-zhiloi-kompleks"
+   }
+  ],
+  "developer": "mangazeya",
+  "developerName": "Мангазея"
  }
 }
