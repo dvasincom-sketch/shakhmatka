@@ -2,7 +2,7 @@ import Link from 'next/link'
 import { getPayload } from 'payload'
 import config from '@payload-config'
 import { ruDate, typo } from '@/lib/markdown'
-import { ArticleCard, Mark, StageStrip, TYPES, devName, stageLabel, cardImg } from '@/lib/ui'
+import { ArticleCard, StageStrip, TYPES, devName, stageLabel, cardImg } from '@/lib/ui'
 import type { Developer, Media } from '@/payload-types'
 import { pub } from '@/lib/public'
 
@@ -65,7 +65,7 @@ export default async function Home() {
               const img = cardImg(o.gallery?.[0]) || objImg(o.id), dev = o.developer as Developer | undefined
               return (
                 <Link key={o.id} className="ocard card" href={`/obekty/${o.slug}/`}>
-                  <div className="ph">{img?.url ? <img src={img.url} alt={img.alt} loading="lazy" /> : <Mark className="ph-mark" />}</div>
+                  <div className={`ph${img?.url ? '' : ' ph-empty'}`}>{img?.url ? <img src={img.url} alt={img.alt} loading="lazy" /> : null}</div>
                   <div className="tx">
                     <div className="row"><StageStrip stage={o.stage} /><span className="st">{stageLabel(o.stage)}</span></div>
                     <h3>{o.name}</h3>

@@ -1,0 +1,637 @@
+[
+ {
+  "slug": "south-gate",
+  "district": null,
+  "region": null,
+  "source": "https://www.m24.ru/news/08022024/664578",
+  "evidence": "проспект Андропова в Даниловском районе назван в общем (ЖК WOW), но дом 20/South Gate в источниках не найден; Dream Towers (Андропова, 9) — Нагатинский Затон",
+  "reason": "проспект Андропова в Даниловском районе назван в общем (ЖК WOW), но дом 20/South Gate в источниках не найден; Dream Towers (Андропова, 9) — Нагатинский Затон"
+ },
+ {
+  "slug": "letnaya-71",
+  "district": "pokrovskoe-streshnevo",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/baza/arhitekturnyy_proekt_na_letnoy",
+  "evidence": "«ул. Летная, вл. 71, 98», район «Покровское-Стрешнево», СЗАО"
+ },
+ {
+  "slug": "dream-riva",
+  "district": null,
+  "region": null,
+  "source": "",
+  "evidence": "не проверено (лимит 45 поисков)",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "zil-vostok",
+  "district": null,
+  "region": null,
+  "source": "",
+  "evidence": "источники называют только Автозаводскую ул. и ЮАО, район и адрес 2-й Кожуховский, 29 не указаны",
+  "reason": "источники называют только Автозаводскую ул. и ЮАО, район и адрес 2-й Кожуховский, 29 не указаны"
+ },
+ {
+  "slug": "krt-poklonnaya",
+  "district": null,
+  "region": null,
+  "source": "",
+  "evidence": "не проверено (лимит 45 поисков)",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "tpu-nikolaevskaya",
+  "district": null,
+  "region": null,
+  "source": "https://vm.ru/news/1118041-uchastok-ryadom-so-stanciej-mck-lihobory-reorganizuet-investor-po-programme-krt",
+  "evidence": "проезд Черепановых, вл. 64 назван, но район в источнике не указан",
+  "reason": "проезд Черепановых, вл. 64 назван, но район в источнике не указан"
+ },
+ {
+  "slug": "arkhitektora-vlasova-59",
+  "district": null,
+  "region": null,
+  "source": "",
+  "evidence": "не проверено (лимит 45 поисков)",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "rublevskaya-rivera",
+  "district": null,
+  "region": null,
+  "source": "",
+  "evidence": "не проверено (лимит 45 поисков)",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "leningradskoe-71a",
+  "district": null,
+  "region": null,
+  "source": "",
+  "evidence": "не проверено (лимит 45 поисков)",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "malyy-levshinskiy-7",
+  "district": null,
+  "region": null,
+  "source": "",
+  "evidence": "не проверено (лимит 45 поисков)",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "kolskaya-18",
+  "district": null,
+  "region": null,
+  "source": "",
+  "evidence": "не проверено (лимит 45 поисков)",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "paveletskaya-naberezhnaya-6",
+  "district": null,
+  "region": null,
+  "source": "",
+  "evidence": "не проверено (лимит 45 поисков)",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "enigmiya",
+  "district": null,
+  "region": null,
+  "source": "",
+  "evidence": "не проверено (лимит 45 поисков)",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "balans",
+  "district": null,
+  "region": null,
+  "source": "",
+  "evidence": "не проверено (лимит 45 поисков)",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "derbenevskaya",
+  "district": null,
+  "region": null,
+  "source": "",
+  "evidence": "не проверено (лимит 45 поисков)",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "nametkin-tower",
+  "district": null,
+  "region": null,
+  "source": "",
+  "evidence": "не проверено (лимит 45 поисков)",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "stone-savelovskaya",
+  "district": "marina-roshcha",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/baza/biznestsentr_stone_savelovskaya_stoun",
+  "evidence": "«ул. Двинцев, 3 с1», «Москва, СВАО, Марьина Роща»"
+ },
+ {
+  "slug": "tushinskiy-aerodrom",
+  "district": null,
+  "region": null,
+  "source": "",
+  "evidence": "не проверено (лимит 45 поисков)",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "stone-hedge-na-savelovskoy",
+  "district": null,
+  "region": null,
+  "source": "",
+  "evidence": "не проверено (лимит 45 поисков)",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "stone-towers",
+  "district": null,
+  "region": null,
+  "source": "",
+  "evidence": "не проверено (лимит 45 поисков)",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "yuzhnye-sady",
+  "district": null,
+  "region": null,
+  "source": "https://www.novostroy-m.ru/expertise/jk_yujnye_sady_ot",
+  "evidence": "источник пишет «Южное Бутово», стройка за МКАД на границе с Коммунаркой; двусмысленно, ключ не выбран",
+  "reason": "источник пишет «Южное Бутово», стройка за МКАД на границе с Коммунаркой; двусмысленно, ключ не выбран"
+ },
+ {
+  "slug": "seligerskaya",
+  "district": null,
+  "region": null,
+  "source": "",
+  "evidence": "не проверено (лимит 45 поисков)",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "paveletskaya-naberezhnaya-2",
+  "district": "danilovskiy",
+  "region": null,
+  "source": "https://www.cian.ru/delovoy-kvartal-loft-ville-moskva-4774/",
+  "evidence": "«Москва, Павелецкая набережная, 2С2»; бизнес-центр Loft Ville в Даниловском районе ЮАО"
+ },
+ {
+  "slug": "vysokaya-zhizn",
+  "district": "danilovskiy",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/baza/jk_high_life_hay",
+  "evidence": "ЖК High Life (Хай Лайф, Пионер): ул. Летниковская, 11/10с22, Даниловский район ЮАО («на стыке Даниловского района и Замоскворечья»). Адрес не по названию «Высокая жизнь», а по алиасу"
+ },
+ {
+  "slug": "tate",
+  "district": null,
+  "region": null,
+  "source": "",
+  "evidence": "не проверено (лимит 45 поисков)",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "2-ya-rybinskaya-21",
+  "district": null,
+  "region": null,
+  "source": "",
+  "evidence": "не проверено (лимит 45 поисков)",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "dmitrovskoe-nebo",
+  "district": "zapadnoe-degunino",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/baza/jk_dmitrovskoe_nebo",
+  "evidence": "«Ильменский пр-д, д. 4, корп. 2», Западное Дегунино, САО"
+ },
+ {
+  "slug": "vishnevaya-7",
+  "district": "pokrovskoe-streshnevo",
+  "region": null,
+  "source": "https://snob.ru/news/mr-group-pristupaet-k-stroitelstvu-peredovogo-multikvartala-v-raione-pokrovskoe-streshnevo/",
+  "evidence": "«улица Вишневая, владение 7», район «Покровское-Стрешнево»"
+ },
+ {
+  "slug": "oktyabrskoe-pole",
+  "district": null,
+  "region": null,
+  "source": "",
+  "evidence": "не проверено (лимит 45 поисков)",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "tessinskiy-v",
+  "district": null,
+  "region": null,
+  "source": "",
+  "evidence": "не проверено (лимит 45 поисков)",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "level-paveletskaya",
+  "district": null,
+  "region": null,
+  "source": "",
+  "evidence": "не проверено (лимит 45 поисков)",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "kvartal-serebryanyy-bor",
+  "district": null,
+  "region": null,
+  "source": "",
+  "evidence": "не проверено (лимит 45 поисков)",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "dubininskaya-39-41",
+  "district": null,
+  "region": null,
+  "source": "",
+  "evidence": "не проверено (лимит 45 поисков)",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "seliger-siti",
+  "district": "zapadnoe-degunino",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/baza/mfk_seliger_siti",
+  "evidence": "«ш. Дмитровское, вл. 87», Западное Дегунино, САО"
+ },
+ {
+  "slug": "vorontsov",
+  "district": null,
+  "region": null,
+  "source": "",
+  "evidence": "не проверено (лимит 45 поисков)",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "bolshaya-tulskaya-10",
+  "district": "danilovskiy",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/baza/jk_ul_bolshaya_tulskaya",
+  "evidence": "«ул. Большая Тульская, вл. 10», «Москва, ЮАО, Даниловский»"
+ },
+ {
+  "slug": "arkhitektora-vlasova-57",
+  "district": null,
+  "region": null,
+  "source": "",
+  "evidence": "не проверено (лимит 45 поисков)",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "akvilon-signal",
+  "district": null,
+  "region": null,
+  "source": "",
+  "evidence": "не проверено (лимит 45 поисков)",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "filatov-lug",
+  "district": null,
+  "region": null,
+  "source": "",
+  "evidence": "источник: деревня Картмазово, Новомосковский АО; поселение не названо",
+  "reason": "источник: деревня Картмазово, Новомосковский АО; поселение не названо"
+ },
+ {
+  "slug": "bolshoy-tolmachevskiy-5",
+  "district": "yakimanka",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/kvartiry/chetirehkomnatnaya-kvartira-v-dom-lavrushinskii-e4be863300ad3234d5c30e298bcb7a",
+  "evidence": "«Москва, ЦАО, Якиманка, Большой Толмачевский пер., вл. 5, к.3»"
+ },
+ {
+  "slug": "now-kvartal-na-naberezhnoy",
+  "district": null,
+  "region": null,
+  "source": "",
+  "evidence": "не проверено (лимит 45 поисков)",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "serdtse-stolitsy",
+  "district": "khoroshevo-mnevniki",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/novosti/polucheno_razreshenie_na_stroitelstvo_2_ocheredi_jk_serdtse_stolitsy",
+  "evidence": "Район прямо назван: ЖК в Хорошево-Мневники (СЗАО); почтового адреса на странице нет"
+ },
+ {
+  "slug": "alkhimovo",
+  "district": null,
+  "region": null,
+  "source": "",
+  "evidence": "источника не найдено",
+  "reason": "источника не найдено"
+ },
+ {
+  "slug": "ostafevo",
+  "district": "ryazanovskoe",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/expertise/ekspertiza_proekta_jk_ostafevo",
+  "evidence": "ЖК в селе Остафьево, «Рязановского поселения, в которое входит село Остафьево» (Новая Москва); почтового адреса нет"
+ },
+ {
+  "slug": "simvol",
+  "district": null,
+  "region": null,
+  "source": "",
+  "evidence": "не проверено (лимит 45 поисков)",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "paveletskaya-siti",
+  "district": null,
+  "region": null,
+  "source": "",
+  "evidence": "не проверено (лимит 45 поисков)",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "setun",
+  "district": "ramenki",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/kvartiry/studiya-v-zhk-nova-nova-d5a8c0b7ca4bd60e92f0fcec37ea81",
+  "evidence": "«Москва, ЗАО, Раменки, ул. Братьев Фонченко, влд. 19»"
+ },
+ {
+  "slug": "sputnik",
+  "district": null,
+  "region": null,
+  "source": "",
+  "evidence": "не проверено (лимит 45 поисков)",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "volgogradskiy-32",
+  "district": null,
+  "region": null,
+  "source": "",
+  "evidence": "страница не открылась, района с адресом нет",
+  "reason": "страница не открылась, района с адресом нет"
+ },
+ {
+  "slug": "skazochnyy-les",
+  "district": null,
+  "region": null,
+  "source": "",
+  "evidence": "не проверено (лимит 45 поисков)",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "now",
+  "district": null,
+  "region": null,
+  "source": "",
+  "evidence": "не проверено (лимит 45 поисков)",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "district-39",
+  "district": "ryazanskiy",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/kvartiry/trehkomnatnaya-kvartira-v-zhk-prospekt-39-district-39-db41a1d98e51370eb55fd063cd78d9",
+  "evidence": "ЖК «Проспект 39» (district-39): «Рязанский проспект, 39к4», Рязанский район ЮВАО"
+ },
+ {
+  "slug": "miklukho-maklaya-23",
+  "district": null,
+  "region": null,
+  "source": "",
+  "evidence": "не проверено (лимит 45 поисков)",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "dream-towers",
+  "district": "nagatinskiy-zaton",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/kvartiry/trehkomnatnaya-kvartira-v-zhk-dream-towers-drim-tauiers-c9071bfe6149b55d36d2726ea088ac",
+  "evidence": "«Пр-т Андропова, вл.9/1, корп. 1», ЮАО, район Нагатинский Затон"
+ },
+ {
+  "slug": "very",
+  "district": null,
+  "region": null,
+  "source": "",
+  "evidence": "не проверено (лимит 45 поисков)",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "saltykovskaya-8",
+  "district": "novokosino",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/baza/mkr_megapolis",
+  "evidence": "мкр. Мегаполис, ул. Салтыковская, корп. 1 (номер дома 8 на странице не указан), район Новокосино, ВАО"
+ },
+ {
+  "slug": "sobytie",
+  "district": null,
+  "region": null,
+  "source": "",
+  "evidence": "не проверено (лимит 45 поисков)",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "vtoroy-nagatinskiy",
+  "district": "nagatino-sadovniki",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/baza/jiloy_rayon_vtoroy_nagatinskiy",
+  "evidence": "«2-ой Нагатинский пр-д, вл. 2», Нагатино-Садовники, ЮАО"
+ },
+ {
+  "slug": "profit",
+  "district": null,
+  "region": null,
+  "source": "",
+  "evidence": "не проверено (лимит 45 поисков)",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "kalinovka",
+  "district": null,
+  "region": null,
+  "source": "",
+  "evidence": "не проверено (лимит 45 поисков)",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "dmitrovskiy-proezd-1g",
+  "district": "timiryazevskiy",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/baza/biznestsentr_stone_dmitrovskaya_stoun",
+  "evidence": "«Дмитровский проезд, вл. 1Г», «Москва, САО, Тимирязевский»"
+ },
+ {
+  "slug": "krasnyy-bogatyr-vitebskaya-9",
+  "district": null,
+  "region": null,
+  "source": "https://www.novostroy-m.ru/novosti/territoriyu_krasnogo_bogatyrya_zastroyat",
+  "evidence": "районом назван только ВАО, адрес Витебская, 9 не найден",
+  "reason": "районом назван только ВАО, адрес Витебская, 9 не найден"
+ },
+ {
+  "slug": "level-seligerskaya",
+  "district": "zapadnoe-degunino",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/kvartiry/trehkomnatnaya-kvartira-v-level-seligerskaya-043c74e1b180e5b4799f814d1c0abf",
+  "evidence": "«Ильменский проезд, вл. 8, 12, корп. 3», Западное Дегунино, САО"
+ },
+ {
+  "slug": "taller",
+  "district": null,
+  "region": null,
+  "source": "",
+  "evidence": "не проверено (лимит 45 поисков)",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "kremenchugskaya-42",
+  "district": null,
+  "region": null,
+  "source": "",
+  "evidence": "не проверено (лимит 45 поисков)",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "prichalnyy-6",
+  "district": "khoroshevo-mnevniki",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/baza/jk_level_prichalnyy_level",
+  "evidence": "ЖК Level Причальный: «Причальный проезд, вл. 8», «Москва, СЗАО, Хорошево-Мневники» (соседний номер, дом 6 не указан)"
+ },
+ {
+  "slug": "dokukina-10",
+  "district": null,
+  "region": null,
+  "source": "https://finance.mail.ru/article/v-moskve-postroyat-zhk-po-programme-renovatsii-ploschadyu-bolee-75-tyis-kv-m-69200716/",
+  "evidence": "только СВАО, без района и номера дома",
+  "reason": "только СВАО, без района и номера дома"
+ },
+ {
+  "slug": "tpu-kaluzhskaya",
+  "district": null,
+  "region": null,
+  "source": "",
+  "evidence": "не проверено (лимит 45 поисков)",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "mishina-56",
+  "district": null,
+  "region": null,
+  "source": "https://finance.rambler.ru/realty/49660607-u-developerskoy-kompanii-bryntsalova-poyavitsya-esche-odin-proekt-v-moskve/",
+  "evidence": "улица Мишина, 56 названа, район не указан",
+  "reason": "улица Мишина, 56 названа, район не указан"
+ },
+ {
+  "slug": "univer",
+  "district": null,
+  "region": null,
+  "source": "",
+  "evidence": "не проверено (лимит 45 поисков)",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "tpu-minskaya",
+  "district": null,
+  "region": null,
+  "source": "",
+  "evidence": "не проверено (лимит 45 поисков)",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "the-lot",
+  "district": "danilovskiy",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/kvartiry/dvuhkomnatnaya-kvartira-v-zhk-the-lot-lot-ee2866306c3d838513eb4d30f0d381",
+  "evidence": "«Жуков пр-д, вл. 21», Даниловский, ЮАО"
+ },
+ {
+  "slug": "romanov-7",
+  "district": null,
+  "region": null,
+  "source": "",
+  "evidence": "страница не открылась, района нет",
+  "reason": "страница не открылась, района нет"
+ },
+ {
+  "slug": "proektiruemyy-4062-y-8",
+  "district": null,
+  "region": null,
+  "source": "",
+  "evidence": "не проверено (лимит 45 поисков)",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "kremenchugskaya-19",
+  "district": null,
+  "region": null,
+  "source": "",
+  "evidence": "не проверено (лимит 45 поисков)",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "gavrikova-11",
+  "district": null,
+  "region": null,
+  "source": "",
+  "evidence": "не проверено (лимит 45 поисков)",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "kirpichnye-vyemki-2s1",
+  "district": null,
+  "region": null,
+  "source": "https://www.novostroy-m.ru/novosti/na_territorii_promzony_kirpichnye",
+  "evidence": "источник про Кирпичную ул. (Соколиная гора), Кирпичные Выемки не упомянуты",
+  "reason": "источник про Кирпичную ул. (Соколиная гора), Кирпичные Выемки не упомянуты"
+ },
+ {
+  "slug": "krestovskiy",
+  "district": null,
+  "region": null,
+  "source": "",
+  "evidence": "не проверено (лимит 45 поисков)",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "butlerova-12",
+  "district": null,
+  "region": null,
+  "source": "",
+  "evidence": "страница не открылась",
+  "reason": "страница не открылась"
+ },
+ {
+  "slug": "proezd-shlomina-8",
+  "district": null,
+  "region": null,
+  "source": "",
+  "evidence": "поиск не дал источника",
+  "reason": "поиск не дал источника"
+ },
+ {
+  "slug": "bolshaya-cherkizovskaya-32b",
+  "district": null,
+  "region": null,
+  "source": "",
+  "evidence": "поиск не дал источника",
+  "reason": "поиск не дал источника"
+ },
+ {
+  "slug": "tpu-lianozovo",
+  "district": "lianozovo",
+  "region": null,
+  "source": "https://www.mos.ru/news/item/124798073/",
+  "evidence": "ТПУ «Лианозово», раздел «Район»: Лианозово, СВАО; Дубнинская ул. упомянута без номера"
+ }
+]

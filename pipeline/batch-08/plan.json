@@ -1,0 +1,299 @@
+{
+ "batch": 8,
+ "units": [
+  {
+   "unit": 33157,
+   "notes": [
+    33157
+   ],
+   "dossier": "s5",
+   "developer": "mr-group",
+   "date": "2026-02-18",
+   "images": 7
+  },
+  {
+   "unit": 27666,
+   "notes": [
+    27666
+   ],
+   "dossier": "one-tower",
+   "developer": "mr-group",
+   "date": "2025-01-31",
+   "images": 6
+  },
+  {
+   "unit": 34260,
+   "notes": [
+    34260
+   ],
+   "dossier": "zvenigorodskaya",
+   "developer": "level-group",
+   "date": "2026-05-14",
+   "images": 3
+  },
+  {
+   "unit": 31606,
+   "notes": [
+    31606
+   ],
+   "dossier": "molodogvardeyskaya-64-9",
+   "developer": "mr-group",
+   "date": "2025-10-21",
+   "images": 0
+  },
+  {
+   "unit": 28318,
+   "notes": [
+    28318
+   ],
+   "dossier": "ilinskie-luga",
+   "developer": "pik",
+   "date": "2025-03-07",
+   "images": 1
+  },
+  {
+   "unit": 29205,
+   "notes": [
+    29205
+   ],
+   "dossier": "buninskaya-naberezhnaya",
+   "developer": "pik",
+   "date": "2025-04-29",
+   "images": 6
+  },
+  {
+   "unit": 35407,
+   "notes": [
+    35407
+   ],
+   "dossier": "krt-kurskaya",
+   "developer": "pik",
+   "date": "2026-08-14",
+   "images": 6
+  },
+  {
+   "unit": 28250,
+   "notes": [
+    28250
+   ],
+   "dossier": "stremlenie-k-svetu",
+   "developer": "seven-sans",
+   "date": "2025-03-05",
+   "images": 2
+  },
+  {
+   "unit": 28797,
+   "notes": [
+    28797
+   ],
+   "dossier": "letchika-babushkina-30-str-1",
+   "developer": "fond-renovatsii",
+   "date": "2025-04-11",
+   "images": 9
+  },
+  {
+   "unit": 34257,
+   "notes": [
+    34257
+   ],
+   "dossier": "1-ya-karacharovskaya-8",
+   "developer": "osnova",
+   "date": "2026-05-14",
+   "images": 3
+  },
+  {
+   "unit": 32561,
+   "notes": [
+    32561
+   ],
+   "dossier": "mangazeya-na-rechnom",
+   "developer": "mangazeya",
+   "date": "2025-12-23",
+   "images": 4
+  },
+  {
+   "unit": 34104,
+   "notes": [
+    34104
+   ],
+   "dossier": "kod-sokolniki",
+   "developer": "novaya-era",
+   "date": "2026-04-29",
+   "images": 9
+  },
+  {
+   "unit": 30161,
+   "notes": [
+    30161
+   ],
+   "dossier": "saltykovskaya-24",
+   "developer": "hutton",
+   "date": "2025-07-11",
+   "images": 4
+  },
+  {
+   "unit": 31190,
+   "notes": [
+    31190
+   ],
+   "dossier": "bolshaya-cherkizovskaya-32b",
+   "developer": null,
+   "date": "2025-09-22",
+   "images": 4
+  },
+  {
+   "unit": 31957,
+   "notes": [
+    31957
+   ],
+   "dossier": "level-nizhegorodskaya",
+   "developer": "level-group",
+   "date": "2025-11-14",
+   "images": 9
+  },
+  {
+   "unit": 32223,
+   "notes": [
+    32223
+   ],
+   "dossier": "rechnikov-16-str-1",
+   "developer": "mosinzhproekt",
+   "date": "2025-11-27",
+   "images": 4
+  },
+  {
+   "unit": 32435,
+   "notes": [
+    32435
+   ],
+   "dossier": "publitsist",
+   "developer": "dogma",
+   "date": "2025-12-10",
+   "images": 1
+  },
+  {
+   "unit": 32792,
+   "notes": [
+    32792
+   ],
+   "dossier": "proezd-shlomina-8",
+   "developer": "sz-proezd-shlomina",
+   "date": "2026-01-14",
+   "images": 4
+  },
+  {
+   "unit": 32844,
+   "notes": [
+    32844
+   ],
+   "dossier": "varshavskoe-37",
+   "developer": "prime-life-development",
+   "date": "2026-01-20",
+   "images": 6
+  },
+  {
+   "unit": 33261,
+   "notes": [
+    33261
+   ],
+   "dossier": "rublevskaya-rivera",
+   "developer": "tekta",
+   "date": "2026-02-25",
+   "images": 9
+  },
+  {
+   "unit": 33394,
+   "notes": [
+    33394
+   ],
+   "dossier": "upside-ostankino",
+   "developer": "upside",
+   "date": "2026-03-11",
+   "images": 10
+  },
+  {
+   "unit": 33404,
+   "notes": [
+    33404
+   ],
+   "dossier": "manufaktura-xix",
+   "developer": "sminex",
+   "date": "2026-03-11",
+   "images": 10
+  },
+  {
+   "unit": 33605,
+   "notes": [
+    33605
+   ],
+   "dossier": "derbenevskaya",
+   "developer": "pioner",
+   "date": "2026-03-26",
+   "images": 3
+  },
+  {
+   "unit": 35184,
+   "notes": [
+    35184
+   ],
+   "dossier": "blik",
+   "developer": "stone",
+   "date": "2026-07-27",
+   "images": 6
+  },
+  {
+   "unit": 35830,
+   "notes": [
+    35830
+   ],
+   "dossier": "loran",
+   "developer": "stone",
+   "date": "2026-09-23",
+   "images": 5
+  },
+  {
+   "unit": 14535,
+   "notes": [
+    14535,
+    14881,
+    14973
+   ],
+   "dossier": "repablik",
+   "developer": "strana",
+   "date": "2022-09-16",
+   "images": 2
+  },
+  {
+   "unit": 18887,
+   "notes": [
+    18884,
+    18887
+   ],
+   "dossier": "severnyy-port",
+   "developer": "legenda",
+   "date": "2023-08-04",
+   "images": 3
+  },
+  {
+   "unit": 12456,
+   "notes": [
+    12456
+   ],
+   "dossier": "wave",
+   "developer": "lsr",
+   "date": "2022-05-24",
+   "images": 0
+  },
+  {
+   "unit": 18403,
+   "notes": [
+    18398,
+    18403
+   ],
+   "dossier": "mig",
+   "developer": "capital-group",
+   "date": "2023-07-04",
+   "images": 10
+  }
+ ]
+}

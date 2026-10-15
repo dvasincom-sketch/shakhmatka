@@ -619,9 +619,9 @@ export const START_PRICES: StartPriceRow[] = [
   "name": "Cityzen",
   "dossier": "Вишневая, 7",
   "project": "Cityzen (Вишневая, 7)",
-  "district": null,
-  "districtName": null,
-  "okrug": null,
+  "district": "pokrovskoe-streshnevo",
+  "districtName": "Покровское-Стрешнево",
+  "okrug": "СЗАО",
   "developer": "MR Group",
   "start": {
    "date": "2024-02",

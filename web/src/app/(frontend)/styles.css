@@ -833,3 +833,7 @@ html { scroll-padding-top: 90px; }
 .sp-how p { max-width: 72ch; }
 .sp-disc { margin: 18px 0 0; font-size: var(--s-1); color: var(--muted); }
 @media (min-width: 760px) { .sp { padding: 22px; } .sp-row { grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr) minmax(0, 1.2fr); align-items: center; gap: 18px; } .sp-h { display: grid; gap: 6px; } .sp-chg { text-align: left; } }
+
+/* Нет фото — однородный фон без логотипа */
+.cover, .cover-regulation, .cover-market, .cover-developer, .ph-empty { background: var(--soft); }
+.cover { position: relative; }

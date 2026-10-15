@@ -237,10 +237,7 @@ export default async function DeveloperPage({ params }: { params: Promise<{ slug
         </section>
       ) : null}
 
-      <section className="sec">
-        <div className="sec-h"><h2 className="tt">Судебные риски<span>застройщика</span></h2></div>
-        <div className="courts"><b>Проверка по официальным источникам появится после запуска</b><p className="note">Иски дольщиков в Мосгорсуде и районных судах, арбитражные дела, исполнительные производства ФССП.</p></div>
-      </section>
+      {/* Раздел «Судебные риски» скрыт до подключения источников (Мосгорсуд, районные суды, арбитраж, ФССП) */}
     </>
   )
 }

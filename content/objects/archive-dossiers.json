@@ -844,14 +844,6 @@
    "okrug": "САО"
   },
   {
-   "key": "babushkinskiy",
-   "slug": "babushkinskiy",
-   "kind": "district",
-   "name": "Бабушкинский",
-   "nameIn": "в Бабушкинском районе",
-   "okrug": "СВАО"
-  },
-  {
    "key": "basmannyy",
    "slug": "basmannyy",
    "kind": "district",
@@ -1132,6 +1124,14 @@
    "okrug": "СВАО"
   },
   {
+   "key": "losinoostrovskiy",
+   "slug": "losinoostrovskiy",
+   "kind": "district",
+   "name": "Лосиноостровский",
+   "nameIn": "в Лосиноостровском районе",
+   "okrug": "СВАО"
+  },
+  {
    "key": "lyublino",
    "slug": "lyublino",
    "kind": "district",
@@ -1257,6 +1257,14 @@
    "kind": "district",
    "name": "Новогиреево",
    "nameIn": "в районе Новогиреево",
+   "okrug": "ВАО"
+  },
+  {
+   "key": "novokosino",
+   "slug": "novokosino",
+   "kind": "district",
+   "name": "Новокосино",
+   "nameIn": "в районе Новокосино",
    "okrug": "ВАО"
   },
   {
@@ -3259,7 +3267,7 @@
    ],
    "region": "moscow",
    "stage": "land",
-   "summary": "«Большой Толмачёвский, 5» — проект застройщика Sminex (Москва). В досье 3 события с 2019 по 2021 год, из них 2 — сигнала до официальных новостей.",
+   "summary": "«Большой Толмачёвский, 5» — проект застройщика Sminex (район Якиманка). В досье 3 события с 2019 по 2021 год, из них 2 — сигнала до официальных новостей.",
    "timeline": [
     {
      "date": "2019-06-28",
@@ -3288,7 +3296,8 @@
     6426,
     7278
    ],
-   "developer": "sminex"
+   "developer": "sminex",
+   "district": "yakimanka"
   },
   {
    "slug": "level-streshnevo",
@@ -3666,7 +3675,7 @@
    ],
    "region": "moscow",
    "stage": "sales",
-   "summary": "«Сердце столицы» — проект застройщика Донстрой (Москва). В досье 3 события с 2019 по 2022 год.",
+   "summary": "«Сердце столицы» — проект застройщика Донстрой (район Хорошёво-Мнёвники). В досье 3 события с 2019 по 2022 год.",
    "timeline": [
     {
      "date": "2019-08-14",
@@ -3700,7 +3709,8 @@
     11168,
     15805
    ],
-   "developer": "donstroy"
+   "developer": "donstroy",
+   "district": "khoroshevo-mnevniki"
   },
   {
    "slug": "life-varshavskaya",
@@ -4139,8 +4149,10 @@
      "date": "2022-09-16",
      "kind": "sales",
      "title": "В Репаблике за первый месяц продаж зарегистрировано 36 сделок",
-     "certainty": "fact",
-     "sourceNote": 14535
+     "certainty": "signal",
+     "sourceNote": 14535,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2022-09-24",
@@ -4153,15 +4165,19 @@
      "date": "2022-10-06",
      "kind": "construction",
      "title": "ПИК сносит ДК Кросна на Пресненском валу, 27 под проект Репаблик, здания исключены из перечня ОКН в 2019 году",
-     "certainty": "fact",
-     "sourceNote": 14881
+     "certainty": "signal",
+     "sourceNote": 14881,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2022-10-15",
      "kind": "sales",
      "title": "Репаблик за три месяца реализации продал 83 лота, в сентябре 14, цена 580 тыс. руб./кв. м",
-     "certainty": "fact",
-     "sourceNote": 14973
+     "certainty": "signal",
+     "sourceNote": 14973,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2023-02-22",
@@ -4305,6 +4321,13 @@
      "name": "Страна Девелопмент",
      "how": "застройщик — АО СЗ «Пресненский вал 27»",
      "source": "https://novostroy-m.ru/baza/jk_presnenskiy_val_27"
+    },
+    {
+     "developer": "strana",
+     "name": "Страна Девелопмент",
+     "since": "январь 2025",
+     "how": "проект перешёл от Forma к «Страна Девелопмент»; по обзору novostroy-m.ru, Forma вышла из проекта и исчезла из своего портфеля",
+     "source": "https://www.novostroy-m.ru/expertise/jk_repablik_svoimi_glazami"
     }
    ],
    "previousDevelopers": [
@@ -4887,7 +4910,7 @@
    "aliases": [],
    "region": "moscow",
    "stage": "sales",
-   "summary": "«Остафьево» — проект застройщика Самолёт (Москва). В досье 7 событий с 2020 по 2024 год, из них 1 — сигнал до официальных новостей.",
+   "summary": "«Остафьево» — проект застройщика Самолёт (район Рязановское). В досье 7 событий с 2020 по 2024 год, из них 1 — сигнал до официальных новостей.",
    "timeline": [
     {
      "date": "2020-08-01",
@@ -4954,7 +4977,8 @@
     24391,
     26858
    ],
-   "developer": "samolet"
+   "developer": "samolet",
+   "district": "ryazanovskoe"
   },
   {
    "slug": "tpu-shelepikha",
@@ -8509,7 +8533,7 @@
    ],
    "region": "moscow",
    "stage": "sales",
-   "summary": "«Сетунь» — проект застройщика Самолёт на участке «Братьев Фонченко, 19» (Москва). В досье 12 событий с 2019 по 2023 год, из них 3 — сигнала до официальных новостей.",
+   "summary": "«Сетунь» — проект застройщика Самолёт на участке «Братьев Фонченко, 19» (район Раменки). В досье 12 событий с 2019 по 2023 год, из них 3 — сигнала до официальных новостей.",
    "timeline": [
     {
      "date": "2019-12-04",
@@ -8620,7 +8644,8 @@
     22611,
     32734
    ],
-   "developer": "samolet"
+   "developer": "samolet",
+   "district": "ramenki"
   },
   {
    "slug": "cameo",
@@ -8917,8 +8942,10 @@
      "date": "2025-12-23",
      "kind": "price",
      "title": "«Легенда» в Северном порту продаёт 2 тыс. кв. м в месяц, цена выросла с 480–490 до 500+ тыс. руб./кв. м",
-     "certainty": "fact",
-     "sourceNote": 32561
+     "certainty": "signal",
+     "sourceNote": 32561,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2026-03-05",
@@ -10399,7 +10426,7 @@
    ],
    "region": "moscow",
    "stage": "permit",
-   "summary": "«District 39» — проект застройщика Трансстройинвест на участке «Рязанский, 39А» (Москва). В досье 6 событий с 2020 по 2022 год, из них 1 — сигнал до официальных новостей.",
+   "summary": "«District 39» — проект застройщика Трансстройинвест на участке «Рязанский, 39А» (район Рязанский). В досье 6 событий с 2020 по 2022 год, из них 1 — сигнал до официальных новостей.",
    "timeline": [
     {
      "date": "2020-01-20",
@@ -10454,7 +10481,8 @@
     13461,
     25905
    ],
-   "developer": "transstroyinvest"
+   "developer": "transstroyinvest",
+   "district": "ryazanskiy"
   },
   {
    "slug": "zareche",
@@ -10469,7 +10497,7 @@
    ],
    "region": "moscow",
    "stage": "sales",
-   "summary": "«Заречье» — проект застройщика МИЦ на участке «Шоссейная, 90» (район Печатники). В досье 18 событий с 2020 по 2025 год.",
+   "summary": "«Заречье» — проект застройщика Самолёт на участке «Шоссейная, 90» (район Печатники). В досье 18 событий с 2020 по 2025 год.",
    "timeline": [
     {
      "date": "2020-01-22",
@@ -10626,7 +10654,24 @@
     31194
    ],
    "district": "pechatniki",
-   "developer": "mits"
+   "developer": "samolet",
+   "owners": [
+    {
+     "developer": "mits",
+     "name": "МИЦ",
+     "until": "октябрь 2023"
+    },
+    {
+     "developer": "samolet",
+     "name": "Самолёт",
+     "since": "октябрь 2023",
+     "how": "Самолёт купил 100% группы компаний МИЦ; по карточке проекта на агрегаторе, проект перешёл к Самолёту в октябре 2023 года",
+     "source": "https://finance.rambler.ru/business/51598803-gruppa-samolet-kupila-developera-mits/"
+    }
+   ],
+   "previousDevelopers": [
+    "mits"
+   ]
   },
   {
    "slug": "yuzhnaya-bittsa",
@@ -11763,8 +11808,10 @@
      "date": "2022-05-24",
      "kind": "price",
      "title": "Wave: регистрации идут по 330 тыс. руб./кв. м, на 14% ниже стартового прайса, продано 54 квартиры",
-     "certainty": "fact",
-     "sourceNote": 12456
+     "certainty": "signal",
+     "sourceNote": 12456,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2022-06-22",
@@ -11865,7 +11912,24 @@
     32841
    ],
    "district": "moskvoreche-saburovo",
-   "developer": "lsr"
+   "developer": "lsr",
+   "owners": [
+    {
+     "developer": "mr-group",
+     "name": "MR Group",
+     "until": "август 2021"
+    },
+    {
+     "developer": "lsr",
+     "name": "ЛСР",
+     "since": "август 2021",
+     "how": "ФАС одобрила ходатайство ЛСР о приобретении ООО «Оникс», связанного с MR Group; через него группе принадлежал МЗРТА с участком 22 га на Борисовских прудах",
+     "source": "https://www.vedomosti.ru/realty/articles/2021/08/17/882336-mr-group"
+    }
+   ],
+   "previousDevelopers": [
+    "mr-group"
+   ]
   },
   {
    "slug": "tophills",
@@ -12994,7 +13058,7 @@
    ],
    "region": "moscow",
    "stage": "sales",
-   "summary": "«Dream Towers» на участке «Андропова, 9» (Москва). В досье 3 события с 2020 по 2021 год, из них 1 — сигнал до официальных новостей.",
+   "summary": "«Dream Towers» на участке «Андропова, 9» (район Нагатинский Затон). В досье 3 события с 2020 по 2021 год, из них 1 — сигнал до официальных новостей.",
    "timeline": [
     {
      "date": "2020-05-22",
@@ -13023,7 +13087,8 @@
     5401,
     6921,
     23316
-   ]
+   ],
+   "district": "nagatinskiy-zaton"
   },
   {
    "slug": "nastoyashchee",
@@ -14189,7 +14254,7 @@
    ],
    "region": "moscow",
    "stage": "land",
-   "summary": "«Салтыковская, 8» — проект застройщика Галс (Москва). В досье 6 событий с 2020 по 2025 год, из них 1 — сигнал до официальных новостей.",
+   "summary": "«Салтыковская, 8» — проект застройщика Галс (район Новокосино). В досье 6 событий с 2020 по 2025 год, из них 1 — сигнал до официальных новостей.",
    "timeline": [
     {
      "date": "2020-07-30",
@@ -14243,7 +14308,8 @@
     21294,
     27749
    ],
-   "developer": "gals"
+   "developer": "gals",
+   "district": "novokosino"
   },
   {
    "slug": "sobytie",
@@ -14381,7 +14447,7 @@
    ],
    "region": "moscow",
    "stage": "sales",
-   "summary": "«Второй Нагатинский» — проект застройщика ПИК на участке «2-й Нагатинский проезд, 2» (Москва). В досье 7 событий с 2020 по 2025 год, из них 1 — сигнал до официальных новостей.",
+   "summary": "«Второй Нагатинский» — проект застройщика ПИК на участке «2-й Нагатинский проезд, 2» (район Нагатино-Садовники). В досье 7 событий с 2020 по 2025 год, из них 1 — сигнал до официальных новостей.",
    "timeline": [
     {
      "date": "2020-08-18",
@@ -14444,7 +14510,8 @@
     28256,
     28712
    ],
-   "developer": "pik"
+   "developer": "pik",
+   "district": "nagatino-sadovniki"
   },
   {
    "slug": "arkhitektor",
@@ -19916,8 +19983,10 @@
      "date": "2022-05-24",
      "kind": "sales",
      "title": "Левел Мичуринский: зарегистрировано 448 квартир, средняя цена 363 тыс. руб./кв. м, в апреле 383 тыс.",
-     "certainty": "fact",
-     "sourceNote": 12456
+     "certainty": "signal",
+     "sourceNote": 12456,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     }
    ],
    "notes": [
@@ -20247,7 +20316,7 @@
    ],
    "region": "moscow",
    "stage": "sales",
-   "summary": "«Stone Савеловская» — проект застройщика Stone на участке «Двинцев, 3» (Москва). В досье 9 событий с 2021 по 2026 год, из них 3 — сигнала до официальных новостей.",
+   "summary": "«Stone Савеловская» — проект застройщика Stone на участке «Двинцев, 3» (район Марьина Роща). В досье 9 событий с 2021 по 2026 год, из них 3 — сигнала до официальных новостей.",
    "timeline": [
     {
      "date": "2021-02-17",
@@ -20325,7 +20394,8 @@
     30109,
     34971
    ],
-   "developer": "stone"
+   "developer": "stone",
+   "district": "marina-roshcha"
   },
   {
    "slug": "tushinskiy-aerodrom",
@@ -21103,7 +21173,7 @@
    ],
    "region": "moscow",
    "stage": "architecture",
-   "summary": "«Павелецкая набережная, 2» — проект застройщика Гранель (Москва). В досье 3 события с 2021 по 2023 год, из них 1 — сигнал до официальных новостей.",
+   "summary": "«Павелецкая набережная, 2» — проект застройщика Гранель (район Даниловский). В досье 3 события с 2021 по 2023 год, из них 1 — сигнал до официальных новостей.",
    "timeline": [
     {
      "date": "2021-03-26",
@@ -21133,7 +21203,8 @@
     19841,
     19966
    ],
-   "developer": "granel"
+   "developer": "granel",
+   "district": "danilovskiy"
   },
   {
    "slug": "saburovo",
@@ -21742,7 +21813,7 @@
    ],
    "region": "moscow",
    "stage": "sales",
-   "summary": "«Высокая жизнь» — проект застройщика Пионер (Москва). В досье 5 событий с 2021 по 2025 год.",
+   "summary": "«Высокая жизнь» — проект застройщика Пионер (район Даниловский). В досье 5 событий с 2021 по 2025 год.",
    "timeline": [
     {
      "date": "2021-04-26",
@@ -21791,7 +21862,8 @@
     26569,
     29428
    ],
-   "developer": "pioner"
+   "developer": "pioner",
+   "district": "danilovskiy"
   },
   {
    "slug": "jois",
@@ -22302,7 +22374,7 @@
    ],
    "region": "moscow",
    "stage": "sales",
-   "summary": "«Дмитровское небо» — проект застройщика ЛСР на участке «Ильменский, 1» (Москва). В досье 11 событий с 2020 по 2025 год, из них 1 — сигнал до официальных новостей.",
+   "summary": "«Дмитровское небо» — проект застройщика ЛСР на участке «Ильменский, 1» (район Западное Дегунино). В досье 11 событий с 2020 по 2025 год, из них 1 — сигнал до официальных новостей.",
    "timeline": [
     {
      "date": "2020-12-15",
@@ -22407,7 +22479,8 @@
     30847,
     32190
    ],
-   "developer": "lsr"
+   "developer": "lsr",
+   "district": "zapadnoe-degunino"
   },
   {
    "slug": "slobodskoy-6",
@@ -22766,8 +22839,10 @@
      "date": "2022-09-16",
      "kind": "sales",
      "title": "В Ривер парк Кутузовский за первый месяц 86 сделок, затем 20-30 лотов в месяц",
-     "certainty": "fact",
-     "sourceNote": 14535
+     "certainty": "signal",
+     "sourceNote": 14535,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2024-04-16",
@@ -23073,7 +23148,7 @@
    ],
    "region": "moscow",
    "stage": "sales",
-   "summary": "«Вишневая, 7» — проект застройщика MR Group (Москва). В досье 6 событий с 2021 по 2024 год.",
+   "summary": "«Вишневая, 7» — проект застройщика MR Group (район Покровское-Стрешнево). В досье 6 событий с 2021 по 2024 год.",
    "timeline": [
     {
      "date": "2021-06-25",
@@ -23130,7 +23205,8 @@
     21716,
     21875
    ],
-   "developer": "mr-group"
+   "developer": "mr-group",
+   "district": "pokrovskoe-streshnevo"
   },
   {
    "slug": "meteor",
@@ -26275,7 +26351,7 @@
    ],
    "region": "moscow",
    "stage": "sales",
-   "summary": "«Селигер Сити» — проект застройщика MR Group на участке «Дмитровское шоссе, 87» (Москва). В досье 5 событий с 2021 по 2023 год, из них 1 — сигнал до официальных новостей.",
+   "summary": "«Селигер Сити» — проект застройщика MR Group на участке «Дмитровское шоссе, 87» (район Западное Дегунино). В досье 5 событий с 2021 по 2023 год, из них 1 — сигнал до официальных новостей.",
    "timeline": [
     {
      "date": "2021-02-20",
@@ -26329,7 +26405,8 @@
     28622,
     32190
    ],
-   "developer": "mr-group"
+   "developer": "mr-group",
+   "district": "zapadnoe-degunino"
   },
   {
    "slug": "capital-towers",
@@ -27030,15 +27107,19 @@
      "date": "2022-09-16",
      "kind": "sales",
      "title": "В Onest продано 17 квартир, за последний месяц регистраций нет",
-     "certainty": "fact",
-     "sourceNote": 14535
+     "certainty": "signal",
+     "sourceNote": 14535,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2022-10-15",
      "kind": "sales",
      "title": "В Онесте за 5 месяцев продано 30 лотов, цена 680 тыс. руб./кв. м",
-     "certainty": "fact",
-     "sourceNote": 14973
+     "certainty": "signal",
+     "sourceNote": 14973,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2022-11-09",
@@ -27386,7 +27467,7 @@
    ],
    "region": "moscow",
    "stage": "sales",
-   "summary": "«Большая Тульская, 10» — проект застройщика Мангазея (Москва). В досье 10 событий с 2021 по 2026 год, из них 1 — сигнал до официальных новостей.",
+   "summary": "«Большая Тульская, 10» — проект застройщика Мангазея (район Даниловский). В досье 10 событий с 2021 по 2026 год, из них 1 — сигнал до официальных новостей.",
    "timeline": [
     {
      "date": "2021-11-17",
@@ -27476,7 +27557,8 @@
     24312,
     32828
    ],
-   "developer": "mangazeya"
+   "developer": "mangazeya",
+   "district": "danilovskiy"
   },
   {
    "slug": "zagorevskaya-4",
@@ -28319,8 +28401,10 @@
      "date": "2022-05-24",
      "kind": "price",
      "title": "Аура Белорусская: продано 4 лота при средней цене 589 тыс. руб./кв. м, прайс снижен на 10%",
-     "certainty": "fact",
-     "sourceNote": 12456
+     "certainty": "signal",
+     "sourceNote": 12456,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2022-10-24",
@@ -32597,7 +32681,7 @@
    "aliases": [],
    "region": "moscow",
    "stage": "land",
-   "summary": "«Дмитровский проезд, 1г» — проект застройщика Stone (Москва). В досье 5 событий 2022 года, из них 3 — сигнала до официальных новостей.",
+   "summary": "«Дмитровский проезд, 1г» — проект застройщика Stone (район Тимирязевский). В досье 5 событий 2022 года, из них 3 — сигнала до официальных новостей.",
    "timeline": [
     {
      "date": "2022-05-05",
@@ -32643,7 +32727,8 @@
     14332,
     14456
    ],
-   "developer": "stone"
+   "developer": "stone",
+   "district": "timiryazevskiy"
   },
   {
    "slug": "stadion-torpedo",
@@ -32921,9 +33006,11 @@
      "date": "2023-12-31",
      "kind": "land",
      "title": "Хлебозавод на Большой Черкизовской, 32Б куплен за 342 млн руб., затем предлагался за 5,5 млрд руб.",
-     "certainty": "fact",
+     "certainty": "signal",
      "sourceNote": 31190,
-     "dateLabel": "2023"
+     "dateLabel": "2023",
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2025-04-22",
@@ -32936,8 +33023,10 @@
      "date": "2025-09-22",
      "kind": "architecture",
      "title": "Бюро ИРГА показало концепцию с башнями по 49 этажей на участке «Большая Черкизовская, 32Б»",
-     "certainty": "fact",
-     "sourceNote": 31190
+     "certainty": "signal",
+     "sourceNote": 31190,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     }
    ],
    "notes": [
@@ -33288,8 +33377,10 @@
      "date": "2026-08-14",
      "kind": "krt",
      "title": "ПИК будет реализовывать КРТ на Верхней Сыромятнической, 7 через SPV с городской компанией КРТ: до 90 тыс. кв. м",
-     "certainty": "fact",
-     "sourceNote": 35407
+     "certainty": "signal",
+     "sourceNote": 35407,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     }
    ],
    "notes": [
@@ -33365,7 +33456,7 @@
    ],
    "region": "moscow",
    "stage": "sales",
-   "summary": "«Level Селигерская» — проект застройщика Level Group на участке «Ильинский, 12» (Москва). В досье 4 события с 2022 по 2025 год.",
+   "summary": "«Level Селигерская» — проект застройщика Level Group на участке «Ильинский, 12» (район Западное Дегунино). В досье 4 события с 2022 по 2025 год.",
    "timeline": [
     {
      "date": "2022-05-21",
@@ -33403,7 +33494,8 @@
     27717,
     32190
    ],
-   "developer": "level-group"
+   "developer": "level-group",
+   "district": "zapadnoe-degunino"
   },
   {
    "slug": "solo",
@@ -33867,7 +33959,7 @@
    "aliases": [],
    "region": "moscow",
    "stage": "concept",
-   "summary": "«Причальный, 6» — проект застройщика Level Group (Москва). В досье 4 события с 2022 по 2025 год.",
+   "summary": "«Причальный, 6» — проект застройщика Level Group (район Хорошёво-Мнёвники). В досье 4 события с 2022 по 2025 год.",
    "timeline": [
     {
      "date": "2022-06-08",
@@ -33904,7 +33996,8 @@
     12918,
     29990
    ],
-   "developer": "level-group"
+   "developer": "level-group",
+   "district": "khoroshevo-mnevniki"
   },
   {
    "slug": "dokukina-10",
@@ -35771,8 +35864,10 @@
      "date": "2026-01-14",
      "kind": "land",
      "title": "Участок на Шломина, 8 (1,7 тыс. кв. м) снова выставлен на продажу за 350 млн руб., около 205 тыс. руб. за будущий кв. м",
-     "certainty": "fact",
-     "sourceNote": 32792
+     "certainty": "signal",
+     "sourceNote": 32792,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     }
    ],
    "notes": [
@@ -40029,7 +40124,7 @@
    ],
    "region": "moscow",
    "stage": "sales",
-   "summary": "«THE LOT» — проект застройщика Аквилон на участке «Жуков, 21» (Москва). В досье 9 событий с 2023 по 2025 год, из них 2 — сигнала до официальных новостей.",
+   "summary": "«THE LOT» — проект застройщика Аквилон на участке «Жуков, 21» (район Даниловский). В досье 9 событий с 2023 по 2025 год, из них 2 — сигнала до официальных новостей.",
    "timeline": [
     {
      "date": "2023-03-17",
@@ -40106,7 +40201,8 @@
     32507,
     32539
    ],
-   "developer": "akvilon"
+   "developer": "akvilon",
+   "district": "danilovskiy"
   },
   {
    "slug": "2-y-paveletskiy-4-6",
@@ -47300,7 +47396,7 @@
    ],
    "region": "moscow",
    "stage": "architecture",
-   "summary": "«Летная, 71» — проект застройщика ОМ Девелопмент (Москва). В досье 4 события с 2023 по 2026 год.",
+   "summary": "«Летная, 71» — проект застройщика ОМ Девелопмент (район Покровское-Стрешнево). В досье 4 события с 2023 по 2026 год.",
    "timeline": [
     {
      "date": "2023-12-26",
@@ -47338,7 +47434,8 @@
     33503,
     35978
    ],
-   "developer": "om-development"
+   "developer": "om-development",
+   "district": "pokrovskoe-streshnevo"
   },
   {
    "slug": "kazakov-grand-loft",
@@ -49160,8 +49257,10 @@
      "date": "2025-12-10",
      "kind": "price",
      "title": "«Публицист» продал 204 юнита в ноябре, после этого цену подняли до 190 тыс. руб./кв. м",
-     "certainty": "fact",
-     "sourceNote": 32435
+     "certainty": "signal",
+     "sourceNote": 32435,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     }
    ],
    "notes": [
@@ -49664,7 +49763,9 @@
      "title": "Level разослал клиентам SMS о скором старте второго этапа «Звенигородской», но этап до сих пор не вышел",
      "certainty": "signal",
      "sourceNote": 34260,
-     "dateLabel": "декабрь 2024"
+     "dateLabel": "декабрь 2024",
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2024-12-19",
@@ -50386,8 +50487,10 @@
      "date": "2026-02-18",
      "kind": "sales",
      "title": "У MR Group стартовало открытое бронирование в проекте «С5» на Серегина, 5-7; средний прайс 700-750 тыс. руб./кв. м",
-     "certainty": "fact",
-     "sourceNote": 33157
+     "certainty": "signal",
+     "sourceNote": 33157,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2026-06-23",
@@ -52129,16 +52232,20 @@
      "date": "2024-12-31",
      "kind": "land",
      "title": "«Основа» купила участок «1-я Карачаровская, 8» за 1,5 млрд руб.",
-     "certainty": "fact",
+     "certainty": "signal",
      "sourceNote": 34257,
-     "dateLabel": "2024"
+     "dateLabel": "2024",
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2026-05-14",
      "kind": "krt",
      "title": "Участок «1-я Карачаровская, 8» вошёл в КРТ «Карачарово», есть примерная посадка застройки",
-     "certainty": "fact",
-     "sourceNote": 34257
+     "certainty": "signal",
+     "sourceNote": 34257,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     }
    ],
    "notes": [
@@ -52226,8 +52333,10 @@
      "date": "2026-02-25",
      "kind": "court",
      "title": "Росимущество судится с «СЗ БТС-Сервис» (Tekta) об изъятии участка 7,3 га на Рублёвском шоссе; суд пока поддерживает застройщика",
-     "certainty": "fact",
-     "sourceNote": 33261
+     "certainty": "signal",
+     "sourceNote": 33261,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     }
    ],
    "notes": [
@@ -52866,8 +52975,10 @@
      "date": "2025-07-11",
      "kind": "architecture",
      "title": "Бюро ABOVE разработало проект light industrial парка Hutton на Салтыковской, 24 площадью 14 тыс. кв. м",
-     "certainty": "fact",
-     "sourceNote": 30161
+     "certainty": "signal",
+     "sourceNote": 30161,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     }
    ],
    "notes": [
@@ -54137,14 +54248,16 @@
    "aliases": [],
    "region": "moscow",
    "stage": "land",
-   "summary": "«Лётчика Бабушкина, 30, стр. 1» — проект застройщика Фонд реновации (район Бабушкинский). В досье 3 события с 2025 по 2026 год.",
+   "summary": "«Лётчика Бабушкина, 30, стр. 1» — проект застройщика Фонд реновации (район Лосиноостровский). В досье 3 события с 2025 по 2026 год.",
    "timeline": [
     {
      "date": "2025-04-11",
      "kind": "krt",
      "title": "Участок включён в КРТ для реновации: 98 тыс. кв. м и поликлиника на 360 посещений",
-     "certainty": "fact",
-     "sourceNote": 28797
+     "certainty": "signal",
+     "sourceNote": 28797,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2026-01-16",
@@ -54169,7 +54282,7 @@
     33348
    ],
    "developer": "fond-renovatsii",
-   "district": "babushkinskiy"
+   "district": "losinoostrovskiy"
   },
   {
    "slug": "rechnikov-16-str-1",
@@ -54200,8 +54313,10 @@
      "date": "2025-11-27",
      "kind": "deal",
      "title": "ДОМ.РФ продал участок «Речников, 16, стр. 1» Мосинжпроекту",
-     "certainty": "fact",
-     "sourceNote": 32223
+     "certainty": "signal",
+     "sourceNote": 32223,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     }
    ],
    "notes": [
@@ -54430,7 +54545,16 @@
     35830,
     36032
    ],
-   "developer": "stone"
+   "developer": "stone",
+   "owners": [
+    {
+     "developer": "stone",
+     "name": "Stone (АО «Стоунхедж», 51%)",
+     "since": "2 июня 2026",
+     "how": "АО «Стоунхедж» получило 51% в ООО «СЗ ЛП Холдинг», владеющем участком на Ленинском проспекте, 11; доля «Лесной Капитал» снизилась до 49%",
+     "source": "https://www.kommersant.ru/doc/8726557"
+    }
+   ]
   },
   {
    "slug": "vetkina-2v",
@@ -54501,15 +54625,19 @@
      "date": "2025-12-23",
      "kind": "architecture",
      "title": "Показаны фасады проекта «Мангазеи» в Северном порту, главное излишество — доминанта в последней очереди",
-     "certainty": "fact",
-     "sourceNote": 32561
+     "certainty": "signal",
+     "sourceNote": 32561,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2025-12-23",
      "kind": "price",
      "title": "«Мангазея» продаёт около 500 м в месяц, цена выросла до 590 тыс. руб./кв. м",
-     "certainty": "fact",
-     "sourceNote": 32561
+     "certainty": "signal",
+     "sourceNote": 32561,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     }
    ],
    "notes": [
@@ -54549,7 +54677,9 @@
      "kind": "concept",
      "title": "MR планирует на Молодогвардейской, 64/9 до 168 тыс. кв. м в ГНС при высоте до 100 м, в две очереди",
      "certainty": "signal",
-     "sourceNote": 31606
+     "sourceNote": 31606,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2026-04-30",
@@ -54960,7 +55090,7 @@
    "aliases": [],
    "region": "moscow",
    "stage": "architecture",
-   "summary": "«Upside Останкино» — проект застройщика Upside на участке «Огородный, 20А/2» (район Останкинский). В досье 3 события с 2025 по 2026 год.",
+   "summary": "«Upside Останкино» — проект застройщика Upside на участке «Огородный, 20А/2» (район Бутырский). В досье 3 события с 2025 по 2026 год.",
    "timeline": [
     {
      "date": "2025-09-16",
@@ -54980,8 +55110,10 @@
      "date": "2026-03-11",
      "kind": "architecture",
      "title": "IND получила АГР офисного проекта «Upside Останкино» на 44,9 тыс. кв. м, два корпуса",
-     "certainty": "fact",
-     "sourceNote": 33394
+     "certainty": "signal",
+     "sourceNote": 33394,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     }
    ],
    "notes": [
@@ -54992,7 +55124,7 @@
     32898,
     33394
    ],
-   "district": "ostankinskiy",
+   "district": "butyrskiy",
    "developer": "upside"
   },
   {
@@ -55120,8 +55252,10 @@
      "date": "2026-04-29",
      "kind": "sales",
      "title": "В «Коде Сокольники» продано около 10 тыс. кв. м по цене 501 тыс. руб./кв. м",
-     "certainty": "fact",
-     "sourceNote": 34104
+     "certainty": "signal",
+     "sourceNote": 34104,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     }
    ],
    "notes": [
@@ -55346,15 +55480,19 @@
      "date": "2025-11-14",
      "kind": "architecture",
      "title": "Город отклонил две башни по 62 этажа во второй очереди Level Нижегородская, брони аннулированы; рассматриваются варианты 10+55 и 29+36 этажей",
-     "certainty": "fact",
-     "sourceNote": 31957
+     "certainty": "signal",
+     "sourceNote": 31957,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2025-11-14",
      "kind": "price",
      "title": "Цена в Level Нижегородская достигла 430 тыс. руб./кв. м",
-     "certainty": "fact",
-     "sourceNote": 31957
+     "certainty": "signal",
+     "sourceNote": 31957,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2025-11-14",
@@ -55648,7 +55786,7 @@
    "aliases": [],
    "region": "moscow",
    "stage": "sales",
-   "summary": "«Блик» — проект застройщика Stone на участке «Новоданиловская, 12» (район Даниловский). В досье 3 события с 2025 по 2026 год.",
+   "summary": "«Блик» — проект застройщика Stone на участке «Новоданиловская, 12» (район Донской). В досье 3 события с 2025 по 2026 год.",
    "timeline": [
     {
      "date": "2025-12-05",
@@ -55682,7 +55820,7 @@
     35258
    ],
    "developer": "stone",
-   "district": "danilovskiy"
+   "district": "donskoy"
   },
   {
    "slug": "lomonosov",

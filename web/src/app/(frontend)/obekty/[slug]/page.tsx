@@ -220,10 +220,7 @@ export default async function ObjectPage({ params }: { params: Promise<{ slug: s
           <GalleryEditor objectId={o.id} objectName={o.name} items={gallery.map((m) => ({ id: m.id, url: m.url!, alt: m.alt, caption: m.caption }))} />
         </div>
       ) : null}
-      <section className="sec">
-        <div className="sec-h"><h2 className="tt">Суды<span>и исполнительные производства</span></h2></div>
-        <div className="courts"><b>Данные появятся после подключения источников</b><p className="note">Мосгорсуд и районные суды Москвы, арбитраж, ФССП, Федресурс.</p></div>
-      </section>
+      {/* Раздел «Суды» скрыт до подключения источников (Мосгорсуд, районные суды, арбитраж, ФССП, Федресурс) */}
     </>
   )
 }

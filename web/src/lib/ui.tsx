@@ -113,7 +113,7 @@ export function ArticleCard({ a, size = 'm' }: { a: Article; size?: 'l' | 'm' | 
     <Link className={`acard card acard-${size}`} href={`/novosti/${a.slug}/`}>
       {size !== 's' ? (img?.url
         ? <div className="ph"><img src={img.url} alt={img.alt} loading="lazy" /><span className="tag">{TYPES[a.type]}</span></div>
-        : <div className={`ph cover cover-${a.type}`} aria-hidden="true"><Mark className="cover-mark" /><span className="cover-t">{TYPES[a.type]}</span></div>) : null}
+        : <div className="ph cover" aria-hidden="true"><span className="cover-t">{TYPES[a.type]}</span></div>) : null}
       <div className="tx">
         <div className="meta"><time dateTime={a.datePublished || undefined}>{ruDate(a.datePublished)}</time>{a.reviewStatus !== 'ready' ? <span className="dot-hold">на сверке</span> : null}</div>
         <h3>{typo(a.title)}</h3>
