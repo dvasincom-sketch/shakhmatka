@@ -13,10 +13,7 @@ export default async function Home() {
   const payload = await getPayload({ config })
   const { docs } = await payload.find({ collection: 'articles', where: pub(), sort: '-datePublished', limit: 40, depth: 1 })
   const objects = (await payload.find({ collection: 'objects', limit: 8, depth: 1, sort: '-lastEventAt' })).docs
-  const devs = (await payload.find({ collection: 'developers', limit: 100 })).docs
-  const counts = new Map<string | number, number>()
-  docs.forEach((a) => (a.developers || []).forEach((d) => { const id = typeof d === 'object' ? d.id : d; counts.set(id, (counts.get(id) || 0) + 1) }))
-  const topDevs = devs.filter((d) => counts.get(d.id)).sort((a, b) => (counts.get(b.id) || 0) - (counts.get(a.id) || 0)).slice(0, 8)
+  const topDevs = await developerBoard(payload)
   const objImg = (id: number | string) => docs.find((a) => (a.objects || []).some((o) => (typeof o === 'object' ? o.id : o) === id) && a.heroImage)?.heroImage as Media | undefined
 
   const [lead, ...rest] = docs
@@ -99,12 +96,29 @@ export default async function Home() {
 
       {topDevs.length ? (
         <section className="sec" aria-labelledby="h-dev">
-          <div className="sec-h"><h2 id="h-dev" className="tt">Застройщики<span>в материалах</span></h2><Link className="more" href="/zastroyshchiki/">Все застройщики</Link></div>
+          <div className="sec-h"><h2 id="h-dev" className="tt">Застройщики<span>в досье и материалах</span></h2><Link className="more" href="/zastroyshchiki/">Все застройщики</Link></div>
           <div className="dev-grid">
             {topDevs.map((d) => (
               <Link key={d.id} className="dcard card" href={`/zastroyshchiki/${d.slug}/`}>
-                <span className="mono">{devName(d.name).replace(/^(ГК|ПАО|АО|ООО)\s*/, '').replace(/[«»"]/g, '').slice(0, 2).toUpperCase()}</span>
-                <span><b>{devName(d.name)}</b><small>{counts.get(d.id)} мат.</small></span>
+                <div className="dc-top">
+                  <span className="mono" aria-hidden="true">{initials(d.name)}</span>
+                  <span className="dc-name"><b>{devName(d.name)}</b><small>{plural(d.projects, 'проект', 'проекта', 'проектов')} · {plural(d.articles, 'материал', 'материала', 'материалов')}</small></span>
+                </div>
+                {d.projects ? (
+                  <>
+                    <span className="dbar" role="img" aria-label={`Проекты по стадиям: в подготовке ${d.prep}, в продаже ${d.sales}, сдано ${d.done}`}>
+                      {d.prep ? <i className="s-prep" style={{ flexGrow: d.prep }} /> : null}
+                      {d.sales ? <i className="s-sales" style={{ flexGrow: d.sales }} /> : null}
+                      {d.done ? <i className="s-done" style={{ flexGrow: d.done }} /> : null}
+                    </span>
+                    <span className="dleg">
+                      {d.prep ? <span><i className="s-prep" />готовятся {d.prep}</span> : null}
+                      {d.sales ? <span><i className="s-sales" />в продаже {d.sales}</span> : null}
+                      {d.done ? <span><i className="s-done" />сдано {d.done}</span> : null}
+                    </span>
+                  </>
+                ) : null}
+                {d.last ? <span className="dlast"><time dateTime={d.last.date || undefined}>{ruDate(d.last.date)}</time>{typo(d.last.title)}</span> : null}
               </Link>
             ))}
           </div>
@@ -112,4 +126,45 @@ export default async function Home() {
       ) : null}
     </>
   )
+}
+
+const plural = (n: number, one: string, few: string, many: string) => {
+  const m10 = n % 10, m100 = n % 100
+  return `${n} ${m10 === 1 && m100 !== 11 ? one : m10 >= 2 && m10 <= 4 && (m100 < 12 || m100 > 14) ? few : many}`
+}
+const initials = (name?: string | null) => {
+  const w = devName(name).replace(/^(ГК|ПАО|АО|ООО|СЗ)\s+/i, '').replace(/[«»"]/g, '').split(/[\s-]+/).filter(Boolean)
+  if (w[0] && /^[A-ZА-ЯЁ0-9]{2,3}$/.test(w[0])) return w[0]
+  return (w.length > 1 && w[1][0] && /[A-ZА-ЯЁ]/.test(w[1][0]) ? w[0][0] + w[1][0] : w[0]?.slice(0, 2) || '').toUpperCase()
+}
+
+type DevRow = { id: number | string; slug: string; name: string; projects: number; prep: number; sales: number; done: number; articles: number; last?: { title: string; date?: string | null } }
+
+/** Застройщики для главной: сколько проектов в досье и по каким стадиям, сколько материалов и последний из них */
+async function developerBoard(payload: Awaited<ReturnType<typeof getPayload>>): Promise<DevRow[]> {
+  const [devs, objs, arts] = await Promise.all([
+    payload.find({ collection: 'developers', limit: 5000, pagination: false, depth: 0, select: { name: true, slug: true } }),
+    payload.find({ collection: 'objects', limit: 10000, pagination: false, depth: 0, select: { developer: true, stage: true } }),
+    payload.find({ collection: 'articles', where: pub(), limit: 5000, pagination: false, depth: 0, sort: '-datePublished', select: { title: true, datePublished: true, developers: true } }),
+  ])
+  const rows = new Map<string | number, DevRow>()
+  for (const d of devs.docs) rows.set(d.id, { id: d.id, slug: d.slug as string, name: d.name as string, projects: 0, prep: 0, sales: 0, done: 0, articles: 0 })
+  for (const o of objs.docs) {
+    const r = rows.get((o.developer && typeof o.developer === 'object' ? o.developer.id : o.developer) as number)
+    if (!r) continue
+    r.projects++
+    if (o.stage === 'sales') r.sales++
+    else if (o.stage === 'completed') r.done++
+    else r.prep++
+  }
+  for (const a of arts.docs) for (const d of a.developers || []) {
+    const r = rows.get(typeof d === 'object' ? d.id : d)
+    if (!r) continue
+    r.articles++
+    if (!r.last) r.last = { title: a.title as string, date: a.datePublished }
+  }
+  return [...rows.values()]
+    .filter((r) => r.articles && r.projects >= 2)
+    .sort((a, b) => b.articles * 2 + b.projects - (a.articles * 2 + a.projects))
+    .slice(0, 8)
 }

@@ -14,7 +14,11 @@ if [ "$SEED_ON_START" = "1" ]; then
     echo "→ импорт контента"
     npm run seed:places && npm run seed:dossiers && npm run seed && npm run seed:facts && npm run seed:dossiers && npm run seed:photos && npm run seed:developers && npm run seed:terms \
       && echo "✓ импорт контента завершён" || echo "✗ импорт контента завершился с ошибкой"
+    npm run media:restore || echo "✗ проверка фото завершилась с ошибкой"
   ) &
+else
+  # фото: если записи в базе есть, а файлов в хранилище нет (контейнер пересоздан) — дозагрузить из content/
+  ( sleep 5; npm run media:restore || echo "✗ проверка фото завершилась с ошибкой" ) &
 fi
 
 echo "→ сайт на порту ${PORT:-3000}"

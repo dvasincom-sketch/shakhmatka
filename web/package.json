@@ -22,6 +22,7 @@
     "seed:all": "npm run seed:places && npm run seed:dossiers && npm run seed && npm run seed:facts && npm run seed:dossiers && npm run seed:photos && npm run seed:developers && npm run seed:terms && npm run check:links",
     "seed:dossiers": "cross-env NODE_OPTIONS=--no-deprecation payload run src/seed/object-dossiers.ts",
     "seed:developers": "cross-env NODE_OPTIONS=--no-deprecation payload run src/seed/developers.ts",
+    "media:restore": "cross-env NODE_OPTIONS=--no-deprecation payload run src/seed/media-restore.ts",
     "seed:photos": "cross-env NODE_OPTIONS=--no-deprecation payload run src/seed/object-photos.ts",
     "media:sizes": "cross-env NODE_OPTIONS=--no-deprecation payload run src/seed/media-sizes.ts"
   },
