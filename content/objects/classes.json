@@ -1,0 +1,933 @@
+{
+ "_readme": "Сгенерировано build-classes.py. Класс — заявленный (застройщик, наш.дом.рф или каталог), см. методику в словаре.",
+ "objects": {
+  "salarevo-park": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/odnokomnatnaya/z-stone-58319/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "bolshaya-ochakovskaya-2": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://www.cian.ru/novostroyki-komfort-klassa-ot-zastroyschika-pik-9-RLTM/",
+   "site": "ЦИАН",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "rustaveli-14": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://www.cian.ru/novostroyki-komfort-klassa-ot-zastroyschika-pik-9-RLTM/",
+   "site": "ЦИАН",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "lyublinskiy-park": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://www.cian.ru/novostroyki-komfort-klassa-ot-zastroyschika-pik-9-RLTM/",
+   "site": "ЦИАН",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "kolskaya-8": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://www.cian.ru/novostroyki-komfort-klassa-ot-zastroyschika-pik-9-RLTM/",
+   "site": "ЦИАН",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "bolshaya-akademicheskaya-85": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://www.cian.ru/novostroyki-komfort-klassa-ot-zastroyschika-pik-9-RLTM/",
+   "site": "ЦИАН",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "serednevskiy-les": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://www.cian.ru/novostroyki-komfort-klassa-ot-zastroyschika-pik-9-RLTM/",
+   "site": "ЦИАН",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "mitinskiy-les": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/odnokomnatnaya/z-stone-58319/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "vtoroy-nagatinskiy": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://www.cian.ru/novostroyki-komfort-klassa-ot-zastroyschika-pik-9-RLTM/",
+   "site": "ЦИАН",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "narvin": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://www.cian.ru/novostroyki-komfort-klassa-ot-zastroyschika-pik-9-RLTM/",
+   "site": "ЦИАН",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "perovskoe-2": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://www.cian.ru/novostroyki-komfort-klassa-ot-zastroyschika-pik-9-RLTM/",
+   "site": "ЦИАН",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "losinoostrovskiy-park": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/z-capital-group-268706/bez-otdelky/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "nikolskie-luga": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://www.cian.ru/novostroyki-komfort-klassa-ot-zastroyschika-pik-9-RLTM/",
+   "site": "ЦИАН",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "ilinskie-luga": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/z-lsr-nedvizhimost-moskva-278182/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "zelenyy-park": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://www.cian.ru/novostroyki-komfort-klassa-ot-zastroyschika-pik-9-RLTM/",
+   "site": "ЦИАН",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "pervyy-dubrovskiy": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://www.cian.ru/novostroyki-komfort-klassa-ot-zastroyschika-pik-9-RLTM/",
+   "site": "ЦИАН",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "novoe-ochakovo": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://www.cian.ru/novostroyki-komfort-klassa-ot-zastroyschika-pik-9-RLTM/",
+   "site": "ЦИАН",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "kvartal-mit": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/z-capital-group-268706/bez-otdelky/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "onezhskiy-val": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://www.cian.ru/novostroyki-komfort-klassa-ot-zastroyschika-pik-9-RLTM/",
+   "site": "ЦИАН",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "sokolniki": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/odnokomnatnaya/z-stone-58319/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "proekt-stone-v-sokolnikakh": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/odnokomnatnaya/z-stone-58319/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "stone-rise": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/odnokomnatnaya/z-stone-58319/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "blik": {
+   "class": "deluxe",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/odnokomnatnaya/z-stone-58319/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "mainstreet": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://www.cian.ru/novostroyki-biznes-klassa-ot-zastroyschika-gk-osnova-11628-RLTM/",
+   "site": "ЦИАН",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "red7": {
+   "class": "deluxe",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-gk-osnova-854786/predchistovya-otdelka/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "very": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://www.cian.ru/novostroyki-biznes-klassa-ot-zastroyschika-gk-osnova-11628-RLTM/",
+   "site": "ЦИАН",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "nametkin-tower": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-gk-osnova-854786/predchistovya-otdelka/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "emotion": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://www.cian.ru/novostroyki-biznes-klassa-ot-zastroyschika-gk-osnova-11628-RLTM/",
+   "site": "ЦИАН",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "mirapolis": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://www.cian.ru/novostroyki-biznes-klassa-ot-zastroyschika-gk-osnova-11628-RLTM/",
+   "site": "ЦИАН",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "uno": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://www.cian.ru/novostroyki-biznes-klassa-ot-zastroyschika-gk-osnova-11628-RLTM/",
+   "site": "ЦИАН",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "uno-gorbunova": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-gk-osnova-854786/predchistovya-otdelka/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "evopark-sokolniki": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://www.cian.ru/novostroyki-biznes-klassa-ot-zastroyschika-gk-osnova-11628-RLTM/",
+   "site": "ЦИАН",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "luchi": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/z-lsr-nedvizhimost-moskva-278182/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "zilart": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/z-lsr-nedvizhimost-moskva-278182/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "obrucheva-30": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/z-lsr-nedvizhimost-moskva-278182/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "wave": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/z-lsr-nedvizhimost-moskva-278182/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "le-dome": {
+   "class": "deluxe",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/z-lsr-nedvizhimost-moskva-278182/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "parkside": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/z-lsr-nedvizhimost-moskva-278182/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "dmitrovskoe-nebo": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/z-lsr-nedvizhimost-moskva-278182/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "soul": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-forma-2753509/v-treid-in/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "portland": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-forma-2753509/v-treid-in/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "sreda-na-kutuzovskom": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva/kupit/novostrojka/z-forma-2753509/v-treid-in/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "prioriti-basmannyy": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://www.novostroy-m.ru/novosti/jk_mypriority_basmanny_i",
+   "site": "Новострой-М",
+   "kind": "СМИ",
+   "checked": "15.10.2026"
+  },
+  "mnevniki": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://www.cian.ru/novostroyki-stroitelstvo-ot-zastroishchika-gk-granel-7056/",
+   "site": "ЦИАН",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "mayprioriti-paveletskaya": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://www.cian.ru/novostroyki-stroitelstvo-ot-zastroishchika-gk-granel-7056/",
+   "site": "ЦИАН",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "mypriority-nizhegorodskaya": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://www.cian.ru/novostroyki-stroitelstvo-ot-zastroishchika-gk-granel-7056/",
+   "site": "ЦИАН",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "ever": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://www.novostroy-m.ru/baza/jk_obrucheva_23",
+   "site": "Новострой-М",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "twelve": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/z-capital-group-268706/bez-otdelky/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "intonatsiya": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/z-mangazeya-271467/ryadom-s-prudom/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "bolshaya-tulskaya-10": {
+   "class": "deluxe",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/z-mangazeya-271467/ryadom-s-prudom/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "mangazeya-v-bogorodskom": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/z-mangazeya-271467/ryadom-s-prudom/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "muza": {
+   "class": "deluxe",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/z-mangazeya-271467/ryadom-s-prudom/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "badaevskiy": {
+   "class": "deluxe",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/z-capital-group-268706/bez-otdelky/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "level-baumanskaya": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/level-baumanskaya-3328536/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "level-yuzhnoportovaya": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/level-yuzhnoportovaya-2902831/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "paveletskaya-siti": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/level-paveleckaya-siti-2132899/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "akademicheskaya": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/level-akademicheskaya-3217558/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "prichalnyy": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://cian.ru/zastroishchik-level-group-11623/",
+   "site": "ЦИАН",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "level-nagatinskaya": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://cian.ru/zastroishchik-level-group-11623/",
+   "site": "ЦИАН",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "savvinskaya-17": {
+   "class": "deluxe",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/savvinskaya-17-2999048/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "seligerskaya": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/level-seligerskaya-2991251/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "level-paveletskaya": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://cian.ru/zastroishchik-level-group-11623/",
+   "site": "ЦИАН",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "savvinskaya-27": {
+   "class": "deluxe",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/savvinskaya-27-3007608/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "nizhegorodskaya": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/level-nizhegorodskaya-3697663/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "level-seligerskaya": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/level-seligerskaya-2991251/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "zvenigorodskaya": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/level-zvenigorodskaya-3962357/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "level-donskoy": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://cian.ru/zastroishchik-level-group-11623/",
+   "site": "ЦИАН",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "level-nizhegorodskaya": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/level-nizhegorodskaya-3697663/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "slava": {
+   "class": "premium",
+   "basis": "catalog",
+   "source": "https://www.cian.ru/novostroyki-premium-klassa-ot-zastroyschika-zastroyshchik-mr-6008-RLTM/",
+   "site": "ЦИАН",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "symphony-34": {
+   "class": "premium",
+   "basis": "catalog",
+   "source": "https://www.cian.ru/novostroyki-premium-klassa-ot-zastroyschika-zastroyshchik-mr-6008-RLTM/",
+   "site": "ЦИАН",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "city-bay": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/siti-behj-2287072/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "siti-bey": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/siti-behj-2287072/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "cityzen": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/sitidzen-3850850/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "mys": {
+   "class": "deluxe",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/mys-4112950/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "sitidzen": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/sitidzen-3850850/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "alkhimovo": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://www.cian.ru/novostroyki-komfort-klassa-ot-zastroyschika-gruppa-samolet-6399-RLTM/",
+   "site": "ЦИАН",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "ostafevo": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://www.cian.ru/novostroyki-komfort-klassa-ot-zastroyschika-gruppa-samolet-6399-RLTM/",
+   "site": "ЦИАН",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "molzhaninovo": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://www.cian.ru/novostroyki-komfort-klassa-ot-zastroyschika-gruppa-samolet-6399-RLTM/",
+   "site": "ЦИАН",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "novoe-vnukovo": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://www.cian.ru/novostroyki-komfort-klassa-ot-zastroyschika-gruppa-samolet-6399-RLTM/",
+   "site": "ЦИАН",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "kvartal-zapadnyy": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://www.cian.ru/novostroyki-komfort-klassa-ot-zastroyschika-gruppa-samolet-6399-RLTM/",
+   "site": "ЦИАН",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "literaturnyy-kvartal": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://www.cian.ru/novostroyki-komfort-klassa-ot-zastroyschika-gruppa-samolet-6399-RLTM/",
+   "site": "ЦИАН",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "life-varshavskaya": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/lajf-varshavskaya-1673101/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "opus": {
+   "class": "deluxe",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/opus-3114935/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "pride": {
+   "class": "deluxe",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/prajd-3206783/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "vysokaya-zhizn": {
+   "class": "deluxe",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/high-life-2732083/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "high-life": {
+   "class": "deluxe",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/high-life-2732083/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "shift": {
+   "class": "deluxe",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/shift-3834517/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "layf-varshavskaya": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/lajf-varshavskaya-1673101/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "tophills": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://www.cian.ru/novostroyki-biznes-klassa-ot-zastroyschika-ingrad-8732-RLTM/",
+   "site": "ЦИАН",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "kutuzovgrad": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://www.novostroy-m.ru/baza/jk_kutuzovgrad_kutuzovgrad",
+   "site": "Новострой-М",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "sidney-siti": {
+   "class": "deluxe",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/sidnej-siti-2047213/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "arkhitektor": {
+   "class": "deluxe",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/arhitektor-2348601/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "sidney-city": {
+   "class": "deluxe",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/sidnej-siti-2047213/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "simonovskiy-val": {
+   "class": "deluxe",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/simonovskij-val-4006261/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "repablik": {
+   "class": "deluxe",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/repablik-3024493/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "strana-parkovaya": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/strana-parkovaya-3983389/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "strana-zarechnaya": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/strana-zarechnaya-4016337/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "aurus-rezidentsii": {
+   "class": "deluxe",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/aurus-rezidencii-4538694/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "nagatino-i-land": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/nagatino-aj-lehnd-2133018/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "sokolinn-park": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/sokolin-park-3990146/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "omega-residence": {
+   "class": "deluxe",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/rezidenciya-omega-4210702/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "shagal": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/shagal-2577904/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "vauxhall": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/voksholl-2708049/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "marilnn-park": {
+   "class": "deluxe",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/mariin-park-3990111/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "prokshino": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/prokshino-2304577/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "yuzhnye-sady": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/yuzhnye-sady-2603680/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "zorge-25": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/dom-na-zorge-3487946/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "desnareche": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/desnareche-3641076/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "rodnye-kvartaly": {
+   "class": "comfort",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/rodnye-kvartaly-3735988/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "dom-na-dzhalilya": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/dom-na-dzhalilya-4827257/",
+   "site": "Яндекс Недвижимость",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "serdtse-stolitsy": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://www.novostroy-m.ru/baza/zhk_serdce_stolicy",
+   "site": "Новострой-М",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "simvol": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://www.novostroy-m.ru/expertise/simvol2022",
+   "site": "Новострой-М",
+   "kind": "СМИ",
+   "checked": "15.10.2026"
+  },
+  "nexus": {
+   "class": "business",
+   "basis": "catalog",
+   "source": "https://www.novostroy-m.ru/baza/arhitekturnyy_proekt_nexus_neksus",
+   "site": "Новострой-М",
+   "kind": "каталог",
+   "checked": "15.10.2026"
+  },
+  "silika": {
+   "class": "premium",
+   "basis": "article",
+   "source": null,
+   "site": "статья «Шахматки»",
+   "kind": "статья",
+   "checked": "13.10.2026"
+  },
+  "status-na-zaozernoy": {
+   "class": "business",
+   "basis": "article",
+   "source": null,
+   "site": "статья «Шахматки»",
+   "kind": "статья",
+   "checked": "13.10.2026"
+  },
+  "bolshaya-ordynka-25": {
+   "class": "premium",
+   "basis": "article",
+   "source": null,
+   "site": "статья «Шахматки»",
+   "kind": "статья",
+   "checked": "презентация «Эталона», октябрь 2025"
+  }
+ }
+}

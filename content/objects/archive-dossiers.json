@@ -278,6 +278,10 @@
    "name": "Glorax"
   },
   {
+   "slug": "golos",
+   "name": "Группа «Голос» (СЗ «Голос.15»)"
+  },
+  {
    "slug": "grad",
    "name": "Град"
   },
@@ -1318,6 +1322,14 @@
    "name": "Люблино",
    "nameIn": "в Люблине",
    "okrug": "ЮВАО"
+  },
+  {
+   "key": "marushkinskoe",
+   "slug": "marushkinskoe",
+   "kind": "district",
+   "name": "Марушкинское",
+   "nameIn": "в районе Марушкинское",
+   "okrug": "НАО"
   },
   {
    "key": "marina-roshcha",
@@ -36709,7 +36721,7 @@
    "aliases": [],
    "region": "moscow",
    "stage": "sales",
-   "summary": "«Алтуфьевское 53» — проект застройщика ПИК (Москва). В досье 2 события с 2022 по 2025 год.",
+   "summary": "«Алтуфьевское 53» — проект застройщика ПИК (район Алтуфьевский). В досье 2 события с 2022 по 2025 год.",
    "timeline": [
     {
      "date": "2022-09-09",
@@ -36731,7 +36743,8 @@
     14412,
     28076
    ],
-   "developer": "pik"
+   "developer": "pik",
+   "district": "altufevskiy"
   },
   {
    "slug": "elektrolitnyy-10",
@@ -38449,7 +38462,7 @@
    "aliases": [],
    "region": "moscow",
    "stage": "sales",
-   "summary": "«Мираполис» — проект застройщика Основа (Москва). В досье 2 события с 2022 по 2026 год.",
+   "summary": "«Мираполис» — проект застройщика Основа (район Ярославский). В досье 2 события с 2022 по 2026 год.",
    "timeline": [
     {
      "date": "2022-11-24",
@@ -38477,7 +38490,8 @@
     34488,
     34948
    ],
-   "developer": "osnova"
+   "developer": "osnova",
+   "district": "yaroslavskiy"
   },
   {
    "slug": "vern",
@@ -46437,7 +46451,7 @@
    "aliases": [],
    "region": "moscow",
    "stage": "architecture",
-   "summary": "«DUO» — проект застройщика Hutton (Москва). В досье 2 события с 2023 по 2026 год.",
+   "summary": "«DUO» — проект застройщика Hutton (район Якиманка). В досье 2 события с 2023 по 2026 год.",
    "timeline": [
     {
      "date": "2023-09-08",
@@ -46458,7 +46472,8 @@
     19294,
     34646
    ],
-   "developer": "hutton"
+   "developer": "hutton",
+   "district": "yakimanka"
   },
   {
    "slug": "krt-marshala-zhukova-17-63",
@@ -48127,7 +48142,7 @@
    ],
    "region": "moscow",
    "stage": "sales",
-   "summary": "«Родные кварталы» — проект застройщика А101 (Москва). В досье 2 события с 2023 по 2025 год.",
+   "summary": "«Родные кварталы» — проект застройщика А101 (район Марушкинское). В досье 2 события с 2023 по 2025 год.",
    "timeline": [
     {
      "date": "2023-11-14",
@@ -48149,7 +48164,8 @@
     20923,
     32104
    ],
-   "developer": "a101"
+   "developer": "a101",
+   "district": "marushkinskoe"
   },
   {
    "slug": "lodochnaya-27k2",
@@ -50765,7 +50781,7 @@
    ],
    "region": "moscow",
    "stage": "architecture",
-   "summary": "«Kinetik» — проект застройщика UDS (Москва). В досье 2 события с 2024 по 2026 год, из них 1 — сигнал до официальных новостей.",
+   "summary": "«Kinetik» — проект застройщика UDS (район Западное Дегунино). В досье 2 события с 2024 по 2026 год, из них 1 — сигнал до официальных новостей.",
    "timeline": [
     {
      "date": "2024-03-04",
@@ -50787,7 +50803,8 @@
     23752,
     33721
    ],
-   "developer": "uds"
+   "developer": "uds",
+   "district": "zapadnoe-degunino"
   },
   {
    "slug": "dom-perovskikh",
@@ -51885,7 +51902,7 @@
    ],
    "region": "moscow",
    "stage": "architecture",
-   "summary": "«Вавилова, 66» (Москва). В досье 2 события 2025 года.",
+   "summary": "«Вавилова, 66» (район Гагаринский). В досье 2 события 2025 года.",
    "timeline": [
     {
      "date": "2025-02-17",
@@ -51908,7 +51925,8 @@
     26872,
     27949,
     29248
-   ]
+   ],
+   "district": "gagarinskiy"
   },
   {
    "slug": "avtozavodskaya-23s58",
@@ -52016,7 +52034,16 @@
     35229
    ],
    "district": "khamovniki",
-   "developer": "sminex"
+   "developer": "sminex",
+   "owners": [
+    {
+     "developer": "sminex",
+     "name": "Sminex",
+     "since": "23 апреля 2026",
+     "how": "Структура Sminex стала учредителем ООО «Льва Толстого, д. 14», которому принадлежат здания на Тимура Фрунзе, 11 и участок на Льва Толстого, 14; в «КР Плюс» факт сделки подтвердили",
+     "source": "https://www.kommersant.ru/doc/8608432"
+    }
+   ]
   },
   {
    "slug": "dom-belyy",
@@ -52908,7 +52935,7 @@
    ],
    "region": "moscow",
    "stage": "sales",
-   "summary": "«BeLuck Коломенское» — проект застройщика Гранель (Москва). В досье 2 события с 2024 по 2025 год.",
+   "summary": "«BeLuck Коломенское» — проект застройщика Гранель (район Нагатино-Садовники). В досье 2 события с 2024 по 2025 год.",
    "timeline": [
     {
      "date": "2024-05-27",
@@ -52931,7 +52958,8 @@
     23640,
     28387
    ],
-   "developer": "granel"
+   "developer": "granel",
+   "district": "nagatino-sadovniki"
   },
   {
    "slug": "chernyy-kub",
@@ -54394,7 +54422,7 @@
    "aliases": [],
    "region": "moscow",
    "stage": "architecture",
-   "summary": "«Алтуфьевское, 53» — проект застройщика ПИК (Москва). В досье 2 события с 2024 по 2025 год.",
+   "summary": "«Алтуфьевское, 53» — проект застройщика ПИК (район Алтуфьевский). В досье 2 события с 2024 по 2025 год.",
    "timeline": [
     {
      "date": "2024-07-09",
@@ -54417,7 +54445,8 @@
     27561,
     30179
    ],
-   "developer": "pik"
+   "developer": "pik",
+   "district": "altufevskiy"
   },
   {
    "slug": "natsionalnyy-tsentr-rossiya",
@@ -54552,7 +54581,7 @@
    ],
    "region": "moscow",
    "stage": "architecture",
-   "summary": "«Frame» — проект застройщика Forma (Москва). В досье 2 события с 2024 по 2026 год, из них 1 — сигнал до официальных новостей.",
+   "summary": "«Frame» — проект застройщика Forma (район Пресненский). В досье 2 события с 2024 по 2026 год, из них 1 — сигнал до официальных новостей.",
    "timeline": [
     {
      "date": "2024-07-15",
@@ -54574,7 +54603,8 @@
     24906,
     35796
    ],
-   "developer": "forma"
+   "developer": "forma",
+   "district": "presnenskiy"
   },
   {
    "slug": "ostrovnaya-2",
@@ -55946,7 +55976,7 @@
    ],
    "region": "moscow",
    "stage": "sales",
-   "summary": "«Omni_tower» — проект застройщика ПИК на участке «Алексея Свиридова, 7» (Москва). В досье 2 события с 2024 по 2025 год.",
+   "summary": "«Omni_tower» — проект застройщика ПИК на участке «Алексея Свиридова, 7» (район Фили-Давыдково). В досье 2 события с 2024 по 2025 год.",
    "timeline": [
     {
      "date": "2024-09-30",
@@ -55968,7 +55998,8 @@
     28367,
     31892
    ],
-   "developer": "pik"
+   "developer": "pik",
+   "district": "fili-davydkovo"
   },
   {
    "slug": "ofisnyy-proekt-stone-na-khodynke",
@@ -56640,8 +56671,10 @@
      "date": "2026-03-30",
      "kind": "deal",
      "title": "Palladio Group купила проект на Большой Бронной, 23, стр. 1 (ОКН) у Gravion и ГК ФСК",
-     "certainty": "fact",
-     "sourceNote": 33655
+     "certainty": "signal",
+     "sourceNote": 33655,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     }
    ],
    "notes": [
@@ -58689,7 +58722,7 @@
    ],
    "region": "moscow",
    "stage": "sales",
-   "summary": "«LINK» — проект застройщика MR Group (Москва). В досье 2 события 2025 года.",
+   "summary": "«LINK» — проект застройщика MR Group (район Очаково-Матвеевское). В досье 2 события 2025 года.",
    "timeline": [
     {
      "date": "2025-04-16",
@@ -58711,7 +58744,8 @@
     31736,
     32118
    ],
-   "developer": "mr-group"
+   "developer": "mr-group",
+   "district": "ochakovo-matveevskoe"
   },
   {
    "slug": "mind",
@@ -59418,7 +59452,7 @@
    "aliases": [],
    "region": "moscow",
    "stage": "architecture",
-   "summary": "«Сытинский тупик, 6» (Москва). В досье 2 события с 2025 по 2026 год, из них 1 — сигнал до официальных новостей.",
+   "summary": "«Сытинский тупик, 6» (район Тверской). В досье 2 события с 2025 по 2026 год, из них 1 — сигнал до официальных новостей.",
    "timeline": [
     {
      "date": "2025-06-03",
@@ -59439,7 +59473,8 @@
     29561,
     32481,
     35755
-   ]
+   ],
+   "district": "tverskoy"
   },
   {
    "slug": "mangazeya-na-rechnom",
@@ -59517,8 +59552,10 @@
      "date": "2026-09-22",
      "kind": "krt",
      "title": "Участок на Зорге, 30А включён в КРТ под школу на 1000 мест, срок реализации шесть лет",
-     "certainty": "fact",
-     "sourceNote": 35826
+     "certainty": "signal",
+     "sourceNote": 35826,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     }
    ],
    "notes": [
@@ -59576,7 +59613,7 @@
    ],
    "region": "moscow",
    "stage": "architecture",
-   "summary": "«Дом кино» — проект застройщика Первый девелопер на участке «Васильевская, 13, стр. 1» (Москва). В досье 2 события с 2025 по 2026 год.",
+   "summary": "«Дом кино» — проект застройщика Первый девелопер на участке «Васильевская, 13, стр. 1» (район Пресненский). В досье 2 события с 2025 по 2026 год.",
    "timeline": [
     {
      "date": "2025-06-24",
@@ -59597,7 +59634,8 @@
     29848,
     32809
    ],
-   "developer": "pervyy-developer"
+   "developer": "pervyy-developer",
+   "district": "presnenskiy"
   },
   {
    "slug": "krt-krekshino",
@@ -59903,7 +59941,7 @@
    ],
    "region": "moscow",
    "stage": "architecture",
-   "summary": "«Большой Саввинский, 2, стр. 7» — проект застройщика MR Group (район Хамовники). В досье 4 события с 2023 по 2026 год, из них 1 — сигнал до официальных новостей.",
+   "summary": "«Большой Саввинский, 2, стр. 7» — проект застройщика ВекторСтройФинанс (район Хамовники). В досье 4 события с 2023 по 2026 год, из них 1 — сигнал до официальных новостей.",
    "timeline": [
     {
      "date": "2023-12-14",
@@ -59945,7 +59983,7 @@
     34007
    ],
    "district": "khamovniki",
-   "developer": "mr-group"
+   "developer": "vektorstroyfinans"
   },
   {
    "slug": "krt-na-ulitse-admirala-kornilova",
@@ -60059,7 +60097,7 @@
    "aliases": [],
    "region": "moscow",
    "stage": "sales",
-   "summary": "«Гранд Фили» — проект застройщика Гранард на участке «Большая Филевская, 2Б» (Москва). В досье 2 события 2025 года.",
+   "summary": "«Гранд Фили» — проект застройщика Гранард на участке «Большая Филевская, 2Б» (район Филёвский Парк). В досье 2 события 2025 года.",
    "timeline": [
     {
      "date": "2025-07-22",
@@ -60083,7 +60121,8 @@
     32338,
     32902
    ],
-   "developer": "granard"
+   "developer": "granard",
+   "district": "filevskiy-park"
   },
   {
    "slug": "krylatskaya-2",
@@ -60147,7 +60186,9 @@
      "kind": "other",
      "title": "На ЗУ «Мичуринский, 54, к. 4» планируется реновационная высотка в 47 этажей, 25% площадей для городских нужд",
      "certainty": "signal",
-     "sourceNote": 33528
+     "sourceNote": 33528,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     }
    ],
    "notes": [
@@ -60490,8 +60531,10 @@
      "date": "2025-09-23",
      "kind": "deal",
      "title": "Рижский грузовой двор официально переходит к «Стране Девелопмент» (51%): СЗ «Рижский-ЖК» передана СЗ «Пресненский вал, 27»",
-     "certainty": "fact",
-     "sourceNote": 31219
+     "certainty": "signal",
+     "sourceNote": 31219,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     }
    ],
    "notes": [
@@ -60596,7 +60639,7 @@
    "aliases": [],
    "region": "moscow",
    "stage": "land",
-   "summary": "«Нижегородская, 94/4» — проект застройщика Единство (Москва). В досье 2 события с 2024 по 2025 год.",
+   "summary": "«Нижегородская, 94/4» — проект застройщика Единство (район Нижегородский). В досье 2 события с 2024 по 2025 год.",
    "timeline": [
     {
      "date": "2024-12-31",
@@ -60621,7 +60664,8 @@
    "notes": [
     31022
    ],
-   "developer": "edinstvo"
+   "developer": "edinstvo",
+   "district": "nizhegorodskiy"
   },
   {
    "slug": "mnevniki-3",
@@ -60664,7 +60708,7 @@
    ],
    "region": "moscow",
    "stage": "architecture",
-   "summary": "«Сельскохозяйственная, 5, стр. 1,2» — проект застройщика Эталон (Москва). В досье 2 события с 2025 по 2026 год.",
+   "summary": "«Сельскохозяйственная, 5, стр. 1,2» — проект застройщика Группа «Голос» (СЗ «Голос.15») (Москва). В досье 2 события с 2025 по 2026 год.",
    "timeline": [
     {
      "date": "2025-09-10",
@@ -60688,7 +60732,24 @@
     33084,
     35972
    ],
-   "developer": "etalon"
+   "developer": "golos",
+   "owners": [
+    {
+     "developer": "etalon",
+     "name": "Эталон",
+     "until": "сентябрь–октябрь 2026"
+    },
+    {
+     "developer": "golos",
+     "name": "Группа «Голос» (СЗ «Голос.15»)",
+     "since": "сентябрь–октябрь 2026",
+     "how": "«Голос» купил у «Эталона» проект жилого комплекса на месте бывшей АТС; сумма не раскрыта",
+     "source": "https://www.novostroy-m.ru/novosti/zastroyschik_iz_chelyabinska_postroit"
+    }
+   ],
+   "previousDevelopers": [
+    "etalon"
+   ]
   },
   {
    "slug": "lavin",
@@ -61001,15 +61062,19 @@
      "date": "2025-10-21",
      "kind": "tender",
      "title": "Объявлены торги на КРТ Автомоторная, которое позднее забрал MR за 874 млн руб.",
-     "certainty": "fact",
-     "sourceNote": 31596
+     "certainty": "signal",
+     "sourceNote": 31596,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2025-10-21",
      "kind": "concept",
      "title": "MR готовит проект в рамках КРТ Автомоторная, первым пойдёт участок Войкова, 6; несколько башен уже запроектировано",
      "certainty": "signal",
-     "sourceNote": 31596
+     "sourceNote": 31596,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     }
    ],
    "notes": [
@@ -61883,7 +61948,7 @@
    ],
    "region": "moscow",
    "stage": null,
-   "summary": "«Малая Тульская, 2/1, корп. 9» — проект застройщика ОМ Девелопмент (Москва). В досье 2 события 2025 года, из них 2 — сигнала до официальных новостей.",
+   "summary": "«Малая Тульская, 2/1, корп. 9» — проект застройщика ОМ Девелопмент (район Даниловский). В досье 2 события 2025 года, из них 2 — сигнала до официальных новостей.",
    "timeline": [
     {
      "date": "2025-12-23",
@@ -61907,7 +61972,8 @@
     33861,
     34125
    ],
-   "developer": "om-development"
+   "developer": "om-development",
+   "district": "danilovskiy"
   },
   {
    "slug": "kievskiy-gruzovoy-dvor",
@@ -62197,16 +62263,20 @@
      "date": "2025-12-31",
      "kind": "deal",
      "title": "Capital Group летом 2025 года купила закрытую медсанчасть № 33 на Малахитовой, 16 за 3,6 млрд руб.",
-     "certainty": "fact",
+     "certainty": "signal",
      "sourceNote": 33024,
-     "dateLabel": "2025"
+     "dateLabel": "2025",
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2026-02-06",
      "kind": "krt",
      "title": "Опубликовано реновационное КРТ на Малахитовой, 16/6 и Докукина, 16, к. 4: 187 тыс. кв. м",
-     "certainty": "fact",
-     "sourceNote": 33024
+     "certainty": "signal",
+     "sourceNote": 33024,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     }
    ],
    "notes": [
@@ -63370,7 +63440,7 @@
    ],
    "region": "moscow",
    "stage": "land",
-   "summary": "«Палаты Кожевенной слободы» — проект застройщика Кроста на участке «Кожевническая, 19, стр. 6» (Москва). В досье 2 события 2026 года, из них 1 — сигнал до официальных новостей.",
+   "summary": "«Палаты Кожевенной слободы» — проект застройщика Кроста на участке «Кожевническая, 19, стр. 6» (район Замоскворечье). В досье 2 события 2026 года, из них 1 — сигнал до официальных новостей.",
    "timeline": [
     {
      "date": "2026-07-02",
@@ -63392,7 +63462,8 @@
     35264,
     35745
    ],
-   "developer": "krosta"
+   "developer": "krosta",
+   "district": "zamoskvorechye"
   },
   {
    "slug": "aurus-rezidentsii",
@@ -63739,8 +63810,10 @@
      "date": "2026-09-04",
      "kind": "krt",
      "title": "КРТ на Оленьем Валу, 24: 1,85 га, до 28,7 тыс. кв. м жилья, из них 15,9 тыс. кв. м под реновацию",
-     "certainty": "fact",
-     "sourceNote": 35626
+     "certainty": "signal",
+     "sourceNote": 35626,
+     "outcome": "unconfirmed",
+     "checkedOn": "2026-10-15"
     },
     {
      "date": "2026-10-13",

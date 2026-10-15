@@ -8,7 +8,7 @@ import { districtName, plural, regionName } from '@/lib/geo'
 import { typo } from '@/lib/markdown'
 import { JsonLd } from '@/lib/jsonld'
 import { pub } from '@/lib/public'
-import { parseSignalSlug, signalHref, signalSlugs } from '@/lib/signals'
+import { isSnapshot, parseSignalSlug, signalHref, signalSlugs } from '@/lib/signals'
 import type { Developer, Object as Obj } from '@/payload-types'
 
 // Страницы собираются на запрос: в Docker-сборке нет доступа к базе, а данные должны быть свежими
@@ -40,7 +40,7 @@ async function load(slug: string) {
 }
 
 const statusOf = (s: TL) =>
-  s.confirmedOn ? 'confirmed' : s.outcome ? 'unconfirmed' : 'pending'
+  s.confirmedOn ? 'confirmed' : isSnapshot(s) ? 'snapshot' : s.outcome ? 'unconfirmed' : 'pending'
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const d = await load((await params).slug)
@@ -48,14 +48,14 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { o, s, slugs } = d
   const st = statusOf(s)
   const url = `${SITE}${signalHref(slugs.get(s.id!)!)}`
-  const head = st === 'confirmed' ? 'Сигнал подтвердился' : st === 'unconfirmed' ? 'Сигнал не подтвердился' : 'Сигнал'
+  const head = st === 'confirmed' ? 'Сигнал подтвердился' : st === 'unconfirmed' ? 'Сигнал не подтвердился' : st === 'snapshot' ? `Рынок на ${dm(s.date)}` : 'Сигнал'
   const description = `${head}: ${s.title}`.replace(/\s+/g, ' ')
   return {
     title: `${o.name}: ${st === 'confirmed' ? 'подтвердившийся сигнал' : 'сигнал'} от ${dm(s.date).replace(' года', '')}`.slice(0, 60),
     description: description.length > 165 ? description.slice(0, 162).replace(/\s+\S*$/, '') + '…' : description,
     alternates: { canonical: url },
     // неподтвердившиеся сигналы не отдаём в поиск: страница нужна читателям досье, а не для тиражирования слуха
-    robots: st === 'unconfirmed' ? { index: false, follow: true } : undefined,
+    robots: st === 'unconfirmed' || st === 'snapshot' ? { index: false, follow: true } : undefined,
     openGraph: { ...ogFor(url, `${o.name}: ${head.toLowerCase()}`, description), type: 'article' },
   }
 }
@@ -74,6 +74,7 @@ export default async function SignalPage({ params }: { params: Promise<{ slug: s
   const others = tl.filter((t) => t.certainty === 'signal' && t.id !== s.id).reverse().slice(0, 6)
   const lead = s.confirmedOn ? months(s.date, s.confirmedOn) : 0
   const url = `${SITE}${signalHref(slugs.get(s.id!)!)}`
+  const now = st === 'snapshot' ? [o.priceFrom ? `от ${String(o.priceFrom).replace('.', ',')} млн ₽` : null, o.priceM2From ? `от ${o.priceM2From.toLocaleString('ru-RU')} тыс. ₽ за м²` : null].filter(Boolean).join(' · ') : ''
 
   const ld = {
     '@type': 'WebPage', name: s.title, url, inLanguage: 'ru', datePublished: s.date.slice(0, 10),
@@ -92,7 +93,7 @@ export default async function SignalPage({ params }: { params: Promise<{ slug: s
         <span className="tl-kind">{KIND[t.kind || 'other']}</span>
         {t.certainty === 'signal' ? <span className="tl-sig">Сигнал</span> : null}
         {t.confirmedOn ? <span className="tl-conf">подтвердилось</span> : null}
-        {t.outcome ? <span className="tl-unc">не подтвердилось</span> : null}
+        {t.outcome ? (isSnapshot(t) ? <span className="tl-snap">срез на дату</span> : <span className="tl-unc">{t.outcome === 'refuted' ? 'опровергнуто' : 'не подтвердилось'}</span>) : null}
       </div>
       <div className="tl-body">
         <p className="tl-t">{t.certainty === 'signal' && t.id && slugs.get(t.id) ? <Link href={signalHref(slugs.get(t.id)!)}>{typo(t.title)}</Link> : typo(t.title)}</p>
@@ -111,7 +112,7 @@ export default async function SignalPage({ params }: { params: Promise<{ slug: s
           <time dateTime={s.date.slice(0, 10)}>{dm(s.date)}</time>
           <span className="tl-kind">{KIND[s.kind || 'other']}</span>
         </div>
-        <h1 className="sig-h">{st === 'unconfirmed' ? <span className="tl-said">Участники рынка говорили: </span> : null}{typo(s.title)}</h1>
+        <h1 className="sig-h">{st === 'unconfirmed' ? <span className="tl-said">Участники рынка говорили: </span> : st === 'snapshot' ? <span className="tl-said">Рынок на {dm(s.date).replace(' года', '')}: </span> : null}{typo(s.title)}</h1>
         {s.text ? <p className="sig-lead">{typo(s.text)}</p> : null}
 
         <div className={`sig-status card st-${st}`}>
@@ -119,6 +120,12 @@ export default async function SignalPage({ params }: { params: Promise<{ slug: s
             <>
               <b>Подтвердилось — {my(s.confirmedOn!)}</b>
               <p>{lead ? `Сигнал опередил официальные новости на ${lead} ${plural(lead, 'месяц', 'месяца', 'месяцев')}.` : 'Подтверждение пришло в том же месяце.'} Что именно произошло — в хронологии ниже и в досье проекта.</p>
+            </>
+          ) : st === 'snapshot' ? (
+            <>
+              <b>Срез рынка на {dm(s.date)}</b>
+              <p>Цены и темпы продаж в новостройках меняются каждый месяц, а прайс-листы и отчёты о продажах застройщики задним числом не публикуют. Поэтому такую цифру редко можно сверить с открытым источником спустя время — но она сохраняет картину рынка на дату, когда её назвали. Сравните с тем, что в проекте сейчас.</p>
+              {now ? <p className="sig-now"><span>Сейчас</span><b>{now}</b>{o.priceAsOf ? <small>{o.priceAsOf}{o.priceSource ? ` · ${o.priceSource}` : ''}</small> : null}</p> : <p className="sig-now"><Link href={`/obekty/${o.slug}/`}>Текущая цена — в досье проекта →</Link></p>}
             </>
           ) : st === 'unconfirmed' ? (
             <>

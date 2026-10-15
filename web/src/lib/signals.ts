@@ -24,3 +24,22 @@ export function parseSignalSlug(slug: string): { obj: string; day: string } | nu
 }
 
 export const signalHref = (s: string) => `/signaly/${s}/`
+
+/**
+ * «Срез рынка»: сигнал о цене или темпе продаж на конкретную дату. Прайсы и темпы застройщики задним числом не публикуют,
+ * поэтому такие сигналы почти никогда не подтверждаются открытыми источниками — но и не становятся от этого слухом:
+ * это зафиксированная картина рынка на дату. Прогнозы («выйдет по…», «планируют») сюда не относятся.
+ */
+const SNAP_NUM = /(\d[\d\s,.]*\s*(тыс|млн|млрд)|₽|руб|в месяц|темп|лот)/i
+const SNAP_FUTURE = /(возможн|планир|ожида|будет|будут|могут|может|собира|выйд|выход проекта|прогноз)/i
+export function isSnapshot(t: { kind?: string | null; title?: string | null; outcome?: string | null }): boolean {
+  if (t.outcome !== 'unconfirmed' || !t.title) return false
+  if (SNAP_FUTURE.test(t.title)) return false
+  return t.kind === 'price' || (t.kind === 'sales' && SNAP_NUM.test(t.title))
+}
+
+/** Подпись итога проверки сигнала для бейджа */
+export function outcomeLabel(t: { kind?: string | null; title?: string | null; outcome?: string | null; date?: string | null }): string {
+  if (isSnapshot(t)) return 'срез на дату'
+  return t.outcome === 'refuted' ? 'опровергнуто' : 'не подтвердилось'
+}

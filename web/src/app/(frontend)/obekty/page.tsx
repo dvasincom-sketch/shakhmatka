@@ -46,6 +46,7 @@ export async function generateMetadata({ searchParams }: { searchParams: Promise
 export default async function Objects({ searchParams }: { searchParams: Promise<SP> }) {
   const sp = await searchParams
   const payload = await getPayload({ config })
+  const classTerm = (await payload.find({ collection: 'terms', where: { and: [{ slug: { equals: 'klass-zhilya' } }, { published: { equals: true } }] }, limit: 1, depth: 0 })).docs[0]
   const all = await getAllObjects()
   const arts = (await payload.find({ collection: 'articles', where: pub({ heroImage: { exists: true } }), limit: 2000, depth: 1, select: { objects: true, heroImage: true } })).docs
   const places = (await payload.find({ collection: 'places', limit: 1000, pagination: false })).docs
@@ -128,7 +129,7 @@ export default async function Objects({ searchParams }: { searchParams: Promise<
             </div>
             {classes.length ? (
               <div className="f-group">
-                <p className="f-k">Класс</p>
+                <p className="f-k">Класс{classTerm ? <Link className="f-help" href="/slovar/klass-zhilya/" title="Как «Шахматка» определяет класс">как определяем</Link> : null}</p>
                 <div className="chips">{classes.map((c) => <Chip key={c} k="class" v={c} label={CLASS_LABELS[c] || c} n={count('class', (o) => o.class === c)} />)}</div>
               </div>
             ) : null}

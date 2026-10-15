@@ -4,13 +4,13 @@ import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { getPayload } from 'payload'
 import config from '@payload-config'
-import { ArticleCard, SITE, STAGES, StageStrip, devName, stageLabel, ogFor } from '@/lib/ui'
+import { ArticleCard, SITE, STAGES, StageStrip, devName, stageLabel, ogFor, coverOf } from '@/lib/ui'
 import { pub } from '@/lib/public'
-import { signalHref, signalSlugs } from '@/lib/signals'
-import { districtName, plural, regionName } from '@/lib/geo'
+import { signalHref, signalSlugs, isSnapshot, outcomeLabel } from '@/lib/signals'
+import { CLASS_LABELS, districtName, plural, priceText, regionName } from '@/lib/geo'
 import { typo } from '@/lib/markdown'
 import { JsonLd } from '@/lib/jsonld'
-import type { Developer, Object as Obj } from '@/payload-types'
+import type { Developer, Media, Object as Obj } from '@/payload-types'
 
 // Страницы собираются на запрос: в Docker-сборке нет доступа к базе, а данные должны быть свежими
 
@@ -24,7 +24,7 @@ const KIND: Record<string, string> = {
   land: 'Участок', krt: 'КРТ', tender: 'Торги', concept: 'Концепция', architecture: 'Архитектура', permit: 'Разрешение',
   sales: 'Продажи', price: 'Цены', deal: 'Сделка', construction: 'Стройка', court: 'Суд', other: 'Событие',
 }
-const OBJ_SELECT = { name: true, slug: true, zu: true, stage: true, region: true, district: true, timeline: true, owners: true, signalCount: true, lastEventAt: true, developer: true } as const
+const OBJ_SELECT = { name: true, slug: true, zu: true, stage: true, region: true, district: true, timeline: true, owners: true, signalCount: true, lastEventAt: true, developer: true, gallery: true, class: true, priceFrom: true, priceM2From: true, completion: true } as const
 
 async function load(slug: string) {
   const payload = await getPayload({ config })
@@ -80,6 +80,8 @@ export default async function DeveloperPage({ params }: { params: Promise<{ slug
   const stageOrder = ['sales', 'permit', 'architecture', 'concept', 'land', 'completed']
   const byStage = stageOrder.map((s) => ({ s, list: objs.filter((o) => o.stage === s) })).filter((g) => g.list.length)
   const noStage = objs.filter((o) => !o.stage)
+  // обложка проекта: первое фото досье, иначе обложка статьи о нём
+  const artCover = (id: number) => coverOf(arts.find((a) => (a.objects || []).some((x) => (typeof x === 'object' ? x.id : x) === id) && coverOf(a.heroImage as Media))?.heroImage as Media | undefined)
 
   // сделки: смены собственника, где компания — покупатель или продавец
   const deals = [...objs, ...past].flatMap((o) => {
@@ -169,13 +171,29 @@ export default async function DeveloperPage({ params }: { params: Promise<{ slug
             {[...byStage, ...(noStage.length ? [{ s: '', list: noStage }] : [])].map((g) => (
               <details key={g.s || 'none'} className="dev-stage card" open={g.s === 'sales' || byStage.length <= 2}>
                 <summary><StageStrip stage={g.s || undefined} /><b>{g.s ? stageLabel(g.s) : 'Стадия уточняется'}</b><i>{g.list.length}</i></summary>
-                <ul className="rows">
-                  {g.list.map((o) => (
-                    <li key={o.id}><Link href={`/obekty/${o.slug}/`}>
-                      <span className="t">{o.name}</span>
-                      <span className="s">{o.region === 'moscow' ? districtName(o.district) || 'Москва' : regionName(o.region)}{o.zu && o.zu !== o.name ? <span className="zu"><b>ЗУ</b>{o.zu}</span> : null}{o.lastEventAt ? <span className="when">{my(o.lastEventAt)}</span> : null}</span>
-                    </Link></li>
-                  ))}
+                <ul className="dproj">
+                  {g.list.map((o) => {
+                    const im = coverOf((o.gallery || []).find((m) => typeof m === 'object' && coverOf(m as Media)) as Media | undefined) || artCover(o.id)
+                    const last = [...(o.timeline || [])].sort((a, b) => b.date.localeCompare(a.date))[0]
+                    const price = priceText(o)
+                    const where = o.region === 'moscow' ? districtName(o.district) || 'Москва' : regionName(o.region)
+                    return (
+                      <li key={o.id}><Link href={`/obekty/${o.slug}/`}>
+                        <span className={`dp-ph${im?.url ? '' : ' ph-empty'}`}>{im?.url ? <img src={im.url} alt="" loading="lazy" /> : <b aria-hidden="true">{o.name.slice(0, 1)}</b>}</span>
+                        <span className="dp-tx">
+                          <span className="dp-h"><b>{o.name}</b>{o.signalCount ? <i className="dp-sig" title="Сигналы до официальных новостей">{o.signalCount} {plural(o.signalCount, 'сигнал', 'сигнала', 'сигналов')}</i> : null}</span>
+                          <span className="dp-f">
+                            <span>{where}</span>
+                            {o.class ? <span>{CLASS_LABELS[o.class]}</span> : null}
+                            {price ? <span className="dp-price">{price}</span> : null}
+                            {o.completion ? <span>ввод {o.completion}</span> : null}
+                            {o.zu && o.zu !== o.name ? <span className="zu"><b>ЗУ</b>{o.zu}</span> : null}
+                          </span>
+                          {last ? <span className="dp-last"><time dateTime={last.date.slice(0, 10)}>{last.dateLabel || my(last.date)}</time><em>{KIND[last.kind || 'other']}</em>{typo(last.title)}</span> : null}
+                        </span>
+                      </Link></li>
+                    )
+                  })}
                 </ul>
               </details>
             ))}
@@ -193,10 +211,10 @@ export default async function DeveloperPage({ params }: { params: Promise<{ slug
                   <time dateTime={e.date.slice(0, 10)}>{e.dateLabel || dmy(e.date)}</time>
                   <span className="tl-sig">Сигнал</span>
                   {e.confirmedOn ? <span className="tl-conf">подтвердилось: {my(e.confirmedOn)}</span> : null}
-                  {e.outcome ? <span className="tl-unc">{e.outcome === 'refuted' ? 'опровергнуто' : 'не подтвердилось'}</span> : null}
+                  {e.outcome ? <span className={isSnapshot(e) ? 'tl-snap' : 'tl-unc'}>{outcomeLabel(e)}</span> : null}
                 </div>
                 <div className="tl-body">
-                  <p className="tl-t">{e.outcome ? <span className="tl-said">Участники рынка говорили: </span> : null}{sigUrl.get(e.id) ? <Link href={sigUrl.get(e.id)!}>{typo(e.title)}</Link> : typo(e.title)}</p>
+                  <p className="tl-t">{e.outcome && !isSnapshot(e) ? <span className="tl-said">Участники рынка говорили: </span> : null}{sigUrl.get(e.id) ? <Link href={sigUrl.get(e.id)!}>{typo(e.title)}</Link> : typo(e.title)}</p>
                   <p className="tl-x"><Link href={`/obekty/${e.o.slug}/`}>{e.o.name}</Link></p>
                 </div>
               </li>

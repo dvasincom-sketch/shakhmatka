@@ -1,0 +1,1722 @@
+[
+ {
+  "slug": "level-streshnevo",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "нет в просмотренных списках застройщика/каталогов; класс прямо не указан"
+ },
+ {
+  "slug": "level-baumanskaya",
+  "class": "business",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/level-baumanskaya-3328536/",
+  "evidence": "Левел Бауманская: Бизнес (realty.yandex.ru)",
+  "reason": null
+ },
+ {
+  "slug": "level-yuzhnoportovaya",
+  "class": "comfort",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/level-yuzhnoportovaya-2902831/",
+  "evidence": "Левел Южнопортовая: Комфорт-класс (realty.yandex.ru)",
+  "reason": null
+ },
+ {
+  "slug": "paveletskaya-siti",
+  "class": "business",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/level-paveleckaya-siti-2132899/",
+  "evidence": "Левел Павелецкая Сити: Бизнес-класс (realty.yandex.ru)",
+  "reason": null
+ },
+ {
+  "slug": "akademicheskaya",
+  "class": "business",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/level-akademicheskaya-3217558/",
+  "evidence": "Левел Академическая: Бизнес (realty.yandex.ru)",
+  "reason": null
+ },
+ {
+  "slug": "prichalnyy",
+  "class": "business",
+  "basis": "catalog",
+  "source": "https://cian.ru/zastroishchik-level-group-11623/",
+  "evidence": "Левел Причальный: «жилые комплексы бизнес-класса» (описание застройщика на cian.ru)",
+  "reason": null
+ },
+ {
+  "slug": "level-nagatinskaya",
+  "class": "business",
+  "basis": "catalog",
+  "source": "https://cian.ru/zastroishchik-level-group-11623/",
+  "evidence": "Левел Нагатинская: «жилые комплексы бизнес-класса» (описание застройщика на cian.ru)",
+  "reason": null
+ },
+ {
+  "slug": "yuzhnoportovaya",
+  "class": "comfort",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/level-yuzhnoportovaya-2902831/",
+  "evidence": "Левел Южнопортовая: Комфорт-класс (realty.yandex.ru); сопоставлено по алиасу Level Южнопортовая",
+  "reason": null
+ },
+ {
+  "slug": "savvinskaya-17",
+  "class": "deluxe",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/savvinskaya-17-2999048/",
+  "evidence": "Саввинская 17: Элитный (realty.yandex.ru)",
+  "reason": null
+ },
+ {
+  "slug": "level-michurinskiy",
+  "class": null,
+  "basis": null,
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/level-michurinskij-2504193/",
+  "evidence": "Яндекс.Недвижимость: Бизнес; novostroy-m.ru: «Класс новостройки: бизнес, комфорт»",
+  "reason": "каталоги расходятся/неоднозначны: Яндекс — Бизнес, novostroy-m — «бизнес, комфорт»"
+ },
+ {
+  "slug": "seligerskaya",
+  "class": "comfort",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/level-seligerskaya-2991251/",
+  "evidence": "Левел Селигерская: Комфорт-класс (realty.yandex.ru)",
+  "reason": null
+ },
+ {
+  "slug": "level-paveletskaya",
+  "class": "business",
+  "basis": "catalog",
+  "source": "https://cian.ru/zastroishchik-level-group-11623/",
+  "evidence": "Левел Павелецкая: «клубные дома бизнес-класса» (описание застройщика на cian.ru)",
+  "reason": null
+ },
+ {
+  "slug": "savvinskaya-27",
+  "class": "deluxe",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/savvinskaya-27-3007608/",
+  "evidence": "Саввинская 27: Элитный (realty.yandex.ru)",
+  "reason": null
+ },
+ {
+  "slug": "nizhegorodskaya",
+  "class": "comfort",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/level-nizhegorodskaya-3697663/",
+  "evidence": "Левел Нижегородская: Комфорт-класс (realty.yandex.ru)",
+  "reason": null
+ },
+ {
+  "slug": "streshnevo",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "нет в просмотренных списках застройщика/каталогов; класс прямо не указан"
+ },
+ {
+  "slug": "tushinskiy-mashinostroitelnyy-zavod",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "нет в просмотренных списках застройщика/каталогов; класс прямо не указан"
+ },
+ {
+  "slug": "level-seligerskaya",
+  "class": "comfort",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/level-seligerskaya-2991251/",
+  "evidence": "Левел Селигерская: Комфорт-класс (realty.yandex.ru)",
+  "reason": null
+ },
+ {
+  "slug": "staropetrovskiy-atrium",
+  "class": "business",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/level-vojkovskaya-4137862/",
+  "evidence": "Левел Войковская: Бизнес-класс (realty.yandex.ru); сопоставлено по алиасу «проект Level на Войковской»",
+  "reason": null
+ },
+ {
+  "slug": "level-michurinskogo",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "Яндекс: Бизнес; novostroy-m: бизнес, комфорт",
+  "reason": "тот же проект, что Level Мичуринский: каталоги неоднозначны (Бизнес vs «бизнес, комфорт»)"
+ },
+ {
+  "slug": "zvenigorodskaya",
+  "class": "comfort",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/level-zvenigorodskaya-3962357/",
+  "evidence": "Левел Звенигородская: Комфорт + (realty.yandex.ru)",
+  "reason": null
+ },
+ {
+  "slug": "level-donskoy",
+  "class": "business",
+  "basis": "catalog",
+  "source": "https://cian.ru/zastroishchik-level-group-11623/",
+  "evidence": "Левел Донской: «клубные дома бизнес-класса» (описание застройщика на cian.ru)",
+  "reason": null
+ },
+ {
+  "slug": "work-nizhegorodskaya",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "офисный проект (Work), не жилой"
+ },
+ {
+  "slug": "level-nizhegorodskaya",
+  "class": "comfort",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/level-nizhegorodskaya-3697663/",
+  "evidence": "Левел Нижегородская: Комфорт-класс (realty.yandex.ru)",
+  "reason": null
+ },
+ {
+  "slug": "l-club",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "нет в просмотренных списках застройщика/каталогов; класс прямо не указан"
+ },
+ {
+  "slug": "slava",
+  "class": "premium",
+  "basis": "catalog",
+  "source": "https://www.cian.ru/novostroyki-premium-klassa-ot-zastroyschika-zastroyshchik-mr-6008-RLTM/",
+  "evidence": "ЖК «Слава»: «знаковый проект премиум-класса» (cian.ru)",
+  "reason": null
+ },
+ {
+  "slug": "cherry-city",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "нет в просмотренных списках застройщика/каталогов; класс прямо не указан"
+ },
+ {
+  "slug": "symphony-34",
+  "class": "premium",
+  "basis": "catalog",
+  "source": "https://www.cian.ru/novostroyki-premium-klassa-ot-zastroyschika-zastroyshchik-mr-6008-RLTM/",
+  "evidence": "ЖК «Симфония 34»: «Готовый жилой квартал премиум-класса» (cian.ru)",
+  "reason": null
+ },
+ {
+  "slug": "city-bay",
+  "class": "business",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/siti-behj-2287072/",
+  "evidence": "ЖК «Сити Бэй»: бизнес (realty.yandex.ru)",
+  "reason": null
+ },
+ {
+  "slug": "siti-bey",
+  "class": "business",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/siti-behj-2287072/",
+  "evidence": "ЖК «Сити Бэй»: бизнес (realty.yandex.ru)",
+  "reason": null
+ },
+ {
+  "slug": "set",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "нет в просмотренных списках застройщика/каталогов; класс прямо не указан"
+ },
+ {
+  "slug": "jois",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "ЖК «Джойс»: Яндекс.Недвижимость — элитный; cian.ru — «Жилой комплекс премиум-класса»",
+  "reason": "каталоги расходятся: Яндекс «элитный» (deluxe), cian «премиум-класса» (premium)"
+ },
+ {
+  "slug": "vishnevaya-7",
+  "class": "business",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/sitidzen-3850850/",
+  "evidence": "Мультиквартал «СИТИДЗЕН»: бизнес (realty.yandex.ru)",
+  "reason": null
+ },
+ {
+  "slug": "mod",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "ЖК «Мод»: Яндекс.Недвижимость — элитный; cian.ru — «жилой комплекс премиум-класса»",
+  "reason": "каталоги расходятся: Яндекс «элитный» (deluxe), cian «премиум-класса» (premium)"
+ },
+ {
+  "slug": "seliger-siti",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "нет в просмотренных списках застройщика/каталогов; класс прямо не указан"
+ },
+ {
+  "slug": "k7-11",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "нет в просмотренных списках застройщика/каталогов; класс прямо не указан"
+ },
+ {
+  "slug": "mira",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "ЖК «МИРА»: Яндекс.Недвижимость — элитный; cian.ru — «Дом премиум-класса МИРА»",
+  "reason": "каталоги расходятся: Яндекс «элитный» (deluxe), cian «премиум-класса» (premium)"
+ },
+ {
+  "slug": "nicole",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "нет в просмотренных списках застройщика/каталогов; класс прямо не указан"
+ },
+ {
+  "slug": "starovagankovskiy",
+  "class": "deluxe",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/klo-17-4013614/",
+  "evidence": "Жилой дом «Кло 17»: элитный (realty.yandex.ru); сопоставлено по алиасу Clos.17 и адресу",
+  "reason": null
+ },
+ {
+  "slug": "cityzen",
+  "class": "business",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/sitidzen-3850850/",
+  "evidence": "Мультиквартал «СИТИДЗЕН»: бизнес (realty.yandex.ru)",
+  "reason": null
+ },
+ {
+  "slug": "s5",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "С5: Яндекс — элитный; cian — «в премиальном сегменте»",
+  "reason": "каталоги расходятся: Яндекс «элитный», cian — только «в премиальном сегменте»"
+ },
+ {
+  "slug": "26-parkvyu",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "нет в просмотренных списках застройщика/каталогов; класс прямо не указан"
+ },
+ {
+  "slug": "mys",
+  "class": "deluxe",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/mys-4112950/",
+  "evidence": "ЖК «МЫС»: элитный (realty.yandex.ru)",
+  "reason": null
+ },
+ {
+  "slug": "icity",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "нет в просмотренных списках застройщика/каталогов; класс прямо не указан"
+ },
+ {
+  "slug": "link",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "нет в просмотренных списках застройщика/каталогов; класс прямо не указан"
+ },
+ {
+  "slug": "one",
+  "class": "premium",
+  "basis": "catalog",
+  "source": "https://www.cian.ru/novostroyki-premium-klassa-ot-zastroyschika-zastroyshchik-mr-6008-RLTM/",
+  "evidence": "ЖК «Оне»: «жилой комплекс премиум-класса» (cian.ru); сопоставлено по названию и застройщику",
+  "reason": null
+ },
+ {
+  "slug": "sitidzen",
+  "class": "business",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/sitidzen-3850850/",
+  "evidence": "Мультиквартал «СИТИДЗЕН»: бизнес (realty.yandex.ru)",
+  "reason": null
+ },
+ {
+  "slug": "alkhimovo",
+  "class": "comfort",
+  "basis": "catalog",
+  "source": "https://www.cian.ru/novostroyki-komfort-klassa-ot-zastroyschika-gruppa-samolet-6399-RLTM/",
+  "evidence": "ЖК «Алхимово» в списке «Новостройки комфорт-класса от застройщика Группа Самолет» (cian.ru)",
+  "reason": null
+ },
+ {
+  "slug": "ostafevo",
+  "class": "comfort",
+  "basis": "catalog",
+  "source": "https://www.cian.ru/novostroyki-komfort-klassa-ot-zastroyschika-gruppa-samolet-6399-RLTM/",
+  "evidence": "ЖК «Остафьево» в списке «Новостройки комфорт-класса от застройщика Группа Самолет» (cian.ru)",
+  "reason": null
+ },
+ {
+  "slug": "molzhaninovo",
+  "class": "comfort",
+  "basis": "catalog",
+  "source": "https://www.cian.ru/novostroyki-komfort-klassa-ot-zastroyschika-gruppa-samolet-6399-RLTM/",
+  "evidence": "ЖК «Молжаниново» в списке «Новостройки комфорт-класса от застройщика Группа Самолет» (cian.ru)",
+  "reason": null
+ },
+ {
+  "slug": "prigorod-lesnoe",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "нет в просмотренных списках застройщика/каталогов; класс прямо не указан"
+ },
+ {
+  "slug": "varshavskoe-9-1",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "нет в просмотренных списках застройщика/каталогов; класс прямо не указан"
+ },
+ {
+  "slug": "setun",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "нет в просмотренных списках застройщика/каталогов; класс прямо не указан"
+ },
+ {
+  "slug": "novodanilovskaya-8",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "нет в просмотренных списках застройщика/каталогов; класс прямо не указан"
+ },
+ {
+  "slug": "zareche",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "нет в просмотренных списках застройщика/каталогов; класс прямо не указан"
+ },
+ {
+  "slug": "ryabinovyy-park",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "нет в просмотренных списках застройщика/каталогов; класс прямо не указан"
+ },
+ {
+  "slug": "novoe-vnukovo",
+  "class": "comfort",
+  "basis": "catalog",
+  "source": "https://www.cian.ru/novostroyki-komfort-klassa-ot-zastroyschika-gruppa-samolet-6399-RLTM/",
+  "evidence": "ЖК «Новое Внуково» в списке «Новостройки комфорт-класса от застройщика Группа Самолет» (cian.ru)",
+  "reason": null
+ },
+ {
+  "slug": "saburovo",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "нет в просмотренных списках застройщика/каталогов; класс прямо не указан"
+ },
+ {
+  "slug": "pribrezhnyy-park",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "нет в просмотренных списках застройщика/каталогов; класс прямо не указан"
+ },
+ {
+  "slug": "woods",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "нет в просмотренных списках застройщика/каталогов; класс прямо не указан"
+ },
+ {
+  "slug": "ivakino",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "нет в просмотренных списках застройщика/каталогов; класс прямо не указан"
+ },
+ {
+  "slug": "dolina-yauzy",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "нет в просмотренных списках застройщика/каталогов; класс прямо не указан"
+ },
+ {
+  "slug": "kvartal-zapadnyy",
+  "class": "comfort",
+  "basis": "catalog",
+  "source": "https://www.cian.ru/novostroyki-komfort-klassa-ot-zastroyschika-gruppa-samolet-6399-RLTM/",
+  "evidence": "ЖК «Квартал Западный» в списке «Новостройки комфорт-класса от застройщика Группа Самолет» (cian.ru)",
+  "reason": null
+ },
+ {
+  "slug": "literaturnyy-kvartal",
+  "class": "comfort",
+  "basis": "catalog",
+  "source": "https://www.cian.ru/novostroyki-komfort-klassa-ot-zastroyschika-gruppa-samolet-6399-RLTM/",
+  "evidence": "ЖК «Литературный Квартал» в списке «Новостройки комфорт-класса от застройщика Группа Самолет» (cian.ru)",
+  "reason": null
+ },
+ {
+  "slug": "life-varshavskaya",
+  "class": "business",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/lajf-varshavskaya-1673101/",
+  "evidence": "ЛАЙФ Варшавская: бизнес (realty.yandex.ru)",
+  "reason": null
+ },
+ {
+  "slug": "opus",
+  "class": "deluxe",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/opus-3114935/",
+  "evidence": "ОПУС: элитный (realty.yandex.ru)",
+  "reason": null
+ },
+ {
+  "slug": "pride",
+  "class": "deluxe",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/prajd-3206783/",
+  "evidence": "ПРАЙД: элитный (realty.yandex.ru)",
+  "reason": null
+ },
+ {
+  "slug": "vysokaya-zhizn",
+  "class": "deluxe",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/high-life-2732083/",
+  "evidence": "HIGH LIFE: элитный (realty.yandex.ru)",
+  "reason": null
+ },
+ {
+  "slug": "high-life",
+  "class": "deluxe",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/high-life-2732083/",
+  "evidence": "HIGH LIFE: элитный (realty.yandex.ru)",
+  "reason": null
+ },
+ {
+  "slug": "ostankino-business-park",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "нет в просмотренных списках застройщика/каталогов; класс прямо не указан"
+ },
+ {
+  "slug": "botanica-plaza",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "нет в просмотренных списках застройщика/каталогов; класс прямо не указан"
+ },
+ {
+  "slug": "botanika",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "нет в просмотренных списках застройщика/каталогов; класс прямо не указан"
+ },
+ {
+  "slug": "biznes-park-ostankino",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "нет в просмотренных списках застройщика/каталогов; класс прямо не указан"
+ },
+ {
+  "slug": "shift",
+  "class": "deluxe",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/shift-3834517/",
+  "evidence": "SHIFT: элитный (realty.yandex.ru)",
+  "reason": null
+ },
+ {
+  "slug": "layf-varshavskaya",
+  "class": "business",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/lajf-varshavskaya-1673101/",
+  "evidence": "ЛАЙФ Варшавская: бизнес (realty.yandex.ru)",
+  "reason": null
+ },
+ {
+  "slug": "filatov-lug",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "нет в просмотренных списках застройщика/каталогов; класс прямо не указан"
+ },
+ {
+  "slug": "lesoparkovyy",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "нет в просмотренных списках застройщика/каталогов; класс прямо не указан"
+ },
+ {
+  "slug": "odingrad",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "нет в просмотренных списках застройщика/каталогов; класс прямо не указан"
+ },
+ {
+  "slug": "tophills",
+  "class": "business",
+  "basis": "catalog",
+  "source": "https://www.cian.ru/novostroyki-biznes-klassa-ot-zastroyschika-ingrad-8732-RLTM/",
+  "evidence": "TopHills: Бизнес-класс (cian.ru)",
+  "reason": null
+ },
+ {
+  "slug": "zelenaya-vertikal",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "нет в просмотренных списках застройщика/каталогов; класс прямо не указан"
+ },
+ {
+  "slug": "kutuzovgrad",
+  "class": "business",
+  "basis": "catalog",
+  "source": "https://www.novostroy-m.ru/baza/jk_kutuzovgrad_kutuzovgrad",
+  "evidence": "Класс новостройки: бизнес (novostroy-m.ru)",
+  "reason": null
+ },
+ {
+  "slug": "odingrad-lesnoy",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "нет в просмотренных списках застройщика/каталогов; класс прямо не указан"
+ },
+ {
+  "slug": "belyy-mys",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "нет в просмотренных списках застройщика/каталогов; класс прямо не указан"
+ },
+ {
+  "slug": "riversky",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "нет в просмотренных списках застройщика/каталогов; класс прямо не указан"
+ },
+ {
+  "slug": "preobrazhenie",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "нет в просмотренных списках застройщика/каталогов; класс прямо не указан"
+ },
+ {
+  "slug": "1-y-donskoy",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "нет в просмотренных списках застройщика/каталогов; класс прямо не указан"
+ },
+ {
+  "slug": "yuzhnaya-bittsa",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "нет в просмотренных списках застройщика/каталогов; класс прямо не указан"
+ },
+ {
+  "slug": "sidney-siti",
+  "class": "deluxe",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/sidnej-siti-2047213/",
+  "evidence": "Сидней Сити: элитный (realty.yandex.ru)",
+  "reason": null
+ },
+ {
+  "slug": "arkhitektor",
+  "class": "deluxe",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/arhitektor-2348601/",
+  "evidence": "Архитектор: элитный (realty.yandex.ru)",
+  "reason": null
+ },
+ {
+  "slug": "pervyy-lermontovskiy",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "нет в просмотренных списках застройщика/каталогов; класс прямо не указан"
+ },
+ {
+  "slug": "sidney-city",
+  "class": "deluxe",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/sidnej-siti-2047213/",
+  "evidence": "Сидней Сити: элитный (realty.yandex.ru)",
+  "reason": null
+ },
+ {
+  "slug": "1-y-khimkinskiy",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "нет в просмотренных списках застройщика/каталогов; класс прямо не указан"
+ },
+ {
+  "slug": "simonovskiy-val",
+  "class": "deluxe",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/simonovskij-val-4006261/",
+  "evidence": "Симоновский Вал: элитный (realty.yandex.ru)",
+  "reason": null
+ },
+ {
+  "slug": "1-y-sheremetevskiy",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "нет в просмотренных списках застройщика/каталогов; класс прямо не указан"
+ },
+ {
+  "slug": "1-y-leningradskiy",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "нет в просмотренных списках застройщика/каталогов; класс прямо не указан"
+ },
+ {
+  "slug": "tpu-shelepikha",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "din-haus",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "olsufev",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "dream-towers",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "preobrazhenskaya-ploshchad",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "start",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "rumyantsevo-park",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "light-city",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "trenirovochnaya-baza-sbornykh-rossii-po-futbolu",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "repablik",
+  "class": "deluxe",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/repablik-3024493/",
+  "evidence": "ЖК «РЕПАБЛИК»: элитный (realty.yandex.ru)",
+  "reason": null
+ },
+ {
+  "slug": "ozernaya",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "нет в просмотренных списках застройщика/каталогов; класс прямо не указан"
+ },
+ {
+  "slug": "rizhskiy-gruzovoy-dvor",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "нет в просмотренных списках застройщика/каталогов; класс прямо не указан"
+ },
+ {
+  "slug": "wow",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "нет в просмотренных списках застройщика/каталогов; класс прямо не указан"
+ },
+ {
+  "slug": "strana-ozernaya",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "нет в просмотренных списках застройщика/каталогов; класс прямо не указан"
+ },
+ {
+  "slug": "strana-parkovaya",
+  "class": "comfort",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/strana-parkovaya-3983389/",
+  "evidence": "ЖК «Страна.Парковая»: комфорт (realty.yandex.ru)",
+  "reason": null
+ },
+ {
+  "slug": "strana-zarechnaya",
+  "class": "comfort",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/strana-zarechnaya-4016337/",
+  "evidence": "ЖК «Страна.Заречная»: комфорт (realty.yandex.ru)",
+  "reason": null
+ },
+ {
+  "slug": "aurus-rezidentsii",
+  "class": "deluxe",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/aurus-rezidencii-4538694/",
+  "evidence": "ЖК «АУРУС Резиденции»: элитный (realty.yandex.ru)",
+  "reason": null
+ },
+ {
+  "slug": "nagatino-i-land",
+  "class": "business",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/nagatino-aj-lehnd-2133018/",
+  "evidence": "Нагатино Ай-Лэнд: бизнес (realty.yandex.ru)",
+  "reason": null
+ },
+ {
+  "slug": "sokolinn-park",
+  "class": "business",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/sokolin-park-3990146/",
+  "evidence": "Соколин Парк: бизнес (realty.yandex.ru)",
+  "reason": null
+ },
+ {
+  "slug": "elektrozavodskaya-60",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "нет в просмотренных списках застройщика/каталогов; класс прямо не указан"
+ },
+ {
+  "slug": "omega-residence",
+  "class": "deluxe",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/rezidenciya-omega-4210702/",
+  "evidence": "Резиденция Омега: элитный (realty.yandex.ru)",
+  "reason": null
+ },
+ {
+  "slug": "shagal",
+  "class": "business",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/shagal-2577904/",
+  "evidence": "Шагал: бизнес (realty.yandex.ru)",
+  "reason": null
+ },
+ {
+  "slug": "vauxhall",
+  "class": "business",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/voksholl-2708049/",
+  "evidence": "Воксхолл: бизнес (realty.yandex.ru)",
+  "reason": null
+ },
+ {
+  "slug": "marilnn-park",
+  "class": "deluxe",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/mariin-park-3990111/",
+  "evidence": "Мариин Парк: элитный (realty.yandex.ru)",
+  "reason": null
+ },
+ {
+  "slug": "prokshino",
+  "class": "comfort",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/prokshino-2304577/",
+  "evidence": "Прокшино: комфорт (realty.yandex.ru)",
+  "reason": null
+ },
+ {
+  "slug": "yuzhnye-sady",
+  "class": "comfort",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/yuzhnye-sady-2603680/",
+  "evidence": "Южные сады: комфорт (realty.yandex.ru)",
+  "reason": null
+ },
+ {
+  "slug": "zorge-25",
+  "class": "business",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/dom-na-zorge-3487946/",
+  "evidence": "Дом на Зорге: бизнес (realty.yandex.ru)",
+  "reason": null
+ },
+ {
+  "slug": "desnareche",
+  "class": "comfort",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/desnareche-3641076/",
+  "evidence": "Деснаречье: комфорт (realty.yandex.ru)",
+  "reason": null
+ },
+ {
+  "slug": "rodnye-kvartaly",
+  "class": "comfort",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/rodnye-kvartaly-3735988/",
+  "evidence": "Родные кварталы: комфорт (realty.yandex.ru)",
+  "reason": null
+ },
+ {
+  "slug": "dom-na-dzhalilya",
+  "class": "business",
+  "basis": "catalog",
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/dom-na-dzhalilya-4827257/",
+  "evidence": "Дом на Джалиля: бизнес (realty.yandex.ru)",
+  "reason": null
+ },
+ {
+  "slug": "amarant",
+  "class": "business",
+  "basis": "catalog",
+  "source": "https://www.cian.ru/zastroishchik-gk-mits-16/",
+  "evidence": "СК «Амарант»: в описании застройщика на cian.ru «четыре жилых комплекса бизнес-класса»",
+  "reason": null
+ },
+ {
+  "slug": "myata",
+  "class": "business",
+  "basis": "catalog",
+  "source": "https://www.cian.ru/zastroishchik-gk-mits-16/",
+  "evidence": "СК «Мята»: в описании застройщика на cian.ru «четыре жилых комплекса бизнес-класса»",
+  "reason": null
+ },
+ {
+  "slug": "veresk",
+  "class": "business",
+  "basis": "catalog",
+  "source": "https://www.cian.ru/zastroishchik-gk-mits-16/",
+  "evidence": "ЖК «Вереск»: в описании застройщика на cian.ru «четыре жилых комплекса бизнес-класса»",
+  "reason": null
+ },
+ {
+  "slug": "perets",
+  "class": "business",
+  "basis": "catalog",
+  "source": "https://www.cian.ru/zastroishchik-gk-mits-16/",
+  "evidence": "СК «Перец»: в описании застройщика на cian.ru «четыре жилых комплекса бизнес-класса»",
+  "reason": null
+ },
+ {
+  "slug": "mirrorzdanie",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "нет в просмотренных списках застройщика/каталогов; класс прямо не указан"
+ },
+ {
+  "slug": "serdtse-stolitsy",
+  "class": "business",
+  "basis": "catalog",
+  "source": "https://www.novostroy-m.ru/baza/zhk_serdce_stolicy",
+  "evidence": "Класс: бизнес (novostroy-m.ru)",
+  "reason": null
+ },
+ {
+  "slug": "simvol",
+  "class": "business",
+  "basis": "catalog",
+  "source": "https://www.novostroy-m.ru/expertise/simvol2022",
+  "evidence": "«Проект бизнес-класса «Символ»» (novostroy-m.ru)",
+  "reason": null
+ },
+ {
+  "slug": "sobytie",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "нет в просмотренных списках застройщика/каталогов; класс прямо не указан"
+ },
+ {
+  "slug": "nachalo",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "нет в просмотренных списках застройщика/каталогов; класс прямо не указан"
+ },
+ {
+  "slug": "ostrov",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "нет в просмотренных списках застройщика/каталогов; класс прямо не указан"
+ },
+ {
+  "slug": "tpu-novopeschanaya",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "нет в просмотренных списках застройщика/каталогов; класс прямо не указан"
+ },
+ {
+  "slug": "nexus",
+  "class": "business",
+  "basis": "catalog",
+  "source": "https://www.novostroy-m.ru/baza/arhitekturnyy_proekt_nexus_neksus",
+  "evidence": "Класс новостройки: бизнес (novostroy-m.ru)",
+  "reason": null
+ },
+ {
+  "slug": "akvilon-signal",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "нет в просмотренных списках застройщика/каталогов; класс прямо не указан"
+ },
+ {
+  "slug": "the-lot",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "нет в просмотренных списках застройщика/каталогов; класс прямо не указан"
+ },
+ {
+  "slug": "beside",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "нет в просмотренных списках застройщика/каталогов; класс прямо не указан"
+ },
+ {
+  "slug": "lumin",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "lunar",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "b-aires",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "geolog",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "teatralnyy-kvartal",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "malevich",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "vysotka-na-zhukova",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "nevskiy",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "n74",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "aura-belorusskaya",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "aura-na-belorusskoy",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "perovskiy-54",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "hide",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "hideout",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "svet",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "qoob",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "dm-tower",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "myur-i-meriliz",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "korolev",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "rassvet",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "coin-house",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "logos",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "dom-belyy",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "ogorodnyy-20",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "kvartal-gertsena",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "metronom",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "tpu-kuntsevskaya",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "upside-kuntsev",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "mosfilmovskaya-74-78",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "dom-s-atlantami",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "fenomen-goroda",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "beregovoy",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "balans",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "talisman-na-rokossovskogo",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "voice-towers",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "poklonnaya-7",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "rakurs",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "dolina-mgu",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "krasnaya-presnya",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "clementine",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "upside-towers",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "ice-tower",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "aurum-taym",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "eyler",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "dom-dau",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "uzory",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "3-ya-khoroshevskaya-18-2",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "leningradskoe-63a-3",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "vetkina-2v",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "dolgorukovskaya-25",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "eleven",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "fantastic-house",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "district-39",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "injoy",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "insayder",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "dosflota-10",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "titul-kostomarovskiy-15",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "champine",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "1-y-nagatinskiy",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "dom-gorizontov",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "tatarskaya-35",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "vern",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "dom-franka",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "sadovnicheskaya-76-71",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "novoe-letovo",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "friday-villas",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "foriver",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "pentagram",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "dius",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "dream-riva",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "kutuzov-siti",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "vavilova-64-1",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "bestseller",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "grand-fili",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "om-botanicheskiy",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ },
+ {
+  "slug": "pushkarev-12",
+  "class": null,
+  "basis": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено: лимит 18 поисков исчерпан"
+ }
+]

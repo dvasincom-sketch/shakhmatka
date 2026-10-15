@@ -1,0 +1,354 @@
+[
+ {
+  "slug": "komsomolskiy-1",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "tts-ekstrim",
+  "district": null,
+  "region": null,
+  "source": "https://moskvichmag.ru/?p=190021",
+  "evidence": "Смольная, метро Беломорская ~8 мин; район не назван",
+  "reason": "источник не называет район"
+ },
+ {
+  "slug": "zelenyy-park",
+  "district": null,
+  "region": null,
+  "source": "https://realty.yandex.ru/moskva_i_moskovskaya_oblast/kupit/novostrojka/zelyonyj-park-2772655/",
+  "evidence": "пр. Георгиевский, Зеленоград (ПИК), район внутри Зеленограда в источнике не назван",
+  "reason": "источник даёт только Зеленоград"
+ },
+ {
+  "slug": "kashirskoe-shosse-63-13",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "kozhevnicheskie-bani",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "altufevskoe-53",
+  "district": "altufevskiy",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/baza/jk_altufevskoe_53",
+  "evidence": "ш. Алтуфьевское; «Москва, СВАО, Алтуфьевский»",
+  "reason": null
+ },
+ {
+  "slug": "mirapolis",
+  "district": "yaroslavskiy",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/baza/jk_mirapolis",
+  "evidence": "пр-кт Мира, вл. 222; Москва, СВАО, Ярославский",
+  "reason": null
+ },
+ {
+  "slug": "kashirskoe-34",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "dubininskaya-33b",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "sreda-na-yuzhnoportovoy",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "2-ya-magistralnaya-7a",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "bolshoy-levshinskiy-12",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "byvshiy-torgovyy-dom-amo-zil",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "duo",
+  "district": "yakimanka",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/baza/jk_na_sofiyskoy_naberejnoy",
+  "evidence": "Клубный дом Duo (Hutton Development), Софийская наб., 34/3; ЦАО, Якиманка",
+  "reason": null
+ },
+ {
+  "slug": "uchastok-20-moskva-siti",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "rodnye-kvartaly",
+  "district": "marushkinskoe",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/baza/jk_postnikovo",
+  "evidence": "дер. Постниково, Марушкинское с/п, НАО (А101, ЖК «Родные кварталы»); страница также упоминает отнесение с 2024 к району Внуково",
+  "reason": null
+ },
+ {
+  "slug": "verkhnyaya-krasnoselskaya-11a",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "kampus-mgsu",
+  "district": null,
+  "region": null,
+  "source": "https://moskvichmag.ru/?p=336610",
+  "evidence": "Ярославское шоссе; район и дом не названы",
+  "reason": "источник не называет район"
+ },
+ {
+  "slug": "kinetik",
+  "district": "zapadnoe-degunino",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/kvartiry/studiya-v-mfk-kinetik-9fb225e75cc00f37230449ae17b2a9",
+  "evidence": "МФК Kinetik: Дмитровское ш., вл. 75-77; Москва, САО, Западное Дегунино",
+  "reason": null
+ },
+ {
+  "slug": "vavilova-66",
+  "district": "gagarinskiy",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/novosti/jile_na_ulitse_vavilova",
+  "evidence": "«улица Вавилова, вл. 48В, 66 и 68» — «Гагаринский район» (в тексте, без ключа в списке подтверждённого адреса КРТ)",
+  "reason": null
+ },
+ {
+  "slug": "avtozavodskaya-23s58",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "rublevskoe-58",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "beluck-kolomenskoe",
+  "district": "nagatino-sadovniki",
+  "region": null,
+  "source": "https://novostroy-m.ru/baza/arhitekturnyy_proekt_beluck_kolomenskoe",
+  "evidence": "ш. Каширское, 1с17; Москва, ЮАО, Нагатино-Садовники",
+  "reason": null
+ },
+ {
+  "slug": "novovorotnikovskiy-4-1",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "leninskiy-82-2-2",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "novoslobodskaya-55-str-1",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "altufevskoe-53-24443",
+  "district": "altufevskiy",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/baza/jk_altufevskoe_53",
+  "evidence": "тот же ЖК «Алтуфьевское 53» ПИК: ш. Алтуфьевское; Москва, СВАО, Алтуфьевский",
+  "reason": null
+ },
+ {
+  "slug": "frame",
+  "district": "presnenskiy",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/baza/biznestsentr_frame_workplace_freym",
+  "evidence": "БЦ Frame, ул. Пресненский вал, вл. 27/5; ЦАО, Пресненский; застройщик FORMA",
+  "reason": null
+ },
+ {
+  "slug": "2-y-kozhevnicheskiy-2",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "bolshaya-nikitskaya-11-4s3",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "tsandera-14",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "bolshoy-nikolovorobinskiy-7-str-2-3-4-17",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "omni-tower",
+  "district": "fili-davydkovo",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/baza/biznestsentr_omni_tower",
+  "evidence": "ул. Алексея Свиридова, 7; ЗАО, Фили-Давыдково (на карточке застройщик Sense Development, в досье ПИК — адрес совпадает)",
+  "reason": null
+ },
+ {
+  "slug": "nikitskiy-6",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "bolshaya-nikitskaya-16",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "potapovskiy-2-8",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "devyatskoe",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "bolshaya-bronnaya-23-str-1",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "mark",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "povarskaya-29-36-str-2",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "kozhevnicheskaya-13-3",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "kinoteatr-pravda",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "bell",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "link",
+  "district": "ochakovo-matveevskoe",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/baza/biznestsentr_link_link",
+  "evidence": "БЦ LINK, ул. Рябиновая, вл. 44; ЗАО, Очаково-Матвеевское; MR Group",
+  "reason": null
+ }
+]

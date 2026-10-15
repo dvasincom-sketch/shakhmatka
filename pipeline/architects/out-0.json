@@ -1,0 +1,4438 @@
+{
+ "bureaus": [
+  {
+   "key": "tsimailo-lyashenko",
+   "name": "Цимайло, Ляшенко и Партнёры",
+   "aliases": [
+    "ЦЛП",
+    "Цимайло Ляшенко и Партнеры",
+    "Цимайло Ляшенко и партнеры",
+    "Цимайло Ляшенко и партнёры",
+    "Цимайло, Ляшенко и Партнеры",
+    "Цимайло, Ляшенко и партнеры",
+    "бюро Цимайло"
+   ],
+   "kind": "architecture"
+  },
+  {
+   "key": "severin-group",
+   "name": "Severin Group",
+   "aliases": [],
+   "kind": "architecture"
+  },
+  {
+   "key": "osa",
+   "name": "OSA architectural office",
+   "aliases": [
+    "бюро ОСА"
+   ],
+   "kind": "architecture"
+  },
+  {
+   "key": "asadov",
+   "name": "ASADOV",
+   "aliases": [
+    "Asadov",
+    "Бюро Асадова"
+   ],
+   "kind": "architecture"
+  },
+  {
+   "key": "atrium",
+   "name": "ATRIUM",
+   "aliases": [
+    "Atrium",
+    "бюро «Атриум»",
+    "бюро Атриум"
+   ],
+   "kind": "architecture"
+  },
+  {
+   "key": "wall",
+   "name": "WALL",
+   "aliases": [
+    "Wall",
+    "бюро Рубена"
+   ],
+   "kind": "architecture"
+  },
+  {
+   "key": "tt-architects",
+   "name": "T+T Architects",
+   "aliases": [
+    "T+T"
+   ],
+   "kind": "architecture"
+  },
+  {
+   "key": "jtp",
+   "name": "JTP",
+   "aliases": [],
+   "kind": "architecture"
+  },
+  {
+   "key": "gafa",
+   "name": "GAFA",
+   "aliases": [
+    "GAFA Architects"
+   ],
+   "kind": "architecture"
+  },
+  {
+   "key": "ind",
+   "name": "IND Architects",
+   "aliases": [
+    "IND",
+    "IND architects"
+   ],
+   "kind": "architecture"
+  },
+  {
+   "key": "msp",
+   "name": "MSP",
+   "aliases": [],
+   "kind": "architecture"
+  },
+  {
+   "key": "white-stones",
+   "name": "White Stones",
+   "aliases": [
+    "whitestones"
+   ],
+   "kind": "architecture"
+  },
+  {
+   "key": "mla-plus",
+   "name": "MLA+",
+   "aliases": [
+    "МЛА+"
+   ],
+   "kind": "architecture"
+  },
+  {
+   "key": "ginzburg-architects",
+   "name": "Ginzburg Architects",
+   "aliases": [
+    "GA",
+    "Ginzburg",
+    "Ginzburg architects",
+    "ginzburg",
+    "А-Га"
+   ],
+   "kind": "architecture"
+  },
+  {
+   "key": "gren",
+   "name": "GREN",
+   "aliases": [],
+   "kind": "architecture"
+  },
+  {
+   "key": "olimproekt",
+   "name": "Олимпроект",
+   "aliases": [],
+   "kind": "architecture"
+  },
+  {
+   "key": "byuro-soyuz",
+   "name": "Бюро Союз",
+   "aliases": [
+    "бюро Союз"
+   ],
+   "kind": "architecture"
+  },
+  {
+   "key": "kamen",
+   "name": "KAMEN",
+   "aliases": [
+    "KAMEN Architects",
+    "Kamen",
+    "«Камень»"
+   ],
+   "kind": "architecture"
+  },
+  {
+   "key": "arch-e-type",
+   "name": "ARCH(E)TYPE",
+   "aliases": [
+    "Arch(e)type",
+    "Arch-e-type"
+   ],
+   "kind": "architecture"
+  },
+  {
+   "key": "apex",
+   "name": "APEX",
+   "aliases": [
+    "Apex"
+   ],
+   "kind": "architecture"
+  },
+  {
+   "key": "kso",
+   "name": "КСО",
+   "aliases": [],
+   "kind": "architecture"
+  },
+  {
+   "key": "unk",
+   "name": "UNK",
+   "aliases": [
+    "UNK architects",
+    "UNK project"
+   ],
+   "kind": "architecture"
+  },
+  {
+   "key": "masterskaya-dmitrieva",
+   "name": "Архитектурная мастерская Михаила Дмитриева",
+   "aliases": [
+    "АМ Михаила Дмитриева",
+    "бюро Михаила Дмитриева",
+    "мастерская Михаила Дмитриева"
+   ],
+   "kind": "architecture"
+  },
+  {
+   "key": "adm",
+   "name": "ADM",
+   "aliases": [
+    "АДМ"
+   ],
+   "kind": "architecture"
+  },
+  {
+   "key": "de-architekten-cie",
+   "name": "de Architekten Cie",
+   "aliases": [
+    "Cie"
+   ],
+   "kind": "architecture"
+  },
+  {
+   "key": "druzhba",
+   "name": "Дружба",
+   "aliases": [
+    "бюро «Дружба»",
+    "бюро Дружба"
+   ],
+   "kind": "landscape"
+  },
+  {
+   "key": "skuratov-architects",
+   "name": "Сергей Скуратов Architects",
+   "aliases": [
+    "Sergey Skuratov Architects",
+    "Скуратов",
+    "Скуратова",
+    "бюро Сергея Скуратова",
+    "бюро Скуратова"
+   ],
+   "kind": "architecture"
+  },
+  {
+   "key": "kleinewelt",
+   "name": "Kleinewelt Architekten",
+   "aliases": [
+    "Kleinewelt",
+    "Kleinewelt architekten",
+    "kleinewelt"
+   ],
+   "kind": "architecture"
+  },
+  {
+   "key": "ariada",
+   "name": "Ariada",
+   "aliases": [
+    "ARIADA",
+    "ARIADA architects"
+   ],
+   "kind": "architecture"
+  },
+  {
+   "key": "progress",
+   "name": "Progress",
+   "aliases": [
+    "бюро Progress"
+   ],
+   "kind": "architecture"
+  },
+  {
+   "key": "gravion-group",
+   "name": "Gravion group",
+   "aliases": [],
+   "kind": "architecture"
+  },
+  {
+   "key": "byuro-80-88",
+   "name": "80/88",
+   "aliases": [
+    "бюро 80/88"
+   ],
+   "kind": "architecture"
+  },
+  {
+   "key": "abv",
+   "name": "ABV",
+   "aliases": [
+    "АБВ"
+   ],
+   "kind": "architecture"
+  },
+  {
+   "key": "um",
+   "name": "UM",
+   "aliases": [
+    "UM"
+   ],
+   "kind": "architecture"
+  },
+  {
+   "key": "ostozhenka",
+   "name": "Остоженка",
+   "aliases": [
+    "бюро «Остоженка»",
+    "бюро Остоженка"
+   ],
+   "kind": "architecture"
+  },
+  {
+   "key": "syntaxis",
+   "name": "Syntaxis",
+   "aliases": [
+    "«Синтаксис»"
+   ],
+   "kind": "architecture"
+  },
+  {
+   "key": "mam",
+   "name": "М.А.М.",
+   "aliases": [
+    "МАМ"
+   ],
+   "kind": "architecture"
+  },
+  {
+   "key": "genpro",
+   "name": "Генпро",
+   "aliases": [
+    "GENPRO",
+    "Genpro"
+   ],
+   "kind": "architecture"
+  },
+  {
+   "key": "masterskaya-gerasimova",
+   "name": "Мастерская Евгения Герасимова и партнёров",
+   "aliases": [
+    "Евгений Герасимов",
+    "Евгения Герасимова",
+    "архитектор Герасимов",
+    "мастерской Евгения Герасимова и партнеров"
+   ],
+   "kind": "architecture"
+  },
+  {
+   "key": "speech",
+   "name": "SPEECH",
+   "aliases": [
+    "Speech",
+    "СПИЧ"
+   ],
+   "kind": "architecture"
+  },
+  {
+   "key": "ucd",
+   "name": "UCD",
+   "aliases": [
+    "проектирование UCD"
+   ],
+   "kind": "architecture"
+  },
+  {
+   "key": "u-studio",
+   "name": "U-Studio",
+   "aliases": [],
+   "kind": "architecture"
+  },
+  {
+   "key": "paris-classical-architecture",
+   "name": "Paris Classical Architecture",
+   "aliases": [],
+   "kind": "architecture"
+  },
+  {
+   "key": "thomas-juul-hansen",
+   "name": "Thomas Juul Hansen",
+   "aliases": [],
+   "kind": "architecture"
+  },
+  {
+   "key": "gillespies",
+   "name": "Gillespies",
+   "aliases": [],
+   "kind": "landscape"
+  },
+  {
+   "key": "dnk-ag",
+   "name": "DNK ag",
+   "aliases": [
+    "DNK"
+   ],
+   "kind": "architecture"
+  },
+  {
+   "key": "john-mcaslan",
+   "name": "John McAslan + Partners",
+   "aliases": [],
+   "kind": "architecture"
+  },
+  {
+   "key": "nikken-sekkei",
+   "name": "Nikken Sekkei",
+   "aliases": [
+    "NIKKEN"
+   ],
+   "kind": "architecture"
+  },
+  {
+   "key": "sheloves",
+   "name": "SHELOVES",
+   "aliases": [],
+   "kind": "architecture"
+  },
+  {
+   "key": "buromoscow",
+   "name": "Buromoscow",
+   "aliases": [
+    "BUROMOSCOW"
+   ],
+   "kind": "architecture"
+  },
+  {
+   "key": "parsec",
+   "name": "Parsec",
+   "aliases": [],
+   "kind": "architecture"
+  },
+  {
+   "key": "mvrdv",
+   "name": "MVRDV",
+   "aliases": [],
+   "kind": "architecture"
+  },
+  {
+   "key": "semren-mansson",
+   "name": "Semrén & Månsson",
+   "aliases": [
+    "Semrén&Månsson"
+   ],
+   "kind": "architecture"
+  },
+  {
+   "key": "kemelin",
+   "name": "Kemelin",
+   "aliases": [],
+   "kind": "interior"
+  },
+  {
+   "key": "oleg-klodt",
+   "name": "Oleg Klodt Architecture & Design",
+   "aliases": [
+    "Oleg Klodt Architecture&Design",
+    "Олег Клодт",
+    "Олега Клодта"
+   ],
+   "kind": "interior"
+  },
+  {
+   "key": "scape",
+   "name": "SCAPE",
+   "aliases": [
+    "Scape"
+   ],
+   "kind": "landscape"
+  },
+  {
+   "key": "west8",
+   "name": "WEST 8",
+   "aliases": [
+    "WEST8"
+   ],
+   "kind": "landscape"
+  },
+  {
+   "key": "basis",
+   "name": "basis",
+   "aliases": [
+    "бюро basis"
+   ],
+   "kind": "landscape"
+  },
+  {
+   "key": "veshch",
+   "name": "Вещь!",
+   "aliases": [
+    "бюро Вещь!"
+   ],
+   "kind": "landscape"
+  },
+  {
+   "key": "nva",
+   "name": "НВА",
+   "aliases": [
+    "студии НВА"
+   ],
+   "kind": "interior"
+  },
+  {
+   "key": "jaime-beriestain",
+   "name": "Jaime Beriestain",
+   "aliases": [],
+   "kind": "interior"
+  },
+  {
+   "key": "oda",
+   "name": "ODA",
+   "aliases": [],
+   "kind": "architecture"
+  },
+  {
+   "key": "dyer",
+   "name": "Dyer",
+   "aliases": [],
+   "kind": "architecture"
+  },
+  {
+   "key": "heatherwick-studio",
+   "name": "Heatherwick Studio",
+   "aliases": [
+    "Хезервика"
+   ],
+   "kind": "architecture"
+  },
+  {
+   "key": "coop-himmelblau",
+   "name": "Coop Himmelb(l)au",
+   "aliases": [],
+   "kind": "architecture"
+  },
+  {
+   "key": "metropolis",
+   "name": "Метрополис",
+   "aliases": [
+    "«Метрополис»"
+   ],
+   "kind": "architecture"
+  },
+  {
+   "key": "project-2018",
+   "name": "project 2018",
+   "aliases": [],
+   "kind": "architecture"
+  },
+  {
+   "key": "borisov-architects",
+   "name": "Borisov Architects",
+   "aliases": [],
+   "kind": "architecture"
+  },
+  {
+   "key": "mikhail-filippov",
+   "name": "Михаил Филиппов",
+   "aliases": [
+    "Михаила Филиппова"
+   ],
+   "kind": "architecture"
+  },
+  {
+   "key": "amirov-architects",
+   "name": "Amirov Architects",
+   "aliases": [],
+   "kind": "architecture"
+  },
+  {
+   "key": "do-bureau",
+   "name": "DŌ",
+   "aliases": [
+    "бюро DŌ"
+   ],
+   "kind": "architecture"
+  },
+  {
+   "key": "ket",
+   "name": "ket",
+   "aliases": [
+    "бюро ket"
+   ],
+   "kind": "architecture"
+  },
+  {
+   "key": "nowadays",
+   "name": "Nowadays",
+   "aliases": [
+    "NOWADAYS office"
+   ],
+   "kind": "architecture"
+  },
+  {
+   "key": "lunn",
+   "name": "Lunn",
+   "aliases": [
+    "Бюро Lunn"
+   ],
+   "kind": "architecture"
+  },
+  {
+   "key": "kanva",
+   "name": "Kanva",
+   "aliases": [
+    "Бюро Kanva"
+   ],
+   "kind": "architecture"
+  },
+  {
+   "key": "mayak",
+   "name": "MAYAK",
+   "aliases": [
+    "Mayak"
+   ],
+   "kind": "architecture"
+  },
+  {
+   "key": "labva",
+   "name": "Лабва",
+   "aliases": [
+    "бюро Лабва"
+   ],
+   "kind": "architecture"
+  },
+  {
+   "key": "merakom",
+   "name": "Мераком",
+   "aliases": [
+    "бюро Мераком"
+   ],
+   "kind": "architecture"
+  },
+  {
+   "key": "ingmar",
+   "name": "Ингмар",
+   "aliases": [
+    "бюро Ингмар"
+   ],
+   "kind": "architecture"
+  },
+  {
+   "key": "vi",
+   "name": "ВИ",
+   "aliases": [
+    "бюро ВИ",
+    "бюро Ви"
+   ],
+   "kind": "architecture"
+  },
+  {
+   "key": "slava-plus",
+   "name": "Slava+",
+   "aliases": [],
+   "kind": "architecture"
+  },
+  {
+   "key": "kpln",
+   "name": "KPLN",
+   "aliases": [],
+   "kind": "architecture"
+  },
+  {
+   "key": "above",
+   "name": "ABOVE",
+   "aliases": [
+    "Above"
+   ],
+   "kind": "architecture"
+  },
+  {
+   "key": "ai-architects",
+   "name": "AI Architects",
+   "aliases": [
+    "AI Studio",
+    "АИ-АРХИТЕКТС",
+    "бюро AI"
+   ],
+   "kind": "architecture"
+  },
+  {
+   "key": "muza-form",
+   "name": "MUZA FORM",
+   "aliases": [],
+   "kind": "architecture"
+  },
+  {
+   "key": "soulstone",
+   "name": "SOULSTONE",
+   "aliases": [],
+   "kind": "architecture"
+  },
+  {
+   "key": "steel",
+   "name": "Steel",
+   "aliases": [
+    "бюро Steel"
+   ],
+   "kind": "architecture"
+  },
+  {
+   "key": "b1",
+   "name": "Б1",
+   "aliases": [],
+   "kind": "architecture"
+  },
+  {
+   "key": "lampa-community",
+   "name": "Lampa Community",
+   "aliases": [
+    "Lampa"
+   ],
+   "kind": "architecture"
+  },
+  {
+   "key": "kollektiv-12",
+   "name": "Коллектив 12",
+   "aliases": [],
+   "kind": "architecture"
+  },
+  {
+   "key": "marks-group",
+   "name": "Marks Group",
+   "aliases": [
+    "MARKS GROUP",
+    "«Маркс»"
+   ],
+   "kind": "architecture"
+  },
+  {
+   "key": "byuro-bashkaeva",
+   "name": "Бюро Тимура Башкаева",
+   "aliases": [
+    "Башкаев",
+    "Башкаева",
+    "бюро Тимура Башкаева"
+   ],
+   "kind": "architecture"
+  },
+  {
+   "key": "meganom",
+   "name": "Меганом",
+   "aliases": [
+    "Meganom"
+   ],
+   "kind": "architecture"
+  },
+  {
+   "key": "steve-brown-architecture",
+   "name": "Steve Brown Architecture",
+   "aliases": [],
+   "kind": "architecture"
+  },
+  {
+   "key": "simpsonhaugh",
+   "name": "SimpsonHaugh",
+   "aliases": [],
+   "kind": "architecture"
+  },
+  {
+   "key": "max-dudler",
+   "name": "Max Dudler",
+   "aliases": [
+    "maxdudler"
+   ],
+   "kind": "architecture"
+  },
+  {
+   "key": "mecanoo",
+   "name": "Mecanoo",
+   "aliases": [],
+   "kind": "architecture"
+  },
+  {
+   "key": "buro-2-2",
+   "name": "Buro 2+2",
+   "aliases": [],
+   "kind": "architecture"
+  },
+  {
+   "key": "sergey-kiselev",
+   "name": "Бюро Сергея Киселёва",
+   "aliases": [
+    "бюро Сергея Киселева",
+    "бюро Сергея Киселёва"
+   ],
+   "kind": "architecture"
+  },
+  {
+   "key": "masterskaya-ilina",
+   "name": "Мастерская Алексея Ильина",
+   "aliases": [
+    "мастерская Алексея Ильина"
+   ],
+   "kind": "architecture"
+  },
+  {
+   "key": "mikhail-feldman",
+   "name": "Михаил Фельдман",
+   "aliases": [
+    "Михаила Фельдмана"
+   ],
+   "kind": "architecture"
+  },
+  {
+   "key": "plotkin",
+   "name": "Плоткин",
+   "aliases": [
+    "Плоткина"
+   ],
+   "kind": "architecture"
+  },
+  {
+   "key": "irga",
+   "name": "Ирга",
+   "aliases": [
+    "архитектор Ирга"
+   ],
+   "kind": "architecture"
+  },
+  {
+   "key": "kengo-kuma",
+   "name": "Kengo Kuma",
+   "aliases": [],
+   "kind": "architecture"
+  },
+  {
+   "key": "valode-pistre",
+   "name": "Valode & Pistre",
+   "aliases": [],
+   "kind": "architecture"
+  },
+  {
+   "key": "masters-plan",
+   "name": "Master's plan",
+   "aliases": [
+    "Masters Plan"
+   ],
+   "kind": "architecture"
+  },
+  {
+   "key": "megabudka",
+   "name": "Megabudka",
+   "aliases": [
+    "megabudka"
+   ],
+   "kind": "architecture"
+  },
+  {
+   "key": "citizenstudio",
+   "name": "Citizenstudio",
+   "aliases": [],
+   "kind": "architecture"
+  },
+  {
+   "key": "unstudio",
+   "name": "UNStudio",
+   "aliases": [],
+   "kind": "architecture"
+  },
+  {
+   "key": "plp-architecture",
+   "name": "PLP Architecture",
+   "aliases": [],
+   "kind": "architecture"
+  },
+  {
+   "key": "droo",
+   "name": "DROO",
+   "aliases": [],
+   "kind": "architecture"
+  },
+  {
+   "key": "gregory-tuck-architects",
+   "name": "Gregory Tuck Architects",
+   "aliases": [],
+   "kind": "architecture"
+  },
+  {
+   "key": "chipperfield",
+   "name": "David Chipperfield Architects",
+   "aliases": [],
+   "kind": "architecture"
+  },
+  {
+   "key": "wilmotte",
+   "name": "Wilmotte & Associés",
+   "aliases": [
+    "Wilmotte & Associ"
+   ],
+   "kind": "architecture"
+  },
+  {
+   "key": "tabanlioglu",
+   "name": "Tabanlioglu Architects",
+   "aliases": [],
+   "kind": "architecture"
+  },
+  {
+   "key": "civil-architects",
+   "name": "Civil Architects",
+   "aliases": [
+    "civil architects",
+    "СИВИЛ"
+   ],
+   "kind": "architecture"
+  },
+  {
+   "key": "blank-architects",
+   "name": "Blank Architects",
+   "aliases": [
+    "Blank Architecture",
+    "Blank architects",
+    "бюро BLANK"
+   ],
+   "kind": "architecture"
+  },
+  {
+   "key": "bbm",
+   "name": "ББМ",
+   "aliases": [
+    "BBM Project"
+   ],
+   "kind": "architecture"
+  },
+  {
+   "key": "kk",
+   "name": "К+К",
+   "aliases": [
+    "«К+К»",
+    "бюро «КК»"
+   ],
+   "kind": "architecture"
+  },
+  {
+   "key": "abd",
+   "name": "ABD",
+   "aliases": [
+    "abd"
+   ],
+   "kind": "architecture"
+  },
+  {
+   "key": "abg",
+   "name": "ABG",
+   "aliases": [
+    "бюро ABG"
+   ],
+   "kind": "architecture"
+  },
+  {
+   "key": "tpo-rezerv",
+   "name": "ТПО Резерв",
+   "aliases": [],
+   "kind": "architecture"
+  },
+  {
+   "key": "tpo-pride",
+   "name": "ТПО Pride",
+   "aliases": [],
+   "kind": "architecture"
+  },
+  {
+   "key": "ekaterina-gren",
+   "name": "Бюро Екатерины Грень",
+   "aliases": [
+    "бюро Екатерины Грень"
+   ],
+   "kind": "architecture"
+  },
+  {
+   "key": "antonini-darmon",
+   "name": "Antonini Darmon",
+   "aliases": [],
+   "kind": "architecture"
+  },
+  {
+   "key": "bechu-associes",
+   "name": "Bechu + Associés",
+   "aliases": [
+    "Bechu + Associ"
+   ],
+   "kind": "architecture"
+  },
+  {
+   "key": "oma",
+   "name": "OMA",
+   "aliases": [
+    "ОМА"
+   ],
+   "kind": "architecture"
+  },
+  {
+   "key": "up-plus",
+   "name": "UP+",
+   "aliases": [],
+   "kind": "architecture"
+  },
+  {
+   "key": "wowhaus",
+   "name": "Wowhaus",
+   "aliases": [
+    "WOWHAUS"
+   ],
+   "kind": "landscape"
+  },
+  {
+   "key": "soho",
+   "name": "СОХО",
+   "aliases": [],
+   "kind": "architecture"
+  },
+  {
+   "key": "main",
+   "name": "MAIN",
+   "aliases": [
+    "Бюро MAIN"
+   ],
+   "kind": "architecture"
+  }
+ ],
+ "links": [
+  {
+   "bureau": "tsimailo-lyashenko",
+   "obj": "21-19",
+   "event": 0,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "severin-group",
+   "obj": "dvizhenie-tushino",
+   "event": 0,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "asadov",
+   "obj": "luchi",
+   "event": 6,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "kamen",
+   "obj": "beregovoy",
+   "event": 1,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "atrium",
+   "obj": "zil-yug",
+   "event": 4,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "wall",
+   "obj": "cameo",
+   "event": 2,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "tt-architects",
+   "obj": "cameo",
+   "event": 2,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "jtp",
+   "obj": "repablik",
+   "event": 10,
+   "article": null,
+   "role": "альтернативный/неосуществлённый вариант"
+  },
+  {
+   "bureau": "gafa",
+   "obj": "repablik",
+   "event": 10,
+   "article": null,
+   "role": "альтернативный/неосуществлённый вариант"
+  },
+  {
+   "bureau": "ind",
+   "obj": "repablik",
+   "event": 10,
+   "article": null,
+   "role": "альтернативный/неосуществлённый вариант"
+  },
+  {
+   "bureau": "msp",
+   "obj": "repablik",
+   "event": 10,
+   "article": null,
+   "role": "альтернативный/неосуществлённый вариант"
+  },
+  {
+   "bureau": "white-stones",
+   "obj": "dobrolyubova-3",
+   "event": 2,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "mla-plus",
+   "obj": "tpu-verkhnie-likhobory",
+   "event": 5,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "wall",
+   "obj": "alia",
+   "event": 2,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "atrium",
+   "obj": "alia",
+   "event": 6,
+   "article": null,
+   "role": "фасады"
+  },
+  {
+   "bureau": "ginzburg-architects",
+   "obj": "ever",
+   "event": 1,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "gren",
+   "obj": "molzhaninovo",
+   "event": 0,
+   "article": null,
+   "role": "мастер-план"
+  },
+  {
+   "bureau": "olimproekt",
+   "obj": "molzhaninovo",
+   "event": 0,
+   "article": null,
+   "role": "мастер-план"
+  },
+  {
+   "bureau": "byuro-soyuz",
+   "obj": "zilart",
+   "event": 5,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "kamen",
+   "obj": "zilart",
+   "event": 22,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "ind",
+   "obj": "tushino-2018",
+   "event": 0,
+   "article": null,
+   "role": "мастер-план"
+  },
+  {
+   "bureau": "arch-e-type",
+   "obj": "level-baumanskaya",
+   "event": 5,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "apex",
+   "obj": "tipografiya-levensona",
+   "event": 1,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "dyer",
+   "obj": "level-yuzhnoportovaya",
+   "event": 4,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "kamen",
+   "obj": "slava",
+   "event": 22,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "kso",
+   "obj": "slava",
+   "event": 22,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "unk",
+   "obj": "luzhniki-collection",
+   "event": 3,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "masterskaya-dmitrieva",
+   "obj": "red7",
+   "event": 0,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "apex",
+   "obj": "soul",
+   "event": 4,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "adm",
+   "obj": "paveletskaya-siti",
+   "event": 7,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "kamen",
+   "obj": "city-bay",
+   "event": 0,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "de-architekten-cie",
+   "obj": "setun",
+   "event": 6,
+   "article": null,
+   "role": "фасады"
+  },
+  {
+   "bureau": "druzhba",
+   "obj": "setun",
+   "event": 6,
+   "article": null,
+   "role": "благоустройство"
+  },
+  {
+   "bureau": "abv",
+   "obj": "sputnik",
+   "event": 5,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "skuratov-architects",
+   "obj": "severnyy-port",
+   "event": 5,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "kleinewelt",
+   "obj": "kepler-house",
+   "event": 0,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "skuratov-architects",
+   "obj": "sadovye-kvartaly",
+   "event": 2,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "osa",
+   "obj": "odingrad",
+   "event": 0,
+   "article": null,
+   "role": "альтернативный/неосуществлённый вариант"
+  },
+  {
+   "bureau": "gren",
+   "obj": "akademicheskaya",
+   "event": 0,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "byuro-80-88",
+   "obj": "akademicheskaya",
+   "event": 13,
+   "article": null,
+   "role": "альтернативный/неосуществлённый вариант"
+  },
+  {
+   "bureau": "atrium",
+   "obj": "now",
+   "event": 1,
+   "article": null,
+   "role": "альтернативный/неосуществлённый вариант"
+  },
+  {
+   "bureau": "apex",
+   "obj": "now",
+   "event": 1,
+   "article": null,
+   "role": "альтернативный/неосуществлённый вариант"
+  },
+  {
+   "bureau": "gafa",
+   "obj": "era",
+   "event": 14,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "ind",
+   "obj": "novyy-arbat-2",
+   "event": 3,
+   "article": null,
+   "role": "альтернативный/неосуществлённый вариант"
+  },
+  {
+   "bureau": "abv",
+   "obj": "novyy-arbat-2",
+   "event": 3,
+   "article": null,
+   "role": "альтернативный/неосуществлённый вариант"
+  },
+  {
+   "bureau": "um",
+   "obj": "novyy-arbat-2",
+   "event": 3,
+   "article": null,
+   "role": "альтернативный/неосуществлённый вариант"
+  },
+  {
+   "bureau": "tpo-rezerv",
+   "obj": "novyy-arbat-2",
+   "event": 3,
+   "article": null,
+   "role": "альтернативный/неосуществлённый вариант"
+  },
+  {
+   "bureau": "kleinewelt",
+   "obj": "zareche",
+   "event": 9,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "kleinewelt",
+   "obj": "palashevskiy-11",
+   "event": 1,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "arch-e-type",
+   "obj": "luzhnetskaya-10a",
+   "event": 8,
+   "article": null,
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "ariada",
+   "obj": "wave",
+   "event": 22,
+   "article": null,
+   "role": "альтернативный/неосуществлённый вариант"
+  },
+  {
+   "bureau": "progress",
+   "obj": "injoy",
+   "event": 5,
+   "article": null,
+   "role": "альтернативный/неосуществлённый вариант"
+  },
+  {
+   "bureau": "kamen",
+   "obj": "k31",
+   "event": 0,
+   "article": null,
+   "role": "вариант небоскрёба"
+  },
+  {
+   "bureau": "masters-plan",
+   "obj": "k31",
+   "event": 0,
+   "article": null,
+   "role": "вариант небоскрёба"
+  },
+  {
+   "bureau": "unstudio",
+   "obj": "k31",
+   "event": 6,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "kamen",
+   "obj": "tpu-petrovsko-razumovskaya",
+   "event": 1,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "gravion-group",
+   "obj": "miklukho-maklaya-23",
+   "event": 0,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "adm",
+   "obj": "hide",
+   "event": 6,
+   "article": null,
+   "role": "интерьеры общественных зон"
+  },
+  {
+   "bureau": "oleg-klodt",
+   "obj": "hide",
+   "event": 6,
+   "article": null,
+   "role": "МОПы"
+  },
+  {
+   "bureau": "arch-e-type",
+   "obj": "level-nagatinskaya",
+   "event": 2,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "soho",
+   "obj": "tpu-suvorovskaya",
+   "event": 5,
+   "article": null,
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "civil-architects",
+   "obj": "sreda",
+   "event": 2,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "syntaxis",
+   "obj": "businovskiy-park",
+   "event": 4,
+   "article": null,
+   "role": "фасады"
+  },
+  {
+   "bureau": "mam",
+   "obj": "businovskiy-park",
+   "event": 4,
+   "article": null,
+   "role": "фасады"
+  },
+  {
+   "bureau": "genpro",
+   "obj": "businovskiy-park",
+   "event": 4,
+   "article": null,
+   "role": "фасады"
+  },
+  {
+   "bureau": "progress",
+   "obj": "d8",
+   "event": 9,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "masterskaya-gerasimova",
+   "obj": "1-y-truzhenikov-12",
+   "event": 5,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "wall",
+   "obj": "soymonovskiy",
+   "event": 2,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "gafa",
+   "obj": "kronshtadtskiy-9",
+   "event": 2,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "speech",
+   "obj": "tpu-michurinskiy-prospekt",
+   "event": 2,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "ucd",
+   "obj": "tpu-michurinskiy-prospekt",
+   "event": 2,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "thomas-juul-hansen",
+   "obj": "le-dome",
+   "event": 0,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "u-studio",
+   "obj": "le-dome",
+   "event": 9,
+   "article": null,
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "paris-classical-architecture",
+   "obj": "le-dome",
+   "event": 9,
+   "article": null,
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "gillespies",
+   "obj": "lunar",
+   "event": 6,
+   "article": null,
+   "role": "благоустройство"
+  },
+  {
+   "bureau": "de-architekten-cie",
+   "obj": "soyuz",
+   "event": 0,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "apex",
+   "obj": "soyuz",
+   "event": 6,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "ai-architects",
+   "obj": "vishnevyy-sad",
+   "event": 3,
+   "article": null,
+   "role": "альтернативный/неосуществлённый вариант"
+  },
+  {
+   "bureau": "abv",
+   "obj": "tankovyy-4",
+   "event": 1,
+   "article": null,
+   "role": "альтернативный/неосуществлённый вариант"
+  },
+  {
+   "bureau": "dnk-ag",
+   "obj": "lva-tolstogo-14-16",
+   "event": 0,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "john-mcaslan",
+   "obj": "dom-s-basseynom",
+   "event": 1,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "apex",
+   "obj": "mnevniki",
+   "event": 8,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "speech",
+   "obj": "set",
+   "event": 6,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "kleinewelt",
+   "obj": "set",
+   "event": 14,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "unk",
+   "obj": "rublevo-arkhangelskoe",
+   "event": 1,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "ind",
+   "obj": "yuzhnoportovaya",
+   "event": 0,
+   "article": null,
+   "role": "набережная"
+  },
+  {
+   "bureau": "de-architekten-cie",
+   "obj": "yuzhnoportovaya",
+   "event": 0,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "sheloves",
+   "obj": "dosflota-10",
+   "event": 7,
+   "article": null,
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "plotkin",
+   "obj": "savvinskaya-17",
+   "event": 1,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "ind",
+   "obj": "savvinskaya-17",
+   "event": 5,
+   "article": null,
+   "role": "проект на участок"
+  },
+  {
+   "bureau": "ai-architects",
+   "obj": "savvinskaya-17",
+   "event": 5,
+   "article": null,
+   "role": "выбранный проект"
+  },
+  {
+   "bureau": "kleinewelt",
+   "obj": "tpu-rostokino",
+   "event": 2,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "wall",
+   "obj": "elektrozavodskaya-60",
+   "event": 1,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "arch-e-type",
+   "obj": "seligerskaya",
+   "event": 4,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "de-architekten-cie",
+   "obj": "kampus",
+   "event": 2,
+   "article": null,
+   "role": "вариант вместо ODA"
+  },
+  {
+   "bureau": "oda",
+   "obj": "kampus",
+   "event": 2,
+   "article": null,
+   "role": "прежняя версия"
+  },
+  {
+   "bureau": "tsimailo-lyashenko",
+   "obj": "frunzenskaya-30",
+   "event": 7,
+   "article": null,
+   "role": "автор проекта"
+  },
+  {
+   "bureau": "abg",
+   "obj": "zikkurat-preobrazhenskiy",
+   "event": 3,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "kleinewelt",
+   "obj": "tate",
+   "event": 1,
+   "article": null,
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "syntaxis",
+   "obj": "adts-kommunarka",
+   "event": 17,
+   "article": null,
+   "role": "фасады"
+  },
+  {
+   "bureau": "kamen",
+   "obj": "rizhskiy-gruzovoy-dvor",
+   "event": 5,
+   "article": null,
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "apex",
+   "obj": "titul-kostomarovskiy-15",
+   "event": 1,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "ekaterina-gren",
+   "obj": "vernissage",
+   "event": 2,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "wall",
+   "obj": "elizarovo",
+   "event": 1,
+   "article": null,
+   "role": "мастер-план"
+  },
+  {
+   "bureau": "speech",
+   "obj": "n-ice-river",
+   "event": 0,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "tt-architects",
+   "obj": "geliymash",
+   "event": 2,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "buromoscow",
+   "obj": "shagal",
+   "event": 1,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "apex",
+   "obj": "champine",
+   "event": 2,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "gafa",
+   "obj": "pogodinskaya-24",
+   "event": 6,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "bbm",
+   "obj": "losinoostrovskiy-park",
+   "event": 3,
+   "article": null,
+   "role": "фасады"
+  },
+  {
+   "bureau": "abd",
+   "obj": "dubininskaya-39-41",
+   "event": 1,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "adm",
+   "obj": "high-life",
+   "event": 4,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "apex",
+   "obj": "siti-2",
+   "event": 9,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "basis",
+   "obj": "onest",
+   "event": 8,
+   "article": null,
+   "role": "благоустройство"
+  },
+  {
+   "bureau": "kleinewelt",
+   "obj": "solos",
+   "event": 3,
+   "article": null,
+   "role": "фасады"
+  },
+  {
+   "bureau": "apex",
+   "obj": "novaya-11",
+   "event": 2,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "meganom",
+   "obj": "tpu-park-pobedy",
+   "event": 4,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "blank-architects",
+   "obj": "novospasskiy",
+   "event": 0,
+   "article": null,
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "apex",
+   "obj": "ice-tower",
+   "event": 6,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "unk",
+   "obj": "savvinskaya-27",
+   "event": 7,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "oda",
+   "obj": "savvinskaya-27",
+   "event": 15,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "apex",
+   "obj": "yuzhnyy-port",
+   "event": 3,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "gafa",
+   "obj": "yuzhnyy-port",
+   "event": 16,
+   "article": null,
+   "role": "архитектура Ultima City"
+  },
+  {
+   "bureau": "wall",
+   "obj": "mypriority-nizhegorodskaya",
+   "event": 2,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "wall",
+   "obj": "serp-i-molot",
+   "event": 12,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "gafa",
+   "obj": "lucky",
+   "event": 10,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "tpo-pride",
+   "obj": "dom56",
+   "event": 3,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "irga",
+   "obj": "pobeda",
+   "event": 1,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "ginzburg-architects",
+   "obj": "khamovniki-xii",
+   "event": 0,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "skuratov-architects",
+   "obj": "krasnyy-bogatyr-vitebskaya-9",
+   "event": 1,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "wall",
+   "obj": "krasnyy-bogatyr-vitebskaya-9",
+   "event": 9,
+   "article": null,
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "kpln",
+   "obj": "fly-tower",
+   "event": 1,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "blank-architects",
+   "obj": "obydenskiy-1",
+   "event": 0,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "tsimailo-lyashenko",
+   "obj": "annabel-s",
+   "event": 2,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "wowhaus",
+   "obj": "botanica",
+   "event": 1,
+   "article": null,
+   "role": "благоустройство"
+  },
+  {
+   "bureau": "apex",
+   "obj": "borets",
+   "event": 1,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "kamen",
+   "obj": "upside-towers",
+   "event": 3,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "veshch",
+   "obj": "dolina-yauzy",
+   "event": 5,
+   "article": null,
+   "role": "благоустройство"
+  },
+  {
+   "bureau": "unk",
+   "obj": "leningradskiy-36",
+   "event": 1,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "parsec",
+   "obj": "1-ya-brestskaya-64",
+   "event": 2,
+   "article": null,
+   "role": "фасады"
+  },
+  {
+   "bureau": "de-architekten-cie",
+   "obj": "portland",
+   "event": 1,
+   "article": null,
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "west8",
+   "obj": "portland",
+   "event": 1,
+   "article": null,
+   "role": "благоустройство"
+  },
+  {
+   "bureau": "gafa",
+   "obj": "masters",
+   "event": 3,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "tsimailo-lyashenko",
+   "obj": "ofisnaya-bashnya-stone",
+   "event": 0,
+   "article": null,
+   "role": "фасады"
+  },
+  {
+   "bureau": "unk",
+   "obj": "ostrov",
+   "event": 9,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "kleinewelt",
+   "obj": "sreda-na-kutuzovskom",
+   "event": 9,
+   "article": null,
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "apex",
+   "obj": "aktsenty",
+   "event": 10,
+   "article": null,
+   "role": "фасады"
+  },
+  {
+   "bureau": "vi",
+   "obj": "vozdvizhenka-7-6-str-6",
+   "event": 4,
+   "article": null,
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "kleinewelt",
+   "obj": "mira",
+   "event": 5,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "ai-architects",
+   "obj": "sadovnicheskaya-69",
+   "event": 0,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "mayak",
+   "obj": "2-y-paveletskiy-4-6",
+   "event": 4,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "white-stones",
+   "obj": "dom-na-aristarkhovskom",
+   "event": 0,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "kleinewelt",
+   "obj": "rubtsovsko-dvortsovaya-1-3",
+   "event": 3,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "nva",
+   "obj": "nicole",
+   "event": 3,
+   "article": null,
+   "role": "интерьеры"
+  },
+  {
+   "bureau": "ariada",
+   "obj": "staropetrovskiy-atrium",
+   "event": 12,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "blank-architects",
+   "obj": "geolog",
+   "event": 1,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "kamen",
+   "obj": "mig",
+   "event": 17,
+   "article": null,
+   "role": "мастер-план"
+  },
+  {
+   "bureau": "dnk-ag",
+   "obj": "dom-7-danilovskiy",
+   "event": 1,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "citizenstudio",
+   "obj": "kvartal-gertsena",
+   "event": 6,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "adm",
+   "obj": "khodynka",
+   "event": 7,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "valode-pistre",
+   "obj": "1-ya-yamskogo-polya-17",
+   "event": 2,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "skuratov-architects",
+   "obj": "shabolovka-35",
+   "event": 7,
+   "article": null,
+   "role": "возможный проект"
+  },
+  {
+   "bureau": "coop-himmelblau",
+   "obj": "shabolovka-34",
+   "event": 5,
+   "article": null,
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "arch-e-type",
+   "obj": "muza",
+   "event": 3,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "wall",
+   "obj": "l67",
+   "event": 7,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "apex",
+   "obj": "shtab-kvartira-yandeksa",
+   "event": 0,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "plp-architecture",
+   "obj": "shtab-kvartira-yandeksa",
+   "event": 0,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "ostozhenka",
+   "obj": "mitkovo",
+   "event": 4,
+   "article": null,
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "mla-plus",
+   "obj": "beside",
+   "event": 0,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "semren-mansson",
+   "obj": "foriver",
+   "event": 12,
+   "article": null,
+   "role": "альтернативный/неосуществлённый вариант"
+  },
+  {
+   "bureau": "ket",
+   "obj": "pentagram",
+   "event": 2,
+   "article": null,
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "mam",
+   "obj": "kampus-mgsu",
+   "event": 1,
+   "article": null,
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "kleinewelt",
+   "obj": "pavlovskaya-bolnitsa",
+   "event": 2,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "nowadays",
+   "obj": "dom-soboleva",
+   "event": 3,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "apex",
+   "obj": "layf-varshavskaya",
+   "event": 3,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "white-stones",
+   "obj": "dubininskaya-55",
+   "event": 1,
+   "article": null,
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "gregory-tuck-architects",
+   "obj": "dom-belyy",
+   "event": 5,
+   "article": null,
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "skuratov-architects",
+   "obj": "shmitovskiy-34",
+   "event": 4,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "unk",
+   "obj": "cityzen",
+   "event": 3,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "adm",
+   "obj": "s5",
+   "event": 1,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "mam",
+   "obj": "26-parkvyu",
+   "event": 5,
+   "article": null,
+   "role": "фасады"
+  },
+  {
+   "bureau": "amirov-architects",
+   "obj": "zil-vostok",
+   "event": 4,
+   "article": null,
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "do-bureau",
+   "obj": "natsionalnyy-tsentr-rossiya",
+   "event": 1,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "white-stones",
+   "obj": "ostrovnaya-2",
+   "event": 1,
+   "article": null,
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "kleinewelt",
+   "obj": "stoun-park-pobedy",
+   "event": 2,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "apex",
+   "obj": "2-y-irtyshskiy",
+   "event": 2,
+   "article": null,
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "borisov-architects",
+   "obj": "khavskaya-9-1",
+   "event": 1,
+   "article": null,
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "mikhail-filippov",
+   "obj": "khavskaya-9-1",
+   "event": 1,
+   "article": null,
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "skuratov-architects",
+   "obj": "krasnyy-oktyabr",
+   "event": 0,
+   "article": null,
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "marks-group",
+   "obj": "bolshoy-moskovskiy-tsirk-na-prospekte-vernadskogo",
+   "event": 1,
+   "article": null,
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "wall",
+   "obj": "bolshoy-kharitonevskiy-13a-s10",
+   "event": 1,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "white-stones",
+   "obj": "gerasima-kurina-10-str-1-str-2",
+   "event": 2,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "ariada",
+   "obj": "bolshoy-kozikhinskiy-22-str-1-2",
+   "event": 5,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "abd",
+   "obj": "tpu-fili",
+   "event": 1,
+   "article": null,
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "kk",
+   "obj": "buninskaya-naberezhnaya",
+   "event": 1,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "apex",
+   "obj": "mangazeya-na-rechnom",
+   "event": 0,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "kleinewelt",
+   "obj": "dom-kino",
+   "event": 1,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "mla-plus",
+   "obj": "bolshoy-savvinskiy-2-str-7",
+   "event": 3,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "syntaxis",
+   "obj": "selskokhozyaystvennaya-5-str-1-2",
+   "event": 0,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "semren-mansson",
+   "obj": "sber-siti",
+   "event": 0,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "kpln",
+   "obj": "tpu-lipovaya-roshcha",
+   "event": 0,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "above",
+   "obj": "nizhnie-mnevniki-20",
+   "event": 1,
+   "article": null,
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "marks-group",
+   "obj": "lomonosov",
+   "event": 2,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "unk",
+   "obj": "sitidzen",
+   "event": 1,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "muza-form",
+   "obj": "baltiyskaya-8",
+   "event": 0,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "above",
+   "obj": "teatr-durova",
+   "event": 0,
+   "article": null,
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "unk",
+   "obj": "kutuzovskiy-12-14a",
+   "event": 10,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "osa",
+   "obj": "dvizhenie-tushino",
+   "event": 1,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "kamen",
+   "obj": "beregovoy",
+   "event": 2,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "masters-plan",
+   "obj": "rustaveli-14",
+   "event": 0,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "apex",
+   "obj": "dolgorukovskaya-25",
+   "event": 0,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "de-architekten-cie",
+   "obj": "repablik",
+   "event": 17,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "mla-plus",
+   "obj": "dobrolyubova-3",
+   "event": 4,
+   "article": null,
+   "role": "альтернативный/неосуществлённый вариант"
+  },
+  {
+   "bureau": "mla-plus",
+   "obj": "tpu-verkhnie-likhobory",
+   "event": 6,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "wall",
+   "obj": "alia",
+   "event": 3,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "atrium",
+   "obj": "alia",
+   "event": 7,
+   "article": null,
+   "role": "альтернативный вариант"
+  },
+  {
+   "bureau": "wall",
+   "obj": "alia",
+   "event": 7,
+   "article": null,
+   "role": "победитель, затем заменён"
+  },
+  {
+   "bureau": "tt-architects",
+   "obj": "alia",
+   "event": 7,
+   "article": null,
+   "role": "альтернативный вариант"
+  },
+  {
+   "bureau": "ind",
+   "obj": "alia",
+   "event": 7,
+   "article": null,
+   "role": "новый вариант архитектуры"
+  },
+  {
+   "bureau": "sergey-kiselev",
+   "obj": "ever",
+   "event": 2,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "blank-architects",
+   "obj": "ever",
+   "event": 10,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "atrium",
+   "obj": "simvol",
+   "event": 5,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "tsimailo-lyashenko",
+   "obj": "zilart",
+   "event": 12,
+   "article": null,
+   "role": "фасады"
+  },
+  {
+   "bureau": "buromoscow",
+   "obj": "zilart",
+   "event": 24,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "parsec",
+   "obj": "zilart",
+   "event": 24,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "tsimailo-lyashenko",
+   "obj": "fantastic-house",
+   "event": 1,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "kleinewelt",
+   "obj": "olsufev",
+   "event": 0,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "kamen",
+   "obj": "slava",
+   "event": 23,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "mvrdv",
+   "obj": "red7",
+   "event": 1,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "apex",
+   "obj": "coin-house",
+   "event": 5,
+   "article": null,
+   "role": "фасады"
+  },
+  {
+   "bureau": "kamen",
+   "obj": "soul",
+   "event": 6,
+   "article": null,
+   "role": "альтернативный/неосуществлённый вариант"
+  },
+  {
+   "bureau": "kamen",
+   "obj": "cherry-city",
+   "event": 1,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "kleinewelt",
+   "obj": "city-bay",
+   "event": 2,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "apex",
+   "obj": "setun",
+   "event": 9,
+   "article": null,
+   "role": "автор проекта"
+  },
+  {
+   "bureau": "de-architekten-cie",
+   "obj": "setun",
+   "event": 9,
+   "article": null,
+   "role": "зарубежный партнёр APEX"
+  },
+  {
+   "bureau": "masters-plan",
+   "obj": "severnyy-port",
+   "event": 1,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "bechu-associes",
+   "obj": "severnyy-port",
+   "event": 1,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "skuratov-architects",
+   "obj": "severnyy-port",
+   "event": 6,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "tsimailo-lyashenko",
+   "obj": "presnya-siti",
+   "event": 2,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "tsimailo-lyashenko",
+   "obj": "forum",
+   "event": 3,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "masters-plan",
+   "obj": "kepler-house",
+   "event": 4,
+   "article": null,
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "kamen",
+   "obj": "sadovye-kvartaly",
+   "event": 3,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "atrium",
+   "obj": "sadovnicheskaya-62",
+   "event": 0,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "civil-architects",
+   "obj": "era",
+   "event": 1,
+   "article": null,
+   "role": "альтернативный/неосуществлённый вариант"
+  },
+  {
+   "bureau": "masters-plan",
+   "obj": "district-39",
+   "event": 1,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "megabudka",
+   "obj": "district-39",
+   "event": 1,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "kleinewelt",
+   "obj": "zareche",
+   "event": 13,
+   "article": null,
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "adm",
+   "obj": "palashevskiy-11",
+   "event": 2,
+   "article": null,
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "adm",
+   "obj": "luzhnetskaya-10a",
+   "event": 10,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "tsimailo-lyashenko",
+   "obj": "vesper",
+   "event": 1,
+   "article": null,
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "antonini-darmon",
+   "obj": "vesper",
+   "event": 1,
+   "article": null,
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "unstudio",
+   "obj": "k31",
+   "event": 3,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "apex",
+   "obj": "k31",
+   "event": 7,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "unstudio",
+   "obj": "k31",
+   "event": 7,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "nikken-sekkei",
+   "obj": "tpu-petrovsko-razumovskaya",
+   "event": 2,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "wall",
+   "obj": "rodina-park",
+   "event": 3,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "wall",
+   "obj": "tpu-suvorovskaya",
+   "event": 6,
+   "article": null,
+   "role": "концепция, отправлена в стол"
+  },
+  {
+   "bureau": "soho",
+   "obj": "tpu-suvorovskaya",
+   "event": 6,
+   "article": null,
+   "role": "альтернативный/неосуществлённый вариант"
+  },
+  {
+   "bureau": "kleinewelt",
+   "obj": "ilinka",
+   "event": 0,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "dnk-ag",
+   "obj": "1-y-truzhenikov-12",
+   "event": 0,
+   "article": null,
+   "role": "фасады"
+  },
+  {
+   "bureau": "dnk-ag",
+   "obj": "krasnyy-bogatyr",
+   "event": 0,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "adm",
+   "obj": "fili-siti",
+   "event": 0,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "mla-plus",
+   "obj": "mikhalkovskaya-48",
+   "event": 1,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "genpro",
+   "obj": "mikhalkovskaya-48",
+   "event": 1,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "kleinewelt",
+   "obj": "le-dome",
+   "event": 1,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "paris-classical-architecture",
+   "obj": "le-dome",
+   "event": 11,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "max-dudler",
+   "obj": "soyuz",
+   "event": 1,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "bbm",
+   "obj": "soyuz",
+   "event": 9,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "blank-architects",
+   "obj": "tankovyy-4",
+   "event": 2,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "dnk-ag",
+   "obj": "lva-tolstogo-14-16",
+   "event": 1,
+   "article": null,
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "john-mcaslan",
+   "obj": "dom-s-basseynom",
+   "event": 2,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "speech",
+   "obj": "set",
+   "event": 7,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "masters-plan",
+   "obj": "ryazanovskoe",
+   "event": 1,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "citizenstudio",
+   "obj": "ryazanovskoe",
+   "event": 1,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "unk",
+   "obj": "rublevo-arkhangelskoe",
+   "event": 3,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "nikken-sekkei",
+   "obj": "rublevo-arkhangelskoe",
+   "event": 3,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "apex",
+   "obj": "nays-loft",
+   "event": 2,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "byuro-80-88",
+   "obj": "savvinskaya-17",
+   "event": 8,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "apex",
+   "obj": "levensona",
+   "event": 0,
+   "article": null,
+   "role": "фасады"
+  },
+  {
+   "bureau": "kemelin",
+   "obj": "stone-savelovskaya",
+   "event": 2,
+   "article": null,
+   "role": "интерьеры"
+  },
+  {
+   "bureau": "wall",
+   "obj": "elektrozavodskaya-60",
+   "event": 3,
+   "article": null,
+   "role": "альтернативный/неосуществлённый вариант"
+  },
+  {
+   "bureau": "gafa",
+   "obj": "elektrozavodskaya-60",
+   "event": 3,
+   "article": null,
+   "role": "проект вместо WALL"
+  },
+  {
+   "bureau": "tsimailo-lyashenko",
+   "obj": "stone-towers",
+   "event": 6,
+   "article": null,
+   "role": "фасады"
+  },
+  {
+   "bureau": "kamen",
+   "obj": "zavod-kazakova",
+   "event": 3,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "kengo-kuma",
+   "obj": "zavod-kazakova",
+   "event": 3,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "tsimailo-lyashenko",
+   "obj": "frunzenskaya-30",
+   "event": 8,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "u-studio",
+   "obj": "frunzenskaya-30",
+   "event": 8,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "masterskaya-dmitrieva",
+   "obj": "omega-residence",
+   "event": 0,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "ind",
+   "obj": "adts-kommunarka",
+   "event": 8,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "ginzburg-architects",
+   "obj": "adts-kommunarka",
+   "event": 8,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "b1",
+   "obj": "adts-kommunarka",
+   "event": 8,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "lampa-community",
+   "obj": "adts-kommunarka",
+   "event": 8,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "kollektiv-12",
+   "obj": "adts-kommunarka",
+   "event": 8,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "soulstone",
+   "obj": "adts-kommunarka",
+   "event": 18,
+   "article": null,
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "civil-architects",
+   "obj": "tpu-presnya",
+   "event": 4,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "apex",
+   "obj": "titul-kostomarovskiy-15",
+   "event": 2,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "gafa",
+   "obj": "elizarovo",
+   "event": 2,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "ai-architects",
+   "obj": "matveevskiy-park",
+   "event": 2,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "oma",
+   "obj": "matveevskiy-park",
+   "event": 2,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "genpro",
+   "obj": "geliymash",
+   "event": 4,
+   "article": null,
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "wall",
+   "obj": "shagal",
+   "event": 2,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "apex",
+   "obj": "pogodinskaya-24",
+   "event": 2,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "marks-group",
+   "obj": "profsoyuznaya-78",
+   "event": 1,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "kleinewelt",
+   "obj": "dk-metrostroya",
+   "event": 1,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "genpro",
+   "obj": "twelve",
+   "event": 2,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "jaime-beriestain",
+   "obj": "high-life",
+   "event": 6,
+   "article": null,
+   "role": "интерьеры"
+  },
+  {
+   "bureau": "kamen",
+   "obj": "emotion",
+   "event": 4,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "tsimailo-lyashenko",
+   "obj": "onest",
+   "event": 1,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "blank-architects",
+   "obj": "vorontsov",
+   "event": 5,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "kleinewelt",
+   "obj": "solos",
+   "event": 5,
+   "article": null,
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "meganom",
+   "obj": "tpu-park-pobedy",
+   "event": 1,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "apex",
+   "obj": "milyutinskiy-5",
+   "event": 2,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "wall",
+   "obj": "stone-leninskiy",
+   "event": 0,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "abv",
+   "obj": "novospasskiy",
+   "event": 1,
+   "article": null,
+   "role": "альтернативный/неосуществлённый вариант"
+  },
+  {
+   "bureau": "kamen",
+   "obj": "ice-tower",
+   "event": 11,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "kleinewelt",
+   "obj": "dom-gorizontov",
+   "event": 2,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "plp-architecture",
+   "obj": "sukharevka",
+   "event": 6,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "droo",
+   "obj": "sukharevka",
+   "event": 6,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "nikken-sekkei",
+   "obj": "yuzhnyy-port",
+   "event": 8,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "buromoscow",
+   "obj": "radio-16s4",
+   "event": 7,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "gafa",
+   "obj": "oro",
+   "event": 0,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "gafa",
+   "obj": "lucky",
+   "event": 12,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "tabanlioglu",
+   "obj": "springs",
+   "event": 5,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "speech",
+   "obj": "shlyuzovaya-2",
+   "event": 3,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "adm",
+   "obj": "os-savelovskogo",
+   "event": 1,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "masterskaya-gerasimova",
+   "obj": "khamovniki-xii",
+   "event": 2,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "ginzburg-architects",
+   "obj": "krasnyy-bogatyr-vitebskaya-9",
+   "event": 3,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "wall",
+   "obj": "krasnyy-bogatyr-vitebskaya-9",
+   "event": 11,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "abd",
+   "obj": "krt-kurskaya",
+   "event": 0,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "kpln",
+   "obj": "fly-tower",
+   "event": 2,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "nowadays",
+   "obj": "kompleks-obshchezhitiy-krasnoy-professury",
+   "event": 6,
+   "article": null,
+   "role": "альтернативный/неосуществлённый вариант"
+  },
+  {
+   "bureau": "tsimailo-lyashenko",
+   "obj": "annabel-s",
+   "event": 3,
+   "article": null,
+   "role": "альтернативный/неосуществлённый вариант"
+  },
+  {
+   "bureau": "marks-group",
+   "obj": "annabel-s",
+   "event": 3,
+   "article": null,
+   "role": "альтернативный/неосуществлённый вариант"
+  },
+  {
+   "bureau": "de-architekten-cie",
+   "obj": "soul-yuzhnoportovaya-42",
+   "event": 1,
+   "article": null,
+   "role": "фасады"
+  },
+  {
+   "bureau": "apex",
+   "obj": "borets",
+   "event": 2,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "kamen",
+   "obj": "upside-towers",
+   "event": 4,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "asadov",
+   "obj": "ekotauer",
+   "event": 9,
+   "article": null,
+   "role": "альтернативный/неосуществлённый вариант"
+  },
+  {
+   "bureau": "ostozhenka",
+   "obj": "ekotauer",
+   "event": 9,
+   "article": null,
+   "role": "альтернативный/неосуществлённый вариант"
+  },
+  {
+   "bureau": "ginzburg-architects",
+   "obj": "demidov-26",
+   "event": 0,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "unk",
+   "obj": "leningradskiy-36",
+   "event": 2,
+   "article": null,
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "chipperfield",
+   "obj": "telegraf",
+   "event": 0,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "gafa",
+   "obj": "masters",
+   "event": 4,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "speech",
+   "obj": "k7-11",
+   "event": 3,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "unk",
+   "obj": "ostrov",
+   "event": 12,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "apex",
+   "obj": "aktsenty",
+   "event": 5,
+   "article": null,
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "wall",
+   "obj": "dom-franka",
+   "event": 1,
+   "article": null,
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "wall",
+   "obj": "malaya-nikitskaya-27",
+   "event": 1,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "apex",
+   "obj": "the-lot",
+   "event": 3,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "syntaxis",
+   "obj": "arbatetskaya-2-str-5",
+   "event": 2,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "megabudka",
+   "obj": "dom-na-aristarkhovskom",
+   "event": 2,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "speech",
+   "obj": "svet",
+   "event": 2,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "heatherwick-studio",
+   "obj": "nicole",
+   "event": 0,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "asadov",
+   "obj": "staropetrovskiy-atrium",
+   "event": 7,
+   "article": null,
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "tsimailo-lyashenko",
+   "obj": "2-ya-zvenigorodskaya-13",
+   "event": 1,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "arch-e-type",
+   "obj": "uspenskiy-5",
+   "event": 1,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "apex",
+   "obj": "strana-zarechnaya",
+   "event": 3,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "parsec",
+   "obj": "khodynka",
+   "event": 1,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "kpln",
+   "obj": "desnareche",
+   "event": 2,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "metropolis",
+   "obj": "shabolovka-35",
+   "event": 11,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "coop-himmelblau",
+   "obj": "shabolovka-34",
+   "event": 6,
+   "article": null,
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "project-2018",
+   "obj": "orient-ekspress",
+   "event": 0,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "citizenstudio",
+   "obj": "beside",
+   "event": 6,
+   "article": null,
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "druzhba",
+   "obj": "foriver",
+   "event": 6,
+   "article": null,
+   "role": "архитектура плейхаба"
+  },
+  {
+   "bureau": "ginzburg-architects",
+   "obj": "imperium",
+   "event": 0,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "kleinewelt",
+   "obj": "3-ya-krasnogvardeyskaya-1-str-1",
+   "event": 0,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "gafa",
+   "obj": "bolshoy-afanasevskiy-7-str-2-3",
+   "event": 1,
+   "article": null,
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "wall",
+   "obj": "proekt-stone-v-sokolnikakh",
+   "event": 1,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "meganom",
+   "obj": "palmira-art-hotel",
+   "event": 0,
+   "article": null,
+   "role": "фасады"
+  },
+  {
+   "bureau": "genpro",
+   "obj": "one-tower",
+   "event": 3,
+   "article": null,
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "gregory-tuck-architects",
+   "obj": "dom-belyy",
+   "event": 6,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "main",
+   "obj": "chaplygina-20-str-3-5-6-8",
+   "event": 1,
+   "article": null,
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "kanva",
+   "obj": "sushchevskiy-val-5",
+   "event": 2,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "mayak",
+   "obj": "kobzon-city",
+   "event": 0,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "labva",
+   "obj": "1-y-khimkinskiy",
+   "event": 1,
+   "article": null,
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "atrium",
+   "obj": "natsionalnyy-tsentr-rossiya",
+   "event": 2,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "mam",
+   "obj": "light-city",
+   "event": 3,
+   "article": null,
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "merakom",
+   "obj": "leningradskoe-63a-3",
+   "event": 1,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "kleinewelt",
+   "obj": "ofisnyy-proekt-stone-na-khodynke",
+   "event": 2,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "above",
+   "obj": "saltykovskaya-24",
+   "event": 2,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "wilmotte",
+   "obj": "krasnyy-oktyabr",
+   "event": 2,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "kamen",
+   "obj": "serebryanicheskaya-11",
+   "event": 1,
+   "article": null,
+   "role": "альтернативный/неосуществлённый вариант"
+  },
+  {
+   "bureau": "nowadays",
+   "obj": "povarskaya-29-36-str-2",
+   "event": 1,
+   "article": null,
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "ingmar",
+   "obj": "tpu-fili",
+   "event": 4,
+   "article": null,
+   "role": "альтернативный/неосуществлённый вариант"
+  },
+  {
+   "bureau": "vi",
+   "obj": "tsaritsyno",
+   "event": 0,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "above",
+   "obj": "zorge-30a",
+   "event": 0,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "white-stones",
+   "obj": "kashirskoe-61-korp-4-str-1-9",
+   "event": 2,
+   "article": null,
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "slava-plus",
+   "obj": "kvartal-mit",
+   "event": 1,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "syntaxis",
+   "obj": "8-ya-tekstilshchikov-8",
+   "event": 1,
+   "article": null,
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "kpln",
+   "obj": "tpu-lipovaya-roshcha",
+   "event": 1,
+   "article": null,
+   "role": "альтернативный/неосуществлённый вариант"
+  },
+  {
+   "bureau": "lunn",
+   "obj": "2-ya-magistralnaya-18",
+   "event": 2,
+   "article": null,
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "ariada",
+   "obj": "simonovskiy-val",
+   "event": 0,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "ind",
+   "obj": "volokolamskoe-71-22",
+   "event": 1,
+   "article": null,
+   "role": "фасады"
+  },
+  {
+   "bureau": "muza-form",
+   "obj": "baltiyskaya-8",
+   "event": 1,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "ai-architects",
+   "obj": "teatr-durova",
+   "event": 1,
+   "article": null,
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "ariada",
+   "obj": "elektrolitnyy-1-k-5",
+   "event": 1,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "apex",
+   "obj": "kutuzovskiy-12-14a",
+   "event": 5,
+   "article": null,
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "apex",
+   "obj": "oda-gallery",
+   "event": 2,
+   "article": null,
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "oda",
+   "obj": "oda-gallery",
+   "event": 2,
+   "article": null,
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "unk",
+   "obj": "ostrov",
+   "event": null,
+   "article": "10987-ostrov-donstroy-shestoy-kvartal-start-prodazh.md",
+   "role": "фасады"
+  },
+  {
+   "bureau": "mecanoo",
+   "obj": "nametkin-tower",
+   "event": null,
+   "article": "11210-nametkin-tower-osnova-apartamenty-ceny-sroki.md",
+   "role": "благоустройство"
+  },
+  {
+   "bureau": "apex",
+   "obj": "wow",
+   "event": null,
+   "article": "11883-wow-nagatino-strana-start-prodazh-ceny.md",
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "mvrdv",
+   "obj": "luzhniki-collection",
+   "event": null,
+   "article": "12786-luzhniki-collection-absolyut-arhitektory-sroki.md",
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "oda",
+   "obj": "luzhniki-collection",
+   "event": null,
+   "article": "12786-luzhniki-collection-absolyut-arhitektory-sroki.md",
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "dyer",
+   "obj": "luzhniki-collection",
+   "event": null,
+   "article": "12786-luzhniki-collection-absolyut-arhitektory-sroki.md",
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "masterskaya-gerasimova",
+   "obj": "1-y-truzhenikov-12",
+   "event": null,
+   "article": "13555-hamovniki-12-truzhenikov-12-coldy-neoklassika.md",
+   "role": "фасады неоклассики"
+  },
+  {
+   "bureau": "oleg-klodt",
+   "obj": "1-y-truzhenikov-12",
+   "event": null,
+   "article": "13555-hamovniki-12-truzhenikov-12-coldy-neoklassika.md",
+   "role": "лобби"
+  },
+  {
+   "bureau": "masterskaya-gerasimova",
+   "obj": "khamovniki-xii",
+   "event": null,
+   "article": "15018-khamovniki-12-coldy-51-kvartira.md",
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "kleinewelt",
+   "obj": "myur-i-meriliz",
+   "event": null,
+   "article": "15474-kr-properties-stolyarnyy-3k6-klubnyy-dom.md",
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "tsimailo-lyashenko",
+   "obj": "frunzenskaya-30",
+   "event": null,
+   "article": "15599-sminex-kupila-inteko-frunzenskaya-30.md",
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "dnk-ag",
+   "obj": "rassvet",
+   "event": null,
+   "article": "15711-rassvet-korolev-ofisy-fabrika-kleyna-kr-properties.md",
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "up-plus",
+   "obj": "rassvet",
+   "event": null,
+   "article": "15711-rassvet-korolev-ofisy-fabrika-kleyna-kr-properties.md",
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "blank-architects",
+   "obj": "seliger-siti",
+   "event": null,
+   "article": "16143-seliger-siti-finalnaya-ochered-razreshenie.md",
+   "role": "отделка под ключ"
+  },
+  {
+   "bureau": "kamen",
+   "obj": "obruchev",
+   "event": null,
+   "article": "17543-obrucheva-30-lsr-start-prodazh-ceny.md",
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "wall",
+   "obj": "repablik",
+   "event": null,
+   "article": "17887-repablik-kak-menyalsya-proekt.md",
+   "role": "концепция корпусов"
+  },
+  {
+   "bureau": "john-mcaslan",
+   "obj": "repablik",
+   "event": null,
+   "article": "17887-repablik-kak-menyalsya-proekt.md",
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "meganom",
+   "obj": "repablik",
+   "event": null,
+   "article": "17887-repablik-kak-menyalsya-proekt.md",
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "steve-brown-architecture",
+   "obj": "repablik",
+   "event": null,
+   "article": "17887-repablik-kak-menyalsya-proekt.md",
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "simpsonhaugh",
+   "obj": "repablik",
+   "event": null,
+   "article": "17887-repablik-kak-menyalsya-proekt.md",
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "max-dudler",
+   "obj": "repablik",
+   "event": null,
+   "article": "17887-repablik-kak-menyalsya-proekt.md",
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "gillespies",
+   "obj": "repablik",
+   "event": null,
+   "article": "17887-repablik-kak-menyalsya-proekt.md",
+   "role": "благоустройство"
+  },
+  {
+   "bureau": "skuratov-architects",
+   "obj": "severnyy-port",
+   "event": null,
+   "article": "18887-skuratov-vyshel-iz-severnogo-porta-optimizaciya.md",
+   "role": "мастер-план"
+  },
+  {
+   "bureau": "meganom",
+   "obj": "tpu-park-pobedy",
+   "event": null,
+   "article": "19281-tpu-park-pobedy-tashir-meganom-arhsovet.md",
+   "role": "альтернативный/неосуществлённый вариант"
+  },
+  {
+   "bureau": "byuro-bashkaeva",
+   "obj": "tpu-park-pobedy",
+   "event": null,
+   "article": "19281-tpu-park-pobedy-tashir-meganom-arhsovet.md",
+   "role": "прежний вариант, возвращён на доработку"
+  },
+  {
+   "bureau": "heatherwick-studio",
+   "obj": "nicole",
+   "event": null,
+   "article": "19521-nicole-nikolskaya-mr-group-ceny-sroki.md",
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "wall",
+   "obj": "pravda",
+   "event": null,
+   "article": "2077-yamskogo-polya-30-biznes-centr-wall-agr.md",
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "ind",
+   "obj": "adts-kommunarka",
+   "event": null,
+   "article": "20954-adc-kommunarka-aukcion-edinym-lotom-3-5-mlrd.md",
+   "role": "финалист конкурса"
+  },
+  {
+   "bureau": "ginzburg-architects",
+   "obj": "adts-kommunarka",
+   "event": null,
+   "article": "20954-adc-kommunarka-aukcion-edinym-lotom-3-5-mlrd.md",
+   "role": "финалист конкурса"
+  },
+  {
+   "bureau": "steel",
+   "obj": "adts-kommunarka",
+   "event": null,
+   "article": "20954-adc-kommunarka-aukcion-edinym-lotom-3-5-mlrd.md",
+   "role": "концепция по итогам конкурса"
+  },
+  {
+   "bureau": "lampa-community",
+   "obj": "adts-kommunarka",
+   "event": null,
+   "article": "20954-adc-kommunarka-aukcion-edinym-lotom-3-5-mlrd.md",
+   "role": "финалист конкурса"
+  },
+  {
+   "bureau": "apex",
+   "obj": "tpu-minskaya",
+   "event": null,
+   "article": "21057-tpu-minskaya-krnt-300-tys-kv-m.md",
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "unk",
+   "obj": "rodina-park",
+   "event": null,
+   "article": "21607-rodina-park-vereyskaya-12-cena-sroki.md",
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "tsimailo-lyashenko",
+   "obj": "shift",
+   "event": null,
+   "article": "21704-shift-pioner-donskoy-start-prodazh-ceny.md",
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "speech",
+   "obj": "bolshoy-tolmachevskiy-5",
+   "event": null,
+   "article": "2175-bolshoy-tolmachevskiy-5-sminex-aukcion-3-68-mlrd.md",
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "speech",
+   "obj": "vishnevaya-7",
+   "event": null,
+   "article": "21875-cityzen-vishnevaya-7-mr-group-ceny-sroki.md",
+   "role": "мастер-план"
+  },
+  {
+   "bureau": "gafa",
+   "obj": "vishnevaya-7",
+   "event": null,
+   "article": "21875-cityzen-vishnevaya-7-mr-group-ceny-sroki.md",
+   "role": "благоустройство"
+  },
+  {
+   "bureau": "masterskaya-dmitrieva",
+   "obj": "radio-16s4",
+   "event": null,
+   "article": "21900-radio-16s4-ofis-dirizhabl-koncepciya.md",
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "syntaxis",
+   "obj": "elektrozavod",
+   "event": null,
+   "article": "22073-elektrozavod-etalon-snos-sohranenie-fasadov.md",
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "nowadays",
+   "obj": "elektrozavod",
+   "event": null,
+   "article": "22073-elektrozavod-etalon-snos-sohranenie-fasadov.md",
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "oleg-klodt",
+   "obj": "rozhdestvenka-8",
+   "event": null,
+   "article": "22556-rozhdestvenka-8-sminex-kupil-proekt-galsa.md",
+   "role": "интерьеры"
+  },
+  {
+   "bureau": "tsimailo-lyashenko",
+   "obj": "rozhdestvenka-8",
+   "event": null,
+   "article": "22556-rozhdestvenka-8-sminex-kupil-proekt-galsa.md",
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "scape",
+   "obj": "rozhdestvenka-8",
+   "event": null,
+   "article": "22556-rozhdestvenka-8-sminex-kupil-proekt-galsa.md",
+   "role": "благоустройство двора"
+  },
+  {
+   "bureau": "kleinewelt",
+   "obj": "zareche",
+   "event": null,
+   "article": "22629-zareche-kak-menyalsya-proekt.md",
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "tt-architects",
+   "obj": "shlyuzovaya-2",
+   "event": null,
+   "article": "22952-monblan-gals-shlyuzovaya-2-ceny-sroki.md",
+   "role": "благоустройство"
+  },
+  {
+   "bureau": "speech",
+   "obj": "shlyuzovaya-2",
+   "event": null,
+   "article": "22952-monblan-gals-shlyuzovaya-2-ceny-sroki.md",
+   "role": "благоустройство"
+  },
+  {
+   "bureau": "scape",
+   "obj": "shlyuzovaya-2",
+   "event": null,
+   "article": "22952-monblan-gals-shlyuzovaya-2-ceny-sroki.md",
+   "role": "благоустройство двора"
+  },
+  {
+   "bureau": "skuratov-architects",
+   "obj": "one-tower",
+   "event": null,
+   "article": "22982-one-tower-mr-group-moskva-siti-vysota.md",
+   "role": "прежний автор башни"
+  },
+  {
+   "bureau": "genpro",
+   "obj": "one-tower",
+   "event": null,
+   "article": "22982-one-tower-mr-group-moskva-siti-vysota.md",
+   "role": "альтернативный/неосуществлённый вариант"
+  },
+  {
+   "bureau": "apex",
+   "obj": "siti-2",
+   "event": null,
+   "article": "22995-siti-2-strana-development-aukcion.md",
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "speech",
+   "obj": "tishinskiy-bulvar",
+   "event": null,
+   "article": "23052-tishinskiy-bulvar-sminex-ceny-sroki.md",
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "apex",
+   "obj": "tpu-minskaya",
+   "event": null,
+   "article": "23080-tpu-minskaya-bms-development-aukcion.md",
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "apex",
+   "obj": "kutuzovskiy-12-14a",
+   "event": null,
+   "article": "23395-kutuzovskiy-12-14a-kievskaya-ploshchad-bashni.md",
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "unk",
+   "obj": "luzhnetskaya-10a",
+   "event": null,
+   "article": "23511-luzhnetskaya-10a-sminex-kvartal-koncepciya.md",
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "unk",
+   "obj": "rodina-park",
+   "event": null,
+   "article": "24266-rodina-park-vereyskaya-12-start-prodazh-ceny.md",
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "skuratov-architects",
+   "obj": "shabolovka-35",
+   "event": null,
+   "article": "24323-shabolovka-35-lsr-koncepciya-bashni-shabolovskaya.md",
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "wall",
+   "obj": "foriver",
+   "event": null,
+   "article": "24723-foriver-kak-menyalsya-proekt.md",
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "apex",
+   "obj": "foriver",
+   "event": null,
+   "article": "24723-foriver-kak-menyalsya-proekt.md",
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "semren-mansson",
+   "obj": "foriver",
+   "event": null,
+   "article": "24723-foriver-kak-menyalsya-proekt.md",
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "adm",
+   "obj": "hide",
+   "event": null,
+   "article": "24729-hide-ramenki-razreshenie-na-vvod-ceny.md",
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "adm",
+   "obj": "paveletskaya-siti",
+   "event": null,
+   "article": "25008-paveletskaya-siti-tretya-ochered-bashnya-sroki.md",
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "tsimailo-lyashenko",
+   "obj": "frunzenskaya-30",
+   "event": null,
+   "article": "25025-frunzenskaya-30-sminex-ceny-ocheredi-sroki.md",
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "speech",
+   "obj": "tpu-michurinskiy-prospekt",
+   "event": null,
+   "article": "25514-tpu-michurinskiy-prospekt-paket-torgov.md",
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "tsimailo-lyashenko",
+   "obj": "fantastic-house",
+   "event": null,
+   "article": "2656-fantastic-house-malaya-gruzinskaya-doxodnyy-dom.md",
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "mikhail-feldman",
+   "obj": "vysotka-na-zhukova",
+   "event": null,
+   "article": "27039-vysotka-na-zhukova-krost-ceny.md",
+   "role": "фасады"
+  },
+  {
+   "bureau": "speech",
+   "obj": "wave",
+   "event": null,
+   "article": "27373-wave-kak-menyalsya-proekt.md",
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "skuratov-architects",
+   "obj": "meteor",
+   "event": null,
+   "article": "27511-meteor-capital-group-zdaniya-stadiona.md",
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "meganom",
+   "obj": "repablik",
+   "event": null,
+   "article": "27570-republic-presnenskiy-val-strana-development.md",
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "simpsonhaugh",
+   "obj": "repablik",
+   "event": null,
+   "article": "27570-republic-presnenskiy-val-strana-development.md",
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "max-dudler",
+   "obj": "repablik",
+   "event": null,
+   "article": "27570-republic-presnenskiy-val-strana-development.md",
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "nikken-sekkei",
+   "obj": "kobzon-city",
+   "event": null,
+   "article": "27598-kobzon-city-october-group-bauman-11-ofisy.md",
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "atrium",
+   "obj": "uzory",
+   "event": null,
+   "article": "28268-uzory-capital-alliance-vrazhskiy-ceny.md",
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "speech",
+   "obj": "svet",
+   "event": null,
+   "article": "28622-zhk-svet-dominanta-dmitrovskoe-83a-ceny-sroki.md",
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "kamen",
+   "obj": "rizhskiy-gruzovoy-dvor",
+   "event": null,
+   "article": "28881-rizhskiy-gruzovoy-dvor-kontseptsiya-kamen.md",
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "unk",
+   "obj": "rizhskiy-gruzovoy-dvor",
+   "event": null,
+   "article": "28881-rizhskiy-gruzovoy-dvor-kontseptsiya-kamen.md",
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "sergey-kiselev",
+   "obj": "rizhskiy-gruzovoy-dvor",
+   "event": null,
+   "article": "28881-rizhskiy-gruzovoy-dvor-kontseptsiya-kamen.md",
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "byuro-bashkaeva",
+   "obj": "tpu-fili",
+   "event": null,
+   "article": "29027-tpu-fili-pobeditel-konkursa-bashkaev-rrg.md",
+   "role": "победитель конкурса"
+  },
+  {
+   "bureau": "asadov",
+   "obj": "tpu-fili",
+   "event": null,
+   "article": "29027-tpu-fili-pobeditel-konkursa-bashkaev-rrg.md",
+   "role": "финалист конкурса"
+  },
+  {
+   "bureau": "ginzburg-architects",
+   "obj": "tpu-fili",
+   "event": null,
+   "article": "29027-tpu-fili-pobeditel-konkursa-bashkaev-rrg.md",
+   "role": "финалист конкурса"
+  },
+  {
+   "bureau": "kamen",
+   "obj": "tpu-fili",
+   "event": null,
+   "article": "29027-tpu-fili-pobeditel-konkursa-bashkaev-rrg.md",
+   "role": "финалист конкурса"
+  },
+  {
+   "bureau": "marks-group",
+   "obj": "tpu-fili",
+   "event": null,
+   "article": "29027-tpu-fili-pobeditel-konkursa-bashkaev-rrg.md",
+   "role": "финалист конкурса"
+  },
+  {
+   "bureau": "masterskaya-ilina",
+   "obj": "tpu-fili",
+   "event": null,
+   "article": "29027-tpu-fili-pobeditel-konkursa-bashkaev-rrg.md",
+   "role": "финалист конкурса"
+  },
+  {
+   "bureau": "kk",
+   "obj": "buninskaya-naberezhnaya",
+   "event": null,
+   "article": "29205-buninskaya-naberezhnaya-pik-start-prodazh-ceny.md",
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "ginzburg-architects",
+   "obj": "kompleks-obshchezhitiy-krasnoy-professury",
+   "event": null,
+   "article": "29260-obshchezhitiya-krasnoy-professury-nadstroyka.md",
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "buro-2-2",
+   "obj": "kompleks-obshchezhitiy-krasnoy-professury",
+   "event": null,
+   "article": "29260-obshchezhitiya-krasnoy-professury-nadstroyka.md",
+   "role": "фасады"
+  },
+  {
+   "bureau": "kleinewelt",
+   "obj": "mnevnikovskaya-poyma",
+   "event": null,
+   "article": "29311-mnevnikovskaya-poyma-zastroyka-73-ga.md",
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "atrium",
+   "obj": "lodochnaya-27-k-2",
+   "event": null,
+   "article": "29416-u2-lodochnaya-27-k2-tochno-ceny-sdacha.md",
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "white-stones",
+   "obj": "dom-na-aristarkhovskom",
+   "event": null,
+   "article": "29546-aristarkhovskiy-6-megabudka-vtoraya-koncepciya.md",
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "megabudka",
+   "obj": "dom-na-aristarkhovskom",
+   "event": null,
+   "article": "29546-aristarkhovskiy-6-megabudka-vtoraya-koncepciya.md",
+   "role": "автор концепции"
+  },
+  {
+   "bureau": "apex",
+   "obj": "mangazeya-na-rechnom",
+   "event": null,
+   "article": "29767-mangazeya-na-rechnom-severnyy-port-ceny-apex.md",
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "kamen",
+   "obj": "mangazeya-na-rechnom",
+   "event": null,
+   "article": "29767-mangazeya-na-rechnom-severnyy-port-ceny-apex.md",
+   "role": "архитектура проекта"
+  },
+  {
+   "bureau": "wall",
+   "obj": "foriver",
+   "event": null,
+   "article": "29921-foriver-residence-sminex-prodal-sibpromstroy.md",
+   "role": "архитектура проекта"
+  }
+ ]
+}

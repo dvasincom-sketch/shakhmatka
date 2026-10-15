@@ -1,0 +1,185 @@
+{
+ "batch": 14,
+ "units": [
+  {
+   "unit": 31596,
+   "notes": [
+    31596
+   ],
+   "dossier": "krt-avtomotornaya",
+   "developer": "mr-group",
+   "date": "2025-10-21",
+   "images": 3
+  },
+  {
+   "unit": 30119,
+   "notes": [
+    30119
+   ],
+   "dossier": "bolshoy-savvinskiy-2-str-7",
+   "developer": "mr-group",
+   "date": "2025-07-09",
+   "images": 0
+  },
+  {
+   "unit": 33528,
+   "notes": [
+    33528
+   ],
+   "dossier": "michurinskiy-54-korp-3",
+   "developer": "speloe-solntse",
+   "date": "2026-03-24",
+   "images": 3
+  },
+  {
+   "unit": 31219,
+   "notes": [
+    31219
+   ],
+   "dossier": "rizhskiy",
+   "developer": "rzhd-nedvizhimost",
+   "date": "2025-09-23",
+   "images": 1
+  },
+  {
+   "unit": 25685,
+   "notes": [
+    25685
+   ],
+   "dossier": "tverskaya-30-2",
+   "developer": "mr-group",
+   "date": "2024-09-24",
+   "images": 3
+  },
+  {
+   "unit": 33024,
+   "notes": [
+    33024
+   ],
+   "dossier": "malakhitovaya-16-6",
+   "developer": "capital-group",
+   "date": "2026-02-06",
+   "images": 8
+  },
+  {
+   "unit": 33655,
+   "notes": [
+    33655
+   ],
+   "dossier": "bolshaya-bronnaya-23-str-1",
+   "developer": "yuriy-nemanezhin",
+   "date": "2026-03-30",
+   "images": 8
+  },
+  {
+   "unit": 34007,
+   "notes": [
+    34007
+   ],
+   "dossier": "timura-frunze-11",
+   "developer": "sminex",
+   "date": "2026-04-24",
+   "images": 0
+  },
+  {
+   "unit": 34172,
+   "notes": [
+    34172
+   ],
+   "dossier": "baltiyskaya-8",
+   "developer": "dom-rf",
+   "date": "2026-05-07",
+   "images": 6
+  },
+  {
+   "unit": 34348,
+   "notes": [
+    34348
+   ],
+   "dossier": "krt-krekshino",
+   "developer": null,
+   "date": "2026-05-25",
+   "images": 10
+  },
+  {
+   "unit": 35534,
+   "notes": [
+    35534
+   ],
+   "dossier": "will-towers-vtoraya-ochered",
+   "developer": "level-group",
+   "date": "2026-08-26",
+   "images": 4
+  },
+  {
+   "unit": 35594,
+   "notes": [
+    35594
+   ],
+   "dossier": "shukhovskaya-bashnya",
+   "developer": null,
+   "date": "2026-09-02",
+   "images": 0
+  },
+  {
+   "unit": 35626,
+   "notes": [
+    35626
+   ],
+   "dossier": "oleniy-val-24",
+   "developer": null,
+   "date": "2026-09-04",
+   "images": 6
+  },
+  {
+   "unit": 35826,
+   "notes": [
+    35826
+   ],
+   "dossier": "zorge-30a",
+   "developer": "ds",
+   "date": "2026-09-22",
+   "images": 4
+  },
+  {
+   "unit": 35972,
+   "notes": [
+    35972
+   ],
+   "dossier": "selskokhozyaystvennaya-5-str-1-2",
+   "developer": "etalon",
+   "date": "2026-09-30",
+   "images": 6
+  },
+  {
+   "unit": 36168,
+   "notes": [
+    36168
+   ],
+   "dossier": "kievskiy-gruzovoy-dvor",
+   "developer": "rzhd-nedvizhimost",
+   "date": "2026-10-12",
+   "images": 5
+  },
+  {
+   "unit": 14212,
+   "notes": [
+    14212
+   ],
+   "dossier": "severnyy-port",
+   "developer": "legenda",
+   "date": "2022-08-26",
+   "images": 3
+  },
+  {
+   "unit": 10987,
+   "notes": [
+    10987
+   ],
+   "dossier": "ostrov",
+   "developer": "donstroy",
+   "date": "2022-02-04",
+   "images": 0
+  }
+ ]
+}

@@ -1,10 +1,376 @@
 {
-  "_readme": "Проверенные параметры объектов для каталога. Источник — статьи из content/articles (протокол фактчекинга). Пустое поле = не подтверждено, не заполняем.",
-  "objects": {
-    "danilovskiy-ot-granel": { "priceFrom": 17.6, "priceAsOf": "13.10.2026", "priceSource": "сайт ГК «Гранель», статья 35877", "completion": "I кв. 2030" },
-    "silika": { "class": "premium", "priceFrom": 22.7, "priceAsOf": "13.10.2026", "priceSource": "сайт Sezar Group, статья 35413", "completion": "I кв. 2030" },
-    "status-na-zaozernoy": { "class": "business", "priceFrom": 6.1, "priceAsOf": "13.10.2026", "priceSource": "Яндекс Недвижимость, статья 34530", "completion": "IV кв. 2028" },
-    "bolshaya-ordynka-25": { "class": "premium", "priceM2From": 3200, "priceAsOf": "презентация «Эталона», октябрь 2025", "priceSource": "etalongroup.com, статья 33421" },
-    "severnyy-port": { "priceFrom": 15.4, "priceAsOf": "старт продаж лота 6, март 2026", "priceSource": "LEGENDA, статья 33334", "completion": "IV кв. 2030 (лот 6)" }
+ "_readme": "Проверенные параметры объектов для каталога. Источник — статьи из content/articles (протокол фактчекинга). Пустое поле = не подтверждено, не заполняем.",
+ "objects": {
+  "danilovskiy-ot-granel": {
+   "priceFrom": 17.6,
+   "priceAsOf": "13.10.2026",
+   "priceSource": "сайт ГК «Гранель», статья 35877",
+   "completion": "I кв. 2030"
+  },
+  "silika": {
+   "class": "premium",
+   "priceFrom": 22.7,
+   "priceAsOf": "13.10.2026",
+   "priceSource": "сайт Sezar Group, статья 35413",
+   "completion": "I кв. 2030"
+  },
+  "status-na-zaozernoy": {
+   "class": "business",
+   "priceFrom": 6.1,
+   "priceAsOf": "13.10.2026",
+   "priceSource": "Яндекс Недвижимость, статья 34530",
+   "completion": "IV кв. 2028"
+  },
+  "bolshaya-ordynka-25": {
+   "class": "premium",
+   "priceM2From": 3200,
+   "priceAsOf": "презентация «Эталона», октябрь 2025",
+   "priceSource": "etalongroup.com, статья 33421"
+  },
+  "severnyy-port": {
+   "priceFrom": 15.4,
+   "priceAsOf": "старт продаж лота 6, март 2026",
+   "priceSource": "LEGENDA, статья 33334",
+   "completion": "IV кв. 2030 (лот 6)"
+  },
+  "salarevo-park": {
+   "class": "business"
+  },
+  "bolshaya-ochakovskaya-2": {
+   "class": "comfort"
+  },
+  "rustaveli-14": {
+   "class": "comfort"
+  },
+  "lyublinskiy-park": {
+   "class": "comfort"
+  },
+  "kolskaya-8": {
+   "class": "comfort"
+  },
+  "bolshaya-akademicheskaya-85": {
+   "class": "comfort"
+  },
+  "serednevskiy-les": {
+   "class": "comfort"
+  },
+  "mitinskiy-les": {
+   "class": "comfort"
+  },
+  "vtoroy-nagatinskiy": {
+   "class": "comfort"
+  },
+  "narvin": {
+   "class": "comfort"
+  },
+  "perovskoe-2": {
+   "class": "comfort"
+  },
+  "losinoostrovskiy-park": {
+   "class": "business"
+  },
+  "nikolskie-luga": {
+   "class": "comfort"
+  },
+  "ilinskie-luga": {
+   "class": "comfort"
+  },
+  "zelenyy-park": {
+   "class": "comfort"
+  },
+  "pervyy-dubrovskiy": {
+   "class": "comfort"
+  },
+  "novoe-ochakovo": {
+   "class": "comfort"
+  },
+  "kvartal-mit": {
+   "class": "business"
+  },
+  "onezhskiy-val": {
+   "class": "comfort"
+  },
+  "sokolniki": {
+   "class": "business"
+  },
+  "proekt-stone-v-sokolnikakh": {
+   "class": "business"
+  },
+  "stone-rise": {
+   "class": "business"
+  },
+  "blik": {
+   "class": "deluxe"
+  },
+  "mainstreet": {
+   "class": "business"
+  },
+  "red7": {
+   "class": "deluxe"
+  },
+  "very": {
+   "class": "business"
+  },
+  "nametkin-tower": {
+   "class": "business"
+  },
+  "emotion": {
+   "class": "business"
+  },
+  "mirapolis": {
+   "class": "business"
+  },
+  "uno": {
+   "class": "business"
+  },
+  "uno-gorbunova": {
+   "class": "business"
+  },
+  "evopark-sokolniki": {
+   "class": "business"
+  },
+  "luchi": {
+   "class": "comfort"
+  },
+  "zilart": {
+   "class": "business"
+  },
+  "obrucheva-30": {
+   "class": "business"
+  },
+  "wave": {
+   "class": "business"
+  },
+  "le-dome": {
+   "class": "deluxe"
+  },
+  "parkside": {
+   "class": "business"
+  },
+  "dmitrovskoe-nebo": {
+   "class": "business"
+  },
+  "soul": {
+   "class": "business"
+  },
+  "portland": {
+   "class": "business"
+  },
+  "sreda-na-kutuzovskom": {
+   "class": "business"
+  },
+  "prioriti-basmannyy": {
+   "class": "business"
+  },
+  "mnevniki": {
+   "class": "business"
+  },
+  "mayprioriti-paveletskaya": {
+   "class": "business"
+  },
+  "mypriority-nizhegorodskaya": {
+   "class": "business"
+  },
+  "ever": {
+   "class": "business"
+  },
+  "twelve": {
+   "class": "business"
+  },
+  "intonatsiya": {
+   "class": "business"
+  },
+  "bolshaya-tulskaya-10": {
+   "class": "deluxe"
+  },
+  "mangazeya-v-bogorodskom": {
+   "class": "business"
+  },
+  "muza": {
+   "class": "deluxe"
+  },
+  "badaevskiy": {
+   "class": "deluxe"
+  },
+  "level-baumanskaya": {
+   "class": "business"
+  },
+  "level-yuzhnoportovaya": {
+   "class": "comfort"
+  },
+  "paveletskaya-siti": {
+   "class": "business"
+  },
+  "akademicheskaya": {
+   "class": "business"
+  },
+  "prichalnyy": {
+   "class": "business"
+  },
+  "level-nagatinskaya": {
+   "class": "business"
+  },
+  "savvinskaya-17": {
+   "class": "deluxe"
+  },
+  "seligerskaya": {
+   "class": "comfort"
+  },
+  "level-paveletskaya": {
+   "class": "business"
+  },
+  "savvinskaya-27": {
+   "class": "deluxe"
+  },
+  "nizhegorodskaya": {
+   "class": "comfort"
+  },
+  "level-seligerskaya": {
+   "class": "comfort"
+  },
+  "zvenigorodskaya": {
+   "class": "comfort"
+  },
+  "level-donskoy": {
+   "class": "business"
+  },
+  "level-nizhegorodskaya": {
+   "class": "comfort"
+  },
+  "slava": {
+   "class": "premium"
+  },
+  "symphony-34": {
+   "class": "premium"
+  },
+  "city-bay": {
+   "class": "business"
+  },
+  "siti-bey": {
+   "class": "business"
+  },
+  "cityzen": {
+   "class": "business"
+  },
+  "mys": {
+   "class": "deluxe"
+  },
+  "sitidzen": {
+   "class": "business"
+  },
+  "alkhimovo": {
+   "class": "comfort"
+  },
+  "ostafevo": {
+   "class": "comfort"
+  },
+  "molzhaninovo": {
+   "class": "comfort"
+  },
+  "novoe-vnukovo": {
+   "class": "comfort"
+  },
+  "kvartal-zapadnyy": {
+   "class": "comfort"
+  },
+  "literaturnyy-kvartal": {
+   "class": "comfort"
+  },
+  "life-varshavskaya": {
+   "class": "business"
+  },
+  "opus": {
+   "class": "deluxe"
+  },
+  "pride": {
+   "class": "deluxe"
+  },
+  "vysokaya-zhizn": {
+   "class": "deluxe"
+  },
+  "high-life": {
+   "class": "deluxe"
+  },
+  "shift": {
+   "class": "deluxe"
+  },
+  "layf-varshavskaya": {
+   "class": "business"
+  },
+  "tophills": {
+   "class": "business"
+  },
+  "kutuzovgrad": {
+   "class": "business"
+  },
+  "sidney-siti": {
+   "class": "deluxe"
+  },
+  "arkhitektor": {
+   "class": "deluxe"
+  },
+  "sidney-city": {
+   "class": "deluxe"
+  },
+  "simonovskiy-val": {
+   "class": "deluxe"
+  },
+  "repablik": {
+   "class": "deluxe"
+  },
+  "strana-parkovaya": {
+   "class": "comfort"
+  },
+  "strana-zarechnaya": {
+   "class": "comfort"
+  },
+  "aurus-rezidentsii": {
+   "class": "deluxe"
+  },
+  "nagatino-i-land": {
+   "class": "business"
+  },
+  "sokolinn-park": {
+   "class": "business"
+  },
+  "omega-residence": {
+   "class": "deluxe"
+  },
+  "shagal": {
+   "class": "business"
+  },
+  "vauxhall": {
+   "class": "business"
+  },
+  "marilnn-park": {
+   "class": "deluxe"
+  },
+  "prokshino": {
+   "class": "comfort"
+  },
+  "yuzhnye-sady": {
+   "class": "comfort"
+  },
+  "zorge-25": {
+   "class": "business"
+  },
+  "desnareche": {
+   "class": "comfort"
+  },
+  "rodnye-kvartaly": {
+   "class": "comfort"
+  },
+  "dom-na-dzhalilya": {
+   "class": "business"
+  },
+  "serdtse-stolitsy": {
+   "class": "business"
+  },
+  "simvol": {
+   "class": "business"
+  },
+  "nexus": {
+   "class": "business"
   }
+ }
 }

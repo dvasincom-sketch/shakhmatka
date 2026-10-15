@@ -7,7 +7,7 @@ import { districtName, plural, regionName } from '@/lib/geo'
 import { typo } from '@/lib/markdown'
 import { JsonLd } from '@/lib/jsonld'
 import type { Object as Obj } from '@/payload-types'
-import { signalHref, signalSlugs } from '@/lib/signals'
+import { signalHref, signalSlugs, isSnapshot, outcomeLabel } from '@/lib/signals'
 
 // Страницы собираются на запрос: в Docker-сборке нет доступа к базе, а данные должны быть свежими
 export const dynamic = 'force-dynamic'
@@ -96,7 +96,7 @@ export default async function Signals() {
               <ol>
                 {list.map((s) => (
                   <li key={s.id} className="tl-item is-sig">
-                    <div className="tl-meta"><time dateTime={s.date.slice(0, 10)}>{dm(s.date).replace(/ \d{4}$/, '')}</time>{s.confirmedOn ? <span className="tl-conf">подтвердилось</span> : null}{s.outcome ? <span className="tl-unc">не подтвердилось</span> : null}</div>
+                    <div className="tl-meta"><time dateTime={s.date.slice(0, 10)}>{dm(s.date).replace(/ \d{4}$/, '')}</time>{s.confirmedOn ? <span className="tl-conf">подтвердилось</span> : null}{s.outcome ? <span className={isSnapshot(s) ? 'tl-snap' : 'tl-unc'}>{outcomeLabel(s)}</span> : null}</div>
                     <div className="tl-body">
                       <p className="tl-t"><Link href={s.href}>{typo(s.title)}</Link></p>
                       <p className="tl-x"><Link href={`/obekty/${s.o.slug}/`}>{s.o.name}</Link> · {where(s.o)}</p>

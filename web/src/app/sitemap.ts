@@ -4,6 +4,7 @@ import config from '@payload-config'
 import { getLandings, indexable } from '@/lib/landings'
 import { pub } from '@/lib/public'
 import { signalHref, signalSlugs } from '@/lib/signals'
+import { BUREAUS } from '@/lib/architects'
 
 // Страницы собираются на запрос: в Docker-сборке нет доступа к базе, а данные должны быть свежими
 export const dynamic = 'force-dynamic'
@@ -37,6 +38,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: `${ORIGIN}/novostroyki/`, changeFrequency: 'daily', priority: 0.9 },
     ...land.map((l) => ({ url: `${ORIGIN}/novostroyki/${l.slug}/`, changeFrequency: 'daily' as const, priority: 0.8 })),
     { url: `${ORIGIN}/zastroyshchiki/`, changeFrequency: 'daily', priority: 0.8 },
+    { url: `${ORIGIN}/arhitektory/`, changeFrequency: 'weekly', priority: 0.6 },
+    ...BUREAUS.filter((b) => b.objects.length + b.articles.length >= 2).map((b) => ({ url: `${ORIGIN}/arhitektory/${b.key}/`, changeFrequency: 'monthly' as const, priority: 0.4 })),
     { url: `${ORIGIN}/pro/`, changeFrequency: 'monthly', priority: 0.4 },
     { url: `${ORIGIN}/o-proekte/`, changeFrequency: 'monthly', priority: 0.4 },
     { url: `${ORIGIN}/ceny-na-starte/`, changeFrequency: 'weekly', priority: 0.8 },

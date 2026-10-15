@@ -8,6 +8,8 @@ import { ArticleCard, SITE, STAGES, StageTrack, devName, coverOf } from '@/lib/u
 import type { Developer, Media, Object as Obj } from '@/payload-types'
 import { pub } from '@/lib/public'
 import { CLASS_LABELS, districtName, priceText, regionName } from '@/lib/geo'
+import { CLASS_SOURCES } from '@/lib/classes'
+import { bureausOf } from '@/lib/architects'
 import { START_PRICES } from '@/lib/start-prices'
 import { typo } from '@/lib/markdown'
 import { JsonLd } from '@/lib/jsonld'
@@ -15,7 +17,7 @@ import { getUser } from '@/lib/auth'
 import { GalleryEditor } from '@/lib/staff'
 import { ObjGallery } from '@/lib/obj-gallery'
 import { relFor } from '@/lib/markdown'
-import { signalHref, signalSlugs } from '@/lib/signals'
+import { signalHref, signalSlugs, isSnapshot, outcomeLabel } from '@/lib/signals'
 
 // Страницы собираются на запрос: в Docker-сборке нет доступа к базе, а данные должны быть свежими
 export const dynamic = 'force-dynamic'
@@ -40,7 +42,9 @@ async function load(slug: string) {
   const arts = (await payload.find({ collection: 'articles', where: pub({ objects: { contains: o.id } }), sort: '-datePublished', limit: 50, depth: 1 })).docs
   const key = o.region === 'moscow' && o.district ? o.district : o.region || ''
   const place = (await payload.find({ collection: 'places', where: { key: { equals: key } }, limit: 1 })).docs[0]
-  return { o, arts, place }
+  const clsSrc = o.class ? CLASS_SOURCES[o.slug] : undefined
+  const classTerm = o.class ? (await payload.find({ collection: 'terms', where: { and: [{ slug: { equals: 'klass-zhilya' } }, { published: { equals: true } }] }, limit: 1, depth: 0 })).docs[0] : undefined
+  return { o, arts, place, clsSrc, classTerm }
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
@@ -60,7 +64,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 export default async function ObjectPage({ params }: { params: Promise<{ slug: string }> }) {
   const d = await load((await params).slug)
   if (!d) notFound()
-  const { o, arts, place } = d
+  const { o, arts, place, clsSrc, classTerm } = d
   const user = await getUser()
   const dev = o.developer as Developer | undefined
   const prev = (o.previousDevelopers || []) as Developer[]
@@ -110,6 +114,9 @@ export default async function ObjectPage({ params }: { params: Promise<{ slug: s
             {dev ? <Link className="pill" href={`/zastroyshchiki/${dev.slug}/`}>{devName(dev.name)}</Link> : null}
             {prev.map((p) => <Link key={p.id} className="pill" href={`/zastroyshchiki/${p.slug}/`}>ранее {devName(p.name)}</Link>)}
           </div>
+          {bureausOf(o.slug).length ? (
+            <p className="obj-arch"><span>Архитекторы</span>{bureausOf(o.slug).map((b) => <Link key={b.key} className="pill" href={`/arhitektory/${b.key}/`}>{b.name}</Link>)}</p>
+          ) : null}
           {i >= 0 ? (
             <section className="stage card"><div className="row"><span className="num">{i + 1}<span className="fr">/6</span></span><p className="lbl">Стадия<b>{STAGES[i].label}</b></p></div><StageTrack stage={o.stage} /></section>
           ) : null}
@@ -118,7 +125,16 @@ export default async function ObjectPage({ params }: { params: Promise<{ slug: s
             {!price && firstSale ? <div><dt>В продаже</dt><dd>с {MONTHS[new Date(firstSale.date).getUTCMonth()]} {year(firstSale.date)}</dd><small>старт продаж</small></div> : null}
             {sp ? <div><dt>На старте → сейчас</dt><dd><Link href="/ceny-na-starte/">{sp.changePct > 0 ? '+' : ''}{Math.round(sp.changePct)}%</Link></dd><small>от {sp.start.lot_from.toLocaleString('ru-RU')} → от {sp.now.lot_from.toLocaleString('ru-RU')} млн ₽ с {sp.start.date.slice(0, 4)} года</small></div> : null}
             {o.completion ? <div><dt>Ввод</dt><dd>{o.completion}</dd></div> : null}
-            {o.class ? <div><dt>Класс</dt><dd>{CLASS_LABELS[o.class] || o.class}</dd></div> : null}
+            {o.class ? (
+              <div>
+                <dt>Класс</dt>
+                <dd><Link href={`/obekty/?class=${o.class}`}>{CLASS_LABELS[o.class] || o.class}</Link></dd>
+                <small>
+                  {clsSrc ? (clsSrc.s ? <>заявлен · <a className="muted-link" href={clsSrc.s} target="_blank" rel={relFor(clsSrc.s)}>{clsSrc.n}</a></> : <>заявлен · {clsSrc.n}</>) : 'заявленный'}
+                  {classTerm ? <> · <Link className="muted-link" href="/slovar/klass-zhilya/">как определяем</Link></> : null}
+                </small>
+              </div>
+            ) : null}
             <div><dt>Где</dt><dd>{place ? <Link href={`/novostroyki/${place.slug}/`}>{where}</Link> : where}</dd>{o.region === 'moscow' && o.district ? <small>{place?.okrug ? `${place.okrug}, ` : ''}Москва</small> : null}</div>
             {signals.length ? <div><dt>Сигналы</dt><dd><a href="#sig">{signals.length}</a></dd><small><a className="muted-link" href="#sig">{confirmed ? `${confirmed} уже подтвердились` : 'до официальных новостей'} →</a></small></div> : null}
             {o.legalEntity ? <div><dt>Застройщик по документам</dt><dd className="sm">{o.legalEntity}</dd></div> : null}
@@ -152,7 +168,7 @@ export default async function ObjectPage({ params }: { params: Promise<{ slug: s
           <div className="sec-h"><h2 id="h-sig" className="tt">Сигналы<span>{confirmed ? `${confirmed} из ${signals.length} подтвердились` : 'что говорили до официальных новостей'}</span></h2><Link className="more" href="/signaly/">Все сигналы</Link></div>
           <ol className="sig-mini">
             {[...signals].reverse().map((t) => (
-              <li key={t.id}><Link href={signalHref(sigSlugs.get(t.id!) || '')}><time dateTime={t.date.slice(0, 10)}>{dayMonth(t.date)} {year(t.date)}</time><span>{t.outcome ? 'Участники рынка говорили: ' : ''}{typo(t.title)}</span>{t.confirmedOn ? <em className="tl-conf">подтвердилось</em> : t.outcome ? <em className="tl-unc">не подтвердилось</em> : null}</Link></li>
+              <li key={t.id}><Link href={signalHref(sigSlugs.get(t.id!) || '')}><time dateTime={t.date.slice(0, 10)}>{dayMonth(t.date)} {year(t.date)}</time><span>{t.outcome && !isSnapshot(t) ? 'Участники рынка говорили: ' : ''}{typo(t.title)}</span>{t.confirmedOn ? <em className="tl-conf">подтвердилось</em> : t.outcome ? <em className={isSnapshot(t) ? 'tl-snap' : 'tl-unc'}>{outcomeLabel(t)}</em> : null}</Link></li>
             ))}
           </ol>
         </section>
@@ -176,7 +192,7 @@ export default async function ObjectPage({ params }: { params: Promise<{ slug: s
                           <span className="tl-kind">{KIND[t.kind || 'other']}</span>
                           {t.certainty === 'signal' ? <span className="tl-sig">Сигнал</span> : null}
                           {t.confirmedOn ? <span className="tl-conf">подтвердилось: {monthYear(t.confirmedOn)}</span> : null}
-                          {t.outcome ? <span className="tl-unc">{t.outcome === 'refuted' ? 'опровергнуто' : 'не подтвердилось'}{t.checkedOn ? ` на ${monthYear(t.checkedOn).replace(/^\S+/, (m) => m)}` : ''}</span> : null}
+                          {t.outcome ? (isSnapshot(t) ? <span className="tl-snap" title="Цена или темп продаж на дату сигнала">срез на дату</span> : <span className="tl-unc">{outcomeLabel(t)}{t.checkedOn ? ` на ${monthYear(t.checkedOn)}` : ''}</span>) : null}
                           {t.verified ? <span className="tl-ok">сверено</span> : null}
                         </div>
                         <div className="tl-body">

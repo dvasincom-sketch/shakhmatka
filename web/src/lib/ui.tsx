@@ -96,7 +96,7 @@ export function Footer() {
         </div>
         <nav aria-label="Новостройки">
           <b>Новостройки</b>
-          <Link href="/">Лента</Link><Link href="/obekty/">Объекты</Link><Link href="/novostroyki/">Новостройки по районам</Link><Link href="/zastroyshchiki/">Застройщики</Link><Link href="/ceny-na-starte/">Цены на старте и сейчас</Link>
+          <Link href="/">Лента</Link><Link href="/obekty/">Объекты</Link><Link href="/novostroyki/">Новостройки по районам</Link><Link href="/zastroyshchiki/">Застройщики</Link><Link href="/arhitektory/">Архитектурные бюро</Link><Link href="/ceny-na-starte/">Цены на старте и сейчас</Link>
         </nav>
         <nav aria-label="Аналитика и проект">
           <b>Аналитика и проект</b>

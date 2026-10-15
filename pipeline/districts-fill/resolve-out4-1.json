@@ -1,0 +1,362 @@
+[
+ {
+  "slug": "mind",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "поиск не дал адреса/района в сниппетах, лимит поисков исчерпан"
+ },
+ {
+  "slug": "sev",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "не проверено"
+ },
+ {
+  "slug": "bestseller",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "не проверено"
+ },
+ {
+  "slug": "tsaritsyno",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "не проверено"
+ },
+ {
+  "slug": "lodochnaya-27-k-2",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "не проверено"
+ },
+ {
+  "slug": "lyalin-18-str-1",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "поиск не дал адреса/района в сниппетах, лимит поисков исчерпан"
+ },
+ {
+  "slug": "most-mezhdu-zilom-i-varshavkoy",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "не проверено"
+ },
+ {
+  "slug": "nizhegorodskaya-63-65",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "поиск не дал адреса/района в сниппетах, лимит поисков исчерпан"
+ },
+ {
+  "slug": "sytinskiy-tupik-6",
+  "district": "tverskoy",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/baza/zhk_sytinskiy",
+  "evidence": "соседний ЖК Сытинский: Сытинский туп., д. 3А, стр. 2 — Тверской район ЦАО (весь Сытинский тупик в одном районе)",
+  "reason": null
+ },
+ {
+  "slug": "dom-kino",
+  "district": "presnenskiy",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/baza/jk_na_vasilevskoy_13",
+  "evidence": "ул. Васильевская, 13с1; район Пресненский, ЦАО",
+  "reason": null
+ },
+ {
+  "slug": "touch-office",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "не проверено"
+ },
+ {
+  "slug": "belgrad",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "поиск не дал адреса/района в сниппетах, лимит поисков исчерпан"
+ },
+ {
+  "slug": "khomutovskiy-10-str-1",
+  "district": null,
+  "region": null,
+  "source": "https://moskvichmag.ru/?p=415839",
+  "evidence": "Хомутовский тупик, 10, стр. 1; район в источнике не назван",
+  "reason": "район не назван в источнике"
+ },
+ {
+  "slug": "stone-rise",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "не проверено"
+ },
+ {
+  "slug": "grand-fili",
+  "district": "filevskiy-park",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/baza/klubnyy_dom_grand_fili",
+  "evidence": "ул. Большая Филевская, уч. 2Б; ЗАО, район Филевский Парк",
+  "reason": null
+ },
+ {
+  "slug": "khay-layf",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "не проверено"
+ },
+ {
+  "slug": "mashkinskoe-2",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "поиск не дал адреса/района в сниппетах, лимит поисков исчерпан"
+ },
+ {
+  "slug": "rizhskiy",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "не проверено"
+ },
+ {
+  "slug": "nizhegorodskaya-94-4",
+  "district": "nizhegorodskiy",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/novosti/v_nijegorodskom_rayone_po",
+  "evidence": "ул. Нижегородская, вл. 94 корп. 4; Нижегородский район, ЮВАО",
+  "reason": null
+ },
+ {
+  "slug": "mnevniki-3",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "не проверено"
+ },
+ {
+  "slug": "selskokhozyaystvennaya-5-str-1-2",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "поиск не дал адреса/района в сниппетах, лимит поисков исчерпан"
+ },
+ {
+  "slug": "8-ya-tekstilshchikov-8",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "не проверено"
+ },
+ {
+  "slug": "tpu-lipovaya-roshcha",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "не проверено"
+ },
+ {
+  "slug": "krt-kashirskiy-proezd-kotlyakovskiy-proezd",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "не проверено"
+ },
+ {
+  "slug": "glorax-rimskaya",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "не проверено"
+ },
+ {
+  "slug": "malaya-tulskaya-2-1-korp-9",
+  "district": "danilovskiy",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/baza/arhitekturnyy_proekt_na_maloy",
+  "evidence": "ул. Малая Тульская, д. 2/1, корп. 9; район Даниловский, ЮАО; застройщик ОМ Девелопмент",
+  "reason": null
+ },
+ {
+  "slug": "simonovskiy-val",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "не проверено"
+ },
+ {
+  "slug": "fedosino",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "не проверено"
+ },
+ {
+  "slug": "kolledzh-raketno-kosmicheskoy-otrasli",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "не проверено"
+ },
+ {
+  "slug": "trenirovochnaya-baza-sbornykh-rossii-po-futbolu",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "не проверено"
+ },
+ {
+  "slug": "volokolamskoe-71-22",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "поиск не дал адреса/района в сниппетах, лимит поисков исчерпан"
+ },
+ {
+  "slug": "river-city",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "поиск не дал адреса/района в сниппетах, лимит поисков исчерпан"
+ },
+ {
+  "slug": "malaya-nikitskaya-29",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "поиск не дал адреса/района в сниппетах, лимит поисков исчерпан"
+ },
+ {
+  "slug": "masters-34113",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "не проверено"
+ },
+ {
+  "slug": "teatr-durova",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "не проверено"
+ },
+ {
+  "slug": "smirnovskaya-1",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "novostroy-m: ЖК «Смирновка» — Солнечногорский р-н МО, не совпадает с Москвой, Смирновская ул., 1 не подтверждена",
+  "reason": "источник не найден (поиск вернул лишь объявления)"
+ },
+ {
+  "slug": "bazhova-11-2",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "поиск не дал адреса/района в сниппетах, лимит поисков исчерпан"
+ },
+ {
+  "slug": "elektrolitnyy-1-k-5",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "поиск не дал адреса/района в сниппетах, лимит поисков исчерпан"
+ },
+ {
+  "slug": "palaty-kozhevennoy-slobody",
+  "district": "zamoskvorechye",
+  "region": null,
+  "source": "https://moskvichmag.ru/?p=516046",
+  "evidence": "Кожевническая улица, 19, строение 6; Замоскворечье",
+  "reason": null
+ },
+ {
+  "slug": "novoostapovskaya-3",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "не проверено"
+ },
+ {
+  "slug": "budayskaya-3",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "не проверено"
+ },
+ {
+  "slug": "shlyuzovaya-8-2",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "не проверено"
+ },
+ {
+  "slug": "will-towers-vtoraya-ochered",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "не проверено"
+ },
+ {
+  "slug": "gruzovoy-dvor-u-savelovskogo-vokzala",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "не проверено"
+ },
+ {
+  "slug": "kotlyakovskiy-4a",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": null,
+  "reason": "поиск не дал адреса/района в сниппетах, лимит поисков исчерпан"
+ }
+]
