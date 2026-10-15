@@ -3,6 +3,7 @@ import { getPayload } from 'payload'
 import config from '@payload-config'
 import { getLandings, indexable } from '@/lib/landings'
 import { pub } from '@/lib/public'
+import { signalHref, signalSlugs } from '@/lib/signals'
 
 // Страницы собираются на запрос: в Docker-сборке нет доступа к базе, а данные должны быть свежими
 export const dynamic = 'force-dynamic'
@@ -19,6 +20,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   ])
   const landings = await getLandings()
   const objAll = (await payload.find({ collection: 'objects', limit: 50000, depth: 0, pagination: false, select: { region: true, district: true, stage: true, class: true, priceFrom: true } })).docs as never[]
+  const sigObjs = (await payload.find({ collection: 'objects', where: { signalCount: { greater_than: 0 } }, limit: 50000, depth: 0, pagination: false, select: { slug: true, timeline: true } })).docs
+  const sigs = sigObjs.flatMap((o) => {
+    const m = signalSlugs(o.slug as string, o.timeline as never)
+    return ((o.timeline || []) as { id?: string | null; certainty?: string | null; outcome?: string | null; confirmedOn?: string | null }[])
+      .filter((t) => t.certainty === 'signal' && !t.outcome && t.id && m.get(t.id))
+      .map((t) => ({ url: `${ORIGIN}${signalHref(m.get(t.id!)!)}`, lastModified: t.confirmedOn ? new Date(t.confirmedOn) : undefined, changeFrequency: 'monthly' as const, priority: 0.4 }))
+  })
   const land = landings.filter((l) => indexable(l, objAll.filter(l.match).length))
   const d = (...v: (string | null | undefined)[]) => { const x = v.find(Boolean); return x ? new Date(x) : undefined }
   const last = arts.docs.map((a) => d(a.dateModified, a.datePublished)).filter(Boolean).sort((a, b) => +b! - +a!)[0]
@@ -36,6 +44,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: `${ORIGIN}/signaly/`, changeFrequency: 'daily', priority: 0.7 },
     ...arts.docs.map((a) => ({ url: `${ORIGIN}/novosti/${a.slug}/`, lastModified: d(a.dateModified, a.datePublished, a.updatedAt), changeFrequency: 'weekly' as const, priority: 0.7 })),
     ...objs.docs.map((o) => ({ url: `${ORIGIN}/obekty/${o.slug}/`, lastModified: d(o.updatedAt), changeFrequency: 'weekly' as const, priority: 0.6 })),
+    ...sigs,
     ...devs.docs.map((x) => ({ url: `${ORIGIN}/zastroyshchiki/${x.slug}/`, lastModified: d(x.updatedAt), changeFrequency: 'weekly' as const, priority: 0.5 })),
   ]
 }

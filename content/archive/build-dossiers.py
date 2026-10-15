@@ -5,7 +5,7 @@
 «факт / сигнал», стадию по достигнутым событиям, застройщика и район. Ручные досье не трогает:
 для них только дописывается хронология, если в базе она пустая (см. MANUAL).
 """
-import json, re, os, difflib, collections
+import unicodedata, json, re, os, difflib, collections
 from datetime import date
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -14,6 +14,8 @@ M = {int(k): v for k, v in json.load(open(os.path.join(HERE, 'notes_marked.json'
 ND = {int(k): v for k, v in json.load(open(os.path.join(HERE, 'note-dates.json'))).items()}
 DISP = json.load(open(os.path.join(HERE, 'key-display.json')))
 MIN_EVENTS = 3
+MIN_EVENTS_RECENT = 2
+RECENT_FROM = '2025-01-01'
 
 # ручные досье: ключ участка → slug в базе
 MANUAL = {
@@ -23,6 +25,8 @@ MANUAL = {
 
 TR = dict(zip('абвгдеёжзийклмнопрстуфхцчшщъыьэюя', ['a','b','v','g','d','e','e','zh','z','i','y','k','l','m','n','o','p','r','s','t','u','f','kh','ts','ch','sh','shch','','y','','e','yu','ya']))
 def slugify(s):
+    # латиница с ударением → без (ГАЛÁ → ГАЛА); кириллицу не трогаем (й, ё)
+    s = ''.join(ch if '\u0400' <= ch <= '\u04ff' else ''.join(c for c in unicodedata.normalize('NFD', ch) if not unicodedata.combining(c)) for ch in s)
     s = ''.join(TR.get(ch, ch) for ch in s.lower())
     s = re.sub(r'[^a-z0-9]+', '-', s).strip('-')
     return s[:70].strip('-')
@@ -152,6 +156,7 @@ def name_key(n):
 def addr_key(k):
     s = re.sub(STREET, ' ', k.replace('ё', 'е'))
     s = re.sub(r'\s+', ' ', s).strip(' ,')
+    s = re.sub(r',\s*(вл|влд|владение|д|дом)\.?\s*(?=\d)', ', ', s)  # «Вернадского, вл. 8А» = «Вернадского, 8А»
     m = re.match(r'^(.+?),\s*([\d][\w/-]*)', s)
     return f'{m.group(1).strip()}|{m.group(2)}' if m else None
 def top_dev(o):
@@ -231,7 +236,9 @@ objects, devs, places, used_slugs = [], {}, {}, set()
 skipped = collections.Counter()
 for key, o in R.items():
     evs = [e for e in o['events'] if e['certainty'] != 'forecast' and M.get(e['note'], {}).get('kind') != 'promo']
-    if len(evs) < MIN_EVENTS: continue
+    # свежие проекты (событие с 2025 года) берём и с двумя событиями: о новом проекте в архиве ещё мало заметок
+    recent = max((ev_date(e)[0] for e in evs), default='') >= RECENT_FROM
+    if len(evs) < (MIN_EVENTS_RECENT if recent else MIN_EVENTS): continue
     city = o['cities'][0][0] if o['cities'] else 'Москва'
     draw = o['districts'][0][0] if o['districts'] else None
     region = {'Москва': 'moscow', 'Московская область': 'moskovskaya-oblast'}.get(city)
@@ -264,7 +271,7 @@ for key, o in R.items():
         if label: item['dateLabel'] = label
         if e['certainty'] == 'signal' and e['note'] in confirmed_by: item['confirmedOn'] = confirmed_by[e['note']]
         tl.append(item)
-    if len(tl) < MIN_EVENTS: skipped['мало после чистки'] += 1; continue
+    if len(tl) < (MIN_EVENTS_RECENT if recent else MIN_EVENTS): skipped['мало после чистки'] += 1; continue
 
     manual = MANUAL.get(key)
     if key in FORCE:

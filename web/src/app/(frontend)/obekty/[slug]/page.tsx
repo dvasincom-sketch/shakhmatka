@@ -13,6 +13,7 @@ import { typo } from '@/lib/markdown'
 import { JsonLd } from '@/lib/jsonld'
 import { getUser } from '@/lib/auth'
 import { GalleryEditor } from '@/lib/staff'
+import { signalHref, signalSlugs } from '@/lib/signals'
 
 // Страницы собираются на запрос: в Docker-сборке нет доступа к базе, а данные должны быть свежими
 export const dynamic = 'force-dynamic'
@@ -73,6 +74,7 @@ export default async function ObjectPage({ params }: { params: Promise<{ slug: s
   const neighbors = o.neighbors || []
   const owners = o.owners || []
   const signals = timeline.filter((t) => t.certainty === 'signal')
+  const sigSlugs = signalSlugs(o.slug, o.timeline)
   const confirmed = signals.filter((t) => t.confirmedOn).length
 
   const url = `${SITE}/obekty/${o.slug}/`
@@ -172,7 +174,7 @@ export default async function ObjectPage({ params }: { params: Promise<{ slug: s
                           {t.verified ? <span className="tl-ok">сверено</span> : null}
                         </div>
                         <div className="tl-body">
-                          <p className="tl-t">{t.outcome ? <span className="tl-said">Участники рынка говорили: </span> : null}{typo(t.title)}</p>
+                          <p className="tl-t">{t.outcome ? <span className="tl-said">Участники рынка говорили: </span> : null}{t.certainty === 'signal' && t.id && sigSlugs.get(t.id) ? <Link href={signalHref(sigSlugs.get(t.id)!)}>{typo(t.title)}</Link> : typo(t.title)}</p>
                           {t.text ? <p className="tl-x">{typo(t.text)}</p> : null}
                           {im?.url ? <figure className="tl-fig"><img src={im.url} alt={im.alt} loading="lazy" />{im.caption ? <figcaption>{im.caption}</figcaption> : null}</figure> : null}
                         </div>

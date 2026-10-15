@@ -7,6 +7,7 @@ import { districtName, plural, regionName } from '@/lib/geo'
 import { typo } from '@/lib/markdown'
 import { JsonLd } from '@/lib/jsonld'
 import type { Object as Obj } from '@/payload-types'
+import { signalHref, signalSlugs } from '@/lib/signals'
 
 // Страницы собираются на запрос: в Docker-сборке нет доступа к базе, а данные должны быть свежими
 export const dynamic = 'force-dynamic'
@@ -23,7 +24,7 @@ const dm = (iso: string) => { const d = new Date(iso); return `${d.getUTCDate()}
 const my = (iso: string) => { const d = new Date(iso); return `${MONTHS_N[d.getUTCMonth()]} ${d.getUTCFullYear()}` }
 const months = (a: string, b: string) => Math.max(0, Math.round((+new Date(b) - +new Date(a)) / (30.44 * 864e5)))
 
-type Sig = { id: string; date: string; title: string; confirmedOn?: string | null; outcome?: string | null; o: Pick<Obj, 'name' | 'slug' | 'region' | 'district'> }
+type Sig = { id: string; href: string; date: string; title: string; confirmedOn?: string | null; outcome?: string | null; o: Pick<Obj, 'name' | 'slug' | 'region' | 'district'> }
 
 export default async function Signals() {
   const payload = await getPayload({ config })
@@ -31,7 +32,10 @@ export default async function Signals() {
     collection: 'objects', where: { signalCount: { greater_than: 0 } }, limit: 10000, pagination: false, depth: 0,
     select: { name: true, slug: true, region: true, district: true, timeline: true },
   })).docs as Obj[]
-  const all: Sig[] = objs.flatMap((o) => (o.timeline || []).filter((t) => t.certainty === 'signal').map((t) => ({ id: t.id!, date: t.date, title: t.title, confirmedOn: t.confirmedOn, outcome: t.outcome, o })))
+  const all: Sig[] = objs.flatMap((o) => {
+    const slugs = signalSlugs(o.slug, o.timeline)
+    return (o.timeline || []).filter((t) => t.certainty === 'signal').map((t) => ({ id: t.id!, href: signalHref(slugs.get(t.id!) || ''), date: t.date, title: t.title, confirmedOn: t.confirmedOn, outcome: t.outcome, o }))
+  })
   const confirmed = all.filter((s) => s.confirmedOn).sort((a, b) => +new Date(b.confirmedOn!) - +new Date(a.confirmedOn!))
   const fresh = [...all].sort((a, b) => +new Date(b.date) - +new Date(a.date)).slice(0, 40)
   const leads = confirmed.map((s) => months(s.date, s.confirmedOn!)).sort((a, b) => a - b)
@@ -44,7 +48,7 @@ export default async function Signals() {
 
   const ld = {
     '@type': 'CollectionPage', name: 'Сигналы', url: `${SITE}/signaly/`, inLanguage: 'ru',
-    mainEntity: { '@type': 'ItemList', itemListElement: confirmed.slice(0, 20).map((s, i) => ({ '@type': 'ListItem', position: i + 1, name: s.title, url: `${SITE}/obekty/${s.o.slug}/` })) },
+    mainEntity: { '@type': 'ItemList', itemListElement: confirmed.slice(0, 20).map((s, i) => ({ '@type': 'ListItem', position: i + 1, name: s.title, url: `${SITE}${s.href}` })) },
   }
 
   return (
@@ -70,7 +74,7 @@ export default async function Signals() {
               return (
                 <li key={s.id} className="card sig-item">
                   <div className="sig-meta"><span className="tl-sig">Сигнал</span><time dateTime={s.date.slice(0, 10)}>{dm(s.date)}</time></div>
-                  <p className="sig-t">{typo(s.title)}</p>
+                  <p className="sig-t"><Link href={s.href}>{typo(s.title)}</Link></p>
                   <p className="sig-foot">
                     <Link href={`/obekty/${s.o.slug}/`}>{s.o.name}</Link><span>{where(s.o)}</span>
                     <span className="tl-conf">подтвердилось: {my(s.confirmedOn!)}{m ? `, через ${m} ${plural(m, 'месяц', 'месяца', 'месяцев')}` : ''}</span>
@@ -93,7 +97,7 @@ export default async function Signals() {
                   <li key={s.id} className="tl-item is-sig">
                     <div className="tl-meta"><time dateTime={s.date.slice(0, 10)}>{dm(s.date).replace(/ \d{4}$/, '')}</time>{s.confirmedOn ? <span className="tl-conf">подтвердилось</span> : null}{s.outcome ? <span className="tl-unc">не подтвердилось</span> : null}</div>
                     <div className="tl-body">
-                      <p className="tl-t">{typo(s.title)}</p>
+                      <p className="tl-t"><Link href={s.href}>{typo(s.title)}</Link></p>
                       <p className="tl-x"><Link href={`/obekty/${s.o.slug}/`}>{s.o.name}</Link> · {where(s.o)}</p>
                     </div>
                   </li>

@@ -2260,5 +2260,9 @@
   "sreda-na-varshavskom": {
     "district": "moskvoreche-saburovo",
     "districtSource": "https://www.novostroy-m.ru/baza/biznestsentr_sreda_na_varshavskoy"
+  },
+  "gala": {
+    "district": "ramenki",
+    "note": "Вернадского, вл. 8А — между участками Вернадского, 6В и 10 (оба в Раменках по досье); проект «ГАЛÁ» от Apsis Globe"
   }
 }
