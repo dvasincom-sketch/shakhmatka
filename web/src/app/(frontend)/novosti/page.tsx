@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { getPayload } from 'payload'
 import config from '@payload-config'
 import type { Where } from 'payload'
-import { ArticleCard, SITE, TYPES } from '@/lib/ui'
+import { ArticleCard, SITE, TYPES, ogFor } from '@/lib/ui'
 import { pub } from '@/lib/public'
 import { JsonLd } from '@/lib/jsonld'
 
@@ -20,6 +20,7 @@ export async function generateMetadata({ searchParams }: { searchParams: Promise
     title: page > 1 ? `Новости новостроек Москвы — страница ${page}` : 'Новости новостроек Москвы: проверенные материалы',
     description: 'Все материалы Шахматки о новостройках Москвы и регионов: старты продаж, сделки с участками, КРТ, архитектура и застройщики. Каждый факт сверен с источниками.',
     alternates: { canonical: `${SITE}/novosti/${!sp.type && page > 1 ? `?page=${page}` : ''}` },
+    openGraph: ogFor(`${SITE}/novosti/${!sp.type && page > 1 ? `?page=${page}` : ''}`),
     // разрезы по рубрике не индексируем — это те же статьи, что и в общей ленте
     robots: sp.type ? { index: false, follow: true } : undefined,
   }

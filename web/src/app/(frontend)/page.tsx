@@ -2,12 +2,22 @@ import Link from 'next/link'
 import { getPayload } from 'payload'
 import config from '@payload-config'
 import { ruDate, typo } from '@/lib/markdown'
-import { ArticleCard, StageStrip, TYPES, devName, stageLabel, cardImg } from '@/lib/ui'
+import type { Metadata } from 'next'
+import { ArticleCard, StageStrip, TYPES, devName, stageLabel, cardImg, SITE, ogFor } from '@/lib/ui'
+import { JsonLd } from '@/lib/jsonld'
 import type { Developer, Media } from '@/payload-types'
 import { pub } from '@/lib/public'
 
 // Страницы собираются на запрос: в Docker-сборке нет доступа к базе, а данные должны быть свежими
 export const dynamic = 'force-dynamic'
+
+const DESC = 'Независимое медиа о новостройках Москвы: цены на старте и сейчас, сроки, застройщики, КРТ и ранние сигналы рынка. Только проверенные факты, без рекламы.'
+export const metadata: Metadata = {
+  title: { absolute: 'Шахматка — новостройки Москвы без рекламы и слухов' },
+  description: DESC,
+  alternates: { canonical: `${SITE}/` },
+  openGraph: ogFor(`${SITE}/`, 'Шахматка — новостройки Москвы без рекламы и слухов', DESC),
+}
 
 export default async function Home() {
   const payload = await getPayload({ config })
@@ -22,8 +32,15 @@ export default async function Home() {
   const leadImg = lead?.heroImage as Media | undefined
   if (!lead) return <p className="empty">Статей пока нет. Запустите импорт: npm run seed</p>
 
+  const ld = [
+    { '@type': 'WebSite', '@id': `${SITE}/#site`, name: 'Шахматка', url: `${SITE}/`, inLanguage: 'ru', description: DESC,
+      potentialAction: { '@type': 'SearchAction', target: { '@type': 'EntryPoint', urlTemplate: `${SITE}/poisk/?q={q}` }, 'query-input': 'required name=q' } },
+    { '@type': 'NewsMediaOrganization', '@id': `${SITE}/#org`, name: 'Шахматка', url: `${SITE}/`, logo: { '@type': 'ImageObject', url: `${SITE}/apple-touch-icon.png` }, publishingPrinciples: `${SITE}/o-proekte/` },
+  ]
+
   return (
     <>
+      <JsonLd data={ld} />
       <section className="home-top">
         <h1 className="hello tt">Новостройки<span>без рекламы и слухов</span></h1>
         <p className="hello-sub">Проверяем цены, сроки и застройщиков по госреестрам, судам и документам. Москва в фокусе, вся Россия в охвате.</p>

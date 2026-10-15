@@ -2,13 +2,14 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { getPayload } from 'payload'
 import config from '@payload-config'
-import { SITE } from '@/lib/ui'
+import { SITE, ogFor } from '@/lib/ui'
+import { CrumbsLd } from '@/lib/jsonld'
 import { topicSubject } from '@/lib/topics'
 import { pub } from '@/lib/public'
 
 // Страницы собираются на запрос: в Docker-сборке нет доступа к базе, а данные должны быть свежими
 export const dynamic = 'force-dynamic'
-export const metadata: Metadata = { title: 'Темы: цены, ипотека, регулирование', description: 'Материалы Шахматки по темам: цены на новостройки, ипотека, законы и регулирование, рынок.', alternates: { canonical: `${SITE}/temy/` } }
+export const metadata: Metadata = { title: 'Темы: цены, ипотека, регулирование', description: 'Материалы Шахматки по темам: цены на новостройки, ипотека, законы и регулирование, рынок.', alternates: { canonical: `${SITE}/temy/` }, openGraph: ogFor(`${SITE}/temy/`) }
 
 export default async function Topics() {
   const payload = await getPayload({ config })
@@ -17,6 +18,7 @@ export default async function Topics() {
   arts.forEach((a) => (a.topics || []).forEach((t) => t.value && count.set(t.value, (count.get(t.value) || 0) + 1)))
   return (
     <>
+      <CrumbsLd items={[['Лента', '/'], ['Темы', '/temy/']]} />
       <nav className="crumbs" aria-label="Путь"><Link href="/">Лента</Link><span>/</span><span>Темы</span></nav>
       <h1 className="page-h tt">Темы<span>материалов</span></h1>
       <div className="hub card"><div className="chips wrap">

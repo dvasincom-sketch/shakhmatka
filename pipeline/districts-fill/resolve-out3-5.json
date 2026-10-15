@@ -1,0 +1,234 @@
+[
+ {
+  "slug": "volgogradskiy-32",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "в выдаче и открытой странице район для этого адреса не назван"
+ },
+ {
+  "slug": "s6",
+  "district": "altufevskiy",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/baza/jk_standartnaya_6",
+  "evidence": "novostroy-m: «ул. Стандартная, уч. 6», Район: Алтуфьевский (в заметке — Бескудниково, расхождение)",
+  "reason": null
+ },
+ {
+  "slug": "krasnyy-bogatyr-vitebskaya-9",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "в выдаче и открытой странице район для этого адреса не назван"
+ },
+ {
+  "slug": "kashirskoe-78",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "в выдаче и открытой странице район для этого адреса не назван"
+ },
+ {
+  "slug": "tpu-minskaya",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "в выдаче и открытой странице район для этого адреса не назван"
+ },
+ {
+  "slug": "vavilova-5",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "в выдаче и открытой странице район для этого адреса не назван"
+ },
+ {
+  "slug": "krt-edvarda-griga",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "в выдаче и открытой странице район для этого адреса не назван"
+ },
+ {
+  "slug": "obrucheva-23-25a",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "в выдаче и открытой странице район для этого адреса не назван"
+ },
+ {
+  "slug": "krt-ogorodnyy-proezd",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "в выдаче и открытой странице район для этого адреса не назван"
+ },
+ {
+  "slug": "grodnenskaya-3",
+  "district": "mozhayskiy",
+  "region": null,
+  "source": "https://www.novostroy-m.ru/novosti/chetyre_uchastka_v_mojayskom",
+  "evidence": "КРТ: участки на Можайском шоссе и Гродненской улице — «в Можайском районе на западе Москвы» (дома 3 в тексте нет)",
+  "reason": null
+ },
+ {
+  "slug": "poklonnaya-5",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "в выдаче и открытой странице район для этого адреса не назван"
+ },
+ {
+  "slug": "yasenevaya-14b",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "в выдаче и открытой странице район для этого адреса не назван"
+ },
+ {
+  "slug": "tramplin",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "в выдаче и открытой странице район для этого адреса не назван"
+ },
+ {
+  "slug": "zaozernaya-15a",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "в выдаче и открытой странице район для этого адреса не назван"
+ },
+ {
+  "slug": "dmitrovskoe-62",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "в выдаче и открытой странице район для этого адреса не назван"
+ },
+ {
+  "slug": "krt-poklonnaya",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "kashirskiy-25-2",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "в выдаче и открытой странице район для этого адреса не назван"
+ },
+ {
+  "slug": "arkhitektora-vlasova-59",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "в выдаче и открытой странице район для этого адреса не назван"
+ },
+ {
+  "slug": "mashkinskoe-32",
+  "district": "molzhaninovskiy",
+  "region": null,
+  "source": "https://www.m24.ru/news/17032026/883343",
+  "evidence": "КРТ на Машкинском шоссе у пересечения с Новокуркинским: «расположена в Молжаниновском районе» (номер дома в тексте не указан)",
+  "reason": null
+ },
+ {
+  "slug": "leningradskoe-71a",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "в выдаче и открытой странице район для этого адреса не назван"
+ },
+ {
+  "slug": "udaltsova-85a",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "в выдаче и открытой странице район для этого адреса не назван"
+ },
+ {
+  "slug": "krt-v-kommunarke",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "в выдаче и открытой странице район для этого адреса не назван"
+ },
+ {
+  "slug": "zorge-30a",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "в выдаче и открытой странице район для этого адреса не назван"
+ },
+ {
+  "slug": "bolshaya-butovskaya-11",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "в выдаче и открытой странице район для этого адреса не назван"
+ },
+ {
+  "slug": "yunosti-9-15",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "в выдаче и открытой странице район для этого адреса не назван"
+ },
+ {
+  "slug": "lomonosovskiy-prospekt-23a",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "в выдаче и открытой странице район для этого адреса не назван"
+ },
+ {
+  "slug": "dorozhnaya-3",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "в выдаче и открытой странице район для этого адреса не назван"
+ },
+ {
+  "slug": "avtozavodskaya-21",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "в выдаче и открытой странице район для этого адреса не назван"
+ },
+ {
+  "slug": "om-botanicheskiy",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "в выдаче и открытой странице район для этого адреса не назван"
+ }
+]

@@ -1,8 +1,9 @@
+import { CrumbsLd } from '@/lib/jsonld'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { getPayload } from 'payload'
 import config from '@payload-config'
-import { ObjectCard, SITE, STAGES } from '@/lib/ui'
+import { ObjectCard, SITE, STAGES, ogFor } from '@/lib/ui'
 import { CLASS_LABELS, districtName, plural } from '@/lib/geo'
 import { FilterToggle } from '@/lib/client'
 import type { Media, Object as Obj } from '@/payload-types'
@@ -36,6 +37,7 @@ export async function generateMetadata({ searchParams }: { searchParams: Promise
     title: 'Объекты: новостройки Москвы и регионов',
     description: 'Каталог новостроек с фильтрами по стадии, району, цене и классу. Адрес участка, все названия проекта, застройщик и проверенные материалы.',
     alternates: { canonical: `${SITE}/obekty/${!filtered && Number(sp.page) > 1 ? `?page=${sp.page}` : ''}` },
+    openGraph: ogFor(`${SITE}/obekty/${!filtered && Number(sp.page) > 1 ? `?page=${sp.page}` : ''}`),
     // комбинации фильтров не индексируем, чтобы не плодить дубли; посадочные страницы районов сделаем отдельно
     robots: filtered ? { index: false, follow: true } : undefined,
   }
@@ -95,6 +97,7 @@ export default async function Objects({ searchParams }: { searchParams: Promise<
 
   return (
     <>
+      <CrumbsLd items={[['Лента', '/'], ['Объекты', '/obekty/']]} />
       <nav className="crumbs" aria-label="Путь"><Link href="/">Лента</Link><span>/</span><span>Объекты</span></nav>
       <h1 className="page-h tt">Объекты<span>по адресу участка</span></h1>
       <p className="hello-sub">Объект в базе Шахматки записан по адресу земельного участка: так его можно проследить от покупки земли до ключей, даже если проект менял название и застройщика.</p>

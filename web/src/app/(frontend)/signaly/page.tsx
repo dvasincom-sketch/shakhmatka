@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { getPayload } from 'payload'
 import config from '@payload-config'
-import { SITE } from '@/lib/ui'
+import { SITE, ogFor } from '@/lib/ui'
 import { districtName, plural, regionName } from '@/lib/geo'
 import { typo } from '@/lib/markdown'
 import { JsonLd } from '@/lib/jsonld'
@@ -13,9 +13,10 @@ import { signalHref, signalSlugs } from '@/lib/signals'
 export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
-  title: 'Сигналы: что готовят на рынке новостроек Москвы до официальных новостей',
+  title: 'Сигналы рынка новостроек Москвы до официальных новостей',
   description: 'Кулуарная информация о московских участках и проектах: кто присматривает землю, что готовят к продажам, где меняется девелопер. И какие сигналы потом подтвердились.',
   alternates: { canonical: `${SITE}/signaly/` },
+    openGraph: ogFor(`${SITE}/signaly/`),
 }
 
 const MONTHS = ['января', 'февраля', 'марта', 'апреля', 'мая', 'июня', 'июля', 'августа', 'сентября', 'октября', 'ноября', 'декабря']

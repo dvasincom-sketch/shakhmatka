@@ -29,7 +29,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { title, description } = metaFor(d.l, d.objs)
   const url = `${SITE}/novostroyki/${d.l.slug}/`
   return {
-    title: { absolute: `${title} | Шахматка` },
+    title: { absolute: `${title} | Шахматка`.length > 70 ? `${title.replace(/ и сроки сдачи$/, '')} | Шахматка` : `${title} | Шахматка` },
     description,
     alternates: { canonical: url },
     openGraph: { type: 'website', url, title, description, locale: 'ru_RU', siteName: 'Шахматка', images: [{ url: '/og-default.png', width: 1200, height: 630 }] },

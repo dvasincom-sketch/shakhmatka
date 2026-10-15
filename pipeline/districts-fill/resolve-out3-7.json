@@ -1,0 +1,194 @@
+[
+ {
+  "slug": "kashirskoe-78",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "поиск не вернул источник с районом для этого дома"
+ },
+ {
+  "slug": "tpu-minskaya",
+  "district": null,
+  "region": null,
+  "source": "https://moskvichmag.ru/?p=474680",
+  "evidence": "ТПУ на пересечении Минской ул. и пр. Генерала Дорохова, «на стыке Фили-Давыдково, Дорогомилово и Раменок» - район не однозначен",
+  "reason": "на стыке нескольких районов"
+ },
+ {
+  "slug": "vavilova-5",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "поиск не вернул источник с районом для этого дома"
+ },
+ {
+  "slug": "krt-edvarda-griga",
+  "district": "sosenskoe",
+  "region": null,
+  "source": "https://www.cian.ru/kupit-bolshuyu-kvartiru-moskva-skandinaviya-ulica-edvarda-griga-023296561/",
+  "evidence": "ул. Эдварда Грига (Скандинавия): НАО, хлебные крошки «Сосенское», Коммунарка",
+  "reason": null
+ },
+ {
+  "slug": "zaozernaya-15a",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "поиск не вернул источник с районом для этого дома"
+ },
+ {
+  "slug": "dmitrovskoe-62",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "поиск не вернул источник с районом для этого дома"
+ },
+ {
+  "slug": "arkhitektora-vlasova-59",
+  "district": null,
+  "region": null,
+  "source": "https://www.cian.ru/dom/moskva-ulica-arhitektora-vlasova-dom-35k1-1098482/",
+  "evidence": "дом 35к1 на ул. Архитектора Власова - Обручевский; для дома 59 источника нет, улица идёт через несколько районов",
+  "reason": "нет источника для дома 59"
+ },
+ {
+  "slug": "leningradskoe-71a",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "поиск не вернул источник с районом для этого дома"
+ },
+ {
+  "slug": "udaltsova-85a",
+  "district": null,
+  "region": null,
+  "source": "https://riamo.ru/news/nedvizhimost/efimov-na-zapade-stolitsy-postrojat-zhile-po-renovatsii-v-ramkah-proekta-krt/",
+  "evidence": "Удальцова, вл. 75А и 85А - «в районах Раменки и Проспект Вернадского» (для 85А конкретно не указано)",
+  "reason": "район для 85А не уточнён: Раменки или Проспект Вернадского"
+ },
+ {
+  "slug": "zorge-30a",
+  "district": null,
+  "region": null,
+  "source": "https://moskvichmag.ru/?p=502397",
+  "evidence": "статья называет только «улица Зорге, 30а», район не указан",
+  "reason": "район не назван"
+ },
+ {
+  "slug": "bolshaya-butovskaya-11",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "поиск не вернул источник с районом для этого дома"
+ },
+ {
+  "slug": "lomonosovskiy-prospekt-23a",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "dorozhnaya-3",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "поиск не вернул источник с районом для этого дома"
+ },
+ {
+  "slug": "om-botanicheskiy",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "promzona-48-degunino-likhobory",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "varshavskoe-5",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "krestovskiy",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "vernadskogo-62",
+  "district": null,
+  "region": null,
+  "source": "https://www.cian.ru/dom/moskva-prospekt-vernadskogo-dom-52-36615/",
+  "evidence": "дом 52 на пр. Вернадского - район Проспект Вернадского; для дома 62 источника нет, проспект проходит через несколько районов",
+  "reason": "нет источника для дома 62"
+ },
+ {
+  "slug": "2-y-tushinskiy-12",
+  "district": null,
+  "region": null,
+  "source": "https://www.cian.ru/dom/moskva-2-y-tushinskiy-proezd-dom-10-1715213/",
+  "evidence": "дом 10 на 2-м Тушинском пр. - Покровское-Стрешнево; для дома 12 источника нет",
+  "reason": "сосед по улице, не сам дом"
+ },
+ {
+  "slug": "zil-vostok",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "kashirskoe-76a",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "поиск не вернул источник с районом для этого дома"
+ },
+ {
+  "slug": "khersonskaya-35",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "поиск не вернул источник с районом для этого дома"
+ },
+ {
+  "slug": "yaroslavskaya-12",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено"
+ },
+ {
+  "slug": "profsoyuznaya-152",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не проверено"
+ }
+]

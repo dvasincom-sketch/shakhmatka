@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { getPayload } from 'payload'
 import config from '@payload-config'
-import { SITE, devName } from '@/lib/ui'
+import { SITE, devName, ogFor } from '@/lib/ui'
 import { pub } from '@/lib/public'
 import { plural } from '@/lib/geo'
 import { DevDirectory, type DevRow } from '@/lib/dev-directory'
@@ -14,6 +14,7 @@ export const metadata: Metadata = {
   title: 'Застройщики Москвы: проекты, сделки и смены владельцев',
   description: 'Справочник застройщиков Москвы и Подмосковья: сколько проектов у каждого, что продаётся сейчас, кому переходили участки и что о компании писали до официальных новостей.',
   alternates: { canonical: `${SITE}/zastroyshchiki/` },
+    openGraph: ogFor(`${SITE}/zastroyshchiki/`),
 }
 
 const STAGE_SHORT = [['sales', 'в продаже'], ['completed', 'сданы'], ['permit', 'с разрешением'], ['architecture', 'проект'], ['concept', 'концепция'], ['land', 'участок']] as const

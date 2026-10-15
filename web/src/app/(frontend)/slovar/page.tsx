@@ -1,15 +1,17 @@
+import { CrumbsLd } from '@/lib/jsonld'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { getPayload } from 'payload'
 import config from '@payload-config'
-import { SITE } from '@/lib/ui'
+import { SITE, ogFor } from '@/lib/ui'
 
 // Страницы собираются на запрос: в Docker-сборке нет доступа к базе, а данные должны быть свежими
 export const dynamic = 'force-dynamic'
 export const metadata: Metadata = {
-  title: 'Словарь покупателя новостройки: ДДУ, эскроу, КРТ и другие термины',
+  title: 'Словарь покупателя новостройки: ДДУ, эскроу, КРТ',
   description: 'Простые определения терминов рынка новостроек со ссылками на законы и официальные источники.',
   alternates: { canonical: `${SITE}/slovar/` },
+    openGraph: ogFor(`${SITE}/slovar/`),
 }
 
 export default async function Glossary() {
@@ -19,6 +21,7 @@ export default async function Glossary() {
   terms.forEach((t) => { const k = t.term.charAt(0).toUpperCase(); groups.set(k, [...(groups.get(k) || []), t]) })
   return (
     <>
+      <CrumbsLd items={[['Лента', '/'], ['Словарь', '/slovar/']]} />
       <nav className="crumbs" aria-label="Путь"><Link href="/">Лента</Link><span>/</span><span>Словарь</span></nav>
       <h1 className="page-h tt">Словарь<span>покупателя новостройки</span></h1>
       {terms.length ? (

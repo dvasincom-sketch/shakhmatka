@@ -1,16 +1,19 @@
+import { CrumbsLd } from '@/lib/jsonld'
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import { SITE } from '@/lib/ui'
+import { SITE, ogFor } from '@/lib/ui'
 
 export const metadata: Metadata = {
   title: 'О проекте и редакционные принципы',
   description: 'Шахматка — независимое медиа о новостройках Москвы и России. Как мы проверяем факты, на какие источники опираемся и чего не публикуем.',
   alternates: { canonical: `${SITE}/o-proekte/` },
+    openGraph: ogFor(`${SITE}/o-proekte/`),
 }
 
 export default function About() {
   return (
     <article>
+      <CrumbsLd items={[['Лента', '/'], ['О проекте', '/o-proekte/']]} />
       <nav className="crumbs" aria-label="Путь"><Link href="/">Лента</Link><span>/</span><span>О проекте</span></nav>
       <h1 className="page-h tt">О проекте<span>и редакционные принципы</span></h1>
       <div className="page-text">

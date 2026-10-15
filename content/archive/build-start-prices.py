@@ -33,7 +33,7 @@ EXCLUDE = {
 def ym(s):
     p = [int(x) for x in str(s).split('-')[:3]] + [15]
     return date(p[0], p[1], p[2] if len(p) > 2 and len(str(s)) > 7 else 15)
-DISPLAY = {'life-varshavskaya': '«LIFE-Варшавская»', 'salarevo-park': '«Саларьево парк»', 'prioriti-basmannyy': 'MYPRIORITY Basmanny',
+DISPLAY = {'volzhskiy-park': '«Волжский парк»', 'life-varshavskaya': '«LIFE-Варшавская»', 'salarevo-park': '«Саларьево парк»', 'prioriti-basmannyy': 'MYPRIORITY Basmanny',
            'injoy': 'Injoy', 'wave': 'Wave', 'pik': '«Плеханова, 11» (ПИК+)', 'era': 'ERA', 'yuzhnyy-port': 'Ultima City',
            'strana-zarechnaya': '«Страна.Заречная»', 'zareche': '«Графика на воде»', 'ogorodnyy-20': 'Квартал «Монс»',
            'staropetrovskiy-atrium': 'Level Войковская', 'shift': 'Shift', 'mnevniki': 'MYPRIORITY Mnevniki',
@@ -45,6 +45,7 @@ DISPLAY = {'life-varshavskaya': '«LIFE-Варшавская»', 'salarevo-park'
            'arkhitektor': '«Архитектор»', 'chistye-prudy': '«Чистые пруды»', 'dd-oo-mm': 'DD OO MM', 'irtyshskiy-park': '«2-й Иртышский»', 'tate': 'Tate'}
 # короткие подписи лотов для сайта (редактура полей агентов)
 LOTS = {
+ 'volzhskiy-park': ('студия', 'студия 20,1 м²'),
  'life-varshavskaya': (None, 'студия 35,5 м²'), 'salarevo-park': (None, 'студия 21,2 м² — от 13,4 млн ₽'),
  'prioriti-basmannyy': (None, '2-комнатная от 59,3 м² — студий в продаже нет'), 'injoy': ('1-комнатная', None),
  'wave': (None, 'студия 22,1 м²'), 'pik': ('квартиры с отделкой от 20,2 м²', 'студия 19,4 м²'),
@@ -69,6 +70,9 @@ for f in OUT:
     if not (s.get('lot_from') and n.get('lot_from') and s.get('date') and n.get('as_of') and s.get('source', {}).get('url') and n.get('source', {}).get('url')):
         skipped.append((slug, d.get('status'))); continue
     o = OBJ.get(slug, {})
+    # ручные досье (content/objects/dossiers/*.json): в archive-dossiers у них нет названия, застройщика и района
+    mp = os.path.join(ROOT, 'content', 'objects', 'dossiers', f'{slug}.json')
+    if os.path.exists(mp): o = {**o, **{k: v for k, v in json.load(open(mp)).items() if k in ('name', 'developer', 'district', 'region', 'zu') and v}}
     dist = DIST.get(o.get('district') or '')
     yrs = max((ym(n['as_of']) - ym(s['date'])).days / 365.25, 0.1)
     chg = n['lot_from'] / s['lot_from'] - 1

@@ -16,3 +16,9 @@ export function JsonLd({ data }: { data: Node | Node[] | unknown }) {
   // «</script>» внутри строк не должен закрыть тег
   return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(out).replace(/</g, '\\u003c') }} />
 }
+
+/** Хлебные крошки для поисковиков (BreadcrumbList): [['Лента', '/'], ['Объекты', '/obekty/']] */
+export function CrumbsLd({ items }: { items: [string, string][] }) {
+  const site = process.env.NEXT_PUBLIC_SITE_URL || 'https://шахматка.москва'
+  return <JsonLd data={{ '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: items.map(([name, path], i) => ({ '@type': 'ListItem', position: i + 1, name, item: `${site}${path}` })) }} />
+}

@@ -1,0 +1,234 @@
+[
+ {
+  "slug": "derbenevskaya",
+  "district": null,
+  "region": null,
+  "source": "https://www.novostroy-m.ru/novosti/v_rayone_metro_paveletskaya",
+  "evidence": "тег ЦАО, район не назван",
+  "reason": "район не назван"
+ },
+ {
+  "slug": "promzona-butovo",
+  "district": null,
+  "region": null,
+  "source": "https://www.mos.ru/news/item/156051073/",
+  "evidence": "часть бывшей промзоны Южное Бутово (30,7 га), не подтверждено, что это тот же участок 81 га",
+  "reason": "источник не про участок 81 га"
+ },
+ {
+  "slug": "promzona-48-degunino-likhobory",
+  "district": null,
+  "region": null,
+  "source": "https://riamo.ru/articles/aktsenty/renovatsiya-degunino-lihobory-chto-poyavitsya-na-territorii-promzony-xl/",
+  "evidence": "Она охватывает территорию районов Бескудниково и Западное Дегунино",
+  "reason": "промзона в двух районах"
+ },
+ {
+  "slug": "khibinskiy-3",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не найдено в выдаче/не проверено"
+ },
+ {
+  "slug": "varshavskoe-5",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не найдено в выдаче/не проверено"
+ },
+ {
+  "slug": "khapilovka",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не найдено в выдаче/не проверено"
+ },
+ {
+  "slug": "krestovskiy",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не найдено в выдаче/не проверено"
+ },
+ {
+  "slug": "vernadskogo-62",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не найдено в выдаче/не проверено"
+ },
+ {
+  "slug": "monema",
+  "district": "severnoe-medvedkovo",
+  "region": null,
+  "source": "https://www.mos.ru/news/item/153243073/",
+  "evidence": "Участок между улицей Чермянской и Полярным проездом; В районе Северное Медведково будет реорганизован участок 1,15 га (КРТ)",
+  "reason": null
+ },
+ {
+  "slug": "setun-tolbukhina-10",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не найдено в выдаче/не проверено"
+ },
+ {
+  "slug": "dubininskaya-55",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не найдено в выдаче/не проверено"
+ },
+ {
+  "slug": "2-y-tushinskiy-12",
+  "district": null,
+  "region": null,
+  "source": "https://www.mos.ru/news/item/156170073/",
+  "evidence": "участки в Походном и 2-м Тушинском проездах в районах Южное Тушино и Покровское-Стрешнево",
+  "reason": "два района, дом 12 не назван"
+ },
+ {
+  "slug": "skhodnenskiy-16",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "источник не найден"
+ },
+ {
+  "slug": "vyatskaya-41a",
+  "district": null,
+  "region": null,
+  "source": "https://moskvichmag.ru/?p=39946",
+  "evidence": "Вятский рынок на Вятской ул.; «Савеловский район» употреблено в широком смысле",
+  "reason": "нет точного района в источнике"
+ },
+ {
+  "slug": "zil-vostok",
+  "district": null,
+  "region": null,
+  "source": "https://riamo.ru/news/nedvizhimost/efimov-proekt-krt-na-avtozavodskoj-ulitse-posposobstvuet-razvitiju-promzony-zil/",
+  "evidence": "смежный КРТ: ул. Автозаводская, вл. 21 в Даниловском районе; адрес 2-й Кожуховский, 29 стр 16 не подтверждён",
+  "reason": "нет источника по самому адресу"
+ },
+ {
+  "slug": "kashirskoe-76a",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не найдено в выдаче/не проверено"
+ },
+ {
+  "slug": "tpu-nikolaevskaya",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не найдено в выдаче/не проверено"
+ },
+ {
+  "slug": "pavlovskaya-18",
+  "district": "danilovskiy",
+  "region": null,
+  "source": "https://www.rbc.ru/rbcfreenews/67b752be9a79477ffab3914f",
+  "evidence": "на ул. Павловская, вл. 18, 27/29 ... в Даниловском районе (ЮАО)",
+  "reason": null
+ },
+ {
+  "slug": "khersonskaya-35",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не найдено в выдаче/не проверено"
+ },
+ {
+  "slug": "perovskaya-1",
+  "district": "perovo",
+  "region": null,
+  "source": "https://www.mos.ru/news/item/160399073/",
+  "evidence": "Часть бывшей промзоны «Прожектор» в районе Перово реорганизуют по проекту КРТ",
+  "reason": null
+ },
+ {
+  "slug": "kulneva-6",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не найдено в выдаче/не проверено"
+ },
+ {
+  "slug": "yaroslavskaya-12",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не найдено в выдаче/не проверено"
+ },
+ {
+  "slug": "krt-na-ulitse-admirala-kornilova",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не найдено в выдаче/не проверено"
+ },
+ {
+  "slug": "krt-prozhektor-territoriya-2",
+  "district": "perovo",
+  "region": null,
+  "source": "https://www.mos.ru/news/item/160399073/",
+  "evidence": "Часть бывшей промзоны «Прожектор» в районе Перово реорганизуют по проекту КРТ",
+  "reason": null
+ },
+ {
+  "slug": "krt-derbenevskaya",
+  "district": null,
+  "region": null,
+  "source": "https://www.novostroy-m.ru/novosti/v_rayone_metro_paveletskaya",
+  "evidence": "тег ЦАО, район не назван",
+  "reason": "район не назван"
+ },
+ {
+  "slug": "mikoyan",
+  "district": "nizhegorodskiy",
+  "region": null,
+  "source": "https://moskvichmag.ru/?p=120611",
+  "evidence": "цеха Микояновского комбината на Талалихина — в Нижегородском районе на юго-востоке Москвы",
+  "reason": null
+ },
+ {
+  "slug": "malakhitovaya-16-6",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не найдено в выдаче/не проверено"
+ },
+ {
+  "slug": "profsoyuznaya-152",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не найдено в выдаче/не проверено"
+ },
+ {
+  "slug": "tpu-klenovyy-bulvar",
+  "district": null,
+  "region": null,
+  "source": null,
+  "evidence": "",
+  "reason": "не найдено в выдаче/не проверено"
+ }
+]

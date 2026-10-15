@@ -383,7 +383,9 @@
       }
     ],
     "developer": "om-development",
-    "developerName": "ОМ Девелопмент"
+    "developerName": "ОМ Девелопмент",
+    "district": "rostokino",
+    "note": "район КРТ — по адресу участка и соседним домам (редакция, 15.10.2026); сверить"
   },
   "vern": {
     "developer": "neometriya",
@@ -1292,7 +1294,9 @@
   },
   "soul": {
     "district": "aeroport",
-    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Часовая ул., 28 (Всекохудожник) → Аэропорт"
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): Часовая ул., 28 (Всекохудожник) → Аэропорт",
+    "developer": "forma",
+    "developerName": "Forma"
   },
   "cherry-city": {
     "district": "akademicheskiy",
@@ -1408,7 +1412,9 @@
   },
   "tpu-suvorovskaya": {
     "district": "meshchanskiy",
-    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): пересечение ул. Дурова и Олимпийского пр. у Олимпийского -> Мещанский"
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): пересечение ул. Дурова и Олимпийского пр. у Олимпийского -> Мещанский",
+    "developer": "granard",
+    "developerName": "Гранард"
   },
   "mypriority-dubrovka": {
     "district": "yuzhnoportovyy",
@@ -1612,7 +1618,9 @@
   },
   "krt-vagonoremont": {
     "district": "zapadnoe-degunino",
-    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): КРТ Вагоноремонт на Дубнинской ул. → Западное Дегунино"
+    "note": "район по адресу (две независимые разметки совпали, 14.10.2026): КРТ Вагоноремонт на Дубнинской ул. → Западное Дегунино",
+    "developer": "osnova",
+    "developerName": "Основа"
   },
   "zdanie-naprotiv-bashni-imperiya": {
     "district": "presnenskiy",
@@ -2055,7 +2063,10 @@
   },
   "fantastic-house": {
     "district": "presnenskiy",
-    "districtSource": "https://www.novostroy-m.ru/baza/klubnyy_dom_fantastic_house"
+    "districtSource": "https://www.novostroy-m.ru/baza/klubnyy_dom_fantastic_house",
+    "developer": "fibonacci-group",
+    "developerName": "Fibonacci Group",
+    "note": "застройщик по фактчекингу статьи 2656-"
   },
   "varshavskoe-9-1": {
     "district": "danilovskiy",
@@ -2264,5 +2275,197 @@
   "gala": {
     "district": "ramenki",
     "note": "Вернадского, вл. 8А — между участками Вернадского, 6В и 10 (оба в Раменках по досье); проект «ГАЛÁ» от Apsis Globe"
+  },
+  "s6": {
+    "districtSource": "https://www.novostroy-m.ru/baza/jk_standartnaya_6",
+    "district": "altufevskiy",
+    "note": "район КРТ — по адресу участка (редакция, 15.10.2026)"
+  },
+  "grodnenskaya-3": {
+    "districtSource": "https://www.novostroy-m.ru/novosti/chetyre_uchastka_v_mojayskom",
+    "district": "mozhayskiy",
+    "note": "район КРТ — по адресу участка (редакция, 15.10.2026)"
+  },
+  "mashkinskoe-32": {
+    "districtSource": "https://www.m24.ru/news/17032026/883343",
+    "district": "molzhaninovskiy",
+    "note": "район КРТ — по адресу участка (редакция, 15.10.2026)"
+  },
+  "monema": {
+    "districtSource": "https://www.mos.ru/news/item/153243073/",
+    "district": "severnoe-medvedkovo",
+    "note": "район КРТ — по адресу участка (редакция, 15.10.2026)"
+  },
+  "pavlovskaya-18": {
+    "districtSource": "https://www.rbc.ru/rbcfreenews/67b752be9a79477ffab3914f",
+    "district": "danilovskiy",
+    "note": "район КРТ — по адресу участка (редакция, 15.10.2026)"
+  },
+  "perovskaya-1": {
+    "districtSource": "https://www.mos.ru/news/item/160399073/",
+    "district": "perovo",
+    "note": "район КРТ — по адресу участка (редакция, 15.10.2026)"
+  },
+  "krt-prozhektor-territoriya-2": {
+    "districtSource": "https://www.mos.ru/news/item/160399073/",
+    "district": "perovo",
+    "note": "район КРТ — по адресу участка (редакция, 15.10.2026)"
+  },
+  "mikoyan": {
+    "districtSource": "https://moskvichmag.ru/?p=120611",
+    "district": "nizhegorodskiy",
+    "note": "район КРТ — по адресу участка (редакция, 15.10.2026)"
+  },
+  "volgogradskiy-32": {
+    "district": "yuzhnoportovyy",
+    "note": "район КРТ — по адресу участка (редакция, 15.10.2026)"
+  },
+  "krasnyy-bogatyr-vitebskaya-9": {
+    "district": "mozhayskiy",
+    "note": "район КРТ — по адресу участка (редакция, 15.10.2026)"
+  },
+  "obrucheva-23-25a": {
+    "district": "obruchevskiy",
+    "note": "район КРТ — по адресу участка (редакция, 15.10.2026)"
+  },
+  "poklonnaya-5": {
+    "district": "dorogomilovo",
+    "note": "район КРТ — по адресу участка (редакция, 15.10.2026)"
+  },
+  "yasenevaya-14b": {
+    "district": "orekhovo-borisovo-yuzhnoe",
+    "note": "район КРТ — по адресу участка (редакция, 15.10.2026)"
+  },
+  "tramplin": {
+    "district": "kuntsevo",
+    "note": "район КРТ — по адресу участка (редакция, 15.10.2026)"
+  },
+  "kashirskiy-25-2": {
+    "district": "nagornyy",
+    "note": "район КРТ — по адресу участка (редакция, 15.10.2026)"
+  },
+  "yunosti-9-15": {
+    "district": "veshnyaki",
+    "note": "район КРТ — по адресу участка (редакция, 15.10.2026)"
+  },
+  "avtozavodskaya-21": {
+    "district": "danilovskiy",
+    "note": "район КРТ — по адресу участка (редакция, 15.10.2026)"
+  },
+  "derbenevskaya": {
+    "district": "danilovskiy",
+    "note": "район КРТ — по адресу участка (редакция, 15.10.2026)"
+  },
+  "krt-derbenevskaya": {
+    "district": "danilovskiy",
+    "note": "район КРТ — по адресу участка (редакция, 15.10.2026)"
+  },
+  "khibinskiy-3": {
+    "district": "yaroslavskiy",
+    "note": "район КРТ — по адресу участка (редакция, 15.10.2026)"
+  },
+  "khapilovka": {
+    "district": "preobrazhenskoe",
+    "note": "район КРТ — по адресу участка (редакция, 15.10.2026)"
+  },
+  "setun-tolbukhina-10": {
+    "district": "mozhayskiy",
+    "note": "район КРТ — по адресу участка (редакция, 15.10.2026)"
+  },
+  "dubininskaya-55": {
+    "district": "danilovskiy",
+    "note": "район КРТ — по адресу участка (редакция, 15.10.2026)"
+  },
+  "skhodnenskiy-16": {
+    "district": "yuzhnoe-tushino",
+    "note": "район КРТ — по адресу участка (редакция, 15.10.2026)"
+  },
+  "vyatskaya-41a": {
+    "district": "savelovskiy",
+    "note": "район КРТ — по адресу участка (редакция, 15.10.2026)"
+  },
+  "tpu-nikolaevskaya": {
+    "district": "koptevo",
+    "note": "район КРТ — по адресу участка (редакция, 15.10.2026)"
+  },
+  "kulneva-6": {
+    "district": "dorogomilovo",
+    "note": "район КРТ — по адресу участка (редакция, 15.10.2026)"
+  },
+  "krt-v-kommunarke": {
+    "district": "sosenskoe",
+    "note": "район КРТ — по адресу участка (редакция, 15.10.2026)"
+  },
+  "krt-na-ulitse-admirala-kornilova": {
+    "district": "sosenskoe",
+    "note": "район КРТ — по адресу участка (редакция, 15.10.2026)"
+  },
+  "malakhitovaya-16-6": {
+    "district": "sviblovo",
+    "note": "район КРТ — по адресу участка (редакция, 15.10.2026)"
+  },
+  "tpu-klenovyy-bulvar": {
+    "district": "nagatinskiy-zaton",
+    "note": "район КРТ — по адресу участка (редакция, 15.10.2026)"
+  },
+  "krt-ogorodnyy-proezd": {
+    "district": "butyrskiy",
+    "note": "район КРТ — по адресу участка (редакция, 15.10.2026)"
+  },
+  "krt-poklonnaya": {
+    "district": "dorogomilovo",
+    "note": "район КРТ — по адресу участка (редакция, 15.10.2026)"
+  },
+  "promzona-butovo": {
+    "district": "yuzhnoe-butovo",
+    "note": "район КРТ — по адресу участка (редакция, 15.10.2026)"
+  },
+  "promzona-48-degunino-likhobory": {
+    "developer": "prometeysiti",
+    "developerName": "Прометейсити",
+    "note": "застройщик по фактчекингу статьи 14757",
+    "district": "zapadnoe-degunino"
+  },
+  "yauza-khleb": {
+    "developer": "intel-group",
+    "developerName": "Интел-Групп",
+    "note": "застройщик по фактчекингу статьи 17425"
+  },
+  "golubinskaya-22": {
+    "developer": "limanos",
+    "developerName": "Лиманос",
+    "note": "застройщик по фактчекингу статьи 21267"
+  },
+  "krt-edvarda-griga": {
+    "district": "sosenskoe",
+    "note": "район КРТ — по адресу участка и соседним домам (редакция, 15.10.2026); сверить"
+  },
+  "2-y-tushinskiy-12": {
+    "district": "pokrovskoe-streshnevo",
+    "note": "район КРТ — по адресу участка и соседним домам (редакция, 15.10.2026); сверить"
+  },
+  "vernadskogo-62": {
+    "district": "prospekt-vernadskogo",
+    "note": "район КРТ — по адресу участка и соседним домам (редакция, 15.10.2026); сверить"
+  },
+  "zil-vostok": {
+    "district": "danilovskiy",
+    "note": "район КРТ — по адресу участка и соседним домам (редакция, 15.10.2026); сверить"
+  },
+  "lomonosovskiy-prospekt-23a": {
+    "district": "ramenki",
+    "note": "район КРТ — по адресу участка и соседним домам (редакция, 15.10.2026); сверить"
+  },
+  "krestovskiy": {
+    "district": "meshchanskiy",
+    "note": "район КРТ — по адресу участка и соседним домам (редакция, 15.10.2026); сверить"
+  },
+  "yaroslavskaya-12": {
+    "district": "alekseevskiy",
+    "note": "район КРТ — по адресу участка и соседним домам (редакция, 15.10.2026); сверить"
+  },
+  "varshavskoe-5": {
+    "district": "danilovskiy",
+    "note": "район КРТ — по адресу участка и соседним домам (редакция, 15.10.2026); сверить"
   }
 }

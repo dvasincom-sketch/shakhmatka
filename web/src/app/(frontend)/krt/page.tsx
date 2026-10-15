@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { getPayload } from 'payload'
 import config from '@payload-config'
-import { SITE, devName } from '@/lib/ui'
+import { SITE, devName, ogFor } from '@/lib/ui'
 import { districtName, plural } from '@/lib/geo'
 import { MOSCOW_DISTRICTS } from '@/lib/districts'
 import { JsonLd } from '@/lib/jsonld'
@@ -16,6 +16,7 @@ export const metadata: Metadata = {
   title: 'КРТ в Москве: трекер территорий и застройщиков',
   description: 'Все территории комплексного развития (КРТ) Москвы из досье Шахматки: где решение уже принято, кто застройщик, что с проектом сейчас и какие сигналы подтвердились.',
   alternates: { canonical: `${SITE}/krt/` },
+    openGraph: ogFor(`${SITE}/krt/`),
 }
 
 const MONTHS = ['января', 'февраля', 'марта', 'апреля', 'мая', 'июня', 'июля', 'августа', 'сентября', 'октября', 'ноября', 'декабря']
@@ -29,6 +30,7 @@ export default async function Krt() {
     }),
     payload.find({ collection: 'developers', limit: 10000, pagination: false, depth: 0, select: { name: true, slug: true } }),
   ])
+  const krtTerm = (await payload.find({ collection: 'terms', where: { slug: { equals: 'krt' } }, limit: 1, depth: 0 })).docs[0]
   const devById = new Map(devs.docs.map((x) => [x.id, x]))
   const rows: KrtRow[] = (objs.docs as Obj[])
     .filter((o) => o.region === 'moscow')
@@ -40,7 +42,7 @@ export default async function Krt() {
       return {
         slug: o.slug,
         name: o.name,
-        where: dist ? `${dist.name}, ${dist.okrug}` : o.district ? districtName(o.district) : 'Москва, район уточняется',
+        where: dist ? `${dist.name}, ${dist.okrug}` : o.district ? districtName(o.district) : 'Москва',
         okrug: dist?.okrug || '',
         developer: dev ? { name: devName(dev.name), slug: dev.slug } : undefined,
         stage: o.stage || '',
@@ -94,7 +96,7 @@ export default async function Krt() {
       <nav className="crumbs" aria-label="Путь"><Link href="/">Лента</Link><span>/</span><span>КРТ</span></nav>
       <h1 className="page-h tt">КРТ в Москве<span>трекер территорий</span></h1>
       <p className="hello-sub">
-        Территории <Link href="/slovar/krt/">комплексного развития</Link> из досье Шахматки: где город уже принял решение, кто застройщик и что с проектом сейчас.
+        Территории {krtTerm ? <Link href="/slovar/krt/">комплексного развития</Link> : 'комплексного развития'} из досье Шахматки: где город уже принял решение, кто застройщик и что с проектом сейчас.
         Данные на {asOf}{years.length ? `, первые события — ${years[0]} год` : ''}.
       </p>
 

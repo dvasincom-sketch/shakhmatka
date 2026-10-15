@@ -1,8 +1,9 @@
+import { CrumbsLd } from '@/lib/jsonld'
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import { SITE } from '@/lib/ui'
+import { SITE, ogFor } from '@/lib/ui'
 
-export const metadata: Metadata = { title: 'Шахматка Про: аналитика по новостройкам', description: 'Оценка перспективы объектов, история цен, ранние сигналы по участкам и судебные риски застройщиков.', alternates: { canonical: `${SITE}/pro/` } }
+export const metadata: Metadata = { title: 'Шахматка Про: аналитика по новостройкам', description: 'Оценка перспективы объектов, история цен, ранние сигналы по участкам и судебные риски застройщиков.', alternates: { canonical: `${SITE}/pro/` }, openGraph: ogFor(`${SITE}/pro/`) }
 
 const FEAT = [
   ['Оценка перспективы', 'Сравнение объекта с соседними проектами: цена, темп продаж, сроки, риски согласований.'],
@@ -14,6 +15,7 @@ const FEAT = [
 export default function Pro() {
   return (
     <>
+      <CrumbsLd items={[['Лента', '/'], ['Подписка', '/pro/']]} />
       <nav className="crumbs"><Link href="/">Лента</Link><span>/</span><span>Подписка</span></nav>
       <section className="pro-hero">
         <span className="pill dark">Шахматка Про</span>

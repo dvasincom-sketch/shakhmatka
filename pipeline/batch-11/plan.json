@@ -1,0 +1,307 @@
+{
+ "batch": 11,
+ "units": [
+  {
+   "unit": 19662,
+   "notes": [
+    19662
+   ],
+   "dossier": "tpu-suvorovskaya",
+   "developer": "mr-group",
+   "date": "2023-10-02",
+   "images": 5
+  },
+  {
+   "unit": 6136,
+   "notes": [
+    6130,
+    6136
+   ],
+   "dossier": "symphony-34",
+   "developer": "mr-group",
+   "date": "2020-11-14",
+   "images": 0
+  },
+  {
+   "unit": 15135,
+   "notes": [
+    15135
+   ],
+   "dossier": "zarechnaya",
+   "developer": "strana",
+   "date": "2022-10-25",
+   "images": 4
+  },
+  {
+   "unit": 7072,
+   "notes": [
+    7072
+   ],
+   "dossier": "seliger-siti",
+   "developer": "mr-group",
+   "date": "2021-02-20",
+   "images": 1
+  },
+  {
+   "unit": 14801,
+   "notes": [
+    14801
+   ],
+   "dossier": "ostankino-business-park",
+   "developer": "pioner",
+   "date": "2022-09-30",
+   "images": 1
+  },
+  {
+   "unit": 15711,
+   "notes": [
+    15711
+   ],
+   "dossier": "rassvet",
+   "developer": "kr-properties",
+   "date": "2022-11-28",
+   "images": 3
+  },
+  {
+   "unit": 2077,
+   "notes": [
+    2077
+   ],
+   "dossier": "pravda",
+   "developer": "psn",
+   "date": "2019-06-11",
+   "images": 0
+  },
+  {
+   "unit": 15018,
+   "notes": [
+    15018
+   ],
+   "dossier": "khamovniki-xii",
+   "developer": "coldy",
+   "date": "2022-10-18",
+   "images": 2
+  },
+  {
+   "unit": 19188,
+   "notes": [
+    19188
+   ],
+   "dossier": "desnareche",
+   "developer": "a101",
+   "date": "2023-09-01",
+   "images": 7
+  },
+  {
+   "unit": 19281,
+   "notes": [
+    19281
+   ],
+   "dossier": "tpu-park-pobedy",
+   "developer": "tashir",
+   "date": "2023-09-07",
+   "images": 1
+  },
+  {
+   "unit": 19317,
+   "notes": [
+    19317
+   ],
+   "dossier": "krt-marshala-zhukova-17-63",
+   "developer": "pik",
+   "date": "2023-09-09",
+   "images": 2
+  },
+  {
+   "unit": 19632,
+   "notes": [
+    19632
+   ],
+   "dossier": "mayprioriti-paveletskaya",
+   "developer": "granel",
+   "date": "2023-09-28",
+   "images": 0
+  },
+  {
+   "unit": 21267,
+   "notes": [
+    21267
+   ],
+   "dossier": "golubinskaya-22",
+   "developer": "capital-group",
+   "date": "2023-12-30",
+   "images": 2
+  },
+  {
+   "unit": 11883,
+   "notes": [
+    11883
+   ],
+   "dossier": "wow",
+   "developer": "strana",
+   "date": "2022-04-20",
+   "images": 1
+  },
+  {
+   "unit": 15474,
+   "notes": [
+    15474
+   ],
+   "dossier": "myur-i-meriliz",
+   "developer": "kr-properties",
+   "date": "2022-11-14",
+   "images": 5
+  },
+  {
+   "unit": 19778,
+   "notes": [
+    19778
+   ],
+   "dossier": "krt-vykhino",
+   "developer": "akvilon",
+   "date": "2023-10-11",
+   "images": 7
+  },
+  {
+   "unit": 20085,
+   "notes": [
+    20085
+   ],
+   "dossier": "literaturnyy-kvartal",
+   "developer": "samolet",
+   "date": "2023-11-02",
+   "images": 8
+  },
+  {
+   "unit": 2656,
+   "notes": [
+    2656
+   ],
+   "dossier": "fantastic-house",
+   "developer": "capital-group",
+   "date": "2019-10-29",
+   "images": 6
+  },
+  {
+   "unit": 11741,
+   "notes": [
+    11741
+   ],
+   "dossier": "promzona-butovo",
+   "developer": null,
+   "date": "2022-04-08",
+   "images": 0
+  },
+  {
+   "unit": 11877,
+   "notes": [
+    11877
+   ],
+   "dossier": "mikhalkovskiy",
+   "developer": "rg",
+   "date": "2022-04-20",
+   "images": 6
+  },
+  {
+   "unit": 14757,
+   "notes": [
+    14757
+   ],
+   "dossier": "promzona-48-degunino-likhobory",
+   "developer": "pik",
+   "date": "2022-09-28",
+   "images": 1
+  },
+  {
+   "unit": 15145,
+   "notes": [
+    15145
+   ],
+   "dossier": "tpu-kaluzhskaya",
+   "developer": "level-group",
+   "date": "2022-10-26",
+   "images": 3
+  },
+  {
+   "unit": 17261,
+   "notes": [
+    17261
+   ],
+   "dossier": "krt-vagonoremont",
+   "developer": null,
+   "date": "2023-04-12",
+   "images": 1
+  },
+  {
+   "unit": 17425,
+   "notes": [
+    17425
+   ],
+   "dossier": "yauza-khleb",
+   "developer": null,
+   "date": "2023-04-24",
+   "images": 2
+  },
+  {
+   "unit": 19769,
+   "notes": [
+    19769
+   ],
+   "dossier": "metronom",
+   "developer": "brusnika",
+   "date": "2023-10-10",
+   "images": 4
+  },
+  {
+   "unit": 32958,
+   "notes": [
+    32958,
+    33143
+   ],
+   "dossier": "mikoyan",
+   "developer": "sezar-group",
+   "date": "2026-02-02",
+   "images": 9
+  },
+  {
+   "unit": 21961,
+   "notes": [
+    21961
+   ],
+   "dossier": "preobrazhenskiy-val-24-k2",
+   "developer": "galaxy-group",
+   "date": "2024-02-21",
+   "images": 9
+  },
+  {
+   "unit": 25110,
+   "notes": [
+    25110
+   ],
+   "dossier": "tsandera-14",
+   "developer": "transstroyinvest",
+   "date": "2024-08-14",
+   "images": 4
+  },
+  {
+   "unit": 28838,
+   "notes": [
+    28838
+   ],
+   "dossier": "kinoteatr-pravda",
+   "developer": "tashir",
+   "date": "2025-04-15",
+   "images": 8
+  },
+  {
+   "unit": 30231,
+   "notes": [
+    30231
+   ],
+   "dossier": "stone-rise",
+   "developer": "stone",
+   "date": "2025-07-16",
+   "images": 6
+  }
+ ]
+}

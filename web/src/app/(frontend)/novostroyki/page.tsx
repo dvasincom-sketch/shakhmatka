@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import { SITE } from '@/lib/ui'
+import { SITE, ogFor } from '@/lib/ui'
 import { cap, getAllObjects, getLandings } from '@/lib/landings'
 import { JsonLd } from '@/lib/jsonld'
 import { MoscowMap, type MapArea } from '@/lib/moscow-map-ui'
@@ -14,6 +14,7 @@ export const metadata: Metadata = {
   title: 'Новостройки Москвы по районам, классам и стадиям',
   description: 'Подборки новостроек Москвы и регионов: по районам и округам, по классу жилья и стадии — от купленного участка до сданного дома. Только проверенные данные.',
   alternates: { canonical: `${SITE}/novostroyki/` },
+    openGraph: ogFor(`${SITE}/novostroyki/`),
 }
 
 export default async function Hub() {

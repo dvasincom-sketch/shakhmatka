@@ -83,13 +83,51 @@ export const START_PRICES: StartPriceRow[] = [
   "note": "Запись архива от 2024-09 (средняя 334 тыс./м²) относится к новому корпусу, не к старту проекта; реальный старт проекта 2019 (ПИК, корпус 40 серии ПИК3 по архиву 2019-06-13). Корпус-подтверждение 2024 не найден в обзоре сентября 2024. Цена за м² на старте и сейчас на страницах не указана. В карточке застройщик указан как Тирон и ПИК. Сравнивать лот-к-лоту осторожно: состав корпусов и метраж различаются."
  },
  {
+  "slug": "volzhskiy-park",
+  "name": "«Волжский парк»",
+  "dossier": "Волжский парк",
+  "project": "ЖК «Волжский парк» (ПИК), 1-й Грайвороновский проезд, вл. 3",
+  "district": "tekstilshchiki",
+  "districtName": "Текстильщики",
+  "okrug": "ЮВАО",
+  "developer": "ПИК",
+  "start": {
+   "date": "2020-02",
+   "lot_from": 4.6,
+   "lot_desc": "студия",
+   "price_m2": null,
+   "price_m2_kind": null,
+   "source": {
+    "title": "novostroy-m.ru: В проекте предусмотрены разнообразные... (новость о старте продаж ЖК «Волжский парк»)",
+    "url": "https://www.novostroy-m.ru/novosti/v_proekte_predusmotreny_raznoobraznye",
+    "date": "2020-02-04"
+   }
+  },
+  "now": {
+   "as_of": "2026-10-15",
+   "lot_from": 15.54,
+   "lot_desc": "студия 20,1 м²",
+   "price_m2": null,
+   "price_m2_kind": null,
+   "selling": true,
+   "source": {
+    "title": "novostroy-m.ru: студия в Волжском парке (страница лота, обновлено «15 октября», год не указан)",
+    "url": "https://www.novostroy-m.ru/kvartiry/studiya-v-volzhskii-park-efe26a3edcb08427f522bd078577c7"
+   }
+  },
+  "changePct": 237.8,
+  "years": 6.7,
+  "perYearPct": 20.0,
+  "note": "Старт: цена 165 тыс. руб./м² есть только в архиве редакции, в открытом источнике за 2020 год не подтверждена, поэтому price_m2 старта = null. Площадь стартовой студии за 4,6 млн неизвестна, так что сравнение лот-к-лоту некорректно (сейчас студии около 20 м²). Сейчас: карточка ЖК и страница с минимальной ценой проекта не найдены; значение взято со страницы одного лота, год обновления на ней не указан, продажи идут (корпус 6.2). Статья novostroy-m.ru/novosti/starty_prodaj_voljskiy_park от 10.08.2024 описывает старт новой очереди (цены от 7,6 млн, площади от 20,2 м2), а не старт 2020 года, и в старт не использована. novostroy.ru не открылся (ошибка загрузки)."
+ },
+ {
   "slug": "losinoostrovskiy-park",
   "name": "«Лосиноостровский парк»",
   "dossier": "Лосиноостровский парк",
   "project": "Лосиноостровский парк",
-  "district": null,
-  "districtName": null,
-  "okrug": null,
+  "district": "metrogorodok",
+  "districtName": "Метрогородок",
+  "okrug": "ВАО",
   "developer": "ПИК",
   "start": {
    "date": "2021-09",
@@ -505,9 +543,9 @@ export const START_PRICES: StartPriceRow[] = [
   "name": "«Петровский парк II»",
   "dossier": "Петровский парк",
   "project": "Петровский парк II (РГ-Девелопмент)",
-  "district": null,
-  "districtName": null,
-  "okrug": null,
+  "district": "savelovskiy",
+  "districtName": "Савёловский",
+  "okrug": "САО",
   "developer": "РГ",
   "start": {
    "date": "2022-11",
@@ -543,9 +581,9 @@ export const START_PRICES: StartPriceRow[] = [
   "name": "Tate",
   "dossier": "TATE",
   "project": "TATE (Тейт), ЖК на ул. Веткина, Кортрос",
-  "district": null,
-  "districtName": null,
-  "okrug": null,
+  "district": "marina-roshcha",
+  "districtName": "Марьина Роща",
+  "okrug": "СВАО",
   "developer": "Кортрос",
   "start": {
    "date": "2024-01",
@@ -733,9 +771,9 @@ export const START_PRICES: StartPriceRow[] = [
   "name": "«2-й Иртышский»",
   "dossier": "Иртышский парк",
   "project": "2-й Иртышский (ранее Иртышский парк / Иртышский квартал), ПИК",
-  "district": null,
-  "districtName": null,
-  "okrug": null,
+  "district": "golyanovo",
+  "districtName": "Гольяново",
+  "okrug": "ВАО",
   "developer": "ПИК",
   "start": {
    "date": "2024-04",
@@ -885,9 +923,9 @@ export const START_PRICES: StartPriceRow[] = [
   "name": "Nagatino i-Land",
   "dossier": "Нагатино i-Land",
   "project": "Nagatino i-Land (бывш. Central Park), жилой остров «Нагатино Ай-Лэнд»",
-  "district": null,
-  "districtName": null,
-  "okrug": null,
+  "district": "danilovskiy",
+  "districtName": "Даниловский",
+  "okrug": "ЮАО",
   "developer": "Эталон",
   "start": {
    "date": "2019-11",
@@ -926,7 +964,7 @@ export const START_PRICES: StartPriceRow[] = [
   "district": "pechatniki",
   "districtName": "Печатники",
   "okrug": "ЮВАО",
-  "developer": "МИЦ",
+  "developer": "Самолёт",
   "start": {
    "date": "2023-04",
    "lot_from": 9.5,
@@ -961,9 +999,9 @@ export const START_PRICES: StartPriceRow[] = [
   "name": "hideOUT",
   "dossier": "hideOUT",
   "project": "hideOUT (ХайдАУТ)",
-  "district": null,
-  "districtName": null,
-  "okrug": null,
+  "district": "ramenki",
+  "districtName": "Раменки",
+  "okrug": "ЗАО",
   "developer": "Dominanta",
   "start": {
    "date": "2024-06",
@@ -1341,8 +1379,8 @@ export const START_PRICES: StartPriceRow[] = [
   "name": "MYPRIORITY Mnevniki",
   "dossier": "Mnevniki",
   "project": "MYPRIORITY Mnevniki (Мнёвники от Гранель), Народного ополчения, 34",
-  "district": "shchukino",
-  "districtName": "Щукино",
+  "district": "khoroshevo-mnevniki",
+  "districtName": "Хорошёво-Мнёвники",
   "okrug": "СЗАО",
   "developer": "Гранель",
   "start": {

@@ -7,6 +7,11 @@ import { ThemeToggle } from './client'
 import * as LOGO from './logo-paths'
 
 export const SITE = process.env.NEXT_PUBLIC_SITE_URL || 'https://шахматка.москва'
+/** Open Graph для страницы: openGraph страницы целиком заменяет layout-овый, поэтому повторяем общие поля и добавляем og:url */
+export const ogFor = (url: string, title?: string, description?: string) => ({
+  type: 'website' as const, url, title, description, siteName: 'Шахматка', locale: 'ru_RU',
+  images: [{ url: '/og-default.png', width: 1200, height: 630, alt: 'Шахматка — новостройки без рекламы и слухов' }],
+})
 
 export const STAGES: { value: string; label: string }[] = [
   { value: 'land', label: 'Участок' }, { value: 'concept', label: 'Концепция' }, { value: 'architecture', label: 'Архитектура' },

@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { getPayload } from 'payload'
 import config from '@payload-config'
-import { ArticleCard, SITE, STAGES, StageStrip, devName, stageLabel } from '@/lib/ui'
+import { ArticleCard, SITE, STAGES, StageStrip, devName, stageLabel, ogFor } from '@/lib/ui'
 import { pub } from '@/lib/public'
 import { districtName, plural, regionName } from '@/lib/geo'
 import { typo } from '@/lib/markdown'
@@ -51,6 +51,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     title: `${name}: проекты, сделки и новости застройщика`,
     description,
     alternates: { canonical: `${SITE}/zastroyshchiki/${x.d.slug}/` },
+    openGraph: ogFor(`${SITE}/zastroyshchiki/${x.d.slug}/`),
   }
 }
 

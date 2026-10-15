@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { getPayload } from 'payload'
 import config from '@payload-config'
-import { ArticleCard, SITE, StageStrip, devName, stageLabel } from '@/lib/ui'
+import { ArticleCard, SITE, StageStrip, devName, stageLabel, ogFor } from '@/lib/ui'
 import { districtName, plural, regionName } from '@/lib/geo'
 import { typo } from '@/lib/markdown'
 import { JsonLd } from '@/lib/jsonld'
@@ -51,12 +51,12 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const head = st === 'confirmed' ? 'Сигнал подтвердился' : st === 'unconfirmed' ? 'Сигнал не подтвердился' : 'Сигнал'
   const description = `${head}: ${s.title}`.replace(/\s+/g, ' ')
   return {
-    title: `${o.name}: ${s.title}`.slice(0, 95).replace(/\s+\S*$/, (m) => (m.length > 20 ? '' : m)),
+    title: `${o.name}: ${st === 'confirmed' ? 'подтвердившийся сигнал' : 'сигнал'} от ${dm(s.date).replace(' года', '')}`.slice(0, 60),
     description: description.length > 165 ? description.slice(0, 162).replace(/\s+\S*$/, '') + '…' : description,
     alternates: { canonical: url },
     // неподтвердившиеся сигналы не отдаём в поиск: страница нужна читателям досье, а не для тиражирования слуха
     robots: st === 'unconfirmed' ? { index: false, follow: true } : undefined,
-    openGraph: { type: 'article', url, title: `${o.name}: ${head.toLowerCase()}`, description, locale: 'ru_RU', siteName: 'Шахматка' },
+    openGraph: { ...ogFor(url, `${o.name}: ${head.toLowerCase()}`, description), type: 'article' },
   }
 }
 
