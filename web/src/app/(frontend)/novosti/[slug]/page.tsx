@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { redirectIfCyrillic } from '@/lib/cyr-redirect'
 import Link from 'next/link'
 import { signalHref, signalSlugs } from '@/lib/signals'
 import { notFound } from 'next/navigation'
@@ -24,6 +25,7 @@ async function getArticle(slug: string) {
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+  await redirectIfCyrillic('novosti', (await params).slug)
   const { slug } = await params
   const a = await getArticle(slug)
   if (!a) return {}
@@ -40,6 +42,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 const FC: Record<string, string> = { confirmed: 'подтверждено', changed: 'изменилось', refuted: 'опровергнуто', unverified: 'не подтверждено' }
 
 export default async function ArticlePage({ params }: { params: Promise<{ slug: string }> }) {
+  await redirectIfCyrillic('novosti', (await params).slug)
   const { slug } = await params
   const a = await getArticle(slug)
   if (!a || (ONLY_READY && a.reviewStatus !== 'ready')) notFound()

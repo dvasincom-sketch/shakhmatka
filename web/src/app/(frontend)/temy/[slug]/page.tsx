@@ -1,4 +1,5 @@
 import { CrumbsLd } from '@/lib/jsonld'
+import { redirectIfCyrillic } from '@/lib/cyr-redirect'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
@@ -18,6 +19,7 @@ async function load(slug: string) {
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+  await redirectIfCyrillic('temy', (await params).slug)
   const { s, arts } = await load((await params).slug)
   if (!arts.length) return {}
   return {
@@ -31,6 +33,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 }
 
 export default async function TopicPage({ params }: { params: Promise<{ slug: string }> }) {
+  await redirectIfCyrillic('temy', (await params).slug)
   const { s, arts } = await load((await params).slug)
   if (!arts.length) notFound()
   return (

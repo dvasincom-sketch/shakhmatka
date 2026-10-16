@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { redirectIfCyrillic } from '@/lib/cyr-redirect'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { getPayload } from 'payload'
@@ -20,6 +21,7 @@ async function getTerm(slug: string) {
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+  await redirectIfCyrillic('slovar', (await params).slug)
   const t = await getTerm((await params).slug)
   if (!t) return {}
   return {
@@ -30,6 +32,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 }
 
 export default async function TermPage({ params }: { params: Promise<{ slug: string }> }) {
+  await redirectIfCyrillic('slovar', (await params).slug)
   const t = await getTerm((await params).slug)
   if (!t) notFound()
   const payload = await getPayload({ config })

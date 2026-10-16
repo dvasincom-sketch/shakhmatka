@@ -1,4 +1,5 @@
 import { monthGen } from '@/lib/months'
+import { redirectIfCyrillic } from '@/lib/cyr-redirect'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { FollowButton } from '@/lib/follow-button'
@@ -42,6 +43,7 @@ async function load(slug: string) {
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+  await redirectIfCyrillic('zastroyshchiki', (await params).slug)
   const x = await load((await params).slug)
   if (!x) return {}
   const name = devName(x.d.name)
@@ -61,6 +63,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 type Ev = { id: string; date: string; dateLabel?: string | null; kind?: string | null; title: string; certainty?: string | null; confirmedOn?: string | null; outcome?: string | null; o: Obj }
 
 export default async function DeveloperPage({ params }: { params: Promise<{ slug: string }> }) {
+  await redirectIfCyrillic('zastroyshchiki', (await params).slug)
   const x = await load((await params).slug)
   if (!x) notFound()
   const { d, objs, past, arts } = x

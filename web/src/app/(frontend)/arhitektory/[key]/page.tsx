@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { redirectIfCyrillic } from '@/lib/cyr-redirect'
 import Link from 'next/link'
 import { BUREAU_GEO } from '@/lib/bureau-geo'
 import { signalHref, signalSlugs } from '@/lib/signals'
@@ -23,6 +24,7 @@ const my = (iso: string) => { const d = new Date(iso); return `${MONTHS_N[d.getU
 const KIND_W: Record<string, string> = { architecture: 'архитектурное бюро', landscape: 'ландшафтное бюро', interior: 'бюро интерьеров' }
 
 export async function generateMetadata({ params }: { params: Promise<{ key: string }> }): Promise<Metadata> {
+  await redirectIfCyrillic('arhitektory', (await params).key)
   const b = bureauByKey(decodeURIComponent((await params).key))
   if (!b) return {}
   const url = `${SITE}/arhitektory/${b.key}/`
@@ -38,6 +40,7 @@ export async function generateMetadata({ params }: { params: Promise<{ key: stri
 }
 
 export default async function Bureau({ params }: { params: Promise<{ key: string }> }) {
+  await redirectIfCyrillic('arhitektory', (await params).key)
   const b = bureauByKey(decodeURIComponent((await params).key))
   if (!b) notFound()
   const payload = await getPayload({ config })

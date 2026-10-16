@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { redirectIfCyrillic } from '@/lib/cyr-redirect'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { getPayload } from 'payload'
@@ -45,6 +46,7 @@ const statusOf = (s: TL) =>
   s.confirmedOn ? 'confirmed' : isSnapshot(s) ? 'snapshot' : s.outcome ? 'unconfirmed' : 'pending'
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+  await redirectIfCyrillic('signaly', (await params).slug)
   const d = await load((await params).slug)
   if (!d) return {}
   const { o, s, slugs } = d
@@ -63,6 +65,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 }
 
 export default async function SignalPage({ params }: { params: Promise<{ slug: string }> }) {
+  await redirectIfCyrillic('signaly', (await params).slug)
   const d = await load((await params).slug)
   if (!d) notFound()
   const { o, s, slugs, arts, proof } = d
