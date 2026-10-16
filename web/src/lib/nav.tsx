@@ -6,7 +6,6 @@ export const NAV = [
   { href: '/', label: 'Лента' },
   { href: '/obekty/', label: 'Объекты' },
   { href: '/zastroyshchiki/', label: 'Застройщики' },
-  { href: '/temy/interer/', label: 'Интерьер' },
   { href: '/pro/', label: 'Подписка' },
 ]
 

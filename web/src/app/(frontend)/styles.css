@@ -974,3 +974,32 @@ a.pill-q:hover, a.zu:hover { background: var(--line); }
 .more-chips summary::after { content: '↓'; }
 .more-chips[open] summary::after { content: '↑'; }
 .more-chips .chips { margin-top: 10px; }
+
+/* /temy/ — карточки тем */
+.topic-jump { margin-top: 18px; }
+.topic-grid { display: grid; grid-template-columns: 1fr; gap: 14px; }
+.tcard { display: grid; grid-template-rows: auto 1fr; padding: 8px; text-decoration: none; color: var(--ink); transition: box-shadow .2s, transform .2s; }
+.tcard:hover { box-shadow: var(--shadow-h); transform: translateY(-2px); }
+.tcard-ph { position: relative; aspect-ratio: 21 / 9; border-radius: var(--r-m); overflow: hidden; background: var(--soft); display: grid; place-items: center; }
+.tcard-ph img { width: 100%; height: 100%; object-fit: cover; }
+.tcard-ph .tag { position: absolute; left: 10px; bottom: 10px; }
+.tcard-mono { font-family: var(--f-display); font-size: 64px; font-weight: 300; color: var(--orange); opacity: .55; }
+.tcard-tx { display: grid; gap: 8px; align-content: start; padding: 14px 8px 8px; }
+.tcard h2 { font-family: var(--f-display); font-weight: 400; font-size: var(--s2); letter-spacing: var(--ls-s); line-height: 1.15; }
+.tcard-sub { color: var(--muted); font-size: var(--s-1); }
+.tcard-list { list-style: none; margin: 4px 0 0; padding: 0; display: grid; gap: 6px; font-size: var(--s-1); }
+.tcard-list li { padding-left: 14px; position: relative; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.tcard-list li::before { content: ''; position: absolute; left: 0; top: .55em; width: 6px; height: 6px; border-radius: 50%; background: var(--orange); }
+.tcard-more { margin-top: 4px; font-size: var(--s-1); font-weight: 600; color: var(--muted); }
+.tcard:hover .tcard-more { color: var(--ink); }
+@media (min-width: 700px) {
+  .topic-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+  .tcard-ph { aspect-ratio: 16 / 9; }
+}
+@media (min-width: 1100px) {
+  .topic-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .tcard-l { grid-column: span 1; }
+  .topic-grid .tcard-l:first-child { grid-column: span 2; grid-template-columns: 1.3fr 1fr; grid-template-rows: auto; gap: 8px; }
+  .topic-grid .tcard-l:first-child .tcard-ph { aspect-ratio: auto; min-height: 100%; }
+  .topic-grid .tcard-l:first-child h2 { font-size: var(--s3); }
+}

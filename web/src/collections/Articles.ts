@@ -27,7 +27,7 @@ export const Articles: CollectionConfig = {
       async ({ data, originalDoc, req }) => {
         const body = data.body ?? originalDoc?.body
         if (typeof body !== 'string') return data
-        const broken = findBroken(await buildLinkIndex(req.payload), body)
+        const broken = findBroken(await buildLinkIndex(req.payload, req), body)
         data.linkCheck = broken.length ? brokenReport(broken) : ''
         return data
       },

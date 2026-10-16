@@ -1,4 +1,4 @@
-import type { Payload } from 'payload'
+import type { Payload, PayloadRequest } from 'payload'
 import { STATIC } from './landing-static'
 import { ONLY_READY } from './public'
 
@@ -27,15 +27,19 @@ export function normalize(href: string): { path: string; tail: string } {
   return { path, tail: m[2] }
 }
 
-export async function buildLinkIndex(payload: Payload): Promise<LinkIndex> {
-  const all = { limit: 100000, pagination: false as const, depth: 0 }
-  const [arts, objs, devs, places, terms] = await Promise.all([
-    payload.find({ collection: 'articles', ...all, select: { slug: true, reviewStatus: true, topics: true } }),
-    payload.find({ collection: 'objects', ...all, select: { slug: true } }),
-    payload.find({ collection: 'developers', ...all, select: { slug: true } }),
-    payload.find({ collection: 'places', ...all, select: { slug: true } }),
-    payload.find({ collection: 'terms', ...all, where: { published: { equals: true } }, select: { slug: true } }),
-  ])
+/**
+ * req — передавать из хуков: запросы пойдут в той же транзакции и не займут лишних подключений.
+ * Без него при маленьком пуле (DB_POOL_MAX=2 у фоновых скриптов) сохранение статьи ждало свободное
+ * подключение 15 секунд и падало с «Failed query».
+ */
+export async function buildLinkIndex(payload: Payload, req?: PayloadRequest): Promise<LinkIndex> {
+  const all = { limit: 100000, pagination: false as const, depth: 0, ...(req ? { req } : {}) }
+  // по очереди: внутри транзакции у запросов одно подключение, параллельно его не делят
+  const arts = await payload.find({ collection: 'articles', ...all, select: { slug: true, reviewStatus: true, topics: true } })
+  const objs = await payload.find({ collection: 'objects', ...all, select: { slug: true } })
+  const devs = await payload.find({ collection: 'developers', ...all, select: { slug: true } })
+  const places = await payload.find({ collection: 'places', ...all, select: { slug: true } })
+  const terms = await payload.find({ collection: 'terms', ...all, where: { published: { equals: true } }, select: { slug: true } })
   const pages = new Set(STATIC_PAGES)
   const visible = arts.docs.filter((a) => !ONLY_READY || a.reviewStatus === 'ready')
   visible.forEach((a) => pages.add(`/novosti/${a.slug}/`))

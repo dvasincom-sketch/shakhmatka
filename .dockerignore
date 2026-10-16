@@ -19,5 +19,7 @@ _sync
 pipeline
 # исходники фото не нужны в образе: все фото лежат в S3; новые фото кладутся в incoming/ бакета (см. docs/deploy.md)
 content/articles/media
+# исключение: фото рубрики «Интерьер» едут в образе, импорт сам загрузит их в бакет (в incoming/ класть не нужно)
+!content/articles/media/ntsm-*.webp
 content/objects/photos
 content/objects/media
