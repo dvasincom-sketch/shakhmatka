@@ -52,9 +52,14 @@ for slug, district, region in db.execute('select slug, district, region from obj
     objs[slug] = (district, region)
 
 out, rej, review = {}, [], []
-for line in open(os.path.join(os.path.dirname(__file__), 'raw.tsv'), encoding='utf-8'):
+lines = []
+for fn in ('raw.tsv', 'raw2.tsv'):  # raw2 — второй проход: адреса из текста досье, поиск по названию ЖК в OSM, адреса из каталогов
+    fp = os.path.join(os.path.dirname(__file__), fn)
+    if os.path.exists(fp): lines += open(fp, encoding='utf-8').read().splitlines()
+for line in lines:
     if not line.strip() or line.startswith('#'): continue
     slug, source, lat, lng, prec, addr, note = (line.rstrip('\n').split('\t') + [''] * 7)[:7]
+    if slug in out: continue  # первый проход точнее
     lat, lng = float(lat), float(lng)
     district, region = objs.get(slug, (None, None))
     if slug not in objs: rej.append((slug, 'нет в базе')); continue
@@ -75,7 +80,7 @@ for line in open(os.path.join(os.path.dirname(__file__), 'raw.tsv'), encoding='u
                     review.append((slug, f'в {d:.0f} м от района {district} — проверить район или точку'))
         elif not MOSCOW.buffer(0.005).contains(p):
             rej.append((slug, 'вне Москвы')); continue
-    SRC = {'E': 'ЕИСЖС (наш.дом.рф)', 'O': 'OpenStreetMap'}
+    SRC = {'E': 'ЕИСЖС (наш.дом.рф)', 'O': 'OpenStreetMap', 'N': 'OpenStreetMap (по названию)', 'R': 'OpenStreetMap (адрес по каталогу новостроек)'}
     PREC = {'b': 'building', 'a': 'area', 's': 'street'}
     out[slug] = {'address': addr, 'lat': round(lat, 6), 'lng': round(lng, 6), 'precision': PREC.get(prec, prec), 'source': SRC.get(source, source)}
 
