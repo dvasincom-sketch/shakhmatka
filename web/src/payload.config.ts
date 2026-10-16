@@ -51,7 +51,11 @@ export default buildConfig({
   // Продакшен: PostgreSQL (DATABASE_URI или DATABASE_URL = postgres://…), схема — только миграциями из src/migrations, они применяются при старте.
   // Локально без DATABASE_URI: SQLite-файл, схема подтягивается автоматически в dev.
   db: PG
-    ? postgresAdapter({ pool: { connectionString: PG, ssl: PG_SSL ? { rejectUnauthorized: false } : undefined }, push: false, prodMigrations: migrations })
+    ? postgresAdapter({
+        // пул на процесс: сайт + фоновые скрипты делят лимит подключений тарифа базы (DB_POOL_MAX: сайт 5, скрипты 2)
+        pool: { connectionString: PG, ssl: PG_SSL ? { rejectUnauthorized: false } : undefined, max: Number(process.env.DB_POOL_MAX || 5), idleTimeoutMillis: 10_000, connectionTimeoutMillis: 15_000 },
+        push: false, prodMigrations: migrations,
+      })
     : sqliteAdapter({ client: { url: RAW_DB.startsWith('file:') ? RAW_DB : 'file:./shakhmatka.db' } }),
   sharp,
   // роли появились позже пользователей: если администратора нет, им становится самый первый пользователь
