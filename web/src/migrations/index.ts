@@ -4,6 +4,7 @@ import * as migration_20261014_012522_media_card_size from './20261014_012522_me
 import * as migration_20261015_103653_readers_follows from './20261015_103653_readers_follows';
 import * as migration_20261015_115421_leads from './20261015_115421_leads';
 import * as migration_20261015_170810_readers_phone from './20261015_170810_readers_phone';
+import * as migration_20261016_024154_media_object_key from './20261016_024154_media_object_key';
 
 export const migrations = [
   {
@@ -34,6 +35,11 @@ export const migrations = [
   {
     up: migration_20261015_170810_readers_phone.up,
     down: migration_20261015_170810_readers_phone.down,
-    name: '20261015_170810_readers_phone'
+    name: '20261015_170810_readers_phone',
+  },
+  {
+    up: migration_20261016_024154_media_object_key.up,
+    down: migration_20261016_024154_media_object_key.down,
+    name: '20261016_024154_media_object_key'
   },
 ];

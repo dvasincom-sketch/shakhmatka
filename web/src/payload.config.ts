@@ -69,16 +69,18 @@ export default buildConfig({
   },
   // Файлы (фото) — в S3-хранилище, если оно задано: контейнер при каждом деплое создаётся заново и свои файлы теряет.
   // Отдаются через /api/media/file/…, так что бакет может быть приватным.
-  plugins: process.env.S3_BUCKET
-    ? [s3Storage({
-        collections: { media: true },
-        bucket: process.env.S3_BUCKET,
-        config: {
-          endpoint: process.env.S3_ENDPOINT || 'https://s3.twcstorage.ru',
-          region: process.env.S3_REGION || 'ru-1',
-          forcePathStyle: true,
-          credentials: { accessKeyId: process.env.S3_ACCESS_KEY_ID || '', secretAccessKey: process.env.S3_SECRET_ACCESS_KEY || '' },
-        },
-      })]
-    : [],
+  // S3-плагин подключён всегда: alwaysInsertFields держит одинаковую схему базы (поле _objectKey у media) с S3 и без него,
+  // иначе миграции, созданные без S3, не совпадают с продом, где S3 включён. enabled — только когда задан бакет.
+  plugins: [s3Storage({
+    enabled: !!process.env.S3_BUCKET,
+    alwaysInsertFields: true,
+    collections: { media: true },
+    bucket: process.env.S3_BUCKET || 'disabled',
+    config: {
+      endpoint: process.env.S3_ENDPOINT || 'https://s3.twcstorage.ru',
+      region: process.env.S3_REGION || 'ru-1',
+      forcePathStyle: true,
+      credentials: { accessKeyId: process.env.S3_ACCESS_KEY_ID || '', secretAccessKey: process.env.S3_SECRET_ACCESS_KEY || '' },
+    },
+  })],
 })
