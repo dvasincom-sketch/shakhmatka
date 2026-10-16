@@ -8,6 +8,7 @@ import fs from 'node:fs'
 import path from 'node:path'
 import { S3Client, HeadObjectCommand, PutObjectCommand, DeleteObjectCommand } from '@aws-sdk/client-s3'
 import { initPayload } from './_payload'
+import { sourcePath } from './_source'
 import { s3ClientConfig, s3Describe, s3Env, s3Missing, s3Ready } from '../lib/s3env'
 
 const CONTENT = process.env.CONTENT_DIR ? path.resolve(process.env.CONTENT_DIR, '..') : path.resolve('../content')
@@ -66,7 +67,7 @@ async function run() {
     if (!m.filename) continue
     const card = m.sizes?.card?.filename
     if ((await exists(m.filename)) && (!card || (await exists(card)))) { ok++; continue }
-    const src = SOURCES.map((d) => path.join(d, m.filename!)).find((p) => fs.existsSync(p))
+    const src = await sourcePath(SOURCES, m.filename)
     if (!src) { miss++; continue }
     const tmp = path.join(fs.mkdtempSync('/tmp/mr-'), m.filename)
     fs.copyFileSync(src, tmp)

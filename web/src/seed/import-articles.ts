@@ -4,6 +4,7 @@
  * Повторный запуск обновляет записи по slug, дубликатов не создаёт.
  */
 import { initPayload } from './_payload'
+import { sourcePath } from './_source'
 import matter from 'gray-matter'
 import fs from 'fs'
 import path from 'path'
@@ -35,8 +36,8 @@ async function run() {
     const filename = path.basename(file)
     const found = await payload.find({ collection: 'media', where: { filename: { equals: filename } }, limit: 1 })
     if (found.docs[0]) return payload.update({ collection: 'media', id: found.docs[0].id, data: { alt, caption, credit } })
-    const filePath = path.join(dir, file)
-    if (!fs.existsSync(filePath)) { payload.logger.warn(`нет файла ${filePath}`); return null }
+    const filePath = await sourcePath(dir, file)
+    if (!filePath) { payload.logger.warn(`нет файла ${file} (ни в content/articles, ни в incoming/ бакета)`); return null }
     return payload.create({ collection: 'media', data: { alt, caption, credit }, filePath })
   }
 

@@ -9,6 +9,7 @@
 import fs from 'node:fs'
 import path from 'node:path'
 import { initPayload } from './_payload'
+import { sourcePath } from './_source'
 
 const BASE = path.resolve(process.env.CONTENT_DIR ? path.join(process.env.CONTENT_DIR, '..', 'objects') : '../content/objects')
 type Img = { file: string; alt: string; caption?: string }
@@ -19,7 +20,9 @@ async function run() {
     if (!img) return undefined
     const found = (await payload.find({ collection: 'media', where: { filename: { equals: img.file } }, limit: 1 })).docs[0]
     if (found) return found.id
-    const doc = await payload.create({ collection: 'media', data: { alt: img.alt, caption: img.caption }, filePath: path.join(BASE, 'media', img.file) })
+    const filePath = await sourcePath(path.join(BASE, 'media'), img.file)
+    if (!filePath) { payload.logger.warn(`нет файла ${img.file} (ни в content/objects/media, ни в incoming/ бакета)`); return undefined }
+    const doc = await payload.create({ collection: 'media', data: { alt: img.alt, caption: img.caption }, filePath })
     return doc.id
   }
   const dir = path.join(BASE, 'dossiers')

@@ -6,6 +6,7 @@
 import fs from 'node:fs'
 import path from 'node:path'
 import { initPayload } from './_payload'
+import { sourcePath } from './_source'
 
 const BASE = process.env.CONTENT_DIR ? path.join(process.env.CONTENT_DIR, '..', 'objects') : '../content/objects'
 const FILE = path.resolve(BASE, 'photos.json')
@@ -26,8 +27,8 @@ async function run() {
     for (const [i, f] of p.files.entries()) {
       const found = (await payload.find({ collection: 'media', where: { filename: { equals: f } }, limit: 1, depth: 0 })).docs[0]
       if (found) { ids.push(found.id as number); continue }
-      const filePath = path.join(DIR, f)
-      if (!fs.existsSync(filePath)) continue
+      const filePath = await sourcePath(DIR, f)
+      if (!filePath) { console.log(`  нет файла ${f}`); continue }
       const alt = `${o.name}${isRender ? ' — визуализация' : ' — фото'}${i ? ` ${i + 1}` : ''}`.slice(0, 125)
       const doc = await payload.create({
         collection: 'media',
