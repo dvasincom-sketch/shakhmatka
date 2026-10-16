@@ -1,7 +1,7 @@
 import { sqliteAdapter } from '@payloadcms/db-sqlite'
 import { postgresAdapter } from '@payloadcms/db-postgres'
 import { s3Storage } from '@payloadcms/storage-s3'
-import { s3Env, s3Ready } from './lib/s3env'
+import { s3ClientConfig, s3Env, s3Ready } from './lib/s3env'
 import { lexicalEditor } from '@payloadcms/richtext-lexical'
 import { ru } from '@payloadcms/translations/languages/ru'
 import path from 'path'
@@ -77,11 +77,6 @@ export default buildConfig({
     alwaysInsertFields: true,
     collections: { media: true },
     bucket: s3Env().bucket || 'disabled',
-    config: {
-      endpoint: s3Env().endpoint,
-      region: s3Env().region,
-      forcePathStyle: true,
-      credentials: { accessKeyId: s3Env().accessKeyId, secretAccessKey: s3Env().secretAccessKey },
-    },
+    config: s3ClientConfig(),
   })],
 })
