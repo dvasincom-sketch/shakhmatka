@@ -1,0 +1,5917 @@
+{
+ "1-y-donskoy": {
+  "address": "",
+  "lat": 55.5291,
+  "lng": 37.71448,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "1-y-khimkinskiy": {
+  "address": "",
+  "lat": 55.9506,
+  "lng": 37.4718,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "1-y-krasnokursantskiy-3-5": {
+  "address": "1-й Краснокурсантский проезд, 3/5",
+  "lat": 55.7618,
+  "lng": 37.69642,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "1-y-leningradskiy": {
+  "address": "ш Ленинградское, корпус 3",
+  "lat": 55.93238,
+  "lng": 37.3851,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "1-y-sheremetevskiy": {
+  "address": "",
+  "lat": 55.9436,
+  "lng": 37.3401,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "1-y-truzhenikov-12": {
+  "address": "1-й переулок Тружеников, 12",
+  "lat": 55.73811,
+  "lng": 37.57233,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "1-y-truzhenikov-13": {
+  "address": "1-й переулок Тружеников, 13",
+  "lat": 55.73792,
+  "lng": 37.57432,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "1-y-volokolamskiy-10": {
+  "address": "1-й Волоколамский проезд, 10",
+  "lat": 55.80322,
+  "lng": 37.49096,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "1-y-yuzhnyy": {
+  "address": "",
+  "lat": 55.56783,
+  "lng": 37.6836,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "1-ya-frezernaya-2-1": {
+  "address": "1-я Фрезерная улица, 2/1",
+  "lat": 55.74277,
+  "lng": 37.74227,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "1-ya-karacharovskaya-8": {
+  "address": "1-я Карачаровская улица, 8 с18",
+  "lat": 55.73452,
+  "lng": 37.75707,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "1-ya-yamskogo-polya-17": {
+  "address": "1-я улица Ямского Поля, 17 к9",
+  "lat": 55.78394,
+  "lng": 37.5838,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "2-y-irtyshskiy": {
+  "address": "",
+  "lat": 55.8145,
+  "lng": 37.76587,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "2-y-tushinskiy-12": {
+  "address": "2-й Тушинский проезд, 12",
+  "lat": 55.83513,
+  "lng": 37.41638,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "2-ya-magistralnaya-18": {
+  "address": "2-я Магистральная улица, 18",
+  "lat": 55.76187,
+  "lng": 37.52752,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "2-ya-magistralnaya-7a": {
+  "address": "2-я Магистральная улица, 7А с18",
+  "lat": 55.75937,
+  "lng": 37.52689,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "2-ya-rybinskaya-21": {
+  "address": "2-я Рыбинская улица, 21 с1",
+  "lat": 55.7921,
+  "lng": 37.65089,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "2-ya-zvenigorodskaya-13": {
+  "address": "2-я Звенигородская улица, 13 с43",
+  "lat": 55.7625,
+  "lng": 37.55194,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "26-parkvyu": {
+  "address": "Тимирязевская улица, 26",
+  "lat": 55.8191,
+  "lng": 37.5626,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "3-ya-khoroshevskaya-18-2": {
+  "address": "",
+  "lat": 55.7881,
+  "lng": 37.5029,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "3-ya-krasnogvardeyskaya-1-str-1": {
+  "address": "3-я Красногвардейская улица, 1 с1",
+  "lat": 55.7578,
+  "lng": 37.5413,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "3-ya-mytishchinskaya-16-str-51-52-60-61": {
+  "address": "3-я Мытищинская улица, 16",
+  "lat": 55.80598,
+  "lng": 37.64963,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "40-let-oktyabrya-7": {
+  "address": "проспект 40 лет Октября, 7",
+  "lat": 55.68169,
+  "lng": 37.74554,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "5-ya-magistralnaya-15": {
+  "address": "5-я Магистральная улица, 15",
+  "lat": 55.77488,
+  "lng": 37.52707,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "8-ya-tekstilshchikov-8": {
+  "address": "8-я улица Текстильщиков, 8",
+  "lat": 55.70417,
+  "lng": 37.7406,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "a101-belye-nochi": {
+  "address": "п. Коммунарка, ул Потаповская Роща, д. 20, корпус 1",
+  "lat": 55.55076,
+  "lng": 37.50839,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "a101-buninskie-kvartaly": {
+  "address": "",
+  "lat": 55.53994,
+  "lng": 37.4754,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "a101-desnareche-kvartal-park": {
+  "address": "",
+  "lat": 55.53153,
+  "lng": 37.37383,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "a101-dom-na-zorge": {
+  "address": "",
+  "lat": 55.7917,
+  "lng": 37.5051,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "a101-dzen-kvartaly": {
+  "address": "",
+  "lat": 55.55189,
+  "lng": 37.47621,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "a101-ispanskie-kvartaly": {
+  "address": "г. Николо-Хованское, д. 8, корпус 8.2",
+  "lat": 55.59176,
+  "lng": 37.4538,
+  "precision": "area",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "a101-moskva-a101": {
+  "address": "п. Коммунарка, д. 20, корпус 1,2,3",
+  "lat": 55.5674,
+  "lng": 37.49227,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "a101-skandinaviya": {
+  "address": "п. Коммунарка, Эдварда Грига, д. 16, корпус 2",
+  "lat": 55.56135,
+  "lng": 37.50033,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "admiral": {
+  "address": "Шоссейная улица, 4",
+  "lat": 55.698,
+  "lng": 37.7254,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "afialt": {
+  "address": "Алтуфьевское шоссе (дублёр), 29Б",
+  "lat": 55.85889,
+  "lng": 37.57713,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "akadem-palas": {
+  "address": "проспект Вернадского, 80А",
+  "lat": 55.66725,
+  "lng": 37.48291,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "akademicheskaya": {
+  "address": "Профсоюзная улица, 2/22",
+  "lat": 55.6875,
+  "lng": 37.5724,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "akademika-skryabina-21": {
+  "address": "улица Академика Скрябина, 21",
+  "lat": 55.70372,
+  "lng": 37.79669,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "akademiya-spartaka": {
+  "address": "Малый Олений переулок, 23 с1А",
+  "lat": 55.8037,
+  "lng": 37.6947,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "aktsenty": {
+  "address": "Дубнинская улица, 83",
+  "lat": 55.89348,
+  "lng": 37.55635,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "altufevskoe-53": {
+  "address": "ш Алтуфьевское, д. 55, корпус 5",
+  "lat": 55.87347,
+  "lng": 37.58423,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "altufevskoe-53-24443": {
+  "address": "Алтуфьевское шоссе (дублёр), 53 к1",
+  "lat": 55.87347,
+  "lng": 37.58423,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "amarant": {
+  "address": "3-я Хорошёвская улица, 19 к2",
+  "lat": 55.78475,
+  "lng": 37.49814,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "amurskaya-1": {
+  "address": "Амурская улица, 1/2/2",
+  "lat": 55.80672,
+  "lng": 37.75393,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "amurskiy-park": {
+  "address": "Амурская улица, 2 к1",
+  "lat": 55.80553,
+  "lng": 37.75373,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "andropova-22": {
+  "address": "проспект Андропова, 22",
+  "lat": 55.68302,
+  "lng": 37.66266,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "annabel-s": {
+  "address": "Курсовой переулок, 12/5 с7",
+  "lat": 55.73992,
+  "lng": 37.60475,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "arbatetskaya-2-str-5": {
+  "address": "Арбатецкая улица, 2/5",
+  "lat": 55.7275,
+  "lng": 37.65986,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "arkhitektor": {
+  "address": "улица Волгина Академика, вл. 2",
+  "lat": 55.6564,
+  "lng": 37.5226,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "aurum-taym": {
+  "address": "4-й проезд Подбельского, 3 с22",
+  "lat": 55.81861,
+  "lng": 37.72939,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "aurus-rezidentsii": {
+  "address": "Пресненский район, Проезд 2-й Красногвардейский",
+  "lat": 55.7532,
+  "lng": 37.5341,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "aviamotornaya-55": {
+  "address": "Авиамоторная улица, 55 к12",
+  "lat": 55.7403,
+  "lng": 37.72588,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "aviatika": {
+  "address": "Хорошевское шоссе, д. 0, корпус 0, строение 0",
+  "lat": 55.7775,
+  "lng": 37.541,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "avtozavodskaya-21": {
+  "address": "Автозаводская улица, 21",
+  "lat": 55.7028,
+  "lng": 37.6519,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "avtozavodskaya-23": {
+  "address": "Автозаводская улица, 23",
+  "lat": 55.69061,
+  "lng": 37.63304,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "b-aires": {
+  "address": "Большой Волоколамский проезд, 23",
+  "lat": 55.8066,
+  "lng": 37.491,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "badaevskiy": {
+  "address": "Кутузовский проспект, 12",
+  "lat": 55.74973,
+  "lng": 37.55513,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "balans": {
+  "address": "Рязанский проспект (дублёр), 26 с1",
+  "lat": 55.71908,
+  "lng": 37.768,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "baltiyskaya-8": {
+  "address": "Балтийская улица, 8",
+  "lat": 55.8096,
+  "lng": 37.5151,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "basmannyy-7": {
+  "address": "Басманный переулок, 7",
+  "lat": 55.77108,
+  "lng": 37.65898,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "baumanskaya-53": {
+  "address": "Бауманская улица, 53",
+  "lat": 55.7678,
+  "lng": 37.67999,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "bazovskaya-15": {
+  "address": "Базовская улица, 15 к1",
+  "lat": 55.87704,
+  "lng": 37.50519,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "belgrad": {
+  "address": "Домодедовская улица, 28",
+  "lat": 55.60467,
+  "lng": 37.71235,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "bell": {
+  "address": "1-я улица Ямского Поля, 12 к2",
+  "lat": 55.78051,
+  "lng": 37.58479,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "beregovoy": {
+  "address": "пр-д Береговой, д. 2, корпус 1",
+  "lat": 55.7583,
+  "lng": 37.5082,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "beregovoy-4-6": {
+  "address": "Береговой проезд, 4/6 с4",
+  "lat": 55.75687,
+  "lng": 37.50605,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "bernikovskaya-12-str-1": {
+  "address": "Берниковская набережная, 12 с1",
+  "lat": 55.74882,
+  "lng": 37.65143,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "beside": {
+  "address": "Рязанский проспект, 2 с34",
+  "lat": 55.72602,
+  "lng": 37.73832,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "bestseller": {
+  "address": "",
+  "lat": 55.7357,
+  "lng": 37.7461,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "blik": {
+  "address": "Новоданиловская набережная, 12",
+  "lat": 55.6943,
+  "lng": 37.6247,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "bolshaya-akademicheskaya-85": {
+  "address": "проезд 3-й Нижнелихоборский, корпус 1.3, вл. 1",
+  "lat": 55.8472,
+  "lng": 37.562,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "bolshaya-bronnaya-23-str-1": {
+  "address": "Большая Бронная улица, 23",
+  "lat": 55.76338,
+  "lng": 37.60134,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "bolshaya-cherkizovskaya-32b": {
+  "address": "Большая Черкизовская улица (дублёр), 32Б с7",
+  "lat": 55.79453,
+  "lng": 37.74254,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "bolshaya-nikitskaya-16": {
+  "address": "Большая Никитская улица, 16",
+  "lat": 55.75697,
+  "lng": 37.60444,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "bolshaya-ochakovskaya-2": {
+  "address": "Большая Очаковская улица, 2 к2",
+  "lat": 55.69223,
+  "lng": 37.46663,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "bolshaya-tulskaya-10": {
+  "address": "Большая Тульская улица, 10 с38",
+  "lat": 55.7077,
+  "lng": 37.6187,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "bolshoy-afanasevskiy-7-str-2-3": {
+  "address": "Большой Афанасьевский переулок, 17/7",
+  "lat": 55.74699,
+  "lng": 37.59718,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "bolshoy-kharitonevskiy-13a-s10": {
+  "address": "Большой Харитоньевский переулок, 13А с10",
+  "lat": 55.76544,
+  "lng": 37.64704,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "bolshoy-kozikhinskiy-22-str-1-2": {
+  "address": "Большой Козихинский переулок, 22 с1",
+  "lat": 55.76464,
+  "lng": 37.59522,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "bolshoy-levshinskiy-12": {
+  "address": "Большой Лёвшинский переулок, 12",
+  "lat": 55.7423,
+  "lng": 37.58649,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "bolshoy-nikolovorobinskiy-7-str-2-3-4-17": {
+  "address": "Большой Николоворобинский переулок, 7 с1",
+  "lat": 55.75192,
+  "lng": 37.64922,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "bolshoy-savvinskiy-12": {
+  "address": "Большой Саввинский переулок, 12 с6",
+  "lat": 55.73315,
+  "lng": 37.56363,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "bolshoy-savvinskiy-2-str-7": {
+  "address": "Большой Саввинский переулок, 2 с7",
+  "lat": 55.73625,
+  "lng": 37.57058,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "bolshoy-tolmachevskiy-5": {
+  "address": "Большой Толмачёвский переулок, 5 к1",
+  "lat": 55.7401,
+  "lng": 37.62093,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "borets": {
+  "address": "улица Складочная, корпус 11,12,13,14,15, вл. 6",
+  "lat": 55.80233,
+  "lng": 37.59811,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "borisovskaya-9": {
+  "address": "Борисовская улица, 9",
+  "lat": 55.78794,
+  "lng": 37.73539,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "brateevskaya-39-12": {
+  "address": "Братеевская улица, 39/12",
+  "lat": 55.63802,
+  "lng": 37.77167,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "bts-12": {
+  "address": "шоссе Энтузиастов, 12",
+  "lat": 55.74877,
+  "lng": 37.70563,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "budayskaya-3": {
+  "address": "Будайская улица, 3",
+  "lat": 55.83212,
+  "lng": 37.66525,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "buninskaya-naberezhnaya": {
+  "address": "п. Коммунарка, район пос. Сосенское, ул Александры Монаховой, д. 87, корпус 2",
+  "lat": 55.547,
+  "lng": 37.48508,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "businovskiy-park": {
+  "address": "Ижорская улица, 6 к6",
+  "lat": 55.88152,
+  "lng": 37.50309,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "butlerova-12": {
+  "address": "улица Бутлерова, 12",
+  "lat": 55.65183,
+  "lng": 37.52811,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "byvshiy-torgovyy-dom-amo-zil": {
+  "address": "1-й Автозаводский проезд, 3",
+  "lat": 55.70522,
+  "lng": 37.65701,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "chalet": {
+  "address": "Пятницкая улица, 40 с1",
+  "lat": 55.73829,
+  "lng": 37.62794,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "champine": {
+  "address": "Сосинская улица, 43",
+  "lat": 55.7268,
+  "lng": 37.6784,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "chaplygina-20-str-3-5-6-8": {
+  "address": "улица Чаплыгина, 20 с5",
+  "lat": 55.76126,
+  "lng": 37.64889,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "chasovaya-6": {
+  "address": "Часовая улица, 6 к2",
+  "lat": 55.80776,
+  "lng": 37.53486,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "cherry-city": {
+  "address": "Большая Черёмушкинская улица, 25",
+  "lat": 55.67544,
+  "lng": 37.58898,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "chistye-prudy": {
+  "address": "Потаповский переулок, 5 с2",
+  "lat": 55.7613,
+  "lng": 37.641,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "city-bay": {
+  "address": "Волоколамское шоссе (дублёр), 95/2",
+  "lat": 55.8305,
+  "lng": 37.4034,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "clementine": {
+  "address": "улица Корнейчука, 27",
+  "lat": 55.8986,
+  "lng": 37.6259,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "cult": {
+  "address": "",
+  "lat": 55.7295,
+  "lng": 37.6113,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "d8": {
+  "address": "Даниловская набережная, 8",
+  "lat": 55.70978,
+  "lng": 37.63702,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "dacha-stroganovykh": {
+  "address": "Волочаевская улица, 38",
+  "lat": 55.75329,
+  "lng": 37.67491,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "dacha-tolbukhina": {
+  "address": "улица Толбухина, 3",
+  "lat": 55.71782,
+  "lng": 37.40096,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "danilovskiy-ot-granel": {
+  "address": "Автозаводская улица, 22",
+  "lat": 55.7055,
+  "lng": 37.6353,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "demidov-26": {
+  "address": "Новая Басманная улица, 26 к5",
+  "lat": 55.7684,
+  "lng": 37.6662,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "din-haus": {
+  "address": "ул Нижняя Масловка, д. 10, строение Б",
+  "lat": 55.7932,
+  "lng": 37.5785,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "district-39": {
+  "address": "Рязанский проспект, 39А",
+  "lat": 55.72801,
+  "lng": 37.7559,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "dius": {
+  "address": "улица Академика Ильюшина, 21 с5",
+  "lat": 55.8078,
+  "lng": 37.5472,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "dk-metrostroya": {
+  "address": "Костомаровский переулок, 3 с1",
+  "lat": 55.75154,
+  "lng": 37.66547,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "dm-tower": {
+  "address": "",
+  "lat": 55.6975,
+  "lng": 37.6246,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "dmitriya-donskogo-17": {
+  "address": "бульвар Дмитрия Донского, 17",
+  "lat": 55.56379,
+  "lng": 37.57384,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "dmitrovskoe-62": {
+  "address": "Дмитровское шоссе, 62",
+  "lat": 55.85395,
+  "lng": 37.56541,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "dmitrovskoe-nebo": {
+  "address": "Ильменский проезд, 1/20",
+  "lat": 55.85953,
+  "lng": 37.55077,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "dobrolyubova-3": {
+  "address": "проезд Добролюбова, 3 с2",
+  "lat": 55.80953,
+  "lng": 37.59158,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "dokukina-10": {
+  "address": "улица Докукина, 10 с5",
+  "lat": 55.84082,
+  "lng": 37.65342,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "dolgorukovskaya-25": {
+  "address": "Долгоруковская улица, 25",
+  "lat": 55.7764,
+  "lng": 37.6016,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "dom-56": {
+  "address": "",
+  "lat": 55.7771,
+  "lng": 37.6926,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "dom-7-danilovskiy": {
+  "address": "",
+  "lat": 55.7103,
+  "lng": 37.6153,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "dom-belyy": {
+  "address": "Нижний Кисловский переулок, 7 с1",
+  "lat": 55.75377,
+  "lng": 37.60386,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "dom-dau": {
+  "address": "",
+  "lat": 55.7524,
+  "lng": 37.5436,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "dom-franka": {
+  "address": "Большой Кисельный переулок, 11 с1",
+  "lat": 55.76515,
+  "lng": 37.62735,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "dom-gorizontov": {
+  "address": "Крылатская улица, 23 к2",
+  "lat": 55.7713,
+  "lng": 37.4144,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "dom-kino": {
+  "address": "Васильевская улица, 13 с1",
+  "lat": 55.77172,
+  "lng": 37.5875,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "dom-korfa": {
+  "address": "Госпитальный переулок, 4А с3",
+  "lat": 55.76965,
+  "lng": 37.68719,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "dom-kuptsa-buloshnikova": {
+  "address": "Большая Никитская улица, 17",
+  "lat": 55.75682,
+  "lng": 37.60254,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "dom-na-dzhalilya": {
+  "address": "улица Мусы Джалиля, 6 к2",
+  "lat": 55.628,
+  "lng": 37.7409,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "dom-perovskikh": {
+  "address": "Новая Басманная улица, 27 с2",
+  "lat": 55.76991,
+  "lng": 37.66435,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "dom-soboleva": {
+  "address": "улица Машкова, 18",
+  "lat": 55.7637,
+  "lng": 37.6517,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "dom-sporta": {
+  "address": "",
+  "lat": 55.758,
+  "lng": 37.5773,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "dom-xxii": {
+  "address": "Погодинская улица, 22",
+  "lat": 55.7295,
+  "lng": 37.5593,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "dosflota-10": {
+  "address": "проезд Досфлота, 10 с10",
+  "lat": 55.84565,
+  "lng": 37.45821,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "dostizhenie": {
+  "address": "",
+  "lat": 55.8201,
+  "lng": 37.6025,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "dovzhenko-12": {
+  "address": "улица Довженко, 12",
+  "lat": 55.7203,
+  "lng": 37.51071,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "dream-towers": {
+  "address": "проспект Андропова, 9/1 к3",
+  "lat": 55.6909,
+  "lng": 37.6672,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "dubininskaya-17-27-29": {
+  "address": "Дубининская улица, 17",
+  "lat": 55.72595,
+  "lng": 37.63885,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "dubininskaya-33b": {
+  "address": "Дубининская улица, 33Б",
+  "lat": 55.72439,
+  "lng": 37.64043,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "dubininskaya-39-41": {
+  "address": "Дубининская улица, 39 с1",
+  "lat": 55.72429,
+  "lng": 37.63703,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "dubininskaya-55": {
+  "address": "Дубининская улица, 55",
+  "lat": 55.72145,
+  "lng": 37.63577,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "dubninskaya-79": {
+  "address": "Дубнинская улица, 79",
+  "lat": 55.88859,
+  "lng": 37.55647,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "edel": {
+  "address": "17-й проезд Марьиной Рощи, 9",
+  "lat": 55.80859,
+  "lng": 37.6089,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "ekotauer": {
+  "address": "Крылатская улица, 33 к3",
+  "lat": 55.7698,
+  "lng": 37.40748,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "elektrolitnyy-1-k-5": {
+  "address": "Электролитный проезд, 1",
+  "lat": 55.6739,
+  "lng": 37.62017,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "elektrolitnyy-10": {
+  "address": "Электролитный проезд, 10",
+  "lat": 55.6723,
+  "lng": 37.61429,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "elektrolitnyy-7a": {
+  "address": "Электролитный проезд, 7А",
+  "lat": 55.67502,
+  "lng": 37.61297,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "elektronika-na-presne": {
+  "address": "Большая Декабрьская улица, 3 с1",
+  "lat": 55.76503,
+  "lng": 37.55766,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "enigmiya": {
+  "address": "Новослободская улица, 14/19 с7",
+  "lat": 55.7806,
+  "lng": 37.5986,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "eniseyskaya-2a": {
+  "address": "Енисейская улица, 2А с1",
+  "lat": 55.85585,
+  "lng": 37.66451,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "eon": {
+  "address": "Варшавское шоссе, 36",
+  "lat": 55.67916,
+  "lng": 37.62393,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "era": {
+  "address": "Дербеневская улица, 20 с19",
+  "lat": 55.72082,
+  "lng": 37.64676,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "ermakova-roshcha-7as1": {
+  "address": "улица Ермакова Роща, 7А с1",
+  "lat": 55.75895,
+  "lng": 37.53049,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "ever": {
+  "address": "улица Обручева, 23",
+  "lat": 55.659,
+  "lng": 37.5312,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "fabrichnaya-6": {
+  "address": "Фабричная улица, 6",
+  "lat": 55.85347,
+  "lng": 37.39055,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "fantastic-house": {
+  "address": "улица Грузинская М., д. 44/30, строение 1",
+  "lat": 55.7692,
+  "lng": 37.573,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "festivalnaya-4a": {
+  "address": "Фестивальная улица, 4А с1",
+  "lat": 55.85536,
+  "lng": 37.48475,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "filatov-lug": {
+  "address": "",
+  "lat": 55.61355,
+  "lng": 37.38697,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "fili-siti": {
+  "address": "проезд Багратионовский, корпус 1,2, вл. 5",
+  "lat": 55.74297,
+  "lng": 37.50957,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "filit": {
+  "address": "улица Барклая (дублёр), 6",
+  "lat": 55.74077,
+  "lng": 37.50412,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "foriver": {
+  "address": "",
+  "lat": 55.7163,
+  "lng": 37.6506,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "forst": {
+  "address": "",
+  "lat": 55.7063,
+  "lng": 37.632,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "friday-villas": {
+  "address": "Пятницкая улица, 37",
+  "lat": 55.73872,
+  "lng": 37.62853,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "frunzenskaya-30": {
+  "address": "Фрунзенская набережная, 30 с5",
+  "lat": 55.7251,
+  "lng": 37.5839,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "fsk-dvizhenie-govorovo": {
+  "address": "",
+  "lat": 55.64865,
+  "lng": 37.4391,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "fsk-pokolenie": {
+  "address": "проезд Сигнальный, д. 5, корпус 3",
+  "lat": 55.8502,
+  "lng": 37.5781,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "fsk-rezhisser": {
+  "address": "ул Вильгельма Пика, строение 1-8, вл. 3",
+  "lat": 55.8347,
+  "lng": 37.6389,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "gala": {
+  "address": "проспект Вернадского (дублёр), 8А",
+  "lat": 55.68976,
+  "lng": 37.52714,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "gate-one": {
+  "address": "проспект 60-летия Октября, 5А",
+  "lat": 55.70401,
+  "lng": 37.58081,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "gavrikova-11": {
+  "address": "Гаврикова улица, 11 с6",
+  "lat": 55.78038,
+  "lng": 37.67451,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "geliymash": {
+  "address": "Автозаводская улица, 25",
+  "lat": 55.70259,
+  "lng": 37.63062,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "gerasima-kurina-10-str-1-str-2": {
+  "address": "улица Герасима Курина, 10",
+  "lat": 55.73291,
+  "lng": 37.48109,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "gintsvetmet": {
+  "address": "улица Академика Королёва, 13",
+  "lat": 55.82094,
+  "lng": 37.61908,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "golubinskaya-22": {
+  "address": "Голубинская улица, 22 с23",
+  "lat": 55.59716,
+  "lng": 37.53164,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "gostinichnyy-kompleks-berlin": {
+  "address": "Малая Юшуньская улица, 1 к1",
+  "lat": 55.65318,
+  "lng": 37.59446,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "grand-fili": {
+  "address": "",
+  "lat": 55.7546,
+  "lng": 37.5152,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "grodnenskaya-3": {
+  "address": "Гродненская улица, 3",
+  "lat": 55.71952,
+  "lng": 37.43607,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "hide": {
+  "address": "проезд 1-й Сетуньский, д. 6-10, вл. 6-10",
+  "lat": 55.7331,
+  "lng": 37.5395,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "high-life": {
+  "address": "Летниковская улица, 11 к1",
+  "lat": 55.72535,
+  "lng": 37.6454,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "holland-park": {
+  "address": "",
+  "lat": 55.81538,
+  "lng": 37.42682,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "homecity": {
+  "address": "шоссе Киевское, 22-й километр, д. 6В, корпус 1",
+  "lat": 55.63784,
+  "lng": 37.42786,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "ice-tower": {
+  "address": "улица Лобачевского, 3",
+  "lat": 55.66419,
+  "lng": 37.50681,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "icity": {
+  "address": "Шелепихинский тупик, 17/1",
+  "lat": 55.75331,
+  "lng": 37.52972,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "ilinskie-luga": {
+  "address": "",
+  "lat": 55.7703,
+  "lng": 37.22883,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "ilmenskiy-17": {
+  "address": "Ильменский проезд, 17 к2",
+  "lat": 55.86094,
+  "lng": 37.54056,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "imperium": {
+  "address": "2-й Обыденский переулок, 6/3 с1",
+  "lat": 55.7417,
+  "lng": 37.6039,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "injoy": {
+  "address": "улица Адмирала Макарова, 2",
+  "lat": 55.82693,
+  "lng": 37.49701,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "innovator": {
+  "address": "",
+  "lat": 55.6881,
+  "lng": 37.4843,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "insayder": {
+  "address": "Автозаводская улица, 24",
+  "lat": 55.7063,
+  "lng": 37.6353,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "institut-stekla": {
+  "address": "Душинская улица, 7 с1",
+  "lat": 55.74492,
+  "lng": 37.70651,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "intonatsiya": {
+  "address": "ул Щукинская, вл. Земельный участок 7А",
+  "lat": 55.8084,
+  "lng": 37.4807,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "irtyshskiy-park": {
+  "address": "",
+  "lat": 55.8145,
+  "lng": 37.76587,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "ivakino": {
+  "address": "",
+  "lat": 55.95435,
+  "lng": 37.4724,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "ivovaya-8": {
+  "address": "Ивовая улица, 8",
+  "lat": 55.86031,
+  "lng": 37.64656,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "izmaylovskiy-les": {
+  "address": "",
+  "lat": 55.7844,
+  "lng": 37.8529,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "jois": {
+  "address": "3-й Силикатный проезд, 10 с26",
+  "lat": 55.7717,
+  "lng": 37.50588,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "k31": {
+  "address": "улица Кржижановского, 31",
+  "lat": 55.6735,
+  "lng": 37.5814,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "k7-11": {
+  "address": "улица Климашкина, 7/11",
+  "lat": 55.76727,
+  "lng": 37.57455,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "kaloshin-6": {
+  "address": "Калошин переулок, 6 с1",
+  "lat": 55.7484,
+  "lng": 37.59248,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "kami": {
+  "address": "Пыжёвский переулок, 5 с3",
+  "lat": 55.73871,
+  "lng": 37.62285,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "kampus-mgsu": {
+  "address": "Ярославское шоссе (дублёр), 26",
+  "lat": 55.85607,
+  "lng": 37.69548,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "kasatkina-11": {
+  "address": "улица Касаткина, 11",
+  "lat": 55.82448,
+  "lng": 37.66158,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "kashirskoe-14": {
+  "address": "Каширское шоссе, 14",
+  "lat": 55.66445,
+  "lng": 37.62727,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "kashirskoe-34": {
+  "address": "Каширское шоссе, 34",
+  "lat": 55.64952,
+  "lng": 37.65372,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "kashirskoe-61-korp-4-str-1-9": {
+  "address": "Каширское шоссе, 61 к3А",
+  "lat": 55.61635,
+  "lng": 37.71633,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "kashirskoe-78": {
+  "address": "Каширское шоссе, 78 к1",
+  "lat": 55.64138,
+  "lng": 37.68189,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "kavkazskiy-bulvar-26": {
+  "address": "Кавказский бульвар, 26",
+  "lat": 55.62927,
+  "lng": 37.6596,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "kazakov-grand-loft": {
+  "address": "улица Казакова, 7",
+  "lat": 55.7638,
+  "lng": 37.6599,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "kepler-house": {
+  "address": "Большой Саввинский переулок, 9 с1",
+  "lat": 55.73532,
+  "lng": 37.56931,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "khamovniki-xii": {
+  "address": "",
+  "lat": 55.7377,
+  "lng": 37.5729,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "kharkovskiy-1-9": {
+  "address": "Харьковский проезд, 1/1 к1",
+  "lat": 55.59642,
+  "lng": 37.64944,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "khersonskaya-35": {
+  "address": "Херсонская улица, 35",
+  "lat": 55.65284,
+  "lng": 37.55773,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "khibinskiy-3": {
+  "address": "Хибинский проезд, 3",
+  "lat": 55.86178,
+  "lng": 37.68617,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "khokhlovskiy-13-str-2": {
+  "address": "Хохловский переулок, 13",
+  "lat": 55.75712,
+  "lng": 37.64436,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "khomutovskiy-10-str-1": {
+  "address": "Хомутовский тупик, 10 сА1",
+  "lat": 55.76678,
+  "lng": 37.65635,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "khoroshevskoe-39": {
+  "address": "Хорошёвское шоссе, 39 к2",
+  "lat": 55.77735,
+  "lng": 37.51296,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "king-sons": {
+  "address": "Мосфильмовская улица, 31а",
+  "lat": 55.7117,
+  "lng": 37.5131,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "kinoteatr-pravda": {
+  "address": "Люсиновская улица, 57",
+  "lat": 55.71641,
+  "lng": 37.6233,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "kirpichnaya-41": {
+  "address": "Кирпичная улица, 41",
+  "lat": 55.77909,
+  "lng": 37.73696,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "knightsbridge-private-park": {
+  "address": "улица Ефремова, 19 к4",
+  "lat": 55.72187,
+  "lng": 37.56887,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "kobzon-city": {
+  "address": "Бауманская улица, 11 с8",
+  "lat": 55.7766,
+  "lng": 37.67793,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "kod-sokolniki": {
+  "address": "",
+  "lat": 55.7883,
+  "lng": 37.6683,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "kolskaya-8": {
+  "address": "Кольская улица, 8",
+  "lat": 55.86055,
+  "lng": 37.6489,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "kombinat-gazety-pravda": {
+  "address": "улица Правды, 24",
+  "lat": 55.788,
+  "lng": 37.5836,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "kombinat-pitaniya-kosmos": {
+  "address": "Новозаводская улица, 12/11",
+  "lat": 55.75366,
+  "lng": 37.50369,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "kompleks-obshchezhitiy-krasnoy-professury": {
+  "address": "Большая Пироговская улица, 51",
+  "lat": 55.72762,
+  "lng": 37.56286,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "komsomolskiy-1": {
+  "address": "Комсомольский проспект (дублёр), 1",
+  "lat": 55.73356,
+  "lng": 37.59394,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "korovinskoe-46": {
+  "address": "Коровинское шоссе, 46",
+  "lat": 55.88849,
+  "lng": 37.51569,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "kosmonavta-volkova-2-4": {
+  "address": "улица Космонавта Волкова, 9/2",
+  "lat": 55.81657,
+  "lng": 37.51119,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "kotlyakovskaya-4": {
+  "address": "Котляковская улица, 4",
+  "lat": 55.64177,
+  "lng": 37.63469,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "kozhevnicheskie-bani": {
+  "address": "Кожевническая улица, 15 с1",
+  "lat": 55.72913,
+  "lng": 37.64881,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "krasnaya-presnya": {
+  "address": "2-й Хорошёвский проезд, 7 с17",
+  "lat": 55.772,
+  "lng": 37.52835,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "krasnobogatyrskaya-89": {
+  "address": "Краснобогатырская улица, 89 с1",
+  "lat": 55.80077,
+  "lng": 37.71383,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "krasnokazarmennaya-15": {
+  "address": "Красноказарменная улица, 15 к2",
+  "lat": 55.7563,
+  "lng": 37.7058,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "krasnolimanskaya-19a": {
+  "address": "Краснолиманская улица, 19А",
+  "lat": 55.54576,
+  "lng": 37.56917,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "krasnyy-bogatyr": {
+  "address": "Краснобогатырская улица, 2 с1",
+  "lat": 55.81465,
+  "lng": 37.69371,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "krasnyy-bogatyr-vitebskaya-9": {
+  "address": "Витебская улица, 9",
+  "lat": 55.71069,
+  "lng": 37.41192,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "krasnyy-oktyabr": {
+  "address": "Берсеневская набережная, 6 с3",
+  "lat": 55.7409,
+  "lng": 37.6113,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "kremenchugskaya-19": {
+  "address": "Кременчугская улица, 19",
+  "lat": 55.71565,
+  "lng": 37.46327,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "kremenchugskaya-42": {
+  "address": "Кременчугская улица, 42 к2",
+  "lat": 55.71363,
+  "lng": 37.45848,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "kristall": {
+  "address": "Самокатная улица, 4 с1",
+  "lat": 55.75601,
+  "lng": 37.67731,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "krivokolennyy-12": {
+  "address": "Кривоколенный переулок, 12 с2",
+  "lat": 55.76193,
+  "lng": 37.63727,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "kronshtadtskiy-9": {
+  "address": "Кронштадтский бульвар, 9 к6",
+  "lat": 55.84191,
+  "lng": 37.48931,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "krt-avtomotornaya": {
+  "address": "улица Войкова, 6 с22",
+  "lat": 55.85717,
+  "lng": 37.5226,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "krt-kaloshino": {
+  "address": "Черницынский проезд, 7 с21",
+  "lat": 55.81962,
+  "lng": 37.7864,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "krt-kurskaya": {
+  "address": "Верхняя Сыромятническая улица, 7 с2",
+  "lat": 55.75485,
+  "lng": 37.66186,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "krt-ogorodnyy-proezd-proekt-2": {
+  "address": "Складочная улица, 1 с1",
+  "lat": 55.8011,
+  "lng": 37.59461,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "krt-vykhino": {
+  "address": "Ферганская улица, 8",
+  "lat": 55.70934,
+  "lng": 37.80467,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "krt-yuzhnyy-port-territoriya-4": {
+  "address": "Остаповский проезд, 6 с1",
+  "lat": 55.71759,
+  "lng": 37.71191,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "krylatskaya-2": {
+  "address": "Крылатская улица, 2",
+  "lat": 55.75519,
+  "lng": 37.43568,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "kulneva-6": {
+  "address": "улица Кульнева, 6",
+  "lat": 55.74333,
+  "lng": 37.52651,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "kurkinskoe-15": {
+  "address": "Куркинское шоссе, 15",
+  "lat": 55.88423,
+  "lng": 37.40412,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "kurkinskoe-27-39": {
+  "address": "Куркинское шоссе, 27",
+  "lat": 55.88563,
+  "lng": 37.3848,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "kuskovskaya-12": {
+  "address": "Кусковская улица, 12/1",
+  "lat": 55.73772,
+  "lng": 37.77496,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "kutuzovskiy-12-14a": {
+  "address": "Кутузовский проспект, 12",
+  "lat": 55.74889,
+  "lng": 37.55715,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "kutuzovskiy-29": {
+  "address": "Кутузовский проспект, 29",
+  "lat": 55.74302,
+  "lng": 37.54403,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "kvartal-gertsena": {
+  "address": "",
+  "lat": 55.58425,
+  "lng": 37.70445,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "kvartal-mit": {
+  "address": "",
+  "lat": 55.86325,
+  "lng": 37.37447,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "kvartal-serebryanyy-bor": {
+  "address": "",
+  "lat": 55.7907,
+  "lng": 37.461,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "kvartal-zapadnyy": {
+  "address": "",
+  "lat": 55.58353,
+  "lng": 37.14493,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "l-club": {
+  "address": "ул. Совхозная, д. 10 Б",
+  "lat": 55.6747,
+  "lng": 37.7627,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "l67": {
+  "address": "Ленинградское шоссе, 65 с5",
+  "lat": 55.86658,
+  "lng": 37.45738,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "lavrushinskiy": {
+  "address": "пер Большой Толмачёвский, корпус 5; 5.1, строение 6;8, вл. 5",
+  "lat": 55.7401,
+  "lng": 37.62093,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "layf-varshavskaya": {
+  "address": "2-й Котляковский переулок, 3",
+  "lat": 55.6483,
+  "lng": 37.6324,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "le-dome": {
+  "address": "Соймоновский проезд, 3",
+  "lat": 55.74266,
+  "lng": 37.60473,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "leningradskiy-36": {
+  "address": "Ленинградский проспект (дублёр), 36",
+  "lat": 55.79129,
+  "lng": 37.55864,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "leningradskiy-80": {
+  "address": "Ленинградский проспект (дублёр), 80",
+  "lat": 55.80977,
+  "lng": 37.5125,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "leningradskoe-63a-3": {
+  "address": "",
+  "lat": 55.8635,
+  "lng": 37.46,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "leninskiy-82-2-2": {
+  "address": "Ленинский проспект (дублёр), 82/2",
+  "lat": 55.68142,
+  "lng": 37.5344,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "lesoparkovyy": {
+  "address": "Шоссе Варшавское, корпус 3, вл. 170Е",
+  "lat": 55.5831,
+  "lng": 37.58126,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "lesteva-14-20": {
+  "address": "улица Лестева, 14/20",
+  "lat": 55.71497,
+  "lng": 37.61323,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "letchika-babushkina-30-str-1": {
+  "address": "улица Лётчика Бабушкина, 30 с1",
+  "lat": 55.87018,
+  "lng": 37.67671,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "letnaya-71": {
+  "address": "Лётная улица, 71 с2",
+  "lat": 55.82424,
+  "lng": 37.42158,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "level-baumanskaya": {
+  "address": "Большая Почтовая улица, 18",
+  "lat": 55.7767,
+  "lng": 37.69545,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "level-donskoy": {
+  "address": "проезд 4-й Верхний Михайловский, вл. Вл. 1; вл. 1, стр. 2, 3, 4, 5, 6, 7, 8, 11",
+  "lat": 55.7077,
+  "lng": 37.6066,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "level-group-level-paveletskaya-siti": {
+  "address": "",
+  "lat": 55.7145,
+  "lng": 37.6348,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "level-group-level-voykovskaya": {
+  "address": "",
+  "lat": 55.8274,
+  "lng": 37.5027,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "level-michurinskiy": {
+  "address": "Озёрная улица, 7",
+  "lat": 55.68745,
+  "lng": 37.47021,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "level-nagatinskaya": {
+  "address": "набережная Нагатинская, вл. 10А, блок-секция Подземный паркинг",
+  "lat": 55.6824,
+  "lng": 37.6377,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "level-paveletskaya": {
+  "address": "Жуков проезд, 21Б",
+  "lat": 55.72263,
+  "lng": 37.646,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "level-seligerskaya": {
+  "address": "",
+  "lat": 55.85975,
+  "lng": 37.5455,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "level-streshnevo": {
+  "address": "Волоколамское шоссе, 81/2 с6",
+  "lat": 55.82593,
+  "lng": 37.41313,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "level-yuzhnoportovaya": {
+  "address": "Южнопортовая улица, 6/28",
+  "lat": 55.7055,
+  "lng": 37.69634,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "level-zvenigorodskaya": {
+  "address": "3-й Силикатный проезд, 6 к1 с1",
+  "lat": 55.7688,
+  "lng": 37.5008,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "life-varshavskaya": {
+  "address": "",
+  "lat": 55.6483,
+  "lng": 37.6324,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "light-city": {
+  "address": "2-я Магистральная улица, 1/3 с1",
+  "lat": 55.76428,
+  "lng": 37.53355,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "literaturnyy-kvartal": {
+  "address": "",
+  "lat": 55.6266,
+  "lng": 37.3166,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "lodochnaya-27-k-2": {
+  "address": "Лодочная улица, 27 с1",
+  "lat": 55.83692,
+  "lng": 37.46239,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "lomonosovskiy-prospekt-23a": {
+  "address": "Ломоносовский проспект, 23А",
+  "lat": 55.6921,
+  "lng": 37.53584,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "loran": {
+  "address": "",
+  "lat": 55.7226,
+  "lng": 37.6047,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "losinoostrovskiy-park": {
+  "address": "ш Открытое, вл. 18/1",
+  "lat": 55.8167,
+  "lng": 37.74581,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "luce": {
+  "address": "Крестовоздвиженский переулок, 4",
+  "lat": 55.75162,
+  "lng": 37.60552,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "luchi": {
+  "address": "",
+  "lat": 55.642,
+  "lng": 37.3775,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "lunar": {
+  "address": "Ленинский проспект (дублёр), 38",
+  "lat": 55.70387,
+  "lng": 37.57173,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "luzhnetskaya-10a": {
+  "address": "Лужнецкая набережная, 10А",
+  "lat": 55.71542,
+  "lng": 37.56527,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "luzhniki-24": {
+  "address": "улица Лужники, 24 с1",
+  "lat": 55.71573,
+  "lng": 37.55538,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "luzhniki-collection": {
+  "address": "Лужнецкая набережная, 2/4 с4",
+  "lat": 55.71485,
+  "lng": 37.57265,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "lva-tolstogo-14-16": {
+  "address": "улица Льва Толстого, 14",
+  "lat": 55.73288,
+  "lng": 37.58873,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "lyalin-18-str-1": {
+  "address": "Лялин переулок, 18 с1",
+  "lat": 55.75817,
+  "lng": 37.65237,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "lyublinskiy-park": {
+  "address": "ул Люблинская, д. 76А",
+  "lat": 55.66519,
+  "lng": 37.73331,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "m54": {
+  "address": "Молодогвардейская улица, 54",
+  "lat": 55.7366,
+  "lng": 37.39909,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "magnum-solo": {
+  "address": "улица Александра Солженицына, 23Б",
+  "lat": 55.74465,
+  "lng": 37.6639,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "malaya-nikitskaya-27": {
+  "address": "Малая Никитская улица, 27 с1",
+  "lat": 55.75881,
+  "lng": 37.58783,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "malaya-nikitskaya-29": {
+  "address": "Малая Никитская улица, 29",
+  "lat": 55.75898,
+  "lng": 37.58732,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "malaya-tulskaya-2": {
+  "address": "Малая Тульская улица, 2/1 к4",
+  "lat": 55.71073,
+  "lng": 37.61907,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "malaya-tulskaya-2-1-korp-9": {
+  "address": "Малая Тульская улица, 2/1 к2",
+  "lat": 55.71021,
+  "lng": 37.61798,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "malenkovskaya-30": {
+  "address": "Маленковская улица, 30",
+  "lat": 55.78706,
+  "lng": 37.67493,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "malomoskovskaya-22": {
+  "address": "Маломосковская улица, 22 с1",
+  "lat": 55.81152,
+  "lng": 37.65269,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "malyy-levshinskiy-7": {
+  "address": "Малый Лёвшинский переулок, 7 с1",
+  "lat": 55.74194,
+  "lng": 37.58897,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mangazeya-na-rechnom": {
+  "address": "",
+  "lat": 55.86055,
+  "lng": 37.46235,
+  "precision": "area",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "mangazeya-v-bogorodskom": {
+  "address": "Открытое шоссе, 9 с14А",
+  "lat": 55.8156,
+  "lng": 37.7365,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "mantulinskaya-5": {
+  "address": "Мантулинская улица, 5",
+  "lat": 55.75318,
+  "lng": 37.55387,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "marilnn-park": {
+  "address": "Октябрьская улица, 103",
+  "lat": 55.79888,
+  "lng": 37.61224,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mashkinskoe-32": {
+  "address": "Машкинское шоссе, 32",
+  "lat": 55.91141,
+  "lng": 37.38196,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "masters": {
+  "address": "улица Викторенко, 16 с1",
+  "lat": 55.79527,
+  "lng": 37.52304,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "matveevskiy-park": {
+  "address": "",
+  "lat": 55.69369,
+  "lng": 37.46097,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "mayprioriti-paveletskaya": {
+  "address": "Дубининская улица, 17А",
+  "lat": 55.72658,
+  "lng": 37.63899,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "meshcherskiy-les": {
+  "address": "ш Боровское, вл. 2-1",
+  "lat": 55.664,
+  "lng": 37.42605,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "meteor": {
+  "address": "улица Генерала Ермолова, 1",
+  "lat": 55.73897,
+  "lng": 37.51259,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mfk-na-1-oy-ulitse-yamskogo-polya-vl-30": {
+  "address": "1-я улица Ямского Поля, 30",
+  "lat": 55.78482,
+  "lng": 37.58589,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "michurinskiy-54-korp-3": {
+  "address": "Мичуринский проспект, 54 к1",
+  "lat": 55.69351,
+  "lng": 37.48961,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "michurinskiy-park": {
+  "address": "Озёрная улица, 42",
+  "lat": 55.66989,
+  "lng": 37.4398,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "mig": {
+  "address": "1-й Боткинский проезд, 7 с3",
+  "lat": 55.787,
+  "lng": 37.5523,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "mikhalkovskaya-48": {
+  "address": "Михалковская улица, 48 к1",
+  "lat": 55.83974,
+  "lng": 37.51526,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "mikhalkovskaya-50": {
+  "address": "Михалковская улица, 50",
+  "lat": 55.83885,
+  "lng": 37.51215,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mikhalkovskiy": {
+  "address": "ул Михалковская, вл. 48",
+  "lat": 55.83974,
+  "lng": 37.51526,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "miklukho-maklaya-23": {
+  "address": "улица Миклухо-Маклая, 23",
+  "lat": 55.64985,
+  "lng": 37.51271,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mikoyan": {
+  "address": "улица Талалихина, 41 с13",
+  "lat": 55.72768,
+  "lng": 37.68465,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "milashenkova-2": {
+  "address": "улица Милашенкова, 2",
+  "lat": 55.82226,
+  "lng": 37.59099,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "milyutinskiy-18": {
+  "address": "Милютинский переулок, 18А",
+  "lat": 55.76466,
+  "lng": 37.63302,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "milyutinskiy-5": {
+  "address": "Милютинский переулок, 5",
+  "lat": 55.76192,
+  "lng": 37.63123,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mind": {
+  "address": "улица Серёгина, 5 к1",
+  "lat": 55.79547,
+  "lng": 37.54808,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mira": {
+  "address": "проспект Мира (дублёр), 186А с5",
+  "lat": 55.8284,
+  "lng": 37.652,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "mirrorzdanie": {
+  "address": "Октябрьская улица, 98",
+  "lat": 55.7996,
+  "lng": 37.61403,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mishina-56": {
+  "address": "Мишина улица, 56",
+  "lat": 55.7989,
+  "lng": 37.56046,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mitinskiy-les": {
+  "address": "вблизи с. Рождествено, корпус 10.1",
+  "lat": 55.86133,
+  "lng": 37.37349,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "mk-3-ya-pryadilnaya-vl-4": {
+  "address": "3-я Прядильная улица, 4 к1",
+  "lat": 55.79813,
+  "lng": 37.77159,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-6-ya-radialnaya-7-1-k1": {
+  "address": "6-я Радиальная улица, 7/1 к2",
+  "lat": 55.60377,
+  "lng": 37.65102,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-6-ya-radialnaya-7-1-k2": {
+  "address": "6-я Радиальная улица, 7/1 к2",
+  "lat": 55.60377,
+  "lng": 37.65102,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-9-ya-parkovaya-68": {
+  "address": "9-я Парковая улица, 68",
+  "lat": 55.80792,
+  "lng": 37.8015,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-akademika-skryabina-40": {
+  "address": "улица Академика Скрябина, 40",
+  "lat": 55.69767,
+  "lng": 37.79079,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-altufevskoe-sh-53-k1-2": {
+  "address": "Алтуфьевское шоссе (дублёр), 53 к1",
+  "lat": 55.87126,
+  "lng": 37.58278,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-aminevskoe-sh-4d-k1": {
+  "address": "Аминьевское шоссе, 4Д к3",
+  "lat": 55.69911,
+  "lng": 37.46837,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-angarskaya-33a": {
+  "address": "Ангарская улица, 33А",
+  "lat": 55.87862,
+  "lng": 37.52127,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-arkhitektora-vlasova-2": {
+  "address": "улица Архитектора Власова, 2",
+  "lat": 55.68193,
+  "lng": 37.55333,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-balaklavskiy-pr-kt-17": {
+  "address": "Балаклавский проспект, 17",
+  "lat": 55.64105,
+  "lng": 37.58824,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-bazovskaya-24b": {
+  "address": "Базовская улица, 24Б",
+  "lat": 55.87992,
+  "lng": 37.51645,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-begicheva-2": {
+  "address": "улица Бегичева, 2",
+  "lat": 55.87558,
+  "lng": 37.57543,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-beregovoy-pr-d-1a-1b": {
+  "address": "Береговой проезд, 1А",
+  "lat": 55.75706,
+  "lng": 37.51167,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-beskudnikovskiy-b-r-50-1": {
+  "address": "Бескудниковский бульвар, 50/1",
+  "lat": 55.87389,
+  "lng": 37.54023,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-beskudnikovskiy-b-r-52": {
+  "address": "Бескудниковский бульвар, 52",
+  "lat": 55.87389,
+  "lng": 37.53752,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-borovskiy-proezd-1": {
+  "address": "Боровский проезд, 1",
+  "lat": 55.65485,
+  "lng": 37.39151,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-chapaeva-4": {
+  "address": "улица Чапаева, 4",
+  "lat": 55.6113,
+  "lng": 37.20462,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-checherskiy-pr-d-28": {
+  "address": "Чечёрский проезд, 28 к2",
+  "lat": 55.53618,
+  "lng": 37.53851,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-checherskiy-pr-d-28a": {
+  "address": "Чечёрский проезд, 28А",
+  "lat": 55.53538,
+  "lng": 37.53686,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-cherepanovykh-pr-d-10": {
+  "address": "проезд Черепановых, 10",
+  "lat": 55.83461,
+  "lng": 37.51543,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-chobotovskaya-2a": {
+  "address": "Чоботовская улица, 2А",
+  "lat": 55.64481,
+  "lng": 37.35989,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-dmitriya-ulyanova-27-k1": {
+  "address": "улица Дмитрия Ульянова, 27",
+  "lat": 55.68585,
+  "lng": 37.58095,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-dmitriya-ulyanova-47": {
+  "address": "улица Дмитрия Ульянова, 47",
+  "lat": 55.68187,
+  "lng": 37.5957,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-dmitrovskoe-sh-55a": {
+  "address": "Дмитровское шоссе (дублёр), 55А",
+  "lat": 55.84366,
+  "lng": 37.56839,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-dmitrovskoe-sh-93-k3": {
+  "address": "Дмитровское шоссе, 93",
+  "lat": 55.87113,
+  "lng": 37.5459,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-dolgoprudnaya-al-14-k1": {
+  "address": "Долгопрудная аллея, 14 к1",
+  "lat": 55.94219,
+  "lng": 37.53003,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-dolgoprudnaya-al-14-k2": {
+  "address": "Долгопрудная аллея, 14 к1",
+  "lat": 55.94219,
+  "lng": 37.53003,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-dolgoprudnaya-al-15-k2": {
+  "address": "Долгопрудная аллея, 15 к1",
+  "lat": 55.94073,
+  "lng": 37.53004,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-dolgoprudnaya-al-15-k3": {
+  "address": "Долгопрудная аллея, 15 к1",
+  "lat": 55.94073,
+  "lng": 37.53004,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-elektrolitnyy-pr-d-7a-1": {
+  "address": "Электролитный проезд, 7А/1",
+  "lat": 55.67414,
+  "lng": 37.61215,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-feodosiyskaya-5": {
+  "address": "Феодосийская улица, 5",
+  "lat": 55.56293,
+  "lng": 37.5797,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-feodosiyskaya-7-1": {
+  "address": "Феодосийская улица, 7/1",
+  "lat": 55.56242,
+  "lng": 37.57905,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-festivalnaya-15-k2": {
+  "address": "Фестивальная улица, 15 к4",
+  "lat": 55.85952,
+  "lng": 37.4749,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-fonvizina-7a": {
+  "address": "улица Фонвизина, 7А",
+  "lat": 55.82144,
+  "lng": 37.58275,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-frezer-sh-17": {
+  "address": "шоссе Фрезер, 17",
+  "lat": 55.73519,
+  "lng": 37.73583,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-frezer-sh-7-2": {
+  "address": "шоссе Фрезер, 7/2",
+  "lat": 55.73985,
+  "lng": 37.73667,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-garibaldi-26": {
+  "address": "улица Гарибальди, 26",
+  "lat": 55.67099,
+  "lng": 37.54962,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-garibaldi-31": {
+  "address": "улица Гарибальди, 31",
+  "lat": 55.6686,
+  "lng": 37.56216,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-geroev-panfilovtsev-39": {
+  "address": "улица Героев Панфиловцев (дублёр), 39 к1",
+  "lat": 55.85499,
+  "lng": 37.4108,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-gostinichnyy-pr-d-10": {
+  "address": "Гостиничный проезд, 10",
+  "lat": 55.8461,
+  "lng": 37.57723,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-ilimskaya-5": {
+  "address": "Илимская улица, 5",
+  "lat": 55.88931,
+  "lng": 37.58123,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-irlandskaya-4-k1-2": {
+  "address": "Ирландская улица, 4 к2",
+  "lat": 55.43367,
+  "lng": 37.32487,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-izumrudnaya-44-2": {
+  "address": "Изумрудная улица, 44/2",
+  "lat": 55.87781,
+  "lng": 37.69311,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-karamyshevskaya-nab-22a": {
+  "address": "Карамышевская набережная, 22А",
+  "lat": 55.77155,
+  "lng": 37.47869,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-kasimovskaya-39-k2": {
+  "address": "Касимовская улица, 39 к2",
+  "lat": 55.59203,
+  "lng": 37.66048,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-kedrova-16-k3": {
+  "address": "улица Кедрова, 16 к3",
+  "lat": 55.68133,
+  "lng": 37.57137,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-kerchenskaya-2": {
+  "address": "Керченская улица, 2",
+  "lat": 55.6597,
+  "lng": 37.58586,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-kharkovskiy-pr-d-1-1-k1-2-3": {
+  "address": "Харьковский проезд, 1/1 к1",
+  "lat": 55.59642,
+  "lng": 37.64944,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-klinskaya-2a": {
+  "address": "Клинская улица, 2А",
+  "lat": 55.8685,
+  "lng": 37.50304,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-klinskaya-2a-k7": {
+  "address": "Клинская улица, 2А",
+  "lat": 55.8685,
+  "lng": 37.50304,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-konstantina-fedina-5": {
+  "address": "улица Константина Федина, 5",
+  "lat": 55.80703,
+  "lng": 37.79301,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-korovinskoe-sh-29": {
+  "address": "Коровинское шоссе, 29",
+  "lat": 55.87924,
+  "lng": 37.52061,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-krasnodarskaya-6": {
+  "address": "Краснодарская улица, 6",
+  "lat": 55.6763,
+  "lng": 37.74075,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-krasnodonskaya-50": {
+  "address": "Краснодонская улица, 50",
+  "lat": 55.66706,
+  "lng": 37.7509,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-kuprina-pr-kt-38-k1-2": {
+  "address": "проспект Куприна, 38 к1",
+  "lat": 55.54354,
+  "lng": 37.45664,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-kuprina-pr-t-30-k9": {
+  "address": "проспект Куприна, 30 к1",
+  "lat": 55.54014,
+  "lng": 37.46118,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-kvartsevaya-2-3-4-5": {
+  "address": "Кварцевая улица, 2 к3",
+  "lat": 55.49076,
+  "lng": 37.33489,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-lenskaya-8": {
+  "address": "Ленская улица, 8",
+  "lat": 55.86679,
+  "lng": 37.66805,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-letchika-babushkina-29-k-5": {
+  "address": "улица Лётчика Бабушкина, 29 к5",
+  "lat": 55.87022,
+  "lng": 37.67376,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-letchika-babushkina-41": {
+  "address": "улица Лётчика Бабушкина, 41",
+  "lat": 55.87608,
+  "lng": 37.67765,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-lineynyy-pr-d-8a": {
+  "address": "Линейный проезд, 8А",
+  "lat": 55.84143,
+  "lng": 37.57506,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-lyublinskaya-113-k1": {
+  "address": "Люблинская улица, 113",
+  "lat": 55.67846,
+  "lng": 37.73938,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-lyublinskaya-76-k3": {
+  "address": "Люблинская улица, 76 к5",
+  "lat": 55.66324,
+  "lng": 37.73047,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-lyublinskaya-76-k4": {
+  "address": "Люблинская улица, 76 к5",
+  "lat": 55.66324,
+  "lng": 37.73047,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-lyublinskaya-76-k5": {
+  "address": "Люблинская улица, 76 к5",
+  "lat": 55.66324,
+  "lng": 37.73047,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-lyublinskaya-80-k7": {
+  "address": "Люблинская улица, 80 к7",
+  "lat": 55.66068,
+  "lng": 37.72984,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-marshala-eremenko-5-k1-2-3-4": {
+  "address": "улица Маршала Ерёменко, 5 к1",
+  "lat": 55.71215,
+  "lng": 37.94878,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-mikhalkovskaya-48-k4": {
+  "address": "Михалковская улица, 48 к1",
+  "lat": 55.8385,
+  "lng": 37.51493,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-mikhaylova-30a-k1": {
+  "address": "улица Михайлова, 30А",
+  "lat": 55.72501,
+  "lng": 37.77404,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-milashenkova-6": {
+  "address": "улица Милашенкова, 6",
+  "lat": 55.82381,
+  "lng": 37.58759,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-molodtsova-33-k1": {
+  "address": "улица Молодцова, 33 к1",
+  "lat": 55.87922,
+  "lng": 37.62156,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-narvskaya-5": {
+  "address": "Нарвская улица, 5",
+  "lat": 55.83254,
+  "lng": 37.50594,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-nikitinskaya-5": {
+  "address": "Никитинская улица, 5",
+  "lat": 55.79655,
+  "lng": 37.77476,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-nikitinskaya-vl-21": {
+  "address": "Никитинская улица, 21 к3",
+  "lat": 55.80146,
+  "lng": 37.77286,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-nizhnyaya-khokhlovka-6": {
+  "address": "улица Нижняя Хохловка, 6",
+  "lat": 55.72818,
+  "lng": 37.72017,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-nizhnyaya-khokhlovka-8": {
+  "address": "улица Нижняя Хохловка, 8",
+  "lat": 55.72867,
+  "lng": 37.71941,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-novomikhaylovskoe-sh-1-k1-5": {
+  "address": "Новомихайловское шоссе, 1",
+  "lat": 55.60801,
+  "lng": 37.47541,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-obrucheva-5": {
+  "address": "улица Обручева, 5",
+  "lat": 55.66199,
+  "lng": 37.51434,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-okruzhnaya-2a": {
+  "address": "Окружная улица, 2А",
+  "lat": 55.84334,
+  "lng": 37.402,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-orenburgskaya-30": {
+  "address": "Оренбургская улица, 30",
+  "lat": 55.71117,
+  "lng": 37.86606,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-ostashkovskaya-9-k2": {
+  "address": "Осташковская улица, 9 к2",
+  "lat": 55.87752,
+  "lng": 37.67655,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-otkrytoe-sh-28-3": {
+  "address": "Открытое шоссе, 28/3",
+  "lat": 55.8278,
+  "lng": 37.7688,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-otkrytoe-sh-30": {
+  "address": "Открытое шоссе, 30",
+  "lat": 55.82805,
+  "lng": 37.77039,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-otradnyy-pr-d-8": {
+  "address": "Отрадный проезд, 8",
+  "lat": 55.85548,
+  "lng": 37.60995,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-parkovaya-33": {
+  "address": "Парковая улица, 33",
+  "lat": 55.8513,
+  "lng": 37.38014,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-peresvetov-per-9": {
+  "address": "Пересветов переулок, 9",
+  "lat": 55.71343,
+  "lng": 37.66289,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-petra-alekseeva-10": {
+  "address": "улица Петра Алексеева, 10",
+  "lat": 55.71776,
+  "lng": 37.42785,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-polyarnaya-17-k1": {
+  "address": "Полярная улица (дублёр), 17/1",
+  "lat": 55.8765,
+  "lng": 37.6358,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-polyarnaya-22": {
+  "address": "Полярная улица, 22",
+  "lat": 55.87988,
+  "lng": 37.63828,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-polyarnaya-3": {
+  "address": "Полярная улица (дублёр), 3",
+  "lat": 55.87234,
+  "lng": 37.63679,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-polyarnaya-4-k1": {
+  "address": "Полярная улица, 4 к2 с1",
+  "lat": 55.87333,
+  "lng": 37.63906,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-profsoyuznaya-96-k1": {
+  "address": "Профсоюзная улица (дублёр), 96",
+  "lat": 55.64766,
+  "lng": 37.52746,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-profsoyuznaya-98-k6": {
+  "address": "Профсоюзная улица (дублёр), 98 к1",
+  "lat": 55.64612,
+  "lng": 37.52683,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-promyshlennyy-pr-d-4": {
+  "address": "Промышленный проезд, 4",
+  "lat": 55.74208,
+  "lng": 37.50764,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-prospekt-vernadskogo-69": {
+  "address": "проспект Вернадского, 69",
+  "lat": 55.6709,
+  "lng": 37.50608,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-remizova-11-k2": {
+  "address": "улица Ремизова, 11 к2",
+  "lat": 55.67633,
+  "lng": 37.60303,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-rodnikovaya-4a": {
+  "address": "Родниковая улица, 4А",
+  "lat": 55.639,
+  "lng": 37.37735,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-rodnikovaya-5a": {
+  "address": "Родниковая улица, 5А",
+  "lat": 55.6388,
+  "lng": 37.40142,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-rotmistrova-2-k4": {
+  "address": "улица Ротмистрова, 2",
+  "lat": 55.79152,
+  "lng": 37.47821,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-saltykovskaya-6-1-k2-4-5-6-7": {
+  "address": "Салтыковская улица, 6/1 к5",
+  "lat": 55.72399,
+  "lng": 37.86265,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-saltykovskaya-6-2-k1-2-3-4": {
+  "address": "Салтыковская улица, 6/2 к2",
+  "lat": 55.72596,
+  "lng": 37.86138,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-sevastopolskiy-pr-kt-28-k9": {
+  "address": "Севастопольский проспект, 28",
+  "lat": 55.6596,
+  "lng": 37.57335,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-sevastopolskiy-pr-kt-71-k1": {
+  "address": "Севастопольский проспект, 71",
+  "lat": 55.65827,
+  "lng": 37.57488,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-shchelkovskoe-sh-71": {
+  "address": "Щёлковское шоссе (дублёр), 71",
+  "lat": 55.81107,
+  "lng": 37.7962,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-shchelkovskoe-sh-74": {
+  "address": "Щёлковское шоссе (дублёр), 74",
+  "lat": 55.81014,
+  "lng": 37.81069,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-sheremetevskaya-13-k1": {
+  "address": "Шереметьевская улица, 13 к1",
+  "lat": 55.79689,
+  "lng": 37.61523,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-shokalskogo-pr-d-27-k2": {
+  "address": "проезд Шокальского, 27 к1",
+  "lat": 55.88041,
+  "lng": 37.64624,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-shushenskaya-5": {
+  "address": "Шушенская улица, 5",
+  "lat": 55.86972,
+  "lng": 37.68407,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-sirenevyy-b-r-4-12a": {
+  "address": "Сиреневый бульвар, 4/12А",
+  "lat": 55.79674,
+  "lng": 37.76059,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-sirenevyy-b-r-4-7": {
+  "address": "Сиреневый бульвар, 4/7",
+  "lat": 55.79774,
+  "lng": 37.76129,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-sirenevyy-b-r-4-9": {
+  "address": "Сиреневый бульвар, 4/9",
+  "lat": 55.79681,
+  "lng": 37.76237,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-skhodnenskaya-vld-42": {
+  "address": "Сходненская улица, 42",
+  "lat": 55.84487,
+  "lng": 37.44005,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-staroalekseevskaya-3": {
+  "address": "Староалексеевская улица, 3",
+  "lat": 55.81052,
+  "lng": 37.64357,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-stavropolskaya-23-1": {
+  "address": "Ставропольская улица, 23/1",
+  "lat": 55.6825,
+  "lng": 37.76224,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-stavropolskaya-4-2": {
+  "address": "Ставропольская улица, 4/2",
+  "lat": 55.67938,
+  "lng": 37.74084,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-svetlanova-11-k1": {
+  "address": "улица Светланова, 11 к2",
+  "lat": 55.68937,
+  "lng": 37.50774,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-svetlanova-11-k2": {
+  "address": "улица Светланова, 11 к2",
+  "lat": 55.68937,
+  "lng": 37.50774,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-svetlanova-13": {
+  "address": "улица Светланова, 13",
+  "lat": 55.68879,
+  "lng": 37.50951,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-tashkentskaya-29-k1": {
+  "address": "Ташкентская улица, 29/179",
+  "lat": 55.69823,
+  "lng": 37.80767,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-tayninskaya-7-k2": {
+  "address": "Тайнинская улица, 7",
+  "lat": 55.88033,
+  "lng": 37.68273,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-varshavskoe-sh-100-k1": {
+  "address": "Варшавское шоссе (дублёр), 100 к1",
+  "lat": 55.64622,
+  "lng": 37.6189,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-varshavskoe-sh-139": {
+  "address": "Варшавское шоссе (дублёр), 139",
+  "lat": 55.59215,
+  "lng": 37.60202,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-vertoletchikov-2": {
+  "address": "улица Вертолётчиков, 2",
+  "lat": 55.69852,
+  "lng": 37.94131,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-volgogradskiy-pr-kt-97-k3": {
+  "address": "Волгоградский проспект (дублёр), 97 к2",
+  "lat": 55.7082,
+  "lng": 37.75249,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-vvedenskogo-13v": {
+  "address": "улица Введенского, 13В",
+  "lat": 55.64207,
+  "lng": 37.54296,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-yavorki-1-k5-6": {
+  "address": "улица Яворки, 1 к6",
+  "lat": 55.50873,
+  "lng": 37.34043,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-zagorevskaya-8": {
+  "address": "Загорьевская улица, 8",
+  "lat": 55.58028,
+  "lng": 37.67632,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-zarevyy-pr-d-9": {
+  "address": "Заревый проезд, 9",
+  "lat": 55.8848,
+  "lng": 37.65671,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-zelenyy-pr-kt-103": {
+  "address": "Зелёный проспект, 103",
+  "lat": 55.75065,
+  "lng": 37.82892,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mk-zelenyy-pr-kt-97a": {
+  "address": "Зелёный проспект, 97А",
+  "lat": 55.75077,
+  "lng": 37.82757,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mnevniki-8": {
+  "address": "улица Мнёвники, 8 с1",
+  "lat": 55.77323,
+  "lng": 37.49591,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "molodogvardeyskaya-64": {
+  "address": "Молодогвардейская улица, 64",
+  "lat": 55.73387,
+  "lng": 37.38117,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "molzhaninovo": {
+  "address": "ул Молжаниновская, корпус 2",
+  "lat": 55.93417,
+  "lng": 37.36943,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "monema": {
+  "address": "Чермянский проезд, 5",
+  "lat": 55.88702,
+  "lng": 37.63307,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mosfilmovskaya-35": {
+  "address": "Мосфильмовская улица, 35",
+  "lat": 55.71216,
+  "lng": 37.51088,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mosfilmovskaya-74-78": {
+  "address": "Мосфильмовская улица, 74",
+  "lat": 55.70987,
+  "lng": 37.50387,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "moskvoreche": {
+  "address": "1-й Варшавский проезд, 1А",
+  "lat": 55.64505,
+  "lng": 37.64035,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "moz-art": {
+  "address": "улица Малая Дмитровка, 23/15",
+  "lat": 55.77059,
+  "lng": 37.60491,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mr-group-kazachiy": {
+  "address": "",
+  "lat": 55.7356,
+  "lng": 37.6217,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "mr-group-metropoliya": {
+  "address": "проспект Волгоградский, вл. 32/3",
+  "lat": 55.7207,
+  "lng": 37.69112,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "mr-group-savelovskiy-siti": {
+  "address": "ул Складочная, строение 3,19,20,21,29,30,34,36,37, вл. 1",
+  "lat": 55.80312,
+  "lng": 37.59152,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "mr-group-vodnyy": {
+  "address": "шоссе Головинское, корпус 6, вл. 5",
+  "lat": 55.8401,
+  "lng": 37.492,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "mr-group-yasnyy": {
+  "address": "шоссе Каширское, корпус Подземная автостоянка, вл. 65",
+  "lat": 55.60182,
+  "lng": 37.72978,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "muza": {
+  "address": "Красноармейская улица, 11",
+  "lat": 55.799,
+  "lng": 37.5436,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "myata": {
+  "address": "1-я Магистральная улица, 25",
+  "lat": 55.7708,
+  "lng": 37.51813,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mypriority-dubrovka": {
+  "address": "Шарикоподшипниковская улица, 11 с7",
+  "lat": 55.71958,
+  "lng": 37.67613,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "mypriority-nizhegorodskaya": {
+  "address": "Рязанский проспект, 4А с2",
+  "lat": 55.7278,
+  "lng": 37.7439,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "n-ice-river": {
+  "address": "Автозаводская улица, 16",
+  "lat": 55.70429,
+  "lng": 37.64528,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "n-ice-tower": {
+  "address": "Скотопрогонная улица, 31А с1",
+  "lat": 55.72916,
+  "lng": 37.69416,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "n74": {
+  "address": "Нижегородская улица (дублёр), 74",
+  "lat": 55.73254,
+  "lng": 37.71295,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "nachalo": {
+  "address": "улица Сергея Макеева, 7 с2",
+  "lat": 55.7599,
+  "lng": 37.5471,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "nagatinskaya-5": {
+  "address": "Нагатинская улица, 5",
+  "lat": 55.6806,
+  "lng": 37.63525,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "nagornyy-proezd-3-str-4": {
+  "address": "Нагорный проезд, 3 с4",
+  "lat": 55.68725,
+  "lng": 37.61978,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "nakhimovskiy-21": {
+  "address": "Нахимовский проспект, 21",
+  "lat": 55.66502,
+  "lng": 37.5981,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "nametkin-tower": {
+  "address": "улица Намёткина, 10 с1",
+  "lat": 55.6614,
+  "lng": 37.552,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "nametkina-10a": {
+  "address": "улица Намёткина, 10А",
+  "lat": 55.66142,
+  "lng": 37.55215,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "nametkina-10d": {
+  "address": "улица Намёткина, 10Д",
+  "lat": 55.6599,
+  "lng": 37.5515,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "narvin": {
+  "address": "Кронштадтский бульвар (дублёр), 14 с13",
+  "lat": 55.8424,
+  "lng": 37.4987,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "nastoyashchee": {
+  "address": "Винницкая улица, 8 к4",
+  "lat": 55.7013,
+  "lng": 37.4929,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "nauchnyy-11a": {
+  "address": "Научный проезд, 11А",
+  "lat": 55.65776,
+  "lng": 37.55361,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "nays-loft": {
+  "address": "",
+  "lat": 55.7302,
+  "lng": 37.6982,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "neverovskogo-10": {
+  "address": "улица Неверовского, 10",
+  "lat": 55.73839,
+  "lng": 37.51083,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "neverovskogo-9": {
+  "address": "улица Неверовского, 9",
+  "lat": 55.73801,
+  "lng": 37.51025,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "nevskiy": {
+  "address": "улица Адмирала Макарова, строение 3,13, вл. 6",
+  "lat": 55.83614,
+  "lng": 37.49312,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "nii-delta": {
+  "address": "Щёлковское шоссе, 2А",
+  "lat": 55.80301,
+  "lng": 37.75817,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "nikitskiy-6": {
+  "address": "",
+  "lat": 55.7535,
+  "lng": 37.6016,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "nikolskie-luga": {
+  "address": "",
+  "lat": 55.51914,
+  "lng": 37.57122,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "nizhegorodskaya": {
+  "address": "Перовское шоссе, 21 с14",
+  "lat": 55.73632,
+  "lng": 37.7461,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "nizhegorodskaya-63-65": {
+  "address": "Нижегородская улица, 63",
+  "lat": 55.73246,
+  "lng": 37.7187,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "nizhnie-mnevniki-20": {
+  "address": "улица Нижние Мнёвники, 20",
+  "lat": 55.74982,
+  "lng": 37.45854,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "nizhnie-polya-19a": {
+  "address": "улица Нижние Поля, 19А с8",
+  "lat": 55.65651,
+  "lng": 37.73382,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "nizhniy-kiselnyy-7-21": {
+  "address": "Нижний Кисельный переулок, 7/21",
+  "lat": 55.76519,
+  "lng": 37.6232,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "nizhnyaya-maslovka-3": {
+  "address": "улица Нижняя Масловка, 3",
+  "lat": 55.79161,
+  "lng": 37.58548,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "noon": {
+  "address": "Окская улица, 9",
+  "lat": 55.71753,
+  "lng": 37.77469,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "novaya-11": {
+  "address": "",
+  "lat": 55.7729,
+  "lng": 37.6998,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "novaya-basmannaya-29": {
+  "address": "Новая Басманная улица, 29",
+  "lat": 55.77008,
+  "lng": 37.66454,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "novaya-ipatovka-23a": {
+  "address": "улица Новая Ипатовка, 23А с1",
+  "lat": 55.82048,
+  "lng": 37.53339,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "novodanilovskaya-8": {
+  "address": "Новоданиловская набережная, 8",
+  "lat": 55.6966,
+  "lng": 37.6247,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "novoe-letovo": {
+  "address": "",
+  "lat": 55.5717,
+  "lng": 37.3844,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "novoe-ochakovo": {
+  "address": "",
+  "lat": 55.683,
+  "lng": 37.4467,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "novoe-vnukovo": {
+  "address": "ул. Аэростатная, д. 15, корпус 7",
+  "lat": 55.5869,
+  "lng": 37.16998,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "novokhokhlovskaya-15": {
+  "address": "Новохохловская улица, 15 к1",
+  "lat": 55.72827,
+  "lng": 37.71127,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "novoostapovskaya-12": {
+  "address": "Новоостаповская улица, 12",
+  "lat": 55.71872,
+  "lng": 37.67028,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "novoslobodskaya-55-str-1": {
+  "address": "Новослободская улица, 55 с1",
+  "lat": 55.78698,
+  "lng": 37.59296,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "novospasskiy": {
+  "address": "Дербеневская набережная, 7 с9",
+  "lat": 55.72351,
+  "lng": 37.65347,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "novoyasenevskiy-5-13": {
+  "address": "Новоясеневский проспект, 5 к1",
+  "lat": 55.60814,
+  "lng": 37.53126,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "novyy-arbat-2": {
+  "address": "улица Новый Арбат, 2",
+  "lat": 55.75325,
+  "lng": 37.59947,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "novyy-titul": {
+  "address": "улица Тимура Фрунзе, 10",
+  "lat": 55.73357,
+  "lng": 37.59083,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "obruchev": {
+  "address": "улица Обручева, 30А",
+  "lat": 55.6559,
+  "lng": 37.5297,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "obrucheva-23-25a": {
+  "address": "улица Обручева, 23",
+  "lat": 55.65746,
+  "lng": 37.53017,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "obrucheva-30": {
+  "address": "улица Обручева, 30",
+  "lat": 55.6559,
+  "lng": 37.5297,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "odingrad": {
+  "address": "Одинцово, район Одинцовский, улица Маршала Бирюзова, д. корп. 6,7,8,11",
+  "lat": 55.6763,
+  "lng": 37.25725,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "odingrad-lesnoy": {
+  "address": "Одинцово, район Одинцовский, улица Маршала Бирюзова, д. корп. 6,7,8,11",
+  "lat": 55.6763,
+  "lng": 37.25725,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "odintsovo-1": {
+  "address": "х. Одинцовский, корпус 1.18, строение 2",
+  "lat": 55.66622,
+  "lng": 37.28941,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "ogorodnyy-2": {
+  "address": "Огородный проезд, 2",
+  "lat": 55.80996,
+  "lng": 37.61001,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "ogorodnyy-20": {
+  "address": "Огородный проезд, 25/20",
+  "lat": 55.8204,
+  "lng": 37.5945,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "ogorodnyy-8": {
+  "address": "Огородный проезд, 8 с1",
+  "lat": 55.8127,
+  "lng": 37.60431,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "oktyabrskoe-pole": {
+  "address": "ул Берзарина, вл. 32/14/2",
+  "lat": 55.78983,
+  "lng": 37.47185,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "oleniy-val-24": {
+  "address": "улица Олений Вал, 24 к2",
+  "lat": 55.80051,
+  "lng": 37.69742,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "olsufev": {
+  "address": "Олсуфьевский переулок, 10 с1",
+  "lat": 55.7333,
+  "lng": 37.5795,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "om-botanicheskiy": {
+  "address": "Сельскохозяйственная улица, 42 с1",
+  "lat": 55.8493,
+  "lng": 37.6277,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "omega-residence": {
+  "address": "",
+  "lat": 55.6996,
+  "lng": 37.5616,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "omni-tower": {
+  "address": "улица Алексея Свиридова, 7",
+  "lat": 55.72689,
+  "lng": 37.45495,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "onezhskiy-val": {
+  "address": "",
+  "lat": 55.8588,
+  "lng": 37.5455,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "opus": {
+  "address": "Дербеневская набережная, 1/2",
+  "lat": 55.7255,
+  "lng": 37.6537,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "ordzhonikidze-11": {
+  "address": "улица Орджоникидзе, 11",
+  "lat": 55.70896,
+  "lng": 37.5957,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "orient-ekspress": {
+  "address": "",
+  "lat": 55.7577,
+  "lng": 37.7559,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "oro": {
+  "address": "1-й Красносельский переулок, 15/17",
+  "lat": 55.78219,
+  "lng": 37.66658,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "os-savelovskogo": {
+  "address": "Бутырская улица, 1",
+  "lat": 55.7933,
+  "lng": 37.58549,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "ostankino-business-park": {
+  "address": "проезд Огородный, вл. 16/1",
+  "lat": 55.81572,
+  "lng": 37.60247,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "ostrov": {
+  "address": "улица Нижние Мнёвники, 62А",
+  "lat": 55.7497,
+  "lng": 37.45566,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "ostrovnaya-2": {
+  "address": "Островная улица, 2",
+  "lat": 55.76199,
+  "lng": 37.4584,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "otkrytyy-park": {
+  "address": "",
+  "lat": 55.817,
+  "lng": 37.7591,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "palashevskiy-11": {
+  "address": "Большой Палашёвский переулок, 11 с2",
+  "lat": 55.7648,
+  "lng": 37.5998,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "palaty-kozhevennoy-slobody": {
+  "address": "Кожевническая улица, 19 с2",
+  "lat": 55.72902,
+  "lng": 37.65049,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "palmira-art-hotel": {
+  "address": "4-я Магистральная улица, 4/11",
+  "lat": 55.77587,
+  "lng": 37.51663,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "parkside": {
+  "address": "улица Красного Маяка, 26 к4",
+  "lat": 55.60649,
+  "lng": 37.57832,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "parshina-2": {
+  "address": "улица Паршина, 2",
+  "lat": 55.78988,
+  "lng": 37.46305,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "pave": {
+  "address": "2-й Павелецкий проезд, 7 с7",
+  "lat": 55.71266,
+  "lng": 37.64165,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "paveletskaya-8": {
+  "address": "Павелецкая набережная, 8",
+  "lat": 55.7096,
+  "lng": 37.6458,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "paveletskaya-naberezhnaya-2": {
+  "address": "Павелецкая набережная, 2",
+  "lat": 55.71538,
+  "lng": 37.64603,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "paveletskaya-naberezhnaya-6": {
+  "address": "Павелецкая набережная, 6",
+  "lat": 55.71176,
+  "lng": 37.64675,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "paveletskaya-siti": {
+  "address": "Дубининская улица, 59",
+  "lat": 55.71848,
+  "lng": 37.63568,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "pavlovskaya-18": {
+  "address": "Павловская улица, 18",
+  "lat": 55.71235,
+  "lng": 37.6264,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "pavlovskaya-bolnitsa": {
+  "address": "Павловская улица, 25",
+  "lat": 55.71447,
+  "lng": 37.63031,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "pentagram": {
+  "address": "Большой Козихинский переулок, 31 с2",
+  "lat": 55.76538,
+  "lng": 37.59338,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "perets": {
+  "address": "Пятницкое шоссе (дублёр), 3",
+  "lat": 55.83574,
+  "lng": 37.38631,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "perevedenovskiy-13-str-11-12": {
+  "address": "Переведеновский переулок, 13 с16",
+  "lat": 55.77997,
+  "lng": 37.68746,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "perovskaya-1": {
+  "address": "Перовская улица, 1",
+  "lat": 55.7481,
+  "lng": 37.75533,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "perovskiy-54": {
+  "address": "Перовский проезд, 54 с18",
+  "lat": 55.74334,
+  "lng": 37.70855,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "perovskoe-2": {
+  "address": "Перовское шоссе, 2 к3",
+  "lat": 55.73362,
+  "lng": 37.74025,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "pervyy-dubrovskiy": {
+  "address": "",
+  "lat": 55.72415,
+  "lng": 37.6838,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "pervyy-lermontovskiy": {
+  "address": "г. Люберцы, Люберецкий муниципальный район, проезд Проектируемый 4037, корпус 2.2",
+  "lat": 55.67995,
+  "lng": 37.91622,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "petrovskiy-park": {
+  "address": "Улица Юннатов, корпус В, вл. 4",
+  "lat": 55.79865,
+  "lng": 37.5639,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "pik": {
+  "address": "улица Плеханова, 11 с40",
+  "lat": 55.75205,
+  "lng": 37.76766,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "pik-17-y-proezd-marinoy-roshchi-1": {
+  "address": "17-й проезд Марьиной Рощи, 1",
+  "lat": 55.80738,
+  "lng": 37.61143,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "pik-akademika-pavlova": {
+  "address": "",
+  "lat": 55.7482,
+  "lng": 37.408,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "pik-buninskie-luga": {
+  "address": "улица Александры Монаховой, 97",
+  "lat": 55.54696,
+  "lng": 37.48541,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "pik-chernyakhovskogo-19": {
+  "address": "улица Черняховского, 19",
+  "lat": 55.80975,
+  "lng": 37.54002,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "pik-dmitrovskiy-park": {
+  "address": "ул Лобненская, корпус 1.2, 1.3, вл. 13",
+  "lat": 55.88823,
+  "lng": 37.52727,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "pik-grin-park": {
+  "address": "Олонецкая улица, 6",
+  "lat": 55.85448,
+  "lng": 37.62128,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "pik-izmaylovskiy-11": {
+  "address": "Измайловский проезд, 11",
+  "lat": 55.79901,
+  "lng": 37.76764,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "pik-marshala-zakharova-7": {
+  "address": "улица Маршала Захарова, 3",
+  "lat": 55.62267,
+  "lng": 37.70662,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "pik-mikhaylovskiy-park": {
+  "address": "улица 2-я Институтская, корпус 2, строение 1,2,3",
+  "lat": 55.7237,
+  "lng": 37.77632,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "pik-molodogvardeyskaya-36": {
+  "address": "Молодогвардейская улица, 36 к6",
+  "lat": 55.7365,
+  "lng": 37.4186,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "pik-myakinino-park": {
+  "address": "корпус 3",
+  "lat": 55.8027,
+  "lng": 37.34897,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "pik-na-ul-chekhova-4": {
+  "address": "улица Чехова, 4",
+  "lat": 55.50249,
+  "lng": 37.55572,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "pik-polyarnaya-25": {
+  "address": "Полярная улица (дублёр), 25 к2",
+  "lat": 55.88202,
+  "lng": 37.6366,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "pik-presnenskiy-val-21": {
+  "address": "улица Пресненский Вал, 21",
+  "lat": 55.77157,
+  "lng": 37.56888,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "pik-prostornaya-7": {
+  "address": "Просторная улица, 7",
+  "lat": 55.8058,
+  "lng": 37.7148,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "pik-rimskogo-korsakova-11": {
+  "address": "улица Римского-Корсакова, 11 к3",
+  "lat": 55.87543,
+  "lng": 37.60153,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "pik-signalnyy-16": {
+  "address": "Сигнальный проезд, 16 с21",
+  "lat": 55.8504,
+  "lng": 37.6012,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "pik-sokolnicheskiy-val-1": {
+  "address": "улица Сокольнический Вал, 1",
+  "lat": 55.79425,
+  "lng": 37.65285,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "pik-solntsevo-park": {
+  "address": "",
+  "lat": 55.6253,
+  "lng": 37.3127,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "pik-stolichnye-polyany": {
+  "address": "корпус 4",
+  "lat": 55.5535,
+  "lng": 37.5549,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "pik-vavilova-4": {
+  "address": "улица Вавилова, 4",
+  "lat": 55.70852,
+  "lng": 37.59006,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "pik-yartsevskaya-24": {
+  "address": "Ярцевская улица, 24 к1",
+  "lat": 55.7388,
+  "lng": 37.41456,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "pik-yasenevaya-14": {
+  "address": "Ясеневая улица, 14 с1",
+  "lat": 55.6021,
+  "lng": 37.7304,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "pik-yunino": {
+  "address": "г. Щербинка, микрорайон Люблинский, корпус 1.2",
+  "lat": 55.51387,
+  "lng": 37.57473,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "pik-yutanovo": {
+  "address": "",
+  "lat": 55.5866,
+  "lng": 37.61197,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "pik-zhemchuzhina-zelenograda": {
+  "address": "корпус поз. 2",
+  "lat": 55.9651,
+  "lng": 37.1538,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "planetnaya-3": {
+  "address": "Планетная улица, 3 к3",
+  "lat": 55.79763,
+  "lng": 37.55008,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "pobeda": {
+  "address": "проспект Маршала Жукова, 6 с2",
+  "lat": 55.77731,
+  "lng": 37.49952,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "podolskaya-22": {
+  "address": "Подольская улица, 22",
+  "lat": 55.64872,
+  "lng": 37.707,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "poklonnaya-5": {
+  "address": "Поклонная улица, 5",
+  "lat": 55.73512,
+  "lng": 37.5276,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "poklonnaya-7": {
+  "address": "Поклонная улица, 7",
+  "lat": 55.73515,
+  "lng": 37.52719,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "polar": {
+  "address": "Полярная улица, 39 к1",
+  "lat": 55.89265,
+  "lng": 37.645,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "pole": {
+  "address": "Ленинградский проспект (дублёр), 37",
+  "lat": 55.7921,
+  "lng": 37.54068,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "polesskiy-16": {
+  "address": "Полесский проезд, 16 с1",
+  "lat": 55.81222,
+  "lng": 37.45692,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "portland": {
+  "address": "",
+  "lat": 55.6941,
+  "lng": 37.7128,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "povarskaya-29-36-str-2": {
+  "address": "Поварская улица, 29/36 с1",
+  "lat": 55.75654,
+  "lng": 37.58841,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "pravda": {
+  "address": "",
+  "lat": 55.788,
+  "lng": 37.5836,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "preobrazhenie": {
+  "address": "Тюменская улица, 5 с15",
+  "lat": 55.80867,
+  "lng": 37.74342,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "preobrazhenskaya-ploshchad": {
+  "address": "ул 1-я Бухвостова, вл. 12/11",
+  "lat": 55.79785,
+  "lng": 37.71175,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "preobrazhenskiy-val-24-k2": {
+  "address": "улица Преображенский Вал, 24 к2",
+  "lat": 55.79145,
+  "lng": 37.71467,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "presnenskiy-val-38-str-5": {
+  "address": "улица Пресненский Вал, 38 с5",
+  "lat": 55.77026,
+  "lng": 37.56987,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "presnya-siti": {
+  "address": "Ходынская улица, 2",
+  "lat": 55.7703,
+  "lng": 37.5646,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "pribrezhnyy-park": {
+  "address": "с. Ям, корпус 5.2",
+  "lat": 55.49143,
+  "lng": 37.74513,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "prichalnyy-6": {
+  "address": "Причальный проезд, 6 с8",
+  "lat": 55.76101,
+  "lng": 37.51792,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "pride": {
+  "address": "Полковая улица, 1",
+  "lat": 55.7981,
+  "lng": 37.5986,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "prigorod-lesnoe": {
+  "address": "",
+  "lat": 55.55735,
+  "lng": 37.81168,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "prioriti-basmannyy": {
+  "address": "Малая Почтовая улица, 12",
+  "lat": 55.77183,
+  "lng": 37.69047,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "proezd-shlomina-8": {
+  "address": "проезд Шломина, 8",
+  "lat": 55.74977,
+  "lng": 37.58114,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "profit": {
+  "address": "ул Газгольдерная, вл. 8",
+  "lat": 55.7273,
+  "lng": 37.735,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "profsoyuznaya-152": {
+  "address": "Профсоюзная улица (дублёр), 152 к4",
+  "lat": 55.62359,
+  "lng": 37.50338,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "profsoyuznaya-4-12": {
+  "address": "Профсоюзная улица, 4",
+  "lat": 55.68705,
+  "lng": 37.57187,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "profsoyuznaya-78": {
+  "address": "Профсоюзная улица, 78",
+  "lat": 55.6621,
+  "lng": 37.5411,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "prokatnaya-2": {
+  "address": "Прокатная улица, 2",
+  "lat": 55.75943,
+  "lng": 37.83381,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "prokshino": {
+  "address": "",
+  "lat": 55.59395,
+  "lng": 37.43262,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "publitsist": {
+  "address": "",
+  "lat": 56.0026,
+  "lng": 37.87668,
+  "precision": "area",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "pushkarev-12": {
+  "address": "",
+  "lat": 55.7687,
+  "lng": 37.6276,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "quartier-d-or": {
+  "address": "Большая Татарская улица, 21",
+  "lat": 55.7398,
+  "lng": 37.634,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "rakurs": {
+  "address": "улица Маршала Бирюзова, 1 с5",
+  "lat": 55.80008,
+  "lng": 37.47684,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "rassvet": {
+  "address": "Столярный переулок, 3 к1",
+  "lat": 55.76339,
+  "lng": 37.56876,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "rechnikov-16-str-1": {
+  "address": "улица Речников, 16",
+  "lat": 55.68407,
+  "lng": 37.69192,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "repablik": {
+  "address": "улица Пресненский Вал, 27 с1",
+  "lat": 55.7731,
+  "lng": 37.57145,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "ridzh": {
+  "address": "",
+  "lat": 55.797,
+  "lng": 37.627,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "river-city": {
+  "address": "Ленинградское шоссе, 65 с5",
+  "lat": 55.86658,
+  "lng": 37.45738,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "river-park": {
+  "address": "Кутузовский проезд, 16 с3",
+  "lat": 55.74459,
+  "lng": 37.51755,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "river-park-kutuzovskiy": {
+  "address": "",
+  "lat": 55.7447,
+  "lng": 37.5209,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "riversky": {
+  "address": "Восточная улица, 4А",
+  "lat": 55.71691,
+  "lng": 37.6564,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "rodina-park": {
+  "address": "Верейская улица, 12",
+  "lat": 55.7132,
+  "lng": 37.4412,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "rodina-peredelkino": {
+  "address": "Боровское шоссе, 51",
+  "lat": 55.6365,
+  "lng": 37.35213,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "rodnye-kvartaly": {
+  "address": "",
+  "lat": 55.6012,
+  "lng": 37.22453,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "romanov-7": {
+  "address": "Романов переулок, 7",
+  "lat": 55.75501,
+  "lng": 37.60882,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "rozhdestvenka-8": {
+  "address": "улица Рождественка, 8 с1",
+  "lat": 55.7629,
+  "lng": 37.6235,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "rublevskoe-58": {
+  "address": "Рублёвское шоссе, 58",
+  "lat": 55.76592,
+  "lng": 37.39126,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "rublevskoe-shosse-68": {
+  "address": "Рублёвское шоссе, 68",
+  "lat": 55.77001,
+  "lng": 37.38619,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "rubtsovskaya-3": {
+  "address": "Рубцовская набережная, 3",
+  "lat": 55.77747,
+  "lng": 37.7019,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "rubtsovsko-dvortsovaya-1-3": {
+  "address": "Рубцовско-Дворцовая улица, 1/3",
+  "lat": 55.78791,
+  "lng": 37.69504,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "rumyantsevo-park": {
+  "address": "д. Румянцево, д. 1, вл. 17Е",
+  "lat": 55.63217,
+  "lng": 37.41583,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "rusich-kantemirovskiy": {
+  "address": "Кавказский бульвар, 51 к2",
+  "lat": 55.62763,
+  "lng": 37.64473,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "russian-design-district": {
+  "address": "п. Ватутинки, Уч-к 110ю, д. 5",
+  "lat": 55.504,
+  "lng": 37.3213,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "rustaveli-14": {
+  "address": "улица Руставели, 14",
+  "lat": 55.81221,
+  "lng": 37.5986,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "ryabinovyy-park": {
+  "address": "Верейская улица, 41",
+  "lat": 55.7112,
+  "lng": 37.43298,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "ryabovskaya-manufaktura": {
+  "address": "Холодильный переулок, 3",
+  "lat": 55.70832,
+  "lng": 37.62545,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "s5": {
+  "address": "улица Серёгина, 5 к1",
+  "lat": 55.79547,
+  "lng": 37.54808,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "s6": {
+  "address": "Стандартная улица, 6",
+  "lat": 55.88588,
+  "lng": 37.57238,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "sadovnicheskaya-62": {
+  "address": "Садовническая улица, 62 с7",
+  "lat": 55.74068,
+  "lng": 37.63914,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "sadovnicheskaya-69": {
+  "address": "Садовническая улица, 69",
+  "lat": 55.73717,
+  "lng": 37.64241,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "sadovniki-11": {
+  "address": "улица Садовники, 11 к2 с17",
+  "lat": 55.67499,
+  "lng": 37.65699,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "safonovskaya-13": {
+  "address": "Сафоновская улица, 13",
+  "lat": 55.72264,
+  "lng": 37.43972,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "salarevo-park": {
+  "address": "поселение Сосенское, вблизи д. Николо-Хованское, корпус 31",
+  "lat": 55.60054,
+  "lng": 37.40994,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "saltykovskaya-8": {
+  "address": "Салтыковская улица, 8",
+  "lat": 55.72702,
+  "lng": 37.86068,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "samokatnaya-2": {
+  "address": "Самокатная улица, 2 к1",
+  "lat": 55.75815,
+  "lng": 37.67633,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "samolet-eko-bunino": {
+  "address": "",
+  "lat": 55.54181,
+  "lng": 37.4564,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "samolet-klenovye-allei": {
+  "address": "д. Тупиково, корпус 10",
+  "lat": 55.50998,
+  "lng": 37.34499,
+  "precision": "area",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "samolet-olkhovyy-kvartal": {
+  "address": "",
+  "lat": 55.58387,
+  "lng": 37.46353,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "samolet-podolskie-kvartaly": {
+  "address": "",
+  "lat": 55.4749,
+  "lng": 37.5147,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "samolet-stremyannyy-2": {
+  "address": "Стремянный переулок, 2",
+  "lat": 55.7288,
+  "lng": 37.6362,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "samolet-tsvetochnye-polyany": {
+  "address": "д. Староселье, корпус 5",
+  "lat": 55.55729,
+  "lng": 37.31329,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "savvinskaya-17": {
+  "address": "Саввинская набережная, 17",
+  "lat": 55.7346,
+  "lng": 37.5656,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "savvinskaya-27": {
+  "address": "Саввинская улица, 27",
+  "lat": 55.7306,
+  "lng": 37.5579,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "seliger-siti": {
+  "address": "Дмитровское шоссе, 87",
+  "lat": 55.86142,
+  "lng": 37.54533,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "seligerskaya": {
+  "address": "Ильменский проезд, 12",
+  "lat": 55.86142,
+  "lng": 37.54533,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "selskokhozyaystvennaya-5-str-1-2": {
+  "address": "Сельскохозяйственная улица, 5",
+  "lat": 55.83279,
+  "lng": 37.65104,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "semenovskiy-park-2": {
+  "address": "Улица Вольная, корпус 3, вл. 28/4",
+  "lat": 55.77567,
+  "lng": 37.73673,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "serdtse-stolitsy": {
+  "address": "Улица Шеногина вл.1, Шелепихинская набережная вл.34",
+  "lat": 55.76212,
+  "lng": 37.51295,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "serebryanicheskaya-11": {
+  "address": "Серебряническая набережная, 11",
+  "lat": 55.74974,
+  "lng": 37.64788,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "serednevskiy-les": {
+  "address": "",
+  "lat": 55.56727,
+  "lng": 37.28789,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "sergeya-makeeva-11": {
+  "address": "улица Сергея Макеева, 11",
+  "lat": 55.76276,
+  "lng": 37.54954,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "serp-i-molot": {
+  "address": "улица Золоторожский Вал, 11",
+  "lat": 55.75166,
+  "lng": 37.68688,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "set": {
+  "address": "Верейская улица, 29",
+  "lat": 55.70805,
+  "lng": 37.43795,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "severnyy-port": {
+  "address": "",
+  "lat": 55.8635,
+  "lng": 37.46,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "shabolovka-34": {
+  "address": "улица Шаболовка, 34 с8",
+  "lat": 55.7187,
+  "lng": 37.60724,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "shagal": {
+  "address": "Даниловский район, улица Автозаводская, вл. 23/71",
+  "lat": 55.68963,
+  "lng": 37.64237,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "shchorsa-5-5b": {
+  "address": "улица Щорса, 5",
+  "lat": 55.64647,
+  "lng": 37.40766,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "shift": {
+  "address": "улица Орджоникидзе, 10",
+  "lat": 55.7102,
+  "lng": 37.5928,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "shipilovskaya-42-44": {
+  "address": "Шипиловская улица, 42/30",
+  "lat": 55.62086,
+  "lng": 37.72686,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "shipilovskiy-55": {
+  "address": "Шипиловский проезд, 55",
+  "lat": 55.60622,
+  "lng": 37.70495,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "shkola-budushchego-na-taganke": {
+  "address": "Большой Факельный переулок, 23",
+  "lat": 55.7413,
+  "lng": 37.66845,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "shlyuzovaya-2": {
+  "address": "Шлюзовая набережная, 2/1 с3",
+  "lat": 55.7322,
+  "lng": 37.642,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "shmitovskiy-34": {
+  "address": "Шмитовский проезд, 34 с7",
+  "lat": 55.75735,
+  "lng": 37.52783,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "shosse-entuziastov-46": {
+  "address": "шоссе Энтузиастов (дублёр), 46",
+  "lat": 55.75835,
+  "lng": 37.75512,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "sidney-siti": {
+  "address": "улица Шеногина, 2",
+  "lat": 55.76473,
+  "lng": 37.50994,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "silika": {
+  "address": "3-й Силикатный проезд, 1 к1",
+  "lat": 55.7702,
+  "lng": 37.4962,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "simonovskiy-val-9-k2": {
+  "address": "улица Симоновский Вал, 9",
+  "lat": 55.72592,
+  "lng": 37.66453,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "simvol": {
+  "address": "улица Золоторожский вал, строение 31, вл. 11",
+  "lat": 55.75111,
+  "lng": 37.69409,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "siti-bey": {
+  "address": "ш Волоколамское, д. 97",
+  "lat": 55.82968,
+  "lng": 37.4044,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "sivtsev-vrazhek-36-18": {
+  "address": "переулок Сивцев Вражек, 36/18",
+  "lat": 55.74708,
+  "lng": 37.58851,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "skhodnenskiy-16": {
+  "address": "Сходненский тупик, 16",
+  "lat": 55.83101,
+  "lng": 37.42836,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "slava": {
+  "address": "",
+  "lat": 55.7808,
+  "lng": 37.5816,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "slobodskoy-6": {
+  "address": "Слободской переулок, 6 с15",
+  "lat": 55.75823,
+  "lng": 37.68195,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "smirnovskaya-1": {
+  "address": "Смирновская улица, 1/4",
+  "lat": 55.73879,
+  "lng": 37.70628,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "sobytie": {
+  "address": "",
+  "lat": 55.69455,
+  "lng": 37.4764,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "sokolinn-park": {
+  "address": "3-я Гражданская улица, 1",
+  "lat": 55.81398,
+  "lng": 37.70414,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "solos": {
+  "address": "",
+  "lat": 55.7913,
+  "lng": 37.6576,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "soul": {
+  "address": "Часовая улица, 28",
+  "lat": 55.8126,
+  "lng": 37.5191,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "south-gate": {
+  "address": "проспект Андропова, 20 с1",
+  "lat": 55.69042,
+  "lng": 37.66363,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "soymonovskiy": {
+  "address": "Соймоновский проезд, 7 с1",
+  "lat": 55.74361,
+  "lng": 37.60343,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "soyuz": {
+  "address": "Сельскохозяйственная улица, 26",
+  "lat": 55.8389,
+  "lng": 37.63954,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "springs": {
+  "address": "Малая Филёвская улица, 46",
+  "lat": 55.73471,
+  "lng": 37.45061,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "sreda-na-kutuzovskom": {
+  "address": "ул Ивана Франко, корпус 1",
+  "lat": 55.72827,
+  "lng": 37.43427,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "stakhanovskaya": {
+  "address": "Стахановская улица, 18",
+  "lat": 55.72009,
+  "lng": 37.7533,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "stantsiya-l": {
+  "address": "ул Люблинская, д. 76А",
+  "lat": 55.66497,
+  "lng": 37.7335,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "starokashirskoe-2": {
+  "address": "Старокаширское шоссе, 2",
+  "lat": 55.66124,
+  "lng": 37.62611,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "staroobryadcheskaya-28a": {
+  "address": "Старообрядческая улица, 28А с1",
+  "lat": 55.74368,
+  "lng": 37.69959,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "staropetrovskiy-atrium": {
+  "address": "Старопетровский проезд, 11 к1",
+  "lat": 55.82413,
+  "lng": 37.50454,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "starovagankovskiy": {
+  "address": "Староваганьковский переулок, 17 с4",
+  "lat": 55.75109,
+  "lng": 37.60595,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "start": {
+  "address": "Город Жуковский, Улица Гагарина, д. 81/1",
+  "lat": 55.6082,
+  "lng": 38.0808,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "staryy-petrovsko-razumovskiy-1-23": {
+  "address": "Старый Петровско-Разумовский проезд, 1/23 с8",
+  "lat": 55.80005,
+  "lng": 37.56402,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "stone-rise": {
+  "address": "улица Золоторожский Вал, строение 32-34, вл. 11",
+  "lat": 55.7496,
+  "lng": 37.6849,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "stone-savelovskaya": {
+  "address": "улица Двинцев, 3",
+  "lat": 55.79665,
+  "lng": 37.59523,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "stoun-park-pobedy": {
+  "address": "улица Неверовского, 8",
+  "lat": 55.73963,
+  "lng": 37.51187,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "strana-ozernaya": {
+  "address": "д. 1, корпус 2",
+  "lat": 55.6708,
+  "lng": 37.4431,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "strana-parkovaya": {
+  "address": "",
+  "lat": 55.91905,
+  "lng": 37.73745,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "strana-zarechnaya": {
+  "address": "",
+  "lat": 55.6564,
+  "lng": 37.7248,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "streletskaya-ofisy": {
+  "address": "Стрелецкая улица, 2 с1",
+  "lat": 55.79547,
+  "lng": 37.59768,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "stremlenie-k-svetu": {
+  "address": "Илимская улица, 1Б/3",
+  "lat": 55.88934,
+  "lng": 37.57167,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "streshnevo": {
+  "address": "ш Волоколамское, корпус 2, вл. 81, блок-секция Башня Юг, Башня Запад, подземны",
+  "lat": 55.82593,
+  "lng": 37.41313,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "strogino-360": {
+  "address": "",
+  "lat": 55.7918,
+  "lng": 37.39157,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "stromynka-20": {
+  "address": "улица Стромынка, 20",
+  "lat": 55.79385,
+  "lng": 37.69995,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "stroykombinata-2": {
+  "address": "проезд Стройкомбината, 2",
+  "lat": 55.68312,
+  "lng": 37.44941,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "stupinskiy-7": {
+  "address": "Ступинский проезд, 7",
+  "lat": 55.5915,
+  "lng": 37.63267,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "sukharevka": {
+  "address": "Малая Сухаревская площадь, 6 с1",
+  "lat": 55.77215,
+  "lng": 37.62935,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "sushchevskiy-val-5": {
+  "address": "улица Сущёвский Вал, 5",
+  "lat": 55.79333,
+  "lng": 37.59121,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "suvorovskaya-2-1-k-2": {
+  "address": "Суворовская улица, 2/1 к1",
+  "lat": 55.78868,
+  "lng": 37.71008,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "svet": {
+  "address": "ш Дмитровское, вл. 87, блок-секция Блок -секция Корп. Н+подземная часть",
+  "lat": 55.86145,
+  "lng": 37.5455,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "symphony-34": {
+  "address": "2-я Хуторская улица, 34",
+  "lat": 55.8057,
+  "lng": 37.57048,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "sytinskiy-tupik-6": {
+  "address": "Сытинский тупик, 6",
+  "lat": 55.76389,
+  "lng": 37.6002,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "talisman-na-rokossovskogo": {
+  "address": "Открытое шоссе, 14Д",
+  "lat": 55.81409,
+  "lng": 37.74076,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "tankovyy-4": {
+  "address": "Танковый проезд, 4 с23",
+  "lat": 55.75564,
+  "lng": 37.68695,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "tatarskaya-35": {
+  "address": "Большая Татарская улица, 35 с3",
+  "lat": 55.73753,
+  "lng": 37.63546,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "tate": {
+  "address": "Веткина улица, 2",
+  "lat": 55.80457,
+  "lng": 37.62083,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "tatum": {
+  "address": "улица Обручева, 27 к1",
+  "lat": 55.6575,
+  "lng": 37.53615,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "teatralnyy-kvartal": {
+  "address": "ул Расплетина, корпус ГР-1",
+  "lat": 55.79101,
+  "lng": 37.47857,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "telegraf": {
+  "address": "Тверская улица, 7",
+  "lat": 55.75831,
+  "lng": 37.61164,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "tessinskiy-v": {
+  "address": "Тессинский переулок, 5 с1",
+  "lat": 55.7507,
+  "lng": 37.6493,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "timura-frunze-11": {
+  "address": "улица Тимура Фрунзе, 11 c1",
+  "lat": 55.73617,
+  "lng": 37.58545,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "tishinskiy-bulvar": {
+  "address": "",
+  "lat": 55.7715,
+  "lng": 37.5747,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "tpu-lianozovo": {
+  "address": "Дубнинская улица, 81",
+  "lat": 55.89139,
+  "lng": 37.55558,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "tpu-lukhmanovskaya": {
+  "address": "Лухмановская улица, 2",
+  "lat": 55.71182,
+  "lng": 37.89854,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "tpu-michurinskiy-prospekt": {
+  "address": "Мичуринский проспект, 45",
+  "lat": 55.6881,
+  "lng": 37.4843,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "tpu-nikolaevskaya": {
+  "address": "проезд Черепановых, 64 к1",
+  "lat": 55.84471,
+  "lng": 37.54849,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "tpu-novopeschanaya": {
+  "address": "улица Куусинена, 21",
+  "lat": 55.78982,
+  "lng": 37.5096,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "tpu-pechatniki": {
+  "address": "Люблинская улица, 22/2",
+  "lat": 55.69506,
+  "lng": 37.73334,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "tpu-presnya": {
+  "address": "1-й Силикатный проезд, 13",
+  "lat": 55.76786,
+  "lng": 37.51044,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "tpu-rostokino": {
+  "address": "проспект Мира, 222/1 с1",
+  "lat": 55.84067,
+  "lng": 37.66814,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "tramplin": {
+  "address": "Ярцевская улица, 25А",
+  "lat": 55.74103,
+  "lng": 37.41545,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "triniti": {
+  "address": "Дмитровское шоссе, 75",
+  "lat": 55.85597,
+  "lng": 37.5566,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "tsandera-14": {
+  "address": "улица Цандера, 14",
+  "lat": 55.82011,
+  "lng": 37.63111,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "tsnii-delfin": {
+  "address": "Озёрная улица, 42",
+  "lat": 55.66989,
+  "lng": 37.4398,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "tsvetnoy-30-32-34": {
+  "address": "Цветной бульвар, 30 с1",
+  "lat": 55.77227,
+  "lng": 37.62253,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "tsvetnoy-30-32-34-16866": {
+  "address": "Цветной бульвар, 30 с1",
+  "lat": 55.77227,
+  "lng": 37.62253,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "tts-ekstrim": {
+  "address": "Смольная улица, 63Б",
+  "lat": 55.86999,
+  "lng": 37.46984,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "tts-tishinka": {
+  "address": "Тишинская площадь, 1 с1",
+  "lat": 55.76912,
+  "lng": 37.58325,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "tts-yuzhnyy": {
+  "address": "Кировоградская улица, 9 к4",
+  "lat": 55.62195,
+  "lng": 37.61153,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "tushino-2018": {
+  "address": "",
+  "lat": 55.8143,
+  "lng": 37.4322,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "tushinskiy-mashinostroitelnyy-zavod": {
+  "address": "улица Свободы, 35",
+  "lat": 55.84124,
+  "lng": 37.45252,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "tvardovskogo-18": {
+  "address": "улица Твардовского, 18 к2",
+  "lat": 55.79897,
+  "lng": 37.4107,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "tverskaya-10": {
+  "address": "Тверская улица, 10",
+  "lat": 55.76297,
+  "lng": 37.60835,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "tverskaya-30-2": {
+  "address": "Тверская улица, 30/2 с5-6",
+  "lat": 55.76938,
+  "lng": 37.59754,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "twelve": {
+  "address": "Электролитный проезд, 12Б",
+  "lat": 55.67092,
+  "lng": 37.61676,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "udaltsova-85a": {
+  "address": "улица Удальцова, 85А",
+  "lat": 55.68167,
+  "lng": 37.49115,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "univer": {
+  "address": "улица Миклухо-Маклая, 16/10 к22",
+  "lat": 55.64679,
+  "lng": 37.5081,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "upside-towers": {
+  "address": "Огородный проезд, 2",
+  "lat": 55.80996,
+  "lng": 37.61001,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "usacheva-22": {
+  "address": "Усачёва улица, 22",
+  "lat": 55.72772,
+  "lng": 37.56996,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "uspenskiy-5": {
+  "address": "Успенский переулок, 5 с1",
+  "lat": 55.7694,
+  "lng": 37.60827,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "uzory": {
+  "address": "2-й Вражский переулок, 8",
+  "lat": 55.7391,
+  "lng": 37.5742,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "vagonoremont": {
+  "address": "Дубнинская улица, 77",
+  "lat": 55.88785,
+  "lng": 37.55592,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "varshavskie-vorota": {
+  "address": "Варшавское шоссе (дублёр), 141",
+  "lat": 55.5861,
+  "lng": 37.6005,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "varshavskoe-14": {
+  "address": "Варшавское шоссе, 14 с14",
+  "lat": 55.6954,
+  "lng": 37.61743,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "varshavskoe-37": {
+  "address": "Варшавское шоссе, 37",
+  "lat": 55.68834,
+  "lng": 37.62356,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "varshavskoe-5": {
+  "address": "Варшавское шоссе, 5",
+  "lat": 55.70119,
+  "lng": 37.62279,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "varshavskoe-shosse-170e": {
+  "address": "Варшавское шоссе (дублёр), 170Е",
+  "lat": 55.57992,
+  "lng": 37.58878,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "vauxhall": {
+  "address": "",
+  "lat": 55.7268,
+  "lng": 37.6438,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "vavilova-5": {
+  "address": "улица Вавилова, 41/5",
+  "lat": 55.69445,
+  "lng": 37.56722,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "vavilova-64-1": {
+  "address": "улица Вавилова, 64/1 с3",
+  "lat": 55.68387,
+  "lng": 37.54932,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "vavilova-66": {
+  "address": "улица Вавилова, 66",
+  "lat": 55.68311,
+  "lng": 37.54916,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "vavilova-9a-str-1-2": {
+  "address": "улица Вавилова, 9А с8",
+  "lat": 55.69975,
+  "lng": 37.5915,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "verkhnyaya-krasnoselskaya-11a": {
+  "address": "Верхняя Красносельская улица, 11А с4",
+  "lat": 55.78469,
+  "lng": 37.66317,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "verkhnyaya-radishchevskaya-5": {
+  "address": "Верхняя Радищевская улица, 5",
+  "lat": 55.74484,
+  "lng": 37.64912,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "vern": {
+  "address": "проспект Вернадского (дублёр), 10",
+  "lat": 55.6872,
+  "lng": 37.5226,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "vernadskogo-62": {
+  "address": "проспект Вернадского, 62",
+  "lat": 55.67574,
+  "lng": 37.49547,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "vernadskogo-6v": {
+  "address": "проспект Вернадского (дублёр), 6В",
+  "lat": 55.69193,
+  "lng": 37.53221,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "vernissage": {
+  "address": "улица Щипок, 9/26 с1",
+  "lat": 55.7235,
+  "lng": 37.6351,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "very": {
+  "address": "ул Ботаническая, корпус 6, вл. 29",
+  "lat": 55.8333,
+  "lng": 37.59307,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "very-miklukho-maklaya-23": {
+  "address": "улица Миклухо-Маклая, 23",
+  "lat": 55.64985,
+  "lng": 37.51271,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "veshnikh-vod-8": {
+  "address": "улица Вешних Вод, 8 к1",
+  "lat": 55.86021,
+  "lng": 37.69911,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "vesper": {
+  "address": "Бережковская набережная, 20",
+  "lat": 55.73329,
+  "lng": 37.55174,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "vesterdam": {
+  "address": "",
+  "lat": 55.69957,
+  "lng": 37.46713,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "vilyuyskaya-3": {
+  "address": "Вилюйская улица, 3 с1",
+  "lat": 55.88354,
+  "lng": 37.6266,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "vinogradovskie-bani": {
+  "address": "2-й Вражский переулок, 5",
+  "lat": 55.73872,
+  "lng": 37.57233,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "vishnevaya-7": {
+  "address": "Вишнёвая улица, 7",
+  "lat": 55.82974,
+  "lng": 37.44604,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "vishnevyy-sad": {
+  "address": "Мосфильмовская улица, 1",
+  "lat": 55.72243,
+  "lng": 37.53271,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "voice-towers": {
+  "address": "",
+  "lat": 55.7204,
+  "lng": 37.728,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "volgogradskiy-130": {
+  "address": "Волгоградский проспект (дублёр), 130 к1",
+  "lat": 55.70221,
+  "lng": 37.78364,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "volgogradskiy-32": {
+  "address": "Волгоградский проспект, 32",
+  "lat": 55.72193,
+  "lng": 37.69515,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "volokolamskoe-32": {
+  "address": "Волоколамское шоссе, 32",
+  "lat": 55.81315,
+  "lng": 37.47773,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "volokolamskoe-71-22": {
+  "address": "Волоколамское шоссе (дублёр), 71/22 к1",
+  "lat": 55.82181,
+  "lng": 37.4386,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "volokolamskoe-shosse-24": {
+  "address": "Волоколамское шоссе, 24 к1",
+  "lat": 55.81287,
+  "lng": 37.48393,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "volzhskiy-park": {
+  "address": "1-й Грайвороновский проезд, 3",
+  "lat": 55.71967,
+  "lng": 37.72286,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "vorontsovo-pole-10": {
+  "address": "улица Воронцово Поле, 10 с15",
+  "lat": 55.75152,
+  "lng": 37.65289,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "vozdvizhenka-7-6-str-6": {
+  "address": "улица Воздвиженка, 7/6 с1",
+  "lat": 55.75232,
+  "lng": 37.60542,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "vtoroy-nagatinskiy": {
+  "address": "2-й Нагатинский проезд, 2/2 к2",
+  "lat": 55.67607,
+  "lng": 37.64007,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "vyatskaya-41a": {
+  "address": "Вятская улица, 41А",
+  "lat": 55.80053,
+  "lng": 37.58148,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "vysokovoltnyy-1a": {
+  "address": "Высоковольтный проезд, 1А",
+  "lat": 55.87423,
+  "lng": 37.59036,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "vysotka-na-zhukova": {
+  "address": "улица Демьяна Бедного, 24",
+  "lat": 55.78025,
+  "lng": 37.48802,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "wave": {
+  "address": "улица Борисовские Пруды, 1 с10",
+  "lat": 55.63657,
+  "lng": 37.7091,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "will-towers": {
+  "address": "",
+  "lat": 55.709,
+  "lng": 37.4928,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "wowmanskaya": {
+  "address": "Бауманская улица, 16 с1",
+  "lat": 55.77549,
+  "lng": 37.6762,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "yaroslavskaya-12": {
+  "address": "Ярославская улица, 12 с2",
+  "lat": 55.82271,
+  "lng": 37.6496,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "yasenevaya-14b": {
+  "address": "Ясеневая улица, 14Б",
+  "lat": 55.59951,
+  "lng": 37.73167,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "yauza-khleb": {
+  "address": "проспект Мира, 220А с1",
+  "lat": 55.83941,
+  "lng": 37.66485,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "yauza-park": {
+  "address": "",
+  "lat": 55.91024,
+  "lng": 37.75884,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "your-majesty": {
+  "address": "Большой Лёвшинский переулок, 19 с2",
+  "lat": 55.74128,
+  "lng": 37.58562,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "yunosti-9-15": {
+  "address": "улица Юности, 9",
+  "lat": 55.72757,
+  "lng": 37.80621,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "yuzhnoportovaya-3-3a": {
+  "address": "Южнопортовая улица, 3 с6",
+  "lat": 55.7067,
+  "lng": 37.6876,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "yuzhnoportovyy-siti": {
+  "address": "Южнопортовая улица, 3 с6",
+  "lat": 55.7067,
+  "lng": 37.6876,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "yuzhnye-sady": {
+  "address": "",
+  "lat": 55.5483,
+  "lng": 37.519,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "yuzhnyy-port": {
+  "address": "Южнопортовая улица, 21 с7",
+  "lat": 55.70127,
+  "lng": 37.70831,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "yuzhnyy-port-2-y-yuzhnoportovyy-10": {
+  "address": "2-й Южнопортовый проезд, 10 с4",
+  "lat": 55.69876,
+  "lng": 37.69125,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "zagorevskaya-4": {
+  "address": "Загорьевская улица, 4",
+  "lat": 55.57879,
+  "lng": 37.67334,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "zareche": {
+  "address": "Шоссейная улица, 90 с57",
+  "lat": 55.6653,
+  "lng": 37.71413,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "zarechnaya": {
+  "address": "Иловайская улица, 3 с18",
+  "lat": 55.66519,
+  "lng": 37.73331,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "zatsepa-21": {
+  "address": "улица Зацепа, 21",
+  "lat": 55.72957,
+  "lng": 37.63303,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "zavod-fereyn": {
+  "address": "Нагатинская улица, 1",
+  "lat": 55.68293,
+  "lng": 37.62454,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "zavod-kazakova": {
+  "address": "Кутузовский проспект (дублёр), 36",
+  "lat": 55.74092,
+  "lng": 37.52443,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "zdanie-sev": {
+  "address": "улица Новый Арбат, 36",
+  "lat": 55.754,
+  "lng": 37.57677,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "zelenaya-vertikal": {
+  "address": "ш Варшавское, корпус 11",
+  "lat": 55.58203,
+  "lng": 37.57997,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "zelenyy-park": {
+  "address": "",
+  "lat": 55.96403,
+  "lng": 37.1679,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "zemlyanoy-val-59": {
+  "address": "улица Земляной Вал, 59",
+  "lat": 55.74902,
+  "lng": 37.65783,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "zhivopisnaya-27": {
+  "address": "Живописная улица, 27",
+  "lat": 55.79887,
+  "lng": 37.45004,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "zhukov-8": {
+  "address": "Жуков проезд, 8",
+  "lat": 55.72192,
+  "lng": 37.64444,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "zikkurat-preobrazhenskiy": {
+  "address": "Большая Черкизовская улица, 4 к1",
+  "lat": 55.7947,
+  "lng": 37.7178,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "zil-vostok": {
+  "address": "2-й Кожуховский проезд, 29 к2с16",
+  "lat": 55.6984,
+  "lng": 37.65849,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "zil-yug": {
+  "address": "Даниловский район, улица Автозаводская, вл. 23/71",
+  "lat": 55.69044,
+  "lng": 37.64322,
+  "precision": "building",
+  "source": "ЕИСЖС (наш.дом.рф)"
+ },
+ "zorge-25": {
+  "address": "улица Зорге, 25",
+  "lat": 55.79506,
+  "lng": 37.50378,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "zorge-3": {
+  "address": "улица Зорге, 3",
+  "lat": 55.77963,
+  "lng": 37.51186,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ },
+ "zubovskaya-14-2": {
+  "address": "Зубовская улица, 14/2 с1",
+  "lat": 55.73765,
+  "lng": 37.58275,
+  "precision": "building",
+  "source": "OpenStreetMap"
+ }
+}

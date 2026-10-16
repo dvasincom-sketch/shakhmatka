@@ -61,6 +61,7 @@ export async function getLandings(): Promise<Landing[]> {
 export const CARD_SELECT = {
   name: true, slug: true, zu: true, stage: true, region: true, district: true, class: true, priceFrom: true, priceM2From: true,
   priceAsOf: true, completion: true, developer: true, lastEventAt: true, signalCount: true, gallery: true,
+  address: true, lat: true, lng: true, geoPrecision: true,
 } as const
 
 /** Объекты для карточек: без хронологии, застройщики подставляются одним запросом (depth 1 на сотнях объектов медленный) */

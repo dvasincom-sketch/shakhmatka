@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { LocCover } from './loc-cover'
 import { SearchBox } from './search-box'
 import { NavLinks } from './nav'
 import { ruDate, typo } from './markdown'
@@ -153,7 +154,7 @@ export function ObjectCard({ o, im: fallback }: { o: Obj & { cover?: Media }; im
   const last = o.lastEventAt ? new Date(o.lastEventAt) : null
   return (
     <Link className="ocard card" href={`/obekty/${o.slug}/`}>
-      <div className={`ph${im?.url ? '' : ' ph-empty'}`}>{im?.url ? <img src={im.url} alt={im.alt} loading="lazy" /> : null}</div>
+      <div className={`ph${im?.url ? '' : ' ph-empty'}`}>{im?.url ? <img src={im.url} alt={im.alt} loading="lazy" /> : o.region === 'moscow' ? <LocCover district={o.district} lat={o.lat} lng={o.lng} /> : null}</div>
       <div className="tx">
         <div className="row"><StageStrip stage={o.stage} /><span className="st">{stageLabel(o.stage)}</span>{last ? <span className="st when">{MONTHS_SHORT[last.getUTCMonth()]} {last.getUTCFullYear()}</span> : null}</div>
         <h3>{o.name}</h3>

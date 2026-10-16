@@ -271,6 +271,17 @@ export interface Object {
    * Главный идентификатор объекта в базе
    */
   zu?: string | null;
+  /**
+   * Официальный адрес, как в разрешении или проектной декларации
+   */
+  address?: string | null;
+  lat?: number | null;
+  lng?: number | null;
+  geoPrecision?: ('building' | 'street' | 'area') | null;
+  /**
+   * ЕИСЖС, OpenStreetMap, вручную
+   */
+  geoSource?: string | null;
   aliases?:
     | {
         value?: string | null;
@@ -769,6 +780,11 @@ export interface ObjectsSelect<T extends boolean = true> {
   name?: T;
   slug?: T;
   zu?: T;
+  address?: T;
+  lat?: T;
+  lng?: T;
+  geoPrecision?: T;
+  geoSource?: T;
   aliases?:
     | T
     | {

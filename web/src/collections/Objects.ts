@@ -58,6 +58,25 @@ export const Objects: CollectionConfig = {
     { name: 'name', label: 'Название', type: 'text', required: true },
     { name: 'slug', label: 'Slug (URL)', type: 'text', required: true, unique: true, index: true, admin: { description: '/obekty/<slug>/' } },
     { name: 'zu', label: 'Адрес земельного участка (ЗУ)', type: 'text', admin: { description: 'Главный идентификатор объекта в базе' } },
+    {
+      type: 'collapsible', label: 'Адрес и точка на карте', admin: { initCollapsed: true },
+      fields: [
+        { name: 'address', label: 'Почтовый адрес', type: 'text', admin: { description: 'Официальный адрес, как в разрешении или проектной декларации' } },
+        {
+          type: 'row',
+          fields: [
+            { name: 'lat', label: 'Широта', type: 'number', admin: { width: '25%', step: 0.000001 } },
+            { name: 'lng', label: 'Долгота', type: 'number', admin: { width: '25%', step: 0.000001 } },
+            { name: 'geoPrecision', label: 'Точность', type: 'select', admin: { width: '25%' }, options: [
+              { label: 'Здание или участок', value: 'building' },
+              { label: 'Улица', value: 'street' },
+              { label: 'Район / квартал', value: 'area' },
+            ] },
+            { name: 'geoSource', label: 'Источник точки', type: 'text', admin: { width: '25%', description: 'ЕИСЖС, OpenStreetMap, вручную' } },
+          ],
+        },
+      ],
+    },
     { name: 'aliases', label: 'Другие названия', type: 'array', fields: [{ name: 'value', label: 'Название', type: 'text' }] },
     { name: 'region', label: 'Регион', type: 'text', defaultValue: 'moscow' },
     { name: 'district', label: 'Район', type: 'text' },

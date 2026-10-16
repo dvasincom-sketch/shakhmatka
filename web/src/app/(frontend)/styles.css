@@ -1282,3 +1282,10 @@ a.pill-q:hover, a.zu:hover { background: var(--line); }
 /* страховка от горизонтальной прокрутки на телефоне: длинное слово или кнопка не должны раздвигать страницу (clip не ломает sticky-шапку) */
 html, body { overflow-x: clip; }
 .more { max-width: 100%; }
+
+/* обложка без фото: фрагмент карты района */
+.ph .loc { width: 100%; height: 100%; display: block; background: var(--soft); }
+.loc-n { fill: color-mix(in srgb, var(--panel) 70%, var(--soft)); stroke: var(--line); stroke-linejoin: round; }
+.loc-on { fill: var(--sun-soft); stroke: color-mix(in srgb, var(--orange) 60%, var(--line)); stroke-linejoin: round; }
+.loc-halo { fill: color-mix(in srgb, var(--orange) 22%, transparent); }
+.loc-pt { fill: var(--orange); stroke: var(--panel); }

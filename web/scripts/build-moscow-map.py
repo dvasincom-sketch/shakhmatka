@@ -101,8 +101,11 @@ ts = ['// Сгенерировано web/scripts/build-moscow-map.py из гра
       'export type MapDistrict = { k: string; n: string; o: string; d: string; c: [number, number]; b: [number, number, number, number] }',
       'export type MapOkrug = { o: string; d: string; c: [number, number]; b: [number, number, number, number] }',
       f'export const MAP_W = {W}', f'export const MAP_H = {H}',
+      f'/** Проекция широты и долготы в координаты карты: x = (lng − lon0) · k · sc, y = (latMax − lat) · sc */',
+      f'export const MAP_PROJ = {{ lon0: {LON0!r}, latMax: {LATMAX!r}, k: {K!r}, sc: {SC!r} }}',
       f'export const MAP_VIEWS: Record<"old" | "all", [number, number, number, number]> = {json.dumps(VIEWS)}',
       f'export const MAP_DISTRICTS: MapDistrict[] = {json.dumps(districts, ensure_ascii=False, separators=(",", ":"))}',
-      f'export const MAP_OKRUGS: MapOkrug[] = {json.dumps(okrugs, ensure_ascii=False, separators=(",", ":"))}', '']
+      f'export const MAP_OKRUGS: MapOkrug[] = {json.dumps(okrugs, ensure_ascii=False, separators=(",", ":"))}', '',
+      'export const projectLL = (lat: number, lng: number): [number, number] => [(lng - MAP_PROJ.lon0) * MAP_PROJ.k * MAP_PROJ.sc, (MAP_PROJ.latMax - lat) * MAP_PROJ.sc]', '']
 open(OUT, 'w', encoding='utf-8').write('\n'.join(ts))
 print(f'{len(districts)} районов, {len(okrugs)} округов, {os.path.getsize(OUT)//1024} КБ → {OUT}')

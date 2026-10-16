@@ -34,19 +34,20 @@ job() {
 }
 
 if [ "$SEED_ON_START" = "1" ]; then
-  # порядок: районы → досье → статьи → факты → досье ещё раз (хронология объектам, созданным статьями) → фото досье → застройщики → словарь
+  # порядок: районы → досье → статьи → факты → досье ещё раз (хронология объектам, созданным статьями) → фото досье → адреса и точки → застройщики → словарь
   # импорт идёт в фоне, сайт отвечает сразу; повторный запуск безопасен (обновляет по slug)
   (
     sleep 20
     echo "→ импорт контента"
-    job seed:places && job seed:dossiers && job seed && job seed:facts && job seed:dossiers && job seed:photos && job seed:developers && job seed:terms \
+    job seed:places && job seed:dossiers && job seed && job seed:facts && job seed:dossiers && job seed:photos && job seed:geo && job seed:developers && job seed:terms \
       && echo "✓ импорт контента завершён — поставьте SEED_ON_START=0" || echo "✗ импорт контента завершился с ошибкой"
     job media:restore || echo "✗ проверка фото завершилась с ошибкой"
     job search:index || echo "✗ поисковый индекс не собран — сайт ищет по базе"
   ) &
 else
   # фото: если записи в базе есть, а файлов в хранилище нет — дозагрузить из content/ (с S3 после первого раза это быстрая проверка)
-  ( sleep 20; job media:restore || echo "✗ проверка фото завершилась с ошибкой"; job search:index || echo "✗ поисковый индекс не собран — сайт ищет по базе" ) &
+  # адреса и точки объектов из content/objects/geo.json: обновляются только изменившиеся, без изменений — быстрая проверка
+  ( sleep 20; job seed:geo || echo "✗ точки объектов не обновлены"; job media:restore || echo "✗ проверка фото завершилась с ошибкой"; job search:index || echo "✗ поисковый индекс не собран — сайт ищет по базе" ) &
 fi
 
 echo "→ сайт на порту ${PORT:-3000}"
