@@ -53,7 +53,7 @@ for slug, district, region in db.execute('select slug, district, region from obj
 
 out, rej, review = {}, [], []
 lines = []
-for fn in ('raw.tsv', 'raw2.tsv'):  # raw2 — второй проход: адреса из текста досье, поиск по названию ЖК в OSM, адреса из каталогов
+for fn in ('raw.tsv', 'raw2.tsv', 'raw3.tsv'):  # raw2 — второй проход: адреса из текста досье, поиск по названию ЖК в OSM, адреса из каталогов
     fp = os.path.join(os.path.dirname(__file__), fn)
     if os.path.exists(fp): lines += open(fp, encoding='utf-8').read().splitlines()
 for line in lines:

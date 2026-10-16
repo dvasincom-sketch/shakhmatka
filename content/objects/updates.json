@@ -1,4 +1,5 @@
 {
+ "_readme": "Свежие события и поправки объектов после проверки по открытым источникам. Загружает web/src/seed/object-updates.ts (npm run seed:updates), формат описан в web/src/seed/_updates.ts. source и weak (слабый источник: агрегатор, форум — сверить с наш.дом.рф) остаются здесь, на сайте не показываются; note — для редакции.",
  "le-dome": {
   "checked": "2026-10-15",
   "stage": "completed",
@@ -200,5 +201,426 @@
    }
   ],
   "note": "Проект реализует MR Group, а не Hutton (слух из досье от 23.01.2023 подтвердился): в поле developer нужно поставить MR Group. Концепция «Цимайло, Ляшенко и партнёры» (ЦЛП) совпадает с событием от 23.01.2023. Ввод (ожидался в III квартале 2025 года, ключи в марте 2026-го) на mos.ru не нашёл: бюджет поиска исчерпан, проверить отдельно. Если ввод был, стадия должна быть completed. Расхождение в базе: дом стоит в Мещанском районе, а не в Дорогомилове; событие от 30.03.2023 про участок на Кутузовском, скорее всего, привязано к «Форуму» ошибочно. Второе событие взято из журнала Яндекс Недвижимости, это каталог; цены там на февраль 2025 года."
+ },
+ "ilmenskiy-17": {
+  "checked": "2026-10-16",
+  "stage": "completed",
+  "events": [
+   {
+    "date": "2020-02-13",
+    "kind": "sales",
+    "title": "ПИК открыл продажи в корпусах 3 и 4 «Ильменского, 17», минимальный бюджет — 4,6 млн руб.",
+    "source": "https://www.novostroy-m.ru/novosti/v_korpusah_3_i"
+   },
+   {
+    "date": "2021-09-10",
+    "kind": "permit",
+    "title": "Корпуса 1 и 2 «Ильменского, 17» получили разрешение на ввод",
+    "source": "https://kvartirny-control.ru/mos/zhk-ilmenskij-17/"
+   },
+   {
+    "date": "2021-09-24",
+    "kind": "permit",
+    "title": "Корпуса 3 и 4 «Ильменского, 17» введены в эксплуатацию",
+    "source": "https://kvartirny-control.ru/mos/zhk-ilmenskij-17/"
+   },
+   {
+    "date": "2021-12-20",
+    "kind": "permit",
+    "title": "Введены последние корпуса 5 и 6, строительство «Ильменского, 17» завершено",
+    "source": "https://kvartirny-control.ru/mos/zhk-ilmenskij-17/"
+   }
+  ],
+  "note": "Застройщиком по документам числится «М.СТРОЙ», вероятно, это проектная компания ПИК."
+ },
+ "dolgorukovskaya-25": {
+  "checked": "2026-10-16",
+  "stage": "completed",
+  "events": [
+   {
+    "date": "2021-10-01",
+    "dateLabel": "IV кв. 2021",
+    "kind": "construction",
+    "title": "Срок сдачи клубного дома сдвинут на IV квартал 2021 года против II квартала 2020 года на старте",
+    "source": "https://www.cian.ru/kupit-kvartiru-zhiloy-kompleks-dolgorukovskaya-25-48693/",
+    "weak": true
+   },
+   {
+    "date": "2022-06-28",
+    "kind": "construction",
+    "title": "«БЭЛ Девелопмент» открыл клубный дом: почти все апартаменты проданы, в продаже остаются пентхаусы",
+    "source": "https://snob.ru/profile/401632/blog/1006177/"
+   },
+   {
+    "date": "2026-04-08",
+    "kind": "sales",
+    "title": "Застройщик продал пентхаус площадью 230 м² с террасой, в продаже осталось по одному лоту в каждом корпусе",
+    "source": "https://www.russianrealty.ru/tidings/company/1029274/"
+   },
+   {
+    "date": "2026-10-07",
+    "dateLabel": "октябрь 2026",
+    "kind": "price",
+    "title": "Последний пентхаус от застройщика (237,4 м²) выставлен за 593,5 млн руб., это 2,5 млн руб./м²",
+    "source": "https://www.novostroy-m.ru/baza/apartkompleks_dolgorukovskaya_25"
+   }
+  ],
+  "note": "Число апартаментов в источниках расходится: 42 или 46. Дата РВЭ не найдена."
+ },
+ "l-club": {
+  "checked": "2026-10-16",
+  "stage": "completed",
+  "events": [
+   {
+    "date": "2021-10-01",
+    "dateLabel": "октябрь 2021",
+    "kind": "price",
+    "title": "К вводу дома средняя цена в L'Club выросла примерно до 300 тыс. руб./м² — почти вдвое к старту продаж",
+    "source": "https://kvartirny-control.ru/mos/zhk-tpu-lyublino/",
+    "weak": true
+   },
+   {
+    "date": "2021-10-25",
+    "kind": "permit",
+    "title": "Дом L'Club на Совхозной улице, 10Б, у метро «Люблино» получил разрешение на ввод",
+    "source": "https://kvartirny-control.ru/mos/zhk-tpu-lyublino/"
+   },
+   {
+    "date": "2021-11-01",
+    "dateLabel": "ноябрь 2021",
+    "kind": "construction",
+    "title": "В L'Club началась выдача ключей дольщикам",
+    "source": "https://pronovostroy.ru/topic/32069-%D0%BF%D1%80%D0%B8%D1%91%D0%BC%D0%BA%D0%B0-%D0%B2%D1%8B%D0%B4%D0%B0%D1%87%D0%B0-%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%B9-%D0%B2-%D0%B6%D0%BA-%C2%ABl-club%C2%BB/page-5",
+    "weak": true
+   }
+  ],
+  "note": "ПРОВЕРИТЬ ЗАСТРОЙЩИКА: в источниках указаны ООО «ТПУ Люблино» и «Центр-Инвест», а не MR Group."
+ },
+ "now-kvartal-na-naberezhnoy": {
+  "checked": "2026-10-16",
+  "stage": "completed",
+  "events": [
+   {
+    "date": "2020-01-14",
+    "kind": "sales",
+    "title": "Tekta Group открыла продажи второй очереди NOW (9 корпусов, более 500 лотов), ввод обещан в IV кв. 2021",
+    "source": "https://www.novostroy-m.ru/novosti/now_kvartal_na_naberejnoy"
+   },
+   {
+    "date": "2022-03-29",
+    "kind": "sales",
+    "title": "Tekta продала все 1212 квартир первой очереди NOW, ввод второй очереди перенесён на конец 2022 года",
+    "source": "https://tekta.ru/news/tekta-group-zavershila-realizatsiyu-kvartir-v-pervoy-ocheredi-kvartala-now"
+   },
+   {
+    "date": "2022-03-31",
+    "kind": "permit",
+    "title": "Первая очередь NOW введена: 12 корпусов, 1212 квартир, 72,2 тыс. м²",
+    "source": "https://www.mskagency.ru/materials/3200407"
+   },
+   {
+    "date": "2023-07-03",
+    "kind": "permit",
+    "title": "Мосгосстройнадзор выдал разрешение на ввод второй очереди NOW (7 корпусов, 587 квартир): примерно на полтора года позже первого обещания",
+    "source": "https://tekta.ru/news/zhizn-na-naberezhnoy-vtoraya-ochered-kvartala-now-poluchila-razreshenie-na-vvod-v-ekspluatatsiyu"
+   }
+  ],
+  "note": "Нового после ввода не найдено: судов, банкротств и проблемного статуса нет (поиск 16.10.2026)."
+ },
+ "myata": {
+  "checked": "2026-10-16",
+  "stage": "completed",
+  "events": [
+   {
+    "date": "2023-03-27",
+    "kind": "permit",
+    "title": "Апарт-комплекс «Мята» на 1-й Магистральной, 25, получил разрешение на ввод — с опозданием на квартал",
+    "source": "https://www.novostroy-m.ru/baza/klubnyy_dom_myata"
+   },
+   {
+    "date": "2023-06-20",
+    "kind": "deal",
+    "title": "«Самолёт» объявил о покупке ГК МИЦ — застройщика «Мяты»",
+    "source": "https://realty.rbc.ru/amp/news/6491651e9a7947740a0432f4"
+   },
+   {
+    "date": "2023-10-16",
+    "kind": "deal",
+    "title": "«Самолёт» закрыл сделку и получил 100% ГК МИЦ вместе с обязательствами перед покупателями",
+    "source": "https://finance.rambler.ru/business/51598803-gruppa-samolet-kupila-developera-mits/"
+   }
+  ],
+  "note": "Застройщик теперь входит в группу «Самолёт» (ООО СЗ «Магистральная-25»)."
+ },
+ "eleven": {
+  "checked": "2026-10-16",
+  "stage": "completed",
+  "events": [
+   {
+    "date": "2022-04-21",
+    "kind": "permit",
+    "title": "РСТИ получил разрешение на ввод дома Eleven на Звенигородском шоссе, 11: 88 квартир и 2 пентхауса",
+    "source": "https://rsti.ru/spb/press/news/439"
+   },
+   {
+    "date": "2022-04-21",
+    "kind": "sales",
+    "title": "На момент ввода в Eleven оставалось непроданными 12 из 90 лотов",
+    "source": "https://spb.aif.ru/money/realty/dizaynerskiy_dom_eleven_vveden_v_ekspluataciyu"
+   },
+   {
+    "date": "2024-02-11",
+    "kind": "other",
+    "title": "В стилобате Eleven открылся Crocus Fitness на 3 тыс. м²",
+    "source": "https://style.rbc.ru/repost/65cb56d69a79473a97f5b0a4"
+   }
+  ],
+  "note": "Адрес: Звенигородское шоссе, 11. Застройщик — АО «Хлебозавод № 16 (СЗ)», холдинг РСТИ."
+ },
+ "40-let-oktyabrya-7": {
+  "checked": "2026-10-16",
+  "stage": "completed",
+  "events": [
+   {
+    "date": "2020-09-01",
+    "dateLabel": "сентябрь 2020",
+    "kind": "sales",
+    "title": "«Расцветай» открыл продажи дома на проспекте 40 лет Октября, 7, продажи через эскроу",
+    "source": "https://mskguru.ru/novostroyki/4537-zhk-rascvetajj-v-lyublino"
+   },
+   {
+    "date": "2022-07-01",
+    "dateLabel": "III кв. 2022",
+    "kind": "permit",
+    "title": "Дом «Расцветай в Люблино» на 112 квартир введён в эксплуатацию, квартиры распроданы",
+    "source": "https://m2.ru/moskva/novostroyki/zhk-rastsvetai-v-lyublino-8666/",
+    "weak": true
+   }
+  ],
+  "aliases": [
+   "Расцветай в Люблино"
+  ],
+  "note": "Маркетинговое название — «Расцветай в Люблино» (112 квартир, 14 этажей). Добавить псевдоним."
+ },
+ "lesoparkovyy": {
+  "checked": "2026-10-16",
+  "stage": "completed",
+  "events": [
+   {
+    "date": "2020-11-26",
+    "kind": "permit",
+    "title": "Инград ввёл последние корпуса 6 и 7 ЖК «Лесопарковый» (566 квартир, детсад на 140 мест), проект завершён",
+    "source": "https://www.mskagency.ru/materials/3064359"
+   }
+  ],
+  "district": "chertanovo-yuzhnoe",
+  "summary": "«Лесопарковый» — проект застройщика «Инград» у метро «Лесопарковая» на Варшавском шоссе (район Чертаново Южное).",
+  "note": "ИСПРАВИТЬ РАЙОН: Чертаново Южное (Варшавское шоссе, 168), а не Южное Бутово."
+ },
+ "level-streshnevo": {
+  "checked": "2026-10-16",
+  "stage": "completed",
+  "events": [
+   {
+    "date": "2022-02-01",
+    "kind": "architecture",
+    "title": "Level Group и UNK project показали новую очередь: 24-этажную башню «Восток» и пять таунхаусов",
+    "source": "https://www.novostroy-m.ru/kompanii/level_group/news/zdanie_po_forme_napominayuschee"
+   },
+   {
+    "date": "2022-06-02",
+    "kind": "permit",
+    "title": "Level Group получила разрешение на ввод башен «Юг» и «Запад» (252 и 254 апартамента)",
+    "source": "https://www.novostroy-m.ru/kompanii/level_group/news/levelgroup_vvela_dvakorpusa_"
+   },
+   {
+    "date": "2022-11-07",
+    "kind": "permit",
+    "title": "Введена башня «Север» (287 апартаментов, 95 м), достройку комплекса перенесли на 2024 год",
+    "source": "https://mskguru.ru/news/9538-v-zhk-level-streshnevo-sdan-korpus-sever"
+   },
+   {
+    "date": "2024-09-01",
+    "dateLabel": "сентябрь 2024",
+    "kind": "permit",
+    "title": "Введён второй этап — башня «Восток» и таунхаусы, выдача ключей с 21 сентября",
+    "source": "https://t.me/s/levelru?before=2882"
+   }
+  ],
+  "note": "Застройщик продолжает продавать коммерческие помещения."
+ },
+ "n74": {
+  "checked": "2026-10-16",
+  "stage": "completed",
+  "events": [
+   {
+    "date": "2021-12-30",
+    "kind": "permit",
+    "title": "Дом «Н74» на Нижегородской, 74, получил разрешение на ввод № 77-167000-010580-2021",
+    "source": "https://novostroev.ru/novostroyki/moskva/uvao/nizhegorodskiy/n74/"
+   },
+   {
+    "date": "2022-01-01",
+    "dateLabel": "2022",
+    "kind": "sales",
+    "title": "Все квартиры в «Н74» распроданы",
+    "source": "https://mskguru.ru/novostroyki/1275-zhk-nizhegorodskaja-74",
+    "weak": true
+   }
+  ],
+  "note": "Проверить пометку Новострой-М «Фонд реновации»: подтверждений не нашлось."
+ },
+ "bolshaya-ochakovskaya-2": {
+  "checked": "2026-10-16",
+  "stage": "completed",
+  "events": [
+   {
+    "date": "2020-10-15",
+    "kind": "sales",
+    "title": "ПИК открыл продажи корпусов 1.1 и 1.4 «Большой Очаковской, 2» от 6 млн руб.",
+    "source": "https://www.novostroy-m.ru/novosti/nachalic_prodaji_novogo_obema"
+   },
+   {
+    "date": "2021-12-06",
+    "kind": "permit",
+    "title": "ПИК получил РНС на два 33-этажных корпуса второй очереди (640 квартир, ввод в 2024)",
+    "source": "https://m2.ru/media/article/v-zhk-bolshaya-ochakovskaya-2-nachnyotsya-stroitelstvo-dvukh-novikh-korpusov/"
+   },
+   {
+    "date": "2022-02-16",
+    "kind": "permit",
+    "title": "Выдано РНС на детский сад на 200 мест во втором этапе",
+    "source": "https://www.novostroy-m.ru/kompanii/pik_gk/news/bolshayaochakovskaya2_postroyat_detskiy_sad"
+   },
+   {
+    "date": "2024-08-07",
+    "kind": "construction",
+    "title": "Корпуса 1.1–1.3 сданы, в 1.4 идёт приёмка квартир",
+    "source": "https://h-cons.ru/stati/priemka-kvartiry-v-zhk-bolshaya-ochakovskaya-2",
+    "weak": true
+   },
+   {
+    "date": "2024-10-23",
+    "kind": "permit",
+    "title": "Опубликовано РВЭ № 77-07-012207-2024, предположительно на вторую очередь",
+    "source": "https://novostroev.ru/novostroyki/moskva/zao/ochakovo-matveevskoe/na-ul-bolshaya-ochakovskaya-vl-2/",
+    "weak": true
+   }
+  ],
+  "note": "Нового после ввода не найдено: судов, банкротств и проблемного статуса нет (поиск 16.10.2026)."
+ },
+ "arkhitektor": {
+  "checked": "2026-10-16",
+  "stage": "completed",
+  "events": [
+   {
+    "date": "2024-12-11",
+    "kind": "permit",
+    "title": "ФСК получила РВЭ ЖК «Архитектор» (три башни до 47 этажей, 1502 квартиры) — на год позже обещанного IV кв. 2023",
+    "source": "https://fsk.ru/about/news/gk-fsk-postroila-neboskreb-s-ob-emnymi-fasadami-na-yugo-zapade-moskvy"
+   },
+   {
+    "date": "2026-10-01",
+    "dateLabel": "октябрь 2026",
+    "kind": "price",
+    "title": "В сданном «Архитекторе» продаются остатки: двухкомнатная от 24,8 млн руб.",
+    "source": "https://www.novostroy-m.ru/baza/jk_arhitektor",
+    "weak": true
+   }
+  ],
+  "note": "Сданы, но остатки ещё продаются: можно оставить «в продаже» со сроком сдачи."
+ },
+ "pervyy-lermontovskiy": {
+  "checked": "2026-10-16",
+  "stage": "completed",
+  "events": [
+   {
+    "date": "2022-06-01",
+    "dateLabel": "лето 2022",
+    "kind": "construction",
+    "title": "Первые два корпуса «1-го Лермонтовского» в Люберцах введены в эксплуатацию",
+    "source": "https://riamo.ru/news/nedvizhimost/v-lyubertsah-aktivno-stroyat-tri-korpusa-i-shkolu-na-1-5-tys-mest-v-zhk-1-j-lermontovskij/"
+   },
+   {
+    "date": "2024-01-18",
+    "kind": "construction",
+    "title": "Корпуса 3.1 и 4.1 (1830 квартир) поставлены на кадастр, началась передача квартир",
+    "source": "https://riamo.ru/news/nedvizhimost/dva-korpusa-v-zhk-1-j-lermontovskij-lyuberets-poluchili-kadastrovye-nomera/"
+   },
+   {
+    "date": "2024-05-08",
+    "kind": "construction",
+    "title": "Школу на 1500 мест поставили на кадастр, открытие запланировано на 1 сентября 2024 года",
+    "source": "https://riamo.ru/news/nedvizhimost/shkolu-na-15-tys-mest-v-zhk-1-j-lermontovskij-ljuberets-postavili-na-kadastr/"
+   },
+   {
+    "date": "2024-07-01",
+    "dateLabel": "2024",
+    "kind": "construction",
+    "title": "Сдан последний, пятый корпус (Рождественская, 12): жилая часть завершена",
+    "source": "https://m2.ru/moskovskaya-oblast/novostroyki/lyubertsy/zhk-1-i-lermontovskii-8898/",
+    "weak": true
+   }
+  ],
+  "note": "Сданы все корпуса и школа, остатки продаются."
+ },
+ "novokhokhlovskaya-15": {
+  "checked": "2026-10-16",
+  "stage": "completed",
+  "events": [
+   {
+    "date": "2021-06-23",
+    "kind": "sales",
+    "title": "Опубликована декларация на корпуса 3 и 4: стартовал второй этап",
+    "source": "https://www.novostroy-m.ru/baza/jk_novohohlovskaya15",
+    "weak": true
+   },
+   {
+    "date": "2022-01-01",
+    "dateLabel": "2022",
+    "kind": "construction",
+    "title": "Сдан корпус 1 (683 квартиры)",
+    "source": "https://m2.ru/moskva/novostroyki/zhk-novokhokhlovskaya-15-8908/",
+    "weak": true
+   },
+   {
+    "date": "2023-01-01",
+    "dateLabel": "2023",
+    "kind": "permit",
+    "title": "Два 33-этажных корпуса второго этапа получили РВЭ, проект завершён и распродан",
+    "source": "https://uznai.mos.ru/catalog/4559_novoxoxlovskaya_15",
+    "weak": true
+   }
+  ],
+  "note": "Нового после ввода не найдено: судов, банкротств и проблемного статуса нет (поиск 16.10.2026)."
+ },
+ "talisman-na-rokossovskogo": {
+  "checked": "2026-10-16",
+  "stage": "completed",
+  "events": [
+   {
+    "date": "2021-03-09",
+    "kind": "sales",
+    "title": "3S Group опубликовала первую декларацию и открыла продажи «Талисмана» — после срыва старта в 2020 году",
+    "source": "https://www.novostroy-m.ru/baza/jk_talisman_na_rokossovskogo",
+    "weak": true
+   },
+   {
+    "date": "2023-08-25",
+    "kind": "permit",
+    "title": "Дом на 803 квартиры на Открытом шоссе получил разрешение на ввод",
+    "source": "https://anydom.ru/novostroyka/zhk-talisman-na-rokossovskogo",
+    "weak": true
+   },
+   {
+    "date": "2026-09-01",
+    "dateLabel": "сентябрь 2026",
+    "kind": "price",
+    "title": "Квартиры в «Талисмане» перепродают в среднем по 583 тыс. руб./м², втрое дороже стартовых цен",
+    "source": "https://zhk-talisman-na-rokossovskogo-i.cian.ru/",
+    "weak": true
+   }
+  ],
+  "note": "Дату РВЭ 25.08.2023 нужно сверить с наш.дом.рф."
  }
 }
