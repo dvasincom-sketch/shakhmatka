@@ -1,10 +1,6 @@
 import { monthGen } from '@/lib/months'
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import { autolink, getAutolinks } from '@/lib/autolink'
-import { priceCheck, zoneOf } from '@/lib/class-method'
-import { MOSCOW_DISTRICTS } from '@/lib/districts'
-import { FollowButton } from '@/lib/follow-button'
 import { notFound } from 'next/navigation'
 import { getPayload } from 'payload'
 import config from '@payload-config'
@@ -12,9 +8,6 @@ import { ArticleCard, SITE, STAGES, StageTrack, devName, coverOf } from '@/lib/u
 import type { Developer, Media, Object as Obj } from '@/payload-types'
 import { pub } from '@/lib/public'
 import { CLASS_LABELS, districtName, priceText, regionName } from '@/lib/geo'
-import { CLASS_SOURCES } from '@/lib/classes'
-import { bureausOf } from '@/lib/architects'
-import { TROUBLE_BADGE, troubleOf } from '@/lib/trouble'
 import { START_PRICES } from '@/lib/start-prices'
 import { typo } from '@/lib/markdown'
 import { JsonLd } from '@/lib/jsonld'
@@ -22,7 +15,7 @@ import { getUser } from '@/lib/auth'
 import { GalleryEditor } from '@/lib/staff'
 import { ObjGallery } from '@/lib/obj-gallery'
 import { relFor } from '@/lib/markdown'
-import { signalHref, signalSlugs, isSnapshot, outcomeLabel } from '@/lib/signals'
+import { signalHref, signalSlugs } from '@/lib/signals'
 
 // Страницы собираются на запрос: в Docker-сборке нет доступа к базе, а данные должны быть свежими
 export const dynamic = 'force-dynamic'
@@ -47,10 +40,7 @@ async function load(slug: string) {
   const arts = (await payload.find({ collection: 'articles', where: pub({ objects: { contains: o.id } }), sort: '-datePublished', limit: 50, depth: 1 })).docs
   const key = o.region === 'moscow' && o.district ? o.district : o.region || ''
   const place = (await payload.find({ collection: 'places', where: { key: { equals: key } }, limit: 1 })).docs[0]
-  const clsSrc = o.class ? CLASS_SOURCES[o.slug] : undefined
-  const classTerm = o.class ? (await payload.find({ collection: 'terms', where: { and: [{ slug: { equals: 'klass-zhilya' } }, { published: { equals: true } }] }, limit: 1, depth: 0 })).docs[0] : undefined
-  const troubleTerm = (await payload.find({ collection: 'terms', where: { and: [{ slug: { equals: 'problemnyy-proekt' } }, { published: { equals: true } }] }, limit: 1, depth: 0 })).docs[0]
-  return { o, arts, place, clsSrc, classTerm, troubleTerm }
+  return { o, arts, place }
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
@@ -70,28 +60,19 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 export default async function ObjectPage({ params }: { params: Promise<{ slug: string }> }) {
   const d = await load((await params).slug)
   if (!d) notFound()
-  const { o, arts, place, clsSrc, classTerm, troubleTerm } = d
+  const { o, arts, place } = d
   const user = await getUser()
   const dev = o.developer as Developer | undefined
   const prev = (o.previousDevelopers || []) as Developer[]
   const i = STAGES.findIndex((s) => s.value === o.stage)
   const gallery = ((o.gallery || []) as Media[]).filter((m) => m?.url)
   const heroPick = gallery.length ? gallery : [coverOf(arts.find((a) => coverOf(a.heroImage))?.heroImage)].filter((m): m is Media => !!m?.url)
-  const pics = heroPick.map((m) => ({ id: m.id, url: m.sizes?.wide?.url || m.url!, thumb: m.sizes?.card?.url || m.url!, alt: m.alt, caption: m.caption, width: m.sizes?.wide?.width || m.width, height: m.sizes?.wide?.height || m.height }))
+  const pics = heroPick.map((m) => ({ id: m.id, url: m.url!, thumb: m.sizes?.card?.url || m.url!, alt: m.alt, caption: m.caption, width: m.width, height: m.height }))
   const hero = gallery[0] || coverOf(arts.find((a) => coverOf(a.heroImage))?.heroImage)
   const price = priceText(o)
   const sp = START_PRICES.find((r) => r.slug === o.slug)
   const where = place?.name || (o.region === 'moscow' ? districtName(o.district) || 'Москва' : regionName(o.region))
-  // класс сверяем с ценой по методике «Шахматки» (коридоры ₽/м² для ЦАО, остальной Москвы и Новой Москвы)
-  const clsCheck = o.region === 'moscow' ? priceCheck(o.class, o.priceM2From, zoneOf(o.district ? MOSCOW_DISTRICTS[o.district]?.okrug : null)) : null
-  // досье без событий больше трёх лет (кроме сданных) — помечаем как требующее обновления
-  const last = (o.lastEventAt as string | null) || (o.timeline || []).map((t) => t.date).sort().pop() || null
-  const stale = !!last && o.stage !== 'completed' && Date.now() - +new Date(last) > 3 * 365.25 * 864e5
   const timeline = [...(o.timeline || [])].sort((a, b) => +new Date(a.date) - +new Date(b.date))
-  // автоссылки на застройщиков, бюро и объекты: каждая страница — один раз на досье
-  const links = await getAutolinks()
-  const linked = new Set<string>()
-  const esc = (x: string) => x.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
   const years = [...new Set(timeline.map((t) => (t.dateLabel && /до/.test(t.dateLabel) ? t.dateLabel : String(year(t.date)))))]
   const firstSale = timeline.find((t) => t.kind === 'sales' && /старт/i.test(t.title))
   const neighbors = o.neighbors || []
@@ -122,35 +103,13 @@ export default async function ObjectPage({ params }: { params: Promise<{ slug: s
       <div className="obj-head">
         <div>
           <h1 className="page-h tt">{o.name}{dev ? <span>{devName(dev.name)}</span> : null}</h1>
-          <FollowButton kind="object" id={o.slug} label={o.name} hint="Пришлём письмо, когда в досье появятся новые события, сигналы или материалы." />
-          {stale ? <p className="obj-stale" role="note"><b>Давно нет новостей.</b> Последнее событие в досье — {monthYear(last!)}, больше трёх лет назад. Стадия и сроки могли измениться: досье стоит в очереди редакции на проверку. Знаете, что сейчас происходит с проектом? Напишите нам.</p> : null}
-          {o.summary ? <p className="obj-sum" dangerouslySetInnerHTML={{ __html: autolink(typo(esc(o.summary), true), links, { self: `/obekty/${o.slug}/`, used: linked }) }} /> : null}
+          {o.summary ? <p className="obj-sum">{typo(o.summary)}</p> : null}
           <div className="zus">
             {o.zu ? <Link className="zu" href={`/poisk/?q=${encodeURIComponent(o.zu)}`} title="Найти всё по адресу участка"><b>ЗУ</b>{o.zu}</Link> : null}
             {(o.aliases || []).filter((a) => a.value && a.value !== o.zu && a.value !== o.name).map((a) => <Link key={a.id} className="pill pill-q" href={`/poisk/?q=${encodeURIComponent(a.value!)}`} title="Другое название — найти упоминания">{a.value}</Link>)}
             {dev ? <Link className="pill" href={`/zastroyshchiki/${dev.slug}/`}>{devName(dev.name)}</Link> : null}
             {prev.map((p) => <Link key={p.id} className="pill" href={`/zastroyshchiki/${p.slug}/`}>ранее {devName(p.name)}</Link>)}
           </div>
-          {(() => {
-            const tr = troubleOf(o.slug)
-            if (!tr) return null
-            const ym = (x: string | null, M = MONTHS) => (x ? (x.length > 4 ? `${M[+x.slice(5, 7) - 1]} ${x.slice(0, 4)}` : `${x} год`) : '')
-            return (
-              <section className={`trouble card tr-${tr.status}`} aria-label="Проблемы проекта">
-                <p className="tr-h"><b>{TROUBLE_BADGE[tr.status]}</b><span>{tr.label}{tr.since ? ` · с ${ym(tr.since).replace(' год', ' года')}` : ''}{tr.status === 'resolved' && tr.resolvedOn ? ` · решено: ${ym(tr.resolvedOn, MONTHS_N)}` : ''}</span></p>
-                <p className="tr-sum">{typo(tr.summary)}</p>
-                {tr.facts.length ? (
-                  <ol className="tr-facts">
-                    {tr.facts.map((f, k) => <li key={k}><time>{f.date.length > 4 ? f.date.slice(0, 7).split('-').reverse().join('.') : f.date}</time><span>{typo(f.text)} <a className="muted-link" href={f.source} target="_blank" rel={relFor(f.source)}>источник</a></span></li>)}
-                  </ol>
-                ) : null}
-                <small>Проверено по открытым источникам {tr.checked.split('-').reverse().join('.')}{troubleTerm ? <> · <Link className="muted-link" href="/slovar/problemnyy-proekt/">как мы отмечаем</Link></> : null}</small>
-              </section>
-            )
-          })()}
-          {bureausOf(o.slug).length ? (
-            <p className="obj-arch"><span>Архитекторы</span>{bureausOf(o.slug).map((b) => <Link key={b.key} className="pill" href={`/arhitektory/${b.key}/`}>{b.name}</Link>)}</p>
-          ) : null}
           {i >= 0 ? (
             <section className="stage card"><div className="row"><span className="num">{i + 1}<span className="fr">/6</span></span><p className="lbl">Стадия<b>{STAGES[i].label}</b></p></div><StageTrack stage={o.stage} /></section>
           ) : null}
@@ -159,17 +118,7 @@ export default async function ObjectPage({ params }: { params: Promise<{ slug: s
             {!price && firstSale ? <div><dt>В продаже</dt><dd>с {MONTHS[new Date(firstSale.date).getUTCMonth()]} {year(firstSale.date)}</dd><small>старт продаж</small></div> : null}
             {sp ? <div><dt>На старте → сейчас</dt><dd><Link href="/ceny-na-starte/">{sp.changePct > 0 ? '+' : ''}{Math.round(sp.changePct)}%</Link></dd><small>от {sp.start.lot_from.toLocaleString('ru-RU')} → от {sp.now.lot_from.toLocaleString('ru-RU')} млн ₽ с {sp.start.date.slice(0, 4)} года</small></div> : null}
             {o.completion ? <div><dt>Ввод</dt><dd>{o.completion}</dd></div> : null}
-            {o.class ? (
-              <div>
-                <dt>Класс</dt>
-                <dd><Link href={`/obekty/?class=${o.class}`}>{CLASS_LABELS[o.class] || o.class}</Link></dd>
-                <small>
-                  {clsSrc?.b === 'article' ? 'проверен редакцией' : clsSrc?.b === 'catalog' ? 'заявлен в каталогах' : 'заявлен застройщиком'}
-                  {clsCheck ? <> · <span className={clsCheck.ok ? '' : 'cls-warn'}>{clsCheck.text}</span></> : null}
-                  {classTerm ? <>{' · '}<Link className="muted-link" href="/slovar/klass-zhilya/">методика Шахматки</Link></> : null}
-                </small>
-              </div>
-            ) : null}
+            {o.class ? <div><dt>Класс</dt><dd>{CLASS_LABELS[o.class] || o.class}</dd></div> : null}
             <div><dt>Где</dt><dd>{place ? <Link href={`/novostroyki/${place.slug}/`}>{where}</Link> : where}</dd>{o.region === 'moscow' && o.district ? <small>{place?.okrug ? `${place.okrug}, ` : ''}Москва</small> : null}</div>
             {signals.length ? <div><dt>Сигналы</dt><dd><a href="#sig">{signals.length}</a></dd><small><a className="muted-link" href="#sig">{confirmed ? `${confirmed} уже подтвердились` : 'до официальных новостей'} →</a></small></div> : null}
             {o.legalEntity ? <div><dt>Застройщик по документам</dt><dd className="sm">{o.legalEntity}</dd></div> : null}
@@ -203,7 +152,7 @@ export default async function ObjectPage({ params }: { params: Promise<{ slug: s
           <div className="sec-h"><h2 id="h-sig" className="tt">Сигналы<span>{confirmed ? `${confirmed} из ${signals.length} подтвердились` : 'что говорили до официальных новостей'}</span></h2><Link className="more" href="/signaly/">Все сигналы</Link></div>
           <ol className="sig-mini">
             {[...signals].reverse().map((t) => (
-              <li key={t.id}><Link href={signalHref(sigSlugs.get(t.id!) || '')}><time dateTime={t.date.slice(0, 10)}>{dayMonth(t.date)} {year(t.date)}</time><span>{t.outcome && !isSnapshot(t) ? 'Участники рынка говорили: ' : ''}{typo(t.title)}</span>{t.confirmedOn ? <em className="tl-conf">подтвердилось</em> : t.outcome ? <em className={isSnapshot(t) ? 'tl-snap' : 'tl-unc'}>{outcomeLabel(t)}</em> : null}</Link></li>
+              <li key={t.id}><Link href={signalHref(sigSlugs.get(t.id!) || '')}><time dateTime={t.date.slice(0, 10)}>{dayMonth(t.date)} {year(t.date)}</time><span>{t.outcome ? 'Участники рынка говорили: ' : ''}{typo(t.title)}</span>{t.confirmedOn ? <em className="tl-conf">подтвердилось</em> : t.outcome ? <em className="tl-unc">не подтвердилось</em> : null}</Link></li>
             ))}
           </ol>
         </section>
@@ -227,11 +176,11 @@ export default async function ObjectPage({ params }: { params: Promise<{ slug: s
                           <span className="tl-kind">{KIND[t.kind || 'other']}</span>
                           {t.certainty === 'signal' ? <span className="tl-sig">Сигнал</span> : null}
                           {t.confirmedOn ? <span className="tl-conf">подтвердилось: {monthYear(t.confirmedOn)}</span> : null}
-                          {t.outcome ? (isSnapshot(t) ? <span className="tl-snap" title="Цена или темп продаж на дату сигнала">срез на дату</span> : <span className="tl-unc">{outcomeLabel(t)}{t.checkedOn ? ` на ${monthYear(t.checkedOn)}` : ''}</span>) : null}
+                          {t.outcome ? <span className="tl-unc">{t.outcome === 'refuted' ? 'опровергнуто' : 'не подтвердилось'}{t.checkedOn ? ` на ${monthYear(t.checkedOn).replace(/^\S+/, (m) => m)}` : ''}</span> : null}
                           {t.verified ? <span className="tl-ok">сверено</span> : null}
                         </div>
                         <div className="tl-body">
-                          <p className="tl-t">{t.outcome ? <span className="tl-said">Участники рынка говорили: </span> : null}{t.certainty === 'signal' && t.id && sigSlugs.get(t.id) ? <Link href={signalHref(sigSlugs.get(t.id)!)}>{typo(t.title)}</Link> : <span dangerouslySetInnerHTML={{ __html: autolink(typo(esc(t.title), true), links, { self: `/obekty/${o.slug}/`, used: linked, max: 1 }) }} />}</p>
+                          <p className="tl-t">{t.outcome ? <span className="tl-said">Участники рынка говорили: </span> : null}{t.certainty === 'signal' && t.id && sigSlugs.get(t.id) ? <Link href={signalHref(sigSlugs.get(t.id)!)}>{typo(t.title)}</Link> : typo(t.title)}</p>
                           {t.text ? <p className="tl-x">{typo(t.text)}</p> : null}
                           {im?.url ? <figure className="tl-fig"><img src={im.url} alt={im.alt} loading="lazy" />{im.caption ? <figcaption>{im.caption}</figcaption> : null}</figure> : null}
                         </div>

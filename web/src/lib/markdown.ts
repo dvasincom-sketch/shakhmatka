@@ -25,8 +25,6 @@ export function renderArticle(md: string, opts: { skipImage?: string; resolve?: 
   html = html.replace(/<p><img src="([^"]+)" alt="([^"]*)"><\/p>/g, '<figure class="fig"><img src="$1" alt="$2" loading="lazy"></figure>')
   html = html.replace(/<h2>([\s\S]*?)<\/h2>/g, (_m, t: string) => `<h2 id="${anchor(t.replace(/&[a-z]+;/g, ''))}">${t}</h2>`)
   html = html.replace(/<table>/g, '<div class="tbl card"><table>').replace(/<\/table>/g, '</table></div>')
-  // короткие ячейки (даты, цифры) не переносим, длинные — переносим на широком экране
-  html = html.replace(/<td([^>]*)>([^<]{1,22})<\/td>/g, (_m, a: string, t: string) => `<td${a} class="nw">${t}</td>`)
   // голая ссылка → название сайта: «e-disclosure.ru» вместо длинного URL
   html = html.replace(/<a href="(https?:\/\/[^"]+)">([^<]+)<\/a>/g, (m, href: string, text: string) => {
     if (text !== href && !text.startsWith('http')) return m

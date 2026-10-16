@@ -56,6 +56,7 @@ export const Articles: CollectionConfig = {
               options: [
                 { label: 'Объект', value: 'object' }, { label: 'Застройщик', value: 'developer' }, { label: 'Рынок', value: 'market' },
                 { label: 'Регулирование', value: 'regulation' }, { label: 'Архитектура', value: 'architecture' },
+                { label: 'Интерьер', value: 'interior' },
               ],
             },
             { name: 'region', label: 'Регион', type: 'text', defaultValue: 'moscow' },

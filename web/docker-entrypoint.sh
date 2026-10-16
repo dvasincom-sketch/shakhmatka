@@ -34,20 +34,21 @@ job() {
 }
 
 if [ "$SEED_ON_START" = "1" ]; then
-  # порядок: районы → досье → статьи → факты → досье ещё раз (хронология объектам, созданным статьями) → фото досье → адреса и точки → застройщики → словарь
+  # порядок: районы → досье → статьи → факты → досье ещё раз (хронология объектам, созданным статьями) → свежие события из updates.json → фото досье → адреса и точки → застройщики → словарь
   # импорт идёт в фоне, сайт отвечает сразу; повторный запуск безопасен (обновляет по slug)
   (
     sleep 20
     echo "→ импорт контента"
-    job seed:places && job seed:dossiers && job seed && job seed:facts && job seed:dossiers && job seed:photos && job seed:photos-remote && job seed:geo && job seed:developers && job seed:terms \
+    job seed:places && job seed:dossiers && job seed && job seed:facts && job seed:dossiers && job seed:updates && job seed:photos && job seed:photos-remote && job seed:geo && job seed:developers && job seed:terms \
       && echo "✓ импорт контента завершён — поставьте SEED_ON_START=0" || echo "✗ импорт контента завершился с ошибкой"
     job media:restore || echo "✗ проверка фото завершилась с ошибкой"
     job search:index || echo "✗ поисковый индекс не собран — сайт ищет по базе"
   ) &
 else
   # фото: если записи в базе есть, а файлов в хранилище нет — дозагрузить из content/ (с S3 после первого раза это быстрая проверка)
+  # свежие события из content/objects/updates.json: уже загруженные пропускаются, без изменений — быстрая проверка
   # адреса и точки объектов из content/objects/geo.json: обновляются только изменившиеся, без изменений — быстрая проверка
-  ( sleep 20; job seed:geo || echo "✗ точки объектов не обновлены"; job seed:photos-remote || echo "✗ фото из открытых источников не загружены"; job media:restore || echo "✗ проверка фото завершилась с ошибкой"; job search:index || echo "✗ поисковый индекс не собран — сайт ищет по базе" ) &
+  ( sleep 20; job seed:updates || echo "✗ свежие события объектов не загружены"; job seed:geo || echo "✗ точки объектов не обновлены"; job seed:photos-remote || echo "✗ фото из открытых источников не загружены"; job media:restore || echo "✗ проверка фото завершилась с ошибкой"; job search:index || echo "✗ поисковый индекс не собран — сайт ищет по базе" ) &
 fi
 
 echo "→ сайт на порту ${PORT:-3000}"

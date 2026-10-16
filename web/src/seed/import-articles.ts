@@ -23,7 +23,7 @@ const iso = (v: unknown) => (v ? new Date(String(v instanceof Date ? v.toISOStri
 async function run() {
   const payload = await initPayload()
   const dir = path.resolve(process.cwd(), process.env.CONTENT_DIR || '../content/articles')
-  const files = fs.readdirSync(dir).filter((f) => /^(\d+|(signaly|obzor|rayon|arhitektory|arhitektura)-\d{4}-\d{2})-.+\.md$/.test(f)).sort()
+  const files = fs.readdirSync(dir).filter((f) => /^(\d+|(signaly|obzor|rayon|arhitektory|arhitektura|interer)-\d{4}-\d{2})-.+\.md$/.test(f)).sort()
   payload.logger.info(`Импорт из ${dir}: ${files.length} файлов`)
 
   const upsert = async (collection: 'developers' | 'objects' | 'articles', slug: string, data: Record<string, unknown>): Promise<{ id: number | string }> => {

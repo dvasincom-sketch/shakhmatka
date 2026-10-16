@@ -1,15 +1,9 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import { FollowButton } from '@/lib/follow-button'
 import { notFound } from 'next/navigation'
 import { getPayload, type Where } from 'payload'
 import config from '@payload-config'
-import { DISTRICT_STATS } from '@/lib/district-stats'
-import { StationLinks, districtStations, lineName } from '@/lib/metro'
-import { BUREAUS } from '@/lib/architects'
-import { TROUBLE, TROUBLE_BADGE } from '@/lib/trouble'
-import { CLASS_LABELS } from '@/lib/geo'
-import { ArticleCard, ObjectCard, SITE, STAGES, StageStrip, stageLabel, coverOf, devName } from '@/lib/ui'
+import { ArticleCard, ObjectCard, SITE, STAGES, StageStrip, stageLabel, coverOf } from '@/lib/ui'
 import { plural } from '@/lib/geo'
 import { cap, faqFor, getAllObjects, getLandings, indexable, metaFor, stats } from '@/lib/landings'
 import { pub } from '@/lib/public'
@@ -43,17 +37,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   }
 }
 
-/** Плашка «Ещё N проектов» под карточками. Варианты (?cta=a|b|c) — на выбор редакции */
-function MoreCta({ variant, n, href, next }: { variant: string; n: number; href: string; next: string[] }) {
-  const word = `${n} ${plural(n, 'проект', 'проекта', 'проектов')}`
-  if (variant === 'a') return <Link className="more-a" href={href}><span className="more-a-t">Ещё {word} <b>→</b></span><small>{next.join(' · ')}{n > next.length ? ' и другие' : ''} — в каталоге с фильтрами</small></Link>
-  if (variant === 'b') return <Link className="more-b" href={href}><span className="more-b-face"><span className="more-b-n">+{n}</span><span className="more-b-x"><b>Ещё {word} в подборке →</b><small>{next.join(' · ')}{n > next.length ? ' и другие' : ''}</small></span></span></Link>
-  if (variant === 'c') return <div className="more-c"><div className="more-c-ghost" aria-hidden="true">{next.map((t) => <div key={t} className="card"><i /><b>{t}</b></div>)}</div><Link className="btn more-c-btn" href={href}>Показать ещё {word} →</Link></div>
-  return <Link className="land-cta card" href={href}><span>Ещё {word}</span><small>все проекты подборки — в каталоге с фильтрами</small></Link>
-}
-
-export default async function LandingPage({ params, searchParams }: { params: Promise<{ slug: string }>; searchParams: Promise<{ cta?: string }> }) {
-  const cta = (await searchParams).cta || ''
+export default async function LandingPage({ params }: { params: Promise<{ slug: string }> }) {
   const d = await load((await params).slug)
   if (!d) notFound()
   const { l, landings, all, objs } = d
@@ -70,7 +54,7 @@ export default async function LandingPage({ params, searchParams }: { params: Pr
   const arts = or.length ? (await payload.find({ collection: 'articles', where: pub({ or }), sort: '-datePublished', limit: 12, depth: 1 })).docs : []
   const img = (id: number) => coverOf(arts.find((a) => (a.objects || []).some((o) => (typeof o === 'object' ? o.id : o) === id) && coverOf(a.heroImage))?.heroImage)
   const { cheapest, priced, soonest } = stats(objs)
-  const faq = faqFor(l, objs, stageLabel, { all, stations: l.group === 'district' ? districtStations(l.key || l.slug).map((s) => s.name) : [] })
+  const faq = faqFor(l, objs, stageLabel)
   const H = cap(l.subject)
   const url = `${SITE}/novostroyki/${l.slug}/`
   const n1 = (x: number) => x.toLocaleString('ru-RU', { maximumFractionDigits: 1 })
@@ -87,8 +71,7 @@ export default async function LandingPage({ params, searchParams }: { params: Pr
       itemListElement: [
         { '@type': 'ListItem', position: 1, name: 'Лента', item: `${SITE}/` },
         { '@type': 'ListItem', position: 2, name: 'Новостройки', item: `${SITE}/novostroyki/` },
-        ...(l.group === 'district' ? [{ '@type': 'ListItem', position: 3, name: 'Москва', item: `${SITE}/novostroyki/moskva/` }] : []),
-        { '@type': 'ListItem', position: l.group === 'district' ? 4 : 3, name: H, item: url },
+        { '@type': 'ListItem', position: 3, name: H, item: url },
       ],
     },
     {
@@ -101,9 +84,8 @@ export default async function LandingPage({ params, searchParams }: { params: Pr
   return (
     <>
       <JsonLd data={ld} />
-      <nav className="crumbs" aria-label="Путь"><Link href="/">Лента</Link><span>/</span><Link href="/novostroyki/">Новостройки</Link><span>/</span>{l.group === 'district' ? <><Link href="/novostroyki/moskva/">Москва</Link><span>/</span></> : null}<span>{l.label}</span></nav>
+      <nav className="crumbs" aria-label="Путь"><Link href="/">Лента</Link><span>/</span><Link href="/novostroyki/">Новостройки</Link><span>/</span><span>{l.label}</span></nav>
       <h1 className="page-h tt">{H}{l.note ? <span>{l.note}</span> : null}</h1>
-      {l.group === 'district' || l.group === 'region' ? <FollowButton kind="place" id={l.key || l.slug} label={l.label} hint="Новые проекты, старты продаж, КРТ и сигналы в этом районе." /> : null}
       {l.intro ? <div className="land-intro">{l.intro.split(/\n\s*\n/).map((p, i) => <p key={i}>{p}</p>)}</div> : null}
 
       {objs.length ? <dl className="land-stats">
@@ -115,43 +97,13 @@ export default async function LandingPage({ params, searchParams }: { params: Pr
         </dd></div>
       </dl> : null}
 
-      {l.group === 'district' && objs.length ? (() => {
-        const ds = DISTRICT_STATS[l.key || '']
-        const devCount = new Map<string, { name: string; slug: string; n: number }>()
-        objs.forEach((o) => { const d = o.developer as { name?: string; slug?: string } | undefined; if (d?.slug) { const c = devCount.get(d.slug) || { name: devName(d.name), slug: d.slug, n: 0 }; c.n++; devCount.set(d.slug, c) } })
-        const topDevs = [...devCount.values()].sort((a, b) => b.n - a.n).slice(0, 5)
-        const slugs = new Set(objs.map((o) => o.slug))
-        const bureaus = BUREAUS.filter((b) => b.kind === 'architecture').map((b) => ({ b, n: b.objects.filter((x) => slugs.has(x.slug)).length })).filter((x) => x.n).sort((a, b) => b.n - a.n).slice(0, 5)
-        const classes = (['comfort', 'business', 'premium', 'deluxe'] as const).map((c) => ({ c, n: objs.filter((o) => o.class === c).length })).filter((x) => x.n)
-        const sig = objs.reduce((s, o) => s + (o.signalCount || 0), 0)
-        const future = objs.filter((o) => ['land', 'concept', 'architecture', 'permit'].includes(o.stage || '')).length
-        const troubled = objs.filter((o) => TROUBLE[o.slug])
-        const lines = ds?.stations ? [...new Set(ds.stations.flatMap((st) => st.lines))] : []
-        const sts = districtStations(l.key || l.slug)
-        return (
-          <section className="sec" aria-labelledby="h-fig">
-            <div className="sec-h"><h2 id="h-fig" className="tt">Район в цифрах<span>по базе Шахматки{ds?.population ? ' и открытым данным' : ''}</span></h2></div>
-            <div className="dfig">
-              {ds?.population ? <div className="card"><p className="f-k">Население</p><p className="dfig-n">{ds.population.toLocaleString('ru-RU')}</p><small>{ds.populationYear}{ds.areaKm2 ? ` · ${String(ds.areaKm2).replace('.', ',')} км² · ${Math.round(ds.population / ds.areaKm2).toLocaleString('ru-RU')} чел./км²` : ''}{ds.populationSource ? <> · <a className="muted-link" href={ds.populationSource} target="_blank" rel="noopener">источник</a></> : null}{ds.note ? <><br />{ds.note}</> : null}</small></div> : null}
-              {ds?.stations?.length ? <div className="card"><p className="f-k">{ds.stations.some((st) => st.system === 'mck') ? (ds.stations.some((st) => st.system === 'metro') ? 'Метро и МЦК' : 'МЦК') : 'Метро'}</p><p className="dfig-n">{sts.length} {plural(sts.length, 'станция', 'станции', 'станций')}</p><StationLinks district={l.slug} stations={sts} /><small>{lines.length} {plural(lines.length, 'линия', 'линии', 'линий')}: {lines.map((x) => lineName(x)).join(', ')}</small></div> : null}
-              <div className="card"><p className="f-k">Будущие проекты</p><p className="dfig-n">{future}</p><small>участки, концепции, архитектура и разрешения — то, что ещё не продаётся</small></div>
-              {sig ? <div className="card"><p className="f-k">Сигналы</p><p className="dfig-n">{sig}</p><small>сообщений о проектах района до официальных новостей</small></div> : null}
-              {topDevs.length ? <div className="card dfig-list"><p className="f-k">Кто строит</p><ol>{topDevs.map((d) => <li key={d.slug}><Link href={`/zastroyshchiki/${d.slug}/`}>{d.name}</Link><b>{d.n}</b></li>)}</ol></div> : null}
-              {classes.length ? <div className="card dfig-list"><p className="f-k">Классы</p><ol>{classes.map((x) => <li key={x.c}><Link href={`/obekty/?geo=moscow&district=${l.key}&class=${x.c}`}>{CLASS_LABELS[x.c]}</Link><b>{x.n}</b></li>)}</ol><small>заявленный класс, есть не у всех проектов</small></div> : null}
-              {bureaus.length ? <div className="card dfig-list"><p className="f-k">Архитекторы</p><ol>{bureaus.map((x) => <li key={x.b.key}><Link href={`/arhitektory/${x.b.key}/`}>{x.b.name}</Link><b>{x.n}</b></li>)}</ol></div> : null}
-              {troubled.length ? <div className="card dfig-list dfig-tr"><p className="f-k">Проблемные и бывшие долгострои</p><ol>{troubled.map((o) => <li key={o.slug}><Link href={`/obekty/${o.slug}/`}>{o.name}</Link><i className={`tr-badge tr-${TROUBLE[o.slug].status}`}>{TROUBLE_BADGE[TROUBLE[o.slug].status]}</i></li>)}</ol></div> : null}
-            </div>
-          </section>
-        )
-      })() : null}
-
       {objs.length ? (
       <section className="sec" aria-labelledby="h-objs">
         <div className="sec-h"><h2 id="h-objs" className="tt">{objs.length} {plural(objs.length, 'проект', 'проекта', 'проектов')}<span>от участка до ключей</span></h2><Link className="more" href={l.catalog}>В каталоге с фильтрами</Link></div>
         {objs.length ? (
           <>
             <div className="obj-grid land-grid">{objs.slice(0, LAND_CARDS).map((o) => <ObjectCard key={o.id} o={o} im={img(o.id)} />)}</div>
-            {objs.length > LAND_CARDS ? <MoreCta variant={cta} n={objs.length - LAND_CARDS} href={l.catalog} next={objs.slice(LAND_CARDS, LAND_CARDS + 4).map((o) => o.name)} /> : null}
+            {objs.length > LAND_CARDS ? <Link className="land-cta card" href={l.catalog}><span>Ещё {objs.length - LAND_CARDS} {plural(objs.length - LAND_CARDS, 'проект', 'проекта', 'проектов')}</span><small>все проекты подборки — в каталоге с фильтрами</small></Link> : null}
           </>
         ) : (
           <div className="empty card"><p>Таких проектов в базе пока нет. Каталог пополняется с каждым проверенным материалом.</p><Link className="btn ghost" href="/obekty/">Все объекты</Link></div>

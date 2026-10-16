@@ -148,7 +148,7 @@ export interface Article {
   body: string;
   heroImage?: (number | null) | Media;
   images?: (number | Media)[] | null;
-  type: 'object' | 'developer' | 'market' | 'regulation' | 'architecture';
+  type: 'object' | 'developer' | 'market' | 'regulation' | 'architecture' | 'interior';
   region?: string | null;
   objects?: (number | Object)[] | null;
   developers?: (number | Developer)[] | null;

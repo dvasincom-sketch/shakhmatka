@@ -18,7 +18,7 @@ export const STAGES: { value: string; label: string }[] = [
   { value: 'land', label: 'Участок' }, { value: 'concept', label: 'Концепция' }, { value: 'architecture', label: 'Архитектура' },
   { value: 'permit', label: 'Разрешение' }, { value: 'sales', label: 'Старт продаж' }, { value: 'completed', label: 'Ввод' },
 ]
-export const TYPES: Record<string, string> = { object: 'Объект', developer: 'Застройщик', market: 'Рынок', regulation: 'Регулирование', architecture: 'Архитектура' }
+export const TYPES: Record<string, string> = { object: 'Объект', developer: 'Застройщик', market: 'Рынок', regulation: 'Регулирование', architecture: 'Архитектура', interior: 'Интерьер' }
 export const devName = (n?: string | null) => (n || '').replace(/\s*\(.*\)$/, '')
 export const stageLabel = (v?: string | null) => STAGES.find((s) => s.value === v)?.label
 
@@ -139,6 +139,10 @@ const MONTHS_SHORT = ['янв.', 'февр.', 'март', 'апр.', 'май', '
 /** Уменьшенная копия для карточек и превью (если её ещё нет — исходник) */
 export const cardImg = (m?: Media | number | null): Media | undefined =>
   m && typeof m === 'object' && m.url ? { ...m, url: m.sizes?.card?.url || m.url } : undefined
+
+/** Облегчённая копия для больших фото — главного в статье и на главной (webp до 1440 px); если её ещё нет — исходник */
+export const wideImg = (m?: Media | number | null): Media | undefined =>
+  m && typeof m === 'object' && m.url ? { ...m, url: m.sizes?.wide?.url || m.url } : undefined
 
 export function ObjectCard({ o, im: fallback }: { o: Obj & { cover?: Media }; im?: Media }) {
   const im = o.cover?.url ? o.cover : fallback

@@ -11,6 +11,7 @@ export const TOPICS: Record<string, { label: string; subject: string }> = {
   mir: { label: 'Мир', subject: 'Мировой опыт: как строят города и что применимо к Москве' },
   obrazovanie: { label: 'Образование', subject: 'Образование: архшколы, профессии и как читать документы проекта' },
   konkursy: { label: 'Конкурсы', subject: 'Архитектурные конкурсы Москвы: кого выбрали и почему' },
+  interer: { label: 'Интерьер', subject: 'Интерьер небольших квартир: идеи для студий и квартир до 40 м²' },
   signaly: { label: 'Сигналы', subject: 'Говорили раньше всех: сигналы рынка и что подтвердилось' },
 }
 export const topicLabel = (s: string) => TOPICS[s]?.label || s.charAt(0).toUpperCase() + s.slice(1)
