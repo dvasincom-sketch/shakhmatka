@@ -18,7 +18,8 @@ ENV NEXT_TELEMETRY_DISABLED=1 \
     NODE_OPTIONS=--max-old-space-size=3072
 ARG NEXT_PUBLIC_SITE_URL=https://шахматка.москва
 ENV NEXT_PUBLIC_SITE_URL=$NEXT_PUBLIC_SITE_URL
-RUN npx next build
+# кэш сборки (.next/cache, сотни МБ) в рабочем образе не нужен — без него образ меньше и быстрее скачивается при деплое
+RUN npx next build && rm -rf .next/cache
 
 FROM node:22-bookworm-slim AS run
 WORKDIR /app/web

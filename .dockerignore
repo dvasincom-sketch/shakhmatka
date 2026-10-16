@@ -15,3 +15,5 @@ site
 notes.tgz
 *.tgz
 .git
+_sync
+pipeline
