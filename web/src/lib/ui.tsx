@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import { LocCover } from './loc-cover'
 import { SearchBox } from './search-box'
 import { NavLinks } from './nav'
 import { ruDate, typo } from './markdown'
@@ -8,7 +7,6 @@ import { districtName, plural, priceText, regionName } from './geo'
 import { ThemeToggle } from './client'
 import * as LOGO from './logo-paths'
 
-import { TROUBLE, TROUBLE_BADGE } from './trouble'
 export const SITE = process.env.NEXT_PUBLIC_SITE_URL || 'https://шахматка.москва'
 /** Open Graph для страницы: openGraph страницы целиком заменяет layout-овый, поэтому повторяем общие поля и добавляем og:url */
 export const ogFor = (url: string, title?: string, description?: string) => ({
@@ -81,7 +79,6 @@ export function Header() {
         <SearchBox />
         <div className="top-tools">
           <Link className="round only-m" href="/poisk/" aria-label="Поиск"><SearchIcon /></Link>
-          <Link className="round" href="/akkaunt/" aria-label="Личный кабинет" title="Личный кабинет: за чем вы следите"><svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><circle cx="9" cy="6.5" r="3" fill="none" stroke="currentColor" strokeWidth="1.6" /><path d="M3.5 15.5c.8-2.8 3-4.2 5.5-4.2s4.7 1.4 5.5 4.2" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" /></svg></Link>
           <ThemeToggle />
         </div>
       </div>
@@ -99,11 +96,11 @@ export function Footer() {
         </div>
         <nav aria-label="Новостройки">
           <b>Новостройки</b>
-          <Link href="/">Лента</Link><Link href="/obekty/">Объекты</Link><Link href="/novostroyki/">Новостройки по районам</Link><Link href="/zastroyshchiki/">Застройщики</Link><Link href="/arhitektory/">Архитектурные бюро</Link><Link href="/ceny-na-starte/">Цены на старте и сейчас</Link>
+          <Link href="/">Лента</Link><Link href="/obekty/">Объекты</Link><Link href="/novostroyki/">Новостройки по районам</Link><Link href="/zastroyshchiki/">Застройщики</Link><Link href="/ceny-na-starte/">Цены на старте и сейчас</Link>
         </nav>
         <nav aria-label="Аналитика и проект">
           <b>Аналитика и проект</b>
-          <Link href="/signaly/">Сигналы</Link><Link href="/krt/">Трекер КРТ</Link><Link href="/razmorozka/">Конкурс «Разморозка»</Link><Link href="/pro/">Шахматка Про</Link><Link href="/o-proekte/">О проекте</Link><Link href="/kabinet/">Вход для редакции</Link>
+          <Link href="/signaly/">Сигналы</Link><Link href="/krt/">Трекер КРТ</Link><Link href="/pro/">Шахматка Про</Link><Link href="/o-proekte/">О проекте</Link><Link href="/kabinet/">Вход для редакции</Link>
         </nav>
         <div>
           <b>Принципы</b>
@@ -125,7 +122,7 @@ export function ArticleCard({ a, size = 'm' }: { a: Article; size?: 'l' | 'm' | 
   return (
     <Link className={`acard card acard-${size}`} href={`/novosti/${a.slug}/`}>
       {size !== 's' ? (img?.url
-        ? <div className="ph"><img src={size === 'l' ? wideImg(img).url! : img.sizes?.card?.url || img.url} alt={img.alt} loading="lazy" /><span className="tag">{TYPES[a.type]}</span></div>
+        ? <div className="ph"><img src={img.url} alt={img.alt} loading="lazy" /><span className="tag">{TYPES[a.type]}</span></div>
         : <div className="ph cover" aria-hidden="true"><span className="cover-t">{TYPES[a.type]}</span></div>) : null}
       <div className="tx">
         <div className="meta"><time dateTime={a.datePublished || undefined}>{ruDate(a.datePublished)}</time>{a.reviewStatus !== 'ready' ? <span className="dot-hold">на сверке</span> : null}</div>
@@ -139,9 +136,6 @@ export function ArticleCard({ a, size = 'm' }: { a: Article; size?: 'l' | 'm' | 
 /** Карточка объекта для каталога и подборок */
 const MONTHS_SHORT = ['янв.', 'февр.', 'март', 'апр.', 'май', 'июнь', 'июль', 'авг.', 'сент.', 'окт.', 'нояб.', 'дек.']
 /** Карточка объекта. Без фото — компактная текстовая: стена одинаковых заглушек в каталоге хуже, чем её отсутствие */
-/** Копия для показа на странице (статья, галерея, обложка крупной карточки); если её нет — исходник */
-export const wideImg = <T extends Media | undefined>(m: T): T =>
-  (m && m.url ? { ...m, url: m.sizes?.wide?.url || m.url, width: m.sizes?.wide?.width || m.width, height: m.sizes?.wide?.height || m.height } : m) as T
 /** Уменьшенная копия для карточек и превью (если её ещё нет — исходник) */
 export const cardImg = (m?: Media | number | null): Media | undefined =>
   m && typeof m === 'object' && m.url ? { ...m, url: m.sizes?.card?.url || m.url } : undefined
@@ -154,11 +148,10 @@ export function ObjectCard({ o, im: fallback }: { o: Obj & { cover?: Media }; im
   const last = o.lastEventAt ? new Date(o.lastEventAt) : null
   return (
     <Link className="ocard card" href={`/obekty/${o.slug}/`}>
-      <div className={`ph${im?.url ? '' : ' ph-empty'}`}>{im?.url ? <img src={im.url} alt={im.alt} loading="lazy" /> : o.region === 'moscow' ? <LocCover district={o.district} lat={o.lat} lng={o.lng} /> : null}</div>
+      <div className={`ph${im?.url ? '' : ' ph-empty'}`}>{im?.url ? <img src={im.url} alt={im.alt} loading="lazy" /> : null}</div>
       <div className="tx">
         <div className="row"><StageStrip stage={o.stage} /><span className="st">{stageLabel(o.stage)}</span>{last ? <span className="st when">{MONTHS_SHORT[last.getUTCMonth()]} {last.getUTCFullYear()}</span> : null}</div>
         <h3>{o.name}</h3>
-        {TROUBLE[o.slug] && TROUBLE[o.slug].status !== 'resolved' ? <p className={`tr-badge tr-${TROUBLE[o.slug].status}`}>{TROUBLE_BADGE[TROUBLE[o.slug].status]}</p> : null}
         <p>{[devName(dev?.name), where].filter(Boolean).join(' · ')}</p>
         {price || o.completion ? <p className="facts">{price ? <b>{price}</b> : null}{o.completion ? <span>ввод {o.completion}</span> : null}</p> : null}
         {o.signalCount ? <p className="sig">{o.signalCount} {plural(o.signalCount, 'сигнал', 'сигнала', 'сигналов')} до официальных новостей</p> : null}
