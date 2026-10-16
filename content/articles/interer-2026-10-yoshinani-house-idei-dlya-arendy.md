@@ -14,7 +14,6 @@ topics: [interer]
 images:
   - {file: "media/ntsm-yoshi-1.webp", alt: "Квартира Yoshinani House: гостиная и кухня пары из Японии", caption: "Yoshinani House, Мусаси-Косуги, Япония. Квартира Рю и Камадо", credit: "Фото: Never Too Small", source_url: "https://cdn.prod.website-files.com/65c18a9a4d6c9699ac22d7bd/6a61763b30b7e0dd5c967957_ep-main.webp"}
   - {file: "media/ntsm-yoshi-2.webp", alt: "Светильник в прихожей из старой панамы", caption: "Абажур в прихожей — старая панама", credit: "Фото: Never Too Small", source_url: "https://cdn.prod.website-files.com/65c18a9a4d6c9699ac22d7bd/6a6176544fff069b0af08439_ep-1.webp"}
-  - {file: "media/ntsm-yoshi-3.webp", alt: "Обратная сторона входной двери с магнитами и держателем для зонтов", caption: "Обратная сторона входной двери: магниты и держатель для зонтов", credit: "Фото: Never Too Small", source_url: "https://cdn.prod.website-files.com/65c18a9a4d6c9699ac22d7bd/6a6176ab691fbf0ca42bc9e7_ep-3.webp"}
   - {file: "media/ntsm-yoshi-4.webp", alt: "Маленький холодильник, оклеенный стикерами, между кухней и гостиной", caption: "Маленький холодильник и стеллаж отделяют кухню от гостиной", credit: "Фото: Never Too Small", source_url: "https://cdn.prod.website-files.com/65c18a9a4d6c9699ac22d7bd/6a6176d6b36fac2fb64936ac_ep-6.webp"}
   - {file: "media/ntsm-yoshi-5.webp", alt: "Обеденный стол, накрытый для компании разного размера", caption: "Стол меняет размер в зависимости от числа гостей", credit: "Фото: Never Too Small", source_url: "https://cdn.prod.website-files.com/65c18a9a4d6c9699ac22d7bd/6a61770266fff237393dec02_ep-9.webp"}
   - {file: "media/ntsm-yoshi-6.webp", alt: "Трековый светильник и выпуклое зеркало над обеденной зоной", caption: "Светильник на треке и выпуклое зеркало на потолке для групповых фото", credit: "Фото: Never Too Small", source_url: "https://cdn.prod.website-files.com/65c18a9a4d6c9699ac22d7bd/6a61772e1303498d3c3cf98f_ep-12.webp"}
@@ -63,9 +62,6 @@ author: "Редакция Шахматки"
 
 ![Светильник в прихожей из старой панамы](media/ntsm-yoshi-2.webp)
 *Абажур в прихожей — старая панама. Фото: Never Too Small*
-
-![Обратная сторона входной двери с магнитами и держателем для зонтов](media/ntsm-yoshi-3.webp)
-*Обратная сторона входной двери: магниты и держатель для зонтов. Фото: Never Too Small*
 
 **Для Москвы.** Хрущёвская прихожая нередко шириной в метр и без единого шкафа, а зимой в ней ещё и нужно разместить пуховик и мокрые ботинки. Дверь, на которую можно навесить на магнитах держатели для зонта, ключей и сумки, — это сорок сантиметров хранения, которые не нужно ни согласовывать, ни сверлить. Если это стальная дверь, магниты держатся без проблем. Проверьте только, что вес не превышает допустимого для петель.
 

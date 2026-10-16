@@ -14,7 +14,6 @@ topics: [interer]
 images:
   - {file: "media/ntsm-kit-1.webp", alt: "Кухня в прихожей квартиры Jourdain с терракотовой плиткой и парой подвесных светильников", caption: "Renovation D'un Apartment A Jourdain: кухня в прихожей, бюро Meraki Architecture", credit: "Фото: Matthieu Torres / Never Too Small", source_url: "https://cdn.prod.website-files.com/65c18a9a4d6c9699ac22d7bd/6a1d2e505538035db3d88b49_6a1d2e3affeb36bd09ff9668_kitchen-cheat-sheet-27.webp"}
   - {file: "media/ntsm-kit-2.webp", alt: "Столярная лестница с встроенными холодильником и кладовой, столешница из терраццо", caption: "Studio Seguí: кухня встроена в лестницу, архитектор Carol Burton", credit: "Фото: Gonzalo Viramonte / Never Too Small", source_url: "https://cdn.prod.website-files.com/65c18a9a4d6c9699ac22d7bd/6a1d2e505538035db3d88b45_6a1d2e346dcb537a7488d129_kitchen-cheat-sheet-36.webp"}
-  - {file: "media/ntsm-kit-3.webp", alt: "Кухонный блок на тонких ножках, под которым виден пол", caption: "Basement Apartment: кухня на ножках выглядит как мебель, архитектор Brad Swartz", credit: "Фото: Katherine Lu / Never Too Small", source_url: "https://cdn.prod.website-files.com/65c18a9a4d6c9699ac22d7bd/6a1d2e505538035db3d88ba6_6a1d2e497800f9ca855556e5_kitchen-cheat-sheet-5.webp"}
   - {file: "media/ntsm-kit-4.webp", alt: "Кухня за раздвижными дверями в мансардной квартире Marvila Attic", caption: "Marvila Attic: раздвижные двери открывают кухню, бюро KEMA Studio", credit: "Фото: Alexander Bogorodskiy / Never Too Small", source_url: "https://cdn.prod.website-files.com/65c18a9a4d6c9699ac22d7bd/6a1d2e515538035db3d88bb3_6a1d2e3fa43fc60c856086e8_kitchen-cheat-sheet-21.webp"}
   - {file: "media/ntsm-kit-5.webp", alt: "Передвижная тумба-остров в Somosomo House, выдвинутая от стены", caption: "Somosomo House: подвижная тумба превращается в остров, бюро ToASt Inc", credit: "Фото: Nam Tran / Never Too Small", source_url: "https://cdn.prod.website-files.com/65c18a9a4d6c9699ac22d7bd/6a1d2e545538035db3d88c7d_6a1d2e356dcb537a7488d323_kitchen-cheat-sheet-34.webp"}
   - {file: "media/ntsm-kit-6.webp", alt: "Одностенная кухня на колёсиках в Appartement Rue de Nantes", caption: "Appartement Rue de Nantes: кухонный модуль на колёсах скрывает дверь, бюро PS Studio", credit: "Фото: Jean Baptiste Thiriet / Never Too Small", source_url: "https://cdn.prod.website-files.com/65c18a9a4d6c9699ac22d7bd/6a1d2e535538035db3d88c66_6a1d2e3913d0eef08d483487_kitchen-cheat-sheet-29.webp"}
@@ -72,9 +71,6 @@ Never Too Small в подборке «Kitchen Cheat Sheet» (текст Элои
 ## Стратегия 2: анти-кухня
 
 Идея раздела — сделать так, чтобы кухня не выглядела кухней. В Basement Apartment архитектора Брэда Свартца (Brad Swartz) шкафы и рабочая поверхность подняты на тонкие ножки: под кухней виден пол, и она читается как мебельный предмет.
-
-![Кухонный блок на тонких ножках, под которым виден пол](media/ntsm-kit-3.webp)
-*Basement Apartment: кухня на ножках выглядит как мебель, архитектор Brad Swartz. Фото: Katherine Lu / Never Too Small*
 
 В Marvila Attic (бюро KEMA Studio) кухню закрывают раздвижные двери — внутри посудомойка, холодильник, индукционная панель и вытяжка. В Luini Apartment (Davide Minervini) складные двери прячут кухню в линию мебели гостиной; в Small Grand Apartment (Tsai Design) белая индукционная панель и белая духовка встроены в белую тумбу, так что их не видно. А в квартире Alex (William Chan) навесные петли скрыты, а смесители и интерьер шкафов — тёмно-синего цвета, который появляется только при открытых дверцах.
 
