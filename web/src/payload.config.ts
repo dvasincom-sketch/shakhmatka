@@ -1,6 +1,7 @@
 import { sqliteAdapter } from '@payloadcms/db-sqlite'
 import { postgresAdapter } from '@payloadcms/db-postgres'
 import { s3Storage } from '@payloadcms/storage-s3'
+import { s3Env, s3Ready } from './lib/s3env'
 import { lexicalEditor } from '@payloadcms/richtext-lexical'
 import { ru } from '@payloadcms/translations/languages/ru'
 import path from 'path'
@@ -72,15 +73,15 @@ export default buildConfig({
   // S3-плагин подключён всегда: alwaysInsertFields держит одинаковую схему базы (поле _objectKey у media) с S3 и без него,
   // иначе миграции, созданные без S3, не совпадают с продом, где S3 включён. enabled — только когда задан бакет.
   plugins: [s3Storage({
-    enabled: !!process.env.S3_BUCKET,
+    enabled: s3Ready(),
     alwaysInsertFields: true,
     collections: { media: true },
-    bucket: process.env.S3_BUCKET || 'disabled',
+    bucket: s3Env().bucket || 'disabled',
     config: {
-      endpoint: process.env.S3_ENDPOINT || 'https://s3.twcstorage.ru',
-      region: process.env.S3_REGION || 'ru-1',
+      endpoint: s3Env().endpoint,
+      region: s3Env().region,
       forcePathStyle: true,
-      credentials: { accessKeyId: process.env.S3_ACCESS_KEY_ID || '', secretAccessKey: process.env.S3_SECRET_ACCESS_KEY || '' },
+      credentials: { accessKeyId: s3Env().accessKeyId, secretAccessKey: s3Env().secretAccessKey },
     },
   })],
 })
