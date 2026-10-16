@@ -5,6 +5,9 @@
 set -e
 cd "$(dirname "$0")"
 
+# память: меньше арен malloc у всех процессов Node (сайт и скрипты) — заметно ниже потребление на небольшом тарифе
+export MALLOC_ARENA_MAX="${MALLOC_ARENA_MAX:-2}"
+
 # поиск: встроенный Meilisearch, если внешний не задан. Индекс в контейнере временный — собирается заново при каждом старте (несколько секунд).
 if [ -z "$MEILI_HOST" ] && [ "${MEILI_EMBEDDED:-1}" = "1" ] && command -v meilisearch >/dev/null 2>&1; then
   export MEILI_MASTER_KEY="${MEILI_MASTER_KEY:-$(head -c 32 /dev/urandom | od -An -tx1 | tr -d ' \n')}"
@@ -24,13 +27,14 @@ until DB_POOL_MAX=2 npx payload migrate; do
   sleep 15
 done
 
-# фоновые скрипты: пул 2 подключения, память Node до 640 МБ
-# (npm-скрипты задают NODE_OPTIONS через cross-env и затёрли бы лимит памяти, поэтому скрипт запускается напрямую через payload run)
+# фоновые скрипты: пул 2 подключения, память Node до 640 МБ, обработка фото (sharp) без кэша и в один поток
+# (npm-скрипты задают NODE_OPTIONS через cross-env и затёрли бы лимит памяти, поэтому скрипт запускается напрямую через payload run;
+#  без npx — он держит лишний процесс npm; замер на импорте статьи с 8 фото: было 810 МБ, стало 560 МБ)
 job() {
   f=$(node -p "(require('./package.json').scripts['$1'].match(/payload run (\\S+)/) || [])[1] || ''")
   [ -n "$f" ] || { echo "✗ нет скрипта $1"; return 1; }
   echo "→ $1"
-  DB_POOL_MAX=2 SEARCH_HOOKS=0 NODE_OPTIONS="--no-deprecation --max-old-space-size=${JOB_MEMORY_MB:-640}" npx payload run "$f"
+  DB_POOL_MAX=2 SEARCH_HOOKS=0 SHARP_LOW_MEMORY=1 VIPS_CONCURRENCY=1 UV_THREADPOOL_SIZE=2 NODE_OPTIONS="--no-deprecation --max-old-space-size=${JOB_MEMORY_MB:-640}" node node_modules/.bin/payload run "$f"
 }
 
 if [ "$SEED_ON_START" = "1" ]; then
@@ -53,4 +57,5 @@ else
 fi
 
 echo "→ сайт на порту ${PORT:-3000}"
-exec npx next start -H 0.0.0.0 -p "${PORT:-3000}"
+# без npx: иначе рядом с сайтом всё время висит процесс npm (~60 МБ)
+exec node node_modules/.bin/next start -H 0.0.0.0 -p "${PORT:-3000}"

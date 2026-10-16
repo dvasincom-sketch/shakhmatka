@@ -9,6 +9,10 @@ import { buildConfig } from 'payload'
 import { fileURLToPath } from 'url'
 import sharp from 'sharp'
 
+// Фоновые скрипты (импорт фото) работают рядом с сайтом в одном контейнере: без кэша и в один поток
+// так sharp держит меньше памяти, иначе на маленьком тарифе контейнер убивает процесс (Killed).
+if (process.env.SHARP_LOW_MEMORY === '1') { sharp.cache(false); sharp.concurrency(1) }
+
 import { Users } from './collections/Users'
 import { Readers } from './collections/Readers'
 import { Follows } from './collections/Follows'
