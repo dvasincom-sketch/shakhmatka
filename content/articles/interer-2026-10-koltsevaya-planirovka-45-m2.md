@@ -150,5 +150,3 @@ author: "Редакция Шахматки"
 1. Never Too Small. How a clever loop plan transformed this 45sqm/484sqft Paris apartment — https://www.nevertoosmall.com/post/how-a-clever-loop-plan-transformed-this-45sqm-484sqft-paris-apartment
 2. ppt.ru: постановление Правительства Москвы от 23.07.2024 № 1672-ПП — https://ppt.ru/obzory/vstupaet-v-silu/postanovlenie-pravitelstva-moskvy-23-07-2024-1672-pp
 3. Мосжилинспекция: какие перепланировки запрещены (постановление 508-ПП) — https://www.mos.ru/news/item/76897073/
-
-*Материал подготовлен по мотивам публикаций Never Too Small и использует их фото с разрешения правообладателя.*

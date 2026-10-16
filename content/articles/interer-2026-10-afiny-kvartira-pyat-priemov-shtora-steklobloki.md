@@ -134,5 +134,3 @@ author: "Редакция Шахматки"
 1. Never Too Small. A compact Athenian apartment full of quietly brilliant design moves — https://www.nevertoosmall.com/post/compact-athenian-apartment-full-of-brilliant-design-moves
 2. Мосжилинспекция: какие перепланировки запрещены (постановление 508-ПП) — https://www.mos.ru/news/item/76897073/
 3. ppt.ru: постановление Правительства Москвы от 23.07.2024 № 1672-ПП — https://ppt.ru/obzory/vstupaet-v-silu/postanovlenie-pravitelstva-moskvy-23-07-2024-1672-pp
-
-*Материал подготовлен по мотивам публикаций Never Too Small и использует их фото с разрешения правообладателя.*

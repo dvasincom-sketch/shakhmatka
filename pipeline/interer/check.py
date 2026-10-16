@@ -24,9 +24,10 @@ for im in imgs:
 if len(fm.get('faq') or []) < 3: errs.append('faq < 3')
 n = len(re.sub(r'\s+', ' ', body))
 if not 5000 <= n <= 16000: errs.append(f'текст {n} знаков, нужно 6–12 тыс.')
+if 'разрешения правообладателя' in body: errs.append('в конце статьи не нужна строка о правообладателе — источник и так в «Источниках»')
 for bad in ['t.me', 'max.ru', 'телеграм', 'Telegram']:
     if bad.lower() in s.lower(): errs.append('запрещено: ' + bad)
-for need in ['## Коротко', '## Вопросы и ответы', '## Источники', '/temy/interer/', 'с разрешения правообладателя']:
+for need in ['## Коротко', '## Вопросы и ответы', '## Источники', '/temy/interer/']:
     if need not in body: errs.append('нет: ' + need)
 if not re.search(r'Для Москвы|Как повторить', body): errs.append('нет блоков «Для Москвы»/«Как повторить»')
 print('OK' if not errs else 'ОШИБКИ:\n- ' + '\n- '.join(errs))

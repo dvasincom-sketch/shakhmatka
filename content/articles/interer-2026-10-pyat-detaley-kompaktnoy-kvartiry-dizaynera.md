@@ -144,5 +144,3 @@ author: "Редакция Шахматки"
 1. Never Too Small. 5 small space design details inside an interior designer's compact Paris home — https://www.nevertoosmall.com/post/5-small-space-design-details-inside-an-interior-designers-compact-paris-home
 2. Мосжилинспекция: какие перепланировки запрещены (постановление 508-ПП) — https://www.mos.ru/news/item/76897073/
 3. Коммерсантъ: данные hh.ru о предпочтениях в формате работы, июнь 2025 — https://www.kommersant.ru/doc/8336320
-
-*Материал подготовлен по мотивам публикаций Never Too Small и использует их фото с разрешения правообладателя.*

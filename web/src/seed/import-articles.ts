@@ -26,6 +26,17 @@ async function run() {
   const files = fs.readdirSync(dir).filter((f) => /^(\d+|(signaly|obzor|rayon|arhitektory|arhitektura|interer)-\d{4}-\d{2})-.+\.md$/.test(f)).sort()
   payload.logger.info(`Импорт из ${dir}: ${files.length} файлов`)
 
+  // IMPORT_CHANGED_ONLY=1 (обычный старт контейнера): берём только новые и изменённые статьи — сравниваем с базой
+  // заголовок, лид, текст, статус проверки и число фото. Полный импорт — без флага (SEED_ON_START=1 или npm run seed).
+  const changedOnly = process.env.IMPORT_CHANGED_ONLY === '1'
+  type Have = { title?: string; lead?: string | null; body?: string; reviewStatus?: string; images?: unknown[] | null }
+  const have = new Map<string, Have>()
+  if (changedOnly) {
+    const docs = (await payload.find({ collection: 'articles', limit: 100000, pagination: false, depth: 0, draft: true, select: { slug: true, title: true, lead: true, body: true, reviewStatus: true, images: true } })).docs as unknown as (Have & { slug: string })[]
+    for (const d of docs) have.set(d.slug, d)
+  }
+  let skipped = 0, imported = 0
+
   const upsert = async (collection: 'developers' | 'objects' | 'articles', slug: string, data: Record<string, unknown>): Promise<{ id: number | string }> => {
     const found = await payload.find({ collection, where: { slug: { equals: slug } }, limit: 1, draft: true })
     if (found.docs[0]) return (await payload.update({ collection, id: found.docs[0].id, data, draft: false } as never)) as unknown as { id: number | string }
@@ -51,6 +62,14 @@ async function run() {
       else payload.logger.info(`пропуск ${f}: ${fm.skip_reason}`)
       continue
     }
+
+    if (changedOnly) {
+      const h = have.get(String(fm.slug))
+      const same = h && h.title === fm.title && (h.lead || '') === (fm.lead || '') && (h.body || '').trim() === content.trim()
+        && h.reviewStatus === (fm.status === 'ready' ? 'ready' : 'needs_review') && (h.images?.length || 0) >= (fm.images || []).length
+      if (same) { skipped++; continue }
+    }
+    imported++
 
     const devIds: (number | string)[] = []
     let mainDev: number | string | undefined
@@ -140,6 +159,7 @@ async function run() {
       failed.push(f); payload.logger.error(`✗ ${f}: ${String((e as Error)?.message || e).slice(0, 300)}`)
     }
   }
+  if (changedOnly) payload.logger.info(`Статьи: новых и изменённых ${imported}, без изменений ${skipped}`)
   if (failed.length) payload.logger.warn(`не импортированы (${failed.length}): ${failed.join(', ')}`)
   process.exit(0)
 }

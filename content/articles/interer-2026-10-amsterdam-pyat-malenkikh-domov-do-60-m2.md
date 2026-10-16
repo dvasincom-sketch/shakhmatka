@@ -148,5 +148,3 @@ Scheeps — лофт у воды в восточной гавани Амстер
 1. Never Too Small. Five of Amsterdam's best small homes under 60sqm/645sqft — https://www.nevertoosmall.com/post/five-of-amsterdams-best-small-homes-under-60sqm-645sqft
 2. ppt.ru: постановление Правительства Москвы от 23.07.2024 № 1672-ПП — https://ppt.ru/obzory/vstupaet-v-silu/postanovlenie-pravitelstva-moskvy-23-07-2024-1672-pp
 3. Мосжилинспекция: какие перепланировки запрещены (постановление 508-ПП) — https://www.mos.ru/news/item/76897073/
-
-*Материал подготовлен по мотивам публикаций Never Too Small и использует их фото с разрешения правообладателя.*

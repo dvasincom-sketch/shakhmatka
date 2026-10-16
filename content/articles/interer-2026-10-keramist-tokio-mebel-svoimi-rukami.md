@@ -127,5 +127,3 @@ author: "Редакция Шахматки"
 1. Never Too Small. «I made all the furniture»: How a Tokyo Ceramicist Lives Small in his DIY Apartment — https://www.nevertoosmall.com/post/how-a-tokyo-ceramicist-lives-small-in-his-diy-apartment
 2. Мосжилинспекция: какие перепланировки запрещены (постановление 508-ПП) — https://www.mos.ru/news/item/76897073/
 3. «Коммерсантъ»: опрос hh.ru о формате работы, июнь 2025 — https://www.kommersant.ru/doc/8336320
-
-*Материал подготовлен по мотивам публикаций Never Too Small и использует их фото с разрешения правообладателя.*

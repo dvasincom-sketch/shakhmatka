@@ -143,5 +143,3 @@ author: "Редакция Шахматки"
 
 1. Never Too Small. Playful design details inside a 32sqm/344sqft Marseille apartment — https://www.nevertoosmall.com/post/playful-design-details-inside-32sqm-344sqft-marseille-apartment
 2. Мосжилинспекция: какие перепланировки запрещены (постановление 508-ПП) — https://www.mos.ru/news/item/76897073/
-
-*Материал подготовлен по мотивам публикаций Never Too Small и использует их фото с разрешения правообладателя.*

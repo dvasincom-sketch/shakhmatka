@@ -141,5 +141,3 @@ author: "Редакция Шахматки"
 
 1. Never Too Small. 5 smart design decisions inside a Tokyo house — https://www.nevertoosmall.com/post/5-smart-design-decisions-inside-a-tokyo-house
 2. Мосжилинспекция: какие перепланировки запрещены (постановление 508-ПП) — https://www.mos.ru/news/item/76897073/
-
-*Материал подготовлен по мотивам публикаций Never Too Small и использует их фото с разрешения правообладателя.*

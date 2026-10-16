@@ -127,5 +127,3 @@ author: "Редакция Шахматки"
 1. Never Too Small. How to make the most of the space around your windows — https://www.nevertoosmall.com/post/how-to-make-the-most-of-the-space-around-your-windows
 2. РБК Недвижимость: цены и площадь студий в новостройках Москвы, июль 2026 — https://realty.rbc.ru/news/6a688a1e9a7947e0d847331e
 3. Мосжилинспекция: какие перепланировки запрещены (постановление 508-ПП) — https://www.mos.ru/news/item/76897073/
-
-*Материал подготовлен по мотивам публикаций Never Too Small и использует их фото с разрешения правообладателя.*

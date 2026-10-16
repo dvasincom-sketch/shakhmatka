@@ -140,5 +140,3 @@ author: "Редакция Шахматки"
 1. Never Too Small. How a creative couple live and work in a small Amsterdam loft — https://www.nevertoosmall.com/post/how-a-creative-couple-live-and-work-in-small-amsterdam-loft
 2. «Коммерсантъ»: опрос hh.ru об удалённой работе, июнь 2025 — https://www.kommersant.ru/doc/8336320
 3. Мосжилинспекция: какие перепланировки запрещены (постановление 508-ПП) — https://www.mos.ru/news/item/76897073/
-
-*Материал подготовлен по мотивам публикаций Never Too Small и использует их фото с разрешения правообладателя.*

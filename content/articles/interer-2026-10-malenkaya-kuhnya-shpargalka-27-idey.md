@@ -135,5 +135,3 @@ Never Too Small в подборке «Kitchen Cheat Sheet» (текст Элои
 1. Never Too Small. Kitchen Cheat Sheet — https://www.nevertoosmall.com/post/kitchen-cheat-sheet-420b1
 2. РБК Недвижимость: цены и площадь студий в новостройках Москвы, июль 2026 — https://realty.rbc.ru/news/6a688a1e9a7947e0d847331e
 3. Мосжилинспекция: какие перепланировки запрещены (постановление 508-ПП) — https://www.mos.ru/news/item/76897073/
-
-*Материал подготовлен по мотивам публикаций Never Too Small и использует их фото с разрешения правообладателя.*

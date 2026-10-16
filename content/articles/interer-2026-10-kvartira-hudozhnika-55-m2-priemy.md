@@ -142,5 +142,3 @@ author: "Редакция Шахматки"
 1. Never Too Small. 5 design ideas from a home built around an artist's life — https://www.nevertoosmall.com/post/5-design-ideas-from-a-home-built-around-an-artists-life
 2. РБК Недвижимость: площадь квартир в новостройках Москвы, данные bnMAP и «Метриума», май 2026 — https://realty.rbc.ru/news/6a2688819a7947c4911d7fd8
 3. Мосжилинспекция: какие перепланировки запрещены (постановление 508-ПП) — https://www.mos.ru/news/item/76897073/
-
-*Материал подготовлен по мотивам публикаций Never Too Small и использует их фото с разрешения правообладателя.*

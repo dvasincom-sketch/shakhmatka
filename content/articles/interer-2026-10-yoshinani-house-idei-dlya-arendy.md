@@ -133,5 +133,3 @@ author: "Редакция Шахматки"
 
 1. Never Too Small. How a creative couple live small in their Yoshinani House apartment — https://www.nevertoosmall.com/post/how-a-creative-couple-live-small-in-their-yoshinani-house-apartment
 2. «Коммерсантъ»: опрос hh.ru о формате работы, июнь 2025 — https://www.kommersant.ru/doc/8336320
-
-*Материал подготовлен по мотивам публикаций Never Too Small и использует их фото с разрешения правообладателя.*
