@@ -2,7 +2,8 @@
  * Где взять исходный файл фото для загрузки в Media.
  * Исходники фото не входят в образ приложения (они уже в S3), поэтому ищем по порядку:
  *   1) локальная папка content/… — при запуске на компьютере редакции;
- *   2) папка incoming/ в бакете S3 — туда редакция кладёт новые фото (например, через Cyberduck) перед деплоем.
+ *   2) папка incoming/ в бакете S3 — туда редакция кладёт новые фото (например, через Cyberduck) перед деплоем;
+ *   3) сам исходник в бакете (с тем же именем) — чтобы пересоздать уменьшенные копии уже загруженного фото.
  * Возвращает путь к файлу на диске или null.
  */
 import fs from 'node:fs'
@@ -22,13 +23,16 @@ export async function sourcePath(dirs: string | string[], file: string): Promise
   }
   const c = s3()
   if (!c) return null
-  try {
-    const r = await c.send(new GetObjectCommand({ Bucket: s3Env().bucket, Key: INCOMING + path.basename(file) }))
-    const buf = Buffer.from(await r.Body!.transformToByteArray())
-    const tmp = path.join(fs.mkdtempSync(path.join(os.tmpdir(), 'src-')), path.basename(file))
-    fs.writeFileSync(tmp, buf)
-    return tmp
-  } catch {
-    return null
+  const name = path.basename(file)
+  for (const Key of [INCOMING + name, name]) {
+    try {
+      const r = await c.send(new GetObjectCommand({ Bucket: s3Env().bucket, Key }))
+      const tmp = path.join(fs.mkdtempSync(path.join(os.tmpdir(), 'src-')), name)
+      fs.writeFileSync(tmp, Buffer.from(await r.Body!.transformToByteArray()))
+      return tmp
+    } catch {
+      // нет такого объекта — пробуем следующий вариант
+    }
   }
+  return null
 }

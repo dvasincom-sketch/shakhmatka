@@ -5,6 +5,7 @@ import * as migration_20261015_103653_readers_follows from './20261015_103653_re
 import * as migration_20261015_115421_leads from './20261015_115421_leads';
 import * as migration_20261015_170810_readers_phone from './20261015_170810_readers_phone';
 import * as migration_20261016_024154_media_object_key from './20261016_024154_media_object_key';
+import * as migration_20261016_032437_media_wide from './20261016_032437_media_wide';
 
 export const migrations = [
   {
@@ -40,6 +41,11 @@ export const migrations = [
   {
     up: migration_20261016_024154_media_object_key.up,
     down: migration_20261016_024154_media_object_key.down,
-    name: '20261016_024154_media_object_key'
+    name: '20261016_024154_media_object_key',
+  },
+  {
+    up: migration_20261016_032437_media_wide.up,
+    down: migration_20261016_032437_media_wide.down,
+    name: '20261016_032437_media_wide'
   },
 ];

@@ -60,26 +60,31 @@ async function run() {
   const docs = (await payload.find({ collection: 'media', limit: 100000, pagination: false, depth: 0 })).docs as unknown as {
     id: number
     filename?: string
-    sizes?: { card?: { filename?: string | null } }
+    width?: number | null
+    height?: number | null
+    sizes?: { card?: { filename?: string | null }; wide?: { filename?: string | null } }
   }[]
-  let ok = 0, fixed = 0, miss = 0, failed = 0
+  let ok = 0, fixed = 0, resized = 0, miss = 0, failed = 0
   for (const m of docs) {
     if (!m.filename) continue
-    const card = m.sizes?.card?.filename
-    if ((await exists(m.filename)) && (!card || (await exists(card)))) { ok++; continue }
+    const card = m.sizes?.card?.filename, wide = m.sizes?.wide?.filename
+    // копия wide делается только для исходников больше 1440 px; у загруженных раньше её нет — пересоздаём
+    const needWide = !wide && ((m.width || 0) > 1440 || (m.height || 0) > 1440)
+    if (!needWide && (await exists(m.filename)) && (!card || (await exists(card))) && (!wide || (await exists(wide)))) { ok++; continue }
     const src = await sourcePath(SOURCES, m.filename)
     if (!src) { miss++; continue }
     const tmp = path.join(fs.mkdtempSync('/tmp/mr-'), m.filename)
     fs.copyFileSync(src, tmp)
     try {
       await payload.update({ collection: 'media', id: m.id, data: {}, filePath: tmp, overwriteExistingFiles: true } as never)
-      fixed++
+      if (needWide) resized++
+      else fixed++
     } catch (e) {
       failed++
       if (failed <= 3) console.log(`  ошибка загрузки ${m.filename}: ${String(e)}`)
     }
   }
-  console.log(`✓ фото: на месте ${ok}, восстановлено ${fixed}, нет исходника ${miss}, ошибок ${failed}`)
+  console.log(`✓ фото: на месте ${ok}, восстановлено ${fixed}, сделаны облегчённые копии ${resized}, нет исходника ${miss}, ошибок ${failed}`)
   process.exit(0)
 }
 await run()

@@ -5,7 +5,8 @@ import { notFound } from 'next/navigation'
 import { getPayload } from 'payload'
 import config from '@payload-config'
 import { isUpdated, renderArticle, readMinutes, ruDate, toc, typo, withDates } from '@/lib/markdown'
-import { ArticleCard, SITE, StageStrip, StageTrack, TYPES, devName, stageLabel, coverOf } from '@/lib/ui'
+import { ArticleCard, SITE, StageStrip, StageTrack, TYPES, devName, stageLabel, coverOf, wideImg } from '@/lib/ui'
+import { withWideImages } from '@/lib/media-wide'
 import type { Article, Developer, Media, Object as Obj } from '@/payload-types'
 import { ONLY_READY, pub } from '@/lib/public'
 import { ReadingProgress, Share } from '@/lib/client'
@@ -26,7 +27,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params
   const a = await getArticle(slug)
   if (!a) return {}
-  const hero = coverOf(a.heroImage)
+  const hero = wideImg(coverOf(a.heroImage))
   const url = `${SITE}/novosti/${a.slug}/`
   return {
     title: a.metaTitle || a.title,
@@ -43,13 +44,13 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
   const a = await getArticle(slug)
   if (!a || (ONLY_READY && a.reviewStatus !== 'ready')) notFound()
   const payload = await getPayload({ config })
-  const hero = coverOf(a.heroImage)
+  const hero = wideImg(coverOf(a.heroImage))
   const objects = (a.objects || []) as Obj[]
   const devs = (a.developers || []) as Developer[]
   const main = objects[0]
   const html0 = renderArticle(a.body || '', { skipImage: hero?.filename || undefined, resolve: await getResolver() })
   // первое упоминание застройщика, бюро или объекта — ссылка на его страницу
-  const html = autolink(html0, await getAutolinks())
+  const html = await withWideImages(autolink(html0, await getAutolinks()))
   const contents = toc(a.body || '')
   const fc = a.factcheck || []
   const count = (s: string) => fc.filter((x) => x.status === s).length

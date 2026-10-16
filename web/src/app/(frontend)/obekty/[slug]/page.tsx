@@ -77,7 +77,7 @@ export default async function ObjectPage({ params }: { params: Promise<{ slug: s
   const i = STAGES.findIndex((s) => s.value === o.stage)
   const gallery = ((o.gallery || []) as Media[]).filter((m) => m?.url)
   const heroPick = gallery.length ? gallery : [coverOf(arts.find((a) => coverOf(a.heroImage))?.heroImage)].filter((m): m is Media => !!m?.url)
-  const pics = heroPick.map((m) => ({ id: m.id, url: m.url!, thumb: m.sizes?.card?.url || m.url!, alt: m.alt, caption: m.caption, width: m.width, height: m.height }))
+  const pics = heroPick.map((m) => ({ id: m.id, url: m.sizes?.wide?.url || m.url!, thumb: m.sizes?.card?.url || m.url!, alt: m.alt, caption: m.caption, width: m.sizes?.wide?.width || m.width, height: m.sizes?.wide?.height || m.height }))
   const hero = gallery[0] || coverOf(arts.find((a) => coverOf(a.heroImage))?.heroImage)
   const price = priceText(o)
   const sp = START_PRICES.find((r) => r.slug === o.slug)

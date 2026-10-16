@@ -124,7 +124,7 @@ export function ArticleCard({ a, size = 'm' }: { a: Article; size?: 'l' | 'm' | 
   return (
     <Link className={`acard card acard-${size}`} href={`/novosti/${a.slug}/`}>
       {size !== 's' ? (img?.url
-        ? <div className="ph"><img src={img.url} alt={img.alt} loading="lazy" /><span className="tag">{TYPES[a.type]}</span></div>
+        ? <div className="ph"><img src={size === 'l' ? wideImg(img).url! : img.sizes?.card?.url || img.url} alt={img.alt} loading="lazy" /><span className="tag">{TYPES[a.type]}</span></div>
         : <div className="ph cover" aria-hidden="true"><span className="cover-t">{TYPES[a.type]}</span></div>) : null}
       <div className="tx">
         <div className="meta"><time dateTime={a.datePublished || undefined}>{ruDate(a.datePublished)}</time>{a.reviewStatus !== 'ready' ? <span className="dot-hold">на сверке</span> : null}</div>
@@ -138,6 +138,9 @@ export function ArticleCard({ a, size = 'm' }: { a: Article; size?: 'l' | 'm' | 
 /** Карточка объекта для каталога и подборок */
 const MONTHS_SHORT = ['янв.', 'февр.', 'март', 'апр.', 'май', 'июнь', 'июль', 'авг.', 'сент.', 'окт.', 'нояб.', 'дек.']
 /** Карточка объекта. Без фото — компактная текстовая: стена одинаковых заглушек в каталоге хуже, чем её отсутствие */
+/** Копия для показа на странице (статья, галерея, обложка крупной карточки); если её нет — исходник */
+export const wideImg = <T extends Media | undefined>(m: T): T =>
+  (m && m.url ? { ...m, url: m.sizes?.wide?.url || m.url, width: m.sizes?.wide?.width || m.width, height: m.sizes?.wide?.height || m.height } : m) as T
 /** Уменьшенная копия для карточек и превью (если её ещё нет — исходник) */
 export const cardImg = (m?: Media | number | null): Media | undefined =>
   m && typeof m === 'object' && m.url ? { ...m, url: m.sizes?.card?.url || m.url } : undefined

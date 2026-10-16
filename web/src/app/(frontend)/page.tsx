@@ -3,7 +3,7 @@ import { getPayload } from 'payload'
 import config from '@payload-config'
 import { ruDate, typo } from '@/lib/markdown'
 import type { Metadata } from 'next'
-import { ArticleCard, StageStrip, TYPES, devName, stageLabel, cardImg, SITE, ogFor, coverOf } from '@/lib/ui'
+import { ArticleCard, StageStrip, TYPES, devName, stageLabel, cardImg, SITE, ogFor, coverOf, wideImg } from '@/lib/ui'
 import { JsonLd } from '@/lib/jsonld'
 import type { Developer, Media } from '@/payload-types'
 import { pub } from '@/lib/public'
@@ -32,7 +32,7 @@ export default async function Home() {
   const rest = docs.filter((_, i) => i !== li)
   const side = rest.slice(0, 5)
   const grid = rest.slice(5)
-  const leadImg = coverOf(lead?.heroImage)
+  const leadImg = wideImg(coverOf(lead?.heroImage))
   if (!lead) return <p className="empty">Статей пока нет. Запустите импорт: npm run seed</p>
 
   const ld = [
