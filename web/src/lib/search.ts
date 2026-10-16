@@ -5,13 +5,14 @@
  * Индекс пересобирается при старте контейнера (npm run search:index) и обновляется хуками Payload при правке документов.
  */
 import type { Payload } from 'payload'
+import { editorialSettings, type SearchSettingsDoc } from './search-config'
 
 export const MEILI_HOST = (process.env.MEILI_HOST || '').replace(/\/$/, '')
 const KEY = process.env.MEILI_MASTER_KEY || process.env.MEILI_API_KEY || ''
 export const INDEX = process.env.MEILI_INDEX || 'shakhmatka'
 export const searchEnabled = () => !!MEILI_HOST
 
-export type DocType = 'article' | 'object' | 'developer' | 'place' | 'term'
+export type DocType = 'article' | 'interior' | 'object' | 'developer' | 'place' | 'term'
 export type SearchDoc = {
   id: string // <type>-<id>
   type: DocType
@@ -56,17 +57,20 @@ const SETTINGS = {
   filterableAttributes: ['type', 'stage', 'district'],
   sortableAttributes: ['date', 'weight'],
   rankingRules: ['words', 'typo', 'proximity', 'attribute', 'exactness', 'weight:desc', 'date:desc'],
-  typoTolerance: { minWordSizeForTypos: { oneTypo: 5, twoTypos: 9 } },
-  synonyms: {
-    жк: ['жилой комплекс'], 'жилой комплекс': ['жк'],
-    крт: ['комплексное развитие территорий'], 'комплексное развитие территорий': ['крт'],
-    рнс: ['разрешение на строительство'], 'разрешение на строительство': ['рнс'],
-    гзк: ['градостроительно-земельная комиссия'], агр: ['архитектурно-градостроительное решение'],
-    ддоу: ['ддо'], ддо: ['договор долевого участия', 'дду'], дду: ['договор долевого участия', 'ддо'],
-    мфк: ['многофункциональный комплекс'], тпу: ['транспортно-пересадочный узел'],
-    апарты: ['апартаменты'], новостройка: ['жк', 'жилой комплекс'],
-  },
   pagination: { maxTotalHits: 500 },
+}
+
+/** Синонимы, стоп-слова и опечатки — из админки (глобал «Настройки поиска»), без него — значения по умолчанию */
+async function fullSettings(payload: Payload) {
+  const doc = await payload.findGlobal({ slug: 'search-settings' as never, depth: 0, overrideAccess: true }).catch(() => null)
+  return { ...SETTINGS, ...editorialSettings(doc as SearchSettingsDoc | null) }
+}
+
+/** Сохранили настройки в админке — применяем к живому индексу без пересборки */
+export async function applyEditorialSettings(doc: SearchSettingsDoc) {
+  if (!searchEnabled()) return
+  try { await meili(`/indexes/${INDEX}/settings`, { method: 'PATCH', body: JSON.stringify(editorialSettings(doc)) }) }
+  catch (e) { console.warn('поиск: настройки не применены', String(e).slice(0, 200)) }
 }
 
 const ts = (d?: string | null) => (d ? Math.floor(new Date(d).getTime() / 1000) : undefined)
@@ -77,7 +81,7 @@ type AnyDoc = Record<string, unknown> & { id: number | string }
 export function articleDoc(a: AnyDoc): SearchDoc | null {
   if (a._status && a._status !== 'published') return null
   return {
-    id: `article-${a.id}`, type: 'article', title: fold(a.title as string), subtitle: clip(a.lead as string, 300),
+    id: `article-${a.id}`, type: a.type === 'interior' ? 'interior' : 'article', title: fold(a.title as string), subtitle: clip(a.lead as string, 300),
     text: clip(String(a.body || '').replace(/[#*_>`|[\]()!-]/g, ' '), 4000), url: `/novosti/${a.slug}/`,
     date: ts((a.datePublished as string) || null), weight: 1,
   }
@@ -133,7 +137,7 @@ export async function reindexAll(payload: Payload) {
   const tmp = `${INDEX}_tmp`
   await meili(`/indexes/${tmp}`, { method: 'DELETE' }).then((t) => waitTask((t as { taskUid: number }).taskUid)).catch(() => {})
   await waitTask((await meili<{ taskUid: number }>('/indexes', { method: 'POST', body: JSON.stringify({ uid: tmp, primaryKey: 'id' }) })).taskUid)
-  await waitTask((await meili<{ taskUid: number }>(`/indexes/${tmp}/settings`, { method: 'PATCH', body: JSON.stringify(SETTINGS) })).taskUid)
+  await waitTask((await meili<{ taskUid: number }>(`/indexes/${tmp}/settings`, { method: 'PATCH', body: JSON.stringify(await fullSettings(payload)) })).taskUid)
   for (let i = 0; i < docs.length; i += 1000) {
     await waitTask((await meili<{ taskUid: number }>(`/indexes/${tmp}/documents`, { method: 'POST', body: JSON.stringify(docs.slice(i, i + 1000)) })).taskUid)
   }
@@ -173,7 +177,7 @@ export async function search(q: string, opts: { type?: string; limit?: number; o
 
 /** Подсказки для поля поиска в шапке: по несколько лучших каждого типа */
 export async function suggest(q: string) {
-  const types: DocType[] = ['object', 'developer', 'place', 'article', 'term']
+  const types: DocType[] = ['object', 'developer', 'place', 'article', 'interior', 'term']
   const r = await meili<{ results: SearchResult[] }>('/multi-search', {
     method: 'POST',
     body: JSON.stringify({ queries: types.map((t) => ({ indexUid: INDEX, q: fold(q), limit: t === 'article' ? 4 : 3, filter: [`type = "${t}"`], attributesToRetrieve: ['type', 'title', 'subtitle', 'url', 'stage', 'developer', 'district', 'zu'] })) }),

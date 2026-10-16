@@ -6,14 +6,16 @@ import { ArticleCard, StageStrip, devName } from '@/lib/ui'
 import type { Developer } from '@/payload-types'
 import { pub } from '@/lib/public'
 import { search, searchEnabled } from '@/lib/search'
+import { logSearch } from '@/lib/search-log'
+import { TrackLink } from '@/lib/search-track'
 
 export const metadata: Metadata = { title: 'Поиск по новостройкам, адресам и застройщикам', robots: { index: false, follow: true } }
 
 const TABS = [
   { v: '', label: 'Всё' }, { v: 'object', label: 'Объекты' }, { v: 'article', label: 'Материалы' },
-  { v: 'developer', label: 'Застройщики' }, { v: 'place', label: 'Районы' }, { v: 'term', label: 'Словарь' },
+  { v: 'interior', label: 'Интерьер' }, { v: 'developer', label: 'Застройщики' }, { v: 'place', label: 'Районы' }, { v: 'term', label: 'Словарь' },
 ]
-const TYPE_LABEL: Record<string, string> = { object: 'Объект', article: 'Материал', developer: 'Застройщик', place: 'Район', term: 'Термин' }
+const TYPE_LABEL: Record<string, string> = { object: 'Объект', article: 'Материал', interior: 'Интерьер', developer: 'Застройщик', place: 'Район', term: 'Термин' }
 const PER = 20
 // подсветка от Meilisearch: экранируем всё, кроме наших <mark>
 const hl = (s?: string) => (s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/&lt;mark>/g, '<mark>').replace(/&lt;\/mark>/g, '</mark>')
@@ -30,6 +32,8 @@ export default async function Search({ searchParams }: { searchParams: Promise<{
       const counts = all?.facetDistribution?.type || {}
       const total = r?.estimatedTotalHits ?? r?.totalHits ?? 0
       const pages = Math.ceil(total / PER)
+      // аналитика: запрос и число найденного — только первая страница, чтобы листание не считалось новым поиском
+      if (q && r && page === 1) await logSearch({ kind: 'search', q, tab: t || undefined, hits: total })
       const href = (o: { t?: string; p?: number }) => `/poisk/?q=${encodeURIComponent(q)}${o.t ? `&t=${o.t}` : ''}${o.p && o.p > 1 ? `&p=${o.p}` : ''}`
       return (
         <>
@@ -50,14 +54,14 @@ export default async function Search({ searchParams }: { searchParams: Promise<{
               </nav>
               {r && r.hits.length ? (
                 <ol className="srch-list card">
-                  {r.hits.map((h) => (
+                  {r.hits.map((h, i) => (
                     <li key={h.id}>
-                      <Link href={h.url}>
+                      <TrackLink href={h.url} q={q} tab={t || undefined} position={(page - 1) * PER + i + 1}>
                         <span className="srch-t">{TYPE_LABEL[h.type]}{h.type === 'object' && h.stage ? <> · <StageStrip stage={h.stage} /></> : null}</span>
                         <b dangerouslySetInnerHTML={{ __html: hl(h._formatted?.title || h.title) }} />
                         {h.type === 'object' ? <small>{[h.developer, h.zu && h.zu !== h.title ? `ЗУ «${h.zu}»` : null, h.district].filter(Boolean).join(' · ')}</small> : null}
                         {h._formatted?.subtitle || h._formatted?.text ? <p dangerouslySetInnerHTML={{ __html: hl(h._formatted?.subtitle || h._formatted?.text) }} /> : null}
-                      </Link>
+                      </TrackLink>
                     </li>
                   ))}
                 </ol>

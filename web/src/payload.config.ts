@@ -12,6 +12,8 @@ import sharp from 'sharp'
 import { Users } from './collections/Users'
 import { Readers } from './collections/Readers'
 import { Follows } from './collections/Follows'
+import { SearchEvents } from './collections/SearchEvents'
+import { SearchSettings } from './globals/SearchSettings'
 import { Leads } from './collections/Leads'
 import { Media } from './collections/Media'
 import { Articles } from './collections/Articles'
@@ -45,7 +47,8 @@ export default buildConfig({
     components: { graphics: { Logo: '/components/admin/Graphics#Logo', Icon: '/components/admin/Graphics#Icon' } },
   },
   i18n: { supportedLanguages: { ru }, fallbackLanguage: 'ru' },
-  collections: [Articles, Objects, Developers, Places, Terms, Media, Users, Readers, Follows, Leads],
+  collections: [Articles, Objects, Developers, Places, Terms, Media, Users, Readers, Follows, Leads, SearchEvents],
+  globals: [SearchSettings],
   editor: lexicalEditor(),
   secret: process.env.PAYLOAD_SECRET || '',
   typescript: { outputFile: path.resolve(dirname, 'payload-types.ts') },

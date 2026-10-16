@@ -77,6 +77,7 @@ export interface Config {
     readers: Reader;
     follows: Follow;
     leads: Lead;
+    'search-events': SearchEvent;
     'payload-kv': PayloadKv;
     'payload-locked-documents': PayloadLockedDocument;
     'payload-preferences': PayloadPreference;
@@ -94,6 +95,7 @@ export interface Config {
     readers: ReadersSelect<false> | ReadersSelect<true>;
     follows: FollowsSelect<false> | FollowsSelect<true>;
     leads: LeadsSelect<false> | LeadsSelect<true>;
+    'search-events': SearchEventsSelect<false> | SearchEventsSelect<true>;
     'payload-kv': PayloadKvSelect<false> | PayloadKvSelect<true>;
     'payload-locked-documents': PayloadLockedDocumentsSelect<false> | PayloadLockedDocumentsSelect<true>;
     'payload-preferences': PayloadPreferencesSelect<false> | PayloadPreferencesSelect<true>;
@@ -103,8 +105,12 @@ export interface Config {
     defaultIDType: number;
   };
   fallbackLocale: null;
-  globals: {};
-  globalsSelect: {};
+  globals: {
+    'search-settings': SearchSetting;
+  };
+  globalsSelect: {
+    'search-settings': SearchSettingsSelect<false> | SearchSettingsSelect<true>;
+  };
   locale: null;
   widgets: {
     collections: CollectionsWidget;
@@ -604,6 +610,21 @@ export interface Lead {
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "search-events".
+ */
+export interface SearchEvent {
+  id: number;
+  kind: 'search' | 'click' | 'suggest';
+  q: string;
+  tab?: string | null;
+  hits?: number | null;
+  url?: string | null;
+  position?: number | null;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "payload-kv".
  */
 export interface PayloadKv {
@@ -665,6 +686,10 @@ export interface PayloadLockedDocument {
     | ({
         relationTo: 'leads';
         value: number | Lead;
+      } | null)
+    | ({
+        relationTo: 'search-events';
+        value: number | SearchEvent;
       } | null);
   globalSlug?: string | null;
   user: {
@@ -1027,6 +1052,20 @@ export interface LeadsSelect<T extends boolean = true> {
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "search-events_select".
+ */
+export interface SearchEventsSelect<T extends boolean = true> {
+  kind?: T;
+  q?: T;
+  tab?: T;
+  hits?: T;
+  url?: T;
+  position?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "payload-kv_select".
  */
 export interface PayloadKvSelect<T extends boolean = true> {
@@ -1064,6 +1103,53 @@ export interface PayloadMigrationsSelect<T extends boolean = true> {
   batch?: T;
   updatedAt?: T;
   createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "search-settings".
+ */
+export interface SearchSetting {
+  id: number;
+  /**
+   * Одна строка — одна группа слов через запятую: «крт, комплексное развитие территорий». «Взаимные»: любое слово находит остальные. «Только первое»: первое слово находит остальные, но не наоборот (для широких слов вроде «новостройка»). «ё» и «е» не различаются.
+   */
+  synonyms?:
+    | {
+        words: string;
+        mode?: ('both' | 'one') | null;
+        id?: string | null;
+      }[]
+    | null;
+  /**
+   * Через запятую. Эти слова поиск пропускает и в запросе, и в текстах: «жк на Лужнецкой» ищется как «Лужнецкой». Не добавляйте слова, которые бывают названием проекта.
+   */
+  stopWords?: string | null;
+  /**
+   * Короткие слова (ПИК, Сити) ищутся только точно
+   */
+  typoOne?: number | null;
+  typoTwo?: number | null;
+  updatedAt?: string | null;
+  createdAt?: string | null;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "search-settings_select".
+ */
+export interface SearchSettingsSelect<T extends boolean = true> {
+  synonyms?:
+    | T
+    | {
+        words?: T;
+        mode?: T;
+        id?: T;
+      };
+  stopWords?: T;
+  typoOne?: T;
+  typoTwo?: T;
+  updatedAt?: T;
+  createdAt?: T;
+  globalType?: T;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema

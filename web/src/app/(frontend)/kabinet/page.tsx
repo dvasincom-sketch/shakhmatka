@@ -48,7 +48,7 @@ export default async function Cabinet() {
     <section className="cab">
       <h1 className="page-h tt">Кабинет<span>{user.name || user.email}</span></h1>
       <p className="hello-sub">{user.roleName}. На странице любого досье внизу — блок «Редакция · фото проекта»: загрузка, обложка, снять фото.</p>
-      <div className="cab-actions"><Link className="btn" href="/admin/">Админка</Link><LogoutButton /></div>
+      <div className="cab-actions"><Link className="btn" href="/admin/">Админка</Link><Link className="btn" href="/kabinet/poisk/">Аналитика поиска</Link><LogoutButton /></div>
       <h2 className="tt cab-h">За чем следят<span>{readersAll.totalDocs} читателей, подтвердили почту {readersOk.totalDocs}; подписок {fl.docs.length}</span></h2>
       {topList.length ? (
         <ol className="cab-list">
